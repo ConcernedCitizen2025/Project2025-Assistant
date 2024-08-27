@@ -1,7 +1,7 @@
 title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
-baseurl: ""  # Leave this blank if running locally, set it to your repo name if deploying on GitHub Pages
-url: "http://127.0.0.1:4000"  # Local server address, change this to your live URL when deploying
+baseurl: "Project2025-Assistant "  # Leave this blank if running locally, set it to your repo name if deploying on GitHub Pages
+url: "https://project2025assistant.org"  # Local server address, change this to your live URL when deploying
 author: "Benjamin Parsons"
 
 collections:
