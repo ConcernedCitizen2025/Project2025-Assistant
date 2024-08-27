@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* Ensuring the html and body occupy the full height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Using flexbox to make sure the footer stays at the bottom if content is short */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Ensuring the main content takes up the available space */
+        main {
+            flex: 1;
+        }
+
+        /* Positioning the nutshell logo */
+        .nutshell-logo-container {
+            position: absolute;
+            top: 170px; /* Adjust as needed */
+            right: 10px; /* Adjust as needed */
+        }
+
+        .nutshell-logo-container img {
+            width: 175px; /* Adjust size as needed */
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px; /* Add some padding */
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        {% include google_translate.html %}
+    </header>
+
+    <!-- Adding the nutshell logo and making it clickable -->
+    <div class="nutshell-logo-container">
+        <a href="#nutshell">
+            <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
+        </a>
+    </div>
+
+    <main class="content-container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© 2024 Project 2025 Assistant</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+</body>
+</html>

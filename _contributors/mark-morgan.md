@@ -1,0 +1,27 @@
+---
+layout: contributor  
+title: Mark Morgan
+---
+
+# Mark Morgan
+
+**Role:** Contributor
+
+**Position:** Visiting Fellow, Border Security and Immigration Center, The Heritage Foundation
+
+**Background:**  
+Mark Morgan is a seasoned law enforcement official with over 30 years of experience. He currently serves as a Visiting Fellow at The Heritage Foundation's Border Security and Immigration Center, where he focuses on issues related to border security, immigration, and public safety. Prior to this role, Morgan was the Acting Commissioner of U.S. Customs and Border Protection (CBP) during the Trump administration, where he oversaw the largest federal law enforcement agency in the United States.
+
+Morgan's extensive career includes service as Chief of U.S. Border Patrol under the Obama administration and as Acting Director of U.S. Immigration and Customs Enforcement (ICE). He also had a long tenure with the FBI, where he held various leadership positions, including serving as the Assistant Director in charge of the FBI Academy in Quantico, Virginia. Morgan is a U.S. Marine Corps veteran and holds a Juris Doctor degree.
+
+**Relation to Trump:**  
+Mark Morgan’s role as Acting Commissioner of U.S. Customs and Border Protection (CBP) under President Trump placed him at the forefront of the administration’s immigration and border security policies. During his tenure, Morgan was instrumental in implementing key aspects of Trump’s agenda, including the expansion of border wall construction, the enforcement of stricter immigration laws, and the management of the "zero tolerance" policy that led to significant controversies regarding family separations at the border. His tenure also involved overseeing operations related to the administration's broader efforts to reduce illegal immigration and enhance border security measures.
+
+Morgan’s current position at The Heritage Foundation continues his focus on border security and immigration issues, reflecting his ongoing influence in shaping conservative perspectives on these topics. His work at The Heritage Foundation supports the continuation of policies and ideas aligned with the Trump administration’s approach to immigration and border control.
+
+**Scandals or Controversies:**  
+There are no significant scandals directly associated with Mark Morgan. However, his tenure at CBP was marked by intense debate and criticism, particularly related to the "zero tolerance" policy and the broader approach to immigration enforcement, which drew significant public and legal scrutiny.
+
+### Sources
+- [The Heritage Foundation - Mark Morgan](https://www.heritage.org/staff/mark-morgan)
+- [HarperCollins - Mark Morgan](https://www.harpercollins.com/author/mark-morgan)

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        {% if page.title == "Frequently Asked Questions" %}
+                            <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                            <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                        {% elsif page.title == "Table of Contents" %}
+                            <img class="mask left" src="/assets/images/toc_logo.png" alt="TOC Logo">
+                            <img class="mask right" src="/assets/images/toc_logo.png" alt="TOC Logo">
+                        {% elsif page.title == "About Us" %}
+                            <img class="mask left" src="/assets/images/about_logo.png" alt="About Us Logo">
+                            <img class="mask right" src="/assets/images/about_logo.png" alt="About Us Logo">
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        {% include google_translate.html %}
+    </header>
+    <main class="content-wrapper">
+        {{ content }}
+    </main>
+    <footer>
+        <p>© 2024 Project 2025 Assistant</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-200%)";
+                    rightMask.style.transform = "translateX(200%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+---
+layout: contributor
+title: Jim Blew
+---
+
+# Jim Blew
+
+**Role:** Contributor
+
+**Position:** Former Assistant Secretary for Planning, Evaluation, and Policy Development at the U.S. Department of Education
+
+**Background:**  
+Jim Blew served as the Assistant Secretary for Planning, Evaluation, and Policy Development at the U.S. Department of Education during the Trump administration. Before his appointment, Blew had extensive experience in education reform, having worked with organizations such as the Walton Family Foundation and the Alliance for School Choice. He holds a BA from the University of California, Berkeley, and an MBA from Stanford University. At the Department of Education, Blew was a key advocate for policies supporting school choice and charter schools, aligning with the broader education agenda of the Trump administration.
+
+**Relation to Trump:**  
+Jim Blew's role in the Department of Education directly connected him to the Trump administration's education agenda, which emphasized school choice, charter schools, and deregulation. He played a significant role in supporting and implementing these policies, which were central to the administration’s efforts to expand educational options and reduce federal oversight in education.
+
+**Scandals or Controversies:**  
+While Jim Blew has not been involved in any personal scandals, his advocacy for school choice and charter schools has been controversial. Critics argue that these policies can exacerbate inequalities and harm public schools by redirecting funds and resources. His tenure at the Department of Education was marked by intense debates over the impact of these policies on public education, especially regarding their long-term effects on educational equity.
+
+**Potential Concerns:**  
+Blew’s tenure involved promoting policies that critics believe could undermine public education by diverting funds to private and charter schools. His work with organizations advocating for school choice has been contentious, as these debates continue to divide public opinion on the best approaches to education reform.
+
+### Sources
+- [ProPublica - James Blew Profile](https://projects.propublica.org/trump-town/staffers/james-blew)
+- [Pioneer Institute - Jim Blew Discusses Education Reform](https://pioneerinstitute.org)
+- [The 74 Million - Jim Blew’s Confirmation and Role](https://www.the74million.org)

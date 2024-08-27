@@ -1,0 +1,27 @@
+---
+layout: contributor
+title: Brent D. Sadler
+---
+
+# Brent D. Sadler
+
+**Role:** Contributor
+
+**Position:** Senior Research Fellow, Naval Warfare and Advanced Technology, The Heritage Foundation
+
+**Background:**  
+Brent D. Sadler is a Senior Research Fellow at The Heritage Foundation, specializing in naval warfare and advanced technology within the Allison Center for National Security. He joined the Heritage Foundation after a distinguished 26-year career in the U.S. Navy, where he served in various critical roles, including operational tours on nuclear-powered submarines and as a military diplomat in Asia. Sadler’s expertise spans maritime security and the strategic implications of advanced military technologies, making him a key voice in shaping U.S. defense policy.
+
+**Relation to Trump:**  
+Sadler's involvement in Project 2025 connects him to the broader conservative agenda that aligns with many of the national security and defense priorities of the Trump administration. His work at The Heritage Foundation, particularly in the realm of military and naval strategy, supports efforts to project U.S. power globally, a key tenet of Trump’s foreign policy vision. Project 2025, which Sadler contributes to, aims to consolidate executive power and reshape the federal government to align with a strong national defense posture, directly reflecting Trump’s approach to governance.
+
+**Scandals or Controversies:**  
+While Brent Sadler himself has not been embroiled in personal scandals, Project 2025, the initiative he is involved with, has been the subject of significant controversy. Critics argue that the project’s proposals, including drastic cuts to climate regulations and the restructuring of federal agencies to prioritize military and economic interests, could have far-reaching negative impacts. The project’s alignment with Trump’s agenda has also raised concerns about the potential for increased authoritarianism in a future administration.
+
+**Potential Concerns:**  
+Sadler’s role in shaping policies through Project 2025 may lead to significant shifts in U.S. defense and foreign policy. The emphasis on military expansion and the rollback of environmental regulations under this agenda could have profound implications for both domestic and international stability. There is particular concern over the potential for these policies to exacerbate tensions with China, as the project advocates for a more aggressive stance against perceived adversaries.
+
+### Sources
+- [The Heritage Foundation - Brent D. Sadler Profile](https://www.heritage.org)
+- [The Nation - Will Project 2025 Turn Trumpism Into a Governing Agenda?](https://www.thenation.com)
+- [The Week - What is Project 2025?](https://www.theweek.com)

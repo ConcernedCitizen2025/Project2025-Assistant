@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* Custom styles for the logos */
+        .logo-small {
+            width: 175px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-top: 10px;
+        }
+
+        /* Ensuring the page layout remains centered and clean */
+        .header-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Positioning the red flags logo to the left */
+        .redflags-logo {
+            position: absolute;
+            left: 10px;
+        }
+
+        /* Positioning the nutshell logo to the right */
+        .nutshell-logo {
+            position: absolute;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                    </div>
+                </div>
+            </a>
+            <!-- Red Flags logo on the left -->
+            <a href="#redflags">
+                <img class="logo-small redflags-logo" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+            </a>
+            <!-- Nutshell logo on the right -->
+            <a href="#nutshell">
+                <img class="logo-small nutshell-logo" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        {% include google_translate.html %}
+    </header>
+    <main class="content-wrapper">
+        {{ content }}
+    </main>
+    <footer>
+        <p>© 2024 Project 2025 Assistant</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-200%)";
+                    rightMask.style.transform = "translateX(200%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+---
+layout: contributor
+title: Jared M. Kelson
+---
+
+# Jared M. Kelson
+
+**Role:** Contributor
+
+**Position:** Counsel at Boyden Gray Associates
+
+**Background:**  
+Jared M. Kelson is a counsel at Boyden Gray Associates, a prominent law and strategy firm based in Washington, D.C. Before joining Boyden Gray Associates, Kelson served as an attorney-adviser in the Office of Legal Counsel at the U.S. Department of Justice, where he received the Attorney General's Award for Distinguished Service. His expertise spans administrative law, regulatory processes, executive authority, and the constitutional separation of powers. Kelson has also clerked for Judge Thomas B. Griffith of the U.S. Court of Appeals for the District of Columbia Circuit and Judge J. Harvie Wilkinson III of the U.S. Court of Appeals for the Fourth Circuit. He holds a JD from the University of Virginia School of Law and a BS in Biology from Brigham Young University.
+
+**Relation to Trump:**  
+While Jared Kelson did not hold a direct role in the Trump administration, his firm, Boyden Gray Associates, has been involved in legal matters and policy advocacy that align with the conservative agenda supported by Trump and his allies. For example, the firm has filed amicus briefs in significant cases that align with conservative legal principles and have implications for regulatory overreach and executive authority.
+
+**Scandals or Controversies:**  
+Jared M. Kelson has not been involved in any major personal scandals. His professional work, while occasionally part of high-profile and contentious legal battles, has not led to notable personal controversies.
+
+**Potential Concerns:**  
+Kelson's work often involves high-stakes litigation and regulatory matters, which can be contentious and attract scrutiny from various stakeholders. His involvement in cases that challenge regulatory overreach or defend conservative principles may polarize opinions about his professional activities.
+
+### Sources
+- [Boyden Gray Associates - Jared M. Kelson Profile](https://boydengray.com)
+- [Federalist Society - Jared Kelson Profile](https://fedsoc.org/contributors/jared-kelson)
+- [Casetext - Feds for Medical Freedom v. Biden](https://casetext.com/case/feds-for-med-freedom-v-biden)
