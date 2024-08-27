@@ -1,13 +1,13 @@
 title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
-baseurl: ""  # set it to your repo name if deploying on GitHub Pages
-url: "https://project2025assistant.org"  # change this to your live URL when deploying
+baseurl: ""  # Leave this blank since you're using a custom domain
+url: "https://project2025assistant.org"  # Your live URL
 author: "Benjamin Parsons"
 
 collections:
   organizations:
     output: true
-    permalink: /:collection/:name
+    permalink: /organizations/:name  # Example change for clarity
   editors:
     output: true
   sections:
@@ -46,20 +46,20 @@ defaults:
       path: ""
       type: sections
     values:
-      layout: project2025_section  # Ensure this layout exists or adjust accordingly
+      layout: project2025_section
   - scope:
       path: ""
       type: categories
     values:
-      layout: category  # Ensure this layout exists or adjust accordingly
+      layout: category
   - scope:
       path: ""
       type: questions
     values:
-      layout: question  # Ensure this layout exists or adjust accordingly
+      layout: question
   - scope:
       path: ""  # Default scope for all pages without specific collection types
     values:
       layout: default
 
-theme: minima  # Basic Jekyll theme for minimal aesthetics, you can customize or replace it later
+theme: minima  # You can customize or replace this later
