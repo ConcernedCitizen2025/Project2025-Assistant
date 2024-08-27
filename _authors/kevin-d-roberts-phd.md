@@ -42,7 +42,7 @@ Roberts has not been directly involved in major scandals or controversies, but h
 Overall, Kevin D. Roberts is a prominent conservative leader whose actions and affiliations continue to shape significant policy debates and strategic directions within the conservative movement.
 
 ### Sources
-- [Heritage Foundation](https://www.heritage.org/staff/kevin-roberts)
+- [Heritage Foundation](https://www.heritage.org/staff/kevin-d-roberts-phd)
 - [The New York Times](https://www.nytimes.com/2023/09/12/us/heritage-foundation-kevin-roberts.html)
 - [Texas Public Policy Foundation](https://www.texaspolicy.com/about/staff/kevin-d-roberts-phd)
 - [Forbes - What We Know About Trump's Link to Project 2025](https://www.forbes.com/sites/alisondurkee/2024/08/15/what-we-know-about-trumps-link-to-project-2025-as-author-claims-ex-president-blessed-it-in-secret-recording/)
