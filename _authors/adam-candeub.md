@@ -22,5 +22,5 @@ While not directly involved in any major personal scandals, Candeub's strong pos
 In Project 2025, Candeub's work involves tackling antitrust issues within the Federal Trade Commission (FTC). His stance on antitrust law emphasizes combating the influence of dominant firms on democratic values such as free speech and shareholder control. His approach includes encouraging state attorney general cooperation and focusing on sectors like Big Tech, hospital mergers, and supermarket mergers. Critics argue that these efforts might lead to overregulation and unintended consequences for innovation and competition.
 
 For more detailed information on Adam Candeub, you can refer to his 
-- [Michigan State University profile](https://www.law.msu.edu/faculty_staff/profile.php?prof=40).
+- [Michigan State University profile](https://www.law.msu.edu/faculty_staff/profile.php?prof=370).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

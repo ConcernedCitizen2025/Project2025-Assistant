@@ -25,6 +25,6 @@ Dearborn's involvement in Project 2025 includes leveraging his experience in leg
 
 ### Sources
 - [Heritage Foundation](https://www.heritage.org/staff/rick-dearborn)
-- [The Hill](https://thehill.com/homenews/administration/3657877-rick-dearborn-project-2025-controversy/)
-- [Newsweek](https://www.newsweek.com/project-2025-trump-heritage-foundation-1786267)
+- [The Hill](https://thehill.com/homenews/administration/461682-two-former-trump-aides-ordered-to-defy-house-subpoenas/)
+- [Newsweek](https://www.newsweek.com/newly-uncovered-project-2025-training-videos-spark-concern-1937635)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

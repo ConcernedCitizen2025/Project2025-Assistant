@@ -22,5 +22,5 @@ During his time as HUD Secretary, Carson faced scrutiny for various issues, incl
 In Project 2025, Carson's role involves significant input into federal housing policies, aiming to reset HUD by reversing policies implemented by the Biden administration and addressing issues such as housing stability and public housing management. His approach may prioritize conservative ideologies, potentially impacting federal housing support programs. Critics worry that these changes could undermine protections for vulnerable populations.
 
 For more detailed information on Dr. Ben Carson, you can refer to his 
-- [American Cornerstone Institute profile](https://americancornerstone.org/about-us/).
+- [American Cornerstone Institute](https://americancornerstone.org/about/).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

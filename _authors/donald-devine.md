@@ -21,4 +21,4 @@ Devine has not been directly involved in major scandals. However, his tenure at 
 **Potential Concerns:**  
 In Project 2025, Devine's focus is likely on reducing the size and scope of federal government agencies, reflecting his historical emphasis on cutting bureaucracy. His proposals might involve significant workforce reductions and policy changes aimed at decentralizing federal power, which could be contentious among federal employees and those who support a robust federal government. Critics argue that these measures could weaken the effectiveness of federal services and undermine public trust in government institutions.
 
-For more detailed information on Donald Devine, you can refer to his [Fund for American Studies profile](https://www.tfas.org/experts/donald-devine/).
+For more detailed information on Donald Devine, you can refer to his [Fund for American Studies profile](https://tfas.org/news/lessons-from-ronald-reagans-presidency-with-dr-donald-devine/).

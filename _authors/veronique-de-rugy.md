@@ -23,5 +23,5 @@ In Project 2025, de Rugy's work likely involves advocating for significant chang
 
 ### Sources
 - [Mercatus Center](https://www.mercatus.org)
-- [National Review](https://www.nationalreview.com)
-- [Reason Magazine](https://reason.com)
+- [National Review](https://www.nationalreview.com/author/veronique-de-rugy/)
+- [Reason Magazine](https://reason.com/people/veronique-de-rugy/)
