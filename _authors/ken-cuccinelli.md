@@ -23,6 +23,5 @@ In Project 2025, Cuccinelli's role likely involves shaping immigration and homel
 
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Ken_Cuccinelli)
-- [ProPublica](https://www.propublica.org/article/ken-cuccinelli-acting-director-of-uscis-appointment)
-- [Brennan Center for Justice](https://www.brennancenter.org/our-work/research-reports/ken-cuccinelli)
+- [ProPublica](https://www.propublica.org/article/georgia-election-rule-violates-state-law-experts-say)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

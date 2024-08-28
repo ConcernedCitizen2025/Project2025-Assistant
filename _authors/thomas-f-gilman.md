@@ -22,6 +22,6 @@ There are no significant scandals or controversies directly associated with Thom
 In Project 2025, Gilman's focus is on economic and trade policies, leveraging his extensive experience in the automotive and financial sectors. His emphasis on reducing regulatory burdens and promoting free-market principles could be contentious among those advocating for more stringent regulations in commerce and trade.
 
 ### Sources
-- [The Heritage Foundation](https://www.heritage.org)
+- [U.S. Department of Commerce](https://2017-2021.commerce.gov/about/leadership/thomas-gilman.html)
 - [Villanova University](https://www.villanova.edu)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

@@ -22,8 +22,8 @@ Hamilton's professional work has been highly controversial, particularly his inv
 Hamilton's advocacy for strict immigration policies and his involvement in controversial Trump administration policies may attract scrutiny. His work with Project 2025, which aims to overhaul federal immigration policies, may lead to more stringent enforcement measures and raise concerns about humanitarian and legal implications.
 
 ### Sources
-- [American Oversight - Gene Hamilton's Contacts with Far-Right Groups](https://www.americanoversight.org)
-- [Texas Lawyer - DOJ Seeks to Disqualify Gene Hamilton](https://www.law.com/texaslawyer)
-- [Prospect - Gene Hamilton and Project 2025](https://prospect.org)
+- [American Oversight - Gene Hamilton's Contacts with Far-Right Groups](https://www.americanoversight.org/newsletter-the-anti-democratic-push-to-allow-officials-to-refuse-to-certify-elections)
+- [Texas Lawyer - DOJ Seeks to Disqualify Gene Hamilton](https://www.law.com/texaslawyer/2021/11/03/judge-denies-doj-bid-to-disqualify-ex-trump-official-warns-against-further-partisan-causes/)
+- [Prospect - Gene Hamilton and Project 2025](https://prospect.org/politics/2024-08-07-crow-jim-project-2025-reverse-racism/)
 - [The Federalist Society - Gene Hamilton](https://fedsoc.org/contributors/gene-hamilton)
-- [Wikipedia - Gene Hamilton](https://en.wikipedia.org/wiki/Gene_Hamilton)
+- [Wikipedia - Gene Hamilton](https://en.wikipedia.org/wiki/Gene_Hamilton_(lawyer))

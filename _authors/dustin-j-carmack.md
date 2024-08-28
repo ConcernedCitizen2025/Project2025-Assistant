@@ -22,5 +22,5 @@ Carmack has not been directly involved in any major scandals. However, his tenur
 Carmack's involvement in Project 2025 includes advocating for significant changes in the intelligence community's regulatory and operational framework. His stance on cybersecurity and intelligence, particularly his focus on threats from countries like China and Russia, may reflect a continuation of the Trump administration's hardline policies. His recommendations could lead to increased surveillance measures and reduced privacy protections, which may be contentious among privacy advocates and civil liberties groups.
 
 For more detailed information on Dustin J. Carmack, you can refer to his 
-- [Heritage Foundation profile](https://www.heritage.org/staff/dustin-j-carmack).
+- [Heritage Foundation profile](https://www.heritage.org/staff/dustin-carmack).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

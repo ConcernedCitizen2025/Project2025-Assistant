@@ -22,5 +22,5 @@ While not directly involved in any major scandals, Carr's strong positions on Se
 Carr's involvement in Project 2025 includes advocating for significant changes in the FCC's regulatory approach, particularly around Big Tech and national security. His stance on interpreting Section 230 to reduce the immunities of online platforms could raise debates on free speech and censorship. Additionally, his alignment with the Trump administration's policies may suggest a continued push for deregulation and conservative approaches to governance within the FCC .
 
 For more detailed information on Brendan Carr, you can refer to his 
-- [FCC profile](https://www.fcc.gov/leadership/brendan-carr).
+- [FCC profile](https://www.fcc.gov/about/leadership/brendan-carr).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

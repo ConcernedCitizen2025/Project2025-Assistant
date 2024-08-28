@@ -22,7 +22,7 @@ Gunasekara has been involved in several controversies, particularly related to h
 In Project 2025, Gunasekara's focus is expected to be on energy and environmental policies, advocating for deregulation and promoting fossil fuel interests. Her approach, which includes rolling back pollution controls and opposing climate change regulations, continues to be a point of contention among environmentalists and policymakers who worry about the long-term impacts of such policies.
 
 ### Sources
-- [Mississippi Today](https://mississippitoday.org/2023/05/11/supreme-court-removes-mandy-gunasekara-from-public-service-commission-race/)
+- [Mississippi Today](https://mississippitoday.org/2023/05/11/mandy-gunasekara-removed-public-service-commission/)
 - [Fox Business](https://www.foxbusiness.com/video/6355199424112)
 - [Heritage Foundation](https://www.heritage.org/staff/mandy-gunasekara)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
