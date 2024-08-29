@@ -21,5 +21,5 @@ Dans' leadership in Project 2025, with its focus on reshaping federal agencies, 
 
 ### Sources
 - [Heritage Foundation](https://www.heritage.org/staff/paul-dans)
-- [POLITICO](https://www.politico.com/news/2024/07/30/head-of-heritage-foundation-project-2025-steps-down-00108799)
+- [POLITICO](https://www.politico.com/news/2024/07/30/project-2025-heritage-foundation-stepping-down-00171895)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
