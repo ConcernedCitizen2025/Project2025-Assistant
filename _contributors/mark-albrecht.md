@@ -22,6 +22,6 @@ Mark Albrecht has not been involved in any personal scandals. However, his signi
 Albrecht’s deep involvement in both government and private sector space initiatives might raise concerns about potential conflicts of interest, particularly regarding the influence of private industry on public space policy. His leadership in shaping space policy during critical times, such as the end of the Cold War, has been both lauded and scrutinized, particularly in how these policies have influenced modern space exploration efforts.
 
 ### Sources
-- [National Space Society - Mark Albrecht Biography](https://nss.org/about/mark-albrecht)  
-- [Pardee RAND - Mark Albrecht Honors](https://www.pardeerand.edu/mark-albrecht-honors)  
-- [American Presidency Project - Appointment of Mark Albrecht](https://www.presidency.ucsb.edu/mark-albrecht-appointment)
+- [National Space Society - Mark Albrecht Biography](https://nss.org/national-space-society-governor-mark-albrecht-biography/)  
+- [Pardee RAND - Mark Albrecht Honors](https://www.pardeerand.edu/alumni/awards/mark-albrecht.html)  
+- [American Presidency Project - Appointment of Mark Albrecht](https://www.presidency.ucsb.edu/documents/appointment-mark-albrecht-director-the-national-space-council)

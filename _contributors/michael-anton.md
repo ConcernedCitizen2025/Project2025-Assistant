@@ -24,4 +24,4 @@ Anton’s advocacy for nationalist and populist policies, along with his influen
 ### Sources
 - [Wikipedia - Michael Anton](https://en.wikipedia.org/wiki/Michael_Anton)
 - [Hillsdale College - Michael Anton Bio](https://dc.hillsdale.edu/News-and-Events/Recorded-Events/Michael-Anton-After-the-Flight-93-Election/)
-- [American Presidency Project - Press Gaggle by Michael Anton](https://www.presidency.ucsb.edu/documents/press-gaggle-michael-anton-deputy-assistant-the-president-for-strategic-communications-nsc-and)
+- [American Presidency Project - Press Gaggle by Michael Anton](https://www.presidency.ucsb.edu/documents/press-gaggle-michael-anton-deputy-assistant-the-president-for-strategic-communications-nsc)

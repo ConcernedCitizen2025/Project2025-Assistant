@@ -24,4 +24,4 @@ The integrity and objectivity of the data produced by the Bureau of Justice Stat
 ### Sources
 - [The Appeal - Biden Must Revitalize the Bureau of Justice Statistics](https://theappeal.org/the-point/biden-must-revitalize-the-bureau-of-justice-statistics/)
 - [Bureau of Justice Statistics - Jeffrey H. Anderson Joins BJS as Director](https://bjs.ojp.gov/announcement/jeffrey-h-anderson-joins-bjs-director)
-- [Pacific Standard - How One Quiet DOJ Appointment Could Undermine the Push for Meaningful Police Reform](https://psmag.com/news/how-one-quiet-doj-appointment-could-undermine-the-push-for-meaningful-police-reform)
+- [Pacific Standard - How One Quiet DOJ Appointment Could Undermine the Push for Meaningful Police Reform](https://psmag.com/news/jeffrey-anderson-doj-police-reform/)
