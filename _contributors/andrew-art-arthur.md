@@ -3,7 +3,7 @@ layout: contributor
 title: Andrew Art Arthur
 ---
 
-# Andrew Art Arthur
+# Andrew "Art" Arthur
 
 **Role:** Contributor
 
@@ -26,4 +26,4 @@ Arthur's work at CIS, an organization known for advocating stricter immigration 
 ### Sources
 - [CIS](https://cis.org/Arthur)
 - [Plot Against Immigrants](https://plotagainstimmigrants.com/network/andrew-arthur)
-- [Limits to Growth](https://www.limitstogrowth.org)
+- [Limits to Growth](https://www.limitstogrowth.org/articles/2020/12/14/cis-andrew-arthur-discusses-immigration-policy-with-tucker-carlson/)
