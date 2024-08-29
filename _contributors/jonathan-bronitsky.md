@@ -22,6 +22,7 @@ While Jonathan Bronitsky has not been involved in any personal scandals, his ten
 Bronitsky's role involved crafting speeches and providing policy advice during a particularly contentious period for the Department of Justice. His work was likely influenced by and supportive of the administration's priorities, which could attract criticism from those who disagreed with the policies and actions of Attorney General Barr. Additionally, the highly political nature of his role means his writings and advice were closely scrutinized.
 
 ### Sources
-- [Department of Justice - Press Releases During Barr's Tenure](https://www.justice.gov/news)
-- [University of Cambridge - Alumni Profile: Jonathan Bronitsky](https://www.cam.ac.uk/jonathan-bronitsky)
+- [Florida - Governor Ron DeSantis Announces Two Appointments to Florida’s Judicial Qualifications Commission](https://www.flgov.com/2022/09/21/governor-ron-desantis-announces-two-appointments-to-floridas-judicial-qualifications-commission-2/)
+- [Athos](https://athospr.com/teammember/jonathan-bronitsky/)
+- [The Steamboat Institute](https://steamboatinstitute.org/person/jonathan-bronitsky/)
 - [Wikipedia - William Barr](https://en.wikipedia.org/wiki/William_Barr)

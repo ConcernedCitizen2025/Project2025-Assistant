@@ -22,6 +22,7 @@ While Erik Baptist has not been involved in any personal scandals, his tenure at
 Baptist's background in the oil and gas industry and his role in deregulating environmental protections raise concerns about potential conflicts of interest. Critics argue that his work may have favored industry interests at the expense of environmental sustainability, reflecting the broader criticisms of the Trump administration's environmental policies.
 
 ### Sources
-- [Environmental Defense Fund - Who's who at the EPA?](https://www.edf.org)
-- [Earthjustice - Cleaning Up the Trump Administration’s Environmental Messes](https://earthjustice.org)
-- [The Conversation - EPA Staff Say the Trump Administration is Changing Their Mission](https://theconversation.com)
+- [Environmental Defense Fund - Who's who at the EPA?](https://www.edf.org/blog/2017/08/03/whos-who-epa-latest-staff-picks-continue-alarming-trend)
+- [Environmental Defense Fund - Trump EPA, ACC and industry law firms colluded to weaken EPA new chemical safety reviews](https://blogs.edf.org/health/2021/03/11/trump-epa-acc-and-industry-law-firms-colluded-to-weaken-epa-new-chemical-safety-reviews/)
+- [Earthjustice - Cleaning Up the Trump Administration’s Environmental Messes](https://earthjustice.org/feature/trump-environmental-mess)
+- [The Conversation - EPA Staff Say the Trump Administration is Changing Their Mission](https://theconversation.com/epa-staff-say-the-trump-administration-is-changing-their-mission-from-protecting-human-health-and-the-environment-to-protecting-industry-96256)

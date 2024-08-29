@@ -23,5 +23,5 @@ Blew’s tenure involved promoting policies that critics believe could undermine
 
 ### Sources
 - [ProPublica - James Blew Profile](https://projects.propublica.org/trump-town/staffers/james-blew)
-- [Pioneer Institute - Jim Blew Discusses Education Reform](https://pioneerinstitute.org)
-- [The 74 Million - Jim Blew’s Confirmation and Role](https://www.the74million.org)
+- [Pioneer Institute - Jim Blew Discusses Education Reform](https://pioneerinstitute.org/covid/covid-edu/used-asst-sec-jim-blew-talks-sec-devos-school-choice-k-12-politics/)
+- [The 74 Million - Jim Blew’s Confirmation and Role](https://www.the74million.org/article/senate-confirms-reform-advocate-jim-blew-in-narrow-vote-rounding-out-ed-depts-k-12-team/)

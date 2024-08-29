@@ -22,6 +22,6 @@ Patrick T. Brown has not been involved in any major personal scandals. However, 
 Brown's advocacy for traditional family structures and conservative social policies may draw criticism from those who hold differing views on social issues such as marriage, family dynamics, and government intervention in family life. His work is deeply rooted in conservative values, which can be contentious in broader discussions about social policy and family welfare.
 
 ### Sources
-- [Ethics & Public Policy Center - Patrick T. Brown](https://eppc.org/people/patrick-t-brown/)
+- [Ethics & Public Policy Center - Patrick T. Brown](https://eppc.org/author/patrick_brown/)
 - [Public Discourse - Patrick T. Brown Profile](https://www.thepublicdiscourse.com/author/patrick-t-brown/)
 - [The Dispatch - Patrick T. Brown](https://thedispatch.com/author/patrick-t-brown/)

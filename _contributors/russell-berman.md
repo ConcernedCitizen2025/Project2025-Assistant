@@ -23,5 +23,5 @@ As a journalist and editor, Berman's work is subject to scrutiny for bias and ac
 
 ### Sources
 - [The Atlantic - Russell Berman Profile](https://www.theatlantic.com/author/russell-berman/)
-- [C-SPAN - Russell Berman Appearances](https://www.c-span.org/person/?110787)
+- [C-SPAN - Russell Berman Appearances](https://www.c-span.org/person/russell-berman/9275494/)
 - [Muck Rack - Russell Berman’s Profile](https://muckrack.com/russell-berman/articles)

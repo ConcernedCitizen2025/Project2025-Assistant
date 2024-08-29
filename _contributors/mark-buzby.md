@@ -22,6 +22,6 @@ Mark Buzby resigned from his position as Administrator of MARAD on January 11, 2
 Buzby’s extensive interactions with the maritime industry, including his previous role as President of the National Defense Transportation Association, might raise concerns about the influence of private industry on public maritime policy. However, his career has been largely marked by efforts to enhance national security through maritime strength and efficiency.
 
 ### Sources
-- [Maritime Executive - Mark Buzby Profile](https://www.maritime-executive.com/article/marad-administrator-mark-buzby-resigns)  
+- [Maritime Executive - Mark Buzby Profile](https://maritime-executive.com/article/maritime-administrator-buzby-resigns-from-administration-in-protest)  
 - [Wikipedia - Mark Buzby](https://en.wikipedia.org/wiki/Mark_Buzby)  
-- [US Department of Transportation - Mark Buzby Profile](https://www.transportation.gov/rear-admiral-mark-buzby)
+- [US Department of Transportation - Mark Buzby](https://www.transportation.gov/briefing-room/marad0417)

@@ -22,6 +22,6 @@ Although Brent Bennett did not serve directly in the Trump administration, his w
 Bennett's role in promoting fossil fuels and his involvement in Project 2025 could raise concerns about the environmental impact of such policies. His stance on energy policy may be seen as regressive by those advocating for a transition to renewable energy, potentially leading to increased scrutiny as Project 2025 progresses.
 
 ### Sources
-- [Texas Public Policy Foundation](https://www.texaspolicy.com/about/staff/brent-bennett/)&#8203;:contentReference[oaicite:0]{index=0}
-- [TPPF Joins Project 2025](https://www.texaspolicy.com/press/tppf-joins-project-2025)&#8203;:contentReference[oaicite:1]{index=1}
-- [TPPF on 'Mandate for Leadership'](https://www.texaspolicy.com/press/tppf-mandate-is-the-blueprint-for-conservative-policy-reform)&#8203;:contentReference[oaicite:2]{index=2}
+- [Texas Public Policy Foundation](https://www.texaspolicy.com/about/staff/brent-bennett/)
+- [TPPF Joins Project 2025](https://www.texaspolicy.com/press/tppf-joins-project-2025)
+- [TPPF on 'Mandate for Leadership'](https://www.texaspolicy.com/press/tppf-mandate-is-the-blueprint-for-conservative-policy-reform)

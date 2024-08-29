@@ -22,7 +22,7 @@ Bradbury’s most notable controversies stem from his time at the Office of Lega
 Bradbury's tenure at the DOT involved navigating complex regulatory environments and overseeing significant transportation policies. Critics have raised concerns about potential conflicts of interest given his previous work in the private sector. Additionally, his legal opinions during his time at the OLC under President George W. Bush, particularly regarding enhanced interrogation techniques, have been controversial and criticized for their ethical and legal implications.
 
 ### Sources
-- [Politico - ‘Torture memo’ author nominated for Trump administration post](https://www.politico.com)
-- [Newsweek - Trump Nominates 'Torture Memos' Author Steven Bradbury](https://www.newsweek.com)
-- [The Hill - Senate confirms ‘torture memo’ author to lead Transportation Dept legal office](https://thehill.com)
-- [The Federalist Society - Steven G. Bradbury Profile](https://fedsoc.org)
+- [Politico](https://www.politico.com/story/2018/11/07/replacements-jeff-sessions-973479)
+- [Newsweek - Trump Nominates 'Torture Memos' Author Steven Bradbury](https://www.newsweek.com/senate-about-endorse-judge-who-condones-torture-769022)
+- [The Hill - Senate confirms ‘torture memo’ author to lead Transportation Dept legal office](https://thehill.com/policy/transportation/360361-senate-confirms-torture-memo-author-to-lead-dots-legal-office/)
+- [The Federalist Society - Steven G. Bradbury Profile](https://fedsoc.org/contributors/steven-bradbury)

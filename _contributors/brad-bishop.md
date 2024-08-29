@@ -23,5 +23,6 @@ As Executive Director of a conservative think tank, Bishop's work involves advoc
 
 ### Sources
 - [InfluenceWatch](https://www.influencewatch.org/non-profit/american-cornerstone-institute/)
+- [Propublica](https://projects.propublica.org/trump-town/staffers/bradley-e-bishop-white-house-office)
 - [American Cornerstone Institute](https://americancornerstone.org)
 - [Just The News](https://justthenews.com/video/ben-carson-founder-chairman-american-cornerstone-institute)

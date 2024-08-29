@@ -22,6 +22,6 @@ Josh Blackman has been involved in controversies primarily related to his outspo
 As a vocal commentator on constitutional law and the Supreme Court, Blackman's views and interpretations can be polarizing. His originalist perspective on the Constitution often sparks debate, particularly among those with more progressive or differing legal interpretations. Additionally, his active presence on social media and in public debates means his statements and positions are closely scrutinized and can be contentious.
 
 ### Sources
-- [South Texas College of Law Houston - Josh Blackman Profile](https://www.stcl.edu/faculty/josh-blackman)
-- [George Mason University - Alumni Profile: Josh Blackman](https://www.law.gmu.edu/alumni/josh-blackman)
-- [C-SPAN - Josh Blackman Appearances](https://www.c-span.org/person/?joshblackman)
+- [South Texas College of Law Houston - Josh Blackman Profile](https://www.stcl.edu/profile/josh-blackman/)
+- [George Mason University - Alumni Profile: Josh Blackman](https://libertycenter.gmu.edu/about/board-of-advisors/)
+- [C-SPAN - Josh Blackman Appearances](https://www.c-span.org/person/josh-blackman/72299/)

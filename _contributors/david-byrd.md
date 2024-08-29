@@ -23,5 +23,4 @@ Byrd's role involved managing significant administrative functions within the US
 
 ### Sources
 - [USDA - About the U.S. Department of Agriculture](https://www.usda.gov/our-agency/about-usda)
-- [Wikipedia - List of USDA Appointments by Trump](https://en.wikipedia.org/wiki/List_of_Department_of_Agriculture_appointments_by_Donald_Trump)
-- [Elite Trader - Project 2025 Overview](https://www.elitetrader.com)
+

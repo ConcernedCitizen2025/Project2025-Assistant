@@ -22,6 +22,6 @@ James Jay Carafano has not been involved in any personal scandals. However, his 
 Carafano’s strong advocacy for military strength and assertive foreign policy can be polarizing. Critics argue that such positions may contribute to international tensions and conflict, as they often emphasize military solutions over diplomatic efforts. Additionally, his work at The Heritage Foundation places him at the center of conservative policy advocacy, which can be contentious in broader public policy debates.
 
 ### Sources
-- [Heritage Foundation - James Jay Carafano Profile](https://www.heritage.org)
+- [Heritage Foundation - James Jay Carafano Profile](https://www.heritage.org/staff/james-carafano)
 - [Wikipedia - James Jay Carafano](https://en.wikipedia.org/wiki/James_Jay_Carafano)
-- [The National Interest - Trump’s Growing Collection of National Security Council Advisors](https://nationalinterest.org)
+- [The National Interest - Trump’s Growing Collection of National Security Council Advisors](https://nationalinterest.org/feature/trump%E2%80%99s-growing-collection-national-security-council-advisors-135652)
