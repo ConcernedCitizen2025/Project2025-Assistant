@@ -23,5 +23,5 @@ Bovard's strong advocacy for conservative reforms and her strategic role in shap
 
 ### Sources
 - [Conservative Partnership Institute - Rachel Bovard](https://www.cpi.org/staff/rachel-bovard)  
-- [The Federalist - Rachel Bovard](https://thefederalist.com)  
+- [The Federalist - Rachel Bovard](https://thefederalist.com/2020/07/20/jim-demint-and-rachel-bovard-on-the-progression-of-socialism-in-america/)  
 - [Hillsdale in D.C. - Rachel Bovard](https://dc.hillsdale.edu/Profiles/Rachel-Bovard/)

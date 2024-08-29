@@ -22,6 +22,5 @@ Matt Bowman has been involved in several contentious legal battles due to his wo
 Bowman's advocacy work, especially on cases related to religious freedom and opposition to LGBTQ rights, has been highly controversial. Critics, including civil rights groups, often challenge the impact of ADF's legal strategies, arguing they undermine civil rights protections in favor of religious exemptions. This has placed Bowman and ADF at the center of ongoing and heated public debates.
 
 ### Sources
-- [Alliance Defending Freedom - Matt Bowman Profile](https://adflegal.org/about/matt-bowman)  
-- [ADF Media - Christian Employers Alliance Case](https://www.adfmedia.org/News/PRDetail/10823)  
-- [Christian Employers Alliance - Victory Details](https://christianemployersalliance.org/about)
+- [Alliance Defending Freedom - Matt Bowman Profile](https://adflegal.org/profile/matt-bowman)  
+- [ADF Media - Christian Employers Alliance Case](https://adfmedia.org/case/christian-employers-alliance-v-us-equal-employment-opportunity-commission)  

@@ -23,5 +23,5 @@ Brosnan’s involvement in high-stakes investigations and legal matters related 
 
 ### Sources
 - [Heritage Foundation - Kyle Brosnan Profile](https://www.heritage.org/staff/kyle-brosnan)
-- [Spreaker - Interview with Kyle Brosnan](https://www.spreaker.com/kyle-brosnan)
-- [Senate Homeland Security & Governmental Affairs Committee](https://www.hsgac.senate.gov)
+- [Spreaker - Interview with Kyle Brosnan](https://www.spreaker.com/episode/larry-with-kyle-brosnan-chief-counsel-for-the-heritage-foundation-s-oversight-project-about-the-hush-money-case-and-the-manhattan-d-a--59684151)
+- [Senate Homeland Security & Governmental Affairs Committee](https://www.hsgac.senate.gov/media/reps/johnson-requests-information-on-fbis-interactions-with-michael-sussmann-and-bruce-ohr/)

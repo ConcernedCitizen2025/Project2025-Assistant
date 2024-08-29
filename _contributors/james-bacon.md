@@ -22,6 +22,6 @@ While James Bacon has not been personally involved in major scandals, his tenure
 Bacon's role in strategic communications at DHS placed him at the center of the administration's messaging on key issues such as immigration enforcement and national security. Critics argue that the communication strategies employed during his tenure often contributed to heightened public fears and misinformation regarding immigration and security threats. The administration's approach to these topics has been contentious and polarizing.
 
 ### Sources
-- [The Week - Trump's Loyalty Purge](https://www.theweek.com)
+- [The Week - Trump's Loyalty Purge](https://theweek.com/speedreads/898262/white-house-just-hired-college-senior-help-lead-trumps-loyalty-purge)
 - [ProPublica - James Bacon Profile](https://projects.propublica.org/trump-town/staffers/james-bacon)
-- [Yahoo News - DHS Intelligence Manipulation](https://www.yahoo.com)
+

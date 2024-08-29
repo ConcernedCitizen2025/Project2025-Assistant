@@ -22,6 +22,6 @@ Stewart Baker has not been involved in any personal scandals. However, his suppo
 Baker’s work in national security and cybersecurity has sometimes drawn criticism, particularly regarding the balance between security measures and privacy rights. His support for certain surveillance programs and policies has been controversial, with some arguing that they infringe on civil liberties. Additionally, his tenure at DHS involved the implementation of policies that have faced scrutiny for their impact on privacy and data security.
 
 ### Sources
-- [Steptoe & Johnson LLP - Stewart Baker Profile](https://www.steptoe.com)
-- [Lawfare - Stewart Baker Articles](https://www.lawfareblog.com)
-- [The Federalist Society - Stewart Baker](https://fedsoc.org)
+- [Steptoe & Johnson LLP - Stewart Baker Profile](https://www.steptoe.com/en/lawyers/stewart-baker.html)
+- [Lawfare - Stewart Baker Articles](https://www.lawfaremedia.org/article/stewart-baker-announces-results-privies)
+- [The Federalist Society - Stewart Baker](https://fedsoc.org/contributors/stewart-baker)

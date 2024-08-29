@@ -23,5 +23,5 @@ Billy’s tenure at the Department of Labor was marked by efforts to roll back r
 
 ### Sources
 - [C-SPAN - Stephen Billy Profile](https://www.c-span.org/person/?stephenbilly)
-- [Susan B. Anthony Pro-Life America - Stephen Billy](https://sbaprolife.org)
-- [Lozier Institute - Stephen M. Billy as Executive Director](https://lozierinstitute.org)
+- [Susan B. Anthony Pro-Life America - Stephen Billy](https://sbaprolife.org/staff/stephen-billy)
+- [Lozier Institute - Stephen M. Billy as Executive Director](https://lozierinstitute.org/lozier-institute-hires-stephen-m-billy-as-executive-director/)

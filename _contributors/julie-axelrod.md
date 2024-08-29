@@ -23,5 +23,4 @@ Axelrod's work at CIS and IRLI involves advocating for and litigating in support
 
 ### Sources
 - [Center for Immigration Studies - Julie Axelrod Profile](https://www.cis.org/Axelrod)
-- [UCLA School of Law - Alumni Profile: Julie Axelrod](https://law.ucla.edu/julie-axelrod)
-- [Immigration Reform Law Institute - Litigation Efforts](https://www.irli.org/litigation)
+- [Immigration Reform Law Institute - Litigation Efforts](https://irli.org/dads-fight-illustrates-feds-lack-of-transparency-on-immigration/)

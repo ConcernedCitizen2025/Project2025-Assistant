@@ -22,6 +22,6 @@ Sanjai Bhagat has not been involved in any personal scandals. His academic work 
 Bhagat's academic work often emphasizes the importance of strong corporate governance and the role of financial oversight in preventing corporate malfeasance. While generally well-regarded, his positions advocating for specific governance reforms can be contentious among those who prefer different regulatory approaches or less intervention in corporate affairs. His work is significant in the ongoing debates over corporate governance, particularly in light of high-profile corporate failures and financial crises.
 
 ### Sources
-- [University of Colorado Boulder - Sanjai Bhagat Profile](https://www.colorado.edu/leeds/faculty-research/faculty-directory/sanjai-bhagat)
-- [Harvard Business Review - An Inconvenient Truth About ESG Investing](https://hbr.org/2021/08/an-inconvenient-truth-about-esg-investing)
+- [University of Colorado Boulder - Sanjai Bhagat Profile](https://experts.colorado.edu/display/fisid_100789)
+- [Harvard Business Review - An Inconvenient Truth About ESG Investing](https://hbr.org/2022/03/an-inconvenient-truth-about-esg-investing)
 - [The Federalist Society - Sanjai Bhagat](https://fedsoc.org/contributors/sanjai-bhagat)

@@ -22,6 +22,6 @@ Margaret Byfield has not been involved in any personal scandals. However, her st
 Byfield's strong advocacy against federal land regulations and for local control has sparked controversy, particularly among environmental groups who argue that such positions may undermine conservation efforts and public land management. Her work frequently brings her into conflict with federal authorities and environmentalists, making her a polarizing figure in these debates.
 
 ### Sources
-- [American Stewards of Liberty - Our Story](https://americanstewards.us/about/our-story)&#8203;:contentReference[oaicite:0]{index=0}
-- [CAPR - Margaret Byfield's Bio](https://capr.us/margaretByfield.html)&#8203;:contentReference[oaicite:1]{index=1}
-- [TNM News - Margaret Byfield at TEXITCON 2023](https://news.tnm.me/margaret-byfield-at-texitcon-2023)&#8203;:contentReference[oaicite:2]{index=2}
+- [American Stewards of Liberty - Our Story](https://americanstewards.us/about/our-story)
+- [CAPR - Margaret Byfield's Bio](https://capr.us/margaretByfield.html)
+- [TNM News - Margaret Byfield at TEXITCON 2023](https://news.tnm.me/tnm-news/tnm-events/texitcon-2023-meet-the-influential-speakers-driving-the-conversation-on-texas-independence/)

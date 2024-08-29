@@ -23,5 +23,5 @@ Butcher's advocacy for school choice and charter schools is often controversial.
 
 ### Sources
 - [The Heritage Foundation - Jonathan Butcher Profile](https://www.heritage.org/staff/jonathan-butcher)
-- [Goldwater Institute - Past Education Initiatives](https://www.goldwaterinstitute.org/education/)
+- [Goldwater Institute - Past Education Initiatives](https://www.goldwaterinstitute.org/our-team/jonathan-butcher/)
 - [Wikipedia - Betsy DeVos](https://en.wikipedia.org/wiki/Betsy_DeVos)

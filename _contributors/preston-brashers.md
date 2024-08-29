@@ -22,5 +22,5 @@ Preston Brashers has not been involved in any major personal scandals. His polic
 Brashers' work at The Heritage Foundation emphasizes fiscal austerity, lower taxes, and limited government intervention. Critics argue that such policies may disproportionately benefit the wealthy and could exacerbate income inequality. His focus on reducing federal spending is also controversial, particularly in discussions about funding for social programs and public services.
 
 ### Sources
-- [The Heritage Foundation - Preston Brashers](https://www.heritage.org/taxes/preston-brashers)  
+- [The Heritage Foundation - Preston Brashers](https://www.heritage.org/staff/preston-brashers)  
 - [CNSNews - Preston Brashers](https://cnsnews.com/author/preston-brashers)  

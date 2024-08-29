@@ -22,6 +22,5 @@ While James Baehr has not been personally involved in major scandals, his tenure
 Baehr's work as Associate Counsel involved providing legal advice on various controversial policies and executive actions undertaken by the Trump administration. Critics might argue that his legal work supported policies that faced significant public and legal challenges, such as those related to immigration, healthcare, and executive authority.
 
 ### Sources
-- [The Federalist Society - James Baehr Profile](https://fedsoc.org)
-- [The White House - Staff Announcements](https://www.whitehouse.gov)
-- [MSN - Former White House Attorney Urges Action](https://www.msn.com)
+- [The Federalist Society - James Baehr Profile](https://fedsoc.org/contributors/james-baehr)
+- [America Firt Policy Institute](https://americafirstpolicy.com/team/jamesbaehr)

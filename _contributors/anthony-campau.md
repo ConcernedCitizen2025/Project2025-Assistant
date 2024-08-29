@@ -24,5 +24,4 @@ Campau’s involvement in the Trump administration’s aggressive deregulation s
 
 ### Sources
 - [Clark Hill News](https://www.clarkhill.com/news-events/news/white-house-regulatory-official-joins-clark-hill-government-public-affairs-practice/)
-- [The Atlantic](https://www.theatlantic.com)
-- [EPIC for America](https://epicforamerica.org)
+- [EPIC for America](https://epicforamerica.org/leadership-team/anthony-campau/)
