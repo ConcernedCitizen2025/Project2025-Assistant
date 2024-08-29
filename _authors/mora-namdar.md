@@ -22,7 +22,6 @@ Mora Namdar has not been involved in any major scandals or controversies. Howeve
 Namdar's tenure coincided with significant policy shifts regarding immigration and travel bans. Her role in executing these policies could raise concerns about their impact on international relations and humanitarian considerations. Additionally, her involvement in Project 2025, a Heritage Foundation initiative that outlines conservative strategies for a potential future administration, might influence future foreign policy and consular operations.
 
 ### Sources
-- [Heritage Foundation](https://www.heritage.org/press/project-2025-publishes-comprehensive-policy-guide-mandate-leadership-the-conservative-promise)
-- [Newsweek](https://www.newsweek.com/ex-trump-administration-officials-involved-project-2025-full-list-1816080)
-- [Politico](https://www.politico.com/news/2024/07/30/head-of-heritages-project-2025-steps-down-00108793)
+- [American Foreign Policy Council](https://www.afpc.org/about/experts/mora-namdar)
+- [Newsweek](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

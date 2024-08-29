@@ -22,5 +22,5 @@ Dennis Dean Kirk has been involved in controversies primarily related to his rol
 Kirk's leadership at the FLRA has been marked by efforts to streamline labor relations processes and reduce the influence of federal employee unions. His policies and decisions have sometimes been viewed as favoring management over labor, raising concerns among union advocates and employees about the potential erosion of labor rights and protections. Critics fear that his involvement in Project 2025 could lead to further weakening of federal unions and a shift towards policies that prioritize efficiency over employee rights.
 
 For more detailed information on Dennis Dean Kirk, you can refer to his 
-- [Heritage Foundation profile](https://www.heritage.org/staff/dennis-dean-kirk).
+- [Heritage Foundation profile](https://www.heritage.org/staff/dennis-kirk).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

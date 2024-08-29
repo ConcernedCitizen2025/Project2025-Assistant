@@ -24,7 +24,7 @@ Roger Severino served as the Director of the Office for Civil Rights at the Depa
 Severino’s work at HHS and his continued advocacy through Project 2025 focus on promoting religious liberty, often at the expense of LGBTQ rights. His policies have been a flashpoint in the debate over how civil rights should be balanced with religious freedoms in the healthcare sector.
 
 ### Sources
-- [ProPublica](https://www.propublica.org/article/roger-severino-heritage-foundation-lgbtq-rights)
+- [ProPublica](https://www.propublica.org/article/heritage-foundation-critical-transgender-rights-hhs-civil-rights-office)
 - [Ethics & Public Policy Center](https://eppc.org/news/roger-severino-transformational-former-director-of-hhs-office-for-civil-rights-to-join-eppc-as-senior-fellow)
 - [Heritage Foundation](https://www.heritage.org/staff/roger-severino)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

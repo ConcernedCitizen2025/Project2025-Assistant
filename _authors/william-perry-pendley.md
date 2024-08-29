@@ -25,7 +25,7 @@ Pendley’s tenure at the BLM was marked by significant controversy due to his a
 
 ### Sources
 - [Wikipedia - William Perry Pendley](https://en.wikipedia.org/wiki/William_Perry_Pendley)
-- [NBC News](https://www.nbcnews.com)
-- [Inside Climate News](https://insideclimatenews.org)
+- [NBC News](https://www.msnbc.com/opinion/msnbc-opinion/trump-project-2025-truth-social-rcna160774)
+- [Inside Climate News](https://insideclimatenews.org/news/16072024/trump-environmental-impact/)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
 - [E&E News - Meet the Ex-Trump Officials Who Helped Draft Project 2025](https://www.eenews.net/articles/meet-the-ex-trump-officials-who-helped-draft-project-2025/)

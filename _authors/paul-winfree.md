@@ -23,6 +23,6 @@ Winfree’s approach to budget policy emphasizes fiscal conservatism, often advo
 
 ### Sources
 - [Heritage Foundation](https://www.heritage.org/staff/paul-winfree)
-- [EPIC for America](https://epicforamerica.org/paul-winfree-testifies-house-ways-and-means-committee)
-- [The Conversation](https://theconversation.com/heritage-trump-and-project-2025)
+- [EPIC for America](https://epicforamerica.org/leadership-team/paul-winfree/)
+- [The Conversation](https://theconversation.com/project-2025-what-is-it-and-why-does-trump-say-he-knows-nothing-about-it-237289)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

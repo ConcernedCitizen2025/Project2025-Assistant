@@ -43,6 +43,6 @@ Overall, Kevin D. Roberts is a prominent conservative leader whose actions and a
 
 ### Sources
 - [Heritage Foundation](https://www.heritage.org/staff/kevin-d-roberts-phd)
-- [The New York Times](https://www.nytimes.com/2023/09/12/us/heritage-foundation-kevin-roberts.html)
-- [Texas Public Policy Foundation](https://www.texaspolicy.com/about/staff/kevin-d-roberts-phd)
+- [The New York Times](https://www.nytimes.com/2024/08/07/us/politics/project-2025-book-jd-vance-delayed.html?searchResultPosition=7)
+- [Texas Public Policy Foundation](https://www.texaspolicy.com/about/board/)
 - [Forbes - What We Know About Trump's Link to Project 2025](https://www.forbes.com/sites/alisondurkee/2024/08/15/what-we-know-about-trumps-link-to-project-2025-as-author-claims-ex-president-blessed-it-in-secret-recording/)

@@ -22,7 +22,7 @@ Skinner's time at the State Department was marred by internal controversies, inc
 Skinner's tenure at the State Department was relatively brief and marked by internal conflicts and management challenges. Reports indicated disagreements with other senior officials, which contributed to her departure. Concerns were also raised about her approach to policy planning and her ability to navigate the bureaucratic environment of the State Department.
 
 ### Sources
-- [Carnegie Mellon University](https://www.cmu.edu/news/stories/archives/2018/november/skinny-leaving-cmu.html)
-- [The Washington Post](https://www.washingtonpost.com/national-security/2019/08/29/state-department-director-policy-planning-ousted-amid-reports-clashes-with-staff/)
-- [The New York Times](https://www.nytimes.com/2019/04/29/us/politics/us-china-relations.html)
+- [Carnegie Mellon University](https://www.cmu.edu/dietrich/news/news-stories/2016/november/kiron-skinner-trump-executive-committee.html)
+- [The Washington Post](https://www.washingtonpost.com/outlook/2019/05/02/lets-grade-state-departments-director-policy-planning-her-grand-strategy-musings/)
+- [The New York Times](https://www.nytimes.com/2019/08/02/us/politics/kiron-skinner-state-department-pompeo.html?searchResultPosition=1)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

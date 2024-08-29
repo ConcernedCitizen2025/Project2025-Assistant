@@ -24,7 +24,9 @@ Stephen Moore served as a senior economic advisor during Trump’s 2016 presiden
 Moore's economic views, particularly his strong advocacy for tax cuts and deregulation, have drawn both support and criticism. His positions often align with supply-side economics, which some critics argue disproportionately benefit the wealthy and increase income inequality. Moore's economic forecasts and statements have occasionally been disputed by other economists, raising concerns about the accuracy and impact of his policy recommendations.
 
 ### Sources
-- [The Washington Post](https://www.washingtonpost.com)
-- [PBS NewsHour](https://www.pbs.org/newshour)
-- [NBC News](https://www.nbcnews.com)
+- [The Heritage Foundation](https://www.heritage.org/staff/stephen-moore)
+- [The Washington Post: Why Moore is less](https://www.washingtonpost.com/opinions/the-real-reason-stephen-moore-doesnt-belong-on-the-federal-reserve-board/2019/03/31/38b41ace-5233-11e9-88a1-ed346f0ec94f_story.html)
+- [The Washington Post: Stephen Moore could inflict more long-term damage than any of Trump’s other nominations](https://www.washingtonpost.com/opinions/stephen-moore-could-inflict-more-long-term-damage-than-any-of-trumps-other-nominations/2019/03/25/af6e6e4e-4f3b-11e9-88a1-ed346f0ec94f_story.html)
+- [PBS NewsHour: Trump’s Fed pick Stephen Moore withdraws amid controversy](https://www.pbs.org/newshour/economy/trumps-fed-pick-stephen-moore-withdraws-from-consideration-amid-controversy)
+- [NBC News](https://www.nbcnews.com/business/business-news/adultery-arrears-amends-inside-trump-federal-reserve-pick-stephen-moore-n990371)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

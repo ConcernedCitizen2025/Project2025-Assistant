@@ -24,7 +24,6 @@ Hazelton’s work in senior government roles, particularly related to defense an
 ### Sources
 - [Politico - Jennifer Hazelton Profile](https://www.politico.com/news/2020/06/19/playbook-birthday-jennifer-hazelton-329303)
 - [USAID Archive - Jennifer Hazelton](https://2017-2020.usaid.gov/who-we-are/organization/jennifer-hazelton)
-- [Wikipedia - List of DoD Appointments by Trump](https://en.wikipedia.org/wiki/List_of_Department_of_Defense_appointments_by_Donald_Trump)
-- [ProPublica - Jennifer Hazelton](https://projects.propublica.org/trump-town/staffers/jennifer-hazelton)
-- [FetchYourNews - Jennifer Hazelton Talks Trump](https://white.fetchyournews.com/2023/09/06/jennifer-hazelton-talks-trump/)
-- [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://...)
+- [ProPublica - Jennifer Hazelton](https://projects.propublica.org/trump-town/staffers/jennifer-l-hazelton)
+- [FetchYourNews - Jennifer Hazelton Talks Trump](https://union.fetchyournews.com/2016/09/06/jennifer-hazelton-talks-trump-9616/)
+- [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

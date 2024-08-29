@@ -22,7 +22,7 @@ While Primorac himself has not been directly involved in major personal scandals
 Primorac’s role in Project 2025 and his past positions reflect a focus on aligning U.S. foreign aid and development assistance with conservative priorities, which could lead to reduced emphasis on global humanitarian needs. His leadership in such initiatives has sparked debate about the direction of U.S. foreign aid, particularly the risk of it being used more as a political tool than a means of addressing global challenges.
 
 ### Sources
-- [Democracy Now!](https://www.democracynow.org/2023/9/14/leaked_project_2025_training_videos)
-- [Revolving Door Project](https://therevolvingdoorproject.org/project-2025-playbook-2024)
-- [Cardinal & Pine](https://cardinalpine.com/story/project-2025-training-videos-trump-2024)
+- [Democracy Now!](https://www.democracynow.org/2024/8/12/project_2025_training_videos_propublica_documented)
+- [Revolving Door Project](https://therevolvingdoorproject.org/former-trump-officials-wrote-25-of-the-30-chapters-in-the-project-2025-playbook/)
+- [Cardinal & Pine](https://cardinalpine.com/2024/08/13/project-2025-secret-training-videos/)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
