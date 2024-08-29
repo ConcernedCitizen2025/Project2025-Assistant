@@ -22,6 +22,5 @@ While Steven Groves has not been personally involved in major scandals, his role
 Groves’ tenure in the Trump administration included handling sensitive communications and press relations during times of heightened media scrutiny and controversy. His background at the Heritage Foundation ties him to conservative policy advocacy, drawing both support and criticism depending on the perspective.
 
 ### Sources
-- [The Heritage Foundation](https://www.heritage.org)
-- [Florida State University](https://www.fsu.edu)
+- [The Heritage Foundation](https://www.heritage.org/staff/steven-groves)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
