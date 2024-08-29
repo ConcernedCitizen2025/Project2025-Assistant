@@ -23,4 +23,4 @@ Anderson's involvement in advancing the Trump administration's labor policies, w
 
 ### Sources
 - [Project 2025 Overview - Wikipedia](https://en.wikipedia.org/wiki/Project_2025)
-- [Politico - Trump's Influence on Project 2025](https://www.politico.com)
+- [Politico - INJUNCTION](https://www.politico.com/newsletters/florida-playbook/2024/08/19/floridas-dnc-presence-takes-shape-00174560)
