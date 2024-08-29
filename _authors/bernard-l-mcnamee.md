@@ -22,6 +22,6 @@ McNamee has been involved in controversies related to his views on energy policy
 As a key figure in Project 2025, McNamee is expected to influence future federal energy policies, potentially prioritizing deregulation and the continuation of policies that favor traditional energy sources over renewable alternatives. Critics argue that his approach may hinder the transition to cleaner energy and exacerbate environmental concerns, while supporters believe his focus on regulatory reform is necessary for economic stability and energy independence .
 
 For more detailed information on Bernard L. McNamee, you can refer to his 
-- [Appalachian School of Law profile](https://www.asl.edu/faculty-staff/bernard-l-mcnamee/).
+- [Appalachian School of Law profile](https://www.asl.edu/academic-programs/faculty/bernard-mcnamee/).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
 - [E&E News - Meet the Ex-Trump Officials Who Helped Draft Project 2025](https://www.eenews.net/articles/meet-the-ex-trump-officials-who-helped-draft-project-2025/)

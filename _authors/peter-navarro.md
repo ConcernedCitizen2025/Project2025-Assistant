@@ -25,7 +25,7 @@ Peter Navarro was a prominent member of the Trump administration, serving as Dir
 Navarro's strong stance on trade, particularly his adversarial position towards China, has been a point of significant contention. His policies aimed at reducing trade deficits and bringing manufacturing jobs back to the United States have been criticized for potentially escalating trade wars and increasing costs for American consumers and businesses. Navarro's unconventional economic views and aggressive rhetoric have often been polarizing.
 
 ### Sources
-- [CBS News on Navarro's Legal Troubles](https://www.cbsnews.com/news/peter-navarro-released-prison-trump-trade-adviser/)
-- [The Heritage Foundation](https://www.heritage.org/staff/peter-navarro)
-- [The Washington Post](https://www.washingtonpost.com/business/2022/06/02/peter-navarro-indicted-contempt/)
+- [CBS News on Navarro's Legal Troubles](https://www.cbsnews.com/news/peter-navarro-sentencing-contempt-of-congress/)
+- [E & E News](https://www.eenews.net/articles/meet-the-ex-trump-officials-who-helped-draft-project-2025/)
+- [The Washington Post](https://www.washingtonpost.com/dc-md-va/2024/03/19/navarro-reports-prison-jan6-contempt/)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

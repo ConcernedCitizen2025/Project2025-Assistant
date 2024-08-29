@@ -22,6 +22,6 @@ Kent Lassman has not been personally involved in any major scandals or controver
 Lassman's leadership at CEI involves promoting deregulation and free-market policies, often opposing government interventions in the economy. These stances may raise concerns among proponents of environmental regulations, consumer protections, and social safety nets. Critics argue that CEI's positions can favor corporate interests over public welfare.
 
 ### Sources
+- [Wikipedia](https://en.wikipedia.org/wiki/Kent_Lassman)
 - [Competitive Enterprise Institute](https://cei.org/about-cei/kent-lassman)
-- [InfluenceWatch](https://www.influencewatch.org/person/kent-lassman)
-- [The Guardian](https://www.theguardian.com/environment/2020/oct/08/cei-climate-change-denial-think-tank)
+

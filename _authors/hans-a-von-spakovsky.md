@@ -24,5 +24,5 @@ Von Spakovsky is a prominent advocate for voter ID laws and stricter voting regu
 For more detailed information on Hans A. von Spakovsky, you can refer to his profiles on 
 - [Wikipedia](https://en.wikipedia.org/wiki/Hans_von_Spakovsky), 
 - [ProPublica](https://www.propublica.org/article/no-democrats-allowed-a-conservative-lawyer-holds-secret-voter-fraud-meetings-with-state-election-officials), and 
-- [The Brennan Center for Justice](https://www.brennancenter.org/our-work/research-reports/background-trumps-voter-fraud-commission).
+- [The Brennan Center for Justice](https://www.brennancenter.org/our-work/research-reports/hans-von-spakovsky).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

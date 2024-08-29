@@ -22,5 +22,5 @@ Tucker has not been involved in any major scandals or controversies personally. 
 Tucker's leadership at the VA coincided with significant challenges, including the implementation of the VA MISSION Act, which aimed to improve veterans' access to healthcare. While the act intended to increase efficiency and access, its rollout faced criticism regarding implementation issues and the potential privatization of VA services. Tucker’s role in Project 2025 also raises concerns, as the initiative emphasizes privatization and conservative reforms that some fear could undermine the VA’s ability to effectively serve veterans.
 
 For more detailed information on Brooks D. Tucker, you can refer to his 
-- [Wikipedia profile](https://en.wikipedia.org/wiki/Brooks_D._Tucker).
+- [Wikipedia profile](https://en.wikipedia.org/wiki/Brooks_Tucker).
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

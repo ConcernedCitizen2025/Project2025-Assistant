@@ -22,7 +22,7 @@ While William L. Walton has not been directly involved in major scandals, the Co
 Walton's leadership in CNP Action Inc. and his involvement in conservative advocacy have raised concerns about the influence of secretive networks on American politics. The Council for National Policy is known for its closed-door meetings and significant influence on conservative policies and political strategies. Critics argue that such organizations can undermine transparency and democratic processes by enabling wealthy individuals and interest groups to exert disproportionate influence.
 
 ### Sources
-- [Council for National Policy](https://cfnp.org)
-- [The Heritage Foundation](https://www.heritage.org)
+- [Council for National Policy](https://cfnp.org/policy-counsel/november-2020/)
+- [The Heritage Foundation](https://www.heritage.org/staff/william-l-walton)
 - [The Bill Walton Show](https://thebillwaltonshow.com)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

@@ -24,7 +24,7 @@ Russ Vought was a key figure in the Trump administration, serving as Director of
 Vought’s tenure at OMB was marked by significant budget cuts and efforts to reduce the size of the federal government. Critics argue that his budgetary policies disproportionately impacted low-income and vulnerable populations. His strong advocacy for fiscal conservatism contributed to tensions over budget negotiations and government shutdowns. His current role in Project 2025 raises further concerns about his vision for radically transforming federal governance.
 
 ### Sources
-- [Associated Press](https://www.ap.org)
-- [Media Matters for America](https://www.mediamatters.org)
+- [Associated Press](https://www.ap.org/news-highlights/spotlights/2024/russell-vought-a-project-2025-architect-is-ready-to-shock-washington-if-trump-wins-second-term/)
+- [Media Matters for America](https://www.mediamatters.org/project-2025/lara-trump-project-2025-there-are-some-ideas-there-are-very-productive-and-will-be)
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
 - [Forbes - What We Know About Trump's Link to Project 2025](https://www.forbes.com/sites/alisondurkee/2024/08/15/what-we-know-about-trumps-link-to-project-2025-as-author-claims-ex-president-blessed-it-in-secret-recording/)
