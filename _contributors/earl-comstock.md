@@ -22,6 +22,6 @@ Earl Comstock’s tenure at the Department of Commerce was marked by internal co
 Comstock’s background as a lobbyist and his influence over key policy decisions at the Department of Commerce may raise concerns about potential conflicts of interest, particularly in relation to the administration’s trade and telecommunications policies. His involvement in controversial initiatives, such as the Section 232 tariffs and the census citizenship question, further highlights the complex and sometimes contentious nature of his work.
 
 ### Sources
-- [Politico - Earl Comstock’s Departure from Commerce](https://www.politico.com/news/2019/07/18/white-house-commerce-official-163116)
+- [Politico - Earl Comstock’s Departure from Commerce](https://www.politico.com/story/2019/07/18/white-house-earl-comstock-out-1600269)
 - [White & Case - Earl Comstock’s Professional Background](https://www.whitecase.com/people/earl-comstock)
-- [Washington Post - Commerce Department and Trump Administration Policy Conflicts](https://www.washingtonpost.com/)
+- [Washington Post - Commerce Department and Trump Administration Policy Conflicts](https://www.washingtonpost.com/graphics/2019/politics/trump-overruled/)

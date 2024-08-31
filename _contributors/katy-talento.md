@@ -23,3 +23,4 @@ There are no significant scandals associated with Katy Talento. Her career is ma
 ### Sources
 - [AllBetter Health - Leadership](https://allbetter.health/leadership-all-better/)
 - [AllBetter Health - Hospital Price-Hiding](https://allbetter.health/talento-talks-about-hospital-price-hiding-with-heartland-institute/)
+- [Think Progress - These are the obscure Trump staffers who are systematically dismantling the federal government](https://archive.thinkprogress.org/donald-trump-secret-hatchet-team-e6504833c75d/)

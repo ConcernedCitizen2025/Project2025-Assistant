@@ -22,11 +22,8 @@ To date, Claire Christensen has not been implicated in any personal scandals. Ho
 Christensen’s influence in U.S.-China policy, coupled with her active role in Project 2025, raises potential concerns about the direction of U.S. foreign policy under a future Trump or Trump-aligned administration. Critics might argue that her hardline stance on China could contribute to escalating tensions between the two superpowers, with significant implications for global stability. Furthermore, her involvement in Project 2025 suggests she could play a pivotal role in implementing policies that align closely with Trump’s agenda, which may be contentious depending on the broader political landscape.
 
 ### Sources
-1. [Project 2025 Document](#) - Detailed overview of Project 2025 and contributors.
-2. [Fox News](https://www.foxnews.com) - Platform where Claire Christensen's editorials have been published.
-3. [Newsweek](https://www.newsweek.com) - Another outlet featuring Christensen's editorial work.
-4. [The Hill](https://thehill.com) - Christensen's contributions to U.S.-China relations discussions.
-5. [Newt’s World Podcast](https://www.gingrich360.com/newts-world/) - Podcast where Christensen has been a guest.
-6. [American Cornerstone Institute](https://americancornerstone.org) - Organization where Christensen is a Fellow.
-7. [University of Texas at Austin](https://www.utexas.edu) - Christensen’s alma mater.
-8. [Hillsdale College](https://www.hillsdale.edu) - Institution where Christensen is pursuing her master’s degree.
+- [Fox News](https://www.foxnews.com/person/c/claire-christensen) - Platform where Claire Christensen's editorials have been published.
+- [Newsweek](https://www.newsweek.com/infiltration-communist-chinas-campaign-reshape-us-education-opinion-1531432) - Another outlet featuring Christensen's editorial work.
+- [Newt’s World Podcast](https://podcasts.apple.com/bz/podcast/episode-282-facing-americas-greatest-threat-china/id1452065072?i=1000529850311) - Podcast where Christensen has been a guest.
+- [American Cornerstone Institute](https://americancornerstone.org) - Organization where Christensen is a Fellow.
+

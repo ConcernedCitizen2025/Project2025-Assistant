@@ -22,7 +22,7 @@ Oren Cass has not been involved in any major personal scandals. However, his pos
 Cass's work often challenges traditional conservative economic orthodoxy, advocating for policies that some critics argue resemble industrial policy and government intervention in the economy. His approach to trade, labor, and economic policy can be contentious, attracting criticism from both free-market proponents and those on the left who may disagree with his conservative framing of these issues.
 
 ### Sources
-- [American Compass - Oren Cass](https://americancompass.org)
+- [American Compass - Oren Cass](https://americancompass.org/oren-cass/)
 - [Wikipedia - Oren Cass](https://en.wikipedia.org/wiki/Oren_Cass)
 - [National Conservatism Conference 2024 - Oren Cass](https://nationalconservatism.org/natcon-4-2024/presenters/oren-cass)
 - [Aspen Ideas - Oren Cass](https://www.aspenideas.org/speakers/oren-cass)

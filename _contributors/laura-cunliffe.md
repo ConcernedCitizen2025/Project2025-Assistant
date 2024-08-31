@@ -22,6 +22,6 @@ Laura Cunliffe has not been involved in any major personal scandals. However, he
 Cunliffe’s advocacy at IWF and her prior roles in the Trump administration can be contentious, especially given the conservative and sometimes polarizing nature of the policies she promotes. Her involvement in these areas has drawn criticism from those who oppose the positions taken by the organizations she represents.
 
 ### Sources
-- [Independent Women’s Forum - Laura Cunliffe Profile](https://www.iwf.org)
-- [Family Watch International - Leadership](https://www.familywatch.org)
-- [C-SPAN - Laura Cunliffe Appearances](https://www.c-span.org/person/?lauracunliffe)
+- [Independent Women’s Forum - Laura Cunliffe Profile](https://www.iwf.org/people/laura-cunliffe/)
+- [Family Watch International - Leadership](https://familywatch.org/lauracunliffe/)
+- [Think Progress - These are the obscure Trump staffers who are systematically dismantling the federal government](https://archive.thinkprogress.org/donald-trump-secret-hatchet-team-e6504833c75d/)
