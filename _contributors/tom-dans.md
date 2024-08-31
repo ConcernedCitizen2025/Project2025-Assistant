@@ -1,27 +1,33 @@
 ---
-layout: contributor  
-title: Tom Dans  
+layout: contributor
+title: Tom Dans
 ---
 
 # Tom Dans
 
 **Role:** Contributor
 
-**Position:** Partner at Amberwave Partners
+**Position:** Visiting Fellow, Douglas and Sarah Allison Center for Foreign Policy Studies, The Heritage Foundation
 
 **Background:**  
-Tom Dans is a partner at Amberwave Partners, an investment firm focused on economic security and sustainable investment strategies. Amberwave Partners is known for its emphasis on investments that align with broader economic and social goals, including national security and community resilience. Dans has a background in finance and investment management, contributing to his expertise in developing and managing investment strategies that prioritize economic and social impact. He previously served as a counselor to the Under Secretary for International Affairs at the U.S. Treasury and held other significant roles in government and finance.
+Tom Dans is currently a Visiting Fellow at The Heritage Foundation’s Douglas and Sarah Allison Center for Foreign Policy Studies, where he focuses on Ukraine's post-war reconstruction. He has a robust background in international finance, having worked at leading investment firms like Merrill Lynch, Evercore Partners, and Allen & Company, and later founding his own venture, Grand River Capital. Dans has invested in a wide range of industries, including oil and gas, media, and agribusiness. 
+
+During the COVID-19 pandemic, Dans left the private sector to join the U.S. Treasury as Counselor to the Under Secretary for International Affairs, where he played a critical role in the federal government's financial response to the pandemic, earning the Secretary’s Honor Award twice. He was later appointed by President Trump as a Commissioner of the U.S. Arctic Research Commission, contributing to U.S. Arctic policy and advising both the President and Congress.
+
+Dans graduated with honors from Brown University with a concentration in Slavic Studies and U.S. History and has completed a fellowship at Harvard University under its Advanced Leadership Initiative. He is a CFA Charterholder and fluent in five languages, reflecting his extensive international experience.
 
 **Relation to Trump:**  
-There is no direct indication that Tom Dans or Amberwave Partners had a formal relationship with the Trump administration. However, the firm’s focus on economic security and sustainable investment strategies may align with broader policy discussions that were prominent during Trump’s tenure, particularly in areas related to economic nationalism and security. Dans' previous government roles, including at the U.S. Treasury, suggest some alignment with the economic priorities of that period, though there is no specific connection to Trump himself.
+Tom Dans has deep ties to the Trump administration, having served as the Chief of Staff at the U.S. Office of Personnel Management (OPM) during Trump's presidency. In this role, he managed the federal agency responsible for human resources policy for over two million federal employees. Dans was also involved with Project 2025, a conservative initiative aimed at preparing for a potential future Trump administration. His work at OPM, coupled with his leadership in Project 2025, highlights his significant role in shaping Trump-aligned strategies for federal governance.
 
 **Scandals or Controversies:**  
-Tom Dans has not been involved in any major personal scandals. As a partner at Amberwave Partners, his work focuses on investment strategies that align with economic security and sustainability, which can sometimes be subject to public and stakeholder scrutiny. However, there are no notable controversies directly associated with him or the firm.
+While Tom Dans has not been directly involved in major scandals, his aggressive approach in removing non-loyalists from government positions during his time at OPM has drawn scrutiny. This effort was part of a broader strategy to align federal agencies more closely with Trump's vision, which has been controversial among both critics and some former government officials.
 
 **Potential Concerns:**  
-In the investment industry, concerns often revolve around the alignment of investment strategies with stated goals and the transparency of those strategies. Investors and stakeholders may scrutinize the effectiveness and impact of Amberwave Partners’ investments in achieving economic security and sustainability objectives. Additionally, as with any investment firm, there is always the potential for conflicts of interest or questions about the firm’s alignment with broader social and economic goals.
+Dans’ involvement in Project 2025 and his past efforts to reshape the federal bureaucracy according to conservative principles may raise concerns about the potential impacts of these policies on the functioning of government institutions. His background in high-stakes litigation and international finance, combined with his deep involvement in conservative political projects, positions him as a key figure in any future Trump administration, particularly in areas related to personnel management and policy implementation.
 
 ### Sources
-- [Amberwave Partners - About Us](https://www.amberwavepartners.com/about)
-- [Business Insider - Amberwave Partners Profile](https://markets.businessinsider.com)
-- [The Hill - Tom Dans Commentary](https://thehill.com)
+1. [Heritage Foundation](https://www.heritage.org/staff/thomas-dans)
+2. [ProPublica](https://www.propublica.org/article/paul-dans-the-man-behind-project-2025s-most-radical-plans)
+3. [Wikipedia - Paul Dans](https://en.wikipedia.org/wiki/Paul_Dans)
+4. [Market Screener](https://www.marketscreener.com/insider/THOMAS-EMANUEL-DANS-A3FGSU/)
+5. [US Arctic Research Commission](https://www.arctic.gov/thomas-e-dans/)
