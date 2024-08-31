@@ -32,9 +32,3 @@ jobs:
 permissions:
   contents: write
   id-token: write
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 0c31c924e766d32b8380d09aebf2919b5741f7c5
