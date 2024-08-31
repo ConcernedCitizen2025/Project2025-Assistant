@@ -1,0 +1,23 @@
+---
+layout: contributor  
+title: Mark Miller
+---
+
+# Mark Miller
+
+**Role:** Contributor
+
+**Position:** Former Chief of Staff and General Counsel, Office of Governor Kristi Noem
+
+**Background:**  
+Mark Miller served as the Chief of Staff for South Dakota Governor Kristi Noem, beginning his tenure in late 2021 after previously working as the Governor's General Counsel. During his time in office, Miller was instrumental in advancing Governor Noem’s legislative agenda, including efforts to restrict the authority of Game, Fish, and Parks conservation officers. His approach sometimes led to contentious interactions with the state legislature. Miller stepped down in mid-2023, citing family reasons and a move back to Florida to work with a nonprofit organization.
+
+**Relation to Trump:**  
+Mark Miller’s connection to Donald Trump is primarily through his association with Governor Kristi Noem, a prominent Trump ally known for her alignment with many of Trump’s conservative policies. During Miller’s tenure as Chief of Staff, Governor Noem supported Trump’s positions on various issues, including election integrity and anti-immigration measures. Noem's policies and political stance often mirrored Trump’s agenda, which suggests that Miller's work was indirectly influenced by and supportive of Trump’s broader conservative objectives. His role in South Dakota’s legislative efforts, particularly in shaping conservative policy positions, reflects the influence of Trump’s political and ideological framework.
+
+**Scandals or Controversies:**  
+Miller's tenure was marked by intense legislative debates, particularly over conservation and transgender issues, but no significant scandals were associated with him personally.
+
+### Sources
+- [SDPB - Mark Miller departs as Gov. Noem's fifth chief of staff](https://www.sdpb.org)
+- [Argus Leader - Mark Miller to stay on as Gov. Kristi Noem's chief of staff](https://www.argusleader.com)
