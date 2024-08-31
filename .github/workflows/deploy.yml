@@ -13,14 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Set up Jekyll
+      uses:  helaili/jekyll-action@v2
       with:
-        ruby-version: '3.0'  # Update to your required Ruby version
-        bundler-cache: true
-
-    - name: Install dependencies
-      run: bundle install
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build the site
       run: bundle exec jekyll build
@@ -30,7 +26,9 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        keep_files: true
 
 permissions:
   contents: write
-  id-token: write
+  id-token: write  # Add this line
