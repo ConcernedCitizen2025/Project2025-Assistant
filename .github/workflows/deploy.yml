@@ -13,14 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-
-    - name: Update RubyGems
-      run: gem update --system
-
     - name: Set up Jekyll
-      uses: helaili/jekyll-action@v2
+      uses:  helaili/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,5 +32,3 @@ jobs:
 permissions:
   contents: write
   id-token: write
-
-
