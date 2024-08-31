@@ -11,12 +11,20 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Use the latest version of the checkout action
+      uses: actions/checkout@v3  # Using the latest version of the checkout action
+
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v3  # Setting up Node.js
+      with:
+        node-version: '16'  # Using Node.js version 16, you can adjust this if necessary
 
     - name: Set up Jekyll
       uses:  helaili/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Install dependencies
+      run: bundle install
 
     - name: Build the site
       run: bundle exec jekyll build
