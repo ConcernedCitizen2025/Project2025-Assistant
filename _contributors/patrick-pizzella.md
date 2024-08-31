@@ -1,0 +1,27 @@
+---
+layout: contributor
+title: Patrick Pizzella
+---
+
+# Patrick Pizzella
+
+**Role:** Contributor
+
+**Position:** Associated with the Leadership Institute
+
+**Background:**  
+Patrick Pizzella has had a long career in public service and conservative activism. He served as the Deputy Secretary of Labor under President Donald Trump and later as the Acting Secretary of Labor. Before his tenure in the Trump administration, Pizzella worked in various governmental roles, including at the Federal Communications Commission and the Small Business Administration. He is currently affiliated with the Leadership Institute, an organization dedicated to training conservative activists and leaders.
+
+**Relation to Trump:**  
+Pizzella's connection to Trump is significant due to his role in the Department of Labor, where he was involved in implementing policies aligned with Trump's deregulatory agenda. Additionally, his affiliation with the Leadership Institute ties him to broader conservative initiatives, such as Project 2025, which is supported by a coalition of organizations preparing for a potential future conservative administration. Project 2025 is heavily backed by entities like The Heritage Foundation, aiming to influence and guide the next conservative presidency, likely under Trump's influence.
+
+**Scandals or Controversies:**  
+Pizzella has been a controversial figure, particularly due to his past lobbying efforts. He was part of a lobbying firm that worked for the government of the Northern Mariana Islands, which was criticized for its labor practices. This association drew scrutiny during his confirmation hearings for his roles in the Trump administration. Despite these controversies, he was confirmed and played a significant role in Trump's labor policy.
+
+**Potential Concerns:**  
+Given Pizzella's history and his involvement with the Leadership Institute, concerns may arise regarding his influence on labor policies that favor deregulation and reduced worker protections. His role in Project 2025 also suggests potential concerns about the shaping of future conservative policies that may prioritize business interests over labor rights.
+
+### Sources
+- [Leadership Institute - Patrick Pizzella Profile](https://www.leadershipinstitute.org)  
+- [Project 2025 - Full Contributor List](file-bq4vQV0169abxmjz1jX769in)
+- [Washington Post - Pizzella's Labor Department Role](https://www.washingtonpost.com)

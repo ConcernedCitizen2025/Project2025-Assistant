@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* Styling the body to avoid white borders around the header and footer */
+        body.about-page {
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling the header */
+        header {
+            background-color: #222;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Adjusting the main logo size */
+        .logo-container .logo {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 0px;
+        }
+
+        /* Adjusting the main container to add a white background */
+        main {
+            background-color: #fff;
+            padding: 30px;
+            max-width: 900px;
+            margin: 30px auto; /* Adding margin for spacing between header and main content */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling the main content */
+        main h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        main p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #555;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">      
+</head>
+<body class="about-page">
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/about_logo.png" alt="About Us Logo">
+                        <img class="mask right" src="/assets/images/about_logo.png" alt="About Us Logo">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </header>
+    <main>
+        <h1>About Us</h1>
+
+<p>As a father and aspiring high school math teacher, I've always appreciated the logic and clarity of mathematics. However, over the past decade, I've found myself increasingly drawn into the world of politics—not out of desire, but out of necessity. The political landscape has become increasingly chaotic, often defying the logical principles I hold dear.
+
+    <br><br>My journey into political awareness coincided with my pursuit of a teaching degree at university. As I prepare to educate the next generation, I've become acutely aware of the world they'll inherit. This awareness led me to discover Project 2025, a proposal that, upon thorough examination, deeply concerns me.
+    
+    <br><br>As an American with roots predating our nation's founding, I take great pride in our country's ideals and potential. However, I believe Project 2025 poses a significant threat to the America we know and cherish. Its proposals, if enacted, could fundamentally alter the fabric of our democracy.
+    
+    <br><br>My commitment to creating this website stems from a desire to preserve the America I love for my children, their children, and the generations to come. I believe in our nation's greatness and its capacity for continual improvement, but only if we vigilantly protect our democratic principles.
+    
+    <br><br>This website represents my contribution to defending our democracy. It's a labor of love, created without profit motive or staff. My goal is to provide clear, accessible information about Project 2025, helping fellow citizens understand its implications and inspiring them to take action in defense of our shared values.
+    
+    <br><br>If you find this resource valuable, I encourage you to engage further. Whether by sharing this information, participating in local government, or simply exercising your right to vote, every action counts in safeguarding our democracy.
+    
+    <br><br>Should you encounter any issues with the website or wish to share your thoughts, please feel free to contact me at <a href="mailto:concernedcitizen2025ad@gmail.com">concernedcitizen2025ad@gmail.com</a>. I welcome respectful dialogue and constructive feedback.
+    
+    <br><br>Remember, our democracy thrives on informed and active citizenship. Stay engaged, stay informed, and above all, <strong>don't forget to vote!</strong>
+    </p>
+
+    </main>
+    <footer>
+        <p>© 2024 Project 2025 Assistant</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+</body>
+</html>
