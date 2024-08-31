@@ -22,6 +22,6 @@ Frank Carroll has not been involved in any personal scandals. However, the Becke
 The Becket Fund for Religious Liberty often engages in litigation that can be highly controversial, particularly in cases where religious liberty claims conflict with other civil rights, such as LGBTQ rights and reproductive health. Critics argue that prioritizing religious liberty in certain contexts can undermine other fundamental rights, leading to significant public policy implications.
 
 ### Sources
-- [Becket Law - Freedom From Religion Foundation v. Trump](https://www.becketlaw.org/case/ffrf-v-trump)
-- [Time - Meet the Becket Fund Lawyers Redefining Religious Liberty](https://time.com)
-- [SCOTUSblog - Symposium on Religious Liberty Cases](https://www.scotusblog.com)
+- [Becket Law - Freedom From Religion Foundation v. Trump](https://www.becketlaw.org/case/ffrf-v-trump/)
+- [Time - Meet the Becket Fund Lawyers Redefining Religious Liberty](https://time.com/3476109/becket-fund-supreme-court-prison-beard/)
+- [SCOTUSblog - Symposium on Religious Liberty Cases](https://www.scotusblog.com/2019/07/symposium-the-calm-before-the-storm-for-religious-liberty-cases/)

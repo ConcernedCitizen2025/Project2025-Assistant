@@ -24,3 +24,4 @@ Selnick has been a controversial figure, particularly due to his advocacy for pr
 - [Concerned Veterans for America - Darin Selnick](https://cv4a.org/member/darin-selnick/)
 - [Army Times - Selnick Rejoins VA Reform Debate](https://www.armytimes.com)
 - [ProPublica - Selnick's Role in Trump Administration](https://www.propublica.org)
+- [Think Progress - These are the obscure Trump staffers who are systematically dismantling the federal government](https://archive.thinkprogress.org/donald-trump-secret-hatchet-team-e6504833c75d/)

@@ -22,6 +22,6 @@ Lisa Correnti has not been involved in any major personal scandals. However, her
 C-Fam's advocacy, particularly its opposition to LGBTQ+ rights and reproductive rights, is highly controversial. Critics argue that the organization’s efforts may undermine the rights of marginalized groups at international forums like the United Nations. Correnti’s leadership in these areas makes her a central figure in these contentious debates.
 
 ### Sources
-- [Center for Family and Human Rights - Staff](https://c-fam.org/about/staff)
-- [Catholic World Report - Lisa Correnti Profile](https://www.catholicworldreport.com/author/lisa-correnti)
-- [Human Rights Watch - Criticism of C-Fam's Inclusion in US Delegation](https://www.hrw.org/news/2024/02/07/us-sends-group-rejecting-rights-un-womens-commission)
+- [Center for Family and Human Rights - Staff](https://c-fam.org/author/lisa-correnti/)
+- [Catholic World Report - Lisa Correnti Profile](https://www.catholicworldreport.com/author/correnti-lisa/)
+- [Human Rights Watch - Criticism of C-Fam's Inclusion in US Delegation](https://www.hrw.org/news/2017/03/16/us-sends-group-rejecting-rights-un-womens-commission)

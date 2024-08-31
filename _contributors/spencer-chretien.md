@@ -25,5 +25,5 @@ For more detailed information on Spencer Chretien, you can refer to his [Heritag
 
 [^26]: Heritage Foundation. [Spencer Chretien](https://www.heritage.org/staff/spencer-chretien). Retrieved August 20, 2024.
 [^27]: Hillsdale in D.C. [Spencer Chretien](https://dc.hillsdale.edu/Profiles/Spencer-Chretien/). Retrieved August 20, 2024.
-[^28]: ProPublica. [Inside Project 2025’s Secret Training Videos](https://www.propublica.org/article/inside-project-2025s-secret-training-videos). Retrieved August 20, 2024.
+[^28]: ProPublica. [Inside Project 2025’s Secret Training Videos](https://www.propublica.org/article/inside-project-2025-secret-training-videos-trump-election). Retrieved August 20, 2024.
 - [Project 2025: Ex-Trump Contributors Join Republicans for Election](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)

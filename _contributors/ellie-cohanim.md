@@ -22,6 +22,6 @@ Ellie Cohanim has not been involved in any personal scandals. However, her role 
 Cohanim's involvement in addressing anti-Semitism, particularly her focus on radical Islamic and far-left anti-Zionism, could draw criticism from those who disagree with the administration’s strategies. Additionally, her media background and advocacy roles may be scrutinized for potential biases, especially given the highly charged nature of her work at the State Department.
 
 ### Sources
-- [Jewish Journal - Ellie Cohanim Named Deputy Special Envoy to Combat Anti-Semitism](https://www.jewishjournal.com)
-- [Hudson Institute - A Conversation with Ellie Cohanim](https://www.hudson.org)
-- [Indiana University - Webinar with Ellie Cohanim](https://isca.indiana.edu)
+- [Jewish Journal - Ellie Cohanim Named Deputy Special Envoy to Combat Anti-Semitism](https://jewishjournal.com/online/308120/ellie-cohanim-named-deputy-special-envoy-to-combat-anti-semitism/)
+- [Hudson Institute - A Conversation with Ellie Cohanim](https://www.hudson.org/human-rights/transcript-a-conversation-with-assistant-special-envoy-ellie-cohanim-on-combating-anti-semitism)
+- [Indiana University - Webinar with Ellie Cohanim](https://isca.indiana.edu/conferences/webinars/2023-webinars/Ellie-Cohanim.html)

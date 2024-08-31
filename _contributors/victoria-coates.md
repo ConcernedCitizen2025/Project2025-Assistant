@@ -23,5 +23,5 @@ Coates' background in art history, while diverse, may be seen as unconventional 
 
 ### Sources
 - [Wikipedia - Victoria Coates](https://en.wikipedia.org/wiki/Victoria_Coates)
-- [TribLIVE - Victoria Coates Reassigned Amid Controversy](https://triblive.com)
-- [POLITICO - Navarro’s Memo on Victoria Coates](https://www.politico.com)
+- [TribLIVE - Victoria Coates Reassigned Amid Controversy](https://triblive.com/news/politics-election/amid-anonymous-fallout-nsc-adviser-victoria-coates-reassigned/)
+- [POLITICO - Navarro’s Memo on Victoria Coates](https://www.politico.com/news/2021/03/02/peter-navarro-victoria-coates-anonymous-472025)

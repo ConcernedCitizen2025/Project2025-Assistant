@@ -22,6 +22,6 @@ Ezra Cohen has been associated with several controversies during his tenure. He 
 Cohen's involvement in sensitive intelligence and national security roles, combined with his rapid ascent and close associations with key Trump administration figures, has drawn criticism and concern. His actions during the Russia investigation and his role in the late-stage reorganization of the Pentagon have placed him at the center of several contentious national security debates.
 
 ### Sources
-- [Forward - Meet Ezra Cohen-Watnick](https://forward.com/news/meet-ezra-cohen-watnick-secret-source-in-trump-probe)
-- [University of Chicago - Ezra Cohen Reappointed to Public Interest Declassification Board](https://www.law.uchicago.edu/news/ezra-cohen-reappointed-public-interest-declassification-board)
-- [People - Pentagon Reorganization Raises Alarms in Final Days of Trump Administration](https://people.com/politics/pentagon-reorganization-raises-alarms-in-final-days-of-trump-administration/)
+- [Forward - Meet Ezra Cohen-Watnick](https://forward.com/news/367690/meet-ezra-cohen-watnick-the-secret-source-at-the-center-of-trump-russia-pro/)
+- [University of Chicago - Ezra Cohen Reappointed to Public Interest Declassification Board](https://www.law.uchicago.edu/news/ezra-cohen-23-reappointed-public-interest-declassification-board)
+- [People - Pentagon Reorganization Raises Alarms in Final Days of Trump Administration](https://people.com/politics/pentagon-reorganization-raises-alarms-trump/)

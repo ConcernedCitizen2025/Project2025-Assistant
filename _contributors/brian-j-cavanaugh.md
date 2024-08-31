@@ -22,5 +22,8 @@ Brian J. Cavanaugh has not been involved in any major personal scandals. However
 Cavanaugh’s involvement in the Trump administration’s domestic policy may draw scrutiny, especially from critics of the administration's approach to healthcare, education, and economic inequality. His work in these areas reflects the contentious nature of the administration’s domestic agenda, which was frequently debated and challenged by both public and political entities.
 
 ### Sources
-- [AllSides - Fact Check on Trump's Ties to Project 2025](https://www.allsides.com/news/2023-07-14-0650/donald-trump-fact-check-trump-s-ties-project-2025)
-- [The New Republic - Project 2025 Overview](https://newrepublic.com/article/174334/project-2025-creator-devious-plan-trump-wins)
+- [The Heritage Foundation - Profile](https://www.heritage.org/staff/brian-j-cavanaugh)
+- [American Global Strategies](https://americanglobalstrategies.com/team_member/brian-j-cavanaugh/)
+- [AllSides - Fact Check on Trump's Ties to Project 2025](https://www.allsides.com/story/facts-and-fact-checking-fact-check-trump-s-ties-project-2025)
+- [The New Republic - Project 2025 Overview](https://newrepublic.com/post/184563/trump-project-2025-leader-administration-white-house)
+- [The Vandenberg Coalition](https://vandenbergcoalition.org/experts/brian-j-cavanaugh/)

@@ -22,6 +22,6 @@ While Colby has not been involved in any personal scandals, his strategic focus 
 Colby's advocacy for a defense strategy centered on preparing for conflict with China, including a focus on Taiwan as a potential flashpoint, could lead to increased geopolitical tensions. His emphasis on reallocating resources away from Europe towards Asia has also been controversial, with concerns that this could undermine NATO and U.S. commitments to European security.
 
 ### Sources
-- [Politico - Elbridge Colby Wants to Finish What Donald Trump Started](https://www.politico.com/news/2024/07/19/elbridge-colby-trump-defense-strategy-00106757)
+- [Politico - Elbridge Colby Wants to Finish What Donald Trump Started](https://www.politico.com/news/magazine/2023/04/11/tucker-carlson-eldridge-colby-00090211)
 - [Heritage Foundation - The Best Defense Strategy for America? Elbridge Colby on The Strategy of Denial](https://www.heritage.org/defense/event/the-best-defense-strategy-america-elbridge-colby-the-strategy-denial)
 - [CSIS - Rethinking Strategic Competition with China](https://chinapower.csis.org/podcasts/rethinking-strategic-competition-with-china/)
