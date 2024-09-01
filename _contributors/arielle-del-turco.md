@@ -22,6 +22,6 @@ Arielle Del Turco has not been involved in any major personal scandals. However,
 The Family Research Council's strong stance on conservative social issues, including opposition to abortion and LGBTQ rights, often places it at the center of heated public debates. Critics argue that FRC's positions can undermine civil rights and promote discrimination. Del Turco's work advocating for religious freedom may be viewed as contentious by those who believe it conflicts with other rights and liberties. The organization has been designated as a hate group by the Southern Poverty Law Center due to its positions on LGBTQ issues, which adds to the controversy surrounding its advocacy work.
 
 ### Sources
-- [Family Research Council](https://www.frc.org)
-- [American Family News](https://www.afn.net)
-- [The Washington Stand](https://washingtonstand.com)
+- [Family Research Council](https://www.frc.org/arielle-delturco)
+- [American Family News](https://afn.net/politics-govt/2024/07/23/gop-platform-applauded-for-doing-pretty-well-on-religious-liberty/)
+- [The Washington Stand](https://washingtonstand.com/writers/arielle-del-turco)

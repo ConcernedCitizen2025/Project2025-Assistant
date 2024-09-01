@@ -23,5 +23,5 @@ As CFO, Dennis is responsible for overseeing the financial operations of the ins
 
 ### Sources
 - [American Cornerstone Institute - Transforming a Federal Agency: Management Lessons from HUD's Financial Reforms](https://americancornerstone.org)
-- [ProPublica - American Cornerstone Institute Financial Overview](https://projects.propublica.org/nonprofits)
-- [GovExec - HUD’s Irv Dennis on Applying Private Sector Experience to Improve Federal Financial Management](https://www.govexec.com)
+- [ProPublica - American Cornerstone Institute Financial Overview](https://projects.propublica.org/nonprofits/organizations/861545903)
+- [GovExec - HUD’s Irv Dennis on Applying Private Sector Experience to Improve Federal Financial Management](https://www.govexec.com/management/2020/09/huds-irv-dennis-applying-private-sector-experience-improve-financial-practices/168673/)

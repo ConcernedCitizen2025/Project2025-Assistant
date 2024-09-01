@@ -24,4 +24,4 @@ DeAngelis’s advocacy for school choice and educational vouchers is often contr
 ### Sources
 - [FEE - School Choice Advocate Corey DeAngelis](https://fee.org/articles/school-choice-advocate-corey-deangelis-on-the-parent-revolution/)
 - [Carolina Journal - School Choice Advocacy](https://www.carolinajournal.com/news-article/coopers-school-choice-temper-tantrum-draws-national-criticism/)
-- [NBC News - Betsy DeVos-backed School Choice Expansion](https://www.nbcnews.com/news/education/betsy-devos-backed-group-helps-fuel-expansion-private-school-funding)
+- [NBC News - Betsy DeVos-backed School Choice Expansion](https://www.nbcnews.com/politics/politics-news/betsy-devos-american-federation-children-private-school-rcna76307)

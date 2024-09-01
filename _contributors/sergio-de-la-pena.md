@@ -22,6 +22,7 @@ Sergio de la Peña has not been involved in any major personal scandals. However
 In his role at the Department of Defense, de la Peña was involved in shaping and implementing U.S. defense policy in the Western Hemisphere, a region with complex issues such as drug trafficking, immigration, and regional security dynamics. Critics may scrutinize his policy decisions and their impacts on U.S. relations with countries in the region. His involvement in specific controversial policies or incidents would depend on the context of his decisions during his tenure.
 
 ### Sources
-- [Defense Department - Biography of Sergio de la Peña](https://www.defense.gov)
-- [CSIS - Present and Future Threats to Stability in South America](https://www.csis.org)
+- [Defense Department - Biography of Sergio de la Peña](https://www.defense.gov/About/Biographies/Biography/Article/1185872/sergio-de-la-pea/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Sergio_de_la_Pe%C3%B1a)
 - [Military Wiki - Sergio de la Peña](https://military-history.fandom.com/wiki/Sergio_de_la_Peña)
+- [Ballotpedia - Trump's Transition Team](https://ballotpedia.org/Sergio_de_la_Pena)
