@@ -22,6 +22,6 @@ Jared M. Kelson has not been involved in any major personal scandals. His profes
 Kelson's work often involves high-stakes litigation and regulatory matters, which can be contentious and attract scrutiny from various stakeholders. His involvement in cases that challenge regulatory overreach or defend conservative principles may polarize opinions about his professional activities.
 
 ### Sources
-- [Boyden Gray Associates - Jared M. Kelson Profile](https://boydengray.com)
+- [Boyden Gray Associates - Jared M. Kelson Profile](https://boydengray.com/our-team/jared-kelson/)
 - [Federalist Society - Jared Kelson Profile](https://fedsoc.org/contributors/jared-kelson)
 - [Casetext - Feds for Medical Freedom v. Biden](https://casetext.com/case/feds-for-med-freedom-v-biden)

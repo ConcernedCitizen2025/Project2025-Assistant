@@ -23,5 +23,5 @@ Huber's advocacy for excluding abortion from women's health initiatives has been
 
 ### Sources
 - [National Review - Valerie Huber Profile](https://www.nationalreview.com/author/valerie-huber/)
-- [The Hill - Geneva Consensus Declaration](https://thehill.com)
-- [Catholic World Report - Valerie Huber's Advocacy](https://www.catholicworldreport.com)
+- [The Hill - Geneva Consensus Declaration](https://thehill.com/opinion/healthcare/3765747-the-geneva-consensus-declaration-is-thriving-and-critics-are-worried/)
+- [Catholic World Report - Valerie Huber's Advocacy](https://www.catholicworldreport.com/tag/valerie-huber/)

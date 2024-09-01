@@ -24,4 +24,4 @@ Kao's advocacy for conservative social policies, particularly regarding religiou
 ### Sources
 - [Townhall - Emilie Kao's Articles](https://townhall.com/columnists/emiliekao)
 - [Heritage Foundation - Emilie Kao's Profile](https://www.heritage.org/staff/emilie-kao)
-- [Newsweek - What to Know About the Alliance Defending Freedom](https://www.newsweek.com/alliance-defending-freedom-what-know-about-group-behind-jack-phillips-case-1606856)
+- [Newsweek - What to Know About the Alliance Defending Freedom](https://www.newsweek.com/what-alliance-defending-freedom-hate-group-ties-new-mike-pence-org-1582594)

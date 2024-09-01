@@ -22,6 +22,6 @@ Gabriella Hoffman has not been involved in any major personal scandals. However,
 Hoffman’s association with IWF, a conservative organization, and her advocacy for energy policies that prioritize security and deregulation over environmental regulations may attract criticism from environmental advocates and those with differing political views. Her stance on issues like the Environmental, Social, and Governance (ESG) movement also positions her in a contentious area of public discourse.
 
 ### Sources
-- [Independent Women's Forum - Gabriella Hoffman's Profile](https://www.iwf.org)
+- [Independent Women's Forum - Gabriella Hoffman's Profile](https://www.iwf.org/people/gabriella-hoffman/)
 - [Gabriella Hoffman's Professional Update](https://gabriellahoffman.com/2023/11/heres-a-professional-update)
 - [About Gabriella Hoffman](https://gabriellahoffman.com/about)

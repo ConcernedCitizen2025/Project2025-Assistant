@@ -22,6 +22,6 @@ There are no major personal scandals associated with Julie Kirchner. However, he
 Kirchner's leadership at FAIR has been controversial due to the organization's stance on immigration, which includes advocating for strict immigration controls and reducing overall immigration levels. FAIR has been criticized by some groups, including the Southern Poverty Law Center, for promoting policies they view as anti-immigrant and for connections to figures with nativist views.
 
 ### Sources
-- [Federation for American Immigration Reform - Julie Kirchner Profile](https://www.fairus.org/julie-kirchner)
-- [Department of Homeland Security - Past Leadership](https://www.dhs.gov/leadership)
-- [Southern Poverty Law Center - FAIR Profile](https://www.splcenter.org/fair)
+- [Federation for American Immigration Reform - Julie Kirchner Profile](https://www.fairus.org/staff/julie-kirchner)
+- [Department of Homeland Security - Past Leadership](https://www.dhs.gov/archive/person/julie-kirchner)
+- [Southern Poverty Law Center - FAIR Profile](https://www.splcenter.org/fighting-hate/extremist-files/group/federation-american-immigration-reform)

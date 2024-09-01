@@ -22,5 +22,6 @@ Christopher Iacovella has not been involved in any major personal scandals. Howe
 Iacovella’s critiques of regulatory policies, particularly his stance against what he perceives as SEC overreach, may raise concerns among those who believe stringent regulations are necessary to protect the economy and consumers. His leadership in conservative financial circles and alignment with deregulatory policies could attract scrutiny, especially in debates over the balance between economic growth and regulatory oversight.
 
 ### Sources
-- [ProPublica - Project 2025](https://www.propublica.org/article/project-2025-videos-training)
-- [Heritage Foundation - Project 2025 Overview](https://www.heritage.org/press/project-2025-continues-grow-60-partners-preparing-next-presidential-administration)
+- [American Securities Association](https://www.americansecurities.org/team)
+- [ProPublica - Project 2025](https://www.propublica.org/article/inside-project-2025-secret-training-videos-trump-election)
+- [Heritage Foundation](https://www.heritage.org/heritage-issues-statement-government-weaponization-against-conservatives)

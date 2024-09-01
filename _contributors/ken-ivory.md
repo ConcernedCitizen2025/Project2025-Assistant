@@ -22,6 +22,6 @@ Ivory has faced criticism and scrutiny over his advocacy for the transfer of fed
 Ivory's legislative work includes a strong focus on land rights and federalism. He chaired the American Lands Council, advocating for the transfer of federal lands to state control, a stance that has been controversial and criticized by environmental groups and those concerned about state management of public lands.
 
 ### Sources
-- [Utah House of Representatives - Ken Ivory Profile](https://house.utah.gov/rep/ken-ivory/)
+- [Utah House of Representatives - Ken Ivory Profile](https://house.utleg.gov/rep/IVORYK/)
 - [American Lands Council - About Us](https://www.americanlandscouncil.org/about)
-- [Wikipedia - Public Land Ownership in the United States](https://en.wikipedia.org/wiki/Public_land_ownership_in_the_United_States)
+- [Wikipedia - Public Land Ownership in the United States](https://en.wikipedia.org/wiki/Public_lands_in_the_United_States)

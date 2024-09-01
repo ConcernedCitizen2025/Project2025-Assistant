@@ -22,6 +22,6 @@ Horner has faced significant backlash for his climate change denial and for rece
 Horner's work, particularly his stance on climate change and his financial ties to the fossil fuel industry, raises concerns about his influence on public policy. Critics argue that his efforts undermine scientific efforts to address climate change and promote the interests of the fossil fuel industry over environmental protection.
 
 ### Sources
-- [E&E News - Inside the Project 2025 plan to gut climate regs](https://www.eenews.net)
+- [E&E News - Inside the Project 2025 plan to gut climate regs](https://www.eenews.net/articles/inside-the-project-2025-plan-to-gut-climate-regs/)
 - [Wikipedia - Christopher C. Horner](https://en.wikipedia.org/wiki/Christopher_C._Horner)
-- [BuzzFeed News - Trump Names Prominent Climate Denier To His EPA Team](https://www.buzzfeednews.com)
+- [BuzzFeed News - Trump Names Prominent Climate Denier To His EPA Team](https://www.buzzfeednews.com/article/danvergano/horner-at-epa)

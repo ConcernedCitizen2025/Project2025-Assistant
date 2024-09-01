@@ -192,7 +192,7 @@ title: "Authors and Contributors"
 - [Aaron Kheriaty](/contributors/aaron-kheriaty.html)
 - [Ali Kilmartin](/contributors/ali-kilmartin.html)'s association with Alliance Defending Freedom connects her to a network that played a significant role during the Trump administration, particularly in advocating for religious liberty and opposing LGBTQ rights.
 - [Julie Kirchner](/contributors/julie-kirchner.html) worked at the Department of Homeland Security during the Trump administration and served as a senior advisor to Secretary Kirstjen Nielsen.
-- [Dan Kish](/contributors/dan-kish.html)
+- [Dan Kish](/contributors/dan-kish.html) has been closely aligned with the Trump administration's energy agenda, focusing on expanding fossil fuels and rolling back environmental regulations.
 - [Kenneth A. Klukowski](/contributors/kenneth-a-klukowski.html)'s extensive work with the Trump administration includes roles such as Senior Advisor on Trump's Presidential Transition Team and collaboration with Jeffrey Clark at the Department of Justice.
 - [Adam Korzeniewski](/contributors/adam-korzeniewski.html)
 - [Kathy Nuebel Kovarik](/contributors/kathy-nuebel-kovarik.html) served as an advisor to Secretary John Kelly at the Department of Homeland Security and held leadership roles at U.S. Citizenship and Immigration Services during the Trump administration.
