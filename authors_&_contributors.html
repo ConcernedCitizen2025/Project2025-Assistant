@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authors and Contributors</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    
+    <style>
+        .authors-contributors-list li {
+            line-height: 1.6; /* Adjust this value for more or less space */
+            margin-bottom: 10px; /* Optional: Add some margin at the bottom of each list item */
+        }
+    </style>
+
     <!-- Favicon and related icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
@@ -14,7 +20,6 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
 </head>
 <body>
     <header>
@@ -23,10 +28,8 @@
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
                     <div class="mask-container">
-                        
-                            <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                            <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                        
+                        <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
+                        <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
                     </div>
                 </div>
             </a>
@@ -38,7 +41,6 @@
                 <li><a href="/about.html">About Us</a></li>
             </ul>
         </nav>
-        
         <div id="google_translate_element"></div>
 
 <script type="text/javascript">
@@ -53,11 +55,12 @@ function googleTranslateElementInit() {
 </script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <!-- Include the translate widget -->
 
     </header>
-    <main>
-         <h1 id="authors-and-contributors">Authors and Contributors</h1>
+    <main style="max-width: 800px; margin: auto; text-align: left;">
+        <h1 style="text-align: center;">Authors and Contributors</h1>
+        <div class="authors-contributors-list">
+            <h1 id="authors-and-contributors">Authors and Contributors</h1>
 
 <h2 id="authors">Authors</h2>
 
@@ -390,9 +393,10 @@ function googleTranslateElementInit() {
   <li><a href="/contributors/laura-zorc.html">Laura Zorc</a></li>
 </ul>
 
-
+ <!-- This is where the content from the .md file will be injected -->
+        </div>
     </main>
-    <footer>
+    <footer style="text-align: center;">
         <p>© 2024 Project 2025 Assistant</p>
     </footer>
     <script>
@@ -403,8 +407,8 @@ function googleTranslateElementInit() {
                 const rightMask = logoContainer.querySelector(".mask.right");
 
                 logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
                 });
 
                 logoContainer.addEventListener("mouseout", function() {
