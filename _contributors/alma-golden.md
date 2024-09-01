@@ -23,6 +23,6 @@ Alma Golden's role as Assistant Administrator for Global Health at USAID during 
 Golden’s leadership roles in health policy, particularly her involvement in policies that align with conservative views on reproductive rights and family planning, have been highly contentious. Her work is subject to intense public and political scrutiny, especially from organizations that oppose the restrictive measures she has supported in the realm of reproductive health.
 
 ### Sources
-- [Equity Forward](https://equityfwd.org)
-- [Planned Parenthood](https://www.plannedparenthood.org)
-- [BMJ Sexual & Reproductive Health](https://srh.bmj.com)
+- [Equity Forward](https://equityfwd.org/alma-golden)
+- [Planned Parenthood](https://www.plannedparenthood.org/about-us/newsroom/press-releases/planned-parenthood-opposes-alma-golden-to-oversee-global-health-programs-at-usaid)
+- [USAID](https://2017-2020.usaid.gov/who-we-are/organization/alma-crumm-golden)

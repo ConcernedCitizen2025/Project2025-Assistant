@@ -22,6 +22,6 @@ James S. Gilmore III has not been involved in any major personal scandals. His e
 Gilmore's extensive political and consulting career involves navigating complex and sometimes contentious issues. His political positions and policies during his tenure as Governor of Virginia, along with his subsequent roles, have attracted both support and criticism. His involvement with the Trump administration as an ambassador to the OSCE ties him to the administration's foreign policy decisions, which have been subject to significant public and political debate.
 
 ### Sources
-- [OSCE - Farewell Remarks by Ambassador James S. Gilmore III](https://www.osce.org)
+- [OSCE - Farewell Remarks by Ambassador James S. Gilmore III](https://osce.usmission.gov/farewell-remarks-to-the-osce-by-ambassador-james-s-gilmore-iii/)
 - [Wikipedia - James S. Gilmore III](https://en.wikipedia.org/wiki/James_S._Gilmore_III)
-- [Just Security - Ambassador James S. Gilmore III Profile](https://www.justsecurity.org)
+- [Just Security - Ambassador James S. Gilmore III Profile](https://www.justsecurity.org/author/gilmorejames/)

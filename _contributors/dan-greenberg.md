@@ -22,6 +22,6 @@ Dan Greenberg has not been involved in any major personal scandals. His professi
 Greenberg’s advocacy for deregulation and free-market policies can be contentious. Critics argue that these positions may lead to insufficient oversight and regulation, potentially favoring corporate interests over consumer and environmental protections. His work often challenges progressive regulatory frameworks, attracting significant opposition from those who advocate for stronger regulatory measures.
 
 ### Sources
-- [Heritage Foundation - Project 2025 Partners](https://www.heritage.org/press/project-2025-continues-grow-60-partners-preparing-next-presidential-administration)
-- [ProPublica - Inside Project 2025](https://www.propublica.org/article/14-hours-videos-project-2025-conservative-agenda)
-- [NBC News - Trump and Project 2025](https://www.nbcnews.com/news/trump-project-2025-overhaul-federal-government)
+- [Heritage Foundation - New Leadership Proposals Still Leave Congress Above the Law](https://www.heritage.org/political-process/report/new-leadership-proposals-still-leave-congress-above-the-law)
+- [ProPublica - Inside Project 2025](https://www.propublica.org/article/video-project-2025-presidential-training-academy-trump-election)
+- [NBC News - Trump and Project 2025](https://www.nbcnews.com/now/video/trump-distances-himself-from-controversial-project-2025-plan-214443589611)

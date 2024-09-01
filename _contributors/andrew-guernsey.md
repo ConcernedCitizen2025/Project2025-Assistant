@@ -24,4 +24,4 @@ Guernsey’s strong pro-life stance and conservative advocacy can be contentious
 ### Sources
 - [Hillsdale College](https://dc.hillsdale.edu/Profiles/Andrew-Guernsey/)
 - [FIRE](https://www.thefire.org/news/pro-life-group-fights-recognition-campus-qa-andrew-guernsey)
-- [Axios](https://www.axios.com/2023/10/11/steve-scalise-trump-2024-agenda)
+- [Axios](https://www.axios.com/2024/07/10/trump-undecided-voters-plan-election-2024)

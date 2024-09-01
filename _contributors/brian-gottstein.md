@@ -22,4 +22,5 @@ Brian Gottstein has not been involved in any major personal scandals. His profes
 Gottstein’s work at The Heritage Foundation may draw criticism, particularly from those who oppose the conservative stances advocated by the foundation. These positions, often seen as supporting corporate interests and conservative social policies, may be contentious, especially among progressive groups who argue that they marginalize the needs of disadvantaged populations.
 
 ### Sources
-- [The Heritage Foundation - Project 2025](https://www.heritage.org/press/project-2025-continues-grow-60-partners-preparing-next-presidential-administration)
+- [The Heritage Foundation - Project 2025](https://www.heritage.org/staff/brian-gottstein)
+- [The Org](https://theorg.com/org/live-action/org-chart/brian-gottstein)

@@ -23,5 +23,5 @@ Grisedale’s strong advocacy for conservative policies, particularly those that
 
 ### Sources
 - [American Cornerstone Institute - Trump v. United States](https://americancornerstone.org/aci-legal-briefs-trump-v-united-states)
-- [The American Conservative - Garrison Grisedale Profile](https://www.theamericanconservative.com)
-- [Hillsdale College D.C. - Garrison Grisedale](https://dc.hillsdale.edu)
+- [The American Conservative - Garrison Grisedale Profile](https://www.theamericanconservative.com/author/garrison-grisedale/)
+- [Hillsdale College D.C. - Garrison Grisedale](https://dc.hillsdale.edu/Profiles/Garrison-Grisedale/)

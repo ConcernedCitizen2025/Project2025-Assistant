@@ -22,7 +22,7 @@ Patty-Jane Geller has not been involved in any major personal scandals. Her work
 Geller's advocacy for robust nuclear deterrence and the expansion of missile defense systems can be contentious. Critics may argue that such positions contribute to global arms races and increased militarization, which could escalate international tensions. Her support for modernizing the U.S. nuclear arsenal often faces opposition from those who prioritize arms control and disarmament efforts.
 
 ### Sources
-- [Heritage Foundation](https://www.heritage.org)
-- [Hudson Institute](https://www.hudson.org)
-- [National Interest](https://nationalinterest.org)
-- [CNS News](https://cnsnews.com)
+- [Heritage Foundation](https://www.heritage.org/staff/patty-jane-geller)
+- [Hudson Institute](https://www.hudson.org/experts/1454-patty-jane-geller)
+- [National Interest](https://nationalinterest.org/profile/patty-jane-geller)
+- [The Daily Signal](https://www.dailysignal.com/author/patty-jane-geller/)

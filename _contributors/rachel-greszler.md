@@ -23,5 +23,5 @@ Greszler's advocacy for reducing government spending and promoting conservative 
 
 ### Sources
 - [The Heritage Foundation - Rachel Greszler](https://www.heritage.org/staff/rachel-greszler)
-- [Congress.gov - Rachel Greszler](https://www.congress.gov)
+- [Congress.gov - Rachel Greszler](https://www.congress.gov/event/116th-congress/house-event/110312)
 - [The Federalist Society - Rachel Greszler](https://fedsoc.org/contributors/rachel-greszler)

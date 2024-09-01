@@ -23,5 +23,5 @@ Gribbin’s advocacy for public-private partnerships in infrastructure can be co
 
 ### Sources
 - [Madrus Consulting - DJ Gribbin](https://www.madrus.us/dj-gribbin)
-- [The Hill - Trump Infrastructure Policy](https://thehill.com/homenews/administration/381658-trump-infrastructure-policy-adviser-to-leave-white-house/)
-- [Project 2025 Overview - ProPublica](https://www.propublica.org/article/project-2025-videos-training)
+- [The Hill - Trump Infrastructure Policy](https://thehill.com/policy/transportation/381489-white-house-infrastructure-policy-official-leaving/)
+- [Project 2025 Overview - ProPublica](https://www.propublica.org/article/inside-project-2025-secret-training-videos-trump-election)
