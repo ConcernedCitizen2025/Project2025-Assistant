@@ -23,5 +23,5 @@ Di Pane’s advocacy for increased defense spending and robust military policies
 
 ### Sources
 - [Heritage Foundation - James Di Pane Profile](https://www.heritage.org/staff/james-di-pane)
-- [Right Wing Watch - Heritage Foundation and Trumpism](https://www.rightwingwatch.org)
-- [Heritage Foundation - Global Threats and Defense Budget](https://www.heritage.org/defense/commentary/global-threats-are-high-now-not-time-shortchange-national-defense-budget)
+- [Right Wing Watch - Heritage Foundation and Trumpism](https://www.rightwingwatch.org/post/trump-v-p-pick-j-d-vance-wrote-intro-to-new-book-by-heritage-president-kevin-roberts/)
+- [Heritage Foundation - Global Threats and Defense Budget](https://www.heritage.org/defense/report/conservative-defense-budget-fiscal-year-2025)

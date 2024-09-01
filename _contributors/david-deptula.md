@@ -23,7 +23,7 @@ Deptula’s influence in military and defense strategy, especially through his r
 
 ### Sources
 - [Wikipedia - David Deptula](https://en.wikipedia.org/wiki/David_Deptula)
-- [Air Force Biography](https://www.af.mil/About-Us/Biographies/Display/Article/104611/lieutenant-general-david-a-deptula/)
-- [Air Force Times - Controversies](https://www.airforcetimes.com/news/your-air-force/2014/11/14/former-air-force-general-debarred-by-general-counsel/)
+- [Air Force Biography](https://www.af.mil/About-Us/Biographies/Display/Article/104634/lieutenant-general-david-a-deptula/)
+- [Air Force Times - Controversies](https://www.airforcetimes.com/news/pentagon-congress/2014/11/14/former-air-force-general-debarred-by-general-counsel/)
 - [Washington Institute](https://www.washingtoninstitute.org/experts/david-deptula)
 - [The Nation](https://www.thenation.com/article/politics/trump-pentagon-tata-racism/)

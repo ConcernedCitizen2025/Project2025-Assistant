@@ -22,6 +22,5 @@ John Ehrett has not been involved in any major personal scandals. However, his r
 Working as Legal Counsel for a high-profile and often controversial senator like Josh Hawley can involve navigating highly contentious policy issues and public debates. Senator Hawley has been a prominent figure in various political controversies, and his stances on issues such as tech regulation, election integrity, and conservative social policies can attract significant scrutiny. Ehrett's role in supporting these initiatives may draw criticism from political opponents and advocacy groups.
 
 ### Sources
-- [Office of Senator Josh Hawley - Staff Directory](https://www.hawley.senate.gov/staff)
-- [Yale Law School - Alumni Profile: John Ehrett](https://law.yale.edu/john-ehrett)
+- [Legistorm](https://www.legistorm.com/person/bio/366890/John_S_Ehrett.html)
 - [Wikipedia - Josh Hawley](https://en.wikipedia.org/wiki/Josh_Hawley)

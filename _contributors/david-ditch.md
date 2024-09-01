@@ -22,4 +22,5 @@ David Ditch has not been involved in any major personal scandals. His profession
 Ditch’s work at The Heritage Foundation involves advocating for reduced government spending and fiscal conservatism, which are often contentious topics in public policy debates. Critics may argue that his positions on cutting government programs and reducing federal spending could negatively impact social services and public welfare. His alignment with The Heritage Foundation’s conservative viewpoints can also be polarizing, particularly in discussions about the role of government in economic management.
 
 ### Sources
+- [The Heritage Foundation](https://www.heritage.org/staff/david-ditch)
 - [Giving Compass - The Goals of the Heritage Foundation and Project 2025](https://givingcompass.org/article/the-goals-of-the-heritage-foundation-and-project-2025)

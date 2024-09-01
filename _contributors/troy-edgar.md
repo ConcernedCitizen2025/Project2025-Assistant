@@ -23,5 +23,5 @@ Edgar’s transition from a significant government role to a leadership position
 
 ### Sources
 - [Department of Homeland Security - Troy Edgar Profile](https://www.dhs.gov/archive/person/troy-d-edgar)
-- [HSToday - Troy Edgar Nominated as DHS CFO](https://www.hstoday.us/federal-pages/dhs/calif-businessman-troy-d-edgar-nominated-for-cfo-department-of-homeland-security/)
-- [IBM Center for The Business of Government - Troy Edgar](https://www.businessofgovernment.org/)
+- [HSToday - Troy Edgar Nominated as DHS CFO](https://www.hstoday.us/federal-pages/dhs/troy-d-edgar-nominated-for-chief-financial-officer-department-of-homeland-security/)
+- [IBM Center for The Business of Government - Troy Edgar](https://www.businessofgovernment.org/bio/troy-edgar)
