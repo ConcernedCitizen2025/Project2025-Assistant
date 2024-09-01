@@ -22,6 +22,6 @@ Jason Hayes has not been involved in any major personal scandals. However, his w
 Hayes's advocacy for free-market environmental policies can be contentious. Critics argue that his positions may favor industrial and corporate interests at the expense of environmental protection. His work often involves challenging environmental regulations, which can attract significant opposition from environmental groups and public health advocates.
 
 ### Sources
-- [Mackinac Center - Jason Hayes Profile](https://www.mackinac.org)
+- [Mackinac Center - Jason Hayes Profile](https://www.mackinac.org/about/staff/752)
 - [PERC - Jason Hayes Profile](https://www.perc.org/people/jason-hayes)
-- [Mackinac Center - Energy and Environmental Policy](https://www.mackinac.org)
+- [Mackinac Center - Energy and Environmental Policy](https://www.mackinac.org/environment)

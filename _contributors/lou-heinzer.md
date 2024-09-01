@@ -22,5 +22,5 @@ Lou Heinzer has not been involved in any major personal scandals. However, his p
 Heinzer's advocacy for shared services and government efficiency, especially through his work at Deloitte, may raise concerns among those wary of the privatization of public sector functions. His political contributions also suggest an engagement with political processes, which could be a point of concern for those examining the influence of private sector professionals on public policy.
 
 ### Sources
-- [Wiza - Louis Heinzer Profile](https://wiza.co/deloitte-louis-heinzer)
-- [Campaign Money - Louis Heinzer Contributions](https://www.campaignmoney.com/louis-heinzer)
+- [Fast Company](https://www.fastcompany.com/90687909/a-race-to-the-finish-how-the-department-of-commerce-created-a-return-to-work-policy-at-hyperspeed)
+- [Campaign Money - Louis Heinzer Contributions](https://www.campaignmoney.com/individual.asp?pg=7&cycle=14&candidateID=S6LA00227&statename=Virginia&statecode=VA&cname=BEN%2DDOV%2C+ZOHAR&prevpage=1)

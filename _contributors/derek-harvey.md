@@ -23,5 +23,5 @@ Harvey's involvement in contentious national security and foreign policy decisio
 
 ### Sources
 - [Wikipedia - Derek Harvey](https://en.wikipedia.org/wiki/Derek_Harvey)
-- [NBC News - New Evidence on Nunes Aide Derek Harvey](https://www.nbcnews.com/news/amp/ncna1117526)
-- [Salon - Nunes Aide Involved in Ukraine Investigation](https://www.salon.com/2020/01/17/lev-parnas-tells-congress-devin-nunes-aide-derek-harvey-coordinated-with-him-to-get-dirt-on-bidens/)
+- [NBC News - New Evidence on Nunes Aide Derek Harvey](https://www.nbcnews.com/politics/politics-news/new-evidence-shows-nunes-aide-communicated-parnas-ukraine-n1118251)
+- [Salon - Nunes Aide Involved in Ukraine Investigation](https://www.salon.com/2019/11/21/indicted-giuliani-associate-lev-parnas-helped-devin-nunes-with-investigations-in-europe/)

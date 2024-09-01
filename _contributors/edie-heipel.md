@@ -22,6 +22,6 @@ Edie Heipel has not been personally involved in any major scandals. However, her
 Heipel’s firm alignment with conservative principles and her active role in discussing contentious issues could attract criticism from opposing political factions. Her writings and public statements, particularly on sensitive social issues, might lead to heightened scrutiny and debate.
 
 ### Sources
-- [Catholic News Agency - Edie Heipel Profile](https://www.catholicnewsagency.com/)
+- [Catholic News Agency - Edie Heipel Profile](https://www.catholicnewsagency.com/author/740/edie-heipel)
 - [Townhall - Edie Heipel’s Articles](https://townhall.com/columnists/edieheipel)
-- [Townhall - Not Satire: Ethically-Challenged WHO Wants to Take Lead on the Ethics of Human Genome Editing](https://townhall.com/columnists/edieheipel/2021/09/09/not-satire-ethicallychallenged-who-wants-to-take-lead-on-the-ethics-of-human-genome-editing-n2595564)
+- [Townhall - Not Satire: Ethically-Challenged WHO Wants to Take Lead on the Ethics of Human Genome Editing](https://townhall.com/columnists/edieheipel/2021/09/09/not-satire--ethicallychallenged-who-wants-to-take-lead-on-the-ethics-of-human-genome-editing-n2595524)

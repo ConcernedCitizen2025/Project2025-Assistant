@@ -23,4 +23,4 @@ Harlow’s involvement in the Trump administration's EPA and his continued advoc
 
 ### Sources
 - [E&E News - Conservatives gear up for EPA revamp in 2025](https://www.eenews.net/articles/conservatives-gear-up-for-epa-revamp-in-2025/)
-- [KQED - Project 2025 and Trump’s Disassociation](https://www.kqed.org/news/whats-in-project-2025-and-why-trump-is-publicly-distancing-himself)
+- [KQED - Project 2025 and Trump’s Disassociation](https://www.kqed.org/news/11998288/what-is-project-2025-donald-trump-heritage-foundation-director-steps-down)
