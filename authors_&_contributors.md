@@ -162,7 +162,7 @@ title: "Authors and Contributors"
 - [Jeffrey Gunter](/contributors/jeffrey-gunter.html) served as U.S. Ambassador to Iceland during the Trump administration.
 - [Joe Guy](/contributors/joe-guy.html)
 - [Joseph Guzman](/contributors/joseph-guzman.html) served as Co-Chair for Michigan in the Trump Presidential Campaign.
-- [Amalia Halikias](/contributors/amalia-halikias.html) works at The Heritage Foundation, an organization that significantly influenced policies during the Trump administration.
+- [Amalia Halikias](/contributors/amalia-halikias.html)’s work at The Heritage Foundation and her connections with Trump allies like J.D. Vance underscore her strong connection with the Trump administration.
 - [Gene Hamilton](/authors/gene-hamilton.html) served as Counsel to the Attorney General at the Department of Justice (DOJ) during the Trump administration, working closely with Attorney General Jeff Sessions.
 - [Richard Hanania](/contributors/richard-hanania.html)
 - [Simon Hankinson](/contributors/simon-hankinson.html) served as a policy researcher at The Heritage Foundation during the Trump administration.
