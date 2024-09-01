@@ -22,6 +22,6 @@ Baruch Feigenbaum has not been involved in any major personal scandals. His work
 Feigenbaum's advocacy for privatization and market-based solutions in transportation can be controversial. Critics argue that such policies may prioritize profit over public interest, potentially leading to reduced accessibility and equity in transportation services. Debates over funding mechanisms such as tolling and public-private partnerships often attract significant public and political scrutiny, with concerns about their long-term impact on public infrastructure.
 
 ### Sources
-- [Reason Foundation](https://www.reason.org)
-- [Heartland Institute](https://www.heartland.org)
-- [Georgia Public Policy Foundation](https://www.georgiapolicy.org)
+- [Reason Foundation](https://reason.org/author/baruch-feigenbaum/)
+- [Heartland Institute](https://heartland.org/about-us/who-we-are/baruch-feigenbaum/)
+- [Georgia Public Policy Foundation](https://www.georgiapolicy.org/search/?_search=baruch+feigenbaum)

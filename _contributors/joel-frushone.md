@@ -22,6 +22,7 @@ Joel Frushone has not been involved in any major personal scandals. However, his
 As the head of communications for a major government agency, Frushone's role involves managing how USAID's activities and policies are presented to the public. This can include handling sensitive information and navigating complex international relations issues. Critics may scrutinize the transparency and effectiveness of USAID's communications, especially in areas involving significant international aid and development projects.
 
 ### Sources
-- [ProPublica - Trump Administration’s Changes to USAID Policy](https://www.propublica.org)
-- [CSIS - Memo to Incoming USAID Leadership](https://www.csis.org)
-- [KFF - USAID Leadership Changes](https://www.kff.org)
+- [National Association of Counties](https://www.naco.org/people/joel-frushone)
+- [ProPublica - Trump Administration’s Changes to USAID Policy](https://www.propublica.org/article/erased-from-the-trump-administrations-draft-of-a-key-foreign-aid-policy-any-mention-of-lgbt-people)
+- [A Deeper Look Into Project 2025](https://unicornriot.ninja/2024/a-deeper-look-into-project-2025-far-right-political-funding-and-propaganda/)
+- [KFF - USAID Leadership Changes](https://www.kff.org/news-summary/white-house-announces-usaid-acting-head-amid-resignation-of-administrator-green/)

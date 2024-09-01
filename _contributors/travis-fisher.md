@@ -22,6 +22,6 @@ Travis Fisher has not been involved in any major personal scandals. However, his
 Fisher’s strong advocacy for deregulation in the energy sector and his support for fossil fuels can be contentious. Critics argue that such positions may undermine efforts to address climate change and transition to renewable energy sources. His stance on reducing environmental regulations can attract opposition from environmental groups and those advocating for more aggressive climate policies.
 
 ### Sources
+- [EcoWatch - Meet the Man Who Said: Clean Energy Policies Are a Greater Threat Than Terrorism](https://www.ecowatch.com/perry-grid-study-travis-fisher-2426871580.html)
 - [Heritage Foundation - Travis Fisher Profile](https://www.heritage.org/staff/travis-fisher)
-- [ProPublica - Travis Fisher Profile](https://projects.propublica.org/trumptown/staffers/travis-scott-fisher)
-- [EcoWatch - Travis Fisher on Clean Energy](https://www.ecowatch.com)
+- [ProPublica - Travis Fisher Profile](https://projects.propublica.org/trump-town/staffers/travis-scott-fisher)

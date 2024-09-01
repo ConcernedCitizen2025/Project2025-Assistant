@@ -24,4 +24,4 @@ Working in the rapidly evolving field of cryptocurrency and financial technology
 ### Sources
 - [The King's College](https://www.tkc.edu/people/alexandra-harrison-gaiser/)
 - [Strive Asset Management](https://www.strive.com/bio/alexandra-gaiser)
-- [Federalist Society](https://fedsoc.org/contributors/alexandra-gaiser)
+- [Federalist Society](https://fedsoc.org/contributors/alexandra-harrison)

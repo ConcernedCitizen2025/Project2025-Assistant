@@ -24,5 +24,5 @@ Friedman’s work in tax policy and his role in shaping significant tax legislat
 
 ### Sources
 - [ABA Journal](https://www.abajournal.com/news/article/tax_counsel_to_house_panel_is_a_target_for_public_attack_after_refusing_his/)
-- [POLITICO](https://www.politico.com/news/2021/05/26/more-trump-officials-k-street-490542)
-- [Roll Call](https://rollcall.com/2023/08/17/newer-crop-of-tax-writers-prepares-to-take-on-legacy-2017-law/)
+- [POLITICO](https://www.politico.com/newsletters/politico-influence/2021/05/26/more-trump-administration-officials-head-to-k-street-795572)
+- [Roll Call](https://rollcall.com/2024/07/01/newer-crop-of-tax-writers-prepares-to-take-on-legacy-2017-law/)

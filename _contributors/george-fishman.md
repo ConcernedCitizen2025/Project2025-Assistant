@@ -22,6 +22,6 @@ Fishman has been involved in several controversial policy debates, particularly 
 Fishman's strong advocacy for stricter immigration controls and enforcement is highly contentious. Critics argue that the policies he supports may contribute to harsh treatment of immigrants and undermine the rights of undocumented individuals, leading to significant opposition from immigrant rights groups and advocates.
 
 ### Sources
-- [CIS - George Fishman Profile](https://cis.org)
-- [The College Fix - Trump Official Challenges Hiring Undocumented Immigrants at Universities](https://www.thecollegefix.com)
-- [Rolling Stone - Trump's Plan for Mass Deportations](https://www.rollingstone.com)
+- [CIS - George Fishman Profile](https://cis.org/Fishman)
+- [The College Fix - Trump Official Challenges Hiring Undocumented Immigrants at Universities](https://www.thecollegefix.com/trump-official-challenges-claim-public-universities-can-hire-illegal-immigrants/)
+- [Rolling Stone - Trump's Plan for Mass Deportations](https://www.rollingstone.com/politics/politics-features/trump-archaic-law-mass-deportations-1234941671/)

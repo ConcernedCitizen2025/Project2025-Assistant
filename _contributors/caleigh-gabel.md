@@ -22,4 +22,5 @@ Caleigh Gabel has not been involved in any major personal scandals. Her work at 
 As Director of Operations at a politically active think tank, Gabel's work involves supporting initiatives that can be highly contentious. The American Cornerstone Institute's focus on conservative social policies, religious freedom, and traditional family values can attract significant public and political debate. Critics may scrutinize the organization's activities and funding sources, as well as its influence on public policy.
 
 ### Sources
-- [AOL - Trump Disavows Project 2025](https://www.aol.com/news/trump-disavows-project-2025-long-215600149.html)
+- [AOL - Trump Disavows Project 2025](https://www.aol.com/news/trump-disavows-project-2025-longstanding-202718929.html)
+- [American Cornerstone Institute](https://americancornerstone.org/about/)
