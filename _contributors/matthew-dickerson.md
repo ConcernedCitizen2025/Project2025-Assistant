@@ -22,6 +22,6 @@ Matthew Dickerson has not been involved in any major personal scandals. His prof
 Dickerson's advocacy for reduced government spending and fiscal responsibility can be contentious, especially when it involves cutting social services and welfare programs. Critics argue that such positions could disproportionately affect vulnerable populations. His alignment with The Heritage Foundation's conservative viewpoints further polarizes discussions about the role of government in economic management.
 
 ### Sources
-- [Heritage Foundation - Matthew Dickerson Profile](https://www.heritage.org/staff/matthew-dickerson)&#8203;:contentReference[oaicite:0]{index=0}
-- [EPIC for America - Leadership](https://epicforamerica.org/leadership-team/matthew-dickerson/)&#8203;:contentReference[oaicite:1]{index=1}
-- [19FortyFive - Commentary by Matthew Dickerson](https://www.19fortyfive.com/)&#8203;:contentReference[oaicite:2]{index=2}
+- [Heritage Foundation - Matthew Dickerson Profile](https://www.heritage.org/staff/matthew-dickerson)
+- [EPIC for America - Leadership](https://epicforamerica.org/leadership-team/matthew-dickerson/)
+

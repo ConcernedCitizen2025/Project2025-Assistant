@@ -23,5 +23,5 @@ Working at Booz Allen Hamilton, which is deeply involved in government contracts
 
 ### Sources
 - [UNICORN RIOT - A Deeper Look Into Project 2025](https://unicornriot.ninja/2024/a-deeper-look-into-project-2025-far-right-political-funding-and-propaganda/)
-- [Newsweek - Ex-Trump Administration Officials Involved in Project 2025](https://www.newsweek.com)
-- [Antagonist Magazine - Do Major Corporations Have a Problem Being Associated With Project 2025?](https://www.antagonistmag.com)
+- [Newsweek - Ex-Trump Administration Officials Involved in Project 2025](https://www.newsweek.com/project-2025-ex-trump-contributors-republicans-election-1922933)
+- [Antagonist Magazine - Do Major Corporations Have a Problem Being Associated With Project 2025?](https://www.antagonistmag.com/2024/07/19/do-major-corporations-have-a-problem-being-associated-with-project-2025/)

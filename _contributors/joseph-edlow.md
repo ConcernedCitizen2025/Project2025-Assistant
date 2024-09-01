@@ -22,6 +22,6 @@ Joseph Edlow has not been involved in any major personal scandals. However, his 
 Edlow's work in immigration policy, both at USCIS and The Heritage Foundation, often involves advocating for stricter immigration controls and enforcement, which can be highly contentious. Critics argue that such policies can be exclusionary and may undermine the rights of immigrants. His positions on immigration reform and enforcement can attract significant debate and opposition from immigration advocates and progressive groups.
 
 ### Sources
-- [The Heritage Foundation - Joseph Edlow Profile](https://www.heritage.org/staff/joseph-edlow)
-- [USCIS - Past Policy Initiatives](https://www.uscis.gov/policy-and-law)
-- [Wikipedia - Trump administration immigration policy](https://en.wikipedia.org/wiki/Trump_administration_immigration_policy)
+- [The Heritage Foundation - Joseph Edlow Profile](https://www.heritage.org/staff/joe-edlow)
+- [USCIS - Past Policy Initiatives](https://www.uscis.gov/policy-manual)
+- [The Edlow Group](https://www.edlowgroup.com/about-us/#founder)

@@ -22,6 +22,5 @@ Natalie Dodson has not been involved in any major personal scandals. Her work, p
 As a policy analyst focusing on contentious issues such as gender ideology and religious liberty, Dodson's work at EPPC can attract criticism from those with differing views, particularly regarding the center’s conservative stance on these issues. The scrutiny of funding sources and the transparency of EPPC’s fundraising processes may also be areas of concern.
 
 ### Sources
-- [Ethics & Public Policy Center - Natalie Dodson](https://eppc.org/people/natalie-dodson/)
+- [Ethics & Public Policy Center - Natalie Dodson](https://eppc.org/author/ndodson/)
 - [Wikipedia - Ethics & Public Policy Center](https://en.wikipedia.org/wiki/Ethics_and_Public_Policy_Center)
-- [EPPC Staff Directory](https://eppc.org/about/staff/)

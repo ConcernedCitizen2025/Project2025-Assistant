@@ -24,4 +24,4 @@ In the legal field, especially in international arbitration and commercial litig
 ### Sources
 - [Allen & Overy - C. Wallace DeWitt](https://www.aoshearman.com/people/c-wallace-dewitt)
 - [OpenGovNY - Charles Wallace DeWitt](https://opengovny.com/attorney/4684916)
-- [Elite Trader - Republican's Leadership Plan for 2025](https://www.elitetrader.com)
+- [Elite Trader - Republican's Leadership Plan for 2025](https://www.elitetrader.com/et/threads/republicans-leadership-plan-for-2025-and-beyond-project-2025.376274/)

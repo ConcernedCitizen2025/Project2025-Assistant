@@ -23,4 +23,4 @@ The Fairness Center's strong stance against certain union practices and its advo
 
 ### Sources
 - [The Federalist Society - Dave Dorey](https://fedsoc.org/contributors/david-dorey)
-- [Elite Trader - Project 2025 Overview](https://www.elitetrader.com)
+- [Elite Trader - Project 2025 Overview](https://www.elitetrader.com/et/threads/republicans-leadership-plan-for-2025-and-beyond-project-2025.376274/)
