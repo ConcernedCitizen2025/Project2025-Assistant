@@ -22,5 +22,5 @@ Caroline DeBerry has not been involved in any major personal scandals. Her profe
 As Director of Communications at a healthcare policy think tank, DeBerry’s work involves advocating for healthcare reforms that may be contentious. The institute's positions on healthcare access, insurance reform, and public health can attract criticism from those with differing views. Her role requires a careful balance between promoting the institute’s research and maintaining credibility in public communications.
 
 ### Sources
-- [Paragon Health Institute - Our Team](https://paragoninstitute.org/our-team/)
-- [PR Newswire - Paragon Health Institute](https://www.prnewswire.com/news-releases/ex-trump-advisors-urge-new-approach-to-health-care-taxes-in-2025-301663738.html)
+- [Paragon Health Institute - Our Team](https://paragoninstitute.org/private-health/group-of-health-policy-experts-submits-letter-advising-against-administrative-fix-to-affordable-care-act-family-glitch/)
+- [PR Newswire - Paragon Health Institute](https://www.prnewswire.com/news-releases/ex-trump-advisors-urge-new-approach-to-health-care-taxes-in-2025-302157107.html)
