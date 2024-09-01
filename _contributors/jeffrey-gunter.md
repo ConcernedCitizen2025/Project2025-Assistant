@@ -22,6 +22,6 @@ Gunter's tenure as Ambassador to Iceland was marked by several controversies. A 
 Gunter’s diplomatic service and his involvement in Republican politics, particularly his strong alignment with Trump’s policies, can be contentious. Critics have raised concerns about his diplomatic decisions during his time as ambassador, including his management of the U.S. embassy in Iceland and his approach to U.S.-Iceland relations. His positions, which reflect the broader goals of the Republican Jewish Coalition, can be polarizing in the context of U.S. foreign and domestic policy.
 
 ### Sources
-- [POLITICO - The GOP Senate candidate whose Trump ambassador stint is coming back to haunt him](https://www.politico.com)
-- [KNPR - Jeff Gunter, a dermatologist who was Trump’s ambassador to Iceland, is running for Nevada Senate](https://www.knpr.org)
-- [NBC News - A GOP Senate candidate touts 'love' for his patients. Some told a different story](https://www.nbcnews.com)
+- [POLITICO - The GOP Senate candidate whose Trump ambassador stint is coming back to haunt him](https://www.politico.com/news/2023/08/14/jeffrey-gunter-trump-ambassador-nevada-00110865)
+- [KNPR - Jeff Gunter, a dermatologist who was Trump’s ambassador to Iceland, is running for Nevada Senate](https://knpr.org/news-88-9-knpr/2023-08-09/jeff-gunter-a-dermatologist-who-was-trumps-ambassador-to-iceland-is-running-for-nevada-senate)
+- [NBC News - A GOP Senate candidate touts 'love' for his patients. Some told a different story](https://www.nbcnews.com/politics/2024-election/gop-senate-candidate-touts-love-patients-told-different-story-harsh-re-rcna155135)

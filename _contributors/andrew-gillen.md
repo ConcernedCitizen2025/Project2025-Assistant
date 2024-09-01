@@ -22,6 +22,7 @@ Andrew Gillen has not been involved in any major personal scandals. However, his
 Gillen’s advocacy for education reform, particularly his focus on reducing government involvement and promoting market-based solutions, can be contentious. Critics may argue that such positions could undermine public education and access to higher education for low-income students. Debates over the role of government in education, student loan policies, and funding for public universities are often highly polarized.
 
 ### Sources
-- [Inside Higher Ed](https://www.insidehighered.com)
+- [Inside Higher Ed](https://www.insidehighered.com/news/government/politics-elections/2024/07/18/second-trump-term-could-bring-more-pressure-higher-ed)
 - [James G. Martin Center for Academic Renewal](https://www.jamesgmartin.center/author/agillen/)
-- [Texas Public Policy Foundation](https://www.texaspolicy.com)
+- [Texas Public Policy Foundation](https://www.texaspolicy.com/about/people/andrew-gillen/)
+- [Cato Institute](https://www.cato.org/people/andrew-gillen)

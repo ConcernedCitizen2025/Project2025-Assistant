@@ -22,6 +22,6 @@ David Gortler has not been involved in any major personal scandals. However, his
 Gortler's strong views on drug regulation and health policy can be contentious. Critics argue that his emphasis on deregulation and market-based solutions might prioritize industry interests over patient safety and public health. His role in both the FDA and EPPC positions him in the middle of debates over the appropriate level of government intervention in healthcare and drug safety.
 
 ### Sources
-- [Ethics & Public Policy Center - David Gortler](https://eppc.org)
-- [ProPublica - Inside Project 2025](https://www.propublica.org/article/project-2025-training-videos)
-- [Yale School of Medicine - David Gortler’s Role at FDA](https://medicine.yale.edu/news/yale-medicine-magazine/yale-senior-advisor-to-the-fda-commissioner/)
+- [Ethics & Public Policy Center - David Gortler](https://eppc.org/author/david_gortler/)
+- [ProPublica - Inside Project 2025](https://www.propublica.org/article/inside-project-2025-secret-training-videos-trump-election)
+- [Yale School of Medicine - David Gortler’s Role at FDA](https://medicine.yale.edu/news/yale-medicine-magazine/article/yales-senior-advisor-to-the-fda-commissioner/)

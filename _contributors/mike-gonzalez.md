@@ -23,5 +23,5 @@ Gonzalez's advocacy on contentious issues such as immigration and identity polit
 
 ### Sources
 - [Heritage Foundation - Mike Gonzalez Profile](https://www.heritage.org/staff/mike-gonzalez)
-- [Hudson Institute - Mike Gonzalez Bio](https://www.hudson.org/experts/1487-mike-gonzalez)
+- [Hudson Institute - Mike Gonzalez Bio](https://www.hudson.org/domestic-policy/aftermath-of-a-perfect-storm)
 - [Encounter Books - Mike Gonzalez](https://www.encounterbooks.com/authors/mike-gonzalez)

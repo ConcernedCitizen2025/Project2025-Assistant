@@ -22,6 +22,6 @@ Joe Guy has not been involved in any major personal scandals. His professional w
 Guy’s advocacy for conservative economic policies, particularly those that benefit corporate interests and higher-income individuals, can be contentious. Critics argue that such positions may neglect broader economic equity and contribute to income inequality. His alignment with the Club for Growth's strategies, which sometimes prioritize ideological purity over electability in GOP primaries, can also be polarizing within the party.
 
 ### Sources
-- [Just The News - Trump says he's 'back in love' with Club for Growth after feud](https://www.justthenews.com)
-- [Politico - The one thing Trump and McConnell agree on: A hatred for this group](https://www.politico.com)
-- [Club for Growth - News](https://www.clubforgrowth.org)
+- [Just The News - Trump says he's 'back in love' with Club for Growth after feud](https://justthenews.com/politics-policy/all-things-trump/trump-says-hes-back-love-powerful-club-growth-after-feud)
+- [Politico - The one thing Trump and McConnell agree on: A hatred for this group](https://www.politico.com/news/2023/04/18/republicans-club-for-growth-senate-00092440)
+- [Wikipedia - Club for Growth](https://en.wikipedia.org/wiki/Club_for_Growth)

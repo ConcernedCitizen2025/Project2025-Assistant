@@ -23,5 +23,5 @@ As Executive Director of a defense-focused organization, Gore’s work involves 
 
 ### Sources
 - [Defense Forum Foundation - Mission and History](https://defenseforumfoundation.org/about/history-and-mission.html)
-- [SourceWatch - Chadwick R. Gore](https://www.sourcewatch.org/index.php/Chadwick_R._Gore)
+- [Leadership Institute](https://www.leadershipinstitute.org/training/contact.cfm?FacultyID=2063289)
 - [The Seniors Trust - Chadwick R. Gore](https://theseniorstrust.org/our-executive-director/)

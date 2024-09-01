@@ -22,6 +22,6 @@ Joseph Grogan has not been involved in any major personal scandals. His professi
 Grogan's involvement in regulatory reform and healthcare policy during his tenure in the Trump administration can be contentious. Critics may argue that his policies favored deregulation at the expense of patient safety and public health. His positions on healthcare policy are often subject to debate, especially among those who advocate for more robust regulatory oversight.
 
 ### Sources
-- [USC Schaeffer School for Health Policy and Economics - Joseph Grogan Profile](https://healthpolicy.usc.edu/joseph-grogan)
-- [Health Affairs - Regulatory Reform During the Trump Administration](https://www.healthaffairs.org/regulatory-reform)
-- [Wikipedia - Trump administration healthcare policy](https://en.wikipedia.org/wiki/Trump_administration_healthcare_policy)
+- [USC Schaeffer School for Health Policy and Economics - Joseph Grogan Profile](https://healthpolicy.usc.edu/author/joseph-grogan/)
+- [Health Affairs - Regulatory Reform During the Trump Administration](https://www.healthaffairs.org/content/forefront/trump-administration-regulatory-rebalancing-favors-religious-and-moral-freedom-over)
+- [Wikipedia - Trump administration healthcare policy](https://en.wikipedia.org/wiki/Healthcare_reform_in_the_United_States#Trump_administration_efforts)

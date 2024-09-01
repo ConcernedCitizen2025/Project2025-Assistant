@@ -24,4 +24,4 @@ Ginn's strong stance on reducing government intervention in the economy can be p
 ### Sources
 - [Mackinac Center for Public Policy - Vance Ginn Profile](https://www.mackinac.org/bio.aspx?ID=883)
 - [Vance Ginn - Official Website](https://www.vanceginn.com)
-- [Seay the Future Podcast - Vance Ginn](https://podcasts.apple.com)
+- [Seay the Future Podcast - Vance Ginn](https://podcasts.apple.com/us/podcast/dr-vance-ginn-chief-economist-texas-public-policy-foundation/id1536805708?i=1000500852596)

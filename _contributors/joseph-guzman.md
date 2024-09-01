@@ -22,6 +22,5 @@ Joseph Guzman has not been involved in any major personal scandals. His professi
 Guzman's active participation in the Trump campaign can be contentious, particularly among those who oppose the policies and initiatives of the Trump administration. His academic work in economic policy and labor relations may also attract scrutiny from those who disagree with his policy positions or perceive them as aligned with a controversial political figure.
 
 ### Sources
-- [Michigan State University - Joseph Guzman Profile](https://hrlr.msu.edu/joseph-guzman)
 - [C-SPAN Video Library - Joseph Guzman Appearances](https://www.c-span.org/person/?josephguzman)
 - [Wikipedia - 2016 Trump Presidential Campaign](https://en.wikipedia.org/wiki/Donald_Trump_2016_presidential_campaign)
