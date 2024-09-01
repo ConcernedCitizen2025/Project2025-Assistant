@@ -24,4 +24,4 @@ Homan's tenure at ICE and his ongoing advocacy for strict immigration enforcemen
 ### Sources
 - [Heritage Foundation - Tom Homan Profile](https://www.heritage.org/staff/tom-homan)
 - [Wikipedia - Tom Homan](https://en.wikipedia.org/wiki/Thomas_Homan)
-- [Politico - Trump’s Former ICE Director on Future Immigration Policy](https://www.politico.com)
+- [Politico - Trump’s Former ICE Director on Future Immigration Policy](https://www.politico.com/story/2019/06/14/trump-ice-homan-border-czar-1531769)

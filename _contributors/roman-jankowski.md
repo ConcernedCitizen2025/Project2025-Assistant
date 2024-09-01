@@ -23,4 +23,4 @@ Jankowski's investigative work frequently targets progressive policies, which ca
 
 ### Sources
 - [The Heritage Foundation - Roman Jankowski](https://www.heritage.org/staff/roman-jankowski)
-- [The Daily Signal - Roman Jankowski Author Page](https://www.dailysignal.com/author/roman-jankowski/)
+- [The Daily Signal - Roman Jankowski Author Page](https://www.dailysignal.com/author/romanj/)

@@ -22,6 +22,8 @@ There are no major personal scandals associated with Andrew Hughes. His professi
 Hughes’s work at ACI, particularly in promoting conservative values and education, can attract criticism from those who oppose such viewpoints. The institute’s initiatives, like encouraging more conservative representation in government, may be seen as controversial, especially in a politically divided environment.
 
 ### Sources
-- [Washington Examiner](https://www.washingtonexaminer.com/news/ben-carson-prescribes-more-conservatives-in-government)
-- [NewsOne](https://newsone.com/3794813/former-uber-driver-is-now-ben-carsons-chief-of-staff-at-hud/)
-- [Realtor.com](https://www.realtor.com/news/ben-carson-years-at-hud-did-he-make-a-difference/)
+- [Propublica](https://projects.propublica.org/trump-town/staffers/andrew-d-hughes)
+- [The Atlantic - The Man Who Made January 6 Possible](https://www.theatlantic.com/ideas/archive/2021/11/trump-johnny-mcentee-january-6-betrayal/620646/)
+- [Washington Examiner](https://www.washingtonexaminer.com/news/washington-secrets/2360368/ben-carson-prescribes-more-conservatives-in-government/)
+- [NewsOne](https://newsone.com/3798918/ben-carson-andrew-hughes-hud/)
+- [Realtor.com](https://www.realtor.com/news/trends/ben-carson-hud-legacy/)

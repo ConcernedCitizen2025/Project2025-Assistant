@@ -24,4 +24,4 @@ Israel's advocacy for pro-life policies and her opposition to abortion are conte
 ### Sources
 - [The Heritage Foundation - Melanie Israel Profile](https://www.heritage.org/staff/melanie-israel)  
 - [19FortyFive - Melanie Israel Contributions](https://www.19fortyfive.com/author/melanie-israel)  
-- [The Daily Signal - Articles by Melanie Israel](https://www.dailysignal.com/author/melanie-israel)
+- [The Daily Signal - Articles by Melanie Israel](https://www.dailysignal.com/author/misrael/)

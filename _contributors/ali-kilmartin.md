@@ -23,6 +23,6 @@ Ali Kilmartin’s association with Alliance Defending Freedom connects her to a 
 Kilmartin’s work with ADF involves advocating for policies that intersect with contentious social and legal issues, particularly around religious freedom and LGBTQ rights. ADF’s legal strategies and stances have been both criticized and supported, making her work polarizing and subject to significant public scrutiny.
 
 ### Sources
-- [The Independent](https://www.independent.co.uk/news/southwest-religious-liberty-training-adf-texas-judge-b2389737.html)
-- [Media Matters](https://www.mediamatters.org/alliance-defending-freedom/six-key-takeaways-nations-investigative-report-alliance-defending-freedoms)
-- [Alliance Defending Freedom](https://adflegal.org)
+- [Alliance Defending Freedom](https://adflegal.org/profile/ali-kilmartin)
+- [Media Matters](https://www.mediamatters.org/alliance-defending-freedom)
+- [The Independent](https://www.the-independent.com/news/world/americas/us-politics/southwest-alliance-defending-freedom-lawsuit-b2389684.html)

@@ -22,5 +22,6 @@ Hoekstra’s tenure as ambassador was marred by controversy. He made unsubstanti
 Hoekstra's high-profile political roles have often placed him at the center of significant controversies. His comments on the Netherlands and Islam during his ambassadorship were widely criticized and raised concerns about his ability to effectively represent U.S. interests abroad without causing diplomatic tensions.
 
 ### Sources
-- [Bridge Michigan - Who is Pete Hoekstra?](https://www.bridgemi.com)  
-- [Scroll.in - Pete Hoekstra's Remarks in the Netherlands](https://scroll.in)
+- [Bridge Michigan - Who is Pete Hoekstra?](https://www.bridgemi.com/michigan-government/who-pete-hoekstra-meet-trump-ambassador-fight-michigan-gop)  
+- [Wikipedia](https://en.wikipedia.org/wiki/Pete_Hoekstra)
+- [Roll Call - Hoekstra, Trump’s Pick For Ambassador, Has Views at Odds With the Dutch](https://rollcall.com/2017/08/02/hoekstra-trumps-pick-for-ambassador-has-views-at-odds-with-the-dutch/)

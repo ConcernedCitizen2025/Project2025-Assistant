@@ -24,4 +24,4 @@ Howell’s work in directing the Oversight Project at The Heritage Foundation, p
 ### Sources
 - [Heritage Foundation - Mike Howell](https://www.heritage.org/staff/mike-howell)
 - [Wilkow Majority - Mike Howell Guest Profile](https://wilkowmajority.com/show-guests/mike-howell)
-- [World - Mike Howell's Comments on DOJ Concerns](https://wng.org/articles/heritage-foundation-criticizes-doj-deepfake-concerns-over-biden-hur-audio)
+- [World - Mike Howell's Comments on DOJ Concerns](https://wng.org/sift/heritage-foundation-criticizes-doj-deep-fake-concerns-over-biden-hur-audio-1717616396)

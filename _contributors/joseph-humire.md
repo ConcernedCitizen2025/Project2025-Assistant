@@ -22,6 +22,6 @@ Joseph Humire has not been involved in any major personal scandals. His professi
 Humire's work at SFS often involves analyzing and publicizing the activities of foreign powers in Latin America, particularly those of Iran and Hezbollah. His focus on strategic threats and weaponized migration has been polarizing, drawing both support for his in-depth analysis and criticism from those who view his perspectives as overly alarmist or politically driven.
 
 ### Sources
-- [Center for a Secure Free Society - Joseph Humire Profile](https://www.securefreesociety.org/joseph-humire)
-- [George Mason University - Alumni Profile: Joseph Humire](https://www.gmu.edu/joseph-humire)
+- [Center for a Secure Free Society - Joseph Humire Profile](https://www.securefreesociety.org/expert/joseph-m-humire/)
+- [The Heritage Foundation](https://www.heritage.org/staff/joseph-humire)
 - [C-SPAN - Joseph Humire Appearances](https://www.c-span.org/person/?josephhumire)

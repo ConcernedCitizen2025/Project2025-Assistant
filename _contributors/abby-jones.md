@@ -22,5 +22,4 @@ There are no major personal scandals associated with Abby Jones. Her professiona
 Jones's work in transparency and accountability often involves confronting complex and contentious political issues. This focus can attract both support and criticism depending on one's stance on these issues. Additionally, her organization's mission to curb foreign influence in American politics may put her at odds with various international actors and domestic stakeholders benefiting from the status quo.
 
 ### Sources
-- [Cause IQ - ATA](https://www.causeiq.com)
-- [ATA Official Website](https://www.americans4transparency.org)
+- [Propublica](https://projects.propublica.org/trump-town/staffers/abigayle-k-jones)

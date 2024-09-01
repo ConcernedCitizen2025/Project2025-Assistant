@@ -23,5 +23,5 @@ Hitchen’s involvement with conservative advocacy groups, particularly his lead
 
 ### Sources
 - [The North American Anglican - Nathan Hitchen Profile](https://northamanglican.com/author/nathan-hitchen)
-- [Hamiltonian - Nathan Hitchen's Strategic Counterintelligence Work](https://hamiltonian.alexanderhamiltonsociety.org)
+- [Hamiltonian - Nathan Hitchen's Strategic Counterintelligence Work](https://hamiltonian.alexanderhamiltonsociety.org/security-and-strategy/an-untuned-instrument-strategic-counterintelligence-in-the-sino-american-technology-competition/)
 - [The American Conservative - Nathan Hitchen Articles](https://www.theamericanconservative.com/author/nathan-hitchen/)

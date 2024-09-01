@@ -23,6 +23,6 @@ While Dr. Kheriaty did not hold an official position within the Trump administra
 Dr. Kheriaty’s stance on COVID-19 policies, particularly vaccine mandates, has been polarizing. While he has garnered support for his advocacy for medical freedom, his views have also attracted significant criticism from public health experts who argue that his positions could potentially endanger public health by discouraging vaccination.
 
 ### Sources
-- [Ethics and Public Policy Center](https://eppc.org)
+- [Ethics and Public Policy Center](https://eppc.org/author/aaron_kheriaty/)
 - [The College Fix](https://www.thecollegefix.com/professor-who-refused-covid-vaccine-loses-court-battle-but-continues-war-against-mandates)
 - [Reason](https://reason.com/2023/09/13/the-return-of-covid-mandates/)
