@@ -24,4 +24,4 @@ As a partner at a major law firm, Dasgupta's work involves representing clients 
 ### Sources
 - [Taft Stettinius & Hollister LLP - Sohan Dasgupta Profile](https://www.taftlaw.com/people/sohan-dasgupta-ph-d)
 - [The Federalist Society - Sohan Dasgupta](https://fedsoc.org/contributors/sohan-dasgupta)
-- [Lexology - Sohan Dasgupta Expert Profile](https://www.lexology.com)
+- [Lexology - Sohan Dasgupta Expert Profile](https://www.lexology.com/firms/taft-stettinius-and-hollister-llp/sohan_dasgupta)
