@@ -171,7 +171,7 @@ title: "Authors and Contributors"
 - [Jason Hayes](/contributors/jason-hayes.html)
 - [Jennifer Hazelton](/authors/jennifer-hazelton.html) served as a public affairs official at the U.S. Agency for International Development (USAID) in 2020 and 2021, and at the State Department in 2017. She also played a significant role in Trump’s 2016 presidential campaign as Communications Director for Georgia, managing media relations and strategic communications in a key battleground state.
 - [Lou Heinzer](/contributors/lou-heinzer.html)
-- [Edie Heipel](/contributors/edie-heipel.html)
+- [Edie Heipel](/contributors/edie-heipel.html) worked in communications for the Office of Management and Budget (OMB) during the Trump administration.
 - [Troup Hemenway](/contributors/troup-hemenway.html) served as Associate Director for National Security in the White House Presidential Personnel Office, where he was involved in vetting new appointees. He also founded the Association of Republican Presidential Appointees.
 - [Nathan Hitchen](/contributors/nathan-hitchen.html)
 - [Pete Hoekstra](/contributors/pete-hoekstra.html) served as Ambassador to the Netherlands during the Trump administration and was a co-chair of Trump’s 2016 presidential campaign in Michigan.

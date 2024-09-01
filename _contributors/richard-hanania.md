@@ -22,5 +22,6 @@ In 2023, it was revealed that Hanania previously wrote for white nationalist and
 Given his controversial past and the nature of his writings, Hanania’s involvement in political and ideological discussions could polarize audiences and lead to further scrutiny. His association with far-right ideologies, even if partially disavowed, poses significant reputational risks and could undermine the credibility of his current work and the organizations he is affiliated with.
 
 ### Sources
-- [Media Matters - Far-right figures laud Project 2025](https://www.mediamatters.org)
+- [Media Matters - Far-right figures laud Project 2025](https://www.mediamatters.org/project-2025/far-right-figures-laud-project-2025-calling-it-best-personnel-database)
 - [Wikipedia - Richard Hanania](https://en.wikipedia.org/wiki/Richard_Hanania)
+- [Richard Hanania's Newsletter](https://www.richardhanania.com/p/the-successor-to-trump)

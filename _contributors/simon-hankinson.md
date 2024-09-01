@@ -23,5 +23,5 @@ Hankinson’s advocacy for conservative immigration and border security policies
 
 ### Sources
 - [The Heritage Foundation - Simon Hankinson Profile](https://www.heritage.org/staff/simon-hankinson)
-- [The Daily Signal - Simon Hankinson Author Page](https://www.dailysignal.com/author/simon-hankinson/)
-- [C-SPAN - Simon Hankinson Appearances](https://www.c-span.org/person/?simonhankinson)
+- [The Daily Signal - Simon Hankinson Author Page](https://www.dailysignal.com/author/shankinson/)
+- [C-SPAN - Simon Hankinson Appearances](https://www.c-span.org/person/simon-hankinson/137663/)
