@@ -22,6 +22,6 @@ There are no major personal scandals associated with Kathy Nuebel Kovarik. Howev
 Kovarik's roles at USCIS and DHS placed her in the midst of contentious immigration policy discussions, which can attract both support and criticism depending on one's political perspective. Her involvement in high-profile regulatory and legislative initiatives may raise concerns among those opposed to the immigration policies implemented during her tenure.
 
 ### Sources
-- [Sagitta Solutions LLC - Kathy Nuebel Kovarik Profile](https://www.sagittasolutions.com/kathy-nuebel-kovarik)
-- [Department of Homeland Security - Leadership During Trump Administration](https://www.dhs.gov/leadership)
-- [Wikipedia - Trump administration immigration policy](https://en.wikipedia.org/wiki/Trump_administration_immigration_policy)
+- [Sagitta Solutions LLC](https://sagittaellc.com/)
+- [Mother Jones - The Trump Administration Keeps Promoting Stephen Miller’s Immigration Hardliner Allies](https://www.motherjones.com/politics/2019/11/kathy-nuebel-kovarik-stephen-miller-promotion/)
+- [Propublica](https://projects.propublica.org/trump-town/staffers/kathy-nuebel-kovarik)
