@@ -24,7 +24,7 @@ Project 2025 features a list of organizations known as the Project 2025 Advisory
 <br>
 
 <div style="text-align: center;">
-  <a href="/authors_and_contributors.html" style="font-size: 1.8em; font-weight: bold;">
+  <a href="/authors_&_contributors.html" style="font-size: 1.8em; font-weight: bold;">
     Authors & Contributors: <em>Illuminating the Shadow Network</em>
   </a>
 </div>
