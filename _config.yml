@@ -63,3 +63,5 @@ defaults:
       layout: default
 
 theme: minima  # You can customize or replace this later
+markdown: kramdown
+
