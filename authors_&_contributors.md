@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: authors_and_contributors
 title: "Authors and Contributors"
 ---
 
