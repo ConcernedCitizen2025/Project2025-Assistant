@@ -25,4 +25,4 @@ Halikias’s advocacy for conservative values and policies can be contentious. C
 - [Heritage Foundation](https://www.heritage.org/staff/amalia-halikias)
 - [GV Wire](https://gvwire.com/2024/07/18/jd-vances-public-venmo-reveals-ties-to-elites-project-2025/)
 - [The Daily Beast](https://www.thedailybeast.com/jd-vances-venmo-history-reveals-ties-to-trump-allies-critics)
-- [PolitiFact](https://www.politifact.com/factchecks/2024/aug/14/tim-walz/jd-vance-wrote-foreword-project-2025s-kevin-roberts/)
+- [PolitiFact](https://www.politifact.com/factchecks/2024/aug/14/tim-walz/jd-vance-wrote-the-foreword-for-project-2025s-kevi/)
