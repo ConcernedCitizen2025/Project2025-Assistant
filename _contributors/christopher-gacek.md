@@ -22,4 +22,4 @@ Christopher Gacek has not been involved in any major personal scandals. However,
 The Family Research Council’s advocacy on social issues, including opposition to abortion and LGBTQ rights, places it at the center of heated public debates. Critics argue that the organization's positions can undermine civil rights and promote discrimination. As a senior fellow, Gacek’s work in regulatory affairs supports these advocacy efforts, which can be contentious and attract significant opposition from progressive groups and civil rights organizations.
 
 ### Sources
-- [Family Research Council - Chris Gacek](https://www.frc.org)
+- [Family Research Council - Chris Gacek](https://www.frc.org/chris-gacek)

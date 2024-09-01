@@ -22,6 +22,6 @@ While Finch Fulton has not been involved in any major personal scandals, his adv
 Fulton’s work in transportation policy, particularly in the rapidly evolving field of autonomous vehicles, can be contentious. Critics may argue that policies favoring rapid deployment of autonomous technology could overlook safety, labor, and regulatory concerns. His transition from a government role to a senior position in a private sector company that benefits from those policies might also raise questions about potential conflicts of interest.
 
 ### Sources
-- [Transport Topics - Ex-DOT Official Finch Fulton Joins Locomation](https://www.ttnews.com)
-- [FreightWaves - Autonomous startup Locomation denies it is closing](https://www.freightwaves.com)
-- [FreightWaves - The Policy Impacts of Locomation’s Approach to Autonomous Trucking](https://www.freightwaves.com)
+- [Transport Topics - Ex-DOT Official Finch Fulton Joins Locomation](https://www.ttnews.com/articles/ex-dot-official-finch-fulton-joins-locomation)
+- [FreightWaves - Autonomous startup Locomation denies it is closing](https://www.freightwaves.com/news/reports-autonomous-platooning-startup-locomation-closing-its-doors)
+- [FreightWaves - The Policy Impacts of Locomation’s Approach to Autonomous Trucking](https://www.freightwaves.com/news/the-policy-impacts-of-locomations-approach-to-autonomous-trucking)

@@ -22,6 +22,6 @@ Will Estrada has not been involved in any major personal scandals. His work at t
 Estrada's strong advocacy for parental rights and educational freedom can be contentious, especially in debates over public education, homeschooling regulations, and the role of government in child welfare. Critics may argue that prioritizing parental rights over regulatory oversight could potentially undermine protections for children, particularly in cases of neglect or abuse. Additionally, his positions on education and parental rights can be polarizing, attracting both strong support and significant opposition.
 
 ### Sources
-- [Home School Legal Defense Association (HSLDA)](https://hslda.org)
-- [Parental Rights Foundation - About Us](https://parentalrightsfoundation.org/about-us/)
-- [National Review - Commentary by Will Estrada](https://www.nationalreview.com/author/will-estrada/)
+- [Home School Legal Defense Association (HSLDA)](https://hslda.org/bio/will-estrada-esq)
+- [Parental Rights Foundation - About Us](https://parentalrightsfoundation.org/board-of-advisors/)
+- [National Review - Commentary by Will Estrada](https://www.nationalreview.com/corner/iowa-trip-cruz-courts-homeschoolers-betsy-woodruff/)

@@ -23,5 +23,5 @@ Feere's strong advocacy for stringent immigration controls and enforcement can b
 
 ### Sources
 - [Center for Immigration Studies - Jon Feere Profile](https://cis.org/Feere)
-- [American University Washington College of Law - Alumni Profile: Jon Feere](https://www.wcl.american.edu/jon-feere)
 - [Wikipedia - Trump administration family separation policy](https://en.wikipedia.org/wiki/Trump_administration_family_separation_policy)
+- [The Plot Against Immigrants](https://plotagainstimmigrants.com/network/jon-feere/)

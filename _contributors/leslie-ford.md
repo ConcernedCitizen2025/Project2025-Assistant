@@ -22,6 +22,6 @@ Leslie Ford has not been involved in any personal scandals. However, her work, p
 Ford's advocacy for welfare reform, including work requirements and reductions in government intervention in social services, has been contentious. Critics argue that these policies may not sufficiently address the needs of vulnerable populations and could exacerbate poverty and inequality. Her work at The Heritage Foundation continues to be scrutinized, particularly by those who support a more robust social safety net.
 
 ### Sources
-- [The Heritage Foundation - Leslie Ford Profile](https://www.heritage.org/health-care-reform/commentary/3-food-stamp-reforms-improve-outcomes-truly-needy-and-save-taxpayers)
-- [The Daily Signal - Leslie Ford Articles](https://www.dailysignal.com/author/leslie-ford/)
+- [The Heritage Foundation - Leslie Ford Profile](https://www.heritage.org/staff/leslie-ford)
+- [The Daily Signal - Leslie Ford Articles](https://www.dailysignal.com/author/lgrimard/)
 - [Heritage Foundation - Commentary by Leslie Ford](https://www.heritage.org/welfare/commentary/why-work-requirements-are-less-about-welfare-savings-about-human-well-being)
