@@ -21,4 +21,4 @@ Iain Murray has been a prominent advocate for conservative and libertarian princ
 ### Sources
 - [Competitive Enterprise Institute - Iain Murray Profile](https://cei.org/experts/iain-murray/)
 - [Libertarianism.org - Iain Murray](https://www.libertarianism.org/people/iain-murray)
-- [Competitive Enterprise Institute - First Steps for the Trump Administration](https://cei.org/)
+- [Competitive Enterprise Institute - First Steps for the Trump Administration](https://cei.org/first-steps-for-the-trump-administration/)

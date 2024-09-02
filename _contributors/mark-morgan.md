@@ -24,4 +24,4 @@ There are no significant scandals directly associated with Mark Morgan. However,
 
 ### Sources
 - [The Heritage Foundation - Mark Morgan](https://www.heritage.org/staff/mark-morgan)
-- [HarperCollins - Mark Morgan](https://www.harpercollins.com/author/mark-morgan)
+- [HarperCollins - Mark Morgan](https://www.harpercollins.com/collections/books-by-mark-morgan-86171)

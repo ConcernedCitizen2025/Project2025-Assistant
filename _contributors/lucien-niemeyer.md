@@ -24,5 +24,5 @@ There are no significant scandals or controversies associated with Lucien Niemey
 
 ### Sources
 - [The Niemeyer Group - About](http://niemeyergroup.com/)
-- [Department of Defense - Biography](https://www.defense.gov/)
-- [IIoT World - Lucien Niemeyer](https://iiot-world.com/)
+- [Department of Defense - Biography](https://www.defense.gov/About/Biographies/Biography/Article/1332228/lucian-niemeyer/)
+- [IIoT World - Lucien Niemeyer](https://www.iiot-world.com/our-team/our-contributors/lucian-niemeyer-deputy-program-associate-director-national-security-programs/)

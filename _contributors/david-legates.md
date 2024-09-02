@@ -21,4 +21,5 @@ David Legates has been a controversial figure in the climate science community, 
 ### Sources
 - [Wikipedia - David Legates](https://en.wikipedia.org/wiki/David_Legates)
 - [Leadership Delaware - David Legates Profile](https://leadershipdelaware.org/teams/david-r-legates-ph-d-c-c-m/)
-- [Delaware Online - Climate Change Controversy](https://www.delawareonline.com)
+- [Delaware Online - Climate Change Controversy](https://www.delawareonline.com/story/news/local/2015/02/26/university-delaware-professor-caught-climate-change-controversy/24047281/)
+- [The Heritage Foundation](https://www.heritage.org/staff/david-legates)

@@ -24,6 +24,6 @@ There are no major personal scandals associated with Clare Morell. However, her 
 Morell's focus on regulating Big Tech, especially in terms of protecting children online, has raised concerns among free speech advocates who argue that such measures might lead to overreach and unintended consequences. However, her work is also seen as vital in addressing the negative impacts of technology on younger generations.
 
 ### Sources
-- [Ethics and Public Policy Center - Clare Morell Profile](https://eppc.org)
+- [Ethics and Public Policy Center - Clare Morell Profile](https://eppc.org/author/clare_morell/)
 - [Federalist Society - Clare Morell Contributor Page](https://fedsoc.org/contributors/clare-morell)
-- [American Affairs Journal - Clare Morell](https://americanaffairsjournal.org)
+- [American Affairs Journal - Clare Morell](https://americanaffairsjournal.org/author/clare-morell/)

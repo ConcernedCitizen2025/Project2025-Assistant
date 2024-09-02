@@ -22,6 +22,6 @@ There are no significant scandals or controversies associated with Ryan Nabil. H
 Critics of the policies advocated by Nabil might argue that his support for significant tax cuts and deregulation could disproportionately benefit wealthier individuals and corporations, potentially exacerbating economic inequality. However, these critiques are more related to the broader policy positions of the NTU rather than specific controversies involving Nabil himself.
 
 ### Sources
-- [National Taxpayers Union - Ryan Nabil Profile](https://www.ntu.org)
-- [LinkedIn - Ryan Nabil](https://www.linkedin.com/in/ryan-nabil)
+- [National Taxpayers Union - Ryan Nabil Profile](https://www.ntu.org/about/staff/ryan-nabil)
+- [Ryan Nabil](https://www.ryannabil.com/)
 

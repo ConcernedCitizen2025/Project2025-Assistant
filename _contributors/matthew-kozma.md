@@ -22,6 +22,6 @@ Matthew Kozma has not been involved in any major personal scandals. However, his
 Kozma’s role in overseeing the modernization and cyber capabilities of the IC involves navigating complex ethical and operational challenges, especially regarding privacy, security, and the implications of AI and advanced technologies in national security.
 
 ### Sources
-- [ODNI - Matthew Kozma Appointed IC CIO](https://www.dni.gov/index.php/newsroom)  
+- [ODNI - Matthew Kozma Appointed IC CIO](https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2020/3491-matthew-a-kozma-appointed-ic-cio)  
 - [Intelligence Community News - Matthew Kozma's Appointment](https://intelligencecommunitynews.com/matthew-kozma-appointed-ic-cio)  
-- [The Record - Matthew Kozma's Tenure](https://therecord.media/matthew-kozma-steps-down-as-ic-cio)
+- [The Record - Matthew Kozma's Tenure](https://therecord.media/haines-names-policy-veteran-as-intel-communitys-new-cio)

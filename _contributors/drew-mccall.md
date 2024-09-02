@@ -20,4 +20,4 @@ As of now, Drew McCall has not been involved in any public scandals or controver
 
 ### Sources
 - [American Cornerstone Institute - About Us](https://americancornerstone.org/about/)
-- [Houston Christian University - Political Science Success Stories](https://hc.edu)
+- [Houston Christian University - Political Science Success Stories](https://hc.edu/arts-humanities/degrees/political-science/)

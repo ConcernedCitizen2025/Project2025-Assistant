@@ -22,6 +22,7 @@ Ben Lieberman has been involved in several contentious debates over climate poli
 Lieberman’s push to dismantle key environmental regulations and his involvement in Project 2025 raise concerns about the potential rollback of progress on climate action. The agenda he supports could significantly weaken the Environmental Protection Agency (EPA) and other regulatory bodies, hindering their ability to enforce environmental protections and address climate-related challenges.
 
 ### Sources
-- [E&E News by POLITICO - Inside the Project 2025 Plan to Gut Climate Regulations](https://www.eenews.net)
-- [Yale Climate Connections - What Project 2025 Would Do to Climate Policy in the US](https://yaleclimateconnections.org)
-- [Sierra Club - Inside Trump’s Plan to Bulldoze American Climate Policy](https://www.sierraclub.org)
+- [Competitive Enterprise Institute](https://cei.org/experts/ben-lieberman-2/)
+- [E&E News by POLITICO - Inside the Project 2025 Plan to Gut Climate Regulations](https://www.eenews.net/articles/inside-the-project-2025-plan-to-gut-climate-regs/)
+- [Yale Climate Connections - What Project 2025 Would Do to Climate Policy in the US](https://yaleclimateconnections.org/2024/07/what-project-2025-would-do-to-climate-policy-in-the-us/)
+- [Sierra Club - Inside Trump’s Plan to Bulldoze American Climate Policy](https://www.sierraclub.org/sierra/inside-trump-s-plan-bulldoze-american-climate-policy)

@@ -22,4 +22,4 @@ There are no significant scandals or controversies associated with John Ligon. H
 
 ### Sources
 - [The Heritage Foundation - John L. Ligon](https://www.heritage.org/staff/john-l-ligon)
-- [How Government Housing Policy Led to the Financial Crisis - The Heritage Foundation](https://www.heritage.org/housing/report/how-government-housing-policy-led-the-financial-crisis)
+- [How Government Housing Policy Led to the Financial Crisis - The Heritage Foundation](https://www.heritage.org/testimony/how-government-housing-policy-led-the-financial-crisis)
