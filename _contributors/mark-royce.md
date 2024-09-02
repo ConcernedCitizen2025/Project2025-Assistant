@@ -21,5 +21,5 @@ There is no direct relation between Mark Royce and the Trump administration. His
 There are no significant scandals or controversies associated with Mark Royce.
 
 ### Sources
-- [Providence Magazine - Mark Royce](https://providencemag.com)
-- [NOVA Faculty Directory - Mark Royce](https://www.nvcc.edu/faculty-directory.html)
+- [Providence Magazine - Mark Royce](https://providencemag.com/authors/mark-r-royce/)
+- [NOVA Faculty Directory - Mark Royce](https://www.nvcc.edu/about/directory/Details?firstName=Mark&lastName=Royce&campus=Annandale)

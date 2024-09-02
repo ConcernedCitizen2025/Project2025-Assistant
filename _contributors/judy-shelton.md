@@ -21,5 +21,5 @@ Judy Shelton played a prominent role in advising Donald Trump during his 2016 ca
 Shelton's nomination to the Federal Reserve Board was controversial, primarily due to her support for the gold standard and her critiques of the Federal Reserve's policies. Despite strong backing from Trump, her nomination failed to secure enough votes in the Senate.
 
 ### Sources
-- [Independent Institute - Judy Shelton](https://www.independent.org)
-- [News Release - Judy Shelton Joins Independent Institute](https://www.independent.org/news/article.asp?id=14149)
+- [Independent Institute - Judy Shelton](https://www.independent.org/aboutus/person_detail.asp?id=4167)
+- [News Release - Judy Shelton Joins Independent Institute](https://www.independent.org/news/news_detail.asp?newsID=2281)

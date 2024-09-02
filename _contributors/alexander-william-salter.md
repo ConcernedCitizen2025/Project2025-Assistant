@@ -22,6 +22,6 @@ There are no significant personal scandals associated with Salter. However, his 
 Salter’s proposals for overhauling the Federal Reserve and his involvement in space policy discussions may raise concerns about the potential risks to economic stability and governance. His ideas, while popular in conservative circles, are contentious and could lead to significant policy shifts if implemented.
 
 ### Sources
-- [Texas Tech University - Alexander William Salter Profile](https://www.depts.ttu.edu/economics/faculty/salter.php)
-- [Free Market Institute - Alexander Salter Profile](https://www.depts.ttu.edu/freemarketinstitute/people/faculty/salter.php)
-- [The Hill - Conservatives Need Congressional Supremacy](https://thehill.com)&#8203;:contentReference[oaicite:0]{index=0}
+- [Texas Tech University - Alexander William Salter Profile](https://www.depts.ttu.edu/rawlsbusiness/people/faculty/ecbe/alexander-salter/index.php)
+- [Free Market Institute - Alexander Salter Profile](https://www.depts.ttu.edu/freemarketinstitute/people/salter.php)
+- [Washington Examiner - Conservatives Need Congressional Supremacy](https://www.washingtonexaminer.com/opinion/1075655/conservatives-need-congressional-supremacy/)

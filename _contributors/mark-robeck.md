@@ -26,4 +26,4 @@ Robeck’s strong advocacy for fossil fuel policies and his critiques of regulat
 ### Sources
 - [U.S. Department of Energy - Mark Robeck](https://www.energy.gov/gc/person/mark-r-robeck)
 - [The Center for American and International Law](https://cail.ce21.com/speaker/mark-robeck-1386003)
-- [Hart Energy - Biden’s SPR Release](https://www.hartenergy.com/opinions/bidens-spr-release-political-stunt-risks-national-security-198329)
+- [Hart Energy - Biden’s SPR Release](https://www.hartenergy.com/exclusives/opinion-bidens-spr-release-political-stunt-risks-national-security-199694)

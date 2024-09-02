@@ -24,4 +24,4 @@ Sands' involvement with the America First Policy Institute raises concerns about
 ### Sources
 - [Wikipedia - Carla Sands](https://en.wikipedia.org/wiki/Carla_Sands)
 - [Council of American Ambassadors - Carla Sands Profile](https://www.americanambassadors.org/members/carla-sands)
-- [America First Policy Institute - Leadership](https://americafirstpolicy.com/leadership)
+- [America First Policy Institute - Leadership](https://americafirstpolicy.com/team/ambassador-carla-sands)

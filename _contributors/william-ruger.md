@@ -22,5 +22,8 @@ There are no major scandals or controversies directly associated with William Ru
 Critics of Ruger’s foreign policy stance may argue that his advocacy for non-interventionism could lead to reduced U.S. influence globally, potentially emboldening adversaries. However, these concerns are generally more about policy disagreements than any personal controversy.
 
 ### Sources
-- [Charles Koch Institute - William Ruger Profile](https://charleskochinstitute.org/profiles/william-ruger)
-- [LinkedIn - William Ruger](https://www.linkedin.com/in/william-ruger/)
+- [U.S. Department of State](https://www.state.gov/ruger-william-islamic-republic-of-afghanistan-september-2020/)
+- [CATO Institute](https://www.cato.org/people/william-ruger)
+- [Wikipedia - William Ruger](https://en.wikipedia.org/wiki/William_P._Ruger)
+- [The National Interest](https://nationalinterest.org/profile/william-ruger)
+- [Chales Koch Foundation](https://charleskochfoundation.org/news/chicago-council-on-global-affairs-releases-new-trade-monograph/)

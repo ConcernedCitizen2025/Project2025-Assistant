@@ -20,5 +20,5 @@ There are no major personal scandals associated with Jack Spencer. However, his 
 
 ### Sources
 - [The Heritage Foundation - Jack Spencer Profile](https://www.heritage.org/staff/jack-spencer)
-- [The Nation - Project 2025 and Heritage's Role](https://www.thenation.com)
-- [Reason - Project 2025 Analysis](https://reason.com)
+- [The Nation - Project 2025 and Heritage's Role](https://www.thenation.com/article/politics/will-the-heritage-foundations-project-2025-turn-trumpism-into-a-governing-agenda/)
+- [Reason - Project 2025 Analysis](https://reason.com/2024/06/28/project-2025-the-conservative-agenda-to-embrace-bigger-government-during-trumps-second-term/)

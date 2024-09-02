@@ -24,4 +24,4 @@ Stanley’s role in leading FGI, an organization that aggressively pursues gover
 ### Sources
 - [Functional Government Initiative - About Us](https://functionalgovernment.org/about-us/)
 - [InfluenceWatch - Functional Government Initiative](https://www.influencewatch.org/organization/functional-government-initiative-fgi/)
-- [Law Street Media - Chris Stanley Profile](https://lawstreetmedia.com)
+- [Law Street Media - Chris Stanley](https://lawstreetmedia.com/insights/republicans-playing-the-oppo-game/)

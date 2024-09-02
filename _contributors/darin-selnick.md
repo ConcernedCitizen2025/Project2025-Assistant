@@ -18,10 +18,10 @@ Selnick’s career includes extensive experience in both the public and private 
 During the Trump administration, Selnick was a prominent figure in shaping veterans' healthcare policy, particularly through his work on the VA MISSION Act. His alignment with Trump’s agenda, particularly his push for privatization within the VA, earned him both praise and criticism. His role put him at the center of debates over the future of veterans' healthcare, reflecting the administration's broader objectives.
 
 **Scandals or Controversies:**  
-Selnick has been a controversial figure, particularly due to his advocacy for privatizing parts of the VA healthcare system. His close ties to conservative groups and figures, as well as his involvement in a questionable commuting arrangement that may have violated federal regulations, have drawn scrutiny. Critics argue that his efforts to expand private care options for veterans could undermine the VA system and lead to the privatization of critical services&#8203;:contentReference[oaicite:0]{index=0}.
+Selnick has been a controversial figure, particularly due to his advocacy for privatizing parts of the VA healthcare system. His close ties to conservative groups and figures, as well as his involvement in a questionable commuting arrangement that may have violated federal regulations, have drawn scrutiny. Critics argue that his efforts to expand private care options for veterans could undermine the VA system and lead to the privatization of critical services.
 
 ### Sources
 - [Concerned Veterans for America - Darin Selnick](https://cv4a.org/member/darin-selnick/)
-- [Army Times - Selnick Rejoins VA Reform Debate](https://www.armytimes.com)
-- [ProPublica - Selnick's Role in Trump Administration](https://www.propublica.org)
+- [Army Times - Selnick Rejoins VA Reform Debate](https://www.armytimes.com/veterans/2018/05/07/controversial-white-house-advisor-rejoins-va-reform-debate/)
+- [ProPublica - Selnick's Role in Trump Administration](https://www.propublica.org/article/veterans-affairs-department-paying-for-darin-selnick-commute-at-taxpayer-expense)
 - [Think Progress - These are the obscure Trump staffers who are systematically dismantling the federal government](https://archive.thinkprogress.org/donald-trump-secret-hatchet-team-e6504833c75d/)

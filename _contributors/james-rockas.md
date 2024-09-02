@@ -23,4 +23,4 @@ There are no major personal scandals associated with James Rockas. His career ha
 ### Sources
 - [ACLJ - James Rockas Profile](https://aclj.org/writers/james-rockas)
 - [ACLJ Action - About Us](https://acljaction.org/about)
-- [Benton Institute - Project 2025's Plan](https://www.benton.org)
+- [Benton Institute - Project 2025's Plan](https://www.benton.org/blog/project-2025s-plan-ntia)
