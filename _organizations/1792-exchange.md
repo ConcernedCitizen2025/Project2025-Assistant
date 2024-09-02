@@ -30,6 +30,6 @@ The 1792 Exchange is a key player in the conservative movement's efforts to prom
 
 ## Sources
 - [1792 Exchange - About Us](https://1792exchange.com/about)
-- [Politico - Kentucky AG Cameron to Lead 1792 Exchange](https://www.politico.com/news/2024/01/03/kentucky-ag-cameron-to-lead-1792-exchange-00075980)
-- [Christian Post - 1792 Exchange CEO Warns of 'Woke' Capitalism](https://www.christianpost.com/news/1792-exchange-ceo-warns-of-woke-capitalism.html)
-- [National Review - Corporate Neutrality in the Woke Era](https://www.nationalreview.com/2023/01/corporate-neutrality-in-the-woke-era)
+- [NBC News - Kentucky AG Cameron to Lead 1792 Exchange](https://www.nbcnews.com/news/nbcblk/kentuckys-former-attorney-general-lead-1792-exchange-group-fights-woke-rcna132174)
+- [Medium - The 1792 Exchange — Listing 1000+ Companies Based on their Wokeness](https://medium.com/biblical-christian-worldview/the-1792-exchange-listing-1000-companies-based-on-their-wokeness-248191dbb8ff)
+- [National Review - Corporate Neutrality in the Woke Era](https://www.nationalreview.com/magazine/2021/07/01/is-corporate-wokeness-here-to-stay/)
