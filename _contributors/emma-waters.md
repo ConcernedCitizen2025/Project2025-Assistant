@@ -21,6 +21,6 @@ Waters' work at The Heritage Foundation, particularly through her contributions 
 Emma Waters has been involved in several controversies, particularly regarding her outspoken critiques of surrogacy and LGBTQ-related policies. Her articles and public statements often criticize the commercialization of surrogacy and its implications for both women and children. Waters has also been a critic of the LGBTQ movement's influence on reproductive technologies, which has led to significant backlash from progressive groups.
 
 ### Sources
-- [The Heritage Foundation - Emma Waters](https://www.heritage.org)
-- [American Reformer - Emma Waters](https://americanreformer.org)
-- [Media Matters - Project 2025](https://www.mediamatters.org)
+- [The Heritage Foundation - Emma Waters](https://www.heritage.org/staff/emma-waters)
+- [American Reformer - Emma Waters](https://americanreformer.org/author/emma-waters/)
+- [Media Matters - Project 2025](https://www.mediamatters.org/project-2025)
