@@ -29,3 +29,4 @@ There are no significant scandals or controversies associated with Kayla Tonness
 ### Sources
 - [Recovery for America Now - Kayla Tonnessen](https://www.recoveryforamerica.org/kayla-tonnessen)
 - [Recovery for America Now - Our Team](https://www.recoveryforamerica.org/who-we-are)
+- [Propublica](https://projects.propublica.org/trump-town/staffers/kayla-munro-tonnessen)

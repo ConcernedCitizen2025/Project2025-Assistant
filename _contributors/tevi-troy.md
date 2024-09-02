@@ -22,5 +22,6 @@ There are no significant scandals or controversies associated with Tevi Troy. Hi
 Troy’s advocacy for market-driven solutions and deregulation in healthcare might be seen as controversial by those who favor more government intervention in healthcare markets. His work aligns with conservative efforts to reduce government involvement in various sectors, which could be contentious in broader political debates.
 
 ### Sources
-- [Mercatus Center - Tevi Troy Profile](https://www.mercatus.org)
-- [LinkedIn - Tevi Troy](https://www.linkedin.com/in/tevi-troy-5233642/)
+- [Mercatus Center - Tevi Troy Profile](https://www.mercatus.org/scholars/tevi-troy)
+- [Bipartisan Policy Center - Tevi Troy](https://bipartisanpolicy.org/person/tevi-troy/)
+- [TevyTroy.org](https://tevitroy.org/)

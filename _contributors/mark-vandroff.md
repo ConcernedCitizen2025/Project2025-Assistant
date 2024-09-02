@@ -21,5 +21,5 @@ Vandroff played a significant role in defense policy during the Trump administra
 There are no significant scandals or controversies associated with Mark Vandroff.
 
 ### Sources
-- [Fincantieri Marine Group - Mark Vandroff](https://www.fincantierimarinegroup.com)
-- [Defense News - Fincantieri’s Marinette Marine Announces New CEO](https://www.defensenews.com)
+- [Fincantieri Marine Group - Mark Vandroff](https://fincantierimarinegroup.com/leadership_member/mark-vandroff/)
+- [Defense News - Fincantieri’s Marinette Marine Announces New CEO](https://www.defensenews.com/naval/2021/06/14/fincantieris-marinette-marine-announces-mark-vandroff-as-new-shipyard-ceo/)

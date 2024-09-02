@@ -21,5 +21,5 @@ Venable’s work at The Heritage Foundation aligned with the Trump administratio
 There are no significant scandals or controversies directly associated with John Venable. His career has been marked by his contributions to military service and defense policy.
 
 ### Sources
-- [The Heritage Foundation - John Venable Profile](https://www.heritage.org/staff/john-venable)&#8203;:contentReference[oaicite:0]{index=0}
-- [19FortyFive - John Venable Author Profile](https://www.19fortyfive.com/author/john-venable/)&#8203;:contentReference[oaicite:1]{index=1}
+- [The Heritage Foundation - John Venable Profile](https://www.heritage.org/staff/john-venable)
+- [19FortyFive - John Venable Author Profile](https://www.19fortyfive.com/author/john-venable/)
