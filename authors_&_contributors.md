@@ -246,7 +246,7 @@ title: "Authors and Contributors"
 - [Patrick Pizzella](/contributors/patrick-pizzella.html) served as the Deputy Secretary of Labor under Trump.
 - [Robert Poole](/contributors/robert-poole.html)
 - [Christopher B. Porter](/contributors/christopher-b-porter.html) served as the National Intelligence Officer for Cyber at the National Intelligence Council during the Trump administration.
-- [Kevin Preskenis](/contributors/kevin-preskenis.html)
+- [Kevin Preskenis](/contributors/kevin-preskenis.html) worked at the U.S. Department of Commerce during the Trump administration as Chief of Staff to the Assistant Secretary and CFO
 - [Pam Pryor](/contributors/pam-pryor.html) served as the Senior Bureau Official for International Organization Affairs at the U.S. Department of State during the Trump administration.
 - [Thomas Pyle](/contributors/thomas-pyle.html) led Trump’s Department of Energy transition team in 2016.
 - [John Ratcliffe](/contributors/john-ratcliffe.html) served as Director of National Intelligence from May 2020 to January 2021 under President Trump. In this role, he oversaw the U.S. intelligence community and provided critical briefings to the President.

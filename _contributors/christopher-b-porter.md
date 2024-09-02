@@ -27,5 +27,5 @@ Porter’s involvement in high-stakes cybersecurity decisions, especially concer
 
 ### Sources
 - [Atlantic Council - Appointment of Christopher Porter](https://www.atlanticcouncil.org/news/press-releases/atlantic-council-statement-on-the-appointment-of-christopher-porter-as-national-intelligence-officer-for-cyber-at-the-office-of-the-director-of-national-intelligence/)
-- [National Security Institute - Appointment of Christopher Porter](https://nationalsecurity.gmu.edu/nsi-visiting-fellow-christopher-porter-appointed-as-new-national-intelligence-officer-for-cyber-at-the-national-intelligence-council/)
+- [National Security Institute - Appointment of Christopher Porter](https://nationalsecurity.gmu.edu/christopher-porter-appointed-as-new-national-intelligence-officer/)
 - [McCrary Institute - Christopher Porter](https://mccrary.auburn.edu/experts/senior-fellows/porter-christopher/)
