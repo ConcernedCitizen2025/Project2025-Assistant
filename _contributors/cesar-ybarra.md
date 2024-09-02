@@ -22,8 +22,8 @@ Cesar Ybarra himself has not been involved in any personal scandals. However, Fr
 Ybarra's advocacy for reducing the size and scope of government has raised concerns among critics who argue that such policies might undermine essential public services and deepen social inequalities. His role in advancing a conservative agenda through grassroots organization and legislative efforts continues to be a significant point of discussion in U.S. politics.
 
 ### Sources
-- [FreedomWorks - Official Site](https://www.freedomworks.org)
+- [Wikipedia - FreedomWorks](https://www.freedomworks.org)
 - [AAPC - Cesar Ybarra Profile](https://theaapc.org/event_speaker/cesar-ybarra)
 - [Arizona Daily Independent - FreedomWorks Event](https://arizonadailyindependent.com/2022/05/15/freedomworks-partners-with-ezaz-org-in-arizona-grassroots-activist-training-facility)
-- [The Daily Signal - How Conservatives Can Engage Latino Voters](https://www.dailysignal.com)
-- [Politico - Ybarra's Commentary on GOP Leadership](https://www.politico.com)
+- [The Daily Signal - How Conservatives Can Engage Latino Voters](https://www.dailysignal.com/2022/03/08/how-conservatives-can-engage-latino-voters/)
+- [Politico - Ybarra's Commentary on GOP Leadership](https://www.politico.com/news/2024/07/23/gop-race-comments-harris-00170735)

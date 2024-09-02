@@ -23,4 +23,4 @@ Frank Wuco has been embroiled in multiple controversies, primarily due to his pr
 ### Sources
 - [Wikipedia - Frank Wuco](https://en.wikipedia.org/wiki/Frank_Wuco)
 - [Bridge Initiative - Georgetown University](https://bridge.georgetown.edu/research/factsheet-frank-wuco/)
-- [CBS News - Frank Wuco Profile](https://www.cbsnews.com)
+- [CBS News - Frank Wuco Profile](https://www.cbsnews.com/news/frank-wuco-former-talk-radio-show-host-who-pushed-questionable-theories-now-top-arms-control-official/)
