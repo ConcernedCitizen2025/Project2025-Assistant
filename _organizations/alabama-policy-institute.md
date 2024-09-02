@@ -32,6 +32,6 @@ The Alabama Policy Institute plays a pivotal role in shaping conservative public
 ## Sources
 - [Alabama Policy Institute - About Us](https://www.alabamapolicy.org)
 - [Wikipedia - Alabama Policy Institute](https://en.wikipedia.org/wiki/Alabama_Policy_Institute)
-- [Alabama Political Reporter - Alabama Policy Institute Releases 2024 Blueprint](https://www.alreporter.com)
-- [Yellowhammer News - Alabama Policy Institute Releases 2024 Legislative 'Blueprint'](https://yellowhammernews.com)
-- [Alabama Daily News - 35 Years of the Alabama Policy Institute](https://www.aldailynews.com)
+- [Alabama Political Reporter - Alabama Policy Institute Releases 2024 Blueprint](https://www.alreporter.com/2024/01/16/alabama-policy-institute-releases-2024-blueprint/)
+- [Yellowhammer News - Alabama Policy Institute Releases 2024 Legislative 'Blueprint'](https://yellowhammernews.com/alabama-policy-institute-releases-2024-legislative-blueprint/)
+- [Alabama Daily News - 35 Years of the Alabama Policy Institute](https://aldailynews.com/35-years-of-the-alabama-policy-institute/)
