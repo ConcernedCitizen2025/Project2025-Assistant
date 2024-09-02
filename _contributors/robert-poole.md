@@ -23,4 +23,4 @@ Critics of Poole’s advocacy for privatization argue that such policies can und
 
 ### Sources
 - [Reason Foundation - Robert Poole Profile](https://reason.org/author/robert-poole)
-- [Transport Topics - Interview with Robert Poole](https://www.ttnews.com/articles/qa-robert-poole-reason-foundation)
+- [Transport Topics - Interview with Robert Poole](https://www.ttnews.com/articles/crumbling-infrastructure-fix-seen-global-trillions-dollars)

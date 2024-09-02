@@ -19,5 +19,6 @@ Michael Pack was appointed to lead USAGM by President Trump, reflecting the admi
 Pack’s time at USAGM was fraught with controversy. His management style led to the dismissal of several senior executives, and there were widespread concerns about the politicization of the agency. These issues resulted in legal disputes and criticism from various quarters, including accusations of undermining the agency’s mission to provide unbiased international news.
 
 ### Sources
-- [U.S. Agency for Global Media - Michael Pack](https://www.usagm.gov/)
-- [PBS - Michael Pack Biography](https://www.pbs.org/)
+- [U.S. Agency for Global Media - Michael Pack](https://www.usagm.gov/who-we-are/management-team/michael-pack/)
+- [PBS - Michael Pack Biography](https://www.pbs.org/newshour/show/despite-bipartisan-concerns-global-media-agency-ceo-ignores-congressional-subpoena)
+- [Claremont Institute](https://www.claremont.org/bio/michael-pack/)

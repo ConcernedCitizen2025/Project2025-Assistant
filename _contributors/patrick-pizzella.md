@@ -22,6 +22,6 @@ Pizzella has been a controversial figure, particularly due to his past lobbying 
 Given Pizzella's history and his involvement with the Leadership Institute, concerns may arise regarding his influence on labor policies that favor deregulation and reduced worker protections. His role in Project 2025 also suggests potential concerns about the shaping of future conservative policies that may prioritize business interests over labor rights.
 
 ### Sources
-- [Leadership Institute - Patrick Pizzella Profile](https://www.leadershipinstitute.org)  
-- [Project 2025 - Full Contributor List](file-bq4vQV0169abxmjz1jX769in)
-- [Washington Post - Pizzella's Labor Department Role](https://www.washingtonpost.com)
+- [Leadership Institute - Patrick Pizzella](https://leadershipinstitute.org/contactUS/staff/)  
+- [Washington Post - Pizzella's Labor Department Role](https://www.washingtonpost.com/business/2020/04/10/labor-secretary-eugene-scalia-faces-blowback-he-curtails-scope-worker-relief-unemployment-crisis/)
+- [U.S. Department of Labor](https://www.dol.gov/newsroom/releases/osec/osec20190925)

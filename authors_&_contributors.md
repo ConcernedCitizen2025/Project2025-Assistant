@@ -245,7 +245,7 @@ title: "Authors and Contributors"
 - [Michael Pillsbury](/contributors/michael-pillsbury.html) served as a key advisor on China policy during the Trump administration, influencing the approach to U.S.-China relations.
 - [Patrick Pizzella](/contributors/patrick-pizzella.html) served as the Deputy Secretary of Labor under Trump.
 - [Robert Poole](/contributors/robert-poole.html)
-- [Christopher B. Porter](/contributors/christopher-b-porter.html)
+- [Christopher B. Porter](/contributors/christopher-b-porter.html) served as the National Intelligence Officer for Cyber at the National Intelligence Council during the Trump administration.
 - [Kevin Preskenis](/contributors/kevin-preskenis.html)
 - [Pam Pryor](/contributors/pam-pryor.html) served as the Senior Bureau Official for International Organization Affairs at the U.S. Department of State during the Trump administration.
 - [Thomas Pyle](/contributors/thomas-pyle.html) led Trump’s Department of Energy transition team in 2016.
