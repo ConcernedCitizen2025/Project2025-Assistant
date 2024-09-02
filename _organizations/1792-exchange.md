@@ -29,6 +29,7 @@ While the 1792 Exchange does not have direct ties to the Trump administration, i
 The 1792 Exchange is a key player in the conservative movement's efforts to promote free enterprise and protect ideological freedoms within the corporate world. Through its reports and advocacy, the organization seeks to foster an environment where businesses can operate without political bias. However, the 1792 Exchange's methods and goals, while aligned with conservative values, could contribute to increased polarization in corporate governance, raising important questions about the long-term implications for the balance of political power in the business sector.
 
 ## Sources
-- [Politico](https://www.politico.com/news/2024/01/03/kentucky-ag-cameron-to-lead-1792-exchange-00075980)
-- [Christian Post](https://www.christianpost.com/news/1792-exchange-ceo-warns-of-woke-capitalism.html)
-- [National Review](https://www.nationalreview.com/2023/01/corporate-neutrality-in-the-woke-era)
+- [1792 Exchange - About Us](https://1792exchange.com/about)
+- [Politico - Kentucky AG Cameron to Lead 1792 Exchange](https://www.politico.com/news/2024/01/03/kentucky-ag-cameron-to-lead-1792-exchange-00075980)
+- [Christian Post - 1792 Exchange CEO Warns of 'Woke' Capitalism](https://www.christianpost.com/news/1792-exchange-ceo-warns-of-woke-capitalism.html)
+- [National Review - Corporate Neutrality in the Woke Era](https://www.nationalreview.com/2023/01/corporate-neutrality-in-the-woke-era)
