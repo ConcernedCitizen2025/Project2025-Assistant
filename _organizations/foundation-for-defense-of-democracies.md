@@ -6,32 +6,32 @@ title: "Foundation for Defense of Democracies (FDD)"
 # Foundation for Defense of Democracies (FDD)
 
 ## Overview
-The Foundation for Defense of Democracies (FDD) is a Washington, D.C.-based policy institute founded in 2001, primarily focusing on foreign policy and national security issues. The organization promotes pluralism, democratic values, and counterterrorism efforts. FDD is known for its research, advocacy, and events aimed at influencing U.S. and international policies. It has been particularly active in shaping U.S. policies regarding Iran, cybersecurity, and counterterrorism ([FDD](https://www.fdd.org), [On Think Tanks](https://onthinktanks.org)).
+The Foundation for Defense of Democracies (FDD) is a Washington, D.C.-based policy institute founded in 2001, focusing on foreign policy, national security, and counterterrorism. The organization advocates for democratic values and the defense of free societies against threats posed by terrorism and authoritarian regimes. FDD is known for its research, policy recommendations, and events aimed at influencing U.S. and international policies, particularly concerning Iran, cybersecurity, and Middle Eastern affairs.
 
 ## Mission and Activities
 FDD's mission is to strengthen U.S. national security and counter global threats through rigorous research and advocacy. Key activities include:
-- **Research and Analysis:** FDD publishes detailed research on topics such as terrorism, national security, cyber threats, and foreign policy, aiming to inform policymakers and the public ([FDD](https://www.fdd.org)).
-- **Policy Advocacy:** The organization provides recommendations to U.S. and international policymakers on critical issues, including Iran's nuclear program, cybersecurity, and counterterrorism ([Wikipedia](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)).
-- **Publications and Events:** FDD hosts events, roundtables, and panel discussions to foster dialogue on security issues. It also publishes the Long War Journal, which reports on terrorism and related topics ([On Think Tanks](https://onthinktanks.org)).
+- **Research and Analysis:** FDD conducts in-depth research on terrorism, national security, cyber threats, and foreign policy. This research is intended to inform policymakers and the public about emerging threats and strategies for countering them.
+- **Policy Advocacy:** The organization provides recommendations to U.S. and international policymakers on critical issues such as Iran's nuclear program, counterterrorism efforts, and cybersecurity. FDD has played a significant role in shaping U.S. sanctions policies against Iran.
+- **Publications and Events:** FDD hosts events, roundtables, and panel discussions to foster dialogue on security issues. It also publishes the *Long War Journal*, which focuses on terrorism and related topics.
 
 ## Leadership and Influence
-- **Clifford D. May:** Founder and President of FDD, May has a background in journalism and policy analysis, focusing on national security issues ([FDD](https://www.fdd.org)).
-- **Mark Dubowitz:** CEO, Dubowitz is renowned for his work on Iran sanctions and has been a key figure in advocating for policies to curb Iran's nuclear ambitions. He has advised several U.S. administrations on these issues ([Wikipedia](https://en.wikipedia.org/wiki/Mark_Dubowitz)).
-- **Toby Dershowitz:** Senior Vice President for Government Relations and Strategy, Dershowitz oversees FDD's interactions with policymakers and strategic initiatives ([InfluenceWatch](https://www.influencewatch.org)).
+- **Clifford D. May:** Founder and President of FDD, May has a background in journalism and policy analysis with a focus on national security. He has been instrumental in guiding the organization's direction since its inception.
+- **Mark Dubowitz:** CEO of FDD, Dubowitz is a prominent figure in advocating for tough sanctions against Iran. His work has significantly influenced U.S. policy on Iran, especially during the Trump administration.
+- **Toby Dershowitz:** Senior Vice President for Government Relations and Strategy, Dershowitz oversees FDD’s interactions with policymakers and helps shape its strategic initiatives.
 
 ## Connections to Trump
-FDD has been influential within the Trump administration, particularly in shaping policies related to Iran and the Middle East. The organization supported the administration's hardline stance on Iran, including the withdrawal from the Iran nuclear deal and the imposition of sanctions ([Wikipedia](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies), [Media Bias/Fact Check](https://mediabiasfactcheck.com)).
+FDD was influential during the Trump administration, particularly in shaping policies related to Iran and the Middle East. The organization supported Trump's withdrawal from the Iran nuclear deal and the imposition of stringent sanctions on Iran. FDD's alignment with Trump's hardline stance on Iran and other Middle Eastern issues underscores its significant role in U.S. foreign policy during his administration.
 
 ## Concerns
-- **Political Bias:** FDD has been described as having a right-leaning bias, often supporting conservative and neoconservative positions. This has raised concerns about the objectivity of its research and policy recommendations ([Media Bias/Fact Check](https://mediabiasfactcheck.com)).
-- **Hawkish Stance:** The organization is known for its aggressive policy recommendations, particularly regarding Iran and terrorism. Critics argue that FDD's positions can sometimes escalate conflicts rather than promote diplomatic solutions ([Wikipedia](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)).
+- **Political Bias:** FDD is often described as having a right-leaning bias, particularly in its support for neoconservative and pro-Israel positions. This has raised concerns about the objectivity of its research and policy recommendations.
+- **Hawkish Stance:** The organization is known for its aggressive policy recommendations, particularly regarding Iran and terrorism. Critics argue that FDD's positions can escalate conflicts rather than promote diplomatic solutions.
 
 ## Conclusion
-The Foundation for Defense of Democracies is a significant player in U.S. national security and foreign policy discourse. Its research and advocacy efforts have influenced key policy decisions, particularly in relation to Iran and counterterrorism. However, its strong political bias and aggressive policy stances warrant careful consideration and balanced evaluation of its contributions to public policy ([FDD](https://www.fdd.org), [On Think Tanks](https://onthinktanks.org), [Wikipedia](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)).
+The Foundation for Defense of Democracies is a significant player in U.S. national security and foreign policy discourse. Its research and advocacy efforts have influenced key policy decisions, particularly in relation to Iran and counterterrorism. However, its strong political bias and aggressive policy stances warrant careful consideration and balanced evaluation of its contributions to public policy.
 
 ## Sources
 - [Foundation for Defense of Democracies](https://www.fdd.org)
-- [On Think Tanks](https://onthinktanks.org)
-- [Media Bias/Fact Check](https://mediabiasfactcheck.com)
-- [Wikipedia](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)
-- [InfluenceWatch](https://www.influencewatch.org)
+- [Wikipedia - Foundation for Defense of Democracies](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)
+- [Militarist Monitor - FDD](https://militarist-monitor.org/profile/foundation_for_defense_of_democracies)
+- [On Think Tanks - FDD](https://onthinktanks.org)
+- [Media Bias/Fact Check - FDD](https://mediabiasfactcheck.com/foundation-for-defense-of-democracies)
