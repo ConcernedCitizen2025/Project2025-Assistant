@@ -21,5 +21,5 @@ Jonathan Wolfson's work at the U.S. Department of Labor during the Trump adminis
 There are no widely known scandals or controversies associated with Jonathan Wolfson. His career has been characterized by his commitment to advancing policy reforms in line with conservative values.
 
 ### Sources
-- [Cicero Institute - Jonathan Wolfson](https://ciceroinstitute.org)
-- [Federalist Society - Jonathan Wolfson](https://fedsoc.org/contributors/jonathan-wolfson)
+- [Cicero Institute - Jonathan Wolfson](https://ciceroinstitute.org/authors/jonathan-wolfson/)
+- [Federalist Society - Jonathan Wolfson](https://fedsoc.org/contributors/jonathan-wolfson-2)

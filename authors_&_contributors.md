@@ -324,7 +324,7 @@ title: "Authors and Contributors"
 - [Michael Williams](/contributors/michael-williams.html) worked at the American Cornerstone Institute, founded by Dr. Ben Carson, who served as Secretary of Housing and Urban Development under Trump.
 - [Aaron Wolff](/contributors/aaron-wolff.html)
 - [Jonathan Wolfson](/contributors/jonathan-wolfson.html) worked at the U.S. Department of Labor during the Trump administration, managing key deregulatory initiatives.
-- [Alexei Woltornist](/contributors/alexei-woltornist.html) served in the Department of Homeland Security during the Trump administration.
+- [Alexei Woltornist](/contributors/alexei-woltornist.html)’s role as Assistant Secretary for Public Affairs at DHS involved shaping the Trump administration’s communications strategy on national security and crises.
 - [Frank Wuco](/contributors/frank-wuco.html) served in the Department of Homeland Security and the State Department during the Trump administration.
 - [Cesar Ybarra](/contributors/cesar-ybarra.html)
 - [John Zadrozny](/contributors/john-zadrozny.html), as Deputy Assistant to the President, was central to Trump's immigration and homeland security policies, playing a key role in shaping and implementing key initiatives.

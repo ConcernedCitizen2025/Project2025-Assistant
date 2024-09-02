@@ -22,6 +22,6 @@ Vollmer has been a part of controversial discussions surrounding Project 2025, p
 Vollmer’s advocacy for limiting the power of regulatory bodies, like the SEC, raises concerns among those who believe in the necessity of strong financial oversight. His participation in Project 2025 suggests that he may play a role in future efforts to significantly alter the structure and function of federal agencies, potentially leading to reduced regulatory safeguards.
 
 ### Sources
-- [Mercatus Center - Andrew N. Vollmer Profile](https://www.mercatus.org)
-- [Democracy Now! - Leaked Project 2025 Training Videos](https://www.democracynow.org/2024/8/20/project_2025_training_videos_trump)
-- [Euronews - Project 2025 Overview](https://www.euronews.com/2024/8/22/project-2025-trump-radical-plan)
+- [Mercatus Center - Andrew N. Vollmer Profile](https://www.mercatus.org/scholars/andrew-n-vollmer)
+- [Democracy Now! - Leaked Project 2025 Training Videos](https://www.democracynow.org/2024/8/12/project_2025_training_videos_propublica_documented)
+- [Euronews - Project 2025 Overview](https://www.euronews.com/2024/07/24/project-2025-the-ultra-radical-gameplan-for-a-second-trump-presidency)
