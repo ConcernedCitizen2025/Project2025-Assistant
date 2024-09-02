@@ -23,5 +23,4 @@ Paul Ray's significant role in the Trump administration's deregulatory efforts a
 
 ### Sources
 - [Heritage Foundation - Paul Ray Profile](https://www.heritage.org/staff/paul-ray)  
-- [Project 2025 Contributors List](file-bq4vQV0169abxmjz1jX769in)  
-- [Project 2025 Full Document](file-bq4vQV0169abxmjz1jX769in)
+- [The Federalist Society](https://fedsoc.org/contributors/paul-ray)

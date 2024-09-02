@@ -23,4 +23,4 @@ Given his association with *The American Conservative*, which holds positions th
 
 ### Sources
 - [The American Conservative - Shaun Rieley Profile](https://www.theamericanconservative.com/author/shaun-rieley/)
-- [LinkedIn - Shaun Rieley](https://www.linkedin.com/in/shaun-rieley/)
+- [LinkedIn - Shaun Rieley](https://www.linkedin.com/in/shaun-rieley-95658a1a)

@@ -20,4 +20,4 @@ There are no significant scandals or controversies associated with Pam Pryor. He
 
 ### Sources
 - [U.S. Department of State - Pamela D. Pryor](https://2017-2021.state.gov/biographies/pamela-d-pryor/index.html)
-- [ELYSIAN Magazine - Pam Pryor](https://readelysian.com/pam-pryor-senior-political-advisor/)
+- [ELYSIAN Magazine - Pam Pryor](https://readelysian.com/pam-pryor/)

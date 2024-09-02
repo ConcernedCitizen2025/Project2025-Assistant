@@ -256,9 +256,9 @@ title: "Authors and Contributors"
 - [Jordan Richardson](/contributors/jordan-richardson.html)’s roles in the White House and the Department of Labor during the Trump administration involved significant policy work.
 - [Jason Richwine](/contributors/jason-richwine.html) was appointed to a position at the National Institute of Standards and Technology during the final months of the Trump administration, reflecting the administration's alignment with his views on immigration.
 - [Shaun Rieley](/contributors/shaun-rieley.html)
-- [Lora Ries](/contributors/lora-ries.html)
+- [Lora Ries](/contributors/lora-ries.html) worked at The Heritage Foundation, an organization that significantly influenced policies during the Trump administration.
 - [Leo Rios](/contributors/leo-rios.html)
-- [Mark Robeck](/contributors/mark-robeck.html)’s role as Deputy General Counsel at the Department of Energy involved advising on energy and environmental regulations, central to the Trump administration's energy policies.
+- [Mark Robeck](/contributors/mark-robeck.html) served as Deputy General Counsel for Energy Policy at the Department of Energy during the Trump administration.
 - [James Rockas](/contributors/james-rockas.html)’s roles at the Department of Commerce and the State Department during the Trump administration positioned him as a key figure in advancing Trump’s trade, economic, and national security policies.
 - [Mark Royce](/contributors/mark-royce.html)
 - [Reed Rubinstein](/contributors/reed-rubinstein.html) served as Principal Deputy General Counsel at the USDA during the Trump administration.

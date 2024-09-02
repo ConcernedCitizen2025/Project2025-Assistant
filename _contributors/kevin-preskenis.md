@@ -23,5 +23,5 @@ There are no known scandals or controversies associated with Kevin Preskenis. Hi
 ### Sources
 - [Allymar Health Solutions - Kevin Preskenis](https://craft.co/allymar-health-solutions/executives)
 - [Apollo - Kevin Preskenis](https://www.apollo.io/people/Kevin/Preskenis/60c293600440ab00018d8aaf)
-- [Berkley Center - Kevin Preskenis](https://berkleycenter.georgetown.edu/)
-- [Pension Benefit Guaranty Corporation - Board of Directors Meeting](https://www.pbgc.gov)
+- [Berkley Center - Kevin Preskenis](https://berkleycenter.georgetown.edu/people/kevin-preskenis)
+- [Pension Benefit Guaranty Corporation - Board of Directors Meeting](https://www.pbgc.gov/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-09142020)

@@ -22,5 +22,5 @@ Richwine has been involved in multiple controversies, primarily due to his work 
 
 ### Sources
 - [Wikipedia - Jason Richwine](https://en.wikipedia.org/wiki/Jason_Richwine)
-- [Washington Examiner - A Talk with Jason Richwine](https://www.washingtonexaminer.com)
+- [Washington Examiner - A Talk with Jason Richwine](https://www.washingtonexaminer.com/policy/immigration/434318/a-talk-with-jason-richwine-i-do-not-apologize-for-any-of-my-work/)
 - [Center for Immigration Studies - Jason Richwine Profile](https://cis.org/Richwine)
