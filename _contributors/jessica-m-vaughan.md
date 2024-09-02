@@ -21,6 +21,6 @@ Vaughan and the Center for Immigration Studies were influential in shaping immig
 Jessica Vaughan has been involved in several controversies due to her association with CIS, which has been labeled an "anti-immigrant hate group" by organizations like the Southern Poverty Law Center (SPLC). Vaughan's critics accuse her of promoting nativist and bigoted viewpoints, particularly through her outspoken opposition to sanctuary cities and her comments regarding immigration enforcement. These controversies have made her a polarizing figure in immigration policy debates.
 
 ### Sources
-- [Center for Immigration Studies - Jessica Vaughan](https://cis.org/Richwine)
-- [Southern Poverty Law Center - Jessica Vaughan](https://www.splcenter.org)
-- [Washington Examiner - Profile on Jessica Vaughan](https://www.washingtonexaminer.com)
+- [Center for Immigration Studies - Jessica Vaughan](https://cis.org/Vaughan)
+- [Southern Poverty Law Center - Jessica Vaughan](https://www.splcenter.org/hatewatch/2017/10/02/meet-jessica-vaughan-anti-immigrant-movement%E2%80%99s-representative-tomorrow%E2%80%99s-senate-judiciary)
+- [Washington Examiner - Profile on Jessica Vaughan](https://www.washingtonexaminer.com/news/washington-secrets/830732/feds-every-legal-mexican-immigrant-sponsors-six-more-to-us/)

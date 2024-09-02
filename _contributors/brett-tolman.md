@@ -22,5 +22,7 @@ Brett Tolman has not been personally involved in scandals, but his role in advoc
 Tolman’s involvement in Project 2025 and his history with the Trump administration raise concerns about the direction of legal reforms and the potential for increased politicization of the justice system. Critics worry that his work could lead to further erosion of checks and balances within the government, especially if Project 2025’s more extreme proposals are implemented.
 
 ### Sources
-- [CNN - Trump’s Connection to Project 2025](https://www.keyt.com)
-- [POLITICO - Heritage Foundation’s Project 2025](https://www.politico.com)
+- [Wikipedia](https://en.wikipedia.org/wiki/Brett_Tolman)
+- [Tolman Group](https://www.tolmangroup.com/brett-tolman)
+- [CNN - Trump’s Connection to Project 2025](https://www.cnn.com/2024/07/11/politics/trump-allies-project-2025/index.html)
+- [POLITICO - Heritage Foundation’s Project 2025](https://www.politico.com/news/magazine/2024/08/02/project-2025-trump-inside-story-00172299)

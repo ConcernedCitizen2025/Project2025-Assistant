@@ -22,5 +22,5 @@ There are no significant scandals or controversies associated with Erin Valdez. 
 
 ### Sources
 - [Texas Public Policy Foundation - Erin Davis Valdez](https://www.texaspolicy.com/about/people/erin-davis-valdez)
-- [Hillsdale College - Erin Valdez Profile](https://www.hillsdale.edu)
+- [Hillsdale College - Erin Valdez Profile](https://www.hillsdale.edu/hillsdale-blog/hillsdale-alumni-newsletter/a-passion-for-learning-erin-valdez-2/)
 - [Unlock Higher Ed - Erin Valdez](https://unlockhighered.com/about/experts/erin-valdez/)

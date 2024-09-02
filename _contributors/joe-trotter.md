@@ -22,4 +22,4 @@ There are no significant scandals directly associated with Joe Trotter. However,
 
 ### Sources
 - [American Legislative Exchange Council - Joe Trotter Profile](https://alec.org/person/joe-trotter/)
-- [ALEC Articles - Joe Trotter](https://alec.org)
+- [ALEC Articles - Joe Trotter](https://alec.org/tag/joe-trotter/)
