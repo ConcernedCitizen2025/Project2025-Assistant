@@ -21,6 +21,6 @@ Jordan Richardson's roles in the White House and the Department of Labor during 
 There are no significant scandals or controversies associated with Jordan Richardson. His career has been characterized by his dedication to public service and his work in legal and policy development.
 
 ### Sources
-- [Heise Suarez Melville - Jordan Richardson](https://www.heisesuarezmelville.com/team/)
+- [Heise Suarez Melville - Jordan Richardson](https://www.heisesuarezmelville.com/team/jordan-richardson/)
 - [The Federalist Society - Jordan Richardson](https://fedsoc.org/contributors/jordan-richardson)
-- [WQCS - Judicial Nominating Commission Appointment](https://www.wqcs.org)
+- [WQCS - Judicial Nominating Commission Appointment](https://www.wqcs.org/wqcs-news/2023-11-20/twelve-nominated-to-the-judicial-nominating-commission)

@@ -22,5 +22,5 @@ Pyle and the Institute for Energy Research have faced criticism for their strong
 Given Pyle's influence in shaping energy policy under Trump and his ongoing advocacy through the IER, there are concerns among environmentalists and clean energy advocates about the potential impact of his work on future energy policies. His strong stance against renewable energy subsidies and support for fossil fuels are particularly contentious.
 
 ### Sources
-- [Institute for Energy Research - Thomas Pyle Profile](https://www.instituteforenergyresearch.org)
-- [Forbes - Analysis of Trump’s Energy Policy](https://www.forbes.com/sites/energy/2017/01/16/thomas-pyle-trump-energy-transition/?sh=4c8a3a417f56)
+- [Institute for Energy Research - Thomas Pyle Profile](https://www.instituteforenergyresearch.org/about/tom-pyle/)
+- [Forbes - Analysis of Trump’s Energy Policy](https://www.forbes.com/sites/uhenergy/2018/05/25/trumps-energy-policy-boon-for-the-oil-industry-or-non-event/)
