@@ -21,6 +21,6 @@ Thompson's role in the Trump administration involved substantial work on educati
 There are no major public scandals associated with Farnaz Farkish Thompson. Her work has generally focused on complex legal and regulatory issues within the education sector.
 
 ### Sources
-- [McGuireWoods - Farnaz Farkish Thompson](https://www.mcguirewoods.com)
-- [Regent University - Farnaz Farkish Thompson Profile](https://www.regent.edu)
-- [Career Education Colleges and Universities - Board Member Profile](https://career.org)
+- [McGuireWoods - Farnaz Farkish Thompson](https://www.mcguirewoods.com/people/t/farnaz-farkish-thompson/)
+- [Regent University - Farnaz Farkish Thompson Profile](https://www.regent.edu/faculty/farnaz-thompson/)
+- [Career Education Colleges and Universities - Board Member Profile](https://career.org/web/About/Board-Profiles/Farnaz-Farkish-Thompson.aspx)

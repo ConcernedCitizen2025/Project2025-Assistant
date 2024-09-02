@@ -21,5 +21,5 @@ Sullivan was a significant player in the Trump administration, overseeing critic
 There are no significant scandals associated with Katharine T. Sullivan. Her career has been marked by her commitment to justice and public service, particularly in roles that align with conservative values.
 
 ### Sources
-- [1792 Exchange - About](https://1792exchange.com)
+- [1792 Exchange - About](https://1792exchange.com/about/#leadership)
 - [Texas Public Policy Foundation - Katharine Sullivan](https://www.texaspolicy.com/about/people/the-honorable-katie-sullivan/)

@@ -22,5 +22,7 @@ There are no significant scandals or controversies associated with Aaron Szabo. 
 Szabo’s strong advocacy for deregulation, particularly in the environmental sector, may raise concerns among those who prioritize stringent environmental protections. Critics may argue that his approach could lead to weakened regulatory oversight and increased risks to public health and the environment. As a contributor to Project 2025, Szabo’s influence could be significant in shaping future conservative policies in these areas.
 
 ### Sources
-- [CGCN Group - Aaron Szabo Profile](https://www.cgcn.com)
-- [Project 2025 - Mandate for Leadership: The Conservative Promise](https://www.project2025.org)&#8203;:contentReference[oaicite:0]{index=0}
+- [Poligage](https://www.poligage.com/expertise/aaron-szabo/)
+- [Open Secrets](https://www.opensecrets.org/federal-lobbying/lobbyists/summary?cycle=2023&id=Y0000055386L)
+- [CGCN Group](https://www.cgcn.com)
+- [Project 2025 - Mandate for Leadership: The Conservative Promise](https://www.project2025.org)

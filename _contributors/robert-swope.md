@@ -22,5 +22,6 @@ There are no significant scandals or controversies publicly associated with Robe
 As a policy strategist working within the conservative movement, Swope’s influence on policy directions could raise concerns among those who disagree with the conservative approaches to governance, deregulation, and national security. However, these concerns are more related to the policies he supports rather than any personal controversies.
 
 ### Sources
-- [LinkedIn - Robert Swope](https://www.linkedin.com/in/robertswope)
 - [Ballotpedia - Robert Swope](https://ballotpedia.org/Robert_Swope)
+- [LinkedIn - Robert Swope](https://www.linkedin.com/in/robertswope)
+
