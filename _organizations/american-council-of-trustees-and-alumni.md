@@ -6,30 +6,30 @@ title: "American Council of Trustees and Alumni"
 # American Council of Trustees and Alumni
 
 ## Overview
-The American Council of Trustees and Alumni (ACTA) is an independent nonprofit organization established in 1995. ACTA is dedicated to promoting academic excellence, academic freedom, and accountability at America's colleges and universities. The organization collaborates with alumni, donors, trustees, and educational leaders to support liberal arts education, uphold high academic standards, and safeguard the free exchange of ideas on campuses. ACTA is particularly known for its efforts to encourage active trusteeship and institutional accountability in higher education ([ACTA](https://www.goacta.org), [Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+The American Council of Trustees and Alumni (ACTA) is an independent nonprofit organization established in 1995. ACTA is dedicated to promoting academic excellence, academic freedom, and accountability at America's colleges and universities. The organization collaborates with alumni, donors, trustees, and educational leaders to support liberal arts education, uphold high academic standards, and safeguard the free exchange of ideas on campuses. ACTA is particularly known for encouraging active trusteeship and institutional accountability in higher education.
 
 ## Mission and Activities
 ACTA’s mission is to ensure that students receive a high-quality, intellectually rich education at an affordable price. Key activities include:
-- **Academic Freedom Initiatives:** ACTA defends free expression on college campuses through programs like the Campus Freedom Initiative, which provides guidance for fostering a culture of free thought and intellectual diversity ([ACTA](https://www.goacta.org)).
-- **Accountability Efforts:** The organization helps college governing boards to reform institutions from within, aiming to control costs, improve student outcomes, and ensure responsible governance. ACTA advocates for stronger oversight by trustees to hold university administrations accountable ([Capital Research Center](https://capitalresearch.org), [ACTA](https://www.goacta.org)).
-- **Educational Resources:** ACTA publishes the "What Will They Learn?" report, which evaluates over 1,100 four-year institutions on their general education requirements. The report grades universities on how well they include core subjects in their curricula, highlighting the need for a rigorous liberal arts education ([Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+- **Academic Freedom Initiatives:** ACTA defends free expression on college campuses through programs like the Campus Freedom Initiative, which provides guidance for fostering a culture of free thought and intellectual diversity.
+- **Accountability Efforts:** The organization helps college governing boards to reform institutions from within, aiming to control costs, improve student outcomes, and ensure responsible governance. ACTA advocates for stronger oversight by trustees to hold university administrations accountable.
+- **Educational Resources:** ACTA publishes the "What Will They Learn?" report, which evaluates over 1,100 four-year institutions on their general education requirements. The report grades universities on how well they include core subjects in their curricula, highlighting the need for a rigorous liberal arts education.
 
 ## Leadership and Influence
-- **Michael B. Poliakoff:** President of ACTA since 2016, Poliakoff has been influential in advocating for civic literacy and a strong core curriculum in higher education. His leadership has been crucial in expanding ACTA's influence on policy discussions related to academic standards and free speech on campuses ([Capital Research Center](https://capitalresearch.org), [The Cornell Review](https://www.thecornellreview.org)).
-- **Anne D. Neal:** Founding president, Neal significantly shaped ACTA's mission and strategies, focusing on active trusteeship and institutional accountability. Her efforts have made ACTA a leading voice in higher education reform ([Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+- **Michael B. Poliakoff:** President of ACTA since 2016, Poliakoff has been influential in advocating for civic literacy and a strong core curriculum in higher education. Under his leadership, ACTA has expanded its influence on policy discussions related to academic standards and free speech on campuses.
+- **Steven McGuire:** Paul & Karen Levy Fellow in Campus Freedom, McGuire has been involved in promoting free expression and intellectual diversity on college campuses, particularly through the Gold Standard program, which provides a framework for maintaining free speech in academic settings.
 
 ## Connections to Trump
-ACTA has indirect connections to the Trump administration through its advocacy for conservative educational reforms. The organization’s emphasis on reducing administrative bloat and promoting cost-effective education aligns with broader conservative policy goals that were prominent during the Trump era ([Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+ACTA has indirect connections to the Trump administration through its advocacy for conservative educational reforms and its focus on reducing administrative bloat in higher education. While ACTA does not have direct ties to Trump, its efforts to promote cost-effective education and intellectual diversity align with broader conservative goals that were prominent during the Trump era.
 
 ## Concerns
-- **Political Bias:** ACTA’s strong stance on conservative principles may raise concerns about potential biases in its research and recommendations. Critics argue that its focus on traditional liberal arts education can sometimes neglect diverse viewpoints and multicultural initiatives, which are seen by some as essential for creating inclusive academic environments ([Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni), [Media Bias/Fact Check](https://mediabiasfactcheck.com)).
-- **Controversial Positions:** The organization has faced criticism for its opposition to multicultural and diversity initiatives in higher education. This opposition is viewed by some as undermining efforts to create more inclusive and diverse academic settings ([Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+- **Political Bias:** ACTA’s emphasis on conservative principles may raise concerns about potential biases in its research and recommendations. Critics argue that its focus on traditional liberal arts education sometimes neglects diverse viewpoints and multicultural initiatives, which are seen by some as essential for creating inclusive academic environments.
+- **Controversial Positions:** The organization has faced criticism for its opposition to certain multicultural and diversity initiatives in higher education. This opposition is viewed by some as undermining efforts to create more inclusive and diverse academic settings.
 
 ## Conclusion
-The American Council of Trustees and Alumni plays a significant role in promoting conservative values and academic standards in higher education. Its research and advocacy efforts aim to enhance academic freedom, excellence, and accountability. However, its strong ideological stance and potential for political bias warrant careful consideration of its policy recommendations and educational initiatives ([ACTA](https://www.goacta.org), [Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)).
+The American Council of Trustees and Alumni plays a significant role in promoting conservative values and academic standards in higher education. Its research and advocacy efforts aim to enhance academic freedom, excellence, and accountability. However, its strong ideological stance and potential for political bias warrant careful consideration of its policy recommendations and educational initiatives.
 
 ## Sources
-- [ACTA](https://www.goacta.org)
-- [Wikipedia](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)
-- [Capital Research Center](https://capitalresearch.org)
-- [The Cornell Review](https://www.thecornellreview.org)
+- [American Council of Trustees and Alumni - Official Website](https://www.goacta.org)
+- [Wikipedia - American Council of Trustees and Alumni](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)
+- [The Cornell Review - ACTA’s Steve McGuire discusses campus free speech](https://www.thecornellreview.org/tag/american-council-of-trustees-and-alumni)
+- [Diverse Education - ACTA Releases Guide for Managing Campus Protests](https://www.diverseeducation.com)
