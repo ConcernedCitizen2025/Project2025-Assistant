@@ -22,5 +22,6 @@ There are no major scandals or controversies publicly associated with Trent McCo
 As a lawyer actively involved in defending conservative policies, particularly those implemented or supported by the Trump administration, McCotter's work might raise concerns among those who oppose these policies. His role in Project 2025 also suggests that he will continue to be influential in promoting a conservative legal agenda in future administrations.
 
 ### Sources
-- [Boyden Gray & Associates - Trent McCotter](https://boydengrayassociates.com)
-- [LinkedIn - Trent McCotter](https://www.linkedin.com/in/trent-mccotter/)
+- [Boyden Gray & Associates - Trent McCotter](https://boydengray.com/our-team/trent-mccotter/)
+- [LinkedIn - Trent McCotter](https://www.linkedin.com/in/trent-mccotter-9869b4101)
+- [The Federalist Society](https://prod.fedsoc.org/contributors/trent-mccotter)

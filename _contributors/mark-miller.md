@@ -19,5 +19,5 @@ Mark Miller’s connection to Donald Trump is primarily through his association 
 Miller's tenure was marked by intense legislative debates, particularly over conservation and transgender issues, but no significant scandals were associated with him personally.
 
 ### Sources
-- [SDPB - Mark Miller departs as Gov. Noem's fifth chief of staff](https://www.sdpb.org)
-- [Argus Leader - Mark Miller to stay on as Gov. Kristi Noem's chief of staff](https://www.argusleader.com)
+- [SDPB - Mark Miller departs as Gov. Noem's fifth chief of staff](https://www.sdpb.org/politics/2023-06-13/miller-departs-as-gov-noems-fifth-chief-of-staff)
+- [Argus Leader - Mark Miller to stay on as Gov. Kristi Noem's chief of staff](https://www.argusleader.com/story/news/politics/2022/03/16/mark-miller-stay-gov-kristi-noems-south-dakota-chief-staff/7065241001/)

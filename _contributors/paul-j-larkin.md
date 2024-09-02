@@ -23,5 +23,5 @@ Larkin's advocacy on criminal justice reform, particularly his emphasis on the d
 
 ### Sources
 - [The Heritage Foundation - Paul J. Larkin](https://www.heritage.org/staff/paul-j-larkin-jr)  
-- [Council on Criminal Justice - Paul J. Larkin](https://counciloncj.org/people/paul-j-larkin-jr/)  
+- [Council on Criminal Justice - Paul J. Larkin](https://counciloncj.org/ccj-directory/paul-larkin/)  
 - [Open to Debate - Paul J. Larkin](https://www.opentodebate.org/speakers/paul-j-larkin-jr/)

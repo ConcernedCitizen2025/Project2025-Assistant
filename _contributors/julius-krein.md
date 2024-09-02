@@ -22,6 +22,6 @@ There are no major personal scandals associated with Julius Krein. The primary c
 Krein's early support for Trump and his attempt to provide a platform for Trumpism through American Affairs attracted significant attention. However, his subsequent public denunciation of Trump following the Charlottesville Unite the Right rally in August 2017 marked a dramatic shift. In an op-ed for The New York Times, Krein expressed regret for his support of Trump, citing disillusionment with Trump's presidency and the direction it was taking.
 
 ### Sources
-- [American Affairs - Julius Krein Profile](https://americanaffairsjournal.org/about/)
-- [The New York Times - Julius Krein Op-Ed](https://www.nytimes.com/julius-krein-trump-op-ed)
+- [American Affairs - Julius Krein, Editor](https://americanaffairsjournal.org/about/)
+- [The New York Times - Julius Krein Op-Ed](https://www.nytimes.com/2017/08/24/opinion/im-sorry-i-voted-for-this-president.html)
 - [Wikipedia - Charlottesville Unite the Right Rally](https://en.wikipedia.org/wiki/Unite_the_Right_rally)

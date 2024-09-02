@@ -19,4 +19,4 @@ Nasi's work in environmental law aligns with the regulatory rollbacks and energy
 There are no significant scandals or controversies associated with Michael Nasi.
 
 ### Sources
-- [Jackson Walker LLP - Michael Nasi](https://www.jw.com/)
+- [Jackson Walker LLP - Michael Nasi](https://www.jw.com/people/michael-nasi/)

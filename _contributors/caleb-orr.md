@@ -23,6 +23,5 @@ Orr’s role in Project 2025 raises potential concerns about the long-term impac
 - [LegiStorm - Caleb Orr Profile](https://www.legistorm.com/person/bio/214300/Caleb_William_Orr.html)
 - [Hertog Foundation - Caleb Orr](https://hertogfoundation.org/students/caleb-orr)
 - [James Wilson Institute - Caleb Orr](http://www.jameswilsoninstitute.org/caleb-orr)
-- [The Heritage Foundation - Project 2025](https://www.heritage.org)
-- [The Nation - Will Project 2025 Turn Trumpism Into a Governing Agenda?](https://www.thenation.com)
-- [The Week - What is Project 2025?](https://www.theweek.com)
+- [The Nation - Will Project 2025 Turn Trumpism Into a Governing Agenda?](https://www.thenation.com/article/politics/will-the-heritage-foundations-project-2025-turn-trumpism-into-a-governing-agenda/)
+- [The Week - What is Project 2025?](https://theweek.com/politics/heritage-foundation-2025-donald-trump)

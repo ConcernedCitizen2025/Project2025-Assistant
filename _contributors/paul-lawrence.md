@@ -23,4 +23,4 @@ Lawrence's high-profile roles in both the public and private sectors, particular
 
 ### Sources
 - [Paul Lawrence's Official Website](https://www.paulrlawrence.com)  
-- [Data Center Dynamics - Paul Lawrence](https://www.datacenterdynamics.com)
+- [Data Center Dynamics - Paul Lawrence](https://www.datacenterdynamics.com/en/profile/paul-lawrence/)

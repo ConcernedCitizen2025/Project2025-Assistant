@@ -19,5 +19,6 @@ Nikakhtar's role at the Department of Commerce during the Trump administration i
 There are no significant scandals or controversies associated with Nazak Nikakhtar.
 
 ### Sources
-- [Wiley Rein LLP - Nazak Nikakhtar](https://www.wiley.law) 
-- [U.S.-China Economic and Security Review Commission - Nazak Nikakhtar](https://www.uscc.gov)
+- [Wiley Rein LLP - Nazak Nikakhtar](https://www.wiley.law/people-NazakNikakhtar) 
+- [U.S.-China Economic and Security Review Commission - Nazak Nikakhtar](https://www.uscc.gov/hearings/current-and-emerging-technologies-us-china-economic-and-national-security-competition)
+- [U.S. Department of Commerce](https://www.commerce.gov/about/leadership/nazak-nikakhtar)

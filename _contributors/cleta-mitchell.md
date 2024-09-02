@@ -26,4 +26,4 @@ Mitchell's work on voter fraud and election integrity, including her leadership 
 ### Sources
 - [Wikipedia - Cleta Mitchell](https://en.wikipedia.org/wiki/Cleta_Mitchell)
 - [Conservative Partnership Institute - Cleta Mitchell Profile](https://www.cpi.org/staff/cleta-mitchell/)
-- [ProPublica - Cleta Mitchell and Ziklag Fund](https://www.propublica.org/article/ziklag-christian-right-group-2024-election)
+- [ProPublica - Cleta Mitchell and Ziklag Fund](https://www.propublica.org/article/inside-ziklag-secret-christian-charity-2024-election)

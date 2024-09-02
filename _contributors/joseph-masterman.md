@@ -19,7 +19,6 @@ Joseph Masterman’s work intersects with issues of importance to Trump and his 
 There are no major scandals or controversies directly associated with Joseph Masterman. His professional reputation is primarily built on his legal expertise and involvement in complex litigation.
 
 ### Sources
-- [Cooper & Kirk - Joseph Masterman Profile](https://www.cooperkirk.com/professionals/joseph-masterman/)
-- [Law360 - Cooper & Kirk](https://www.law360.com/articles/1285797)
-- [The Washington Post - Legal Cases Involving Cooper & Kirk](https://www.washingtonpost.com/legal/)
-
+- [Justia](https://lawyers.justia.com/lawyer/joseph-o-masterman-1665972)
+- [ America Inns of Court](https://www.innsofcourt.org/AIC/Awards_and_Scholarships/Temple_Bar_Scholarships/Temple_Bar_Scholarship_Reports/2020_Joseph_OMeara_Masterman.aspx)
+- [Cooper Masterman](https://coopermasterman.com/person/joe-masterman/)

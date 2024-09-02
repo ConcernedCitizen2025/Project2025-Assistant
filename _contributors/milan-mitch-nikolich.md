@@ -21,5 +21,5 @@ Appointed during the Trump administration, Milan Nikolich played a pivotal role 
 There are no significant scandals or controversies associated with Milan Nikolich. His tenure has been noted for its focus on enhancing defense technology and research, with a professional reputation built on contributions to national security and technological advancement.
 
 ### Sources
-- [Department of Defense - Milan Nikolich](https://www.defense.gov)
-- [Defense News - Pentagon Leadership](https://www.defensenews.com)
+- [Department of Defense - Milan Nikolich](https://www.defense.gov/About/Biographies/Biography/Article/1647691/dr-milan-nikolich/)
+- [Defense News - Pentagon Leadership](https://www.defensenews.com/pentagon/2018/09/27/heres-who-is-running-the-pentagons-acquisition-and-technology-offices/)

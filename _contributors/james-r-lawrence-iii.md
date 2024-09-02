@@ -22,6 +22,6 @@ James R. Lawrence III has not been involved in any major personal scandals. Howe
 Lawrence's involvement in high-profile litigation and regulatory matters, particularly those involving Big Tech censorship and health care regulations, can be contentious. His roles in the Trump administration during the COVID-19 pandemic also draw attention, as critics might scrutinize the administration's handling of health care regulations during that time.
 
 ### Sources
-- [Envisage Law - James R. Lawrence III Profile](https://envisage.law)
+- [Envisage Law - James R. Lawrence III Profile](https://envisage.law/our-team/james-r-lawrence/)
 - [CNSNews - Author Profile: James R. Lawrence III](https://cnsnews.com/author/james-r-lawrence-iii)
 - [News Article - Envisage Law Taps Former HHS Deputy General Counsel](https://envisage.law/envisage-law-taps-former-hhs-deputy-general-counsel-and-fda-chief-counsel-to-lead-health-care-and-life-sciences-practice)

@@ -22,4 +22,4 @@ There are no major public scandals directly associated with Frank Mermoud. Howev
 
 ### Sources
 - [U.S.-Ukraine Business Council - Frank Mermoud](https://www.usubc.org/site/biographies/frank-mermoud)
-- [Washington Examiner - Frank Mermoud Involvement in Fundraising](https://www.washingtonexaminer.com)
+- [Washington Examiner - Frank Mermoud Involvement in Fundraising](https://www.washingtonexaminer.com/news/1126383/desantis-assembles-wealthy-businessmen-to-fundraise-ahead-of-white-house-announcement/)

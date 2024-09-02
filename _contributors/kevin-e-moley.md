@@ -19,5 +19,5 @@ Kevin E. Moley's role as Assistant Secretary of State for International Organiza
 Moley's leadership at the State Department faced criticism as reported in an Inspector General's report, which highlighted issues of "disrespectful and hostile treatment" of staff. These issues, coupled with his failure to meet leadership standards, contributed to his resignation from the position in November 2019.
 
 ### Sources
-- [United States Department of State - Kevin E. Moley](https://2017-2021.state.gov/biographies/kevin-e-moley/)
+- [United States Department of State - Kevin E. Moley](https://2017-2021.state.gov/people/kevin-edward-moley/)
 - [Wikipedia - Kevin Moley](https://en.wikipedia.org/wiki/Kevin_Moley)

@@ -21,7 +21,7 @@ Edwin Meese’s connection to Donald Trump was highlighted in 2019 when Trump aw
 Meese's tenure as Attorney General was not without controversy. He was involved in the Wedtech scandal, a corruption investigation related to a New York defense contractor. While the investigation did not result in criminal charges, it concluded that Meese had violated ethical standards, leading to his resignation in 1988.
 
 ### Sources
-- [Heritage Foundation - Edwin Meese III Profile](https://www.heritage.org)
+- [Heritage Foundation - Edwin Meese III Profile](https://www.heritage.org/staff/the-hon-edwin-meese-iii)
 - [Wikipedia - Edwin Meese III](https://en.wikipedia.org/wiki/Edwin_Meese_III)
-- [Trump White House Archives - Medal of Freedom Ceremony](https://trumpwhitehouse.archives.gov)
-- [VOA News - Trump Honors Edwin Meese](https://www.voanews.com)
+- [Trump White House Archives - Medal of Freedom Ceremony](https://trumpwhitehouse.archives.gov/medaloffreedom/)
+- [VOA News - Trump Honors Edwin Meese](https://www.voanews.com/a/usa_trump-honors-longtime-reagan-associate-edwin-meese/6177298.html)

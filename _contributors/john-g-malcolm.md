@@ -25,4 +25,4 @@ There are no major personal scandals associated with John Malcolm. His work has 
 ### Sources
 - [The Heritage Foundation - John G. Malcolm](https://www.heritage.org/staff/john-malcolm)
 - [The Federalist Society - John G. Malcolm](https://fedsoc.org/contributors/john-malcolm)
-- [Congress.gov - Biographical Information for John G. Malcolm](https://www.congress.gov)
+- [LSC.gov - John G. Malcolm](https://www.lsc.gov/about-lsc/leadership/board-members/john-g-malcolm)

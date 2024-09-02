@@ -20,5 +20,5 @@ In December 2021, Matthews faced controversy when he released a memo accusing se
 
 ### Sources
 - [Wikipedia - Earl G. Matthews](https://en.wikipedia.org/wiki/Earl_G._Matthews)
-- [The Vandenberg Coalition - Our Team](https://vandenbergcoalition.org/team/)
-- [Washington Post - Matthews Memo on January 6th](https://www.washingtonpost.com/national-security/2021/12/14/matthews-memo-jan-6/)
+- [The Vandenberg Coalition](https://vandenbergcoalition.org/experts/earl-g-matthews/)
+- [Washington Post - Matthews Memo on January 6th](https://www.washingtonpost.com/national-security/2024/01/04/january-6-army-reprisal-claim/)

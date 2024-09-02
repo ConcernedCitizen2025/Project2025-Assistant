@@ -22,5 +22,5 @@ There are no major scandals or controversies directly associated with Jessica Me
 
 ### Sources
 - [Competitive Enterprise Institute - Jessica Melugin](https://cei.org/experts/jessica-melugin/)
-- [Antitrust and Tech Policy Analysis](https://cei.org/issues/antitrust-and-tech/)
+- [Antitrust and Tech Policy Analysis](https://cei.org/issues/capitalism/antitrust/)
 - [The Federalist Society - Jessica Melugin](https://fedsoc.org/contributors/jessica-melugin)
