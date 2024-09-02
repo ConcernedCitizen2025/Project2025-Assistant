@@ -21,6 +21,6 @@ Zadrozny was closely associated with Trump's policy agenda, particularly in the 
 There are no widely known scandals directly associated with John Zadrozny. His career has been focused on advancing conservative policies in immigration and national security.
 
 ### Sources
-- [America First Legal - John Zadrozny](https://aflegal.org)
+- [America First Legal - John Zadrozny](https://aflegal.org/afl-seeks-records-from-department-of-justice-about-supreme-court-opinion-leak/)
 - [Immigration Center For Enforcement - Who We Are](https://www.immigrationcenterforenforcement.org/who-we-are/)
 - [Chipley Bugle - AFPI Announces Additions to Center Leadership](https://chipleybugle.com/america-first-policy-institute-announces-additions-to-center-leadership/)

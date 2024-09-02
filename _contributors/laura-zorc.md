@@ -22,4 +22,4 @@ There are no significant scandals or controversies associated with Laura Zorc. H
 
 ### Sources
 - [FreedomWorks - Laura Zorc](https://www.paleadershipconference.org/speakers-bios/147-laura-zorc)
-- [Vero News - Laura Zorc Washington Position](https://veronews.com)
+- [Vero News - Laura Zorc Washington Position](https://veronews.com/2020/12/10/laura-zorc-takes-washington-based-position-you-might-see-me-on-fox-news/)
