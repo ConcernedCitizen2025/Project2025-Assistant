@@ -22,4 +22,4 @@ There are no significant scandals or controversies associated with Josh Sewell. 
 
 ### Sources
 - [The Heartland Institute - Josh Sewell](https://heartland.org/about-us/who-we-are/josh-sewell/)
-- [Iowa Agribusiness Radio Network - Taxpayer groups speak out against Farm Bill subsidy costs](https://iowaagribusinessradionetwork.com)
+- [Iowa Agribusiness Radio Network - Taxpayer groups speak out against Farm Bill subsidy costs](https://iowaagribusinessradionetwork.com/taxpayer-groups-speak-out-against-farm-bill-subsidy-costs/)

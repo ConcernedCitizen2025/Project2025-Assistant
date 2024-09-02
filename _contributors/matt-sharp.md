@@ -19,4 +19,4 @@ While not directly tied to Trump, Sharp's work with ADF aligns with the broader 
 There are no significant scandals or controversies associated with Matt Sharp.
 
 ### Sources
-- [Alliance Defending Freedom - Matt Sharp](https://adflegal.org/)
+- [Alliance Defending Freedom - Matt Sharp](https://adflegal.org/profile/matt-sharp)

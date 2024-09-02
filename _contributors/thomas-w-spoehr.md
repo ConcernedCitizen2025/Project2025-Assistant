@@ -23,4 +23,4 @@ Critics might argue that Spoehr’s strong advocacy for increased defense spendi
 
 ### Sources
 - [The Heritage Foundation - Thomas W. Spoehr Profile](https://www.heritage.org/staff/thomas-spoehr)
-- [Military Times - Interview with Thomas Spoehr](https://www.militarytimes.com/opinion/commentary/2021/05/03/militarys-biggest-threat-may-be-climate-change-ideology/)
+- [Military Times - Interview with Thomas Spoehr](https://www.militarytimes.com/news/your-military/2022/10/13/is-the-military-too-woke-to-recruit/)

@@ -22,7 +22,7 @@ Austin Ruse has been involved in several controversies, particularly regarding h
 Ruse's extreme positions and his role in pushing for policies that could severely restrict reproductive and LGBTQ rights raise significant concerns. His involvement in Project 2025 suggests that he could play a key role in efforts to enact drastic changes in government policies, potentially leading to the rollback of many social freedoms currently protected by law.
 
 ### Sources
-- [C-Fam - Austin Ruse Profile](https://c-fam.org)
+- [C-Fam - Austin Ruse Profile](https://c-fam.org/author/austin-ruse/)
 - [Wikipedia - Austin Ruse](https://en.wikipedia.org/wiki/Austin_Ruse)
-- [Religion News Service - Catholic Christian Nationalism](https://religionnews.com)
-- [Media Matters - Project 2025 Contraception Debate](https://www.mediamatters.org)
+- [Religion News Service - Catholic Christian Nationalism](https://religionnews.com/2024/07/23/jd-vance-catholic-christian-nationalism-is-having-a-moment/)
+- [Media Matters - Project 2025 Contraception Debate](https://www.mediamatters.org/heritage-foundation/guide-project-2025-extreme-right-wing-agenda-next-republican-administration)

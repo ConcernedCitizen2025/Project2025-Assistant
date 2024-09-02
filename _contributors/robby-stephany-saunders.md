@@ -22,4 +22,4 @@ There are no known significant scandals or controversies associated with Robby S
 Given the Coalition for a Prosperous America's strong stance on trade and economic nationalism, some may view its policies as protectionist. Critics of economic nationalism often argue that such policies can lead to trade wars and may harm global cooperation. However, these concerns are more aligned with the organization's policy positions rather than any direct actions by Saunders.
 
 ### Sources
-- [Coalition for a Prosperous America - Robby Stephany Saunders](https://www.prosperousamerica.org/about)
+- [Coalition for a Prosperous America - Robby Stephany Saunders](https://prosperousamerica.org/staff/robby-smith/)

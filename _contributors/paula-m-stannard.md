@@ -22,5 +22,6 @@ Paula M. Stannard has maintained a professional career without significant scand
 As a legal expert focused on healthcare, Stannard’s influence on policy could raise concerns among those wary of conservative approaches to healthcare regulation, particularly regarding issues like deregulation and privacy laws.
 
 ### Sources
-- [The Heritage Foundation - Profile on Paula Stannard](https://www.heritage.org/staff/paula-m-stannard)
-- [LinkedIn - Paula M. Stannard](https://www.linkedin.com/in/paula-m-stannard-7b054b10)
+- [The Federalist Society - Profile on Paula Stannard](https://fedsoc.org/contributors/paula-stannard)
+- [Ballotpedia](https://ballotpedia.org/Paula_Stannard)
+- [LinkedIn - Paula M. Stannard](https://www.linkedin.com/in/paulastannard)

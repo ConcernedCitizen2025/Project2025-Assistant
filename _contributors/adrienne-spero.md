@@ -24,5 +24,6 @@ There are no known scandals or controversies associated with Adrienne Spero.
 As with other contributors to Project 2025, Spero's focus on homeland security may raise concerns among those who view the project's broader agenda as overly aggressive or partisan. Her work could influence the direction of security policies in a future conservative administration.
 
 ### Sources
+- [Foundation for Defense of Democracies](https://www.fdd.org/team/adrienne-spero/)
 - [Project 2025 - Mandate for Leadership: The Conservative Promise](https://www.project2025.org)
 - [U.S. House of Representatives - Homeland Security Committee](https://homeland.house.gov)

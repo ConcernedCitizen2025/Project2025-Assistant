@@ -23,4 +23,4 @@ Schaefer’s strong stance on reducing U.S. engagement with international organi
 
 ### Sources
 - [The Heritage Foundation - Brett D. Schaefer Profile](https://www.heritage.org/staff/brett-d-schaefer)
-- [The Week - What is Project 2025?](https://www.theweek.com)
+- [The Week - What is Project 2025?](https://theweek.com/politics/heritage-foundation-2025-donald-trump)

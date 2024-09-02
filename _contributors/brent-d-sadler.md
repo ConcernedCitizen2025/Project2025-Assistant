@@ -22,6 +22,6 @@ While Brent Sadler himself has not been embroiled in personal scandals, Project 
 Sadler’s role in shaping policies through Project 2025 may lead to significant shifts in U.S. defense and foreign policy. The emphasis on military expansion and the rollback of environmental regulations under this agenda could have profound implications for both domestic and international stability. There is particular concern over the potential for these policies to exacerbate tensions with China, as the project advocates for a more aggressive stance against perceived adversaries.
 
 ### Sources
-- [The Heritage Foundation - Brent D. Sadler Profile](https://www.heritage.org)
-- [The Nation - Will Project 2025 Turn Trumpism Into a Governing Agenda?](https://www.thenation.com)
-- [The Week - What is Project 2025?](https://www.theweek.com)
+- [The Heritage Foundation - Brent D. Sadler Profile](https://www.heritage.org/staff/brent-sadler)
+- [The Nation - Will Project 2025 Turn Trumpism Into a Governing Agenda?](https://www.thenation.com/article/politics/will-the-heritage-foundations-project-2025-turn-trumpism-into-a-governing-agenda/)
+- [The Week - What is Project 2025?](https://theweek.com/politics/heritage-foundation-2025-donald-trump)

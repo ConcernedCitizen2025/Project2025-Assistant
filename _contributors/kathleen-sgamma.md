@@ -22,4 +22,4 @@ There are no significant scandals associated with Kathleen Sgamma. Her career is
 
 ### Sources
 - [Western Energy Alliance - About](https://www.westernenergyalliance.org/about.html)
-- [Hart Energy - Kathleen Sgamma](https://www.hartenergy.com)
+- [Hart Energy - Kathleen Sgamma](https://www.hartenergy.com/news/kathleen-sgamma-appointed-president-western-energy-alliance-111796)

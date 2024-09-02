@@ -24,5 +24,5 @@ Rubinstein's role in defending Trump-era policies and his involvement in legal c
 ### Sources
 - [America First Legal Foundation - Reed Rubinstein Profile](https://www.aflegal.org/team/reed-rubinstein/)
 - [U.S. Department of Agriculture - Press Releases](https://www.usda.gov/media/press-releases) *(No direct profile link available, but this source provides general information on past officials)*
-- [Washington Post - Reed Rubinstein’s Role](https://www.washingtonpost.com/business/2021/02/08/reed-rubinstein-legal-team/)
-
+- [Washington Post - Reed Rubinstein’s Role](https://www.washingtonpost.com/politics/veterans-trump-biden/2021/08/18/fa39b5f2-ff68-11eb-ba7e-2cf966e88e93_story.html)
+- [The Federalist Society](https://fedsoc.org/contributors/reed-rubinstein)

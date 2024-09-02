@@ -270,8 +270,8 @@ title: "Authors and Contributors"
 - [Carla Sands](/contributors/carla-sands.html) served as Ambassador to Denmark, appointed by Trump during his administration.
 - [Robby Stephany Saunders](/contributors/robby-stephany-saunders.html)
 - [David Sauve](/contributors/david-sauve.html)
-- [Brett D. Schaefer](/contributors/brett-d-schaefer.html)
-- [Nina Owcharenko Schaefer](/contributors/nina-owcharenko-schaefer.html)
+- [Brett D. Schaefer](/contributors/brett-d-schaefer.html) works at The Heritage Foundation, an organization that significantly influenced policies during the Trump administration.
+- [Nina Owcharenko Schaefer](/contributors/nina-owcharenko-schaefer.html) works at The Heritage Foundation, an organization that significantly influenced policies during the Trump administration.
 - [Matt Schuck](/contributors/matt-schuck.html) worked at the American Cornerstone Institute, founded by Ben Carson, who served as Secretary of Housing and Urban Development during the Trump administration.
 - [Justin Schwab](/contributors/justin-schwab.html) served as Deputy General Counsel at the Environmental Protection Agency, a position appointed by Trump during his administration.
 - [Jon Schweppe](/contributors/jon-schweppe.html)
@@ -291,7 +291,7 @@ title: "Authors and Contributors"
 - [Chris Stanley](/contributors/chris-stanley.html)’s role at the Census Bureau involved managing congressional relations during the Trump administration.
 - [Paula M. Stannard](/contributors/paula-m-stannard.html)
 - [Parker Stathatos](/contributors/parker-stathatos.html) participated in the White House Internship Program under the Trump administration.
-- [William Steiger](/contributors/william-steiger.html)
+- [William Steiger](/contributors/william-steiger.html) served as Chief of Staff at USAID during the Trump administration.
 - [Kenny Stein](/contributors/kenny-stein.html)
 - [Corey Stewart](/contributors/corey-stewart.html) served as Donald Trump's Virginia campaign chairman in 2016, a role that solidified his alignment with Trump's populist and nationalist agenda. Stewart's support for Trump extended into his 2018 U.S. Senate run and continued through his advocacy for Trump's policies during various controversies.
 - [Mari Stull](/contributors/mari-stull.html) served as a Senior Advisor at the U.S. Department of State under Trump, focusing on aligning the department with Trump’s political agenda. Her tenure involved enforcing loyalty to Trump’s policies and was marked by controversy and investigations.
