@@ -27,4 +27,4 @@ Steiger’s strong alignment with conservative health policies, especially those
 - [USAID - William R. Steiger](https://2017-2020.usaid.gov/who-we-are/organization/william-steiger)
 - [ProPublica - Trump Town - William Steiger](https://projects.propublica.org/trump-town/staffers/william-steiger)
 - [Wilson Center - William Steiger](https://www.wilsoncenter.org/person/william-steiger)
-- [KFF - Bush-Era Global Health Official Bill Steiger Working At State Department](https://www.kff.org)
+- [KFF - Bush-Era Global Health Official Bill Steiger Working At State Department](https://www.kff.org/news-summary/bush-era-global-health-official-bill-steiger-working-at-state-department-advising-trump-administration/)

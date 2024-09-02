@@ -303,7 +303,7 @@ title: "Authors and Contributors"
 - [Katy Talento](/contributors/katy-talento.html) served as a top health advisor in the Trump administration.
 - [Tony Tata](/contributors/tony-tata.html) served as Deputy Undersecretary of Defense for Policy during Trump’s administration.
 - [Farnaz Farkish Thompson](/contributors/farnaz-farkish-thompson.html) worked on education policies in the Trump administration.
-- [Todd Thurman](/contributors/todd-thurman.html) works at the American Cornerstone Institute, founded by Ben Carson, the former Secretary of Housing and Urban Development under Trump.
+- [Todd Thurman](/contributors/todd-thurman.html)’s role at HUD during the Trump administration involved shaping messaging to support housing policy and urban development, while his earlier work at The Heritage Foundation reinforced his influence in advancing conservative policies aligned with Trump's agenda. Now he works at the American Cornerstone Institute, founded by Ben Carson, the former Secretary of Housing and Urban Development under Trump.
 - [Brett Tolman](/contributors/brett-tolman.html) played a key role in crafting the First Step Act and supported Trump’s legal and policy efforts, including facilitating a pardon for Charles Kushner.
 - [Kayla M. Tonnessen](/contributors/kayla-m-tonnessen.html) served as Chief of Staff at the White House Office of National Drug Control Policy during the Trump administration.
 - [Joe Trotter](/contributors/joe-trotter.html)

@@ -22,5 +22,6 @@ Tata has been involved in several controversies, particularly related to past so
 Given his involvement in controversial public statements and the nature of his work under the Trump administration, concerns may arise about Tata's influence on future defense policies, particularly those that may echo the more polarizing aspects of Trump's approach to national security.
 
 ### Sources
-- [LinkedIn - Tony Tata](https://www.linkedin.com/in/tony-tata-3b4a661b)
-- [Military Times - Analysis of Tony Tata’s Role in the Trump Administration](https://www.militarytimes.com)
+- [Defense One - Trump Installs Senate-Rejected Retired General As Pentagon Policy Chief](https://www.defenseone.com/policy/2020/11/anthony-tata-named-undersecretary-policy/169926/)
+- [Military Times - Analysis of Tony Tata’s Role in the Trump Administration](https://www.militarytimes.com/pentagon/2020/04/23/tata-retired-army-general-and-fox-contributor-to-be-dod-policy-head-reports/?contentFeatureId=f0fmoahPVC2AbfL-2-1-8&contentQuery=%7B%22includeSections%22%3A%22%2Fhome%22%2C%22excludeSections%22%3A%22%22%2C%22feedSize%22%3A10%2C%22feedOffset%22%3A185%7D)
+- [The Atlantic - A Military Loyal to Trump](https://www.theatlantic.com/magazine/archive/2024/01/trump-defense-department-military-loyalty/676140/)

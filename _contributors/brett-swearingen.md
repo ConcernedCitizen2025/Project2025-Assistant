@@ -22,6 +22,6 @@ Project 2025 itself has been a subject of controversy, particularly for its ambi
 Swearingen's involvement in Project 2025 could be seen as problematic by those who fear that the project’s goals might undermine the independence of federal agencies and erode democratic norms. The emphasis on executive power and the replacement of career civil servants with politically aligned individuals are key issues that have drawn criticism.
 
 ### Sources
-- [MPR News - Project 2025 Director Leaves Heritage Foundation](https://www.mprnews.org)
-- [Channel News Asia - Project 2025 Director Steps Down After Criticism](https://www.channelnewsasia.com)
-- [Politico - The Inside Story of How Project 2025 Fell Apart](https://www.politico.com)
+- [MPR News - Project 2025 Director Leaves Heritage Foundation](https://www.mprnews.org/story/2024/07/30/project-2025-director-leaves-heritage-foundation-after-democratic-attacks-and-trump-criticism)
+- [Channel News Asia - Project 2025 Director Steps Down After Criticism](https://www.channelnewsasia.com/world/project-2025-director-leaves-heritage-foundation-after-democrat-attacks-and-trump-criticism-4515131)
+- [Politico - The Inside Story of How Project 2025 Fell Apart](https://www.politico.com/news/magazine/2024/08/02/project-2025-trump-inside-story-00172299)

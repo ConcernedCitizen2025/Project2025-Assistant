@@ -7,20 +7,21 @@ title: Todd Thurman
 
 **Role:** Contributor
 
-**Position:** Senior Advisor, American Cornerstone Institute
+**Position:** Digital Strategy Specialist, U.S. Department of Housing and Urban Development (HUD)
 
 **Background:**  
-Todd Thurman is a Senior Advisor at the American Cornerstone Institute, a think tank founded by Dr. Ben Carson that focuses on promoting principles such as faith, liberty, community, and life. Thurman has a background in policy development and strategic advising, with experience in working with conservative organizations to shape public discourse on key issues.
+Todd Thurman is a communications and digital strategy expert with extensive experience in conservative media and political strategy. He served as the Digital Strategy Specialist at the U.S. Department of Housing and Urban Development (HUD) from September 2018 during the Trump administration. In this role, he was responsible for managing digital communications and implementing online strategy initiatives to support the department's objectives.
+
+Prior to his role at HUD, Thurman worked at The Heritage Foundation, where he was an Email and Digital Media Manager in the Digital Strategy department. There, he produced the foundation's flagship email newsletters and contributed editorial content to *The Daily Signal*. His work has also been featured on Breitbart and cited in various political publications. Thurman holds a bachelor’s degree in political science from California State University – Northridge and has a background in digital marketing and communications strategy.
 
 **Relation to Trump:**  
-Thurman's work at the American Cornerstone Institute connects him to the broader conservative movement, which has been significantly influenced by Donald Trump's administration. The Institute’s focus on conservative values and policies aligns with the "America First" agenda that was central to Trump's presidency. Additionally, Thurman’s involvement with Project 2025, an initiative aimed at preparing for a future conservative administration, further ties him to ongoing efforts to continue Trump-era policies.
+Thurman’s work at HUD during the Trump administration placed him at the intersection of digital communication and policy promotion. His role involved crafting and disseminating messaging that aligned with the administration's goals, particularly in areas such as housing policy and urban development. His earlier work at The Heritage Foundation, a key conservative think tank with strong ties to the Trump administration, further solidified his influence in promoting conservative policies.
 
 **Scandals or Controversies:**  
-There are no major scandals or controversies associated with Todd Thurman. His career has been focused on policy advising and promoting conservative values without significant public disputes.
-
-**Potential Concerns:**  
-Some may express concerns about Thurman's involvement in initiatives that seek to solidify and extend policies aligned with the Trump administration, particularly in areas such as deregulation, religious liberty, and national security. However, these concerns are generally about the policy directions rather than any personal controversies.
+There are no significant scandals or controversies directly associated with Todd Thurman. His career has been marked by his effective use of digital media to advance conservative agendas, both in the nonprofit sector and within the federal government.
 
 ### Sources
-- [American Cornerstone Institute - About Us](https://americancornerstone.org/about)
-- [LinkedIn - Todd Thurman](https://www.linkedin.com/in/todd-thurman/)
+- [The Heritage Foundation - Todd Thurman](https://www.heritage.org/staff/todd-thurman)
+- [American Cornerstone Institute - Todd Thurman](https://americancornerstone.org/author/todd-thurman/)
+- [ProPublica - Todd Matthew Thurman](https://projects.propublica.org/trump-town/staffers/todd-matthew-thurman)
+- [The Daily Signal - Todd Thurman](https://www.dailysignal.com/author/tthurman/)

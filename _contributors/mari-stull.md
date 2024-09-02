@@ -27,4 +27,4 @@ Stull's time at the State Department was controversial due to her alleged creati
 ### Sources
 - [Wikipedia - Mari Stull](https://en.wikipedia.org/wiki/Mari_Stull)
 - [Politico - Mari Stull Leaves State Department](https://www.politico.com/story/2019/01/15/vino-vixen-out-state-department-1101555)
-- [Heavy.com - Mari Stull](https://heavy.com/news/2018/06/mari-stull-vino-vixen/)
+- [Heavy.com - Mari Stull](https://heavy.com/news/2018/06/mari-stull/)
