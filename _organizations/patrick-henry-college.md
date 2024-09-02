@@ -6,27 +6,29 @@ title: "Patrick Henry College"
 # Patrick Henry College
 
 ## Overview
-Patrick Henry College (PHC) is a private, non-denominational Christian liberal arts college located in Purcellville, Virginia. Founded in 2000 by Michael Farris, PHC is renowned for its rigorous classical liberal arts curriculum and strong emphasis on a biblical worldview. The college offers a variety of undergraduate programs, integrating academic studies with professional experience through apprenticeships and internships ([Patrick Henry College](https://www.phc.edu), [Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)).
+Patrick Henry College (PHC) is a private, non-denominational Christian liberal arts college located in Purcellville, Virginia. Founded in 2000 by Michael Farris, PHC is renowned for its rigorous classical liberal arts curriculum and its strong emphasis on a biblical worldview. The college offers undergraduate programs designed to integrate Christian faith with academic studies, preparing students for leadership roles in public policy, law, and media.
 
 ## Mission and Activities
-PHC’s mission is to educate students according to a classical liberal arts curriculum that integrates faith and learning. Key activities include:
-- **Rigorous Academic Programs:** PHC offers programs in government, classical liberal arts, literature, journalism, and more, all designed to provide a comprehensive education grounded in Christian principles ([PHC](https://www.phc.edu)).
-- **Apprenticeships:** The college emphasizes practical experience through apprenticeships and internships, preparing students for careers in fields such as public policy, law, media, and education ([Patrick Henry College](https://www.phc.edu)).
-- **Student Life:** PHC promotes a vibrant student life, including various clubs, organizations, and ministry opportunities that align with its Christian values ([Patrick Henry College](https://www.phc.edu)).
+PHC’s mission is to provide an education rooted in a classical liberal arts tradition while fostering a biblical worldview. The key activities include:
+- **Academic Programs:** PHC offers majors in government, journalism, strategic intelligence, and classical liberal arts, with a focus on combining Christian faith with intellectual rigor.
+- **Apprenticeships and Internships:** PHC emphasizes hands-on experience, offering students opportunities in real-world settings, including positions in public policy, law, journalism, and other fields.
+- **Student Life:** PHC promotes an active student life, supporting various student organizations, ministry opportunities, and competitive programs like its award-winning moot court team.
 
 ## Leadership and Influence
-- **Jack W. Haye:** President of Patrick Henry College since 2015, Haye brings extensive experience in Christian higher education and ministry ([Patrick Henry College](https://www.phc.edu)).
-- **Michael Farris:** Founder and Chancellor Emeritus, Farris is a significant advocate for homeschooling and religious freedom, and he continues to influence the college's direction ([Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)).
+- **Jack W. Haye:** President of PHC since 2015, Haye oversees the administration of the college and continues to uphold its mission of integrating Christian faith with a strong liberal arts education.
+- **Michael Farris:** Founder and Chancellor Emeritus of PHC, Farris has been a key figure in homeschooling advocacy and religious freedom, shaping the mission of the college.
 
 ## Connections to Trump
-PHC has indirect connections to the Trump administration through its emphasis on conservative principles and its alumni network. Graduates of PHC have interned and worked in various conservative organizations and government offices, reflecting the college's influence in these circles ([Patrick Henry College](https://www.phc.edu), [Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)).
+Patrick Henry College has indirect connections to the Trump administration through its conservative Christian orientation and its alumni network. Many PHC graduates have interned or worked in various conservative organizations and government offices, some of which were closely aligned with Trump-era policies.
 
 ## Concerns
-- **Political Bias:** PHC’s strong conservative and Christian orientation may affect the diversity of perspectives presented in its academic programs. Critics argue that the college’s curriculum and policies could be influenced by a particular ideological stance ([Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)).
+- **Political Bias:** The strong conservative and Christian values at PHC may influence the diversity of perspectives presented in its academic programs, potentially limiting exposure to alternative viewpoints.
+- **Controversial Leadership:** The college has experienced internal conflicts, including faculty resignations over differences in views regarding academic freedom and the application of its Biblical Worldview Policy.
 
 ## Conclusion
-Patrick Henry College plays a significant role in providing a classical liberal arts education grounded in Christian values. Its rigorous academic programs and emphasis on practical experience prepare students for various careers while promoting a biblical worldview. However, its strong ideological stance warrants careful consideration of its impact on academic diversity ([Patrick Henry College](https://www.phc.edu), [Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)).
+Patrick Henry College is a leading institution in conservative Christian higher education, offering a rigorous classical liberal arts curriculum grounded in a biblical worldview. Its strong connections to conservative circles and its emphasis on faith-driven education make it a unique institution, though its ideological stance may affect the diversity of perspectives available to students.
 
 ## Sources
 - [Patrick Henry College](https://www.phc.edu)
-- [Wikipedia](https://en.wikipedia.org/wiki/Patrick_Henry_College)
+- [Wikipedia - Patrick Henry College](https://en.wikipedia.org/wiki/Patrick_Henry_College)
+- [Washington Examiner - PHC Alumni in Trump White House](https://www.washingtonexaminer.com)
