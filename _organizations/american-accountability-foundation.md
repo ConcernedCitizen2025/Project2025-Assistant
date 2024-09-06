@@ -15,8 +15,8 @@ AAF's mission is to educate the public on government personnel, policy, and spen
 - **Project Sovereignty 2025:** This initiative focuses on identifying high-ranking civil servants within the Departments of Homeland Security (DHS) and Justice (DOJ) who might obstruct a conservative administration’s agenda, particularly regarding immigration. This project aligns with the broader Project 2025 initiative supported by the Heritage Foundation.
 
 ## Leadership and Influence
-- **Tom Jones:** Founder and President of AAF, Jones has a background in political policy and research, including roles such as Legislative Director for Senator Ron Johnson and opposition research for Ted Cruz’s presidential campaign. He is known for his aggressive tactics and deep connections within the conservative movement.
-- **Jerome Trankle:** Research Director, Trankle has experience with the Cannon Research Group and has worked closely with conservative figures like Senator Ted Cruz and Representative Andy Barr, focusing on gathering and analyzing opposition research.
+- **[Tom Jones](https://www.washingtontimes.com/news/2024/jun/24/american-accountability-foundation-creates-list-of/):** Founder and President of AAF, Jones has a background in political policy and research, including roles such as Legislative Director for Senator Ron Johnson and opposition research for Ted Cruz’s presidential campaign. He is known for his aggressive tactics and deep connections within the conservative movement.
+- **[Jerome Trankle](https://www.monitoringinfluence.org/org/american-accountability-foundation/):** Research Director, Trankle has experience with the Cannon Research Group and has worked closely with conservative figures like Senator Ted Cruz and Representative Andy Barr, focusing on gathering and analyzing opposition research.
 
 ## Connections to Trump
 AAF is connected to the Trump administration through its advisory role in Project 2025, a Heritage Foundation initiative designed to shape conservative policy for future Republican administrations. The organization’s efforts to oppose Biden administration nominees and policies closely align with the broader goals of the conservative movement, reflecting its deep ties to Trump-era politics. AAF’s Project Sovereignty 2025 specifically targets federal employees who are seen as potential obstacles to a conservative agenda, echoing strategies associated with Trump’s Schedule F policy.
@@ -30,6 +30,7 @@ The American Accountability Foundation plays a significant role in conservative 
 
 ## Sources
 - [American Accountability Foundation - Official Website](https://americanaccountabilityfoundation.com)
-- [Federal Times - Conservative Group Creating List of Fed Workers Who May Resist Trump](https://www.federaltimes.com)
-- [Politico - Conservative Nonprofit Didn’t Disclose Some Political Spending](https://www.politico.com)
-- [Associated Press - Conservative-Backed Group Creating a List of Federal Workers It Suspects Could Resist Trump Plans](https://www.ap.org)
+- [Politico - Conservative Nonprofit Didn’t Disclose Some Political Spending](https://www.politico.com/news/2024/03/22/american-accountability-foundation-lobbying-political-spending-00148510)
+- [The Washington Times - Conservative-backed group is creating a list of federal workers it suspects could resist Trump plans](https://www.washingtontimes.com/news/2024/jun/24/american-accountability-foundation-creates-list-of/)
+- [SFOF Exposed](https://sfofexposed.org/american-accountability-foundation/)
+- [Monitoring Influence](https://www.monitoringinfluence.org/org/american-accountability-foundation/)

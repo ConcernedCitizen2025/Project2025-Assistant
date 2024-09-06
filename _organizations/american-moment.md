@@ -16,7 +16,7 @@ American Moment's mission centers on building a new political elite aligned with
 
 ## Leadership and Influence
 - **Saurabh Sharma:** Co-founder and President of American Moment, Sharma is a former Chairman of Young Conservatives of Texas and a key figure in the conservative movement, particularly in training and placing young conservatives in significant roles within government and public policy.
-- **Nick Solheim:** Chief Operations Officer, Solheim also leads The Wallace Institute for Arctic Security. His role at American Moment involves managing operations and expanding the organization's influence.
+- **[Nick Solheim](https://americanmind.org/features/the-constitution-citizenship-and-the-new-right/not-the-new-right-but-the-true-right/):** Chief Operations Officer, Solheim also leads The Wallace Institute for Arctic Security. His role at American Moment involves managing operations and expanding the organization's influence.
 - **Jake Mercier:** Chief Creative Officer and Editor-in-Chief of AmCanon, American Moment’s commentary publication. Mercier has been influential in shaping the organization's public messaging and creative direction.
 
 ## Connections to Trump
@@ -31,5 +31,6 @@ American Moment plays a pivotal role in promoting populist conservative values a
 
 ## Sources
 - [American Moment - Official Website](https://www.americanmoment.org)
-- [POLITICO - The Brash Group of Young Conservatives Getting Ready for the Next Trump Administration](https://www.politico.com)
-- [InfluenceWatch - American Moment](https://www.influencewatch.org)
+- [POLITICO - The Brash Group of Young Conservatives Getting Ready for the Next Trump Administration](https://www.politico.com/news/magazine/2023/11/03/american-moment-conservative-00124178)
+- [InfluenceWatch - American Moment](https://www.influencewatch.org/non-profit/american-moment/)
+- [American Mind - Not the “New Right” but the True Right by: Nick Solheim](https://americanmind.org/features/the-constitution-citizenship-and-the-new-right/not-the-new-right-but-the-true-right/)

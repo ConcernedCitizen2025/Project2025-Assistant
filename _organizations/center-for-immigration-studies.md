@@ -15,8 +15,8 @@ CIS's mission is to provide reliable information about the social, economic, env
 - **Media Engagement:** CIS provides expert commentary on immigration issues through media appearances and publications, influencing the national conversation on immigration.
 
 ## Leadership and Influence
-- **Mark Krikorian:** As Executive Director of CIS, Krikorian is a central figure in the immigration debate, advocating for reduced immigration and stricter enforcement. His leadership has been pivotal in shaping the organization's direction and influence, particularly during the Trump era.
-- **Steven A. Camarota:** Director of Research, Camarota is known for his studies on the impact of immigration on U.S. labor markets and social services, forming the foundation of CIS's policy recommendations.
+- **[Mark Krikorian](https://ideaspace.com/player/mark-krikorian/):** As Executive Director of CIS, Krikorian is a central figure in the immigration debate, advocating for reduced immigration and stricter enforcement. His leadership has been pivotal in shaping the organization's direction and influence, particularly during the Trump era.
+- **[Steven A. Camarota](https://plotagainstimmigrants.com/network/steven-camarota/):** Director of Research, Camarota is known for his studies on the impact of immigration on U.S. labor markets and social services, forming the foundation of CIS's policy recommendations.
 
 ## Connections to Trump
 CIS had significant influence on the Trump administration's immigration policies. The organization’s research and recommendations aligned closely with Trump’s immigration agenda, emphasizing border security and reducing immigration levels. CIS played a consulting role during Trump’s 2016 campaign and continued to influence policy throughout his presidency. Despite this alignment, Krikorian himself expressed skepticism about Trump, referring to him as a "bloviating megalomaniac" before later supporting the administration’s policies.
@@ -31,6 +31,8 @@ The Center for Immigration Studies is a major force in the immigration policy de
 ## Sources
 - [Center for Immigration Studies - Official Website](https://cis.org)
 - [Wikipedia - Center for Immigration Studies](https://en.wikipedia.org/wiki/Center_for_Immigration_Studies)
-- [PolitiFact - Is the Center for Immigration Studies a Hate Group?](https://www.politifact.com)
-- [Univision - Mark Krikorian and CIS Influence](https://www.univision.com)
-- [U.S. News & World Report - Washington's Center of Gravity on Immigration](https://www.usnews.com)
+- [PolitiFact - Is the Center for Immigration Studies a Hate Group?](https://www.politifact.com/article/2017/mar/22/center-immigration-studies-hate-group-southern-pov/)
+- [Univision - Mark Krikorian and CIS Influence](https://www.univision.com/univision-news/immigration/man-of-the-moment-mark-krikorian-the-influential-immigration-hawk-of-the-trump-era)
+- [U.S. News & World Report - Washington's Center of Gravity on Immigration](https://www.usnews.com/news/politics/articles/2023-12-06/washingtons-center-of-gravity-on-immigration-has-shifted-to-the-right)
+- [Ideaspace - Mark Krikorian](https://ideaspace.com/player/mark-krikorian/)
+- [Plot Against Immigrants - Steven Camarota](https://plotagainstimmigrants.com/network/steven-camarota/)

@@ -29,6 +29,6 @@ I4AW’s policy positions align closely with the labor policies promoted during 
 The Institute for the American Worker is a key player in conservative labor policy advocacy. While its efforts to promote free-market principles and reduce union influence align with broader conservative goals, these positions also raise important questions about the potential impacts on worker rights and protections. As I4AW continues to influence labor policy, its role in shaping the national discourse around these issues will likely remain significant.
 
 ## Sources
-- [Philanthropy Roundtable](https://www.philanthropyroundtable.org)
-- [Economic Policy Institute](https://www.epi.org)
-- [CounterPunch](https://www.counterpunch.org)
+- [Institute for the American Worker - Official Site](https://i4aw.org/)
+- [Philanthropy Roundtable](https://www.philanthropyroundtable.org/resource/institute-for-the-american-worker/)
+- [CounterPunch - Project 2025 Provides a GOP Blueprint for Destroying America’s Labor Unions](https://www.counterpunch.org/2024/08/29/project-2025-provides-a-gop-blueprint-for-destroying-americas-labor-unions/)
