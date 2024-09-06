@@ -30,7 +30,7 @@ ADF has strong ties to the Trump administration, with several former ADF attorne
 Alliance Defending Freedom plays a pivotal role in the conservative Christian legal landscape, significantly influencing legal and policy debates in the United States. While its strong advocacy for religious freedoms and conservative values underscores its impact on American society, its positions and connections have drawn considerable criticism and controversy. The organization's involvement in shaping key legal precedents has made it a powerful force in the ongoing cultural and political battles in the U.S.
 
 ## Sources
-- [VPM - Who is the Alliance Defending Freedom?](https://www.vpm.org/news/articles/36727/who-is-the-alliance-defending-freedom)
-- [ADF Legal - ADF at the Supreme Court](https://adflegal.org/case/supreme-court-victories)
-- [POLITICO - Alliance Defending Freedom Registers to Lobby](https://www.politico.com/news/2024/03/08/adf-lobbies-00085550)
-- [Corporate Europe Observatory - The Alliance Attacking Freedom](https://corporateeurope.org/en/2024/02/alliance-attacking-freedom)
+- [VPM - Who is the Alliance Defending Freedom?](https://www.vpm.org/npr-news/2023-12-14/who-is-the-alliance-defending-freedom)
+- [ADF Legal - ADF at the Supreme Court](https://adflegal.org/us-supreme-court)
+- [POLITICO - Alliance Defending Freedom Registers to Lobby](https://www.politico.com/newsletters/politico-influence/2024/03/08/alliance-defending-freedom-registers-to-lobby-00146122)
+- [Corporate Europe Observatory - The Alliance Attacking Freedom](https://corporateeurope.org/en/2024/05/alliance-attacking-freedom)

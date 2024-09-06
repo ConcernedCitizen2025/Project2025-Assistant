@@ -16,11 +16,11 @@ AFLF's mission is to fight for the constitutional rights and liberties of Americ
 
 ## Leadership and Influence
 AFLF is led by prominent conservative figures with strong ties to the Trump administration:
-- **Stephen Miller:** Founder and President, Miller was a senior advisor to President Trump and played a key role in shaping the administration's immigration policies, including the travel ban and family separation policies.
-- **Gene Hamilton:** Vice President and General Counsel, Hamilton served as a senior counselor at the Department of Justice and the Department of Homeland Security during the Trump administration, heavily influencing AFLF's legal strategies.
-- **Matthew Whitaker:** Executive Director, Whitaker served as the Acting U.S. Attorney General under Trump and brings significant legal and political experience to AFLF.
-- **Mark Meadows:** Board Member, Meadows served as Trump’s White House Chief of Staff and is deeply involved in the organization’s strategic direction.
-- **Russ Vought:** Board Member, Vought was Trump’s director of the Office of Management and Budget, contributing to the foundation's focus on fiscal and regulatory issues.
+- **[Stephen Miller](https://www.splcenter.org/fighting-hate/extremist-files/individual/stephen-miller):** Founder and President, Miller was a senior advisor to President Trump and played a key role in shaping the administration's immigration policies, including the travel ban and family separation policies.
+- **[Gene Hamilton](/authors/gene-hamilton.html):** Vice President and General Counsel, Hamilton served as a senior counselor at the Department of Justice and the Department of Homeland Security during the Trump administration, heavily influencing AFLF's legal strategies.
+- **[Matthew Whitaker](https://en.wikipedia.org/wiki/Matthew_Whitaker):** Executive Director, Whitaker served as the Acting U.S. Attorney General under Trump and brings significant legal and political experience to AFLF.
+- **[Mark Meadows](https://apnews.com/hub/mark-meadows):** Board Member, Meadows served as Trump’s White House Chief of Staff and is deeply involved in the organization’s strategic direction.
+- **[Russ Vought](/authors/russ-vought.html):** Board Member, Vought was Trump’s director of the Office of Management and Budget, contributing to the foundation's focus on fiscal and regulatory issues.
 
 ## Connections to Trump
 AFLF has strong connections to Donald Trump and his administration, with several of its leaders having served in high-profile roles during Trump's presidency. The organization’s agenda aligns closely with policies promoted by Trump, particularly on issues such as immigration, election integrity, and religious freedom. AFLF has also been involved in numerous lawsuits that mirror Trump’s legal and political strategies, including efforts to challenge the results of the 2020 election and to reverse progressive policies implemented by the Biden administration.
@@ -35,5 +35,8 @@ America First Legal Foundation is a powerful legal advocacy organization with de
 ## Sources
 - [America First Legal - Official Website](https://aflegal.org/senior-trump-officials-launch-america-first-legal-foundation)
 - [InfluenceWatch - America First Legal Foundation](https://www.influencewatch.org/non-profit/america-first-legal-foundation)
-- [Madison - St. Clair Record - AFLF Judicial Misconduct Complaint](https://madisonrecord.com/stories/641262309-judicial-misconduct-complaint-alleges-oral-argument-policies-in-district-court-discriminate-based-on-race-and-sex)
-- [CREW - President Trump’s Legacy of Corruption](https://www.citizensforethics.org/reports-investigations/crew-reports/president-trumps-legacy-of-corruption-four-years-and-3700-conflicts-of-interest-later/)
+- [Madison - St. Clair Record - AFLF Judicial Misconduct Complaint](https://madisonrecord.com/stories/653975347-judicial-misconduct-complaint-alleges-oral-argument-policies-in-district-court-discriminate-based-on-race-and-sex)
+- [CREW - President Trump’s Legacy of Corruption](https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-legacy-corruption-3700-conflicts-interest/)
+- [SPLC - Stephen Miller](https://www.splcenter.org/fighting-hate/extremist-files/individual/stephen-miller)
+- [AP News - Mark Meadows](https://apnews.com/hub/mark-meadows)
+- [Wikipedia - Matthew Whitaker](https://en.wikipedia.org/wiki/Matthew_Whitaker)
