@@ -30,9 +30,9 @@ CPI has strong ties to the Trump administration, with several former officials f
 The Conservative Partnership Institute plays a crucial role in supporting and advancing conservative principles in U.S. politics. Its focus on training, staffing, and coalition-building has made it a significant player in the conservative movement. However, its strong ties to the Trump administration and controversial stances on issues like election integrity highlight the need for careful scrutiny of its activities and influence.
 
 ## Sources
-- [Conservative Partnership Institute](https://www.cpi.org)
-- [Documented](https://www.documented.net)
-- [Politico](https://www.politico.com)
-- [Wikipedia - Conservative Partnership Institute](https://en.wikipedia.org/wiki/Conservative_Partnership_Institute)
-- [SourceWatch](https://www.sourcewatch.org)
-- [Monitoring Influence](https://www.monitoringinfluence.org)
+- [Conservative Partnership Institute](https://www.cpi.org) - Official website offering details on CPI’s mission and initiatives.
+- [Documented](https://www.documented.net) - Investigative reports on CPI’s activities, funding, and influence within the conservative movement.
+- [Politico](https://www.politico.com) - Coverage of CPI’s involvement in the MAGA movement and its election integrity efforts.
+- [Wikipedia - Conservative Partnership Institute](https://en.wikipedia.org/wiki/Conservative_Partnership_Institute) - Background and overview of CPI’s founding, leadership, and key initiatives.
+- [SourceWatch](https://www.sourcewatch.org) - Comprehensive details on CPI’s influence, affiliations, and financial backing.
+- [Monitoring Influence](https://www.monitoringinfluence.org) - Analysis of CPI’s role within Project 2025 and connections to Trump’s political agenda.

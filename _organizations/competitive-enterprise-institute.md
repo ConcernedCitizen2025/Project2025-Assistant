@@ -15,9 +15,9 @@ CEI's mission is to advocate for economic liberty by challenging government regu
 - **Litigation and Advocacy:** CEI uses legal strategies to challenge regulatory policies, especially in the environmental sector, aligning with its free-market ideology.
 
 ## Leadership and Influence
-- **Kent Lassman:** President and CEO since 2016, Lassman has been instrumental in CEI’s focus on deregulation and economic freedom. He has contributed to Project 2025, underscoring CEI's influence within conservative policymaking circles.
-- **Fred L. Smith Jr.:** Founder and President Emeritus, Smith has played a key role in shaping CEI’s libertarian approach, particularly in energy and environmental policy.
-- **Iain Murray:** Senior Fellow, Murray focuses on challenging mainstream environmental policies, advocating instead for market-based solutions.
+- **[Kent Lassman](/authors/kent-lassman.html):** President and CEO since 2016, Lassman has been instrumental in CEI’s focus on deregulation and economic freedom. He has contributed to Project 2025, underscoring CEI's influence within conservative policymaking circles.
+- **[Fred L. Smith Jr.](https://en.wikipedia.org/wiki/Fred_L._Smith_(political_writer)):** Founder and President Emeritus, Smith has played a key role in shaping CEI’s libertarian approach, particularly in energy and environmental policy.
+- **[Iain Murray](/contributors/iain-murray.html):** Senior Fellow, Murray focuses on challenging mainstream environmental policies, advocating instead for market-based solutions.
 
 ## Connections to Trump
 CEI played a significant role in the Trump administration by supporting deregulation efforts and promoting policies that align with its free-market ideology. CEI’s participation in Project 2025, an initiative aimed at preparing for a potential second Trump term, further emphasizes its ongoing influence in shaping conservative policy agendas.
@@ -31,5 +31,6 @@ The Competitive Enterprise Institute is a major force in advocating for libertar
 ## Sources
 - [Competitive Enterprise Institute](https://cei.org)
 - [Wikipedia - Competitive Enterprise Institute](https://en.wikipedia.org/wiki/Competitive_Enterprise_Institute)
-- [InfluenceWatch - Competitive Enterprise Institute](https://www.influencewatch.org)
+- [InfluenceWatch - Competitive Enterprise Institute](https://www.influencewatch.org/non-profit/competitive-enterprise-institute/)
 - [Stop The Coup](https://www.stopthecoup2025.org)
+- [Wikipedia - Fred L. Smith Jr.](https://en.wikipedia.org/wiki/Fred_L._Smith_(political_writer))
