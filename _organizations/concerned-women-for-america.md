@@ -12,8 +12,8 @@ Concerned Women for America (CWA) is a socially conservative evangelical Christi
 CWA's mission is to impact the culture for Christ through public policy. Key activities include representing conservative Christian values on Capitol Hill, running programs like Young Women for America (YWA) to train and equip the next generation of Christian conservative women, and publishing articles and reports to influence public opinion from a Christian conservative perspective.
 
 ## Leadership and Influence
-- **Penny Young Nance:** CEO and President of CWA, Nance has led the organization since 2010, expanding its influence in conservative policy circles. She is also a senior advisor at the Christian Post and a frequent media commentator.
-- **Timothy LaHaye:** Co-founder and husband of Beverly LaHaye, Timothy was an evangelical Christian minister and author who played a significant role in shaping the organization’s focus on traditional Christian values.
+- **[Penny Young Nance](https://www.politico.com/story/2017/10/27/penny-young-nance-womens-issues-senate-republicans-feud-244249):** CEO and President of CWA, Nance has led the organization since 2010, expanding its influence in conservative policy circles. She is also a senior advisor at the Christian Post and a frequent media commentator.
+- **[Timothy LaHaye](https://en.wikipedia.org/wiki/Tim_LaHaye):** Co-founder and husband of Beverly LaHaye, Timothy was an evangelical Christian minister and author who played a significant role in shaping the organization’s focus on traditional Christian values.
 
 ## Connections to Trump
 CWA has supported and aligned with the Trump administration, particularly in areas like religious liberty and anti-abortion policies. Penny Nance served on Trump’s Life Advisory Council and frequently represented Christian conservative women at the White House, amplifying the organization's influence within the Republican Party.
@@ -27,5 +27,6 @@ Concerned Women for America is a prominent conservative organization dedicated t
 ## Sources
 - [Concerned Women for America](https://concernedwomen.org)
 - [Wikipedia - Concerned Women for America](https://en.wikipedia.org/wiki/Concerned_Women_for_America)
-- [Southern Poverty Law Center - Hatewatch](https://www.splcenter.org)
-- [Wealthy Spy - Penny Nance](https://wealthyspy.com)
+- [Southern Poverty Law Center - Religious Right Hurls False Accusations at SPLC](https://www.splcenter.org/hatewatch/2013/04/29/religious-right-hurls-false-accusations-splc)
+- [Politico - Likely Trump envoy nominee slams Senate Republicans](https://www.politico.com/story/2017/10/27/penny-young-nance-womens-issues-senate-republicans-feud-244249)
+- [Wikipedia - Timothy LaHaye](https://en.wikipedia.org/wiki/Tim_LaHaye)
