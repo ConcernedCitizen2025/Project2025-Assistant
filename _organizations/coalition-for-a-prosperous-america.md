@@ -30,5 +30,5 @@ The Coalition for a Prosperous America is a key player in advocating for policie
 
 ## Sources
 - [Coalition for a Prosperous America](https://prosperousamerica.org)
-- [InfluenceWatch - Coalition for a Prosperous America](https://www.influencewatch.org)
+- [InfluenceWatch - Coalition for a Prosperous America](https://www.influencewatch.org/non-profit/coalition-for-a-prosperous-america-cpa/)
 - [The Org - Michael Stumo](https://theorg.com/org/coalition-for-a-prosperous-america/org-chart/michael-stumo)

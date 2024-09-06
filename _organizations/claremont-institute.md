@@ -15,8 +15,8 @@ The Claremont Institute's mission revolves around education, writing, and litiga
 - **Litigation:** Through the Center for Constitutional Jurisprudence, the institute engages in strategic constitutional litigation, filing briefs that advocate for the principles of the American Founding, often aligning with conservative legal interpretations.
 
 ## Leadership and Influence
-- **Ryan Williams:** President of the Claremont Institute since 2017, Williams has directed the organization's focus on contemporary conservative issues, particularly those aligned with Trump-era policies. His leadership has solidified Claremont's position as a significant intellectual force in the conservative movement.
-- **John Eastman:** Senior Fellow and founding director of the Center for Constitutional Jurisprudence at Claremont, Eastman played a controversial role in advising former President Donald Trump during the 2020 election disputes. His legal theories about rejecting Electoral College votes have been highly scrutinized, contributing to efforts to overturn the election results, which has led to widespread criticism and legal challenges.
+- **[Ryan Williams](https://www.theguardian.com/us-news/2024/mar/11/claremont-institute-society-for-american-civic-renewal-links):** President of the Claremont Institute since 2017, Williams has directed the organization's focus on contemporary conservative issues, particularly those aligned with Trump-era policies. His leadership has solidified Claremont's position as a significant intellectual force in the conservative movement.
+- **[John Eastman](https://statesunited.org/resources/the-final-case/):** Senior Fellow and founding director of the Center for Constitutional Jurisprudence at Claremont, Eastman played a controversial role in advising former President Donald Trump during the 2020 election disputes. His legal theories about rejecting Electoral College votes have been highly scrutinized, contributing to efforts to overturn the election results, which has led to widespread criticism and legal challenges.
 
 ## Connections to Trump
 The Claremont Institute has been a strong supporter of Donald Trump, particularly in defending his policies and actions related to the 2020 election. The institute’s influence grew during Trump's presidency, with several of its fellows, like John Eastman, playing central roles in the administration's legal strategies. Claremont’s involvement in supporting Trump’s election challenges, including the controversial efforts led by Eastman, highlights its significant impact on Trump-era conservatism.
@@ -30,7 +30,9 @@ The Claremont Institute is a significant force in the conservative movement, pro
 
 ## Sources
 - [Claremont Institute](https://www.claremont.org)
-- [History News Network - How Trumpism Changed the Claremont Institute](https://historynewsnetwork.org/article/183586)
-- [New Republic - Claremont Institute’s Defense of John Eastman’s Coup Memos](https://www.newrepublic.com)
-- [Vice - Claremont Institute and Trump](https://www.vice.com)
-- [Monitoring Influence - Claremont Institute](https://www.monitoringinfluence.org)
+- [History News Network - How Trumpism Changed the Claremont Institute](https://www.historynewsnetwork.org/article/how-trumpism-changed-the-claremont-institute-and-v)
+- [New Republic - Claremont Institute’s Defense of John Eastman’s Coup Memos](https://newrepublic.com/article/163981/claremont-john-eastman-coup-memo)
+- [Vice - Claremont Institute and Trump](https://www.vice.com/en/tag/claremont-institute/)
+- [Monitoring Influence - Claremont Institute](https://www.monitoringinfluence.org/org/claremont-institute/)
+- [The Guardian - Revealed: US conservative thinktank’s links to extremist fraternal order](https://www.theguardian.com/us-news/2024/mar/11/claremont-institute-society-for-american-civic-renewal-links)
+- [States United - The Final Case for John Eastman’s Disbarment](https://statesunited.org/resources/the-final-case/)
