@@ -20,7 +20,7 @@ LI’s mission is to identify, train, recruit, and place conservatives in politi
 - **Colleen Bohannon:** Director of Programs, manages LI’s various training programs to ensure they meet the institute’s educational goals.
 
 ## Connections to Trump
-The Leadership Institute has notable connections to the Trump administration and broader conservative movements. It is a member of the advisory board of Project 2025, a plan aimed at reshaping the federal government under a potential second Trump presidency. Morton C. Blackwell has been involved in conservative circles and has had interactions with Trump affiliates, although direct involvement in the Trump administration is limited.
+The Leadership Institute has notable connections to the Trump administration and broader conservative movements. It is a member of the advisory board of Project 2025, a plan aimed at reshaping the federal government under a potential second Trump presidency. However, Trump himself has denied direct involvement with Project 2025 and has distanced his campaign from it despite previously supporting the Heritage Foundation and its influence on conservative policies&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
 
 ## Concerns
 - **Political Bias:** As a conservative organization, LI’s programs and publications may reflect a strong ideological bias, raising questions about the objectivity of its training and reporting.
@@ -28,7 +28,5 @@ The Leadership Institute has notable connections to the Trump administration and
 
 ## Sources
 - [Leadership Institute Official Website](https://www.leadershipinstitute.org) - Official site of The Leadership Institute providing information about its programs and activities.
-- [Wikipedia - The Leadership Institute](https://en.wikipedia.org/wiki/The_Leadership_Institute) - Overview and background information about LI.
-- [Campus Reform Official Website](https://www.campusreform.org) - News platform operated by LI focusing on perceived liberal bias on college campuses.
-- [MPR News - Project 2025 Director Leaves Heritage Foundation](https://www.mprnews.org/story/2024/07/30/project-2025-director-leaves-heritage-foundation-after-democratic-attacks-and-trump-criticism) - Article discussing connections between Project 2025 and conservative organizations.
 - [Politico - The Inside Story of How Project 2025 Fell Apart](https://www.politico.com/news/magazine/2024/08/02/project-2025-trump) - Report on Project 2025’s influence and associated organizations.
+- [KGW - Is Trump behind Project 2025?](https://www.kgw.com/article/news/verify/national-verify/donald-trump-project-2025-fact-check/536-fcc12770-89e1-4a80-9b2e-09d8e1f6f1aa) - Details on Trump’s position and distancing from Project 2025.
