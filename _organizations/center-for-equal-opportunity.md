@@ -15,7 +15,7 @@ CEO advocates for nondiscriminatory public policies by conducting research and e
 - **Public Outreach:** CEO actively participates in public debates and media engagements, promoting its colorblind approach to public policy.
 
 ## Leadership and Influence
-- **Linda Chavez:** Founder and Chairman, Chavez has been a leading critic of affirmative action and a prominent voice in advocating for colorblind public policies. Her background includes roles in the Reagan administration and as a syndicated columnist.
+- **[Linda Chavez](https://en.wikipedia.org/wiki/Linda_Chavez):** Founder and Chairman, Chavez has been a leading critic of affirmative action and a prominent voice in advocating for colorblind public policies. Her background includes roles in the Reagan administration and as a syndicated columnist.
 - **Devon Westhill:** President and General Counsel, Westhill previously served as Deputy Assistant Secretary for Civil Rights in the Trump administration and is a vocal advocate against race-based admissions policies.
 - **Rudy Gersten:** Executive Director, Gersten oversees CEO's operations and public relations, contributing to the organization's strategic initiatives.
 
@@ -31,6 +31,7 @@ The Center for Equal Opportunity is a key player in the conservative movement, a
 
 ## Sources
 - [Center for Equal Opportunity - Official Website](https://www.ceousa.org)
-- [Creators Syndicate - How to Explain Trump's Behavior](https://www.creators.com)
+- [Creators Syndicate - How to Explain Trump's Behavior](https://www.creators.com/read/linda-chavez/07/18/how-to-explain-trumps-behavior)
 - [Wikipedia - Center for Equal Opportunity](https://en.wikipedia.org/wiki/Center_for_Equal_Opportunity)
-- [SCOTUSblog - Affirmative Action Cases](https://www.scotusblog.com)
+- [SCOTUSblog - Affirmative Action Cases](https://www.scotusblog.com/2023/06/supreme-court-strikes-down-affirmative-action-programs-in-college-admissions/)
+- [Wikipedia - Linda Chavez](https://en.wikipedia.org/wiki/Linda_Chavez)

@@ -16,8 +16,8 @@ ADF's mission is to protect what it considers God-given rights through legal mea
 - **Free Speech:** ADF defends the rights of individuals to express their beliefs without government censorship, particularly in cases where speech intersects with religious convictions.
 
 ## Leadership and Influence
-- **Kristen Waggoner:** CEO, President, and General Counsel. Waggoner leads the organization’s strategic direction and legal operations, emphasizing ADF's commitment to religious liberty and free speech.
-- **Michael Farris:** Former CEO and current Chairman, Farris is well-known for his work in homeschooling advocacy and religious freedom litigation, significantly shaping ADF's legal strategies and public outreach.
+- **[Kristen Waggoner](https://en.wikipedia.org/wiki/Kristen_Waggoner):** CEO, President, and General Counsel. Waggoner leads the organization’s strategic direction and legal operations, emphasizing ADF's commitment to religious liberty and free speech.
+- **[Michael Farris](https://www.washingtonpost.com/education/2023/08/29/michael-farris-homeschoolers-parents-rights-ziklag/):** Former CEO and current Chairman, Farris is well-known for his work in homeschooling advocacy and religious freedom litigation, significantly shaping ADF's legal strategies and public outreach.
 
 ## Connections to Trump
 ADF has strong ties to the Trump administration, with several former ADF attorneys holding significant positions, including Supreme Court Justice Amy Coney Barrett. The organization's influence extended into key policy areas under Trump, particularly those involving religious liberty and opposition to LGBTQ rights. ADF's legal strategies often aligned with Trump's broader conservative agenda, reinforcing their mutual influence on U.S. law and policy.
@@ -34,3 +34,5 @@ Alliance Defending Freedom plays a pivotal role in the conservative Christian le
 - [ADF Legal - ADF at the Supreme Court](https://adflegal.org/us-supreme-court)
 - [POLITICO - Alliance Defending Freedom Registers to Lobby](https://www.politico.com/newsletters/politico-influence/2024/03/08/alliance-defending-freedom-registers-to-lobby-00146122)
 - [Corporate Europe Observatory - The Alliance Attacking Freedom](https://corporateeurope.org/en/2024/05/alliance-attacking-freedom)
+- [Wikipedia - Kristen Waggoner](https://en.wikipedia.org/wiki/Kristen_Waggoner)
+- [The Washington Post - The Christian home-schooler who made ‘parental rights’ a GOP rallying cry](https://www.washingtonpost.com/education/2023/08/29/michael-farris-homeschoolers-parents-rights-ziklag/)

@@ -15,8 +15,8 @@ The 1792 Exchange's mission is to restore ideological neutrality within business
 - **Advocacy:** The 1792 Exchange encourages businesses to avoid taking divisive political stances, promoting a return to focusing on their core mission of delivering quality products and services.
 
 ## Leadership and Influence
-- **Daniel Cameron:** CEO of 1792 Exchange. Cameron, who previously served as the Attorney General of Kentucky, brings a strong background in legal and policy advocacy. His leadership focuses on protecting freedoms and steering companies away from divisive political engagements.
-- **Paul Fitzpatrick:** President of 1792 Exchange. Fitzpatrick emphasizes the organization's commitment to ensuring that Americans can conduct business without fear of being canceled for their religious or ideological beliefs.
+- **[Daniel Cameron](https://en.wikipedia.org/wiki/Daniel_Cameron_(American_politician)):** CEO of 1792 Exchange. Cameron, who previously served as the Attorney General of Kentucky, brings a strong background in legal and policy advocacy. His leadership focuses on protecting freedoms and steering companies away from divisive political engagements.
+- **[Paul Fitzpatrick](https://sfofexposed.org/paul-fitzpatrick/):** President of 1792 Exchange. Fitzpatrick emphasizes the organization's commitment to ensuring that Americans can conduct business without fear of being canceled for their religious or ideological beliefs.
 
 ## Connections to Trump
 While the 1792 Exchange does not have direct ties to the Trump administration, its mission aligns with broader conservative agendas often associated with Trump's policies. The organization’s focus on counteracting progressive corporate practices and protecting religious freedoms resonates with conservative principles.
@@ -33,3 +33,5 @@ The 1792 Exchange is a key player in the conservative movement's efforts to prom
 - [NBC News - Kentucky AG Cameron to Lead 1792 Exchange](https://www.nbcnews.com/news/nbcblk/kentuckys-former-attorney-general-lead-1792-exchange-group-fights-woke-rcna132174)
 - [Medium - The 1792 Exchange — Listing 1000+ Companies Based on their Wokeness](https://medium.com/biblical-christian-worldview/the-1792-exchange-listing-1000-companies-based-on-their-wokeness-248191dbb8ff)
 - [National Review - Corporate Neutrality in the Woke Era](https://www.nationalreview.com/magazine/2021/07/01/is-corporate-wokeness-here-to-stay/)
+- [Wikipedia - Daniel Cameron](https://en.wikipedia.org/wiki/Daniel_Cameron_(American_politician))
+- [SFOF Exposed](https://sfofexposed.org/paul-fitzpatrick/)

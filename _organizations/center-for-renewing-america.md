@@ -14,9 +14,9 @@ CRA focuses on various policy areas, including election integrity, immigration, 
 - **Public Outreach:** CRA engages the public through media appearances, publications, and policy briefs to influence public opinion and legislative actions.
 
 ## Leadership and Influence
-- **Russ Vought:** Founder and President of CRA, Vought played a significant role in shaping Trump administration policies. He continues to influence conservative circles through CRA’s advocacy and involvement in major initiatives like Project 2025.
-- **Ken Cuccinelli:** Senior Fellow for Homeland Security and Immigration, Cuccinelli is known for his hardline stance on immigration and his involvement in the Trump administration.
-- **Wesley Denton:** Chairman and Treasurer of CRA, Denton has extensive experience in conservative policy advocacy, particularly through his association with the American Accountability Foundation.
+- **[Russ Vought](/authors/russ-vought.html):** Founder and President of CRA, Vought played a significant role in shaping Trump administration policies. He continues to influence conservative circles through CRA’s advocacy and involvement in major initiatives like Project 2025.
+- **[Ken Cuccinelli](/authors/ken-cuccinelli.html):** Senior Fellow for Homeland Security and Immigration, Cuccinelli is known for his hardline stance on immigration and his involvement in the Trump administration.
+- **[Wesley Denton](https://www.heritage.org/staff/wesley-denton):** Chairman and Treasurer of CRA, Denton has extensive experience in conservative policy advocacy, particularly through his association with the American Accountability Foundation.
 
 ## Connections to Trump
 CRA has strong ties to the Trump administration, with several of its leaders being former Trump officials. The organization is deeply involved in Project 2025, a Heritage Foundation initiative aimed at preparing for a potential second Trump term. Russ Vought, who is closely aligned with Trump, has been a key architect of this project, aiming to infuse Christian nationalist ideas into the administration's policy framework. CRA’s influence on Trump’s positions, including withdrawal from NATO and aggressive immigration policies, underscores its significant role in shaping the future conservative agenda.
@@ -30,6 +30,7 @@ The Center for Renewing America plays a significant role in advancing conservati
 
 ## Sources
 - [Center for Renewing America](https://americarenewing.com)
-- [Politico - Trump Allies and Christian Nationalism](https://www.politico.com)
-- [Media Matters - Project 2025 and CRA](https://www.mediamatters.org)
-- [PBS - Influence of CRA on Trump's Policies](https://www.pbs.org)
+- [Politico - Trump Allies and Christian Nationalism](https://www.politico.com/news/2024/02/20/donald-trump-allies-christian-nationalism-00142086)
+- [Media Matters - Project 2025 and CRA](https://www.mediamatters.org/project-2025)
+- [PBS - Influence of CRA on Trump's Policies](https://www.pbs.org/newshour/politics/a-conservative-backed-group-is-gathering-information-on-civil-servants-ahead-of-a-possible-2nd-trump-term)
+- [The Heritage Foundation - Wesley Denton](https://www.heritage.org/staff/wesley-denton)

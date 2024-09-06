@@ -16,7 +16,7 @@ APP's mission is to defend the family as society's most important institution an
 ## Leadership and Influence
 - **Terry Schilling:** President of APP, Schilling oversees strategy, messaging, and political activity at the state and federal levels. Under his leadership, APP has grown into a prominent national organization advocating for conservative family values. Schilling has a background in political campaign management and is a vocal opponent of transgender healthcare and the Equality Act.
 - **Jon Schweppe:** Director of Policy, Schweppe is responsible for advancing APP's legislative priorities and has co-authored significant reports on free speech and children's protection. He has a strong background in communications and policy within conservative circles.
-- **Anthony LaBruna:** Executive Director, LaBruna previously worked at the White House during the Trump administration and has served in various political roles. His experience in government and politics is crucial for APP’s strategic initiatives.
+- **[Anthony LaBruna](https://www.politico.com/news/2020/03/06/white-house-hires-another-college-senior-123093):** Executive Director, LaBruna previously worked at the White House during the Trump administration and has served in various political roles. His experience in government and politics is crucial for APP’s strategic initiatives.
 
 ## Connections to Trump
 APP has established strong connections with the Trump administration and other conservative figures. The organization is a key participant in Project 2025, an initiative by the Heritage Foundation designed to shape policy for a future conservative administration. APP’s involvement in this project, alongside its deep ties to Trump-aligned figures, suggests its significant influence on shaping policy directions in line with Trump-era values.
@@ -30,6 +30,7 @@ The American Principles Project plays a critical role in advocating for conserva
 
 ## Sources
 - [American Principles Project - Official Website](https://americanprinciplesproject.org)
-- [Media Matters - Project 2025’s Ties to Trump and Advocacy](https://www.mediamatters.org)
-- [The New York Times - Conservative Groups’ Impact on Policy](https://www.nytimes.com)
-- [Heritage Foundation - Project 2025](https://www.heritage.org)
+- [Media Matters - Project 2025’s Ties to Trump and Advocacy](https://www.mediamatters.org/project-2025)
+- [The New York Times - Conservative Groups’ Impact on Policy](https://www.nytimes.com/2022/12/12/books/book-bans-libraries.html)
+- [Heritage Foundation - Project 2025](https://www.heritage.org/conservatism/commentary/project-2025)
+- [Politico -  White House hires another college senior for sensitive administration post](https://www.politico.com/news/2020/03/06/white-house-hires-another-college-senior-123093)

@@ -15,7 +15,7 @@ ALEC’s mission is to advance free markets, limited government, and federalism 
 - **Annual Meetings:** ALEC hosts annual meetings and conferences where legislators and private sector representatives collaborate on policy initiatives. These events are central to ALEC’s strategy of networking and coordinating efforts to influence state legislatures.
 
 ## Leadership and Influence
-- **Lisa B. Nelson:** Serving as CEO of ALEC since 2014, Nelson has maintained the organization’s influence in conservative policymaking circles. Under her leadership, ALEC continues to be a major force in state-level policy development, despite facing criticism and opposition.
+- **[Lisa B. Nelson](https://www.washingtonpost.com/blogs/govbeat/wp/2014/07/09/meet-the-new-head-of-alec-the-free-market-group-of-state-legislators/):** Serving as CEO of ALEC since 2014, Nelson has maintained the organization’s influence in conservative policymaking circles. Under her leadership, ALEC continues to be a major force in state-level policy development, despite facing criticism and opposition.
 - **Chaz Cirame:** As Senior Director of Membership and Development, Cirame plays a key role in expanding ALEC’s membership and ensuring active participation from both public and private sectors. His efforts are vital in maintaining ALEC's strong ties to the business community and its legislative influence.
 
 ## Connections to Trump
@@ -29,7 +29,8 @@ ALEC has significant ties to the Trump administration. Many former Trump adminis
 The American Legislative Exchange Council is a powerful force in conservative policymaking, known for its ability to influence legislation at the state level. While ALEC champions free-market principles and limited government, its strong ties to corporate interests and conservative politics raise questions about the impartiality of its policy advocacy and the broader impacts of its legislative initiatives.
 
 ## Sources
-- [Citizens for Responsibility and Ethics in Washington - ALEC’s Trump Administration Connections](https://www.citizensforethics.org)
-- [ProPublica - ALEC’s Influence on State Legislation](https://www.propublica.org)
-- [Brookings Institution - ALEC’s Impact on State Laws](https://www.brookings.edu)
-- [Bill Moyers - Investigating ALEC](https://billmoyers.com)
+- [Citizens for Responsibility and Ethics in Washington - ALEC’s Trump Administration Connections](https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-administration-alec-influence/)
+- [ProPublica - ALEC’s Influence on State Legislation](https://www.propublica.org/article/our-step-by-step-guide-to-understanding-alecs-influence-on-your-state-laws)
+- [Brookings Institution - ALEC’s Impact on State Laws](https://www.brookings.edu/articles/alecs-influence-over-lawmaking-in-state-legislatures/)
+- [Bill Moyers - Investigating ALEC](https://billmoyers.com/segment/united-states-of-alec/)
+- [Washington Post - Meet the new head of ALEC, the free-market group of state legislators](https://www.washingtonpost.com/blogs/govbeat/wp/2014/07/09/meet-the-new-head-of-alec-the-free-market-group-of-state-legislators/)

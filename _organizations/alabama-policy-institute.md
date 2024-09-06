@@ -16,8 +16,8 @@ API's mission is to advance conservative values by influencing policy at the sta
 
 ## Leadership and Influence
 - **Stephanie Smith:** President and CEO since January 2023, Smith has a background in governmental affairs and finance, with experience in both the private and public sectors. She has been vocal about her conservative stance, particularly criticizing the Alabama GOP for not being conservative enough on issues such as education and taxation.
-- **J. Pepper Bryars:** Senior Fellow with extensive experience in law, ministry, and military service. Bryars is known for his work in public policy and advocacy, contributing to the conservative discourse in Alabama.
-- **Scott Stantis:** Distinguished Fellow and editorial cartoonist, Stantis contributes to API's cultural and political commentary, bringing a unique perspective to the organization's outreach efforts.
+- **[J. Pepper Bryars](https://www.alreporter.com/author/j-bryars/):** Senior Fellow with extensive experience in law, ministry, and military service. Bryars is known for his work in public policy and advocacy, contributing to the conservative discourse in Alabama.
+- **[Scott Stantis](https://en.wikipedia.org/wiki/Scott_Stantis):** Distinguished Fellow and editorial cartoonist, Stantis contributes to API's cultural and political commentary, bringing a unique perspective to the organization's outreach efforts.
 
 ## Connections to Trump
 API's policy positions align closely with broader conservative agendas often associated with the Trump administration. Although API does not have direct ties to Trump, its advocacy on issues such as school choice, tax policy, and opposition to Medicaid expansion resonate with Trump's political base and the broader conservative movement.
@@ -35,3 +35,5 @@ The Alabama Policy Institute plays a pivotal role in shaping conservative public
 - [Alabama Political Reporter - Alabama Policy Institute Releases 2024 Blueprint](https://www.alreporter.com/2024/01/16/alabama-policy-institute-releases-2024-blueprint/)
 - [Yellowhammer News - Alabama Policy Institute Releases 2024 Legislative 'Blueprint'](https://yellowhammernews.com/alabama-policy-institute-releases-2024-legislative-blueprint/)
 - [Alabama Daily News - 35 Years of the Alabama Policy Institute](https://aldailynews.com/35-years-of-the-alabama-policy-institute/)
+- [Alabama Political Reporter](https://www.alreporter.com/author/j-bryars/)
+- [Wkikipedia - Scott Stantis](https://en.wikipedia.org/wiki/Scott_Stantis)

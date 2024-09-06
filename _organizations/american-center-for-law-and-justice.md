@@ -15,7 +15,7 @@ ACLJ's mission centers on defending religious and constitutional freedoms. Key a
 - **Legislative Engagement:** ACLJ actively engages with lawmakers to influence legislation aligned with conservative Christian values, focusing on issues like religious freedom and anti-abortion measures.
 
 ## Leadership and Influence
-- **Jay Sekulow:** Chief Counsel of the ACLJ, Sekulow is a prominent figure in conservative legal circles and gained significant attention as one of Donald Trump’s attorneys during his presidency. Sekulow is also linked to the for-profit Constitutional Litigation and Advocacy Group, which has received significant payments from ACLJ, raising concerns about transparency and governance within the organization.
+- **[Jay Sekulow](https://www.rollingstone.com/politics/politics-features/trump-lawyer-super-rich-right-wing-crusades-1234939528/):** Chief Counsel of the ACLJ, Sekulow is a prominent figure in conservative legal circles and gained significant attention as one of Donald Trump’s attorneys during his presidency. Sekulow is also linked to the for-profit Constitutional Litigation and Advocacy Group, which has received significant payments from ACLJ, raising concerns about transparency and governance within the organization.
 - **Stuart Roth:** Partner in the Constitutional Litigation and Advocacy Group, Roth has played a key role in the ACLJ’s operations, with financial relationships that have been scrutinized for potential conflicts of interest.
 
 ## Connections to Trump
@@ -30,5 +30,7 @@ The American Center for Law and Justice is a prominent conservative legal organi
 
 ## Sources
 - [American Center for Law & Justice - Wikipedia](https://en.wikipedia.org/wiki/American_Center_for_Law_and_Justice)
-- [SCOTUSblog - American Center for Law and Justice](https://www.scotusblog.com)
-- [Washington Post - Trump Attorney Jay Sekulow's Family Has Been Paid Millions from Charities They Control](https://www.washingtonpost.com)
+- [American Center for Law & Justice - Official Site](https://aclj.org/)
+- [SCOTUSblog - American Center for Law and Justice](https://www.scotusblog.com/american-center-for-law-and-justice/)
+- [Washington Post - Trump Attorney Jay Sekulow's Family Has Been Paid Millions from Charities They Control](https://www.washingtonpost.com/investigations/trump-attorney-jay-sekulows-family-has-been-paid-millions-from-charities-they-control/2017/06/27/6428d988-5852-11e7-ba90-f5875b7d1876_story.html)
+- [Rolling Stone - Right-Wing Legal Crusades Have Made This Ex-Trump Lawyer Super Rich](https://www.rollingstone.com/politics/politics-features/trump-lawyer-super-rich-right-wing-crusades-1234939528/)

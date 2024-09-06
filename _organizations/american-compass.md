@@ -15,7 +15,7 @@ American Compass works to develop a conservative economic agenda that integrates
 - **Policy Proposals:** American Compass advocates for policies that constrain speculative financial practices, support non-college career pathways, and promote family stability and community resilience. These proposals are designed to create a more balanced and sustainable economic system that serves all Americans.
 
 ## Leadership and Influence
-- **Oren Cass:** Founder and Executive Director of American Compass, Cass is a prominent conservative policy analyst known for his critiques of neoliberal economic policies and advocacy for a worker-centric economic approach. He has been a significant voice in the post-Trump conservative realignment, arguing for a more populist and nationalist approach to economic policy. Under his leadership, American Compass has gained attention for challenging the GOP's traditional economic stances and advocating for reforms that prioritize the interests of American workers.
+- **[Oren Cass](https://en.wikipedia.org/wiki/Oren_Cass):** Founder and Executive Director of American Compass, Cass is a prominent conservative policy analyst known for his critiques of neoliberal economic policies and advocacy for a worker-centric economic approach. He has been a significant voice in the post-Trump conservative realignment, arguing for a more populist and nationalist approach to economic policy. Under his leadership, American Compass has gained attention for challenging the GOP's traditional economic stances and advocating for reforms that prioritize the interests of American workers.
 
 ## Connections to Trump
 American Compass has connections to broader conservative movements, including affiliations with figures from the Trump administration. While Cass has critiqued certain aspects of Trump's policies, particularly their execution, he acknowledges that Trump's presidency marked a significant shift in the Republican Party's economic priorities. The organization's focus on reshaping economic policies and addressing the failures of globalization aligns with themes popularized during the Trump era, such as economic nationalism and skepticism of free trade. Moreover, American Compass has cultivated relationships with key Trump allies, including Senators JD Vance and Marco Rubio, who have supported its policy proposals.
@@ -29,6 +29,7 @@ American Compass is a significant voice in the conservative economic policy deba
 
 ## Sources
 - [American Compass - Official Website](https://americancompass.org)
-- [POLITICO - A JD Vance-Aligned Think Tank is Stirring the Pot with Conservatives](https://www.politico.com)
-- [The National Interest - Oren Cass, American Compass, and the Plot to Save America](https://nationalinterest.org)
-- [The American Conservative - American Compass, Moving the Needle](https://www.theamericanconservative.com)
+- [POLITICO - A JD Vance-Aligned Think Tank is Stirring the Pot with Conservatives](https://www.politico.com/news/2024/07/25/gop-economics-american-compass-00171010)
+- [The National Interest - Oren Cass, American Compass, and the Plot to Save America](https://nationalinterest.org/feature/oren-cass-american-compass-and-plot-save-america-206601)
+- [The American Conservative - American Compass, Moving the Needle](https://www.theamericanconservative.com/american-compass-moving-the-needle/)
+- [Wikipedia - Oren Cass](https://en.wikipedia.org/wiki/Oren_Cass)

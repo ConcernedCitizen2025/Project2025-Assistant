@@ -15,7 +15,7 @@ ACTA’s mission is to ensure that students receive a high-quality, intellectual
 - **Educational Resources:** ACTA publishes the "What Will They Learn?" report, which evaluates over 1,100 four-year institutions on their general education requirements. The report grades universities on how well they include core subjects in their curricula, highlighting the need for a rigorous liberal arts education.
 
 ## Leadership and Influence
-- **Michael B. Poliakoff:** President of ACTA since 2016, Poliakoff has been influential in advocating for civic literacy and a strong core curriculum in higher education. Under his leadership, ACTA has expanded its influence on policy discussions related to academic standards and free speech on campuses.
+- **[Michael B. Poliakoff](https://en.wikipedia.org/wiki/Michael_Poliakoff):** President of ACTA since 2016, Poliakoff has been influential in advocating for civic literacy and a strong core curriculum in higher education. Under his leadership, ACTA has expanded its influence on policy discussions related to academic standards and free speech on campuses.
 - **Steven McGuire:** Paul & Karen Levy Fellow in Campus Freedom, McGuire has been involved in promoting free expression and intellectual diversity on college campuses, particularly through the Gold Standard program, which provides a framework for maintaining free speech in academic settings.
 
 ## Connections to Trump
@@ -31,5 +31,6 @@ The American Council of Trustees and Alumni plays a significant role in promotin
 ## Sources
 - [American Council of Trustees and Alumni - Official Website](https://www.goacta.org)
 - [Wikipedia - American Council of Trustees and Alumni](https://en.wikipedia.org/wiki/American_Council_of_Trustees_and_Alumni)
-- [The Cornell Review - ACTA’s Steve McGuire discusses campus free speech](https://www.thecornellreview.org/tag/american-council-of-trustees-and-alumni)
-- [Diverse Education - ACTA Releases Guide for Managing Campus Protests](https://www.diverseeducation.com)
+- [The Cornell Review - ACTA’s Steve McGuire discusses campus free speech](https://www.thecornellreview.org/actas-steve-mcguire-discusses-campus-free-speech/)
+- [Diverse Education - ACTA Releases Guide for Managing Campus Protests](https://www.diverseeducation.com/leadership-policy/article/15681752/acta-releases-guide-for-managing-campus-protests-encampments)
+- [Wikipedia - Michael Poliakoff](https://en.wikipedia.org/wiki/Michael_Poliakoff)
