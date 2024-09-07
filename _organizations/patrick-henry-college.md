@@ -15,8 +15,8 @@ PHC’s mission is to provide an education rooted in a classical liberal arts tr
 - **Student Life:** PHC promotes an active student life, supporting various student organizations, ministry opportunities, and competitive programs like its award-winning moot court team.
 
 ## Leadership and Influence
-- **Jack W. Haye:** President of PHC since 2015, Haye oversees the administration of the college and continues to uphold its mission of integrating Christian faith with a strong liberal arts education.
-- **Michael Farris:** Founder and Chancellor Emeritus of PHC, Farris has been a key figure in homeschooling advocacy and religious freedom, shaping the mission of the college.
+- **[Jack W. Haye](https://en.wikipedia.org/wiki/Jack_Haye):** President of PHC since 2015, Haye oversees the administration of the college and continues to uphold its mission of integrating Christian faith with a strong liberal arts education.
+- **[Michael Farris](https://www.washingtonpost.com/education/2023/08/29/michael-farris-homeschoolers-parents-rights-ziklag/):** Founder and Chancellor Emeritus of PHC, Farris has been a key figure in homeschooling advocacy and religious freedom, shaping the mission of the college.
 
 ## Connections to Trump
 Patrick Henry College has indirect connections to the Trump administration through its conservative Christian orientation and its alumni network. Many PHC graduates have interned or worked in various conservative organizations and government offices, some of which were closely aligned with Trump-era policies.
@@ -31,4 +31,9 @@ Patrick Henry College is a leading institution in conservative Christian higher 
 ## Sources
 - [Patrick Henry College](https://www.phc.edu)
 - [Wikipedia - Patrick Henry College](https://en.wikipedia.org/wiki/Patrick_Henry_College)
-- [Washington Examiner - PHC Alumni in Trump White House](https://www.washingtonexaminer.com)
+- [Washington Examiner - PHC Alumni in Trump White House](https://www.washingtonexaminer.com/news/433563/trump-support-grows-among-college-educated-as-primary-foes-fail-to-lock-up-group/)
+- [Wkipedia - Jack Haye](https://en.wikipedia.org/wiki/Jack_Haye)
+- [Washington Post - The Christian home-schooler who made ‘parental rights’ a GOP rallying cry](https://www.washingtonpost.com/education/2023/08/29/michael-farris-homeschoolers-parents-rights-ziklag/)
+- [New York Times - How Michael P. Farris Tried to Block 2020 Election Outcome](https://www.nytimes.com/2021/10/07/us/politics/religious-conservative-michael-farris-lawsuit-2020-election.html)
+- [Wikipedia - Michael Farris](https://en.wikipedia.org/wiki/Michael_Farris_(lawyer))
+- [The Federalist Society - Michael P. Farris](https://fedsoc.org/contributors/michael-farris)

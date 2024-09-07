@@ -15,8 +15,8 @@ LI’s mission is to identify, train, recruit, and place conservatives in politi
 - **Employment Placement:** Providing resources like ConservativeJobs.com to help place trained conservatives in influential public policy positions and media roles. This service connects job seekers with employers at no cost.
 
 ## Leadership and Influence
-- **Morton C. Blackwell:** Founder and President, Blackwell has been a key figure in conservative politics, guiding LI's development and its role in training conservative activists.
-- **David Fenner:** Executive Vice President, responsible for overseeing daily operations and strategic initiatives at LI.
+- **[Morton C. Blackwell](https://ballotpedia.org/Morton_Blackwell):** Founder and President, Blackwell has been a key figure in conservative politics, guiding LI's development and its role in training conservative activists.
+- **[David Fenner](https://talkingpointsmemo.com/muckraker/the-leadership-institute-the-group-that-helped-launch-the-conservative-careers-of-two-alleged-phone-tamperers):** Executive Vice President, responsible for overseeing daily operations and strategic initiatives at LI.
 - **Colleen Bohannon:** Director of Programs, manages LI’s various training programs to ensure they meet the institute’s educational goals.
 
 ## Connections to Trump
@@ -28,5 +28,9 @@ The Leadership Institute has notable connections to the Trump administration and
 
 ## Sources
 - [Leadership Institute Official Website](https://www.leadershipinstitute.org) - Official site of The Leadership Institute providing information about its programs and activities.
-- [Politico - The Inside Story of How Project 2025 Fell Apart](https://www.politico.com/news/magazine/2024/08/02/project-2025-trump) - Report on Project 2025’s influence and associated organizations.
-- [KGW - Is Trump behind Project 2025?](https://www.kgw.com/article/news/verify/national-verify/donald-trump-project-2025-fact-check/536-fcc12770-89e1-4a80-9b2e-09d8e1f6f1aa) - Details on Trump’s position and distancing from Project 2025.
+- [Politico - The Inside Story of How Project 2025 Fell Apart](https://www.politico.com/news/magazine/2024/08/02/project-2025-trump-inside-story-00172299) - Report on Project 2025’s influence and associated organizations.
+- [KGW - Is Trump behind Project 2025?](https://www.kgw.com/video/news/verify/project-2025-verify/is-trump-behind-project-2025-what-hes-said-about-the-plan-video/536-226a0937-281d-4bbc-bac3-aac40b4686ff) - Details on Trump’s position and distancing from Project 2025.
+- [Desmog](https://www.desmog.com/leadership-institute/)
+- [The Heritage Foundation - Morton Blackwell Receives Heritage’s Titan of Conservatism Award](https://www.heritage.org/press/leadership-institute-president-morton-blackwell-receives-heritages-titan-conservatism-award)
+- [Ballotpedia - Morton Blackwell](https://ballotpedia.org/Morton_Blackwell)
+- [TPM - The Group That Helped Launch The Conservative Careers Of Two Alleged Phone Tamperers](https://talkingpointsmemo.com/muckraker/the-leadership-institute-the-group-that-helped-launch-the-conservative-careers-of-two-alleged-phone-tamperers)

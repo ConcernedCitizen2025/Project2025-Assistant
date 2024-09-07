@@ -15,8 +15,8 @@ TPPF's mission is to advance policies that enhance liberty and economic freedom 
 - **Educational Outreach:** TPPF provides educational resources and hosts events to inform the public and policymakers about free-market principles, often collaborating with other conservative organizations.
 
 ## Leadership and Influence
-- **Greg Sindelar:** CEO of TPPF, Sindelar has been instrumental in expanding the foundation's influence on public policy through rigorous research and strategic advocacy.
-- **Kevin Roberts:** Former Executive Director, Roberts was pivotal in guiding TPPF's growth before moving to a leadership role at the Heritage Foundation, laying the groundwork for TPPF's current strategies.
+- **[Greg Sindelar](https://gov.texas.gov/news/post/governor-abbott-appoints-sindelar-to-texas-1836-project-advisory-committee):** CEO of TPPF, Sindelar has been instrumental in expanding the foundation's influence on public policy through rigorous research and strategic advocacy.
+- **[Kevin Roberts](/authors/kevin-d-roberts-phd.html):** Former Executive Director, Roberts was pivotal in guiding TPPF's growth before moving to a leadership role at the Heritage Foundation, laying the groundwork for TPPF's current strategies.
 
 ## Connections to Trump
 TPPF has notable connections to the Trump administration, particularly through its involvement in Project 2025, an initiative led by the Heritage Foundation to prepare conservative policy proposals for future Republican administrations. TPPF's advocacy for deregulation and free-market policies aligns closely with Trump's economic agenda.
@@ -31,6 +31,7 @@ The Texas Public Policy Foundation is a significant conservative think tank that
 ## Sources
 - [Texas Public Policy Foundation](https://www.texaspolicy.com)
 - [Wikipedia - Texas Public Policy Foundation](https://en.wikipedia.org/wiki/Texas_Public_Policy_Foundation)
-- [InfluenceWatch - Texas Public Policy Foundation](https://www.influencewatch.org)
-- [Media Bias/Fact Check - Texas Public Policy Foundation](https://mediabiasfactcheck.com)
-- [Politico - TPPF and Trump](https://www.politico.com)
+- [InfluenceWatch - Texas Public Policy Foundation](https://www.influencewatch.org/non-profit/texas-public-policy-foundation/)
+- [Politico - TPPF and Trump](https://www.politico.com/newsletters/power-switch/2024/07/09/this-top-trump-donor-wants-more-than-rule-rollbacks-00167107)
+- [SFOF Exposed - Texas Public Policy Foundation](https://sfofexposed.org/texas-public-policy-foundation/)
+- [Governor Abbott Appoints Sindelar To Texas 1836 Project Advisory Committee](https://gov.texas.gov/news/post/governor-abbott-appoints-sindelar-to-texas-1836-project-advisory-committee)

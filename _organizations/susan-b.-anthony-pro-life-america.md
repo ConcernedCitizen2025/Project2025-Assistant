@@ -15,7 +15,7 @@ Susan B. Anthony Pro-Life America's mission is to end abortion through political
 - **Public Engagement:** Educating the public about pro-life issues and mobilizing voters through outreach programs designed to shape public opinion and legislative outcomes.
 
 ## Leadership and Influence
-- **Marjorie Dannenfelser:** President and co-founder of Susan B. Anthony Pro-Life America. Dannenfelser has been instrumental in shaping the organization’s direction and is a prominent figure in the pro-life movement, working closely with political leaders to advance pro-life legislation.
+- **[Marjorie Dannenfelser](https://apnews.com/article/donald-trump-abortion-2024-president-d453c0cc7589568673b1c5209dfded51):** President and co-founder of Susan B. Anthony Pro-Life America. Dannenfelser has been instrumental in shaping the organization’s direction and is a prominent figure in the pro-life movement, working closely with political leaders to advance pro-life legislation.
 - **Billy Valentine:** Vice President of Political Affairs, responsible for overseeing the organization’s electoral strategies and political activities, including managing its government affairs team.
 - **Christina Chappell:** Vice President of Advancement, playing a critical role in fundraising and donor relations, which is essential for sustaining the organization’s outreach efforts.
 
@@ -32,6 +32,8 @@ Susan B. Anthony Pro-Life America is a leading force in the pro-life movement, k
 ## Sources
 - [Susan B. Anthony Pro-Life America](https://sbaprolife.org)
 - [Wikipedia - Susan B. Anthony Pro-Life America](https://en.wikipedia.org/wiki/Susan_B._Anthony_Pro-Life_America)
-- [Politico - Anti-abortion groups rally behind Trump despite their disappointment](https://www.politico.com)
-- [Washington Post - Detente between Trump and SBA Pro-Life America](https://www.washingtonpost.com)
-- [National Review - SBA Pro-Life America praises Trump](https://www.nationalreview.com)
+- [Politico - Anti-abortion groups rally behind Trump despite their disappointment](https://www.politico.com/news/2024/04/08/trump-anti-abortion-group-ban-00151037)
+- [Washington Post - Detente between Trump and SBA Pro-Life America](https://www.washingtonpost.com/politics/2023/05/09/trump-abortion-susan-b-anthony/)
+- [National Review - SBA Pro-Life America praises Trump](https://www.nationalreview.com/news/leading-pro-life-group-praises-trump-weeks-after-condemning-morally-indefensible-stance-on-federal-abortion-law/)
+- [AP News - Anti-abortion group meets with Trump, weeks after criticism](https://apnews.com/article/donald-trump-abortion-2024-president-d453c0cc7589568673b1c5209dfded51)
+- [Pro-Lies](https://pro-lies.org/susan-b-anthony-list/)
