@@ -269,3 +269,28 @@ p, li, .content {
     float: right; /* Adjust as needed */
     margin-top: 10px;
 }
+
+.share-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.share-buttons p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.share-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.share-buttons a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.share-buttons a:hover img {
+    transform: scale(1.1);
+}
