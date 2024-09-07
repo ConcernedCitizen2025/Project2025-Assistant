@@ -32,5 +32,5 @@ The Intercollegiate Studies Institute plays a significant role in promoting cons
 ## Sources
 - [Intercollegiate Studies Institute](https://isi.org)
 - [Wikipedia - Intercollegiate Studies Institute](https://en.wikipedia.org/wiki/Intercollegiate_Studies_Institute)
-- [Media Matters - Conservative Groups in Campus Politics](https://www.mediamatters.org)
-- [Media Bias/Fact Check - Intercollegiate Studies Institute](https://mediabiasfactcheck.com)
+- [Media Matters - Conservative Groups in Campus Politics](https://www.mediamatters.org/james-okeefe/conservative-dark-money-groups-infiltrating-campus-politics)
+- [Media Bias/Fact Check - Intercollegiate Studies Institute](https://mediabiasfactcheck.com/intercollegiate-studies-institute-isi-bias/)

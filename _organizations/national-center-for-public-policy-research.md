@@ -17,7 +17,7 @@ NCPPR's mission is to promote innovative and free-market solutions to public pol
 ## Leadership and Influence
 - **David A. Ridenour:** President of NCPPR, Ridenour has been with the organization since its early days, previously serving as vice president. He has extensive experience in public policy and has testified before the United Nations and U.S. Congress.
 - **David Almasi:** Chief Operating Officer, Almasi oversees media relations and strategic initiatives, contributing to NCPPR’s broad influence in conservative circles.
-- **Horace Cooper:** Co-chair of Project 21 and a senior fellow at NCPPR, Cooper is a former senior counsel to the U.S. House Majority Leader and an influential voice in conservative policy circles.
+- **[Horace Cooper](https://www.desmog.com/horace-cooper/):** Co-chair of Project 21 and a senior fellow at NCPPR, Cooper is a former senior counsel to the U.S. House Majority Leader and an influential voice in conservative policy circles.
 
 ## Connections to Trump
 NCPPR has connections to the Trump administration, particularly through its advocacy for deregulation and free-market policies that align with Trump's economic agenda. The organization's leadership, including figures like Horace Cooper, have been involved in conservative policy circles that influence the broader agenda supported by Trump and his affiliates.
@@ -32,5 +32,6 @@ The National Center for Public Policy Research is a key player in the conservati
 ## Sources
 - [NCPPR](https://www.nationalcenter.org)
 - [Wikipedia - National Center for Public Policy Research](https://en.wikipedia.org/wiki/National_Center_for_Public_Policy_Research)
-- [InfluenceWatch](https://www.influencewatch.org)
-- [Harvard Law - Corporate Governance](https://corpgov.law.harvard.edu)
+- [InfluenceWatch](https://www.influencewatch.org/non-profit/national-center-for-public-policy-research/)
+- [Harvard Law - Corporate Governance](https://corpgov.law.harvard.edu/2023/06/01/anti-esg-shareholder-proposals-in-2023/)
+- [Desmog - Horace Cooper](https://www.desmog.com/horace-cooper/)

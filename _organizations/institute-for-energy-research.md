@@ -15,10 +15,10 @@ IER's mission is to inform policymakers, the media, and the public about energy 
 - **Public Engagement:** IER engages with the public and policymakers through events, briefings, and digital content, aiming to influence energy policy discussions in favor of fossil fuel expansion.
 
 ## Leadership and Influence
-- **Robert L. Bradley Jr.:** Founder and CEO of IER, Bradley is a prominent advocate for free-market energy policies. He has authored several books on energy policy and is associated with multiple conservative think tanks.
-- **Thomas J. Pyle:** President of IER and its political arm, the American Energy Alliance (AEA). Pyle played a significant role in the Trump administration as a member of the Department of Energy transition team, where he promoted a fossil fuel-friendly agenda.
-- **Daniel Kish:** Senior Vice President of Policy, Kish has extensive experience in energy policy and is a vocal critic of environmental regulations that he views as detrimental to the energy sector.
-- **Steven F. Hayward:** Board member, Hayward is a visiting professor at Pepperdine University and has written extensively on environmental policy.
+- **[Robert L. Bradley Jr.](https://en.wikipedia.org/wiki/Robert_L._Bradley_Jr.):** Founder and CEO of IER, Bradley is a prominent advocate for free-market energy policies. He has authored several books on energy policy and is associated with multiple conservative think tanks.
+- **[Thomas J. Pyle](/contributors/thomas-pyle.html):** President of IER and its political arm, the American Energy Alliance (AEA). Pyle played a significant role in the Trump administration as a member of the Department of Energy transition team, where he promoted a fossil fuel-friendly agenda.
+- **[Daniel Kish](/contributors/dan-kish.html):** Senior Vice President of Policy, Kish has extensive experience in energy policy and is a vocal critic of environmental regulations that he views as detrimental to the energy sector.
+- **[Steven F. Hayward](https://www.desmog.com/steven-f-hayward/):** Board member, Hayward is a visiting professor at Pepperdine University and has written extensively on environmental policy.
 
 ## Connections to Trump
 IER has strong connections to the Trump administration, particularly through Thomas Pyle’s involvement in the Department of Energy’s transition team. The organization's policy recommendations, which often favor the fossil fuel industry, closely align with Trump’s energy policies, including the withdrawal from the Paris Agreement and the rollback of environmental regulations.
@@ -33,6 +33,8 @@ The Institute for Energy Research plays a significant role in shaping energy pol
 ## Sources
 - [Institute for Energy Research](https://www.instituteforenergyresearch.org)
 - [Wikipedia - Institute for Energy Research](https://en.wikipedia.org/wiki/Institute_for_Energy_Research)
-- [InfluenceWatch - Institute for Energy Research](https://www.influencewatch.org)
-- [DeSmog - Institute for Energy Research](https://www.desmog.com)
-- [Greenpeace - Institute for Energy Research](https://www.greenpeace.org)
+- [InfluenceWatch - Institute for Energy Research](https://www.influencewatch.org/non-profit/institute-for-energy-research/)
+- [DeSmog - Institute for Energy Research](https://www.desmog.com/institute-energy-research/)
+- [Greenpeace - Institute for Energy Research](https://www.greenpeace.org/usa/fighting-climate-chaos/climate-deniers/front-groups/institute-for-energy-research-ier-american-energy-alliance-aea/)
+- [Wikipedia - Robert L. Bradley Jr.](https://en.wikipedia.org/wiki/Robert_L._Bradley_Jr.)
+- [Desmog - Steven F. Hayward](https://www.desmog.com/steven-f-hayward/)
