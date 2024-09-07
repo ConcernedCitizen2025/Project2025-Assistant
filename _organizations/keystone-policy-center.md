@@ -16,8 +16,8 @@ KPC's mission is to drive actionable, shared solutions to contentious policy cha
 - **Agriculture:** KPC works on sustainable solutions to meet global food demands, involving stakeholders across the food and agriculture supply chain to address issues related to sustainability and food security.
 
 ## Leadership and Influence
-- **Christine Scanlan:** President and CEO. Scanlan brings extensive experience in policy and administration, having served in various capacities in Colorado state government. Her leadership at KPC emphasizes collaborative problem-solving and stakeholder engagement.
-- **Ed Gabriel:** A longtime board member, Gabriel has a background in diplomacy and policy, having served as U.S. Ambassador to Morocco. His experience in international relations adds a global perspective to KPC's initiatives.
+- **[Christine Scanlan](https://en.wikipedia.org/wiki/Christine_Scanlan):** President and CEO. Scanlan brings extensive experience in policy and administration, having served in various capacities in Colorado state government. Her leadership at KPC emphasizes collaborative problem-solving and stakeholder engagement.
+- **[Ed Gabriel](https://en.wikipedia.org/wiki/Edward_M._Gabriel):** A longtime board member, Gabriel has a background in diplomacy and policy, having served as U.S. Ambassador to Morocco. His experience in international relations adds a global perspective to KPC's initiatives.
 - **Rob Schwartz:** CEO of Anterix and a key supporter of KPC, Schwartz’s contributions reflect a commitment to integrating technological advancements with policy solutions, particularly in energy and communications.
 
 ## Connections to Trump
@@ -32,5 +32,7 @@ The Keystone Policy Center is a key player in addressing complex policy issues t
 
 ## Sources
 - [Keystone Policy Center](https://www.keystone.org)
-- [CityBiz](https://www.citybiz.co)
-- [Devex](https://www.devex.com)
+- [CityBiz](https://www.citybiz.co/article/564079/keystone-policy-center-honors-anterix-president-ceo-rob-schwartz/)
+- [Influence Watch](https://www.influencewatch.org/non-profit/keystone-policy-center/)
+- [Wikipedia - Christine Scanlan](https://en.wikipedia.org/wiki/Christine_Scanlan)
+- [Wikipedia - Ed Gabriel](https://en.wikipedia.org/wiki/Edward_M._Gabriel)

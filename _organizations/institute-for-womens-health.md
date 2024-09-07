@@ -15,8 +15,8 @@ IWH's mission is to advocate for the health and well-being of women globally by 
 - **Policy Advocacy:** IWH works to influence health policies that support women's health, often aligning with conservative health policy initiatives and opposing policies that conflict with its pro-life stance.
 
 ## Leadership and Influence
-- **Valerie Huber, M.Ed.:** Founder and President of IWH, Huber has an extensive background in global women's health. She previously served as Special Representative for Global Women's Health at the U.S. Department of Health and Human Services (HHS) during the Trump administration, where she played a key role in promoting the Geneva Consensus Declaration.
-- **Dr. Alma Golden:** Chief Operating Officer (COO). Dr. Golden has a rich background in healthcare policy, having served as the Assistant Administrator for the Bureau for Global Health at USAID. Her work at IWH focuses on improving health outcomes for women globally.
+- **[Valerie Huber, M.Ed.](/contributors/valerie-huber.html):** Founder and President of IWH, Huber has an extensive background in global women's health. She previously served as Special Representative for Global Women's Health at the U.S. Department of Health and Human Services (HHS) during the Trump administration, where she played a key role in promoting the Geneva Consensus Declaration.
+- **[Dr. Alma Golden](/contributors/alma-golden.html):** Chief Operating Officer (COO). Dr. Golden has a rich background in healthcare policy, having served as the Assistant Administrator for the Bureau for Global Health at USAID. Her work at IWH focuses on improving health outcomes for women globally.
 - **Victoria Akyea, M.P.H.:** Executive Management Director. Akyea manages IWH's operations and contributes to its strategic initiatives, drawing on her experience in public health.
 
 ## Connections to Trump
@@ -31,4 +31,4 @@ The Institute for Women's Health is a significant player in promoting women's he
 ## Sources
 - [Institute for Women's Health](https://www.theiwh.org)
 - [Global Philanthropy Project - Geneva Consensus Declaration](https://globalphilanthropyproject.org/2024/02/29/protego-operationalizing-the-geneva-consensus-declaration/)
-- [Philanthropy Roundtable](https://www.philanthropyroundtable.org)
+

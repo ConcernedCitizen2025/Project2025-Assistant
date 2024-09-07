@@ -14,8 +14,8 @@ Liberty University's mission is to develop Christ-centered men and women with th
 - **Athletics:** The university fields 20 NCAA Division I athletic teams and over 40 club sports teams, providing top-tier facilities and winning numerous conference titles.
 
 ## Leadership and Influence
-- **Dondi E. Costin:** President of Liberty University. Costin, a retired Maj. Gen., oversees the university's operations and upholds its mission of integrating faith with education.
-- **Jonathan Falwell:** Chancellor of Liberty University and the son of the founder, Jonathan Falwell continues the legacy of his father, focusing on spiritual guidance and institutional growth.
+- **[Dondi E. Costin](https://en.wikipedia.org/wiki/Dondi_E._Costin):** President of Liberty University. Costin, a retired Maj. Gen., oversees the university's operations and upholds its mission of integrating faith with education.
+- **[Jonathan Falwell](https://en.wikipedia.org/wiki/Jonathan_Falwell):** Chancellor of Liberty University and the son of the founder, Jonathan Falwell continues the legacy of his father, focusing on spiritual guidance and institutional growth.
 
 ## Connections to Trump
 Liberty University has had strong connections to the Trump administration. Former President Donald Trump has spoken at Liberty's commencement ceremonies, and the university maintained close ties with former President Jerry Falwell Jr., a vocal Trump supporter. These connections underscore Liberty's alignment with conservative and evangelical political values.
@@ -29,6 +29,8 @@ Liberty University plays a significant role in providing a Christian-based educa
 
 ## Sources
 - [Liberty University](https://www.liberty.edu)
-- [Religion News Service - Legal Disputes at Liberty University](https://religionnews.com)
-- [OpenSecrets - Liberty University Profile](https://www.opensecrets.org)
-- [U.S. News](https://www.usnews.com)
+- [Religion News Service - Legal Disputes at Liberty University](https://religionnews.com/2023/09/20/jerry-falwells-legal-battle-with-liberty-university-escalates/)
+- [OpenSecrets - Liberty University Profile](https://www.opensecrets.org/orgs/liberty-university/summary?id=D000053059)
+- [Wikipedia - Liberty University](https://en.wikipedia.org/wiki/Liberty_University)
+- [Wikipedia - Dondi E. Costin](https://en.wikipedia.org/wiki/Dondi_E._Costin)
+- [Wikipedia - Jonathan Falwell](https://en.wikipedia.org/wiki/Jonathan_Falwell)

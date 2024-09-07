@@ -15,7 +15,7 @@ I4AW is dedicated to advancing pro-worker, free-market labor policies. Key activ
 - **Public Engagement:** I4AW hosts events and briefings to educate policymakers and the public on labor issues, advocating for policies that align with its free-market ideology.
 
 ## Leadership and Influence
-- **F. Vincent Vernuccio:** President and co-founder of I4AW, Vernuccio is a prominent advocate for labor policy reform. He has extensive experience working with conservative think tanks and has been a vocal critic of union influence in labor policy.
+- **[F. Vincent Vernuccio](https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-appoint-individuals-key-administration-posts-5/):** President and co-founder of I4AW, Vernuccio is a prominent advocate for labor policy reform. He has extensive experience working with conservative think tanks and has been a vocal critic of union influence in labor policy.
 - **Jennifer Butler:** Co-founder of I4AW, Butler plays a key role in the organization’s strategic partnerships and efforts to advance its mission. Her background in public policy and administration complements the organization’s goals.
 
 ## Connections to Trump
@@ -29,5 +29,7 @@ The Institute for the American Worker plays a significant role in shaping labor 
 
 ## Sources
 - [Institute for the American Worker](https://i4aw.org)
-- [Philanthropy Roundtable - Institute for the American Worker](https://www.philanthropyroundtable.org)
+- [Philanthropy Roundtable - Institute for the American Worker](https://www.philanthropyroundtable.org/resource/institute-for-the-american-worker/)
 - [The Thinking Conservative - Institute for the American Worker](https://www.thethinkingconservative.com)
+- [The Heritage Foundation](https://www.heritage.org/jobs-and-labor/event/virtual-event-safeguarding-worker-freedoms-part-ii-the-future-american-labor)
+- [Trump White House - F. Vincent Vernuccio](https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-appoint-individuals-key-administration-posts-5/)

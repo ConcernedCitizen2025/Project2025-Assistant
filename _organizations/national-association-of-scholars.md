@@ -15,8 +15,8 @@ NAS's mission is to promote intellectual freedom and uphold the standards of a l
 - **Publications:** NAS publishes the quarterly journal *Academic Questions*, which addresses issues in higher education, including the intersection of politics, ideology, scholarship, and teaching.
 
 ## Leadership and Influence
-- **Peter W. Wood:** President of NAS. Wood has been an influential voice in conservative education circles, advocating for traditional liberal arts education and opposing what he views as the politicization of higher education.
-- **Stanley Young:** Director of the Shifting Sands Project, focusing on applied statistics. Young has a significant background in the pharmaceutical industry and environmental policy.
+- **[Peter W. Wood](https://fedsoc.org/contributors/peter-wood):** President of NAS. Wood has been an influential voice in conservative education circles, advocating for traditional liberal arts education and opposing what he views as the politicization of higher education.
+- **[Stanley Young](https://www.desmog.com/2020/02/07/dark-moneyed-denialists-fixing-science-symposium-doubt/):** Director of the Shifting Sands Project, focusing on applied statistics. Young has a significant background in the pharmaceutical industry and environmental policy.
 - **Neetu Arnold:** Research Fellow known for her reports on higher education costs and campus culture, highlighting issues such as administrative bloat and curriculum changes.
 
 ## Connections to Trump
@@ -34,4 +34,6 @@ The National Association of Scholars plays a significant role in promoting conse
 - [NAS](https://www.nas.org)
 - [Wikipedia - National Association of Scholars](https://en.wikipedia.org/wiki/National_Association_of_Scholars)
 - [Wikipedia - Project 2025](https://en.wikipedia.org/wiki/Project_2025)
-- [Media Bias/Fact Check](https://mediabiasfactcheck.com)
+- [Media Bias/Fact Check](https://mediabiasfactcheck.com/national-association-of-scholars-nas-bias/)
+- [The Federalist Society - Peter W. Wood](https://fedsoc.org/contributors/peter-wood)
+- [Desmog](https://www.desmog.com/2020/02/07/dark-moneyed-denialists-fixing-science-symposium-doubt/)
