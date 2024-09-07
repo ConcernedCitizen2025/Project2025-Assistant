@@ -270,6 +270,21 @@ p, li, .content {
     margin-top: 10px;
 }
 
+/* Logo styling */
+.logo-container {
+    background-color: transparent; /* Ensures the container has no background */
+}
+
+.logo {
+    background-color: transparent; /* Removes any background on the image */
+    border-radius: 50%; /* Optional: Makes sure the image appears as a circle */
+}
+
+a.logo-link {
+    background-color: transparent;
+}
+
+/* Share button styling */
 .share-buttons {
     margin: 20px 0;
     text-align: center;
