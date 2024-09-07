@@ -15,7 +15,7 @@ FGA's mission is to advance policies that reduce government dependency and promo
 - **Litigation:** FGA files amicus briefs in key Supreme Court cases and engages in legal advocacy, particularly focusing on conservative interpretations of the law in areas like healthcare and government spending.
 
 ## Leadership and Influence
-- **Tarren Bragdon:** Founder and CEO, Bragdon is a significant figure in conservative policy advocacy. Under his leadership, FGA has expanded its influence across multiple states and federal policy discussions, with a strong focus on welfare reform and reducing government dependency.
+- **[Tarren Bragdon](https://en.wikipedia.org/wiki/Tarren_Bragdon):** Founder and CEO, Bragdon is a significant figure in conservative policy advocacy. Under his leadership, FGA has expanded its influence across multiple states and federal policy discussions, with a strong focus on welfare reform and reducing government dependency.
 - **Jonathan Ingram:** Vice President of Policy and Research, Ingram oversees the development of policy solutions that emphasize work over welfare and resist Medicaid expansion. His work is central to FGA’s policy research and advocacy efforts.
 
 ## Connections to Trump
@@ -31,6 +31,7 @@ The Foundation for Government Accountability is a key player in conservative pol
 ## Sources
 - [Foundation for Government Accountability](https://thefga.org)
 - [Wikipedia - Foundation for Government Accountability](https://en.wikipedia.org/wiki/Foundation_for_Government_Accountability)
-- [SourceWatch - Foundation for Government Accountability](https://www.sourcewatch.org)
-- [Bradley Impact Fund - Foundation for Government Accountability](https://www.bradleyimpactfund.org)
-- [Policy Commons - FGA](https://policycommons.net)
+- [SourceWatch - Foundation for Government Accountability](https://www.sourcewatch.org/index.php/Foundation_for_Government_Accountability)
+- [Bradley Impact Fund - Foundation for Government Accountability](https://www.bradleyimpactfund.org/areas-of-impact-listing/foundation-for-government-accountability)
+- [Policy Commons - FGA](https://policycommons.net/orgs/foundation-for-government-accountability/)
+- [Wikipedia - Tarren Bragdon](https://en.wikipedia.org/wiki/Tarren_Bragdon)

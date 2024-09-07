@@ -15,8 +15,8 @@ FRC's mission is to champion marriage and family as the foundation of civilizati
 - **Conferences and Events:** FRC organizes significant events such as the "Pray Vote Stand" Summit (formerly the Values Voter Summit), which gathers conservative leaders and activists to mobilize support for its causes.
 
 ## Leadership and Influence
-- **Tony Perkins:** Serving as President of FRC since 2003, Perkins is a prominent figure in conservative politics. He has been a vocal advocate for FRC’s positions on various social issues, particularly those opposing LGBTQ rights and supporting religious liberty. Perkins has also been active in shaping the GOP's platform in recent years, particularly during the Trump administration.
-- **Peter Sprigg:** A Senior Fellow for Policy Studies, Sprigg has been a significant voice in FRC’s advocacy, particularly in its opposition to LGBTQ rights and same-sex marriage.
+- **[Tony Perkins](https://www.splcenter.org/fighting-hate/extremist-files/individual/tony-perkins):** Serving as President of FRC since 2003, Perkins is a prominent figure in conservative politics. He has been a vocal advocate for FRC’s positions on various social issues, particularly those opposing LGBTQ rights and supporting religious liberty. Perkins has also been active in shaping the GOP's platform in recent years, particularly during the Trump administration.
+- **[Peter Sprigg](https://www.mediamatters.org/peter-sprigg):** A Senior Fellow for Policy Studies, Sprigg has been a significant voice in FRC’s advocacy, particularly in its opposition to LGBTQ rights and same-sex marriage.
 
 ## Connections to Trump
 FRC has maintained strong ties with the Trump administration, supporting many of its policies, particularly those related to religious liberty and anti-abortion measures. The organization has been actively involved in efforts to shape the GOP platform to align with Trump’s agenda and continues to be a major player in the conservative movement.
@@ -30,6 +30,8 @@ The Family Research Council is a powerful force in advocating for conservative C
 ## Sources
 - [Family Research Council](https://www.frc.org)
 - [Wikipedia](https://en.wikipedia.org/wiki/Family_Research_Council)
-- [Southern Poverty Law Center](https://www.splcenter.org)
-- [Politico](https://www.politico.com)
-- [Washington Post](https://www.washingtonpost.com)
+- [Southern Poverty Law Center](https://www.splcenter.org/fighting-hate/extremist-files/group/family-research-council)
+- [Politico](https://www.politico.com/news/family-research-council)
+- [Washington Post](https://www.washingtonpost.com/politics/how-a-conservative-group-dealt-with-a-fondling-charge-against-a-rising-gop-star/2017/11/17/b3b4b8da-c956-11e7-b0cf-7689a9f2d84e_story.html)
+- [SPLC - Tony Perkins](https://www.splcenter.org/fighting-hate/extremist-files/individual/tony-perkins)
+- [Media Matters - Peter Sprigg](https://www.mediamatters.org/peter-sprigg)

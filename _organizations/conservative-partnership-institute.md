@@ -16,9 +16,9 @@ CPI focuses on several key areas to support the conservative movement:
 - **Coalition Building:** CPI facilitates networking and strategic collaborations among conservative leaders, activists, and scholars to advance key issues, particularly those related to election integrity.
 
 ## Leadership and Influence
-- **Jim DeMint:** Founder of CPI, DeMint is a former U.S. Senator and a prominent figure in the conservative movement. His leadership has been pivotal in establishing CPI as a major force in Washington, particularly in supporting the MAGA movement.
-- **Mark Meadows:** Senior Partner at CPI, Meadows is a former White House Chief of Staff under President Trump. His involvement brings significant political experience and connections to the organization, reinforcing its alignment with Trump’s America First agenda.
-- **Rachel Bovard:** Senior Director of Policy at CPI, Bovard has extensive experience on Capitol Hill and directs CPI's training programs and policy initiatives, focusing on empowering conservative staffers and lawmakers.
+- **[Jim DeMint](https://www.politico.com/story/2017/05/02/why-jim-demint-was-ousted-from-heritage-237876):** Founder of CPI, DeMint is a former U.S. Senator and a prominent figure in the conservative movement. His leadership has been pivotal in establishing CPI as a major force in Washington, particularly in supporting the MAGA movement.
+- **[Mark Meadows](https://apnews.com/hub/mark-meadows):** Senior Partner at CPI, Meadows is a former White House Chief of Staff under President Trump. His involvement brings significant political experience and connections to the organization, reinforcing its alignment with Trump’s America First agenda.
+- **[Rachel Bovard](/contributors/rachel-bovard.html):** Senior Director of Policy at CPI, Bovard has extensive experience on Capitol Hill and directs CPI's training programs and policy initiatives, focusing on empowering conservative staffers and lawmakers.
 
 ## Connections to Trump
 CPI has strong ties to the Trump administration, with several former officials from Trump’s team holding key positions within the institute. The organization has been instrumental in promoting Trump's policies and continues to play a central role in the broader MAGA movement. CPI also received a $1 million donation from Trump’s Save America PAC, underscoring its close alignment with Trump’s political agenda.
@@ -31,8 +31,10 @@ The Conservative Partnership Institute plays a crucial role in supporting and ad
 
 ## Sources
 - [Conservative Partnership Institute](https://www.cpi.org) - Official website offering details on CPI’s mission and initiatives.
-- [Documented](https://www.documented.net) - Investigative reports on CPI’s activities, funding, and influence within the conservative movement.
-- [Politico](https://www.politico.com) - Coverage of CPI’s involvement in the MAGA movement and its election integrity efforts.
+- [Documented](https://documented.net/investigations/conservative-partnership-institute) - Investigative reports on CPI’s activities, funding, and influence within the conservative movement.
+- [Politico](https://www.politico.com/news/2023/03/16/trump-allied-group-bootcamp-biden-00087395) - Coverage of CPI’s involvement in the MAGA movement and its election integrity efforts.
 - [Wikipedia - Conservative Partnership Institute](https://en.wikipedia.org/wiki/Conservative_Partnership_Institute) - Background and overview of CPI’s founding, leadership, and key initiatives.
-- [SourceWatch](https://www.sourcewatch.org) - Comprehensive details on CPI’s influence, affiliations, and financial backing.
-- [Monitoring Influence](https://www.monitoringinfluence.org) - Analysis of CPI’s role within Project 2025 and connections to Trump’s political agenda.
+- [SourceWatch](https://www.sourcewatch.org/index.php/Conservative_Partnership_Institute) - Comprehensive details on CPI’s influence, affiliations, and financial backing.
+- [The New Yorker](https://www.newyorker.com/magazine/2024/07/22/inside-the-trump-plan-for-2025) - Inside the Trump Plan for 2025.
+- [Politico - The real reason Jim DeMint got the boot](https://www.politico.com/story/2017/05/02/why-jim-demint-was-ousted-from-heritage-237876)
+- [AP News - Mark Meadows](https://apnews.com/hub/mark-meadows)

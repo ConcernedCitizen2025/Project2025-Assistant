@@ -15,9 +15,9 @@ IWF's mission is to improve the lives of Americans by increasing the number of w
 - **Legal Advocacy:** Through the Independent Women’s Law Center, IWF engages in legal battles to protect free speech and challenge policies it views as discriminatory against women or restrictive of individual liberty.
 
 ## Leadership and Influence
-- **Carrie Lukas:** As President of IWF, Lukas is a leading advocate for the organization’s conservative policy positions, frequently appearing in media discussions on healthcare, education, and economic issues.
-- **Heather R. Higgins:** Chairman of the Board, Higgins plays a crucial role in IWF's strategic direction. She also leads the Independent Women's Voice (IWV), a politically active sister organization focusing on electoral advocacy.
-- **Nan Hayworth:** A former U.S. Representative, Hayworth serves on the board and contributes to IWF's healthcare and policy initiatives.
+- **[Carrie Lukas](https://en.wikipedia.org/wiki/Carrie_Lukas):** As President of IWF, Lukas is a leading advocate for the organization’s conservative policy positions, frequently appearing in media discussions on healthcare, education, and economic issues.
+- **[Heather R. Higgins](https://en.wikipedia.org/wiki/Heather_Higgins):** Chairman of the Board, Higgins plays a crucial role in IWF's strategic direction. She also leads the Independent Women's Voice (IWV), a politically active sister organization focusing on electoral advocacy.
+- **[Nan Hayworth](https://en.wikipedia.org/wiki/Nan_Hayworth):** A former U.S. Representative, Hayworth serves on the board and contributes to IWF's healthcare and policy initiatives.
 - **Larry Kudlow:** Former Director of the National Economic Council under President Trump, Kudlow’s involvement with IWF highlights the organization’s ties to conservative economic policies and the Trump administration.
 
 ## Connections to Trump
@@ -33,5 +33,9 @@ The Independent Women’s Forum plays a significant role in conservative advocac
 ## Sources
 - [Independent Women's Forum](https://www.iwf.org)
 - [Wikipedia - Independent Women's Forum](https://en.wikipedia.org/wiki/Independent_Women%27s_Forum)
-- [InfluenceWatch - Independent Women’s Forum](https://www.influencewatch.org)
-- [Militarist Monitor - Independent Women’s Forum](https://militarist-monitor.org)
+- [InfluenceWatch - Independent Women’s Forum](https://www.influencewatch.org/non-profit/independent-womens-forum/)
+- [Militarist Monitor - Independent Women’s Forum](https://militarist-monitor.org/profile/independent_womens_forum/)
+- [Wikipedia - Carrie Lukas](https://en.wikipedia.org/wiki/Carrie_Lukas)
+- [Wikipedia - Heather Higgins](https://en.wikipedia.org/wiki/Heather_Higgins)
+- [Wikipedia - Nan Hayworth](https://en.wikipedia.org/wiki/Nan_Hayworth)
+- [Wikipedia - Larry Kudlow](https://en.wikipedia.org/wiki/Larry_Kudlow)

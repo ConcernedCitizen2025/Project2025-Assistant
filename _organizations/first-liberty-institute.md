@@ -15,8 +15,8 @@ First Liberty Institute’s mission is to defend and restore religious liberty i
 - **Policy Advocacy:** Participating in policy discussions and advocating for laws that protect religious freedoms at both the state and federal levels.
 
 ## Leadership and Influence
-- **Kelly Shackelford:** Founder, President, CEO, and Chief Counsel. Shackelford is a constitutional scholar with a significant impact on religious liberty jurisprudence in the U.S. He has argued and won numerous landmark cases before the U.S. Supreme Court and is a prominent figure in the conservative legal community.
-- **Jeff Mateer:** Executive Vice President and Chief Legal Officer. Mateer has extensive experience in both public and private legal practice, particularly in cases involving religious liberty and civil rights. He rejoined First Liberty after serving as the First Assistant Attorney General of Texas.
+- **[Kelly Shackelford](https://fedsoc.org/contributors/kelly-shackelford):** Founder, President, CEO, and Chief Counsel. Shackelford is a constitutional scholar with a significant impact on religious liberty jurisprudence in the U.S. He has argued and won numerous landmark cases before the U.S. Supreme Court and is a prominent figure in the conservative legal community.
+- **[Jeff Mateer](https://fedsoc.org/contributors/jeffrey-mateer):** Executive Vice President and Chief Legal Officer. Mateer has extensive experience in both public and private legal practice, particularly in cases involving religious liberty and civil rights. He rejoined First Liberty after serving as the First Assistant Attorney General of Texas.
 - **David Holmes:** Executive Vice President and Chief Operating/Financial Officer. Holmes oversees all operational aspects of First Liberty, including finance and development. His background includes experience in finance and military service.
 
 ## Connections to Trump
@@ -32,5 +32,5 @@ First Liberty Institute plays a critical role in defending religious freedom in 
 ## Sources
 - [First Liberty Institute](https://firstliberty.org) - Official website
 - [Wikipedia - First Liberty Institute](https://en.wikipedia.org/wiki/First_Liberty_Institute) - Overview and history
-- [The First Amendment Encyclopedia](https://firstamendment.mtsu.edu) - Detailed analysis and historical context
-- [The Federalist Society - Kelly Shackelford](https://fedsoc.org) - Leadership and influence
+- [The Federalist Society - Kelly Shackelford](https://fedsoc.org/contributors/kelly-shackelford) - Leadership and influence
+- [The Federalist Society - Jeffrey C. Mateer](https://fedsoc.org/contributors/jeffrey-mateer)

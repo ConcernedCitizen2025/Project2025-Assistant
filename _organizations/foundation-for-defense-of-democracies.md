@@ -15,8 +15,8 @@ FDD's mission is to strengthen U.S. national security and counter global threats
 - **Publications and Events:** FDD hosts events, roundtables, and panel discussions to foster dialogue on security issues. It also publishes the *Long War Journal*, which focuses on terrorism and related topics.
 
 ## Leadership and Influence
-- **Clifford D. May:** Founder and President of FDD, May has a background in journalism and policy analysis with a focus on national security. He has been instrumental in guiding the organization's direction since its inception.
-- **Mark Dubowitz:** CEO of FDD, Dubowitz is a prominent figure in advocating for tough sanctions against Iran. His work has significantly influenced U.S. policy on Iran, especially during the Trump administration.
+- **[Clifford D. May](https://en.wikipedia.org/wiki/Clifford_May):** Founder and President of FDD, May has a background in journalism and policy analysis with a focus on national security. He has been instrumental in guiding the organization's direction since its inception.
+- **[Mark Dubowitz](https://responsiblestatecraft.org/fdd-mark-dubowitz-iran/):** CEO of FDD, Dubowitz is a prominent figure in advocating for tough sanctions against Iran. His work has significantly influenced U.S. policy on Iran, especially during the Trump administration.
 - **Toby Dershowitz:** Senior Vice President for Government Relations and Strategy, Dershowitz oversees FDD’s interactions with policymakers and helps shape its strategic initiatives.
 
 ## Connections to Trump
@@ -32,6 +32,8 @@ The Foundation for Defense of Democracies is a significant player in U.S. nation
 ## Sources
 - [Foundation for Defense of Democracies](https://www.fdd.org)
 - [Wikipedia - Foundation for Defense of Democracies](https://en.wikipedia.org/wiki/Foundation_for_Defense_of_Democracies)
-- [Militarist Monitor - FDD](https://militarist-monitor.org/profile/foundation_for_defense_of_democracies)
-- [On Think Tanks - FDD](https://onthinktanks.org)
-- [Media Bias/Fact Check - FDD](https://mediabiasfactcheck.com/foundation-for-defense-of-democracies)
+- [Militarist Monitor - FDD](https://militarist-monitor.org/profile/foundation_for_defense_of_democracies/)
+- [On Think Tanks - FDD](https://onthinktanks.org/think-tank/foundation-for-defense-of-democracies/)
+- [Media Bias/Fact Check - FDD](https://mediabiasfactcheck.com/foundation-defense-democracies/)
+- [Wikipedia - Clifford May](https://en.wikipedia.org/wiki/Clifford_May)
+- [Responsible Statecraft - Why no one should take this hawkish think tank seriously](https://responsiblestatecraft.org/fdd-mark-dubowitz-iran/)
