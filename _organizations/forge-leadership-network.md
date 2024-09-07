@@ -14,7 +14,7 @@ FLN’s mission is realized through its two primary programs:
 - **Forge Mentorship Academy:** A year-long program that offers experiential learning in politics, training in argumentation, and networking opportunities. The academy includes trips to Washington, D.C., and Israel, providing participants with exposure to both national and international political processes.
 
 ## Leadership and Influence
-- **Adam Josefczyk:** Co-Founder and President of FLN, Josefczyk has a background in public policy and grassroots political efforts. Before founding FLN, he co-founded the Ohio Conservative Review and was involved in various conservative advocacy roles. His leadership has been crucial in shaping FLN’s mission and expanding its reach.
+- **[Adam Josefczyk](https://www.heritage.org/press/heritage-foundation-announces-new-innovation-prize-forge-leadership-network):** Co-Founder and President of FLN, Josefczyk has a background in public policy and grassroots political efforts. Before founding FLN, he co-founded the Ohio Conservative Review and was involved in various conservative advocacy roles. His leadership has been crucial in shaping FLN’s mission and expanding its reach.
 - **Brad Gruber:** Chief Operating Officer of FLN, Gruber manages the day-to-day operations of the organization. His previous experience includes serving as COO of the State Policy Network and involvement in nonprofit boards, as well as his military service as an officer in the U.S. Air Force.
 - **Jeremiah Martin:** Vice President of Programs at FLN, Martin is a U.S. Army veteran with extensive experience in conservative advocacy, including previous roles with the Center for Christian Virtue and Concerned Veterans for America.
 
@@ -30,6 +30,7 @@ The Forge Leadership Network is an influential organization in training and ment
 
 ## Sources
 - [Forge Leadership Network](https://forgeleadership.org)
-- [Daily Signal - How Forge Leadership Network Is Helping Young Conservatives](https://www.dailysignal.com)
-- [Bringing America Back to Life - Adam Josefczyk](https://bringingamericabacktolife.org)
-- [SourceWatch - Forge Leadership Network](https://www.sourcewatch.org)
+- [Daily Signal - How Forge Leadership Network Is Helping Young Conservatives](https://www.dailysignal.com/2023/05/18/how-forge-leadership-network-is-training-mentoring-young-conservatives/)
+- [Bringing America Back to Life - Adam Josefczyk](https://bringingamericabacktolife.org/speaker/adam-josefczyk/)
+- [SourceWatch - Forge Leadership Network](https://www.sourcewatch.org/index.php/Forge_Leadership_Network)
+- [The Heritage Foundation](https://www.heritage.org/press/heritage-foundation-announces-new-innovation-prize-forge-leadership-network)

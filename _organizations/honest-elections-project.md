@@ -15,8 +15,8 @@ HEP's mission is to support the right of every lawful voter to participate in fr
 - **Public Engagement:** HEP conducts surveys and educational campaigns to inform and mobilize public opinion in favor of election integrity measures.
 
 ## Leadership and Influence
-- **Jason Snead:** Executive Director, formerly a senior policy analyst at The Heritage Foundation. Snead managed the development of the Heritage Election Fraud Database and is a strong advocate for voter ID laws and other stringent voting regulations.
-- **Carrie Severino:** Connected to The 85 Fund, Severino has been a key figure in conservative legal movements, particularly through her work with the Judicial Crisis Network. She has significant influence within HEP's parent organization.
+- **[Jason Snead](https://www.heritage.org/staff/jason-snead):** Executive Director, formerly a senior policy analyst at The Heritage Foundation. Snead managed the development of the Heritage Election Fraud Database and is a strong advocate for voter ID laws and other stringent voting regulations.
+- **[Carrie Severino](https://en.wikipedia.org/wiki/Carrie_Campbell_Severino):** Connected to The 85 Fund, Severino has been a key figure in conservative legal movements, particularly through her work with the Judicial Crisis Network. She has significant influence within HEP's parent organization.
 
 ## Connections to Trump
 HEP has notable connections to the Trump administration, particularly through its advocacy for policies that were prominent during Trump's presidency, such as voter ID laws and opposition to mail-in voting expansions. The organization has aligned closely with the rhetoric and legal strategies employed by Trump and his affiliates regarding electoral integrity.
@@ -31,6 +31,8 @@ The Honest Elections Project is a significant player in the conservative movemen
 ## Sources
 - [Honest Elections Project](https://honestelections.org)
 - [Wikipedia - The 85 Fund](https://en.wikipedia.org/wiki/The_85_Fund)
-- [PolitiFact - Voter ID Debate](https://www.politifact.com)
-- [InfluenceWatch - Honest Elections Project](https://www.influencewatch.org)
-- [SourceWatch - Honest Elections Project](https://www.sourcewatch.org)
+- [PolitiFact - Voter ID Debate](https://www.politifact.com/article/2021/aug/09/extremes-shape-voter-id-debate-rules-keep-getting/)
+- [InfluenceWatch - Honest Elections Project](https://www.influencewatch.org/organization/honest-elections/)
+- [SourceWatch - Honest Elections Project](https://www.sourcewatch.org/index.php?title=Honest_Elections_Project)
+- [The Heritage Foundation - Jason Snead](https://www.heritage.org/staff/jason-snead)
+- [Wikipedia - Carrie Severino](https://en.wikipedia.org/wiki/Carrie_Campbell_Severino)

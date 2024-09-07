@@ -15,9 +15,9 @@ EPPC focuses on promoting conservative values through research, publications, an
 - **Programs and Initiatives:** EPPC runs several initiatives, such as the HHS Accountability Project, Life and Family Initiative, and the Bioethics and American Democracy project, which address specific policy areas and promote conservative views.
 
 ## Leadership and Influence
-- **Ryan T. Anderson:** President of EPPC, Anderson is a prominent conservative scholar known for his work on religious liberty and bioethics. He has written extensively on these topics, including controversial positions on gender identity and marriage. Anderson's leadership has further solidified EPPC's influence in conservative circles.
-- **George Weigel:** Distinguished Senior Fellow, Weigel is a well-known Catholic theologian and author who contributes to EPPC's discussions on religion and public life. His work often emphasizes the role of Christianity in shaping Western civilization.
-- **Roger Severino:** Senior Fellow, Severino focuses on health and human services, particularly issues relating to religious liberty and civil rights. His work often challenges federal policies that conflict with conservative Christian values.
+- **[Ryan T. Anderson](https://www.heritage.org/staff/ryan-anderson):** President of EPPC, Anderson is a prominent conservative scholar known for his work on religious liberty and bioethics. He has written extensively on these topics, including controversial positions on gender identity and marriage. Anderson's leadership has further solidified EPPC's influence in conservative circles.
+- **[George Weigel](https://en.wikipedia.org/wiki/George_Weigel):** Distinguished Senior Fellow, Weigel is a well-known Catholic theologian and author who contributes to EPPC's discussions on religion and public life. His work often emphasizes the role of Christianity in shaping Western civilization.
+- **[Roger Severino](/authors/roger-severino.html):** Senior Fellow, Severino focuses on health and human services, particularly issues relating to religious liberty and civil rights. His work often challenges federal policies that conflict with conservative Christian values.
 
 ## Connections to Trump
 EPPC has maintained strong connections with the Trump administration, influencing policy discussions particularly in areas related to religious liberty and conservative social values. The organization is also part of Project 2025, a Heritage Foundation initiative aimed at shaping conservative policy for a potential future Republican administration.
@@ -31,3 +31,6 @@ The Ethics and Public Policy Center plays a significant role in promoting conser
 ## Sources
 - [Ethics and Public Policy Center](https://eppc.org)
 - [Wikipedia](https://en.wikipedia.org/wiki/Ethics_and_Public_Policy_Center)
+- [Influence Watch](https://www.influencewatch.org/non-profit/the-ethics-and-public-policy-center-eppc/)
+- [The Heritage Foundation - Ryan T. Anderson](https://www.heritage.org/staff/ryan-anderson)
+- [Wikipedia - George Weigel](https://en.wikipedia.org/wiki/George_Weigel)

@@ -15,8 +15,8 @@ DFI focuses on providing conservative solutions to challenges in education, work
 - **Publications and Research:** Producing reports, policy briefs, and public comments on federal policies. DFI also holds events like the Education Law & Policy Conference to discuss and shape federal legal and policy issues.
 
 ## Leadership and Influence
-- **Robert S. Eitel:** Co-founder and President of DFI, Eitel has extensive experience in education and employment law. He served as Senior Counselor to the Secretary of Education and Regulatory Reform Officer at the U.S. Department of Education, where he played a key role in shaping policy reforms under Secretary DeVos.
-- **Jim Blew:** Co-founder and Vice President of DFI, Blew has over two decades of experience in education reform, including senior roles at the Walton Family Foundation and as Assistant Secretary for Planning, Evaluation, and Policy Development at the U.S. Department of Education.
+- **[Robert S. Eitel](/contributors/robert-s-eitel.html):** Co-founder and President of DFI, Eitel has extensive experience in education and employment law. He served as Senior Counselor to the Secretary of Education and Regulatory Reform Officer at the U.S. Department of Education, where he played a key role in shaping policy reforms under Secretary DeVos.
+- **[Jim Blew](/contributors/jim-blew.html):** Co-founder and Vice President of DFI, Blew has over two decades of experience in education reform, including senior roles at the Walton Family Foundation and as Assistant Secretary for Planning, Evaluation, and Policy Development at the U.S. Department of Education.
 
 ## Connections to Trump
 DFI’s founders and key leaders have strong ties to the Trump administration, particularly through their roles in the Department of Education. The institute's agenda of reducing federal oversight and expanding school choice aligns closely with the policies pursued by the Trump administration. Additionally, DFI has received significant financial support from foundations associated with key conservative figures, including the DeVos family.
@@ -29,6 +29,6 @@ The Defense of Freedom Institute plays a significant role in shaping conservativ
 
 ## Sources
 - [Defense of Freedom Institute](https://dfipolicy.org)
-- [InfluenceWatch](https://www.influencewatch.org)
-- [ProPublica](https://projects.propublica.org)
-- [SourceWatch](https://www.sourcewatch.org)
+- [InfluenceWatch](https://www.influencewatch.org/non-profit/defense-of-freedom-institute-for-policy-studies-dfi/)
+- [ProPublica](https://projects.propublica.org/nonprofits/organizations/871196853)
+- [The Heritage Foundation](https://www.heritage.org/press/heritage-foundation-announces-new-innovation-prize-defense-freedom-institutes-efforts-0)

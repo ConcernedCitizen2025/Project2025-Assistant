@@ -15,10 +15,10 @@ Hillsdale College’s mission is to provide an education that develops minds and
 - **Centers and Programs:** Hillsdale runs several influential programs, including the Allan P. Kirby, Jr. Center for Constitutional Studies and Citizenship in Washington, D.C., which serves as a hub for conservative education and outreach.
 
 ## Leadership and Influence
-- **Larry P. Arnn:** President of Hillsdale College since 2000, Arnn has been a vocal advocate for classical education and conservative principles. He was appointed by President Trump to chair the 1776 Commission, which aimed to promote patriotic education.
-- **David Whalen:** Provost of Hillsdale College, overseeing the college's academic programs and curriculum, supporting its commitment to classical liberal arts education.
+- **[Larry P. Arnn](https://www.heritage.org/staff/larry-p-arnn-phd):** President of Hillsdale College since 2000, Arnn has been a vocal advocate for classical education and conservative principles. He was appointed by President Trump to chair the 1776 Commission, which aimed to promote patriotic education.
+- **[David Whalen](https://phillysoc.org/speakers/david-whalen/):** Provost of Hillsdale College, overseeing the college's academic programs and curriculum, supporting its commitment to classical liberal arts education.
 - **Matthew Spalding:** Vice President of Washington Operations and Dean of the Van Andel Graduate School of Government. Spalding played a key role in the 1776 Commission and is influential in conservative circles, particularly in Washington, D.C.
-- **Michael Anton:** A former Trump administration official, Anton joined Hillsdale’s Kirby Center after serving in the National Security Council. He is known for his essay "The Flight 93 Election," which argued for Trump's election in 2016.
+- **[Michael Anton](/contributors/michael-anton.html):** A former Trump administration official, Anton joined Hillsdale’s Kirby Center after serving in the National Security Council. He is known for his essay "The Flight 93 Election," which argued for Trump's election in 2016.
 
 ## Connections to Trump
 Hillsdale College has maintained strong connections with the Trump administration. Leaders like Larry Arnn and Matthew Spalding were directly involved in the 1776 Commission, which aimed to counter progressive narratives in education. Additionally, several Hillsdale alumni have held influential positions within the Trump administration, further solidifying the college's influence in shaping conservative educational policies.
@@ -31,7 +31,10 @@ Hillsdale College has maintained strong connections with the Trump administratio
 Hillsdale College plays a significant role in promoting conservative values through its classical liberal arts education and involvement in national educational initiatives like the 1776 Commission. Its connections to the Trump administration highlight its influence in shaping conservative educational policies. However, its strong ideological stance and involvement in political controversies raise questions about the inclusivity and diversity of perspectives within its educational framework.
 
 ## Sources
+- [Hillsdale College - Official Site](https://www.hillsdale.edu/)
 - [Hillsdale College - Wikipedia](https://en.wikipedia.org/wiki/Hillsdale_College)
-- [Politico - Trump Ally Hillsdale College Pitches 1619 Project Counterweight](https://www.politico.com)
-- [Baptist News Global - Hillsdale College Attorneys Worked to Overturn 2020 Election Results](https://baptistnews.com)
-- [Politico - The College That Wants to Take Over Washington](https://www.politico.com)
+- [Politico - Trump Ally Hillsdale College Pitches 1619 Project Counterweight](https://www.politico.com/news/2021/07/21/trump-ally-1619-project-500464)
+- [Baptist News Global - Hillsdale College Attorneys Worked to Overturn 2020 Election Results](https://baptistnews.com/article/hillsdale-college-attorneys-worked-to-overturn-2020-election-results/)
+- [Politico - The College That Wants to Take Over Washington](https://www.politico.com/magazine/story/2018/05/12/hillsdale-college-trump-pence-218362/)
+- [The Heritage Foundation - Larry P. Arnn](https://www.heritage.org/staff/larry-p-arnn-phd)
+- [The Philadelphia Society - David Whalen](https://phillysoc.org/speakers/david-whalen/)

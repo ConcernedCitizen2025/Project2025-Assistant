@@ -15,9 +15,9 @@ FreedomWorks' mission was to advance free-market principles and reduce governmen
 - **Grassroots Activism:** Known for mobilizing grassroots activists, FreedomWorks organized campaigns, events, and training programs designed to influence public policy and elections.
 
 ## Leadership and Influence
-- **Adam Brandon:** President of FreedomWorks during its later years, Brandon guided the organization through a tumultuous period marked by the rise of Trump-aligned populism. His leadership was central to the organization's strategy but also highlighted the growing ideological divide within its ranks.
-- **Stephen Moore:** A Senior Economic Contributor, Moore was closely associated with Trump's economic policies and was known for advocating free-market principles and regulatory reform.
-- **Matt Kibbe:** Former President and CEO, Kibbe was instrumental in shaping the organization during its peak influence in the Tea Party era. He left amid internal conflicts over the direction of the organization.
+- **[Adam Brandon](https://www.politico.com/news/2023/09/13/freedomworks-radical-rebrand-00115437):** President of FreedomWorks during its later years, Brandon guided the organization through a tumultuous period marked by the rise of Trump-aligned populism. His leadership was central to the organization's strategy but also highlighted the growing ideological divide within its ranks.
+- **[Stephen Moore](/authors/stephen-moore.html):** A Senior Economic Contributor, Moore was closely associated with Trump's economic policies and was known for advocating free-market principles and regulatory reform.
+- **[Matt Kibbe](https://en.wikipedia.org/wiki/Matt_Kibbe):** Former President and CEO, Kibbe was instrumental in shaping the organization during its peak influence in the Tea Party era. He left amid internal conflicts over the direction of the organization.
 
 ## Connections to Trump
 FreedomWorks had significant influence within the Trump administration, particularly in areas related to deregulation, tax policy, and opposition to the Affordable Care Act. The organization's positions often aligned with Trump's economic agenda, though internal conflicts over the direction of the conservative movement ultimately contributed to its dissolution.
@@ -31,6 +31,8 @@ FreedomWorks was a significant force in promoting conservative and libertarian p
 
 ## Sources
 - [FreedomWorks - Wikipedia](https://en.wikipedia.org/wiki/FreedomWorks)
-- [Politico - FreedomWorks Closure](https://www.politico.com)
-- [New Republic - FreedomWorks and Trumpism](https://newrepublic.com)
-- [Ballotpedia - FreedomWorks](https://ballotpedia.org)
+- [Politico - FreedomWorks Closure](https://www.politico.com/news/magazine/2024/05/08/freedomworks-is-closing-and-blaming-trump-00156784)
+- [New Republic - FreedomWorks and Trumpism](https://newrepublic.com/article/181477/freedomworks-trump-koch-libertarian)
+- [Ballotpedia - FreedomWorks](https://ballotpedia.org/FreedomWorks)
+- [Politico -  FreedomWorks has a radical rebrand in mind — from tea party to tolerance](https://www.politico.com/news/2023/09/13/freedomworks-radical-rebrand-00115437)
+- [Wikipedia - Matt Kibbe](https://en.wikipedia.org/wiki/Matt_Kibbe)
