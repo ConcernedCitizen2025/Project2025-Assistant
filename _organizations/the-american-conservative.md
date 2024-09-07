@@ -16,7 +16,7 @@ TAC’s mission is to offer an alternative voice in the conservative movement by
 
 ## Leadership and Influence
 - **W. James Antle III:** Editor-in-Chief, guiding TAC's editorial direction and maintaining its critical stance towards mainstream GOP policies.
-- **Helen Andrews:** Senior Editor, shaping TAC’s commentary on cultural and political issues.
+- **[Helen Andrews](https://en.wikipedia.org/wiki/Helen_Andrews):** Senior Editor, shaping TAC’s commentary on cultural and political issues.
 
 ## Connections to Trump
 TAC has had a nuanced relationship with the Trump administration, supporting some policies while critiquing others that diverge from traditional conservative principles. This reflects TAC's mission to critique both the Republican establishment and neoconservative approaches within the GOP.
@@ -31,5 +31,5 @@ The American Conservative is a significant voice in promoting traditional conser
 ## Sources
 - [The American Conservative](https://www.theamericanconservative.com)
 - [Wikipedia - The American Conservative](https://en.wikipedia.org/wiki/The_American_Conservative)
-- [Media Bias/Fact Check - The American Conservative](https://mediabiasfactcheck.com)
-- [TAC Right Now](https://amconrightnow.libsyn.com)
+- [Media Bias/Fact Check - The American Conservative](https://mediabiasfactcheck.com/the-american-conservative/)
+- [Wikipedia - Helen Andrews](https://en.wikipedia.org/wiki/Helen_Andrews)

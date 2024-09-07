@@ -15,8 +15,8 @@ PPO’s mission is to educate, train, and defend conservative public servants. K
 - **Legal Defense:** PPO operates the Courage Under Fire Legal Defense Fund, which provides legal support to individuals facing challenges due to their conservative views or involvement in politically contentious matters, particularly those related to the 2020 election.
 
 ## Leadership and Influence
-- **Troup Calhoun Hemenway:** President of PPO, Hemenway has extensive experience in government, including serving in the Trump administration as Associate Director for National Security in the Office of Presidential Personnel. He is also involved with the Heritage Foundation’s Project 2025, further influencing conservative policy development.
-- **Joshua Whitehouse:** Chief Operating Officer, Whitehouse has a long history in conservative politics, including service in the Trump administration and as an early endorser of Trump during his 2016 campaign.
+- **[Troup Calhoun Hemenway](/contributors/troup-hemenway.html):** President of PPO, Hemenway has extensive experience in government, including serving in the Trump administration as Associate Director for National Security in the Office of Presidential Personnel. He is also involved with the Heritage Foundation’s Project 2025, further influencing conservative policy development.
+- **[Joshua Whitehouse](https://en.wikipedia.org/wiki/Joshua_Whitehouse):** Chief Operating Officer, Whitehouse has a long history in conservative politics, including service in the Trump administration and as an early endorser of Trump during his 2016 campaign.
 
 ## Connections to Trump
 PPO has strong connections to the Trump administration, particularly through its legal defense efforts for former Trump officials and campaign members. The organization’s focus on defending "America First" personnel aligns with Trump's broader agenda. PPO's involvement in the Heritage Foundation's Project 2025 highlights its ongoing influence in preparing for potential future conservative administrations.
@@ -29,7 +29,11 @@ PPO has strong connections to the Trump administration, particularly through its
 Personnel Policy Operations plays a significant role in supporting and defending conservative public servants. Its educational and legal defense efforts are crucial in enabling these individuals to advocate for their policies without undue hindrance. However, the organization's strong ideological focus and involvement in contentious legal battles necessitate careful consideration of its activities and impact.
 
 ## Sources
+- [Personnel Policy Operations - Official Site](https://personnelpolicyops.org/)
 - [Dallas Express - Former Trump Admin Officials To Take on Bureaucrats](https://www.dallasexpress.com/national/exclusive-former-trump-admin-officials-to-take-on-bureaucrats/)
-- [Hillsdale DC - Personnel Policy Operations](https://dc.hillsdale.edu)
-- [Notus - Courage Under Fire Legal Defense Fund](https://www.notus.org)
+- [Notus - How Mark Meadows’ Employer Helped Pay His Legal Bills](https://www.notus.org/money/mark-meadows-legal-bills)
 - [American Mind - Personnel Policy Operations](https://americanmind.org)
+- [Washington Post - Trump alumni raising millions for legal defenses while scouting for White House hires](https://www.washingtonpost.com/national-security/2024/05/15/trump-defendants-legal-fund/)
+- [The Hill - Trump-aligned nonprofit pays $100k in legal fees for Nevada ‘fake electors’](https://thehill.com/regulation/court-battles/4735068-donald-trump-nonprofit-pays-legal-fees-nevada-fake-electors/)
+- [The New Yorker - Inside the Trump Plan for 2025](https://www.newyorker.com/magazine/2024/07/22/inside-the-trump-plan-for-2025)
+- [Wikipedia - Joshua Whitehouse](https://en.wikipedia.org/wiki/Joshua_Whitehouse)

@@ -32,5 +32,6 @@ The Pacific Research Institute is a significant player in promoting free-market 
 ## Sources
 - [Pacific Research Institute](https://www.pacificresearch.org)
 - [Wikipedia - Pacific Research Institute](https://en.wikipedia.org/wiki/Pacific_Research_Institute)
-- [Media Bias/Fact Check - PRI](https://mediabiasfactcheck.com)
+- [Media Bias/Fact Check - PRI](https://mediabiasfactcheck.com/pacific-research-institute/)
 - [Project 2025 - Wikipedia](https://en.wikipedia.org/wiki/Project_2025)
+- [Desmog - PRI](https://www.desmog.com/pacific-research-institute/)
