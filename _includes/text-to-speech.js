@@ -1,38 +1,39 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const button = document.getElementById("text-to-speech-btn");
 
-    // Check if the button exists before adding event listener
+    // Make sure the button exists
     if (button) {
-        // Function to read the text on the page
         function readAloud() {
-            const content = document.body.innerText; // Get all text from the body
-            const speech = new SpeechSynthesisUtterance(content); // Create speech object
-            speech.lang = 'en-US'; // Set the language
-            speech.rate = 1; // Adjust the speed of speech (1 is normal speed)
+            const content = document.body.innerText;
+            const speech = new SpeechSynthesisUtterance(content);
+            speech.lang = "en-US";
+            speech.rate = 1;
 
-            // Get available voices
+            // Try to get the voices available
             const voices = window.speechSynthesis.getVoices();
 
-            // Select a more natural-sounding voice if available
-            const selectedVoice = voices.find(voice => voice.name.includes('Google US English') || voice.name.includes('Microsoft David'));
+            // Ensure a natural-sounding voice is selected
+            const selectedVoice = voices.find(voice =>
+                voice.name.includes("Google US English") ||
+                voice.name.includes("Microsoft David") ||
+                voice.default
+            );
 
-            // Set the selected voice if found
             if (selectedVoice) {
                 speech.voice = selectedVoice;
             }
 
-            // Speak the content
             window.speechSynthesis.speak(speech);
         }
 
-        // Add event listener to the button
+        // Add the event listener to the button
         button.addEventListener("click", readAloud);
 
-        // Fetch the voices list as it's not always available immediately on some browsers
-        window.speechSynthesis.onvoiceschanged = function() {
-            const voices = window.speechSynthesis.getVoices();
+        // Make sure voices are loaded before use
+        window.speechSynthesis.onvoiceschanged = function () {
+            console.log("Voices have been loaded");
         };
     } else {
-        console.error('Text-to-Speech button not found');
+        console.error("Text-to-speech button not found!");
     }
 });
