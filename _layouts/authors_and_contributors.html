@@ -61,6 +61,11 @@
             {{ content }} <!-- This is where the content from the .md file will be injected -->
         </div>
     </main>
+        <!-- Include the cookie consent banner -->
+        {% include cookie-consent-banner.html %}
+
+        <!-- Include the cookie consent script -->
+        <script src="/assets/js/cookie-consent-script.js"></script>
     <footer style="text-align: center;">
         <p>© 2024 Project 2025 Assistant</p>
         <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
