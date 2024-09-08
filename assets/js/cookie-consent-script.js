@@ -43,7 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Full tracking scripts (Google Analytics)
     function enableTrackingScripts() {
-        // Insert your Google Analytics tracking code here
+        // Insert Google Analytics tracking code
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B4NGY0TYJ6');  // Replace with your Google Analytics ID
         console.log("Full tracking enabled!");
     }
 
