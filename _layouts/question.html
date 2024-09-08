@@ -101,10 +101,12 @@
                 </a>
             </div>
         </nav>
+        <div class="translate-container">
+            {% include google_translate.html %}
+        </div>
     </header>
     <main>
         <div class="content-wrapper">
-            {% include google_translate.html %}
             {{ content }}
         </div>
     </main>
