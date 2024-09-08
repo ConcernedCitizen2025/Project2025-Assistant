@@ -81,10 +81,12 @@
                 </a>
             </div>
         </nav>
-        {% include google_translate.html %}
     </header>
-    <main class="content-wrapper">
-        {{ content }}
+    <main>
+        <div class="content-wrapper">
+            {% include google_translate.html %}
+            {{ content }}
+        </div>
     </main>
         <!-- Include the cookie consent banner -->
         {% include cookie-consent-banner.html %}

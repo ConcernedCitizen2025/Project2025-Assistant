@@ -67,20 +67,22 @@
                 </a>
             </div>
         </nav>
-        {% include google_translate.html %}
     </header>
     <main>
-        <h1>{{ page.title }}</h1>
-        <p>Here we explore the organizations involved in Project 2025. Despite claims of ignorance, the connections are clear.</p>
+        <div class="content-wrapper"></div>
+            {% include google_translate.html %}
+            <h1>{{ page.title }}</h1>
+            <p>Here we explore the organizations involved in Project 2025. Despite claims of ignorance, the connections are clear.</p>
 
-        <h2>Organizations</h2>
-        <ul class="organization-list">
-            {% for organization in site.organizations %}
-            <li>
-                <a href="{{ organization.url }}">{{ organization.title }}</a>
-            </li>
+            <h2>Organizations</h2>
+            <ul class="organization-list">
+                {% for organization in site.organizations %}
+                <li>
+                    <a href="{{ organization.url }}">{{ organization.title }}</a>
+                </li>
             {% endfor %}
-        </ul>
+            </ul>
+        </div>
     </main>
         <!-- Include the cookie consent banner -->
         {% include cookie-consent-banner.html %}
