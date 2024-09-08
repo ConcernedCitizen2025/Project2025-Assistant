@@ -13,7 +13,19 @@ header {
     text-align: center;
 }
 
+/* Basic responsive Flexbox setup for the header navigation */
 nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap on smaller screens */
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+/*nav ul {
     list-style: none;
     padding: 0;
 }
@@ -21,7 +33,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
-}
+}*/
 
 nav ul li a {
     color: white;
@@ -268,4 +280,118 @@ p, li, .content {
 #google_translate_element {
     float: right; /* Adjust as needed */
     margin-top: 10px;
+}
+
+/* Logo styling */
+.logo-container {
+    background-color: transparent; /* Ensures the container has no background */
+}
+
+.logo {
+    background-color: transparent; /* Removes any background on the image */
+    border-radius: 50%; /* Optional: Makes sure the image appears as a circle */
+}
+
+a.logo-link {
+    background-color: transparent;
+}
+
+/* Share button styling */
+.share-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*.share-buttons p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}*/
+
+.share-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.share-buttons a img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.share-buttons a:hover img {
+    transform: scale(1.1);
+}
+
+.translate-share-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;  /* Ensures that the image does not overflow its container */
+    height: auto;     /* Maintains the aspect ratio */
+}
+
+/* This applies to screens 768px wide and smaller */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Add spacing between stacked items */
+    }
+
+    main {
+        padding: 20px;
+        max-width: 100%; /* Ensure the content takes up full width on mobile */
+    }
+
+    .logo-container img {
+        max-width: 200px; /* Reduce logo size on smaller screens */
+    }
+
+    /* Make buttons fit the screen */
+    button, .share-buttons a {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+}
+
+/* Adjust font sizes on small screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile nav setup */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Hide menu items initially */
+        flex-direction: column;
+    }
+
+    nav ul.show {
+        display: flex; /* Show when toggled */
+    }
+
+    .menu-toggle {
+        display: block; /* Show the hamburger icon */
+        cursor: pointer;
+    }
 }
