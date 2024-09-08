@@ -102,6 +102,14 @@
             </div>            
         </nav>
         {% include google_translate.html %}
+        <br>
+        <!-- Text-to-Speech Button -->
+        <div style="text-align: center;">
+            <button id="text-to-speech-btn">Read Aloud</button>
+        </div>
+
+        <!-- Include the text-to-speech script -->
+        {% include text-to-speech.js %}
     </header>
     <main>
         {{ content }}
