@@ -315,18 +315,4 @@ a.logo-link {
     margin-top: 10px;
 }
 
-#text-to-speech-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
 
-#text-to-speech-btn:hover {
-    background-color: #45a049;
-}
