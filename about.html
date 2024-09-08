@@ -138,6 +138,24 @@ function googleTranslateElementInit() {
     </p>
 
     </main>
+    <!-- Include the cookie consent -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience on our website. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept</button>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (!localStorage.getItem('cookiesAccepted')) {
+            document.getElementById('cookie-consent-banner').style.display = 'block';
+        }
+        document.getElementById('accept-cookies').addEventListener('click', function () {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-consent-banner').style.display = 'none';
+        });
+    });
+</script>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
