@@ -1,0 +1,40 @@
+---
+layout: faqs
+title: "Demystifying Project 2025: Probing Questions"
+---
+
+# Demystifying Project 2025: Probing Questions
+
+- [Censorship](/categories/censorship.html)
+- [Child Welfare and Family Support](/categories/child-welfare-and-family-support.html)
+- [Civil Rights and Liberties](/categories/civil-rights-and-liberties.html)
+- [Corporate Regulation](/categories/corporate-regulation.html)
+- [Criminal Justice](/categories/criminal-justice.html)
+- [Economic Policy](/categories/economic-policy.html)
+- [Education](/categories/education.html)
+- [Energy Policy](/categories/energy-policy.html)
+- [Environment and Climate Change](/categories/environment-and-climate-change.html)
+- [First Amendment Rights](/categories/first-amendment-rights.html)
+- [Foreign Policy and International Relations](/categories/foreign-policy-and-international-relations.html)
+- [Government Structure and Powers](/categories/government-structure-and-powers.html)
+- [Government Transparency and Accountability](/categories/government-transparency-and-accountability.html)
+- [Gun Policies](/categories/gun-policies.html)
+- [Healthcare and Public Health](/categories/healthcare-and-public-health.html)
+- [Immigration and Citizenship](/categories/immigration-and-citizenship.html)
+- [Indigenous Peoples' Rights](/categories/indigenous-peoples'-rights.html)
+- [Infrastructure and Housing](/categories/infrastructure-and-housing.html)
+- [Israel-Palestine Conflict](/categories/israel-palestine-conflict.html)
+- [Judicial System](/categories/judicial-system.html)
+- [Labor and Workers' Rights](/categories/labor-and-workers'-rights.html)
+- [LGBTQ+ Rights](/categories/lgbtq+-rights.html)
+- [Marijuana](/categories/marijuana-policy.html)
+- [National Security and Military](/categories/national-security-and-military.html)
+- [Russia-Ukraine Conflict](/categories/russia-ukraine-conflict.html)
+- [Schedule F](/categories/schedule-f.html)
+- [Science and Technology](/categories/science-and-technology.html)
+- [Social Security, Medicare, and Medicaid](/categories/social-security,-medicare,-and-medicaid.html)
+- [Systemic Racism and Minority Rights](/categories/systemic-racism-and-minority-rights.html)
+- [Veterans' Affairs](/categories/veterans'-affairs.html)
+- [Voting Rights and Election Processes](/categories/voting-rights-and-election-processes.html)
+- [Women's Rights](/categories/women's-rights.html)
+- [All Questions](/categories/all-questions.html)
