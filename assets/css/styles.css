@@ -286,7 +286,7 @@ a.logo-link {
 
 /* Share button styling */
 .share-buttons {
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -301,8 +301,8 @@ a.logo-link {
 }
 
 .share-buttons a img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     transition: transform 0.3s ease;
 }
 
