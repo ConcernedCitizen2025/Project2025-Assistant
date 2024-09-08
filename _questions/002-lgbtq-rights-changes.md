@@ -1,16 +1,18 @@
 ---
 layout: question
-title: "LGBTQ+ Rights"
+title: "LGBTQ+ Rights: Analyzing Changes Proposed by Project 2025 and Their Impact on Democracy"
+description: "Explore how Project 2025's proposals could impact LGBTQ+ rights, marriage equality, and anti-discrimination protections, posing potential threats to democracy."
 ---
-
-### *What changes does Project 2025 propose for LGBTQ+ rights, including marriage equality and anti-discrimination protections?*
 
 
 # Proposed Changes to LGBTQ+ Rights in Project 2025: Assessing the Threats to Democracy
 
+## *What changes does Project 2025 propose for LGBTQ+ rights, including marriage equality and anti-discrimination protections?*
+
+
 **Introduction**
 
-Project 2025, a conservative policy blueprint, proposes a series of changes that could significantly impact LGBTQ+ rights in the United States. These changes include potential revisions to marriage equality, anti-discrimination protections, and other civil rights that LGBTQ+ individuals have gained over recent decades. This analysis explores the specific proposals related to LGBTQ+ rights, assesses the potential threats they pose to democratic values and equality, and considers the broader implications of these changes on American society.
+Project 2025 proposes sweeping policy changes that could directly impact LGBTQ+ rights, including marriage equality and anti-discrimination protections. These proposals challenge the progress made in recent years, potentially reversing key legal victories such as the recognition of same-sex marriage and protections against discrimination in various sectors. In this analysis, we explore how Project 2025 seeks to reshape LGBTQ+ rights and examine the broader implications these changes could have on civil liberties, equality, and the democratic principles of the United States.
 
 **Marriage Equality**
 
