@@ -309,3 +309,24 @@ a.logo-link {
 .share-buttons a:hover img {
     transform: scale(1.1);
 }
+
+.translate-share-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#text-to-speech-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#text-to-speech-btn:hover {
+    background-color: #45a049;
+}
