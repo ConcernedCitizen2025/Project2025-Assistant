@@ -103,8 +103,10 @@
         </nav>
         {% include google_translate.html %}
     </header>
-    <main class="content-container">
-        {{ content }}
+    <main>
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
     </main>
         <!-- Include the cookie consent banner -->
         {% include cookie-consent-banner.html %}
