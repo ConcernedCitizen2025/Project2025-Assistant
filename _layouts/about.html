@@ -103,6 +103,10 @@
         </nav>
         {% include google_translate.html %}
         <br>
+        <div class="translate-share-container">
+            <div id="google_translate_element"></div> <!-- Google translate widget -->
+            <button id="text-to-speech-btn">Read Aloud</button> <!-- Text-to-Speech button -->
+        </div>        
     </header>
     <main>
         {{ content }}
@@ -114,7 +118,7 @@
     <div style="text-align: center;">
         <button id="text-to-speech-btn">Read Aloud</button>
     </div>
-    
+
     <!-- Include the text-to-speech script -->
     {% include text-to-speech.js %}
     <script>
