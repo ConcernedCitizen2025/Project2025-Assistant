@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Education Reforms"
+title: "The Impact of Project 2025’s Education Reforms on Public Schools, Universities, and Student Loan Programs"
+description: "Explore how Project 2025's proposed education reforms could reshape public schools, higher education, and student loan programs, raising concerns about equal access and opportunity in the U.S. education system."
 ---
-
-### *How would the proposed education reforms impact public schools, universities, and student loan programs?*
-
 
 # The Impact of Project 2025’s Education Reforms on Public Schools, Universities, and Student Loan Programs
 
+## *How would the proposed education reforms impact public schools, universities, and student loan programs?*
+
 **Introduction**
 
-Project 2025 proposes a range of reforms aimed at reshaping the U.S. education system. These reforms focus on reducing federal involvement in education, shifting more control to states, and encouraging the expansion of school choice programs, including charter schools and vouchers. The proposed changes would also impact higher education and student loan programs, aiming to reduce federal expenditures and encourage private sector involvement. This analysis will explore how these proposed reforms might affect public schools, universities, and student loan programs, and assess the potential threats they pose to the democratic principles of equal access and opportunity in education.
+Project 2025 outlines a series of education reforms aimed at reducing federal involvement and increasing state control over schools, while promoting school choice through vouchers and charter schools. These changes could drastically affect public schools, universities, and student loan programs by shifting resources and responsibilities away from the federal government. In this analysis, we examine how these reforms might alter the landscape of education in the United States and assess the potential threats they pose to equal access, educational quality, and the broader democratic principles of opportunity for all.
+
 
 **Impact on Public Schools**
 
