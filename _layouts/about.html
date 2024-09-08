@@ -6,38 +6,33 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
-        /* Styling the body to avoid white borders around the header and footer */
         body.about-page {
             background-color: #f5f5f5;
             margin: 0;
             padding: 0;
         }
 
-        /* Styling the header */
         header {
             background-color: #222;
             padding: 20px 0;
             text-align: center;
         }
 
-        /* Adjusting the main logo size */
         .logo-container .logo {
             max-width: 300px;
             height: auto;
             margin-bottom: 0px;
         }
 
-        /* Adjusting the main container to add a white background */
         main {
             background-color: #fff;
             padding: 30px;
             max-width: 900px;
-            margin: 30px auto; /* Adding margin for spacing between header and main content */
+            margin: 30px auto;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Styling the main content */
         main h1 {
             text-align: center;
             font-size: 2em;
@@ -53,7 +48,6 @@
             color: #555;
         }
 
-        /* Footer styling */
         footer {
             text-align: center;
             padding: 15px;
@@ -104,8 +98,8 @@
         {% include google_translate.html %}
         <br>
         <div class="translate-share-container">
-            <div id="google_translate_element"></div> <!-- Google translate widget -->
-            <button id="text-to-speech-btn">Read Aloud</button> <!-- Text-to-Speech button -->
+            <div id="google_translate_element"></div>
+            <button id="text-to-speech-btn" style="margin-top: 10px;">Read Aloud</button>
         </div>        
     </header>
     <main>
@@ -114,7 +108,6 @@
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
     </footer>
-    <!-- Include the text-to-speech script -->
     {% include text-to-speech.js %}
     <script>
         document.addEventListener("DOMContentLoaded", function() {
