@@ -83,6 +83,12 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
+            <!-- Adding the nutshell logo and making it clickable -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
+                </a>
+            </div>
             <div class="share-buttons">
                 <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
@@ -97,14 +103,6 @@
         </nav>
         {% include google_translate.html %}
     </header>
-
-    <!-- Adding the nutshell logo and making it clickable -->
-    <div class="nutshell-logo-container">
-        <a href="#nutshell">
-            <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
-        </a>
-    </div>
-
     <main class="content-container">
         {{ content }}
     </main>
