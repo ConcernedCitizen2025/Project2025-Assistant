@@ -54,10 +54,12 @@
             </div>
         </nav>
     </header>
+    <div class="translate-container">
+        {% include google_translate.html %}
+    </div>
     <main style="max-width: 800px; margin: auto; text-align: left;">
         <!--<h1 style="text-align: center;">{{ page.title }}</h1>-->
         <div class="authors-contributors-list">
-            {% include google_translate.html %}
             {{ content }} <!-- This is where the content from the .md file will be injected -->
         </div>
     </main>
