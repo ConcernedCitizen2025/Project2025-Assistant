@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Education Funding"
+title: "Project 2025's Federal Education Funding: Risks to Public Schools and Educational Equity"
+description: "Analyze Project 2025's proposed changes to federal education funding and the potential impact on public schools, educational equity, and democratic accountability."
 ---
 
-### *Are there proposed changes to how federal education funding is allocated, particularly regarding public vs. private schools?*
+# Federal Education Funding in Project 2025: A Threat to Public Education and Equity?
 
+## *Are there proposed changes to how federal education funding is allocated, particularly regarding public vs. private schools?*
 
-# **Federal Education Funding in Project 2025: Public vs. Private Schools**
+**Introduction**
 
-#### **Introduction**
-
-The allocation of federal education funding is a critical issue that affects the quality and accessibility of education across the United States. Project 2025 proposes significant changes to how federal education funds are distributed, with a focus on increasing support for private and charter schools while reducing the emphasis on traditional public schools. This analysis explores these proposed changes, examining the potential implications for public education, educational equity, and the broader impact on democratic principles.
+Project 2025 proposes a significant shift in how federal education funds are allocated, with a focus on supporting private and charter schools at the expense of traditional public education. By promoting school choice initiatives and reducing federal oversight, the plan raises serious concerns about the future of public education, educational equity, and accountability. This analysis examines the potential consequences of Project 2025’s approach to education funding, highlighting the risks of deepening inequalities, weakening public schools, and undermining democratic governance.
 
 #### **Proposed Changes to Federal Education Funding**
 

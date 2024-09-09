@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Systemic Racism"
+title: "Project 2025’s Approach to Systemic Racism: Risks to Racial Equity in American Institutions"
+description: "Explore Project 2025’s approach to systemic racism and its potential impact on racial equity in law enforcement, education, healthcare, and housing."
 ---
 
-### *How does Project 2025 propose to address systemic racism in American institutions, including law enforcement, education, healthcare, and housing? What specific policies or reforms, if any, does it outline to promote racial equity and combat discriminatory practices?*
+# Addressing Systemic Racism in Project 2025: A Failure to Promote Racial Equity
 
+## *How does Project 2025 propose to address systemic racism in American institutions, including law enforcement, education, healthcare, and housing? What specific policies or reforms, if any, does it outline to promote racial equity and combat discriminatory practices?*
 
-# **Addressing Systemic Racism in Project 2025: Policies and Reforms**
+**Introduction**
 
-#### **Introduction**
-
-Systemic racism has been a persistent issue in American society, deeply embedded in institutions like law enforcement, education, healthcare, and housing. Addressing this complex and multifaceted problem requires comprehensive policies and reforms aimed at promoting racial equity and eliminating discriminatory practices. Project 2025 outlines its approach to these issues, which reflects its broader conservative agenda. This analysis examines how Project 2025 proposes to address systemic racism in American institutions, focusing on the specific policies or reforms it outlines, and assesses the potential impact on racial equity and justice in the United States.
+Project 2025 presents a broad conservative agenda for American institutions, yet fails to adequately address the deep-rooted issue of systemic racism. By focusing on deregulation and market-based solutions in key areas like law enforcement, education, healthcare, and housing, the plan neglects to provide meaningful reforms aimed at promoting racial equity. This analysis explores the dangers posed by Project 2025’s approach to systemic racism, assessing how its policies could perpetuate discrimination, inequality, and injustice across the United States.
 
 #### **Law Enforcement**
 
