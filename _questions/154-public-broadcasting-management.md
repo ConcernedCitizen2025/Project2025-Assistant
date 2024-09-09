@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Public Broadcasting Services"
+title: "Public Broadcasting Services in Project 2025: Threats to Independence and Media Access"
+description: "Explore how Project 2025's proposals for public broadcasting could lead to increased political influence, reduced independence, and diminished access to non-commercial media."
 ---
 
-### *What proposals does Project 2025 make regarding the management of public broadcasting services, and how might these changes impact the independence and reach of non-commercial media?*
+# **Public Broadcasting Services in Project 2025: Threats to Independence and Media Access**
 
-
-# **Project 2025 and the Management of Public Broadcasting Services**
+## *What proposals does Project 2025 make regarding the management of public broadcasting services, and how might these changes impact the independence and reach of non-commercial media?*
 
 #### **Introduction**
 
-Project 2025 proposes a significant shift in how public broadcasting services, such as the Corporation for Public Broadcasting (CPB), are managed and funded. The plan suggests a reevaluation of the role these services play in American media, with a focus on reducing federal support and potentially reshaping their mission. This analysis explores the specific proposals within Project 2025 concerning public broadcasting and the potential implications these changes might have on the independence and reach of non-commercial media.
+Project 2025 lays out a concerning vision for the future of public broadcasting services in the United States. With a focus on reducing federal funding and reshaping the mission of outlets like the Corporation for Public Broadcasting (CPB), the plan threatens to undermine the independence, diversity, and reach of non-commercial media. By pushing public broadcasting towards self-sufficiency and advocating for content that aligns with specific political and cultural values, Project 2025 risks transforming trusted public media into a tool for political influence, while also jeopardizing its financial stability. These proposals represent a dangerous shift in how public media could operate, raising alarms about the future of unbiased, fact-based programming in a media landscape already facing significant challenges.
 
 #### **Proposals Regarding Public Broadcasting Services**
 

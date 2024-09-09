@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Impeachment Process"
+title: "Revising the Impeachment Process: Project 2025's Proposals and Their Impact on Executive Accountability"
+description: "Examine Project 2025's proposed changes to the impeachment process and mechanisms for holding the executive accountable, focusing on their implications for democratic oversight and the balance of power."
 ---
 
-### *Are there any proposed changes to the impeachment process or other mechanisms for holding the executive accountable?*
+# Proposed Changes to the Impeachment Process and Executive Accountability in Project 2025
 
+## *Are there any proposed changes to the impeachment process or other mechanisms for holding the executive accountable?*
 
-# **Proposed Changes to the Impeachment Process and Executive Accountability in Project 2025**
+**Introduction**
 
-#### **Introduction**
-
-The impeachment process and other mechanisms for holding the executive branch accountable are vital components of the U.S. system of checks and balances. Project 2025 outlines several proposals that could impact these mechanisms, potentially altering how the executive is held accountable for actions that might warrant investigation, censure, or removal from office. This analysis explores the proposed changes, examining how they could affect the balance of power and the functioning of American democracy.
+Project 2025 outlines a significant overhaul of the impeachment process and mechanisms for holding the executive branch accountable. By proposing a more restrictive definition of impeachable offenses and altering impeachment trial procedures, the plan aims to shift how accountability is enforced. This transformation could impact the balance of power and the effectiveness of democratic oversight, particularly in light of recent developments such as the immunity ruling. This analysis explores the potential effects of these proposed changes on the integrity of the impeachment process and overall democratic governance.
 
 #### **Impeachment Process**
 

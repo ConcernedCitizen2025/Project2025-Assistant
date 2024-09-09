@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Future Pandemics"
+title: "Project 2025's Approach to Future Pandemics: Risks of Decentralized Public Health Response"
+description: "Explore how Project 2025's decentralized approach to future pandemics could undermine national coordination and public health outcomes, with a focus on federal vs. state authority."
 ---
 
-### *How does Project 2025 propose to handle future pandemics or public health emergencies, particularly regarding federal vs. state authority?*
+# Handling Future Pandemics in Project 2025: A Decentralized Approach with National Risks
 
+## *How does Project 2025 propose to handle future pandemics or public health emergencies, particularly regarding federal vs. state authority?*
 
-# **Handling Future Pandemics and Public Health Emergencies in Project 2025**
+**Introduction**
 
-#### **Introduction**
-
-The COVID-19 pandemic exposed significant challenges in the United States' public health infrastructure, particularly in the balance of authority between federal and state governments. Project 2025 addresses how future pandemics and public health emergencies should be managed, with a focus on the role of federal versus state authority. This analysis explores the specific proposals in Project 2025, assessing their potential impact on public health, governance, and democratic principles.
+Project 2025 advocates for a decentralized approach to managing future pandemics, prioritizing state authority over federal intervention. While this aligns with the principle of federalism, the plan raises significant concerns about the effectiveness and consistency of the national response to public health crises. By reducing federal oversight and shifting greater responsibility to states, Project 2025 risks creating a patchwork of policies that could undermine efforts to control disease outbreaks, exacerbate public health disparities, and weaken accountability in times of crisis. This analysis explores the potential dangers of Project 2025’s approach and its implications for public health and governance.
 
 #### **Federal vs. State Authority in Public Health**
 

@@ -1,15 +1,16 @@
 ---
-layout: question  
-title: "Presidential Pardon Power"  
+layout: question
+title: "Project 2025's Changes to Presidential Pardon Power: A Threat to Accountability?"
+description: "Analyze Project 2025's proposed changes to the presidential pardon power and how they could undermine accountability and justice, especially in light of the immunity ruling."
 ---
 
-### *Does Project 2025 propose any changes to the presidential pardon power, especially in light of the immunity ruling?*
+# Project 2025's Presidential Pardon Power: Risks to Justice and Accountability
 
-# **Changes to Presidential Pardon Power in Project 2025**
+## *Does Project 2025 propose any changes to the presidential pardon power, especially in light of the immunity ruling?*
 
-#### **Introduction**
+**Introduction**
 
-The presidential pardon power is one of the most significant and controversial powers vested in the U.S. President, allowing the executive to grant clemency for federal offenses. Project 2025 addresses potential reforms to this power, particularly in light of recent legal and political developments, including the implications of the Supreme Court's immunity ruling. This analysis explores how Project 2025 proposes to modify the presidential pardon power, examining the potential impacts on governance, accountability, and democratic principles.
+Project 2025 proposes changes to the presidential pardon power that could significantly reshape how clemency is granted, raising concerns about transparency and the potential for political abuse. By suggesting greater oversight and formal reporting mechanisms, Project 2025 aims to create a more accountable process. However, these reforms also introduce risks of politicizing the pardon process and creating delays that could undermine the justice system. Additionally, the Supreme Court’s immunity ruling may weaken these reforms, allowing the pardon power to be used in ways that further protect political allies from scrutiny. This analysis explores the potential consequences of Project 2025’s proposals, with a focus on preserving democratic accountability and justice.
 
 #### **Proposed Changes to the Presidential Pardon Power**
 
