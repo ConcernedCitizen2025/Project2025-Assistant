@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Federal Surveillance Programs"
+title: "Federal Surveillance Programs and Civil Liberties: Project 2025's Proposals"
+description: "An analysis of Project 2025's proposed changes to federal surveillance programs, focusing on their impact on civil liberties and the balance between security and privacy."
 ---
-
-### *What changes does Project 2025 suggest for federal surveillance programs and their impact on civil liberties?*
-
 
 # Project 2025’s Approach to Federal Surveillance Programs: A Detailed Analysis
 
+## *What changes does Project 2025 suggest for federal surveillance programs and their impact on civil liberties?*
+
 **Introduction**
 
-Federal surveillance programs have been a contentious issue in the United States, balancing national security interests with the protection of civil liberties. Project 2025 addresses this delicate balance, proposing changes to how surveillance is conducted by federal agencies, with an emphasis on enhancing security while maintaining some level of oversight. This analysis explores the changes suggested by Project 2025 for federal surveillance programs and assesses their potential impact on civil liberties, particularly in light of the Supreme Court’s immunity ruling.
+Project 2025 proposes expanding federal surveillance programs by incorporating advanced technologies like AI and machine learning to enhance national security. However, this expansion raises concerns about potential infringements on civil liberties, particularly with reduced judicial oversight and increased governmental authority in surveillance activities. This analysis examines the balance Project 2025 seeks between bolstering security and preserving individual rights.
 
 **Proposed Changes to Federal Surveillance Programs**
 

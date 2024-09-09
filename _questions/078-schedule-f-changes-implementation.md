@@ -1,15 +1,16 @@
 ---
 layout: question
-title: "What is 'Schedule F'"
+title: "What is 'Schedule F' and Project 2025's Proposals for Its Implementation?"
+description: "Explore how Project 2025 proposes to expand the use of 'Schedule F,' reclassifying federal employees and potentially reshaping the civil service through greater executive control."
 ---
-
-### *What is 'Schedule F,' and what changes does Project 2025 propose regarding its implementation?*
 
 # Project 2025’s Proposals for "Schedule F": An In-Depth Analysis
 
+## *What is 'Schedule F,' and what changes does Project 2025 propose regarding its implementation?*
+
 **Introduction**
 
-"Schedule F" refers to an executive order issued by former President Donald Trump in October 2020, which aimed to reclassify a significant number of federal employees into a new category of "Schedule F" within the excepted service. This classification would have allowed these employees, who were involved in policy-making, to be hired and fired more easily, effectively stripping them of the civil service protections that normally shield federal workers from politically motivated dismissals. Although the order was rescinded by President Joe Biden in January 2021, the idea has remained a point of contention, particularly among those advocating for a reduction in what they see as the entrenched "deep state" bureaucracy. Project 2025 proposes revisiting and expanding the implementation of Schedule F as part of its broader vision for reforming the federal workforce.
+"Schedule F" refers to an executive order introduced by former President Trump in 2020, aimed at reclassifying a large number of federal employees, stripping them of civil service protections and making them easier to hire and fire. Although rescinded by President Biden, Project 2025 proposes revisiting and expanding Schedule F to give the executive branch more control over the federal workforce. This analysis explores the potential impact of these proposals, assessing how they could alter the structure of the civil service and the balance of power within the U.S. government.
 
 **What Is "Schedule F"?**
 

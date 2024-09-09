@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Regulating Campaign Finance"
+title: "Project 2025's Proposed Campaign Finance Reforms"
+description: "An analysis of Project 2025's proposed changes to campaign finance regulations, focusing on transparency, dark money, and potential risks to democracy."
 ---
 
-### *What changes does Project 2025 suggest for regulating campaign finance, particularly regarding the influence of dark money in politics?*
+# Project 2025's Proposed Campaign Finance Reforms: Addressing Dark Money in Politics
 
-
-# Regulating Campaign Finance: Addressing Dark Money in Politics
+## *What changes does Project 2025 suggest for regulating campaign finance, particularly regarding the influence of dark money in politics?*
 
 **Introduction**
 
-Campaign finance has long been a contentious issue in American politics, particularly regarding the influence of "dark money"—funds donated anonymously to influence elections without disclosure of the donor's identity. Project 2025 proposes several changes to campaign finance regulations, with a focus on transparency, accountability, and reducing the influence of undisclosed funding in politics. These proposals, however, raise significant concerns about their potential impact on democracy, particularly regarding the balance of power between wealthy donors and ordinary citizens.
+Project 2025 proposes several reforms aimed at increasing transparency in campaign finance and curbing the influence of dark money—anonymous donations that can influence elections without disclosing the donor’s identity. These changes include stricter disclosure requirements for political donations, empowering the Federal Election Commission (FEC) to enforce campaign finance laws more effectively, and reconsidering landmark rulings like *Citizens United*. While these reforms are positioned as essential for restoring public trust in the electoral system, they also raise concerns about selective enforcement, potential loopholes, and unintended impacts on grassroots political movements. This analysis explores the proposed changes and their broader implications for U.S. democracy.
 
 **Proposed Changes to Campaign Finance Regulations**
 

@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Medicaid"
+title: "Medicaid Reforms in Project 2025: Impact on Low-Income Families"
+description: "Explore how Project 2025's proposed reforms to Medicaid, including block grants and work requirements, could impact healthcare access for low-income individuals and families."
 ---
 
-### *What reforms to Medicaid are outlined in Project 2025, and how might these changes affect low-income individuals and families who rely on the program for healthcare coverage?*
+# Project 2025’s Proposed Medicaid Reforms: Impact on Low-Income Families
 
-
-# Project 2025’s Proposed Medicaid Reforms: An In-Depth Analysis
+## *What reforms to Medicaid are outlined in Project 2025, and how might these changes affect low-income individuals and families who rely on the program for healthcare coverage?*
 
 **Introduction**
 
-Medicaid is a critical safety net program in the United States, providing healthcare coverage to millions of low-income individuals and families, including children, pregnant women, the elderly, and people with disabilities. As healthcare costs continue to rise, discussions about the sustainability and effectiveness of Medicaid have intensified. Project 2025 outlines several proposed reforms aimed at restructuring Medicaid to control costs and promote efficiency. This analysis will explore the specific changes proposed in Project 2025, assess their potential impact on low-income individuals and families who rely on Medicaid, and examine the broader implications for U.S. democracy and social equity.
+Medicaid serves as a critical safety net for millions of low-income individuals and families, including children, the elderly, and people with disabilities. As healthcare costs rise, Project 2025 proposes a series of reforms aimed at controlling costs and promoting efficiency. Key proposals include block grants, work requirements, and promoting private insurance options. This analysis explores the potential impacts of these reforms on access to healthcare for low-income populations and the broader implications for social equity and U.S. democracy.
 
 **Proposed Medicaid Reforms in Project 2025**
 

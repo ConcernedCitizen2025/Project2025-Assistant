@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Marijuana"
+title: "Project 2025's Stance on Marijuana Legalization: Policy Impact Analysis"
+description: "Explore how Project 2025's opposition to marijuana legalization could impact state-level efforts, criminal justice reform, and public health outcomes."
 ---
 
-### *What is Project 2025’s stance on the legalization of marijuana, and how might its proposed policies impact federal and state-level legalization efforts, criminal justice reform, and public health?*
+# Project 2025's Stance on Marijuana Legalization: Policy Impact Analysis
 
-
-# Project 2025’s Stance on the Legalization of Marijuana: A Comprehensive Analysis
+## *What is Project 2025’s stance on the legalization of marijuana, and how might its proposed policies impact federal and state-level legalization efforts, criminal justice reform, and public health?*
 
 **Introduction**
 
-The legalization of marijuana has become a significant issue in American politics, with many states moving to legalize its use for both medical and recreational purposes. However, marijuana remains illegal under federal law, creating a complex and often contradictory legal landscape. Project 2025 outlines a conservative vision for U.S. policy, including its stance on the legalization of marijuana. This analysis will explore Project 2025’s position on marijuana legalization, assess the potential impact of its proposed policies on federal and state-level legalization efforts, criminal justice reform, and public health, and examine the broader implications for U.S. democracy.
+Marijuana legalization has become a major issue in U.S. politics, with many states embracing legalization for medical and recreational purposes, while federal law still classifies marijuana as a Schedule I drug. Project 2025 strongly opposes both federal and state-level legalization, emphasizing marijuana as a public health and safety risk. This analysis explores Project 2025’s stance on marijuana, examining the potential impacts on state legalization efforts, criminal justice reform, and public health.
 
 **Project 2025’s Stance on Marijuana Legalization**
 

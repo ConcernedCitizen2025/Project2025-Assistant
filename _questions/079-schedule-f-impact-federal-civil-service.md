@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Schedule F Impact"
+title: "The Impact of Schedule F on the Federal Civil Service: Structure and Independence"
+description: "Explore how the implementation of Schedule F, proposed by Project 2025, could impact the structure and independence of the federal civil service, potentially leading to politicization and reduced merit-based hiring."
 ---
 
-### *How would the implementation of Schedule F impact the structure and independence of the federal civil service?*
+# The Impact of Schedule F on the Structure and Independence of the Federal Civil Service
 
-
-# The Impact of Schedule F on the Structure and Independence of the Federal Civil Service: A Detailed Analysis
+## *How would the implementation of Schedule F impact the structure and independence of the federal civil service?*
 
 **Introduction**
 
-The federal civil service is designed to function as an impartial, professional body that serves the public by implementing the laws and policies set by elected officials. Over time, the civil service has developed safeguards to ensure that federal employees can perform their duties without undue political influence, thereby maintaining the integrity and effectiveness of the government. The introduction of "Schedule F," a policy initially proposed under the Trump administration and supported by Project 2025, seeks to reclassify certain federal employees, stripping them of civil service protections. This analysis will explore how the implementation of Schedule F could impact the structure and independence of the federal civil service, with a particular focus on potential threats to democracy.
+Schedule F, proposed under the Trump administration and supported by Project 2025, seeks to reclassify federal employees involved in policy-making, stripping them of civil service protections. This shift could politicize the federal workforce, erode merit-based hiring, and increase executive control. This analysis explores how Schedule F could reshape the federal civil service and the potential consequences for democracy and government accountability.
 
 **Impact on the Structure of the Federal Civil Service**
 
