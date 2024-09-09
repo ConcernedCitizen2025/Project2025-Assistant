@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Schedule F, Balance of Power"
+title: "The Impact of Schedule F on the Balance of Power Between the Executive Branch and Federal Agencies"
+description: "Analyze how the implementation of Schedule F, as proposed in Project 2025, could affect the balance of power between the executive branch and federal agencies, potentially increasing executive control and undermining agency independence."
 ---
 
-### *How might Schedule F, if implemented, affect the balance of power between the executive branch and federal agencies?*
+# The Impact of Schedule F on the Balance of Power Between the Executive Branch and Federal Agencies
 
-
-# The Impact of Schedule F on the Balance of Power Between the Executive Branch and Federal Agencies: A Comprehensive Analysis
+## *How might Schedule F, if implemented, affect the balance of power between the executive branch and federal agencies?*
 
 **Introduction**
 
-Schedule F, a policy initiative originally proposed during the Trump administration and supported by Project 2025, seeks to reclassify a significant number of federal employees, particularly those involved in policy-making, into a category that removes traditional civil service protections. This reclassification would transform these employees into at-will workers, making them subject to hiring and firing at the discretion of political appointees. While Schedule F is intended to streamline the federal bureaucracy and align the workforce with the administration's policy goals, its implementation could have profound effects on the balance of power between the executive branch and federal agencies. This analysis explores how Schedule F might shift this balance and examines the broader implications for U.S. democracy.
+Schedule F, proposed during the Trump administration and supported by Project 2025, reclassifies federal employees involved in policy-making, making them easier to hire and fire. This reclassification aims to streamline bureaucracy but also risks increasing executive control over federal agencies. This analysis explores the potential effects of Schedule F on the balance of power between the executive branch and federal agencies, focusing on the risks of politicization, loss of expertise, and reduced checks and balances.
 
 **The Executive Branch’s Control Over Federal Agencies**
 

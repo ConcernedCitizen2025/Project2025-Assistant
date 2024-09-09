@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Racial Profiling"
+title: "Racial Profiling and Law Enforcement Practices: Project 2025's Proposals"
+description: "An analysis of Project 2025's approach to law enforcement practices, with a focus on racial profiling and the use of advanced technologies in policing."
 ---
-
-### *How does Project 2025 address the issue of racial profiling and law enforcement practices?*
-
 
 # Project 2025’s Approach to Racial Profiling and Law Enforcement Practices: A Detailed Analysis
 
+## *How does Project 2025 address the issue of racial profiling and law enforcement practices?*
+
 **Introduction**
 
-Racial profiling and law enforcement practices have long been contentious issues in the United States, with significant implications for civil rights and social justice. Project 2025 addresses these concerns by proposing a framework for law enforcement that emphasizes public safety, accountability, and the rule of law. However, the plan’s approach to issues like racial profiling and broader law enforcement practices requires careful scrutiny to assess its potential impact on racial equality and justice in America.
+Project 2025 presents a troubling framework for law enforcement that overlooks key civil rights issues and fails to adequately address racial profiling. Instead of confronting the systemic biases that have plagued law enforcement practices in the United States, Project 2025 prioritizes a “law and order” approach that risks exacerbating racial inequalities and further entrenching discriminatory practices. By promoting aggressive policing strategies and emphasizing data-driven technologies, the plan raises serious concerns about its impact on racial justice and civil liberties in the U.S.
 
 **Stance on Racial Profiling and Law Enforcement Practices**
 
