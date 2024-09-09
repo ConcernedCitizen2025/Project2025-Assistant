@@ -1,14 +1,17 @@
 ---
 layout: question
-title: "Scientific Research and Technological Innovation"
+title: "Proposed Changes to Federal Funding for Scientific Research and Technological Innovation"
+description: "Explore how Project 2025's proposed changes to federal funding for scientific research, including shifting priorities toward applied research, could impact long-term innovation and scientific breakthroughs."
 ---
-
-### *What are the proposed changes to federal funding for scientific research and technological innovation?*
-
 
 # Proposed Changes to Federal Funding for Scientific Research and Technological Innovation
 
-The Project 2025 plan, as part of its broader strategy to reshape the federal government, proposes significant changes to the allocation and prioritization of federal funding for scientific research and technological innovation. These proposals reflect a shift towards what is perceived as more "pragmatic" and "mission-focused" research, with an emphasis on aligning federal research agendas with the administration’s broader policy goals. This approach could have far-reaching implications for the direction and integrity of scientific research in the United States.
+## *What are the proposed changes to federal funding for scientific research and technological innovation?*
+
+**Introduction**
+
+Project 2025 proposes significant changes to the allocation and prioritization of federal funding for scientific research and technological innovation. These proposals reflect a shift towards more "pragmatic" and "mission-focused" research, aligning federal research agendas with the administration’s broader policy goals. This approach could have far-reaching implications for the direction and integrity of scientific research in the United States.
+
 
 ### Shifting Priorities in Federal Research Funding
 

@@ -1,12 +1,12 @@
 ---
 layout: question
-title: "Diplomatic Relations with Russia"
+title: "Diplomatic Relations with Russia in the Context of the Ukraine Conflict: Project 2025's Approach"
+description: "Explore how Project 2025's proposed strategy for diplomatic relations with Russia, including a shift towards strategic realism, could impact the ongoing Ukraine conflict and U.S. foreign policy."
 ---
 
-### *How does Project 2025 approach diplomatic relations with Russia in light of the Ukraine conflict?*
-
-
 # Diplomatic Relations with Russia in the Context of the Ukraine Conflict
+
+## *How does Project 2025 approach diplomatic relations with Russia in light of the Ukraine conflict?*
 
 **Introduction**
 

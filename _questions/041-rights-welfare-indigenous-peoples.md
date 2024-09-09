@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Rights and Welfare of Indigenous Peoples"
+title: "Project 2025 and the Rights and Welfare of Indigenous Peoples"
+description: "Explore how Project 2025's proposed reduction of federal oversight in Indigenous affairs could impact the rights, land sovereignty, and welfare of Indigenous communities."
 ---
-
-### *How does Project 2025 address the rights and welfare of indigenous peoples?*
-
 
 # Project 2025 and the Rights and Welfare of Indigenous Peoples
 
-#### Introduction
+## *How does Project 2025 address the rights and welfare of Indigenous peoples?*
 
-Project 2025 lays out a conservative vision for the future of the United States, emphasizing a return to what it considers foundational principles of governance. However, when it comes to the rights and welfare of Indigenous peoples, the document reflects a broader agenda that may raise significant concerns. This analysis explores how Project 2025 addresses issues related to Indigenous rights and welfare, particularly in the context of federal policies, land management, and social services.
+**Introduction**
+
+Project 2025 lays out a conservative vision for the future of the United States, emphasizing a return to what it considers foundational principles of governance. However, when it comes to the rights and welfare of Indigenous peoples, the document reflects an agenda that may raise significant concerns. This analysis explores how Project 2025 addresses issues related to Indigenous rights and welfare, particularly in the context of federal policies, land management, and social services.
+
 
 #### Federal Oversight and Sovereignty
 

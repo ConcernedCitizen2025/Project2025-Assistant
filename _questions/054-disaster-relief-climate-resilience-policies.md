@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Disaster Relief and Climate Resilience"
+title: "Proposed Changes to Disaster Relief and Climate Resilience Policies in Project 2025"
+description: "Explore how Project 2025's shift from long-term climate resilience to state-controlled disaster relief could impact preparedness and response to climate-related events."
 ---
 
-### *What changes are proposed for disaster relief and climate resilience policies?*
+# Proposed Changes to Disaster Relief and Climate Resilience Policies in Project 2025
 
-
-# Proposed Changes to Disaster Relief and Climate Resilience Policies
+## *What changes are proposed for disaster relief and climate resilience policies?*
 
 **Introduction**
 
-Project 2025 presents a strategic shift in how the federal government approaches disaster relief and climate resilience. It emphasizes reducing the federal footprint in favor of state and local governance, encouraging private sector participation, and shifting the focus from long-term climate adaptation to immediate disaster response. While this approach aligns with broader goals of reducing federal control and promoting market-driven solutions, it raises significant concerns about the effectiveness of disaster preparedness and the country's ability to respond to and recover from increasingly severe climate-related events.
+Project 2025 presents a strategic shift in how the federal government approaches disaster relief and climate resilience. The plan emphasizes reducing the federal footprint in favor of state and local governance, encouraging private sector participation, and shifting the focus from long-term climate adaptation to immediate disaster response. While this approach aligns with broader goals of reducing federal control and promoting market-driven solutions, it raises concerns about the effectiveness of disaster preparedness and the country's ability to respond to and recover from increasingly severe climate-related events.
 
 **Disaster Relief and Federal Responsibility**
 

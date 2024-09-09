@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Agricultural Policies"
+title: "Proposed Changes to Agricultural Policies and Support for Farmers in Project 2025"
+description: "Explore how Project 2025's proposed agricultural policies, including reduced subsidies and increased deregulation, could impact farmers, rural communities, and the broader U.S. food system."
 ---
 
-### *What changes are proposed for agricultural policies and support for farmers?*
-
-
 # Proposed Changes to Agricultural Policies and Support for Farmers in Project 2025
+
+## *What changes are proposed for agricultural policies and support for farmers?*
 
 **Introduction**
 
 Agriculture remains a critical component of the U.S. economy and national security, providing food, jobs, and economic stability. Project 2025 outlines several reforms aimed at reshaping agricultural policies to enhance efficiency, reduce government intervention, and promote free-market principles. While these changes are framed as beneficial for the agricultural sector, they carry significant implications for farmers, rural communities, and the broader U.S. food system.
+
 
 **Analysis of Proposed Changes**
 

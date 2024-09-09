@@ -1,14 +1,17 @@
 ---
 layout: question
-title: "U.S. Constitution"
+title: "Project 2025 on the U.S. Constitution"
+description: "Explore how Project 2025's emphasis on federalism, state sovereignty, and limiting federal power could impact the interpretation and enforcement of the U.S. Constitution."
 ---
-
-### *Does Project 2025 propose any changes to the U.S. Constitution?*
-
 
 # Project 2025 on the U.S. Constitution
 
+## *Does Project 2025 propose any changes to the U.S. Constitution?*
+
+**Introduction**
+
 Project 2025, a comprehensive blueprint for the next conservative administration, seeks to restore what it considers the original intent of the U.S. Constitution by reshaping the federal government’s structure, powers, and accountability. The plan emphasizes returning power to the states, reducing federal overreach, and dismantling the "Administrative State." While the document does not propose explicit amendments to the Constitution, it outlines significant changes in interpretation, enforcement, and governmental operations that could profoundly affect constitutional governance.
+
 
 ### Emphasizing Federalism and State Sovereignty
 

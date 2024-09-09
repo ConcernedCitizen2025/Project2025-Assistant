@@ -1,12 +1,12 @@
 ---
 layout: question
-title: "Digital Education"
+title: "Digital Education and Technology Integration in Schools: Project 2025’s Vision"
+description: "Explore how Project 2025's focus on digital education and technology integration in schools could impact equity, privacy, and the role of technology in learning."
 ---
 
-### *How does Project 2025 address digital education and the integration of technology in schools?*
-
-
 # Digital Education and Technology Integration in Schools: Project 2025’s Vision
+
+## *How does Project 2025 address digital education and the integration of technology in schools?*
 
 **Introduction**
 
