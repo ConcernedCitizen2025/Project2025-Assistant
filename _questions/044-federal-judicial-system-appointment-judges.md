@@ -1,14 +1,15 @@
 ---
 layout: question
-title: "Federal Judicial System"
+title: "Proposed Changes to the Federal Judicial System and the Appointment of Judges in Project 2025"
+description: "Explore how Project 2025's proposed changes to the federal judicial system, including the prioritization of originalism and textualism, could impact the judiciary's role in addressing contemporary social issues."
 ---
 
-### *What changes to the federal judicial system and the appointment of judges are proposed?*
+# Proposed Changes to the Federal Judicial System and the Appointment of Judges in Project 2025
 
+## *What changes to the federal judicial system and the appointment of judges are proposed?*
 
-# Proposed Changes to the Federal Judicial System and the Appointment of Judges
+**Introduction**
 
-**Introduction:**
 Project 2025 outlines several significant changes to the federal judicial system and the appointment of judges, reflecting a broader vision to reshape the judiciary in a manner consistent with conservative principles. These proposals are aimed at ensuring that the judiciary aligns more closely with a strict interpretation of the Constitution, limiting judicial activism, and reinforcing the separation of powers between the judiciary and other branches of government.
 
 **Proposed Changes:**

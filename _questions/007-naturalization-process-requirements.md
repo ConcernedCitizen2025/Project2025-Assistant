@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Naturalization Process"
+title: "Proposed Changes to the Naturalization Process and Citizenship Requirements in Project 2025: Assessing the Impact on American Democracy"
+description: "Explore how Project 2025's proposed changes to the naturalization process, including stricter requirements for citizenship, could impact legal immigrants and pose broader implications for democracy."
 ---
-
-### *Are there any proposed changes to the naturalization process or requirements for citizenship?*
-
 
 # Proposed Changes to the Naturalization Process and Citizenship Requirements in Project 2025: Assessing the Impact on American Democracy
 
+## *Are there any proposed changes to the naturalization process or requirements for citizenship?*
+
 **Introduction**
 
-Project 2025 outlines a series of immigration reforms, including potential changes to the naturalization process and requirements for citizenship. These proposed changes are part of a broader effort to tighten immigration controls and prioritize the interests of native-born citizens. This analysis will explore the specific modifications suggested for the naturalization process, assess their potential impact on legal immigrants aspiring to become U.S. citizens, and evaluate the broader implications for American democracy.
+Project 2025 outlines a series of reforms to the naturalization process and citizenship requirements, as part of broader immigration control measures. These proposed changes include stricter language proficiency requirements, enhanced background checks, and a longer residency requirement for aspiring U.S. citizens. In this analysis, we explore the specific modifications to the naturalization process, assess their potential impact on legal immigrants, and evaluate the broader implications for American democracy.
+
 
 **Proposed Changes to the Naturalization Process**
 

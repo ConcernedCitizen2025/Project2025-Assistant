@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Healthcare Policies"
+title: "Proposed Changes to Healthcare Policies and Systems in Project 2025: A Critical Examination"
+description: "Explore how Project 2025's proposed changes to healthcare policies, including reducing federal involvement and promoting market-based solutions, could impact access to care and health equity in the U.S."
 ---
-
-### *What changes to healthcare policies and systems are outlined?*
-
 
 # Proposed Changes to Healthcare Policies and Systems in Project 2025: A Critical Examination
 
+## *What changes to healthcare policies and systems are outlined?*
+
 **Introduction**
 
-Project 2025 proposes several significant changes to the U.S. healthcare system, with the goal of reducing federal involvement, increasing state control, and promoting market-based solutions. These proposals are part of a broader conservative agenda that emphasizes personal responsibility, limited government, and free-market principles. While these changes are presented as ways to improve efficiency and reduce costs, they raise important concerns about access to care, health equity, and the overall functioning of the U.S. healthcare system. This analysis will explore the specific healthcare policies outlined in Project 2025, assess their potential impact, and evaluate the broader implications for American democracy.
+Project 2025 outlines significant changes to the U.S. healthcare system, with a focus on reducing federal involvement, increasing state control, and promoting market-based solutions. These proposals are part of a broader conservative agenda emphasizing personal responsibility and limited government. While presented as ways to improve efficiency and reduce costs, these changes raise concerns about access to care, health equity, and the overall functioning of the healthcare system. This analysis explores the specific healthcare policies proposed in Project 2025, their potential impact, and the broader implications for American democracy.
+
 
 **Reducing Federal Involvement in Healthcare**
 

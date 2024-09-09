@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Voting Rights"
+title: "Proposed Changes to Voting Rights and Election Processes in Project 2025: Assessing the Risks to Democracy"
+description: "Explore how Project 2025's proposed changes to voting rights and election processes, including stricter voter ID requirements, could impact democratic participation and raise concerns about voter suppression."
 ---
-
-### *What changes to voting rights and election processes are proposed?*
-
 
 # Proposed Changes to Voting Rights and Election Processes in Project 2025: Assessing the Risks to Democracy
 
+## *What changes to voting rights and election processes are proposed?*
+
 **Introduction**
 
-Project 2025 outlines a series of changes to the voting rights and election processes in the United States, aimed at ensuring election integrity and increasing confidence in the electoral system. However, these proposed changes also raise significant concerns about the potential for voter suppression, reduced access to voting, and the overall impact on democratic participation. This analysis will explore the specific changes proposed in Project 2025, assess their potential impact on voting rights and the election process, and evaluate the broader implications for American democracy.
+Project 2025 outlines a series of changes to voting rights and election processes aimed at ensuring election integrity and boosting confidence in the electoral system. However, these proposed changes also raise concerns about voter suppression, reduced access to voting, and the overall impact on democratic participation. This analysis examines the specific changes proposed in Project 2025, their potential impact on voting rights and the election process, and the broader implications for American democracy.
+
 
 **Voter Identification Requirements**
 

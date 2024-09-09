@@ -1,12 +1,12 @@
 ---
 layout: question
-title: "Child Welfare"
+title: "Proposed Changes to Child Welfare and Family Support Programs in Project 2025"
+description: "Explore how Project 2025's proposed changes to child welfare and family support programs, including shifting responsibility to states, could impact vulnerable populations and the quality of care."
 ---
 
-### *What are the proposed changes to child welfare and family support programs?*
-
-
 # Proposed Changes to Child Welfare and Family Support Programs in Project 2025
+
+## *What are the proposed changes to child welfare and family support programs?*
 
 **Introduction**
 

@@ -1,12 +1,12 @@
 ---
 layout: question
-title: "Public Safety and Emergency Response"
+title: "Proposed Improvements to Public Safety and Emergency Response Systems in Project 2025"
+description: "Explore how Project 2025's proposed changes to public safety and emergency response systems, including enhanced coordination among agencies, could impact federal, state, and local responses to crises."
 ---
 
-### *How does Project 2025 propose to improve public safety and emergency response systems?*
+# Proposed Improvements to Public Safety and Emergency Response Systems in Project 2025
 
-
-# Proposed Improvements to Public Safety and Emergency Response Systems
+## *How does Project 2025 propose to improve public safety and emergency response systems?*
 
 **Introduction**
 

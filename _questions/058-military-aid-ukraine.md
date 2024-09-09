@@ -1,12 +1,12 @@
 ---
 layout: question
-title: "Military Aid to Ukraine"
+title: "Military Aid to Ukraine in Project 2025: A Strategic Shift"
+description: "Explore how Project 2025's proposed changes to military aid for Ukraine, including shifting more responsibility to European allies, could impact U.S. foreign policy and the conflict's outcome."
 ---
 
-### *What changes, if any, does Project 2025 suggest regarding military aid to Ukraine?*
-
-
 # Military Aid to Ukraine in Project 2025: A Strategic Shift
+
+## *What changes, if any, does Project 2025 suggest regarding military aid to Ukraine?*
 
 **Introduction**
 

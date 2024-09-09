@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Immigration Policies"
+title: "Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants"
+description: "Explore how Project 2025's proposed immigration policies, including stricter enforcement and increased border security, could affect legal and undocumented immigrants and pose broader implications for democracy."
 ---
-
-### *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*
-
 
 # Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants
 
+## *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*
+
 **Introduction**
 
-Project 2025 outlines a conservative vision for reforming the U.S. immigration system, emphasizing stricter enforcement, reduced legal immigration, and increased border security. These proposals aim to reshape the demographic landscape of the United States by prioritizing the interests of native-born citizens and limiting the rights and opportunities available to both legal and undocumented immigrants. This analysis will explore the specific immigration policies proposed in Project 2025, assess their potential impact on legal and undocumented immigrants, and evaluate the broader implications for American democracy.
+Project 2025 outlines a conservative approach to reforming the U.S. immigration system, with a focus on stricter enforcement, reducing legal immigration, and bolstering border security. These proposals aim to reshape the demographic makeup of the United States, prioritizing the interests of native-born citizens and limiting the rights and opportunities available to immigrants. This analysis explores the specific immigration policies proposed in Project 2025, their potential impact on both legal and undocumented immigrants, and the broader implications for American democracy.
+
 
 **Stricter Enforcement and Border Security**
 

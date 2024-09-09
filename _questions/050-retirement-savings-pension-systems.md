@@ -1,15 +1,16 @@
 ---
 layout: question
-title: "Retirement and Pensions"
+title: "Proposed Changes to Retirement Savings and Pension Systems in Project 2025"
+description: "Explore how Project 2025's shift from traditional pensions to defined-contribution plans, such as 401(k)s, could impact the long-term security of retirement savings for Americans."
 ---
 
-### *What are the proposed changes to retirement savings and pension systems?*
+# Proposed Changes to Retirement Savings and Pension Systems in Project 2025
 
+## *What are the proposed changes to retirement savings and pension systems?*
 
-# Proposed Changes to Retirement Savings and Pension Systems
+**Introduction**
 
-#### Introduction
-Project 2025 outlines several changes to the retirement savings and pension systems in the United States, aiming to shift the focus from traditional defined-benefit plans, such as pensions, to defined-contribution plans, like 401(k)s. These changes are presented as a way to modernize retirement savings, reduce government liabilities, and give individuals more control over their retirement funds. However, these proposals also raise significant concerns about the long-term security and stability of retirement savings for millions of Americans.
+Project 2025 outlines several changes to the retirement savings and pension systems in the United States, aiming to shift the focus from traditional defined-benefit plans, such as pensions, to defined-contribution plans, like 401(k)s. These changes are presented as a way to modernize retirement savings, reduce government liabilities, and give individuals more control over their retirement funds. However, these proposals raise concerns about the long-term security of retirement savings for millions of Americans.
 
 #### Shifting from Pensions to Defined-Contribution Plans
 One of the key proposals in Project 2025 is the gradual phasing out of traditional pension plans in favor of defined-contribution plans like 401(k)s. The rationale behind this shift is to reduce the financial burden on employers, particularly in the public sector, and to encourage personal responsibility in retirement planning. Defined-contribution plans are favored because they are seen as more sustainable and less prone to underfunding, which has been a significant issue with many public and private pension systems.

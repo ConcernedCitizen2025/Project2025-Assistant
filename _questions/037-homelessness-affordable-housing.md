@@ -1,14 +1,17 @@
 ---
 layout: question
-title: "Homelessness and Affordable Housing"
+title: "Addressing Homelessness and Affordable Housing in Project 2025"
+description: "Explore how Project 2025's proposed policies to address homelessness and affordable housing, including reducing federal involvement and promoting local solutions, could impact housing availability."
 ---
-
-### *How does Project 2025 plan to address homelessness and affordable housing?*
-
 
 # Addressing Homelessness and Affordable Housing in Project 2025
 
-Project 2025's approach to homelessness and affordable housing primarily emphasizes reducing federal involvement and promoting state and local solutions. The plan reflects a broader conservative perspective that favors limited government intervention, decentralization, and market-driven solutions. This approach is evident in its proposals to reduce federal funding for housing programs, shift responsibility to state and local governments, and encourage private sector involvement in addressing housing shortages and homelessness.
+## *How does Project 2025 plan to address homelessness and affordable housing?*
+
+**Introduction**
+
+Project 2025's approach to homelessness and affordable housing emphasizes reducing federal involvement and promoting state and local solutions. The plan reflects a broader conservative perspective that favors limited government intervention, decentralization, and market-driven solutions. This is evident in its proposals to reduce federal funding for housing programs, shift responsibility to state and local governments, and encourage private sector involvement in addressing housing shortages and homelessness.
+
 
 #### Decreased Federal Role in Housing Programs
 

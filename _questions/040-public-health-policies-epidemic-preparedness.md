@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Public Health Policies and Epidemic Preparedness"
+title: "Proposed Changes to Public Health Policies and Epidemic Preparedness in Project 2025"
+description: "Explore how Project 2025's proposed changes to public health policies, including decentralizing epidemic preparedness, could impact state and federal coordination during health crises."
 ---
-
-### *What changes to public health policies and epidemic preparedness are proposed?*
-
 
 # Proposed Changes to Public Health Policies and Epidemic Preparedness in Project 2025
 
-#### Introduction
+## *What changes to public health policies and epidemic preparedness are proposed?*
+
+**Introduction**
 
 Project 2025 outlines significant shifts in public health policies, emphasizing a more decentralized approach to epidemic preparedness and response. The document reflects a broader conservative agenda, prioritizing state and local control over federal oversight. The proposed changes aim to reshape how the United States handles public health emergencies, focusing on reducing federal involvement, promoting individual liberties, and recalibrating the balance of power between state and federal authorities.
+
 
 #### Decentralization of Public Health Authority
 

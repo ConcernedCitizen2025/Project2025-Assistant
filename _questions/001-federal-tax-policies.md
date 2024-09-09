@@ -4,11 +4,10 @@ title: "Federal Tax Policies"
 description: "Explore how Project 2025’s tax proposals could impact federal tax policies, income brackets, and democratic values."
 ---
 
+# The Impact of Project 2025 on Federal Tax Policies: Assessing Threats to Democracy
+
 
 ### *How might Project 2025 affect federal tax policies and rates for different income brackets?*
-
-
-# The Impact of Project 2025 on Federal Tax Policies: Assessing Threats to Democracy
 
 **Introduction**
 

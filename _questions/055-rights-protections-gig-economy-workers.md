@@ -1,16 +1,16 @@
 ---
 layout: question
-title: "Gig Economy Workers"
+title: "Project 2025 and the Rights and Protections of Gig Economy Workers"
+description: "Explore how Project 2025's proposals regarding gig economy workers, including maintaining independent contractor status, could impact labor rights, protections, and job security."
 ---
-
-### *How does Project 2025 address the rights and protections of gig economy workers?*
-
 
 # Project 2025 and the Rights and Protections of Gig Economy Workers
 
-**Introduction:**
+## *How does Project 2025 address the rights and protections of gig economy workers?*
 
-Project 2025, a comprehensive policy framework designed to guide a conservative administration, addresses various aspects of labor laws and workers' rights. One of the critical areas it touches upon is the gig economy—a rapidly growing segment of the labor market characterized by temporary, flexible jobs, typically involving freelance or independent contractor work. The gig economy includes workers in platforms such as ride-sharing, food delivery, freelance digital work, and other app-based services. The treatment of gig economy workers under Project 2025 raises significant concerns regarding labor rights, protections, and the broader implications for the U.S. workforce.
+**Introduction**
+
+Project 2025 addresses various aspects of labor laws, including the rapidly growing gig economy, characterized by temporary, flexible jobs such as ride-sharing, food delivery, and freelance work. The treatment of gig economy workers under Project 2025 raises significant concerns about labor rights, protections, and the broader implications for the U.S. workforce. The plan proposes to maintain the classification of gig economy workers as independent contractors, emphasizing flexibility and free-market principles but potentially leaving these workers without crucial protections and benefits.
 
 **Analysis:**
 

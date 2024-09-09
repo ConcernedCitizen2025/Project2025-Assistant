@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Foreign Aid"
+title: "Proposed Changes to Foreign Aid and International Development Programs in Project 2025"
+description: "Explore how Project 2025's proposed changes to foreign aid, including a focus on U.S. strategic interests, could impact global development and America's geopolitical standing."
 ---
 
-### *What are the proposed changes to foreign aid and international development programs?*
-
-
 # Proposed Changes to Foreign Aid and International Development Programs in Project 2025
+
+## *What are the proposed changes to foreign aid and international development programs?*
 
 **Introduction**
 
 Project 2025 outlines a comprehensive vision for reshaping the United States' approach to foreign aid and international development. The proposals reflect a broader conservative strategy that emphasizes America’s national interests and aims to reduce the global reach of U.S. government-funded programs. This approach is framed within a larger goal of cutting government spending, focusing aid more narrowly on strategic interests, and increasing accountability and oversight. The implications of these changes could have significant repercussions both domestically and internationally.
+
 
 **Analysis**
 

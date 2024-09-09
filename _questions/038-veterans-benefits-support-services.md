@@ -1,16 +1,17 @@
 ---
 layout: question
-title: "Veterans' Benefits"
+title: "Proposed Changes to Veterans' Benefits and Support Services in Project 2025"
+description: "Explore how Project 2025's proposed changes to veterans' benefits, including increased privatization of healthcare services, could impact veterans' care and social equity."
 ---
-
-### *What are the proposed changes to veterans' benefits and support services?*
-
 
 # Proposed Changes to Veterans' Benefits and Support Services in Project 2025
 
+## *What are the proposed changes to veterans' benefits and support services?*
+
 **Introduction**
 
-Project 2025 proposes significant changes to the benefits and support services provided to veterans. These changes are framed within the broader context of government downsizing and deregulation, which are central themes in the document. The goal is to increase efficiency, reduce costs, and streamline services, but these objectives may come at the expense of the quality and accessibility of care that veterans receive. This analysis will explore the proposed reforms, assess their potential impact on veterans, and evaluate the broader implications for democracy and social equity in the United States.
+Project 2025 proposes significant changes to the benefits and support services provided to veterans, framed within the broader context of government downsizing and deregulation. The goal is to increase efficiency, reduce costs, and streamline services, but these objectives may come at the expense of the quality and accessibility of care that veterans receive. This analysis explores the proposed reforms, assesses their potential impact on veterans, and evaluates the broader implications for democracy and social equity in the United States.
+
 
 **Reform of Veterans’ Health Care Services**
 
