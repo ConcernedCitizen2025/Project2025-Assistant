@@ -21,6 +21,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            overflow-x: hidden; /* Prevents the white bar issue */
         }
 
         body {
@@ -42,13 +43,12 @@
         }
 
         .logo-container {
-            flex: 1;
             text-align: center;
         }
 
         .logo-container img {
-            width: 200px;
-            height: auto;
+            max-width: 100%; /* Ensures responsive scaling */
+            height: auto; /* Prevents distortion */
         }
 
         /* Nav Links Horizontal for Desktop */
@@ -110,24 +110,16 @@
             }
 
             /* Social icons, logo, and hamburger should align in a row */
-            .logo-container {
-                flex: 0;
+            .logo-container img {
+                max-width: 100%;
+                height: auto; /* Ensures logo maintains aspect ratio */
+                display: block;
+                margin: 0 auto;
             }
 
             .social-media-icons {
                 justify-content: space-between;
                 width: 100%;
-            }
-
-            /* When the hamburger is clicked, show the menu */
-            nav ul.show {
-                display: block;
-                text-align: center;
-            }
-
-            nav ul li {
-                display: block;
-                margin: 10px 0;
             }
         }
     </style>
