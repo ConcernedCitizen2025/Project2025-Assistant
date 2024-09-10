@@ -14,32 +14,146 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    {% include google-analytics.html %}    
+    {% include google-analytics.html %}
+    
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-container {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img.logo {
+            max-width: 300px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        /* Social Media Buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .share-buttons a img {
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        main {
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* Mask Animations */
+        .mask-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .mask {
+            position: absolute;
+            top: 0;
+            transition: transform 0.5s;
+        }
+
+        .mask.left {
+            left: 0;
+        }
+
+        .mask.right {
+            right: 0;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .logo-container img.logo {
+                max-width: 250px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .share-buttons a img {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div style="text-align: center;">
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        {% if page.title == "Frequently Asked Questions" %}
-                            <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                            <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        {% elsif page.title == "Table of Contents" %}
-                            <img class="mask left" src="/assets/images/toc_logo.png" alt="TOC Logo">
-                            <img class="mask right" src="/assets/images/toc_logo.png" alt="TOC Logo">
-                        {% elsif page.title == "Project 2025 Advisory Board: Unmasking the Entities" %}
-                            <img class="mask left" src="/assets/images/mask.jpg" alt="Mask Image">
-                            <img class="mask right" src="/assets/images/mask.jpg" alt="Mask Image">
-                        {% elsif page.title == "About Us" %}
-                            <img class="mask left" src="/assets/images/about_logo.png" alt="About Us Logo">
-                            <img class="mask right" src="/assets/images/about_logo.png" alt="About Us Logo">
-                        {% elsif page.title == "Authors and Contributors" or page.layout == "author" or page.layout == "editor" or page.layout == "contributor" %}
-                            <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                            <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                        {% endif %}
-                    </div>
+                <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                <div class="mask-container">
+                    {% if page.title == "Frequently Asked Questions" %}
+                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                    {% elsif page.title == "Table of Contents" %}
+                        <img class="mask left" src="/assets/images/toc_logo.png" alt="TOC Logo">
+                        <img class="mask right" src="/assets/images/toc_logo.png" alt="TOC Logo">
+                    {% elsif page.title == "Project 2025 Advisory Board: Unmasking the Entities" %}
+                        <img class="mask left" src="/assets/images/mask.jpg" alt="Mask Image">
+                        <img class="mask right" src="/assets/images/mask.jpg" alt="Mask Image">
+                    {% elsif page.title == "About Us" %}
+                        <img class="mask left" src="/assets/images/about_logo.png" alt="About Us Logo">
+                        <img class="mask right" src="/assets/images/about_logo.png" alt="About Us Logo">
+                    {% elsif page.title == "Authors and Contributors" or page.layout == "author" or page.layout == "editor" or page.layout == "contributor" %}
+                        <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
+                        <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
+                    {% endif %}
                 </div>
             </a>
         </div>
@@ -49,18 +163,18 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
         </nav>
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
+                <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+            </a>
+        </div>
     </header>
     <main>
         <div class="translate-container">
@@ -70,17 +184,20 @@
             {{ content }}
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        {% include cookie-consent-banner.html %}
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
+
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+    
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
