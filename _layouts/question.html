@@ -14,26 +14,25 @@
             padding: 0;
         }
 
-        /* Using flexbox to make sure the footer stays at the bottom if content is short */
+        /* Flexbox to ensure footer stays at the bottom */
         body {
             display: flex;
             flex-direction: column;
         }
 
-        /* Ensuring the main content takes up the available space */
         main {
             flex: 1;
         }
 
-        /* Positioning the nutshell logo */
+        /* Styling the nutshell logo */
         .nutshell-logo-container {
             position: absolute;
-            top: 170px; /* Adjust as needed */
-            right: 10px; /* Adjust as needed */
+            top: 170px;
+            right: 10px;
         }
 
         .nutshell-logo-container img {
-            width: 175px; /* Adjust size as needed */
+            width: 175px;
             height: auto;
         }
 
@@ -41,7 +40,7 @@
             max-width: 800px;
             margin: 0 auto;
             text-align: left;
-            padding: 20px; /* Add some padding */
+            padding: 20px;
         }
 
         .content-container h1, .content-container h2 {
@@ -53,6 +52,14 @@
             color: #fff;
             text-align: center;
             padding: 10px;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            .nutshell-logo-container {
+                right: 5px; /* Adjust for smaller screens */
+                top: 150px;
+            }
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
@@ -86,7 +93,7 @@
             <!-- Adding the nutshell logo and making it clickable -->
             <div class="nutshell-logo-container">
                 <a href="#nutshell">
-                <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
+                    <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
                 </a>
             </div>
             <div class="share-buttons">

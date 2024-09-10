@@ -20,12 +20,17 @@
             text-align: center;
         }
 
+        .logo-container {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: center; /* Centering the navigation links */
+            justify-content: center;
         }
 
         nav ul li {
@@ -35,8 +40,8 @@
         nav ul li a {
             color: #fff !important;
             text-decoration: none;
-            font-weight: normal; /* Set font weight to normal for consistency */
-            font-size: 16px; /* Ensure consistent font size */
+            font-weight: normal;
+            font-size: 16px;
             padding: 5px 10px;
             border-radius: 5px;
         }
@@ -49,10 +54,10 @@
             background-color: #fff;
             margin: 20px auto;
             padding: 20px;
-            max-width: 700px; /* Setting a max-width to center the content */
+            max-width: 700px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Centering the heading */
+            text-align: center;
         }
 
         footer {
@@ -61,7 +66,6 @@
             background-color: #222;
             color: #fff;
             position: relative;
-            bottom: 0;
             width: 100%;
         }
 
@@ -75,9 +79,9 @@
         ul {
             padding: 0;
             list-style: none;
-            max-width: 100%; /* Ensuring the list takes up the full width available */
-            margin: 0 auto; /* Centers the list */
-            text-align: left; /* Ensures text is aligned to the left */
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: left;
         }
 
         ul li {
@@ -94,6 +98,31 @@
             text-decoration: underline;
         }
 
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                padding: 15px;
+                max-width: 90%;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+
+            .share-buttons {
+                display: flex;
+                justify-content: center;
+            }
+
+            .share-buttons a {
+                margin: 0 5px;
+            }
+        }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
@@ -102,18 +131,16 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    {% include google-analytics.html %}    
+    {% include google-analytics.html %}
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                    </div>
+                <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                    <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
                 </div>
             </a>
         </div>
@@ -123,18 +150,18 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
         </nav>
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
+                <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+            </a>
+        </div>
     </header>
     <div class="translate-container">
         {% include google_translate.html %}
@@ -144,35 +171,38 @@
             {{ content }}
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        {% include cookie-consent-banner.html %}
+    
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+    
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
-    
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
-    
+
                 logoContainer.addEventListener("mouseover", function() {
                     leftMask.style.transform = "translateX(-200%)";
                     rightMask.style.transform = "translateX(200%)";
                 });
-    
+
                 logoContainer.addEventListener("mousemove", function() {
                     leftMask.style.transform = "translateX(-200%)";
                     rightMask.style.transform = "translateX(200%)";
                 });
-    
+
                 logoContainer.addEventListener("mouseout", function() {
                     leftMask.style.transform = "translateX(0)";
                     rightMask.style.transform = "translateX(0)";
@@ -180,6 +210,5 @@
             });
         });
     </script>
-    
 </body>
 </html>

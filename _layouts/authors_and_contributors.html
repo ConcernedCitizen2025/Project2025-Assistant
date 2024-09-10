@@ -5,10 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+
     <style>
+        /* Styling for authors and contributors list */
         .authors-contributors-list li {
             line-height: 1.6; /* Adjust this value for more or less space */
-            margin-bottom: 10px; /* Optional: Add some margin at the bottom of each list item */
+            margin-bottom: 10px;
+        }
+
+        /* Responsive main content container */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        /* Basic styling for the body */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Logo container */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Navigation menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-buttons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .logo-container img {
+                width: 150px;
+            }
+
+            nav ul {
+                display: none; /* Hidden on mobile */
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            .share-buttons {
+                justify-content: space-between;
+                width: 100%;
+            }
         }
     </style>
 
@@ -57,17 +148,15 @@
     <div class="translate-container">
         {% include google_translate.html %}
     </div>
-    <main style="max-width: 800px; margin: auto; text-align: left;">
-        <!--<h1 style="text-align: center;">{{ page.title }}</h1>-->
+    <main>
         <div class="authors-contributors-list">
             {{ content }} <!-- This is where the content from the .md file will be injected -->
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        {% include cookie-consent-banner.html %}
-
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
@@ -90,6 +179,12 @@
                     leftMask.style.transform = "translateX(0)";
                     rightMask.style.transform = "translateX(0)";
                 });
+            });
+
+            /* Hamburger Menu Toggle */
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                const menu = document.querySelector('nav ul');
+                menu.classList.toggle('show');
             });
         });
     </script>
