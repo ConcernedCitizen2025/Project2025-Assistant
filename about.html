@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About Project 2025 Assistant</title>
+    <!-- Dynamic Meta Description -->
+    
+    <meta name="description" content="Learn about the creator behind Project 2025 Assistant, a resource that breaks down Project 2025's potential threats to American democracy.">
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <meta name="keywords" content="Project 2025, American democracy, political analysis, civic engagement, democratic principles, threats to democracy">
+    
+
+    <script>
+        fetch('/assets/data/structured-data.json')
+          .then(response => response.json())
+          .then(data => {
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(data);
+            document.head.appendChild(script);
+          })
+          .catch(error => {
+            console.error('Error loading structured data:', error);
+          });
+    </script>
+        
+
+    <!-- Other Metadata -->
+    <meta name="author" content="Project 2025 Assistant">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         /* Styling the body to avoid white borders around the header and footer */
@@ -102,10 +129,10 @@
                 <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/about.html" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
                 </a>
-                <a href="https://twitter.com/share?url=https://project2025assistant.org/about.html&text=About Us" target="_blank">
+                <a href="https://twitter.com/share?url=https://project2025assistant.org/about.html&text=About Project 2025 Assistant" target="_blank">
                     <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
                 </a>
-                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/about.html&title=About Us" target="_blank">
+                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/about.html&title=About Project 2025 Assistant" target="_blank">
                     <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
                 </a>
             </div>            
