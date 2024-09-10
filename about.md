@@ -1,6 +1,8 @@
 ---
 layout: about
-title: "About Us"
+title: "About Project 2025 Assistant"
+description: "Learn about the creator behind Project 2025 Assistant, a resource that breaks down Project 2025's potential threats to American democracy."
+keywords: "Project 2025, American democracy, political analysis, civic engagement, democratic principles, threats to democracy"
 ---
 
 # About Us
