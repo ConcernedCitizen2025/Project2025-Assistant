@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- Dynamic Meta Description -->
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    <!-- Dynamic Meta Keywords -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
+
+    <script>
+        fetch('/assets/data/structured-data.json')
+          .then(response => response.json())
+          .then(data => {
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(data);
+            document.head.appendChild(script);
+          })
+          .catch(error => {
+            console.error('Error loading structured data:', error);
+          });
+    </script>
+        
+
+    <!-- Other Metadata -->
+    <meta name="author" content="Project 2025 Assistant">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         /* Styling the body to avoid white borders around the header and footer */
