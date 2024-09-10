@@ -191,26 +191,6 @@ a:visited {
     color: #6c757d;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    main {
-        padding: 15px;
-    }
-
-    header {
-        padding: 10px 0;
-    }
-
-    nav ul li {
-        margin: 0 10px;
-    }
-
-    .article-container,
-    .content-wrapper {
-        padding: 15px;
-    }
-}
-
 /* Common styles for content-heavy layout pages */
 
 .content-layout .article-container {
@@ -332,66 +312,56 @@ img {
     height: auto;     /* Maintains the aspect ratio */
 }
 
-/* This applies to screens 768px wide and smaller */
+/* Mobile responsive styles */
 @media (max-width: 768px) {
-    body {
-        font-size: 16px;
+    /* Logo scaling */
+    .logo {
+        max-width: 80%; /* Adjust as needed */
+        height: auto;
     }
 
-    header, footer {
-        padding: 15px;
+    /* Social media buttons */
+    .share-buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
+    .share-buttons a {
+        margin: 0 5px; /* Space between buttons */
+    }
+
+    /* Hamburger menu */
     nav ul {
-        flex-direction: column; /* Stack navigation items vertically */
-        padding: 0;
+        display: none; /* Hide the regular menu */
     }
 
-    nav ul li {
-        margin-bottom: 10px; /* Add spacing between stacked items */
-    }
-
-    main {
-        padding: 20px;
-        max-width: 100%; /* Ensure the content takes up full width on mobile */
-    }
-
-    .logo-container img {
-        max-width: 200px; /* Reduce logo size on smaller screens */
-    }
-
-    /* Make buttons fit the screen */
-    button, .share-buttons a {
-        width: 100%; 
-        margin-bottom: 10px; 
-    }
-}
-
-/* Adjust font sizes on small screens */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1em;
-        line-height: 1.6;
-    }
-}
-
-/* Mobile nav setup */
-@media (max-width: 768px) {
-    nav ul {
-        display: none; /* Hide menu items initially */
-        flex-direction: column;
-    }
-
-    nav ul.show {
-        display: flex; /* Show when toggled */
-    }
-
-    .menu-toggle {
-        display: block; /* Show the hamburger icon */
+    nav .hamburger {
+        display: block; /* Show hamburger icon */
+        text-align: center;
         cursor: pointer;
+    }
+
+    /* Show menu when hamburger is clicked */
+    nav ul.show {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Default desktop styles */
+@media (min-width: 769px) {
+    /* Ensure the regular menu shows on larger screens */
+    nav ul {
+        display: inline-block;
+    }
+
+    nav .hamburger {
+        display: none;
+    }
+
+    .share-buttons {
+        display: flex;
+        justify-content: center;
     }
 }
