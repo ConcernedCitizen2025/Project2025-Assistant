@@ -37,6 +37,7 @@
                 </div>
             </a>
         </div>
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -97,5 +98,11 @@
             });
         });
     </script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+        });
+    </script>    
 </body>
 </html>
