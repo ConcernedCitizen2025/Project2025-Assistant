@@ -22,17 +22,133 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
+
+    <style>
+        /* General styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-container {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        /* Social Media Buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .share-buttons a img {
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        main {
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* Mask animations */
+        .mask-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .mask {
+            position: absolute;
+            top: 0;
+            transition: transform 0.5s;
+        }
+
+        .mask.left {
+            left: 0;
+        }
+
+        .mask.right {
+            right: 0;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            .logo-container img {
+                max-width: 250px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .share-buttons a img {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div style="text-align: center;">
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                        <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                    </div>
+                <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
+                    <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
                 </div>
             </a>
         </div>
@@ -42,18 +158,18 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/editors/steven-groves.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url=https://project2025assistant.org/editors/steven-groves.html&text=Steven Groves" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/editors/steven-groves.html&title=Steven Groves" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
         </nav>
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/editors/steven-groves.html" target="_blank">
+                <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/editors/steven-groves.html&text=Steven Groves" target="_blank">
+                <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/editors/steven-groves.html&title=Steven Groves" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+            </a>
+        </div>
     </header>
     <main>
         <div class="translate-container">
@@ -100,8 +216,9 @@ Groves’ tenure in the Trump administration included handling sensitive communi
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -109,14 +226,16 @@ Groves’ tenure in the Trump administration included handling sensitive communi
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+    
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");

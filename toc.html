@@ -70,9 +70,24 @@
             padding: 10px;
             background-color: #222;
             color: #fff;
-            /* Remove fixed positioning for the footer */
             position: relative;
             width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .content-wrapper {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
@@ -90,7 +105,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>     
+</script>
 </head>
 <body class="toc-page">
     <header>

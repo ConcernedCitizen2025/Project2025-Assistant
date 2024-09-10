@@ -23,20 +23,23 @@
 
         .logo-container {
             margin-bottom: 10px;
+            text-align: center;
         }
 
         nav ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
         }
 
         nav ul li {
-            display: inline;
             margin-right: 15px;
         }
 
         nav ul li a {
-            color: #fff !important; /* Ensuring the color remains white */
+            color: #fff !important;
             text-decoration: none;
             font-weight: bold;
             padding: 5px 10px;
@@ -61,7 +64,6 @@
             padding: 10px;
             background-color: #222;
             color: #fff;
-            /* Remove fixed positioning for the footer */
             position: relative;
             width: 100%;
         }
@@ -72,22 +74,57 @@
 
         /* Specific styles for the questions */
         .faq ul, .faq ol {
-            margin-left: 0; /* Align to the left */
-            padding-left: 0; /* Remove padding */
-            list-style-position: inside; /* List items inside the container */
-            text-align: left; /* Ensure text is left-aligned */
+            margin-left: 0;
+            padding-left: 0;
+            list-style-position: inside;
+            text-align: left;
         }
 
         .faq li {
-            margin-bottom: 20px; /* Add spacing between list items */
-            line-height: 1.8; /* Space between lines within each question */
+            margin-bottom: 20px;
+            line-height: 1.8;
         }
 
         .faq p {
-            margin-bottom: 20px; /* Add spacing between paragraphs */
-            line-height: 1.8; /* Space between lines within each paragraph */
+            margin-bottom: 20px;
+            line-height: 1.8;
         }
 
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-buttons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .logo-container img {
+                width: 150px;
+                height: auto;
+            }
+
+            .share-buttons {
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
@@ -108,14 +145,12 @@
 </head>
 <body>
     <header>
-        <div style="text-align: center;">
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                    </div>
+                <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                    <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
                 </div>
             </a>
         </div>
@@ -125,18 +160,18 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/categories/government-transparency-and-accountability.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url=https://project2025assistant.org/categories/government-transparency-and-accountability.html&text=Government Transparency and Accountability" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/categories/government-transparency-and-accountability.html&title=Government Transparency and Accountability" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
         </nav>
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/categories/government-transparency-and-accountability.html" target="_blank">
+                <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/categories/government-transparency-and-accountability.html&text=Government Transparency and Accountability" target="_blank">
+                <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/categories/government-transparency-and-accountability.html&title=Government Transparency and Accountability" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+            </a>
+        </div>
     </header>
     <div class="translate-container">
         <div id="google_translate_element"></div>
@@ -169,8 +204,8 @@ function googleTranslateElementInit() {
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -178,8 +213,8 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
