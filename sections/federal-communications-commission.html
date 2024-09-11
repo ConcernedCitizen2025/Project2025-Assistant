@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Regulatory Agencies: Federal Communications Commission</title>
+
     <!-- Dynamic Meta Description -->
     
 
@@ -11,7 +12,7 @@
     
     <link rel="stylesheet" href="/assets/css/styles.css">
 
-    <!-- Ensure the correct favicon and icons -->
+    <!-- Favicon and icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -20,9 +21,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Main Styles -->
     <style>
-        /* Base styles for all devices */
+        /* Base styles */
         html, body {
             height: 100%;
             margin: 0;
@@ -39,7 +39,7 @@
             flex: 1;
         }
 
-        /* Center align the logo and menu */
+        /* Center align the main logo */
         .header-content {
             display: flex;
             justify-content: space-between;
@@ -58,31 +58,32 @@
             height: auto;
         }
 
-        /* Positioning of the red flag and nutshell logos */
+        /* Positioning the red flag and nutshell logos properly within the header */
         .nutshell-logo-container, .redflags-logo-container {
-            position: absolute; /* Ensures logos stay at the top near the main logo */
-            top: 150px;
+            position: relative; /* Positioned relative to the header */
             width: 130px; /* Adjusted size */
             height: auto;
         }
 
         .nutshell-logo-container {
             right: 10px;
+            margin-left: auto;
         }
 
         .redflags-logo-container {
             left: 10px;
+            margin-right: auto;
         }
 
         .nutshell-logo-container img, .redflags-logo-container img {
             width: 100%;
             height: auto;
-            background: none; /* Ensure no background on the logos */
+            background: none; /* Ensure no background */
         }
 
-        /* The logos will stay at the top and not move with the page */
-        .nutshell-logo-container, .redflags-logo-container {
-            position: absolute; /* Stay at top with the main logo */
+        /* Ensure the logos don't scroll down with the page */
+        header {
+            position: relative;
         }
 
         .content-container {
@@ -103,14 +104,14 @@
             right: 30px;
             width: 60px;
             height: 60px;
-            background-image: url('/assets/images/arrow.png'); /* Your arrow image */
-            background-size: contain;
+            background-image: url('/assets/images/arrow.png'); /* Path to your transparent arrow */
+            background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
-            display: none; /* Hidden until scrolled down */
+            display: none; /* Initially hidden */
             z-index: 1000;
             border: none;
-            background-color: transparent; /* Ensure the button has a transparent background */
+            background-color: transparent; /* Transparent background */
         }
 
         @media (max-width: 768px) {
@@ -121,9 +122,8 @@
                 height: 50px;
             }
 
-            /* Adjust logo sizes on mobile */
+            /* Adjust logo sizes for mobile */
             .nutshell-logo-container, .redflags-logo-container {
-                top: 130px;
                 width: 100px; /* Smaller for mobile */
             }
         }
@@ -132,11 +132,11 @@
 <body>
     <header>
         <div class="header-wrapper">
-            <a href="/">
-                <div class="logo-container">
+            <div class="logo-container">
+                <a href="/">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                </div>
-            </a>
+                </a>
+            </div>
 
             <!-- Red Flags logo on the left -->
             <div class="redflags-logo-container">
@@ -398,7 +398,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             // Back to Top Button
             const backToTopButton = document.getElementById('back-to-top');
-            
+
             // Show button after scrolling down
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 300) {  // Adjust this value as needed
