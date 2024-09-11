@@ -137,6 +137,22 @@
             text-align: center;
         }
 
+        /* Back to top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            background-color: #222;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            z-index: 1000;
+        }
+
         /* Responsive styles for mobile */
         @media (max-width: 768px) {
             .hamburger {
@@ -183,6 +199,14 @@
 
             .social-media-icons {
                 justify-content: center;
+            }
+
+            /* Resize the back to top button for mobile */
+            #back-to-top {
+                bottom: 20px;
+                right: 20px;
+                font-size: 16px;
+                padding: 8px;
             }
         }
     </style>    
@@ -505,6 +529,9 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
         </ul>
     </footer>
 
+    <!-- Back to top button -->
+    <button id="back-to-top" title="Back to Top">&#8679;</button>
+
     <!-- Restore the JavaScript to handle logo hover animation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -532,9 +559,7 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
                     const targetId = this.getAttribute('href').substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
-                        // Smooth scroll to the section
                         targetElement.scrollIntoView({ behavior: 'smooth' });
-                        // Update the URL without reloading the page
                         history.pushState(null, null, `#${targetId}`);
                     }
                 });
@@ -543,15 +568,30 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
             // Handle back button behavior using popstate
             window.addEventListener('popstate', function() {
                 if (!location.hash) {
-                    // Scroll to top if there's no hash
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 } else {
-                    // Scroll to the relevant section if hash exists
                     const targetElement = document.querySelector(location.hash);
                     if (targetElement) {
                         targetElement.scrollIntoView({ behavior: 'smooth' });
                     }
                 }
+            });
+
+            // Back to Top Button
+            const backToTopButton = document.getElementById('back-to-top');
+            
+            // Show button after scrolling down
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 300) {  // Adjust this value as needed
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+
+            // Scroll to top when clicking the button
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         });
     </script>
