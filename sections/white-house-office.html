@@ -58,11 +58,12 @@
             height: auto;
         }
 
-        /* Positioning the red flag and nutshell logos properly within the header */
+        /* Positioning the red flag and nutshell logos properly */
         .nutshell-logo-container, .redflags-logo-container {
-            position: relative; /* Positioned relative to the header */
-            width: 130px; /* Adjusted size */
+            position: relative;
+            width: 120px; /* Adjusted size to match the other screenshot */
             height: auto;
+            margin-top: -40px; /* Align them with the bottom of the main logo */
         }
 
         .nutshell-logo-container {
@@ -78,7 +79,6 @@
         .nutshell-logo-container img, .redflags-logo-container img {
             width: 100%;
             height: auto;
-            background: none; /* Ensure no background */
         }
 
         /* Ensure the logos don't scroll down with the page */
@@ -97,6 +97,34 @@
             text-align: center;
         }
 
+        /* Navigation and social media links */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
         /* Back to top button */
         #back-to-top {
             position: fixed;
@@ -111,7 +139,7 @@
             display: none; /* Initially hidden */
             z-index: 1000;
             border: none;
-            background-color: transparent; /* Transparent background */
+            background-color: transparent;
         }
 
         @media (max-width: 768px) {
@@ -124,7 +152,7 @@
 
             /* Adjust logo sizes for mobile */
             .nutshell-logo-container, .redflags-logo-container {
-                width: 100px; /* Smaller for mobile */
+                width: 100px;
             }
         }
     </style>
@@ -453,11 +481,27 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
         </div>
     </main>
 
+    <!-- Footer with social media icons and navigation links -->
     <footer>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/sections/white-house-office.html" target="_blank">
+                <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/sections/white-house-office.html&text=White House Office" target="_blank">
+                <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/sections/white-house-office.html&title=White House Office" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+            </a>
+        </div>
         <p>© 2024 Project 2025 Assistant</p>
-        <ul>
-            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-        </ul>
     </footer>
 
     <!-- Back to top button -->
