@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Department of Homeland Security</title>
+
+    <!-- Dynamic Meta Description for SEO -->
+    
+
+    <!-- Dynamic Meta Keywords for SEO -->
+    
+
+    <!-- Favicon and Web Manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Styles -->
     <style>
-        /* Basic styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -26,7 +42,7 @@
         /* Structure for the nutshell and red flags logos */
         .logo-container {
             position: absolute;
-            width: 50px; /* Adjusted size */
+            width: 50px;
         }
 
         .redflags-logo-container {
@@ -40,11 +56,10 @@
         }
 
         .logo-container img {
-            width: 50px; /* Adjusted logo size */
+            width: 50px;
             height: auto;
         }
 
-        /* Content sections */
         .section {
             height: 500px;
             padding: 20px;
@@ -52,13 +67,11 @@
             border: 1px solid #ddd;
         }
 
-        /* Hover animation for main logo */
         .logo-container img:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
 
-        /* Footer */
         footer {
             background-color: #222;
             color: #fff;
@@ -66,14 +79,12 @@
             padding: 10px;
         }
 
-        /* Responsive for mobile */
         @media (max-width: 768px) {
             .logo-container img {
-                width: 30px; /* Smaller for mobile screens */
+                width: 30px;
             }
         }
 
-        /* Basic nav styles */
         nav ul {
             list-style-type: none;
             padding: 0;
@@ -92,14 +103,12 @@
             font-size: 18px;
         }
 
-        /* Hide hamburger by default */
         .hamburger {
             display: none;
             font-size: 24px;
             cursor: pointer;
         }
 
-        /* Mobile menu */
         @media (max-width: 768px) {
             nav ul {
                 display: none;
@@ -153,7 +162,6 @@
     </header>
 
     <main>
-        <!-- Sample Content Structure -->
         <div class="section" id="redflags">
             <h2>Red Flags Section</h2>
             <p>This is the red flags section with some placeholder content.</p>
@@ -172,6 +180,17 @@
         </ul>
     </footer>
 
+    <!-- Google Analytics (reintroduced) -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+
     <!-- JavaScript for Hamburger Menu -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -182,7 +201,6 @@
                 navMenu.classList.toggle('show');
             });
 
-            // Simple hover effect for logos
             const logoContainers = document.querySelectorAll(".logo-container img");
             logoContainers.forEach(function(logo) {
                 logo.addEventListener("mouseover", function() {
