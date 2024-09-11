@@ -511,6 +511,7 @@ function googleTranslateElementInit() {
 
             // Handle popstate for back button behavior
             window.addEventListener('popstate', function() {
+                // If the current location hash is empty (i.e., no fragment identifier)
                 if (!location.hash) {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
