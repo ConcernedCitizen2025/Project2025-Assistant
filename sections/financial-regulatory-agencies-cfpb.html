@@ -570,17 +570,27 @@ function googleTranslateElementInit() {
                     const targetId = this.getAttribute('href').substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
                         history.pushState(null, null, `#${targetId}`);
                     }
                 });
             });
 
-            // Handle popstate for back button behavior
-            window.addEventListener('popstate', function() {
-                // If the current location hash is empty (i.e., no fragment identifier)
+            // Handle back button behavior using popstate
+            window.addEventListener('popstate', function(event) {
                 if (!location.hash) {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                    const targetElement = document.querySelector(location.hash);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
                 }
             });
         });
