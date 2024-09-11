@@ -104,37 +104,6 @@
             margin: 0 10px;
         }
 
-        /* Responsive styles for mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                font-size: 30px;
-                cursor: pointer;
-            }
-
-            nav ul {
-                display: none; /* Hide regular nav */
-            }
-
-            /* Align logo and hamburger in a row */
-            .header-content {
-                justify-content: space-between;
-            }
-
-            /* Social icons, logo, and hamburger should align in a row */
-            .logo-container img {
-                max-width: 100%;
-                height: auto; /* Ensures logo maintains aspect ratio */
-                display: block;
-                margin: 0 auto;
-            }
-
-            .social-media-icons {
-                justify-content: space-between;
-                width: 100%;
-            }
-        }
-        
         /* Styling the nutshell and red flags logos */
         .nutshell-logo-container, .redflags-logo-container {
             position: absolute;
@@ -167,11 +136,57 @@
             text-align: center;
         }
 
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            nav ul {
+                display: none; /* Hide regular nav */
+            }
+
+            /* Align logo and hamburger in a row */
+            .header-content {
+                justify-content: space-between;
+            }
+
+            /* Social icons, logo, and hamburger should align in a row */
+            .logo-container img {
+                max-width: 100%;
+                height: auto; /* Ensures logo maintains aspect ratio */
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            /* Shrinking and aligning logos with social media icons on mobile */
+            .nutshell-logo-container, .redflags-logo-container {
+                position: static; /* Removes fixed positioning */
+                width: 70px; /* Shrinking for mobile */
+                display: inline-block; /* Align with social icons */
+                margin: 0 10px; /* Spacing between icons */
+            }
+
+            .nutshell-logo-container img, .redflags-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            /* Aligning the logos with social media icons */
+            .social-media-icons img {
+                width: 30px; /* Smaller size for social icons */
+            }
+
+            .social-media-icons {
+                justify-content: center;
+            }
         }
     </style>    
 </head>
@@ -477,6 +492,7 @@ The document emphasizes the need to return to the constitutional division of war
         </ul>
     </footer>
     <script>
+        // Fix the behavior for anchor links when clicking back
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
             logoContainers.forEach(function(logoContainer) {
@@ -493,9 +509,29 @@ The document emphasizes the need to return to the constitutional division of war
                     rightMask.style.transform = "translateX(0)";
                 });
             });
+
+            // Smooth scroll and back button fix for anchor links
+            const anchors = document.querySelectorAll('a[href^="#"]');
+            anchors.forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = anchor.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+
+                    history.pushState({}, "", targetId); // Updating browser history
+                });
+            });
+
+            window.addEventListener('popstate', function () {
+                // Scroll to top on back button
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
         });
-    </script>
-    <script>
+
         document.querySelector('.hamburger').addEventListener('click', function() {
             const menu = document.querySelector('nav ul');
             menu.classList.toggle('show');
