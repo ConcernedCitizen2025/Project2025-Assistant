@@ -142,15 +142,15 @@
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background-color: red; /* Make it visible for debugging */
-            color: white;
+            width: 50px;
+            height: 50px;
+            background-image: url('/assets/images/arrow.png'); /* Use your arrow.png */
+            background-size: cover;
+            background-repeat: no-repeat;
             border: none;
-            padding: 15px;
-            border-radius: 50%;
             cursor: pointer;
-            font-size: 20px;
+            display: none; /* Hidden until scrolled down */
             z-index: 1000;
-            display: block; /* Always show initially to debug */
         }
 
         /* Responsive styles for mobile */
@@ -205,8 +205,9 @@
             #back-to-top {
                 bottom: 20px;
                 right: 20px;
-                font-size: 16px;
-                padding: 10px;
+                width: 40px;
+                height: 40px;
+                background-size: cover;
             }
         }
     </style>    
@@ -593,7 +594,7 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
     </footer>
 
     <!-- Back to top button -->
-    <button id="back-to-top" title="Back to Top">&#8679;</button>
+    <button id="back-to-top" title="Back to Top"></button>
 
     <!-- Restore the JavaScript to handle logo hover animation -->
     <script>
