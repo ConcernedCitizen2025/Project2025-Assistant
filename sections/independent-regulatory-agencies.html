@@ -203,13 +203,13 @@
                 </div>
             </a>
             <!-- Red Flags logo on the left -->
-            <a class="redflags-btn" href="#redflags">
+            <a href="#redflags">
                 <div class="redflags-logo-container">
                     <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
                 </div>
             </a>
             <!-- Nutshell logo on the right -->
-            <a class="nutshell-btn" href="#nutshell">
+            <a href="#nutshell">
                 <div class="nutshell-logo-container">
                     <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
                 </div>
@@ -476,7 +476,6 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
     <script>
-        // Fix the behavior for anchor links when clicking back
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
             logoContainers.forEach(function(logoContainer) {
@@ -493,34 +492,13 @@ function googleTranslateElementInit() {
                     rightMask.style.transform = "translateX(0)";
                 });
             });
-
-            // Scroll to anchor and handle browser back button correctly
-            const anchors = document.querySelectorAll('.redflags-btn, .nutshell-btn');
-            anchors.forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const targetId = anchor.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: "smooth"
-                    });
-                    
-                    // Push new state to browser history
-                    history.pushState({}, "", targetId); 
-                });
-            });
-
-            window.addEventListener('popstate', function () {
-                // Scroll to the top when hitting the back button
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            });
         });
 
+        // Toggle mobile menu visibility
         document.querySelector('.hamburger').addEventListener('click', function() {
             const menu = document.querySelector('nav ul');
             menu.classList.toggle('show');
         });
-    </script> 
+    </script>
 </body>
 </html>
