@@ -100,6 +100,20 @@
             margin: 0 10px;
         }
 
+        /* Corrected styling for Red Flags and Nutshell logos */
+        .logo-small {
+            width: 100px; /* Set the width of the small logos */
+            height: auto;
+            transition: all 0.3s ease;
+        }
+
+        /* Adjust logo size for larger screens */
+        @media (min-width: 1024px) {
+            .logo-small {
+                width: 150px;
+            }
+        }
+
         /* Responsive styles for mobile */
         @media (max-width: 768px) {
             .hamburger {
@@ -129,34 +143,18 @@
                 justify-content: space-between;
                 width: 100%;
             }
-        }
-        /* Styling the nutshell logo */
-        .nutshell-logo-container {
-            position: absolute;
-            top: 170px;
-            right: 10px;
+
+            /* Show the vertical nav for mobile */
+            nav ul.show {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
         }
 
-        .nutshell-logo-container img {
-            width: 175px;
-            height: auto;
-        }
-
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-            padding: 20px;
-        }
-
-        .content-container h1, .content-container h2 {
-            text-align: center;
-        }
-
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
+        /* Styling the nutshell and redflags logos */
+        .nutshell-logo-container, .redflags-logo-container {
+            display: inline-block;
             padding: 10px;
         }
     </style>    
@@ -174,11 +172,11 @@
                 </div>
             </a>
             <!-- Red Flags logo on the left -->
-            <a href="#redflags">
+            <a href="#redflags" class="redflags-logo-container">
                 <img class="logo-small redflags-logo" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
             </a>
             <!-- Nutshell logo on the right -->
-            <a href="#nutshell">
+            <a href="#nutshell" class="nutshell-logo-container">
                 <img class="logo-small nutshell-logo" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
             </a>
         </div>
