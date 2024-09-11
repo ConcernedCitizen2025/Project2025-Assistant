@@ -72,18 +72,84 @@
                 width: 30px; /* Smaller for mobile screens */
             }
         }
+
+        /* Basic nav styles */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Mobile menu */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background-color: #333;
+                padding: 20px;
+                text-align: center;
+            }
+
+            nav ul.show {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .header-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Department of Energy and Related Commissions</h1>
-        <!-- Logos with appropriate sizes -->
-        <div class="redflags-logo-container logo-container">
-            <a href="#redflags"><img src="/assets/images/redflags_logo.png" alt="Red Flags Logo"></a>
+        <div class="header-content">
+            <h1>Department of Energy and Related Commissions</h1>
+
+            <!-- Logos with appropriate sizes -->
+            <div class="redflags-logo-container logo-container">
+                <a href="#redflags"><img src="/assets/images/redflags_logo.png" alt="Red Flags Logo"></a>
+            </div>
+            <div class="nutshell-logo-container logo-container">
+                <a href="#nutshell"><img src="/assets/images/nutshell_logo.png" alt="Nutshell Logo"></a>
+            </div>
+
+            <!-- Hamburger icon for mobile -->
+            <div class="hamburger">&#9776; Menu</div>
         </div>
-        <div class="nutshell-logo-container logo-container">
-            <a href="#nutshell"><img src="/assets/images/nutshell_logo.png" alt="Nutshell Logo"></a>
-        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -106,9 +172,17 @@
         </ul>
     </footer>
 
+    <!-- JavaScript for Hamburger Menu -->
     <script>
-        // Simple hover effect for logos
         document.addEventListener("DOMContentLoaded", function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('show');
+            });
+
+            // Simple hover effect for logos
             const logoContainers = document.querySelectorAll(".logo-container img");
             logoContainers.forEach(function(logo) {
                 logo.addEventListener("mouseover", function() {
