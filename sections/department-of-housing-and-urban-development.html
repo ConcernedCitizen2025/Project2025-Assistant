@@ -109,7 +109,7 @@
         .nutshell-logo-container, .redflags-logo-container {
             position: absolute;
             top: 150px;
-            width: 80px; /* Adjusted for a more reasonable size */
+            width: 130px; /* Increased size */
             height: auto;
         }
 
@@ -144,11 +144,11 @@
             right: 30px;
             width: 60px;
             height: 60px;
-            background-image: url('/assets/images/arrow.png'); /* Use the round PNG you provided */
-            background-size: cover;
+            background-image: url('/assets/images/arrow.png'); /* Ensure path is correct */
+            background-size: contain;
             background-repeat: no-repeat;
             cursor: pointer;
-            display: none; /* Hidden until scrolled down */
+            display: block; /* Ensure it is visible */
             z-index: 1000;
             border: none; /* No additional border */
         }
@@ -157,14 +157,14 @@
             #back-to-top {
                 bottom: 20px;
                 right: 20px;
-                width: 40px;
-                height: 40px;
+                width: 50px;
+                height: 50px;
             }
 
             /* Adjust logo sizes on mobile */
             .nutshell-logo-container, .redflags-logo-container {
                 top: 130px;
-                width: 60px; /* Smaller for mobile */
+                width: 100px; /* Adjusted size for mobile */
             }
         }
     </style>    
