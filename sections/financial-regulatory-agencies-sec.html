@@ -514,53 +514,7 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
 
-    <!-- JS to fix back button behavior and anchor links -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
-
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
-
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
-            });
-
-            // Handle mobile menu toggle
-            document.querySelector('.hamburger').addEventListener('click', function() {
-                const menu = document.querySelector('nav ul');
-                menu.classList.toggle('show');
-            });
-
-            // Handle back button behavior for scrolling to top
-            window.addEventListener('popstate', function(event) {
-                if (!location.hash) {
-                    window.scrollTo(0, 0); // Scroll to the top of the page
-                }
-            });
-
-            // Capture click events for red flag and nutshell buttons
-            document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-
-                    if (targetElement) {
-                        history.pushState(null, null, `#${targetId}`);
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
-                    }
-                });
-            });
-        });
-    </script>
+    <!-- Removed unnecessary JavaScript for scrolling behavior -->
 
 </body>
 </html>
