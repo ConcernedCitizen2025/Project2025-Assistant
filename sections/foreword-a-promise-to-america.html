@@ -79,6 +79,26 @@
             padding: 10px;
         }
 
+        /* Style for footer links */
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #fff;
+        }
+
         @media (max-width: 768px) {
             .logo-container img {
                 width: 30px;
@@ -154,6 +174,20 @@
             cursor: pointer;
             border-radius: 5px;
         }
+
+        /* Back-to-top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
     </style>
 </head>
 <body>
@@ -198,9 +232,12 @@
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
-            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
         </ul>
     </footer>
+
+    <!-- Back-to-top Button -->
+    <div id="back-to-top">↑</div>
 
     <!-- Cookie Consent Banner -->
     <div class="cookie-banner" id="cookie-banner">
@@ -219,24 +256,43 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
 
-    <!-- JavaScript for Hamburger Menu and Cookie Banner -->
+    <!-- JavaScript for Hamburger Menu, Cookie Banner, and Smooth Scrolling -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('nav ul');
+            const backToTopButton = document.getElementById('back-to-top');
 
+            // Mobile Menu Toggle
             hamburger.addEventListener('click', function() {
                 navMenu.classList.toggle('show');
             });
 
-            const logoContainers = document.querySelectorAll(".logo-container img");
-            logoContainers.forEach(function(logo) {
-                logo.addEventListener("mouseover", function() {
-                    logo.style.transform = "scale(1.1)";
+            // Smooth Scroll for anchor links
+            const anchorLinks = document.querySelectorAll('a[href^="#"]');
+            anchorLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
                 });
-                logo.addEventListener("mouseout", function() {
-                    logo.style.transform = "scale(1)";
-                });
+            });
+
+            // Show Back-to-Top button on scroll
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+
+            // Scroll to top on Back-to-Top button click
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
 
             // Cookie consent banner
