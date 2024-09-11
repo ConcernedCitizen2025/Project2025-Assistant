@@ -28,190 +28,30 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
     <style>
-        /* Base styles for all devices */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        main {
-            flex: 1;
-        }
-
-        /* Center align the logo and menu */
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            padding: 10px 20px;
-        }
-
-        .logo-container {
-            text-align: center;
-            position: relative;
-        }
-
-        .logo-container img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Nav Links Horizontal for Desktop */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Hide hamburger by default */
-        .hamburger {
-            display: none;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Social media buttons horizontal by default */
-        .social-media-icons {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        .social-media-icons img {
-            margin: 0 10px;
-        }
-
-        /* Positioning the nutshell and red flags logos */
-        .nutshell-logo-container, .redflags-logo-container {
-            position: absolute;
-            top: 150px;
-            width: 175px;
-            height: auto;
-        }
-
-        .nutshell-logo-container {
-            right: 10px;
-        }
-
-        .redflags-logo-container {
-            left: 10px;
-        }
-
-        .nutshell-logo-container img, .redflags-logo-container img {
-            width: 175px;
-            height: auto;
-        }
-
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-            padding: 20px;
-        }
-
-        .content-container h1, .content-container h2 {
-            text-align: center;
-        }
-
         /* Back to top button */
         #back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            width: 50px;
-            height: 50px;
-            background-color: red; /* Default color for debugging */
-            background-image: url('/assets/images/arrow.png'); /* Use your arrow.png */
+            width: 60px;
+            height: 60px;
+            background-image: url('/assets/images/arrow.png');
             background-size: cover;
             background-repeat: no-repeat;
-            border: none;
             cursor: pointer;
             display: none; /* Hidden until scrolled down */
             z-index: 1000;
         }
 
-        /* Responsive styles for mobile */
         @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                font-size: 30px;
-                cursor: pointer;
-            }
-
-            nav ul {
-                display: none;
-            }
-
-            .header-content {
-                justify-content: space-between;
-            }
-
-            .logo-container img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-            }
-
-            .social-media-icons {
-                justify-content: space-between;
-                width: 100%;
-            }
-
-            .nutshell-logo-container, .redflags-logo-container {
-                position: static;
-                width: 70px;
-                display: inline-block;
-                margin: 0 10px;
-            }
-
-            .nutshell-logo-container img, .redflags-logo-container img {
-                width: 70px;
-                height: auto;
-            }
-
-            .social-media-icons img {
-                width: 30px;
-            }
-
-            .social-media-icons {
-                justify-content: center;
-            }
-
-            /* Resize the back to top button for mobile */
             #back-to-top {
                 bottom: 20px;
                 right: 20px;
                 width: 40px;
                 height: 40px;
-                background-size: cover;
             }
         }
-    </style>    
+    </style>
 </head>
 <body>
     <header>
@@ -219,10 +59,6 @@
             <a href="/">
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
-                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
-                    </div>
                 </div>
             </a>
 
@@ -240,46 +76,9 @@
                 </a>
             </div>
         </div>
-
-        <div class="hamburger">&#9776; Menu</div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/toc.html">Table of Contents</a></li>
-                <li><a href="/about.html">About Us</a></li>
-            </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/sections/federal-election-commission.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url=https://project2025assistant.org/sections/federal-election-commission.html&text=Federal Election Commission" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/sections/federal-election-commission.html&title=Federal Election Commission" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
-        </nav>
     </header>
 
     <main>
-        <div class="translate-container">
-            <div id="google_translate_element"></div>
-
-<script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-  }, 'google_translate_element');
-}
-</script>
-
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-        </div>
         <div class="content-wrapper">
             <h1 id="federal-election-commission-between-the-lines">“Federal Election Commission” <em>Between the Lines</em></h1>
 
@@ -528,70 +327,18 @@ Easing regulations, such as raising contribution limits and reducing restriction
         </div>
     </main>
 
-    <!-- Include the cookie consent banner -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
-    This website uses cookies to ensure you get the best experience. 
-    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
-    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
-    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
-</div>
-
-
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
-            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
         </ul>
     </footer>
 
     <!-- Back to top button -->
     <button id="back-to-top" title="Back to Top"></button>
 
-    <!-- Restore the JavaScript to handle logo hover animation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
-
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
-
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
-            });
-
-            // Smooth Scroll for anchor links
-            const anchorLinks = document.querySelectorAll('a[href^="#"]');
-            anchorLinks.forEach(link => {
-                link.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
-                        history.pushState(null, null, `#${targetId}`);
-                    }
-                });
-            });
-
-            // Handle back button behavior using popstate
-            window.addEventListener('popstate', function() {
-                if (!location.hash) {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                } else {
-                    const targetElement = document.querySelector(location.hash);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
-                    }
-                }
-            });
-
             // Back to Top Button
             const backToTopButton = document.getElementById('back-to-top');
             
