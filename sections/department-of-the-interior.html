@@ -26,7 +26,7 @@
         /* Structure for the nutshell and red flags logos */
         .logo-container {
             position: absolute;
-            width: 100px; /* Adjusted size */
+            width: 50px; /* Adjusted size */
         }
 
         .redflags-logo-container {
@@ -52,6 +52,21 @@
             border: 1px solid #ddd;
         }
 
+        /* Hover animation for main logo */
+        .logo-container img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive for mobile */
         @media (max-width: 768px) {
             .logo-container img {
                 width: 30px; /* Smaller for mobile screens */
@@ -72,20 +87,38 @@
     </header>
 
     <main>
+        <!-- Sample Content Structure -->
         <div class="section" id="redflags">
             <h2>Red Flags Section</h2>
-            <p>This is the red flags section.</p>
+            <p>This is the red flags section with some placeholder content.</p>
         </div>
 
         <div class="section" id="nutshell">
             <h2>Nutshell Section</h2>
-            <p>This is the nutshell section.</p>
+            <p>This is the nutshell section with some placeholder content.</p>
         </div>
     </main>
 
     <footer>
-        <p>Scroll up to go back to the top or use the back button.</p>
+        <p>© 2024 Project 2025 Assistant</p>
+        <ul>
+            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+        </ul>
     </footer>
 
+    <script>
+        // Simple hover effect for logos
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container img");
+            logoContainers.forEach(function(logo) {
+                logo.addEventListener("mouseover", function() {
+                    logo.style.transform = "scale(1.1)";
+                });
+                logo.addEventListener("mouseout", function() {
+                    logo.style.transform = "scale(1)";
+                });
+            });
+        });
+    </script>
 </body>
 </html>
