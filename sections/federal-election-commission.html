@@ -203,13 +203,13 @@
                 </div>
             </a>
             <!-- Red Flags logo on the left -->
-            <a href="#redflags">
+            <a class="redflags-btn" href="#redflags">
                 <div class="redflags-logo-container">
                     <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
                 </div>
             </a>
             <!-- Nutshell logo on the right -->
-            <a href="#nutshell">
+            <a class="nutshell-btn" href="#nutshell">
                 <div class="nutshell-logo-container">
                     <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
                 </div>
@@ -536,8 +536,8 @@ Easing regulations, such as raising contribution limits and reducing restriction
                 });
             });
 
-            // Scroll to anchor and handle browser history
-            const anchors = document.querySelectorAll('a[href^="#"]');
+            // Scroll to anchor and handle browser back button correctly
+            const anchors = document.querySelectorAll('.redflags-btn, .nutshell-btn');
             anchors.forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -548,7 +548,8 @@ Easing regulations, such as raising contribution limits and reducing restriction
                         behavior: "smooth"
                     });
                     
-                    history.pushState({}, "", targetId); // Update URL
+                    // Push new state to browser history
+                    history.pushState({}, "", targetId); 
                 });
             });
 
