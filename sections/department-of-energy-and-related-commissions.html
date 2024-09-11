@@ -66,7 +66,7 @@
 
         /* Positioning of the red flag and nutshell logos */
         .nutshell-logo-container, .redflags-logo-container {
-            position: absolute; /* Logos stay near the main logo */
+            position: absolute; /* Ensures they stay at the top near the main logo */
             top: 150px;
             width: 130px; /* Adjusted size */
             height: auto;
@@ -85,9 +85,9 @@
             height: auto;
         }
 
-        /* The logos will not remain fixed as you scroll */
+        /* The logos will stay at the top and not move with the page */
         .nutshell-logo-container, .redflags-logo-container {
-            position: absolute; /* Fixed at top with main logo */
+            position: absolute; /* Stay at top with the main logo */
         }
 
         .content-container {
