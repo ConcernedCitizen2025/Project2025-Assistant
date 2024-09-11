@@ -4,49 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White House Office</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <style>
-        /* Custom styles for the logos */
-        .logo-small {
-            width: 175px; /* Adjust the width as needed */
-            height: auto; /* Maintain aspect ratio */
-            margin-top: 10px;
-        }
-
-        /* Ensuring the page layout remains centered and clean */
-        .header-wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        /* Positioning the red flags logo to the left */
-        .redflags-logo {
-            position: absolute;
-            left: 10px;
-        }
-
-        /* Positioning the nutshell logo to the right */
-        .nutshell-logo {
-            position: absolute;
-            right: 10px;
-        }
-
-        /* Media queries for responsiveness */
-        @media (max-width: 768px) {
-            .header-wrapper {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .redflags-logo, .nutshell-logo {
-                position: relative;
-                margin: 10px 0;
-            }
-        }
-
-    </style>
+    
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -62,7 +26,115 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>    
+</script>
+    <style>
+        /* Base styles for all devices */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevents the white bar issue */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Center align the logo and menu */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo-container img {
+            max-width: 100%; /* Ensures responsive scaling */
+            height: auto; /* Prevents distortion */
+        }
+
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Social media buttons horizontal by default */
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            nav ul {
+                display: none; /* Hide regular nav */
+            }
+
+            /* Align logo and hamburger in a row */
+            .header-content {
+                justify-content: space-between;
+            }
+
+            /* Social icons, logo, and hamburger should align in a row */
+            .logo-container img {
+                max-width: 100%;
+                height: auto; /* Ensures logo maintains aspect ratio */
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+    </style>    
 </head>
 <body>
     <header>
@@ -85,6 +157,7 @@
                 <img class="logo-small nutshell-logo" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
             </a>
         </div>
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -455,5 +528,11 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
             });
         });
     </script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+        });
+    </script> 
 </body>
 </html>
