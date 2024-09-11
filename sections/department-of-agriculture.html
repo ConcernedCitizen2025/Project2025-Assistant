@@ -195,6 +195,7 @@
             height: 50px;
             background: url('/assets/images/arrow.png') no-repeat center center;
             background-size: contain;
+            background-color: yellow; /* Temporarily added for visibility */
             display: none;
             cursor: pointer;
         }
@@ -593,7 +594,7 @@ The recommendations in the “Department of Agriculture” section of Project 20
                 });
             });
 
-            // Handle logo hover animation
+            // Logo hover effect
             const logoContainers = document.querySelectorAll(".logo-container");
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
