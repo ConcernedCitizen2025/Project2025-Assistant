@@ -587,27 +587,30 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
                 });
             });
 
-            // Manually scroll to anchor points and handle back button to top
+            // Handle anchor link scrolling manually
             const links = document.querySelectorAll('a[href^="#"]');
             links.forEach(link => {
                 link.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
+                    event.preventDefault(); // Prevent default jump
+                    const targetId = this.getAttribute('href').substring(1); // Get the target id
+                    const targetElement = document.getElementById(targetId); // Get the target element
+
                     if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop,
+                        // Scroll smoothly to the target element
+                        targetElement.scrollIntoView({
                             behavior: 'smooth'
                         });
+
+                        // Update the URL hash without reloading the page
                         history.pushState(null, null, `#${targetId}`);
                     }
                 });
             });
 
-            // Listen for back button and reset scroll
+            // Handle back button: scroll to top if no hash
             window.addEventListener('popstate', function() {
                 if (!location.hash) {
-                    window.scrollTo(0, 0);
+                    window.scrollTo(0, 0); // Scroll to top if no hash in URL
                 }
             });
         });
