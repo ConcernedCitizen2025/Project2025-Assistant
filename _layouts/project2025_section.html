@@ -24,33 +24,177 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Critical Inline CSS (minimized for faster loading) -->
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, footer { background-color: #333; color: white; text-align: center; padding: 20px; }
-        main { padding: 20px; }
-        .logo-container { position: absolute; width: 50px; }
-        .redflags-logo-container { left: 10px; top: 20px; }
-        .nutshell-logo-container { right: 10px; top: 20px; }
-        .logo-container img { width: 50px; height: auto; }
-        .section { height: 500px; padding: 20px; margin-bottom: 20px; border: 1px solid #ddd; }
-        .logo-container img:hover { transform: scale(1.1); transition: transform 0.3s ease-in-out; }
-        footer ul { list-style-type: none; padding: 0; }
-        footer ul li { display: inline; margin: 0 10px; }
-        footer ul li a { color: #aaa; text-decoration: none; }
-        footer ul li a:hover { color: #fff; }
-        nav ul { list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; }
-        nav ul li { margin: 0 10px; }
-        nav ul li a { color: white; text-decoration: none; font-size: 18px; }
-        .hamburger { display: none; font-size: 24px; cursor: pointer; }
-        #back-to-top { position: fixed; bottom: 30px; right: 30px; background-color: #333; color: white; padding: 10px 15px; border-radius: 50%; display: none; cursor: pointer; z-index: 1000; }
-        .cookie-banner { background-color: rgba(0, 0, 0, 0.8); color: #fff; position: fixed; bottom: 0; left: 0; width: 100%; padding: 20px; text-align: center; display: none; }
-        .cookie-banner button { background-color: #5cb85c; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; }
-        @media (max-width: 768px) { .logo-container img { width: 30px; } nav ul { display: none; flex-direction: column; background-color: #333; padding: 20px; text-align: center; } nav ul.show { display: flex; } .hamburger { display: block; } }
-    </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
-    <!-- Add styles for larger screens asynchronously -->
-    <link rel="stylesheet" href="/assets/css/styles.css" media="print" onload="this.media='all'">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Structure for the nutshell and red flags logos */
+        .logo-container {
+            position: absolute;
+            width: 50px;
+        }
+
+        .redflags-logo-container {
+            left: 10px;
+            top: 20px;
+        }
+
+        .nutshell-logo-container {
+            right: 10px;
+            top: 20px;
+        }
+
+        .logo-container img {
+            width: 50px;
+            height: auto;
+        }
+
+        .section {
+            height: 500px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .logo-container img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style for footer links */
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .logo-container img {
+                width: 30px;
+            }
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background-color: #333;
+                padding: 20px;
+                text-align: center;
+            }
+
+            nav ul.show {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .header-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        /* Styles for the cookie consent banner */
+        .cookie-banner {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        .cookie-banner button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Back-to-top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
 
 </head>
 <body>
@@ -112,7 +256,7 @@
     {% include google-analytics.html %}
 
     <!-- JavaScript for Hamburger Menu, Cookie Banner, and Smooth Scrolling -->
-    <script defer>
+    <script>
         document.addEventListener("DOMContentLoaded", function() {
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('nav ul');
@@ -175,5 +319,6 @@
             }
         });
     </script>
+
 </body>
 </html>
