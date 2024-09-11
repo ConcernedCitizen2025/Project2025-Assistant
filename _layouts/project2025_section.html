@@ -52,6 +52,7 @@
 
         .logo-container {
             text-align: center;
+            position: relative; /* Changed from fixed to relative */
         }
 
         .logo-container img {
@@ -100,12 +101,12 @@
             margin: 0 10px;
         }
 
-        /* Styling the nutshell and red flags logos */
+        /* Stationary positioning for the nutshell and red flags logos relative to main logo */
         .nutshell-logo-container, .redflags-logo-container {
-            position: fixed; /* Use fixed position to keep them stationary */
+            position: absolute; /* They move with the main logo */
+            top: 150px; /* Adjust this based on where you want them positioned relative to the main logo */
             width: 175px; /* Adjust size */
             height: auto;
-            top: 150px; /* Stationary position on the page */
         }
 
         .nutshell-logo-container {
@@ -251,7 +252,7 @@
         </ul>
     </footer>
     
-    <!-- JS to fix back button behavior -->
+    <!-- JS to fix back button behavior and anchor links -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
