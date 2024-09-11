@@ -202,14 +202,14 @@
 
             <!-- Red Flags logo on the left -->
             <div class="redflags-logo-container">
-                <a id="redflags-link" href="#redflags">
+                <a href="#redflags">
                     <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
                 </a>
             </div>
 
             <!-- Nutshell logo on the right -->
             <div class="nutshell-logo-container">
-                <a id="nutshell-link" href="#nutshell">
+                <a href="#nutshell">
                     <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
                 </a>
             </div>
@@ -660,35 +660,7 @@ The proposals outlined in the “Department of Education” section of Project 2
                     rightMask.style.transform = "translateX(0)";
                 });
             });
-
-            // Handle anchor link scrolling manually
-            const links = document.querySelectorAll('a[href^="#"]');
-            links.forEach(link => {
-                link.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent default jump
-                    const targetId = this.getAttribute('href').substring(1); // Get the target id
-                    const targetElement = document.getElementById(targetId); // Get the target element
-
-                    if (targetElement) {
-                        // Scroll smoothly to the target element
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth'
-                        });
-
-                        // Update the URL hash without reloading the page
-                        history.pushState(null, null, `#${targetId}`);
-                    }
-                });
-            });
-
-            // Handle back button: scroll to top if no hash
-            window.addEventListener('popstate', function() {
-                if (!location.hash) {
-                    window.scrollTo(0, 0); // Scroll to top if no hash in URL
-                }
-            });
         });
     </script>
-
 </body>
 </html>
