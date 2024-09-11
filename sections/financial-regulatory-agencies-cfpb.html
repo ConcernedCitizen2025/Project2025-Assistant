@@ -132,6 +132,28 @@
                 align-items: center;
             }
         }
+
+        /* Styles for the cookie consent banner */
+        .cookie-banner {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        .cookie-banner button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -180,6 +202,12 @@
         </ul>
     </footer>
 
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookie-banner">
+        This website uses cookies to ensure you get the best experience. 
+        <button id="accept-cookies">Accept</button>
+    </div>
+
     <!-- Google Analytics (reintroduced) -->
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
@@ -191,7 +219,7 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
 
-    <!-- JavaScript for Hamburger Menu -->
+    <!-- JavaScript for Hamburger Menu and Cookie Banner -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const hamburger = document.querySelector('.hamburger');
@@ -209,6 +237,21 @@
                 logo.addEventListener("mouseout", function() {
                     logo.style.transform = "scale(1)";
                 });
+            });
+
+            // Cookie consent banner
+            const cookieBanner = document.getElementById('cookie-banner');
+            const acceptCookiesButton = document.getElementById('accept-cookies');
+
+            // Show cookie banner if not accepted
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieBanner.style.display = 'block';
+            }
+
+            // Accept cookies and hide banner
+            acceptCookiesButton.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieBanner.style.display = 'none';
             });
         });
     </script>
