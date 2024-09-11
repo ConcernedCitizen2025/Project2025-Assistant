@@ -550,6 +550,13 @@ function googleTranslateElementInit() {
                     rightMask.style.transform = "translateX(0)";
                 });
             });
+
+            // Listen for changes in the hash and handle back button
+            window.addEventListener('hashchange', function() {
+                if (!location.hash) {
+                    window.scrollTo(0, 0); // Scroll to the top when the hash is removed
+                }
+            });
         });
     </script>
 

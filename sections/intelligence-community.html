@@ -587,6 +587,13 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
                     rightMask.style.transform = "translateX(0)";
                 });
             });
+
+            // Listen for changes in the hash and handle back button
+            window.addEventListener('hashchange', function() {
+                if (!location.hash) {
+                    window.scrollTo(0, 0); // Scroll to the top when the hash is removed
+                }
+            });
         });
     </script>
 
