@@ -518,13 +518,6 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
                     rightMask.style.transform = "translateX(0)";
                 });
             });
-
-            // Handle back button behavior for scrolling to top
-            window.addEventListener('popstate', function(event) {
-                if (!location.hash) {
-                    window.scrollTo(0, 0); // Scroll to the top of the page
-                }
-            });
         });
     </script>
 
