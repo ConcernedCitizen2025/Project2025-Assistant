@@ -563,7 +563,7 @@ function googleTranslateElementInit() {
                 });
             });
 
-            // Smooth scroll and back button fix for anchor links
+            // Scroll to anchor and handle browser history
             const anchors = document.querySelectorAll('a[href^="#"]');
             anchors.forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
@@ -574,13 +574,13 @@ function googleTranslateElementInit() {
                         top: targetElement.offsetTop,
                         behavior: "smooth"
                     });
-
-                    history.pushState({}, "", targetId); // Updating browser history
+                    
+                    history.pushState({}, "", targetId); // Update URL
                 });
             });
 
             window.addEventListener('popstate', function () {
-                // Scroll to top on back button
+                // Scroll to the top when hitting the back button
                 window.scrollTo({ top: 0, behavior: "smooth" });
             });
         });
