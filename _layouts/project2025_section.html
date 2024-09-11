@@ -62,7 +62,7 @@
 
         /* Positioning of the red flag and nutshell logos */
         .nutshell-logo-container, .redflags-logo-container {
-            position: absolute; /* Ensures they stay at the top near the main logo */
+            position: absolute; /* Logos stay at the top near the main logo */
             top: 150px;
             width: 130px; /* Adjusted size */
             height: auto;
@@ -79,9 +79,10 @@
         .nutshell-logo-container img, .redflags-logo-container img {
             width: 100%;
             height: auto;
+            background: none; /* Ensure no background on the logos */
         }
 
-        /* The logos will stay at the top and not move with the page */
+        /* The logos will now stay at the top and not move with the page */
         .nutshell-logo-container, .redflags-logo-container {
             position: absolute; /* Stay at top with the main logo */
         }
@@ -104,13 +105,14 @@
             right: 30px;
             width: 60px;
             height: 60px;
-            background-image: url('/assets/images/arrow.png');
-            background-size: cover;
+            background-image: url('/assets/images/arrow.png'); /* Ensure this points to your round arrow image with transparency */
+            background-size: contain;
             background-repeat: no-repeat;
             cursor: pointer;
             display: none; /* Hidden until scrolled down */
             z-index: 1000;
             border: none;
+            background-color: transparent; /* Ensure the button has a transparent background */
         }
 
         @media (max-width: 768px) {
