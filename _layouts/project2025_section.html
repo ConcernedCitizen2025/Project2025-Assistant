@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-
-    <!-- Dynamic Meta Description for SEO -->
+    <!-- Dynamic Meta Description -->
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
 
-    <!-- Dynamic Meta Keywords for SEO -->
+    <!-- Dynamic Meta Keywords -->
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
-
-    <!-- Favicon and Web Manifest -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -23,61 +22,67 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-
+    {% include google-analytics.html %}
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Base styles for all devices */
+        html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
         }
 
-        header, footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
+        body {
+            display: flex;
+            flex-direction: column;
         }
 
         main {
-            padding: 20px;
+            flex: 1;
         }
 
-        /* Structure for the nutshell and red flags logos */
+        /* Center align the logo and menu */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
         .logo-container {
-            position: absolute;
-            width: 50px;
-        }
-
-        .redflags-logo-container {
-            left: 10px;
-            top: 20px;
-        }
-
-        .nutshell-logo-container {
-            right: 10px;
-            top: 20px;
+            text-align: center;
+            position: relative;
         }
 
         .logo-container img {
-            width: 50px;
+            max-width: 100%;
             height: auto;
         }
 
-        .section {
-            height: 500px;
-            padding: 20px;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
         }
 
-        .logo-container img:hover {
-            transform: scale(1.1);
-            transition: transform 0.3s ease-in-out;
+        nav ul li {
+            margin: 0 15px;
         }
 
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
         footer {
             background-color: #222;
             color: #fff;
@@ -85,186 +90,184 @@
             padding: 10px;
         }
 
-        /* Style for footer links */
-        footer ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        footer ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        footer ul li a {
-            color: #aaa;
-            text-decoration: none;
-        }
-
-        footer ul li a:hover {
-            color: #fff;
-        }
-
-        @media (max-width: 768px) {
-            .logo-container img {
-                width: 30px;
-            }
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
+        /* Social media buttons horizontal by default */
+        .social-media-icons {
             display: flex;
             justify-content: center;
+            margin: 20px 0;
         }
 
-        nav ul li {
+        .social-media-icons img {
             margin: 0 10px;
         }
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
+        /* Positioning the nutshell and red flags logos */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: absolute;
+            top: 150px;
+            width: 175px;
+            height: auto;
         }
 
-        .hamburger {
-            display: none;
-            font-size: 24px;
-            cursor: pointer;
+        .nutshell-logo-container {
+            right: 10px;
         }
 
+        .redflags-logo-container {
+            left: 10px;
+        }
+
+        .nutshell-logo-container img, .redflags-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
+        /* Responsive styles for mobile */
         @media (max-width: 768px) {
-            nav ul {
-                display: none;
-                flex-direction: column;
-                background-color: #333;
-                padding: 20px;
-                text-align: center;
-            }
-
-            nav ul.show {
-                display: flex;
-            }
-
             .hamburger {
                 display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            nav ul {
+                display: none;
             }
 
             .header-content {
-                display: flex;
                 justify-content: space-between;
-                align-items: center;
+            }
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            .nutshell-logo-container, .redflags-logo-container {
+                position: static;
+                width: 70px;
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+            .nutshell-logo-container img, .redflags-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            .social-media-icons img {
+                width: 30px;
+            }
+
+            .social-media-icons {
+                justify-content: center;
             }
         }
-
-        /* Styles for the cookie consent banner */
-        .cookie-banner {
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 20px;
-            text-align: center;
-            display: none;
-        }
-
-        .cookie-banner button {
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        /* Back-to-top button */
-        #back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background-color: #333;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 50%;
-            display: none;
-            cursor: pointer;
-            z-index: 1000;
-        }
-    </style>
-
+    </style>    
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <h1>{{ page.title }}</h1>
+        <div class="header-wrapper">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                    </div>
+                </div>
+            </a>
 
-            <!-- Logos with appropriate sizes -->
-            <div class="redflags-logo-container logo-container">
-                <a href="#redflags"><img src="/assets/images/redflags_logo.png" alt="Red Flags Logo" loading="lazy"></a>
-            </div>
-            <div class="nutshell-logo-container logo-container">
-                <a href="#nutshell"><img src="/assets/images/nutshell_logo.png" alt="Nutshell Logo" loading="lazy"></a>
+            <!-- Red Flags logo on the left -->
+            <div class="redflags-logo-container">
+                <a href="#redflags">
+                    <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+                </a>
             </div>
 
-            <!-- Hamburger icon for mobile -->
-            <div class="hamburger">&#9776; Menu</div>
+            <!-- Nutshell logo on the right -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+                </a>
+            </div>
         </div>
 
-        <!-- Navigation Menu -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
+            <div class="share-buttons">
+                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
+                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+                </a>
+                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
+                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
+                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+                </a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <div class="section" id="redflags">
-            <h2>Red Flags Section</h2>
-            <p>This is the red flags section with some placeholder content.</p>
+        <div class="translate-container">
+            {% include google_translate.html %}
         </div>
-
-        <div class="section" id="nutshell">
-            <h2>Nutshell Section</h2>
-            <p>This is the nutshell section with some placeholder content.</p>
+        <div class="content-wrapper">
+            {{ content }}
         </div>
     </main>
+
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
 
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
-            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
 
-    <!-- Back-to-top Button -->
-    <div id="back-to-top">↑</div>
-
-    <!-- Cookie Consent Banner -->
-    <div class="cookie-banner" id="cookie-banner">
-        This website uses cookies to ensure you get the best experience. 
-        <button id="accept-cookies">Accept</button>
-    </div>
-
-    <!-- Google Analytics (reintroduced) -->
-    {% include google-analytics.html %}
-
-    <!-- JavaScript for Hamburger Menu, Cookie Banner, and Smooth Scrolling -->
+    <!-- Restore the JavaScript to handle logo hover animation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const hamburger = document.querySelector('.hamburger');
-            const navMenu = document.querySelector('nav ul');
-            const backToTopButton = document.getElementById('back-to-top');
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
 
-            // Mobile Menu Toggle
-            hamburger.addEventListener('click', function() {
-                navMenu.classList.toggle('show');
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-200%)";
+                    rightMask.style.transform = "translateX(200%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
             });
 
             // Smooth Scroll for anchor links
@@ -276,49 +279,18 @@
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
                         targetElement.scrollIntoView({ behavior: 'smooth' });
-                        // Update the URL hash after scrolling
                         history.pushState(null, null, `#${targetId}`);
                     }
                 });
             });
 
-            // Show Back-to-Top button on scroll
-            window.addEventListener('scroll', function() {
-                if (window.pageYOffset > 300) {
-                    backToTopButton.style.display = 'block';
-                } else {
-                    backToTopButton.style.display = 'none';
+            // Handle popstate for back button behavior
+            window.addEventListener('popstate', function() {
+                if (!location.hash) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
             });
-
-            // Scroll to top on Back-to-Top button click
-            backToTopButton.addEventListener('click', function() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            // Cookie consent banner
-            const cookieBanner = document.getElementById('cookie-banner');
-            const acceptCookiesButton = document.getElementById('accept-cookies');
-
-            // Show cookie banner if not accepted
-            if (!localStorage.getItem('cookiesAccepted')) {
-                cookieBanner.style.display = 'block';
-            }
-
-            // Accept cookies and hide banner
-            acceptCookiesButton.addEventListener('click', function() {
-                localStorage.setItem('cookiesAccepted', 'true');
-                cookieBanner.style.display = 'none';
-            });
-        });
-
-        // Handle popstate to ensure back button scrolls to the top of the page
-        window.addEventListener('popstate', function() {
-            if (!location.hash) {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
         });
     </script>
-
 </body>
 </html>
