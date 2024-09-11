@@ -185,6 +185,19 @@
                 justify-content: center;
             }
         }
+
+        /* Back to Top Arrow */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: url('/assets/images/arrow.png') no-repeat center center;
+            background-size: contain;
+            display: none;
+            cursor: pointer;
+        }
     </style>    
 </head>
 <body>
@@ -538,6 +551,9 @@ function googleTranslateElementInit() {
 </div>
 
 
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop"></div>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
@@ -545,9 +561,29 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
 
-    <!-- Restore the JavaScript to handle logo hover animation -->
+    <!-- JavaScript for arrow functionality -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const backToTop = document.getElementById('backToTop');
+
+            // Show or hide the back to top button
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    backToTop.style.display = 'block';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            });
+
+            // Scroll to the top when the arrow is clicked
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Handle logo hover animation
             const logoContainers = document.querySelectorAll(".logo-container");
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
