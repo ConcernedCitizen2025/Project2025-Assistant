@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section Four: The Economy</title>
     <style>
-        /* Simple styles to match your design */
+        /* Basic styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -26,7 +26,7 @@
         /* Structure for the nutshell and red flags logos */
         .logo-container {
             position: absolute;
-            width: 100px;
+            width: 100px; /* Adjusted size */
         }
 
         .redflags-logo-container {
@@ -40,7 +40,7 @@
         }
 
         .logo-container img {
-            width: 100px;
+            width: 50px; /* Adjusted logo size */
             height: auto;
         }
 
@@ -51,16 +51,22 @@
             margin-bottom: 20px;
             border: 1px solid #ddd;
         }
+
+        @media (max-width: 768px) {
+            .logo-container img {
+                width: 30px; /* Smaller for mobile screens */
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Section Four: The Economy</h1>
-        <!-- Adding your logos back -->
-        <div class="redflags-logo-container">
+        <!-- Logos with appropriate sizes -->
+        <div class="redflags-logo-container logo-container">
             <a href="#redflags"><img src="/assets/images/redflags_logo.png" alt="Red Flags Logo"></a>
         </div>
-        <div class="nutshell-logo-container">
+        <div class="nutshell-logo-container logo-container">
             <a href="#nutshell"><img src="/assets/images/nutshell_logo.png" alt="Nutshell Logo"></a>
         </div>
     </header>
