@@ -28,6 +28,115 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
     <style>
+        /* Base styles for all devices */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Center align the logo and menu */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Social media buttons horizontal by default */
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
+        /* Adjust size of nutshell and red flags logos */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: absolute;
+            top: 150px;
+            width: 80px; /* Adjusted for a more reasonable size */
+            height: auto;
+        }
+
+        .nutshell-logo-container {
+            right: 10px;
+        }
+
+        .redflags-logo-container {
+            left: 10px;
+        }
+
+        .nutshell-logo-container img, .redflags-logo-container img {
+            width: 100%; /* Maintain aspect ratio */
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
         /* Back to top button */
         #back-to-top {
             position: fixed;
@@ -35,12 +144,13 @@
             right: 30px;
             width: 60px;
             height: 60px;
-            background-image: url('/assets/images/arrow.png');
+            background-image: url('/assets/images/arrow.png'); /* Use the round PNG you provided */
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
             display: none; /* Hidden until scrolled down */
             z-index: 1000;
+            border: none; /* No additional border */
         }
 
         @media (max-width: 768px) {
@@ -50,8 +160,14 @@
                 width: 40px;
                 height: 40px;
             }
+
+            /* Adjust logo sizes on mobile */
+            .nutshell-logo-container, .redflags-logo-container {
+                top: 130px;
+                width: 60px; /* Smaller for mobile */
+            }
         }
-    </style>
+    </style>    
 </head>
 <body>
     <header>
