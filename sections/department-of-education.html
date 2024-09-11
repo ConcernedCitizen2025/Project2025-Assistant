@@ -669,26 +669,24 @@ The proposals outlined in the “Department of Education” section of Project 2
                     const targetId = this.getAttribute('href').substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop,
-                            behavior: 'smooth'
-                        });
+                        // Smooth scroll to the section
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                        // Update the URL without reloading the page
                         history.pushState(null, null, `#${targetId}`);
                     }
                 });
             });
 
             // Handle back button behavior using popstate
-            window.addEventListener('popstate', function(event) {
+            window.addEventListener('popstate', function() {
                 if (!location.hash) {
+                    // Scroll to top if there's no hash
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 } else {
+                    // Scroll to the relevant section if hash exists
                     const targetElement = document.querySelector(location.hash);
                     if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop,
-                            behavior: 'smooth'
-                        });
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
                     }
                 }
             });
