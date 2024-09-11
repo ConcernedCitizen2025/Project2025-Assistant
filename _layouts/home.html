@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- Dynamic Meta Description -->
+    {% if page.description %}
     <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    <!-- Dynamic Meta Keywords -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">

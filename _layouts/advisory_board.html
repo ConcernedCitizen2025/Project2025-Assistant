@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- Dynamic Meta Description -->
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    <!-- Dynamic Meta Keywords -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         /* Flexbox for the organization list to make it responsive */
