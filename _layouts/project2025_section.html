@@ -60,48 +60,7 @@
             height: auto;
         }
 
-        /* Nav Links Horizontal for Desktop */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Hide hamburger by default */
-        .hamburger {
-            display: none;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Social media buttons horizontal by default */
-        .social-media-icons {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        .social-media-icons img {
-            margin: 0 10px;
-        }
-
-        /* Adjust size of nutshell and red flags logos */
+        /* Positioning of the red flag and nutshell logos */
         .nutshell-logo-container, .redflags-logo-container {
             position: absolute;
             top: 150px;
@@ -118,8 +77,14 @@
         }
 
         .nutshell-logo-container img, .redflags-logo-container img {
-            width: 100%; /* Maintain aspect ratio */
+            width: 100%;
             height: auto;
+        }
+
+        /* Prevent logos from moving while scrolling */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: fixed;
+            top: 150px;
         }
 
         .content-container {
@@ -140,13 +105,13 @@
             right: 30px;
             width: 60px;
             height: 60px;
-            background-image: url('/assets/images/arrow.png'); /* Ensure path is correct */
-            background-size: contain;
+            background-image: url('/assets/images/arrow.png');
+            background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
-            display: block; /* Ensure it is visible */
+            display: none; /* Hidden until scrolled down */
             z-index: 1000;
-            border: none; /* No additional border */
+            border: none;
         }
 
         @media (max-width: 768px) {
@@ -160,7 +125,7 @@
             /* Adjust logo sizes on mobile */
             .nutshell-logo-container, .redflags-logo-container {
                 top: 130px;
-                width: 100px; /* Adjusted size for mobile */
+                width: 100px; /* Smaller for mobile */
             }
         }
     </style>    
