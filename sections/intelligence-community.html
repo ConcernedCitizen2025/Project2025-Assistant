@@ -568,6 +568,8 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+    
+    <!-- JS to fix back button behavior -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
@@ -585,12 +587,19 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
                     rightMask.style.transform = "translateX(0)";
                 });
             });
-        });
 
-        // Toggle mobile menu visibility
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            const menu = document.querySelector('nav ul');
-            menu.classList.toggle('show');
+            // Handle mobile menu toggle
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                const menu = document.querySelector('nav ul');
+                menu.classList.toggle('show');
+            });
+
+            // Handle back button behavior for scrolling to top
+            window.addEventListener('popstate', function(event) {
+                if (!location.hash) {
+                    window.scrollTo(0, 0); // Scroll to the top of the page
+                }
+            });
         });
     </script>
 </body>

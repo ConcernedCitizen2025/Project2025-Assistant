@@ -533,6 +533,8 @@ initiative may fail to deliver the intended improvements in transparency and eff
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+    
+    <!-- JS to fix back button behavior -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
@@ -550,12 +552,19 @@ initiative may fail to deliver the intended improvements in transparency and eff
                     rightMask.style.transform = "translateX(0)";
                 });
             });
-        });
 
-        // Toggle mobile menu visibility
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            const menu = document.querySelector('nav ul');
-            menu.classList.toggle('show');
+            // Handle mobile menu toggle
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                const menu = document.querySelector('nav ul');
+                menu.classList.toggle('show');
+            });
+
+            // Handle back button behavior for scrolling to top
+            window.addEventListener('popstate', function(event) {
+                if (!location.hash) {
+                    window.scrollTo(0, 0); // Scroll to the top of the page
+                }
+            });
         });
     </script>
 </body>
