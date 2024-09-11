@@ -4,29 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Regulatory Agencies: Securities and Exchange Commission and Related Agencies</title>
-    <!-- Dynamic Meta Description -->
-    
-
-    <!-- Dynamic Meta Keywords -->
-    
     <link rel="stylesheet" href="/assets/css/styles.css">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B4NGY0TYJ6');
-</script>
     <style>
         /* Base styles for all devices */
         html, body {
@@ -104,20 +82,6 @@
             margin: 0 10px;
         }
 
-        /* Corrected styling for Red Flags and Nutshell logos */
-        .logo-small {
-            width: 100px; /* Set the width of the small logos */
-            height: auto;
-            transition: all 0.3s ease;
-        }
-
-        /* Adjust logo size for larger screens */
-        @media (min-width: 1024px) {
-            .logo-small {
-                width: 150px;
-            }
-        }
-
         /* Responsive styles for mobile */
         @media (max-width: 768px) {
             .hamburger {
@@ -147,18 +111,49 @@
                 justify-content: space-between;
                 width: 100%;
             }
-
-            /* Show the vertical nav for mobile */
-            nav ul.show {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
         }
 
-        /* Styling the nutshell and redflags logos */
-        .nutshell-logo-container, .redflags-logo-container {
-            display: inline-block;
+        /* Styling the nutshell logo */
+        .nutshell-logo-container {
+            position: absolute;
+            bottom: 20px; /* Adjust as needed */
+            right: 10px;
+            z-index: 10; /* Ensure it stays on top */
+        }
+
+        .nutshell-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        /* Styling the red flags logo */
+        .redflags-logo-container {
+            position: absolute;
+            bottom: 20px;
+            left: 10px;
+            z-index: 10; /* Ensure it stays on top */
+        }
+
+        .redflags-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
             padding: 10px;
         }
     </style>    
@@ -174,14 +169,6 @@
                         <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
                     </div>
                 </div>
-            </a>
-            <!-- Red Flags logo on the left -->
-            <a href="#redflags" class="redflags-logo-container">
-                <img class="logo-small redflags-logo" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
-            </a>
-            <!-- Nutshell logo on the right -->
-            <a href="#nutshell" class="nutshell-logo-container">
-                <img class="logo-small nutshell-logo" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
             </a>
         </div>
         <div class="hamburger">&#9776; Menu</div>
@@ -465,6 +452,18 @@ function googleTranslateElementInit() {
 <h3 id="broader-implications">Broader Implications</h3>
 <p>These proposals, combined with the potential impact of the immunity ruling, which could shield political appointees from accountability, pose significant risks to the integrity and effectiveness of financial regulation. The reduction in transparency, oversight, and investor protection could lead to a less stable and less fair financial system, with long-term consequences for the U.S. economy and global financial markets. It is crucial to carefully consider these proposals to ensure that the pursuit of regulatory efficiency does not come at the expense of market integrity and investor trust.</p>
 
+        </div>
+        <!-- Red Flags logo on the left -->
+        <div class="redflags-logo-container">
+            <a href="#redflags">
+                <img src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+            </a>
+        </div>
+        <!-- Nutshell logo on the right -->
+        <div class="nutshell-logo-container">
+            <a href="#nutshell">
+                <img src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+            </a>
         </div>
     </main>
         <!-- Include the cookie consent banner -->
