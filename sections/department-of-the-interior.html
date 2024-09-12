@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Department of the Interior</title>
-    <!-- Dynamic Meta Description -->
-    
-
-    <!-- Dynamic Meta Keywords -->
-    
     <link rel="stylesheet" href="/assets/css/styles.css">
 
     <style>
@@ -20,556 +15,54 @@
             overflow-x: hidden;
         }
 
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        main {
-            flex: 1;
-        }
-
-        /* Center align the logo and menu */
-        .header-content {
-            display: flex;
-            justify-content: center; /* Ensure the logo stays centered */
-            align-items: center;
-            width: 100%;
-            padding: 10px 20px;
-        }
-
-        .logo-container {
-            text-align: center;
-            position: relative;
-        }
-
-        .logo-container img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Nav Links Horizontal for Desktop */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Hide hamburger by default */
-        .hamburger {
-            display: none;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Social media buttons horizontal by default */
-        .social-media-icons {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        .social-media-icons img {
-            margin: 0 10px;
-        }
-
-        /* Positioning the nutshell and red flags logos */
-        .nutshell-logo-container, .redflags-logo-container {
-            position: absolute;
-            top: 150px;
-            width: 175px;
-            height: auto;
-        }
-
-        .nutshell-logo-container {
-            right: 10px;
-        }
-
-        .redflags-logo-container {
-            left: 10px;
-        }
-
-        .nutshell-logo-container img, .redflags-logo-container img {
-            width: 175px;
-            height: auto;
-        }
-
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-            padding: 20px;
-        }
-
-        .content-container h1, .content-container h2 {
-            text-align: center;
-        }
-
-        /* Responsive styles for mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-                font-size: 30px;
-                cursor: pointer;
-            }
-
-            nav ul {
-                display: none;
-            }
-
-            .header-content {
-                justify-content: space-between;
-            }
-
-            .logo-container img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-            }
-
-            .social-media-icons {
-                justify-content: space-between;
-                width: 100%;
-            }
-
-            .nutshell-logo-container, .redflags-logo-container {
-                position: static;
-                width: 70px;
-                display: inline-block;
-                margin: 0 10px;
-            }
-
-            .nutshell-logo-container img, .redflags-logo-container img {
-                width: 70px;
-                height: auto;
-            }
-
-            .social-media-icons img {
-                width: 30px;
-            }
-
-            .social-media-icons {
-                justify-content: center;
-            }
-        }
-
-        /* Back to Top Arrow */
         .back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
             width: 50px;
             height: 50px;
-            background-color: lime; /* Set a visible background color */
+            background-color: lime;
             color: white;
             font-size: 24px;
             text-align: center;
             line-height: 50px;
             cursor: pointer;
-            border: 2px solid red; /* Add a border for clarity */
-            z-index: 9999; /* Ensure it's on top of everything */
+            border: 2px solid red;
+            z-index: 9999;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="header-wrapper">
-            <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
-                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
-                    </div>
-                </div>
-            </a>
-
-            <!-- Red Flags logo on the left -->
-            <div class="redflags-logo-container">
-                <a href="#redflags">
-                    <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
-                </a>
-            </div>
-
-            <!-- Nutshell logo on the right -->
-            <div class="nutshell-logo-container">
-                <a href="#nutshell">
-                    <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
-                </a>
-            </div>
-        </div>
-
-        <div class="hamburger">&#9776; Menu</div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/toc.html">Table of Contents</a></li>
-                <li><a href="/about.html">About Us</a></li>
-            </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/sections/department-of-the-interior.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url=https://project2025assistant.org/sections/department-of-the-interior.html&text=Department of the Interior" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/sections/department-of-the-interior.html&title=Department of the Interior" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
-                </a>
-            </div>
-        </nav>
+        <h1>Test Page</h1>
     </header>
 
     <main>
-        <div class="translate-container">
-            <div id="google_translate_element"></div>
-
-<script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-  }, 'google_translate_element');
-}
-</script>
-
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-        </div>
-        <div class="content-wrapper">
-            <h1 id="department-of-the-interior-between-the-lines">“Department of the Interior” <em>Between the Lines</em></h1>
-
-<p><strong>Summary:</strong>
-The “Department of the Interior” section of Project 2025 outlines a comprehensive plan to reverse many of the environmental protections and regulatory policies established by the Biden administration, emphasizing a return to energy dominance through increased fossil fuel extraction on federal lands. The plan also includes restructuring the management of federal lands to favor economic activities over conservation, potentially impacting public lands, wildlife, and cultural heritage.</p>
-
-<p><strong>In-Depth Analysis:</strong></p>
-
-<ol>
-  <li><strong>Restoring American Energy Dominance:</strong>
-    <ul>
-      <li><strong>Policy Proposal:</strong> The document calls for a significant expansion of fossil fuel extraction on federal lands, including oil, gas, and coal. It proposes reinstating the Trump administration’s Energy Dominance Agenda, which prioritizes energy production over environmental protection. The proposal includes rolling back regulations that limit fossil fuel extraction and repealing executive orders that promote conservation and climate action.</li>
-      <li><strong>Concerning Implications:</strong> This aggressive push for fossil fuel extraction could lead to severe environmental degradation, including the destruction of natural habitats, pollution of air and water resources, and increased greenhouse gas emissions. The rollback of regulations that protect the environment and public health could disproportionately impact vulnerable communities, particularly those living near extraction sites. The focus on energy dominance also raises concerns about the long-term sustainability of relying on fossil fuels in the face of a global push towards renewable energy sources.</li>
-      <li><strong>Potential Consequences:</strong> The prioritization of fossil fuel extraction over environmental protection could have far-reaching consequences for the country. It could undermine efforts to combat climate change, exacerbate public health issues related to pollution, and lead to the loss of biodiversity. Moreover, the emphasis on short-term economic gains from fossil fuel extraction could leave the country unprepared for the future transition to renewable energy, potentially weakening its position in the global energy market.</li>
-    </ul>
-  </li>
-  <li><strong>Rolling Back Environmental Protections:</strong>
-    <ul>
-      <li><strong>Policy Proposal:</strong> The document proposes the reversal of several environmental regulations and executive orders implemented during the Biden administration. This includes rescinding orders that promote conservation efforts, such as the “30 by 30” plan, which aims to protect 30% of U.S. lands and waters by 2030, and the National Environmental Policy Act (NEPA) reforms, which streamline environmental reviews for infrastructure projects.</li>
-      <li><strong>Concerning Implications:</strong> Reversing these environmental protections could lead to unchecked development and exploitation of public lands, potentially resulting in significant environmental damage. The rollback of NEPA reforms, in particular, could reduce the oversight and public participation in decisions affecting the environment, leading to poorly planned projects that harm ecosystems and communities. Additionally, the elimination of the “30 by 30” plan could hinder efforts to preserve biodiversity and mitigate the effects of climate change.</li>
-      <li><strong>Potential Consequences:</strong> The removal of these environmental protections could have severe consequences for the country’s natural resources and public health. It could lead to the degradation of protected lands, increased carbon emissions, and a loss of biodiversity. Furthermore, it could undermine the United States’ leadership in global environmental efforts, damaging its reputation and weakening international cooperation on climate issues.</li>
-    </ul>
-  </li>
-  <li><strong>Restructuring Federal Land Management:</strong>
-    <ul>
-      <li><strong>Policy Proposal:</strong> The plan advocates for restructuring the management of federal lands to prioritize economic activities such as mining, logging, and drilling over conservation and recreation. This includes reducing the influence of federal agencies like the Bureau of Land Management (BLM) and increasing state and local control over land use decisions.</li>
-      <li><strong>Concerning Implications:</strong> Shifting the focus of federal land management from conservation to economic exploitation could lead to the overuse and degradation of public lands. It may also exacerbate conflicts between different land users, such as industry, conservationists, and indigenous communities. The increased control by state and local governments could lead to inconsistent land management practices, with some areas prioritizing short-term economic gains over long-term sustainability and environmental stewardship.</li>
-      <li><strong>Potential Consequences:</strong> The restructuring of federal land management could have lasting impacts on the country’s natural heritage and public lands. It could result in the loss of critical habitats, reduced public access to recreational areas, and the depletion of natural resources. The emphasis on economic activities over conservation could also erode the public trust in federal agencies’ ability to protect and manage public lands for the benefit of all Americans.</li>
-      <li><strong>Constitutional Conflict:</strong> This proposal raises concerns regarding the Property Clause of the U.S. Constitution, which grants Congress the authority to manage federal lands. The shift of control from federal to state and local governments could be seen as undermining this constitutional authority, leading to potential legal challenges.</li>
-      <li><strong>Citation:</strong> U.S. Constitution, Article IV, Section 3, Clause 2.</li>
-    </ul>
-  </li>
-  <li><strong>Reducing Protections for Endangered Species:</strong>
-    <ul>
-      <li><strong>Policy Proposal:</strong> The document calls for reforms to the Endangered Species Act (ESA), arguing that the act has been misused to hinder economic development. The proposed changes include delisting species that have recovered and reducing the role of federal agencies in managing endangered species, with more authority being given to state governments.</li>
-      <li><strong>Concerning Implications:</strong> Weakening the ESA could lead to the premature delisting of species that are still vulnerable, potentially pushing them back towards extinction. The reduction of federal oversight in favor of state control could result in inconsistent protection standards, with some states prioritizing economic interests over the conservation of endangered species. This could undermine national efforts to preserve biodiversity and protect ecosystems.</li>
-      <li><strong>Potential Consequences:</strong> The proposed reforms to the ESA could lead to the loss of endangered species and the degradation of ecosystems that depend on them. This could have broader environmental impacts, including the disruption of food chains and the loss of ecosystem services that benefit human communities. The weakening of the ESA could also set a dangerous precedent for rolling back other environmental protections in the future.</li>
-      <li><strong>Constitutional Conflict:</strong> The proposed changes could potentially conflict with the Commerce Clause of the U.S. Constitution, which has been used to justify the federal regulation of endangered species due to their impact on interstate commerce. The shift of authority to state governments could undermine this constitutional basis for the ESA.</li>
-      <li><strong>Citation:</strong> U.S. Constitution, Article I, Section 8, Clause 3.</li>
-    </ul>
-  </li>
-  <li><strong>Exploiting Indigenous Lands:</strong>
-    <ul>
-      <li><strong>Policy Proposal:</strong> The document suggests increasing the exploitation of natural resources on Indigenous lands, including oil, gas, and minerals. It criticizes the Biden administration’s policies that have limited resource extraction on these lands, arguing that these restrictions have deprived Indigenous communities of economic opportunities.</li>
-      <li><strong>Concerning Implications:</strong> The push for increased resource extraction on Indigenous lands raises significant ethical and legal concerns. Many Indigenous communities have opposed such exploitation due to its potential to damage their lands, waters, and cultural heritage. Ignoring these concerns could lead to the violation of Indigenous rights and exacerbate tensions between the federal government and Indigenous nations. The focus on short-term economic gains could also result in long-term environmental degradation that disproportionately affects Indigenous communities.</li>
-      <li><strong>Potential Consequences:</strong> The exploitation of Indigenous lands for resource extraction could have devastating consequences for Indigenous communities, including the loss of cultural heritage, environmental degradation, and the erosion of sovereignty. This approach could also lead to increased legal battles and public opposition, further straining relations between the federal government and Indigenous nations.</li>
-      <li><strong>Constitutional Conflict:</strong> The proposal could potentially violate the U.S. Constitution’s recognition of treaties with Indigenous nations as the supreme law of the land. Increasing resource extraction without the consent of Indigenous communities could be seen as a violation of these treaties and the federal government’s trust responsibilities.</li>
-      <li><strong>Citation:</strong> U.S. Constitution, Article VI, Clause 2.</li>
-    </ul>
-  </li>
-</ol>
-
-<p><strong>Conclusion Statement:</strong>
-The “Department of the Interior” section of Project 2025 outlines a dramatic shift in federal land and resource management, prioritizing economic activities over environmental protection, conservation, and the rights of Indigenous communities. While these proposals aim to boost economic growth and energy production, they raise significant concerns about the long-term sustainability of the nation’s natural resources, the protection of public lands, and the preservation of biodiversity. Additionally, several of these policies may conflict with constitutional provisions, particularly those related to federal land management, interstate commerce, and the rights of Indigenous nations. The potential consequences of these policies could be profound, affecting the environment, public health, and the nation’s adherence to its constitutional obligations.</p>
-
-<h2 id="potential-concerns-department-of-the-interior">Potential Concerns: Department of the Interior</h2>
-
-<h3 id="environmental-degradation">Environmental Degradation</h3>
-<p>The focus on streamlining permitting processes and reducing regulatory burdens could lead to significant environmental degradation. Expedited approvals for resource extraction projects, such as oil, gas, and mineral mining, might result in inadequate environmental reviews. This can cause habitat destruction, pollution, and long-term damage to ecosystems. The balance between economic development and environmental protection might be skewed towards the former, leading to irreversible environmental impacts.</p>
-
-<h3 id="loss-of-biodiversity">Loss of Biodiversity</h3>
-<p>Revisions to existing conservation designations and restrictions under the Endangered Species Act (ESA) pose a threat to biodiversity. Reducing protections for endangered species and their habitats to facilitate economic activities can result in the loss of critical wildlife populations. This not only impacts biodiversity but also disrupts ecosystems and the services they provide, such as clean water, pollination, and climate regulation.</p>
-
-<h3 id="conflicts-of-interest-in-public-private-partnerships">Conflicts of Interest in Public-Private Partnerships</h3>
-<p>Encouraging public-private partnerships for land management and conservation raises concerns about conflicts of interest. Private entities involved in these partnerships may prioritize profitability over environmental and public interests. This can lead to the exploitation of public lands and resources, compromising conservation goals and the public good. Ensuring transparency and accountability in these partnerships is critical to mitigate these risks.</p>
-
-<h3 id="inconsistent-land-management-policies">Inconsistent Land Management Policies</h3>
-<p>Decentralizing decision-making authority to state and local governments could result in inconsistent land management policies and practices. Different states and regions may adopt varying standards and approaches, potentially undermining national conservation efforts. This fragmentation can create regulatory uncertainties for industries and complicate the implementation of cohesive and effective land management strategies.</p>
-
-<h3 id="inadequate-protection-for-native-american-lands">Inadequate Protection for Native American Lands</h3>
-<p>While promoting economic development on tribal lands aims to enhance economic opportunities for Native American communities, it also raises concerns about the potential exploitation of these lands. Ensuring that such developments are conducted with the full consent and participation of the tribes is essential. Additionally, safeguards must be in place to protect the cultural and environmental integrity of tribal lands from potential adverse impacts of resource extraction activities.</p>
-
-<h3 id="increased-pollution-and-health-risks">Increased Pollution and Health Risks</h3>
-<p>Reducing regulatory burdens on industries operating on federal lands could lead to increased pollution and associated health risks. Rollbacks of regulations related to environmental protection, land use, and resource extraction can result in higher emissions of pollutants, contamination of water sources, and other environmental hazards. These risks not only affect ecosystems but also pose significant health threats to nearby communities.</p>
-
-<h3 id="weakening-of-long-term-sustainability">Weakening of Long-Term Sustainability</h3>
-<p>The emphasis on economic development and resource extraction, coupled with reduced regulatory oversight, could undermine the long-term sustainability of natural resources. Overexploitation of resources for short-term economic gains can deplete reserves and compromise the ability of future generations to meet their needs. Sustainable management practices are essential to balance economic growth with the preservation of natural resources.</p>
-
-<h3 id="potential-undermining-of-conservation-efforts">Potential Undermining of Conservation Efforts</h3>
-<p>Revisiting and potentially revising conservation designations and restrictions may undermine existing conservation efforts. Protections for national parks, wildlife refuges, and other conserved areas could be weakened, opening them up to development and resource extraction. This can lead to the degradation of these protected areas and the loss of their ecological, recreational, and cultural values.</p>
-
-<h3 id="public-trust-and-accountability">Public Trust and Accountability</h3>
-<p>While improving public engagement and transparency is a stated goal, the effectiveness of these measures will depend on their implementation. Genuine inclusion of diverse perspectives in decision-making processes is crucial to build public trust and ensure accountability. Without meaningful engagement and transparency, the public may view the reforms as favoring industry interests over environmental and community concerns.</p>
-
-<h3 id="conclusion">Conclusion</h3>
-<p>In conclusion, while the proposed reforms for the Department of the Interior under Project 2025 aim to enhance economic development and streamline regulatory processes, they also raise significant concerns regarding environmental protection, biodiversity, land management, and public trust. Balancing economic priorities with the need to safeguard natural resources and ecosystems is essential to ensure the long-term sustainability and integrity of federal lands and resources.</p>
-
-<h2 id="breaking-down-the-concerns-department-of-the-interior">Breaking Down the Concerns: Department of the Interior</h2>
-
-<ul>
-  <li>
-    <p><strong>Environmental Harm:</strong> Streamlining approvals for resource extraction can lead to more pollution and habitat destruction because projects may not be thoroughly reviewed for environmental impact.</p>
-  </li>
-  <li>
-    <p><strong>Endangered Species at Risk:</strong> Changing conservation rules could mean fewer protections for endangered animals, leading to a loss of biodiversity and disrupted ecosystems.</p>
-  </li>
-  <li>
-    <p><strong>Private Interests Over Public Good:</strong> Public-private partnerships might prioritize profit over protecting public lands, risking the exploitation of these areas.</p>
-  </li>
-  <li>
-    <p><strong>Inconsistent Policies:</strong> Giving more control to state and local governments could result in uneven policies across the country, making it hard to have a unified approach to land management and conservation.</p>
-  </li>
-  <li>
-    <p><strong>Native American Land Concerns:</strong> Promoting economic development on tribal lands without full consent from Native American communities could lead to exploitation and harm to their cultural and environmental heritage.</p>
-  </li>
-  <li>
-    <p><strong>Health Risks:</strong> Less regulation on industries can lead to more pollution, which poses health risks to nearby communities, affecting air and water quality.</p>
-  </li>
-  <li>
-    <p><strong>Resource Depletion:</strong> Focusing on short-term economic gains from resource extraction can deplete natural resources, leaving future generations without necessary resources.</p>
-  </li>
-  <li>
-    <p><strong>Weakening Conservation Efforts:</strong> Revising protections for national parks and wildlife areas could open them up to development, harming their natural and recreational value.</p>
-  </li>
-  <li>
-    <p><strong>Public Trust Issues:</strong> Even though there’s a focus on public engagement, if not properly implemented, it might seem like decisions favor industry over environmental and community needs, reducing public trust.</p>
-  </li>
-</ul>
-
-<h2 id="red-flags-in-the-reforms-analyzing-troubling-quotes"><span id="redflags">Red Flags in the Reforms: Analyzing Troubling Quotes</span></h2>
-
-<ul>
-  <li>
-    <p><em><strong>Quote:</strong> “The U.S. depends on reliable and cheap energy resources to ensure the economic well-being of its citizens, the vitality of its economy, and its geopolitical standing in an uncertain and dangerous world” (Project 2025, 2024, p. 498).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> The U.S. relies on affordable energy for its economy and global influence.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> While access to affordable energy is crucial for economic stability, the emphasis on “cheap energy” without considering environmental impacts raises concerns. Prioritizing cheap energy, particularly from fossil fuels, can lead to overlooking the long-term environmental and health consequences of such resources. This approach might neglect the development of sustainable and renewable energy sources, which are essential for addressing climate change and reducing greenhouse gas emissions. It also risks perpetuating reliance on fossil fuels, which can have adverse effects on public health and contribute to global environmental degradation.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “At DOI, not since the Reagan Administration was the radical environmental agenda…rolled back as substantially as it was by President Trump” (Project 2025, 2024, p. 496).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> The Trump administration significantly rolled back environmental protections, similar to the Reagan era.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> This statement highlights a rollback of environmental regulations, framing it as a positive achievement. However, reducing environmental protections can have serious consequences, including increased pollution, habitat destruction, and loss of biodiversity. Such rollbacks may prioritize short-term economic gains over long-term environmental sustainability and public health. The narrative also dismisses the importance of environmental regulations in protecting natural resources and the well-being of communities, particularly those disproportionately affected by environmental degradation.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “Biden’s DOI…believes most BLM land should be placed off-limits to all economic and most recreational uses” (Project 2025, 2024, p. 497).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> Biden’s administration aims to restrict economic and recreational activities on BLM land.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> This quote criticizes the Biden administration’s approach to managing public lands, suggesting an extreme restriction on their use. However, protecting public lands from overexploitation is crucial for preserving ecosystems, safeguarding wildlife, and maintaining natural resources for future generations. The portrayal of these protective measures as overly restrictive may overlook the importance of balancing conservation efforts with economic activities. Sustainable land management practices are essential to prevent environmental degradation and ensure the long-term availability of natural resources.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “The U.S. depends on reliable and cheap energy resources to ensure the economic well-being of its citizens, the vitality of its economy, and its geopolitical standing in an uncertain and dangerous world. Not only are valuable natural resources owned generally by the American people involved, so too are those owned separately by American Indian tribes and individual American Indians, both of which have been injured by Biden’s illegal actions” (Project 2025, p 498).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> The statement argues that access to cheap energy is crucial for the U.S. economy and national security, and accuses the Biden administration of harming American Indian interests through illegal actions.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> This quote suggests that the Biden administration’s energy policies have negatively impacted both the general American public and specific groups, such as American Indian tribes. The claim of “illegal actions” without specifying the nature of these actions adds a layer of seriousness and controversy, potentially fueling distrust and opposition to the administration’s policies. The emphasis on cheap energy as a necessity for economic and geopolitical stability may be used to justify policies that prioritize short-term economic gains over long-term sustainability and environmental health. This perspective could lead to increased fossil fuel extraction and reduced support for renewable energy initiatives, undermining climate action efforts and the protection of Indigenous rights and lands.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “The federal government owns 61 percent of the onshore and offshore mineral estate of the U.S., but only 22 percent of the nation’s oil and 12 percent of U.S. natural gas comes from those federal lands and waters—and even that amount is declining” (Project 2025, 2024, p. 498).</em></p>
-
-    <ul>
-      <li><strong>Summarize Quote:</strong> Although the federal government owns a large portion of mineral estates, only a small percentage of the country’s oil and natural gas is produced from these lands.</li>
-    </ul>
-
-    <p>-<strong>Explanation:</strong> This quote seems to advocate for increased exploitation of federal lands for oil and natural gas production, suggesting that current output is insufficient. However, increasing fossil fuel extraction on public lands could exacerbate environmental issues, including greenhouse gas emissions, water contamination, and habitat destruction. It also risks locking the country into a fossil fuel-dependent energy infrastructure, hindering the transition to cleaner energy sources. The emphasis on maximizing resource extraction could undermine efforts to address climate change and protect public health.</p>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “DOI is abusing National Environmental Policy Act (NEPA) processes, the Antiquities Act, and bureaucratic procedures to advance a radical climate agenda, ostensibly to reduce greenhouse gas emissions, for which DOI has no statutory responsibility or authority” (Project 2025, 2024, p. 499).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> The Department of the Interior is accused of misusing environmental laws to promote a climate agenda beyond its authority.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> The statement implies that the Department of the Interior (DOI) overstepped its bounds in promoting policies to address climate change. However, NEPA and the Antiquities Act are tools designed to protect environmental and cultural resources, and using them to address climate impacts is within the purview of environmental stewardship. Accusing the DOI of “abusing” these laws dismisses the urgency of addressing climate change and may undermine efforts to protect the environment. Moreover, challenging the DOI’s authority to reduce greenhouse gas emissions could hinder the implementation of necessary measures to mitigate climate change, potentially exacerbating its impacts on ecosystems and human communities.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p><em><strong>Quote:</strong> “Biden’s DOI is hoarding supplies of energy and keeping them from Americans whose lives could be improved with cheaper and more abundant energy while making the economy stronger and providing job opportunities for Americans. DOI is a bad manager of the public trust and has operated lawlessly in defiance of congressional statute and federal court orders.” (Project 2025, p 499).</em></p>
-
-    <ul>
-      <li>
-        <p><strong>Summarize Quote:</strong> The quote accuses the Department of the Interior under the Biden administration of withholding energy resources and acting unlawfully against congressional and court directives.</p>
-      </li>
-      <li>
-        <p><strong>Explanation:</strong> This statement is troubling as it implies a serious accusation against the Department of the Interior (DOI), suggesting a deliberate withholding of energy resources from the public. The characterization of the DOI as “hoarding supplies of energy” and operating “lawlessly” reflects a strong partisan stance, potentially undermining the credibility of the department’s policies aimed at transitioning to sustainable energy. The language used suggests an urgent need to change leadership and policies, which could lead to the rollback of environmental protections and the acceleration of fossil fuel extraction without proper oversight or consideration of long-term impacts. This could have significant consequences for climate policy, public health, and the stewardship of public lands.</p>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="conclusion-1">Conclusion</h3>
-<p>The Department of the Interior subsection of Project 2025 emphasizes a return to policies favoring extensive resource extraction and a reduction in environmental regulations. The focus on energy dominance and economic use of public lands, while potentially beneficial for short-term economic gains, raises significant concerns about long-term environmental sustainability and public health. The critique of current climate and environmental policies, along with a call to rescind protections against discrimination, reflects a broader agenda that could undermine efforts to address climate change, protect vulnerable populations, and ensure fair treatment for all individuals.</p>
-
-<p>The potential immunity ruling could further exacerbate these concerns by shielding officials from accountability for actions that harm the environment and marginalized communities. This lack of accountability could lead to unchecked exploitation of natural resources, increased environmental degradation, and reduced protections for vulnerable groups. The overall impact of these proposals, combined with the immunity ruling, could be a significant setback for environmental conservation, social justice, and the responsible management of public lands and resources.</p>
-
-<h2 id="department-of-the-interior-in-a-nutshell"><span id="nutshell">“Department of the Interior” in a Nutshell</span></h2>
-
-<p>The “Department of the Interior” section of Project 2025 outlines a significant shift in the management and utilization of the United States’ natural resources and public lands. The overarching theme is a rollback of environmental protections and an aggressive push to restore energy dominance through fossil fuel extraction, all while reducing federal oversight and increasing state and private sector involvement.</p>
-
-<h3 id="key-points-and-concerns">Key Points and Concerns</h3>
-
-<ol>
-  <li><strong>Restoration of Energy Dominance</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan calls for a return to the energy dominance policies of the Trump administration, focusing on maximizing oil, gas, and coal production on federal lands. It criticizes the Biden administration for hindering energy production and accuses it of operating outside legal bounds.</li>
-      <li><strong>Concerns</strong>: This shift back to fossil fuels could have severe environmental consequences, including increased greenhouse gas emissions, habitat destruction, and pollution. The emphasis on short-term economic gains from fossil fuel extraction neglects the long-term need for sustainable and renewable energy sources.</li>
-    </ul>
-  </li>
-  <li><strong>Rollbacks on Environmental Protections</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan includes repealing regulations that limit energy production and rolling back policies like the “30 by 30” conservation initiative. It also criticizes the use of the National Environmental Policy Act (NEPA) and the Antiquities Act to advance climate policies, arguing that these laws have been misused to block economic development.</li>
-      <li><strong>Concerns</strong>: Weakening these environmental protections could lead to unchecked exploitation of public lands, increased pollution, and loss of biodiversity. The rollback of NEPA processes could result in less oversight and public input on projects that have significant environmental impacts.</li>
-    </ul>
-  </li>
-  <li><strong>Management of Federal Lands</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan advocates for a restructuring of federal land management to prioritize economic uses such as mining, logging, and drilling over conservation and recreation. It calls for increased state and local control over land management decisions.</li>
-      <li><strong>Concerns</strong>: Prioritizing economic activities over conservation could lead to the overuse and degradation of public lands. The shift in control to state and local governments could create inconsistencies in land management practices, potentially undermining national conservation efforts and leading to conflicts among different land users.</li>
-    </ul>
-  </li>
-  <li><strong>Impact on Indigenous Lands and Resources</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The document emphasizes the need to increase resource extraction on Indigenous lands, arguing that current policies deprive Indigenous communities of economic opportunities.</li>
-      <li><strong>Concerns</strong>: This push for increased exploitation of Indigenous lands raises significant ethical and legal concerns. Many Indigenous communities oppose such exploitation due to the potential damage to their lands, waters, and cultural heritage. Ignoring these concerns could violate Indigenous rights and exacerbate tensions between the federal government and Indigenous nations.</li>
-    </ul>
-  </li>
-  <li><strong>Changes to Law Enforcement</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan calls for restructuring the Bureau of Land Management (BLM) law enforcement to improve efficiency and reduce oversight from non-law enforcement superiors.</li>
-      <li><strong>Concerns</strong>: These changes could weaken the oversight and accountability of BLM law enforcement officers, potentially leading to conflicts of interest and inconsistent enforcement of laws. The plan to relocate law enforcement headquarters and personnel could also disrupt the effectiveness of law enforcement operations in the West.</li>
-    </ul>
-  </li>
-  <li><strong>Wildlife and Endangered Species</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan proposes reforms to the Endangered Species Act (ESA) to reduce federal control and give more authority to states. It also calls for delisting certain species like the grizzly bear and gray wolf, arguing that they have recovered.</li>
-      <li><strong>Concerns</strong>: Weakening the ESA could lead to the premature delisting of species that are still vulnerable, potentially pushing them back toward extinction. The reduction of federal oversight in favor of state control could result in inconsistent protection standards and undermine efforts to preserve biodiversity.</li>
-    </ul>
-  </li>
-  <li><strong>Alaska and the Arctic</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan advocates for increased oil and gas exploration in Alaska and the Arctic, including reopening areas like the Arctic National Wildlife Refuge for drilling.</li>
-      <li><strong>Concerns</strong>: Expanding fossil fuel extraction in these sensitive environments could have devastating effects on local ecosystems, contribute to climate change, and threaten the traditional lifestyles of Indigenous communities in these regions.</li>
-    </ul>
-  </li>
-  <li><strong>National Monuments and Conservation</strong>:
-    <ul>
-      <li><strong>Objective</strong>: The plan criticizes the designation of national monuments under the Antiquities Act, arguing that it has been used excessively to lock up lands that could be used for economic purposes. It calls for reducing the size of existing monuments and repealing the Antiquities Act.</li>
-      <li><strong>Concerns</strong>: Reducing the size of national monuments could open up protected lands to development, risking the loss of valuable natural and cultural resources. Repealing the Antiquities Act would remove an important tool for preserving unique landscapes and historical sites.</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="conclusion-2">Conclusion</h3>
-<p>The “Department of the Interior” section of Project 2025 represents a dramatic shift towards prioritizing economic development, particularly fossil fuel extraction, at the expense of environmental protection and conservation. The proposed rollbacks on environmental regulations, changes to federal land management, and increased exploitation of Indigenous lands raise significant concerns about the long-term sustainability of the nation’s natural resources, the protection of public lands, and the preservation of biodiversity. These policies could have far-reaching consequences, not only for the environment but also for public health, Indigenous rights, and the United States’ role in global environmental efforts.</p>
-
-        </div>
+        <div style="height: 2000px;">Scroll down</div>
     </main>
-
-    <!-- Include the cookie consent banner -->
-    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
-    This website uses cookies to ensure you get the best experience. 
-    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
-    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
-    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
-</div>
-
 
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">▲</div>
 
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <ul>
-            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
-        </ul>
-    </footer>
-
-    <!-- JavaScript for arrow functionality -->
+    <!-- JavaScript for Testing -->
     <script>
+        // Log to confirm script is loading
+        console.log('Script is loaded');
+
+        // On page load, ensure we can interact with the button
         window.onload = function() {
+            console.log('Window loaded');
             const backToTop = document.getElementById('backToTop');
 
-            // Add debugging log to confirm click event
+            // Log button click event
             backToTop.addEventListener('click', function() {
                 console.log('Button clicked');
+                window.scrollTo(0, 0); // Scroll to the top
             });
 
-            // Show or hide the back-to-top button based on scroll position
+            // Add a scroll event to confirm it's working
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) {
-                    backToTop.style.display = 'block';
-                } else {
-                    backToTop.style.display = 'none';
-                }
-            });
-
-            // Scroll to the top when the button is clicked
-            backToTop.addEventListener('click', function() {
-                // Scroll to the top with a fallback for older browsers
-                window.scrollTo(0, 0); // Temporarily remove smooth behavior
+                console.log('Scroll event fired');
             });
         };
     </script>
