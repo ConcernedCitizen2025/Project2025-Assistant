@@ -94,13 +94,16 @@
             transform: rotate(45deg) translate(-5px, -6px);
         }
 
+        .hamburger .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+            transition: 0.4s;
+        }
+
         /* Responsive Design for Mobile */
         @media (max-width: 768px) {
-            .nutshell-logo-container {
-                right: 5px; /* Adjust for smaller screens */
-                top: 150px;
-            }
-
             nav ul {
                 display: none;
                 flex-direction: column;
@@ -116,14 +119,6 @@
                 position: absolute;
                 top: 15px;
                 right: 15px;
-            }
-
-            .hamburger .bar {
-                width: 25px;
-                height: 3px;
-                background-color: #fff;
-                margin: 5px 0;
-                transition: 0.4s;
             }
         }
 
