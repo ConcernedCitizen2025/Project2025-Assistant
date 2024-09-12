@@ -127,6 +127,13 @@
             }
         }
 
+        /* Hide hamburger menu on desktop view */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+
         /* Back to Top Button with Logo */
         .back-to-top {
             position: fixed;
@@ -141,6 +148,11 @@
         .back-to-top img {
             width: 100%;
             height: 100%;
+        }
+
+        /* Smoothing the logo animation */
+        .logo-container .mask {
+            transition: transform 0.5s ease-in-out;
         }
 
     </style>
