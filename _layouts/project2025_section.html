@@ -28,7 +28,7 @@
             font-size: 24px;
             text-align: center;
             line-height: 50px;
-            display: block; /* Ensure the button is visible */
+            display: none; /* Hide the button by default */
             cursor: pointer;
             border: 2px solid red; /* Add a border for clarity */
         }
@@ -50,6 +50,15 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
+
+            // Show or hide the back to top button based on scroll position
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) { // If the user scrolls more than 100px
+                    backToTop.style.display = 'block'; // Show the button
+                } else {
+                    backToTop.style.display = 'none'; // Hide the button
+                }
+            });
 
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
