@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Scroll Test</title>
+    <title>Scroll Test with Debugging</title>
     <style>
         /* Basic styles */
         html, body {
@@ -58,14 +58,20 @@
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
                 console.log("Back to Top Button clicked");
-                // Manually force scrollTop
                 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
                 document.body.scrollTop = 0; // For Safari
             });
 
-            // Show or hide the back to top button based on scroll position
+            // Listen for scroll events on window
             window.addEventListener('scroll', function() {
-                console.log("Scroll event detected");
+                console.log("Scroll event detected on window");
+                console.log("Current scroll position:", window.scrollY);
+            });
+
+            // Listen for scroll events on document
+            document.addEventListener('scroll', function() {
+                console.log("Scroll event detected on document");
+                console.log("Document scroll position:", document.documentElement.scrollTop || document.body.scrollTop);
             });
         });
     </script>
