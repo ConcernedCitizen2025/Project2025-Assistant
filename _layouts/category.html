@@ -35,6 +35,11 @@
             text-align: center;
         }
 
+        .logo-container img {
+            width: 200px;
+            height: auto;
+        }
+
         nav ul {
             list-style: none;
             padding: 0;
@@ -130,26 +135,32 @@
 
         /* Responsive styles for mobile */
         @media (max-width: 768px) {
+            .logo-container img {
+                width: 150px;
+                margin: 0 auto;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
             nav ul {
+                display: none;
                 flex-direction: column;
                 align-items: center;
             }
 
-            nav ul li {
-                margin-right: 0;
-                margin-bottom: 10px;
-            }
-
-            .logo-container img {
-                width: 150px;
-                height: auto;
-                display: block;
-                margin: 0 auto;
+            nav ul.showing {
+                display: flex;
             }
 
             .share-buttons {
-                justify-content: space-between;
-                width: 80%; /* Adjusted to bring buttons closer together */
+                justify-content: center;
+                gap: 20px;
             }
         }
 
