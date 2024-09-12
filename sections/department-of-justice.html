@@ -182,10 +182,10 @@
             font-size: 24px;
             text-align: center;
             line-height: 50px;
-            display: none; /* Hide the button by default */
+            display: block; /* Force the button to be visible */
             cursor: pointer;
             border: 2px solid red; /* Add a border for clarity */
-            z-index: 1000; /* Ensure it's on top of other elements */
+            z-index: 9999; /* Ensure it's on top of everything */
         }
     </style>
 </head>
@@ -520,15 +520,6 @@ The proposals outlined in the “Department of Justice” section of Project 202
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
-
-            // Show or hide the back to top button based on scroll position
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) { // If the user scrolls more than 100px
-                    backToTop.style.display = 'block'; // Show the button
-                } else {
-                    backToTop.style.display = 'none'; // Hide the button
-                }
-            });
 
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
