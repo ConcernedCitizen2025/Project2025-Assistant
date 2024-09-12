@@ -522,65 +522,30 @@ Easing regulations, such as raising contribution limits and reducing restriction
         </ul>
     </footer>
 
-    <!-- JavaScript for arrow functionality and section scrolling -->
+    <!-- JavaScript for arrow functionality -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        window.onload = function() {
             const backToTop = document.getElementById('backToTop');
+
+            // Show or hide the back-to-top button based on scroll position
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    backToTop.style.display = 'block';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            });
 
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
-                window.scrollTo({
+                // Scroll to the top with a fallback for older browsers
+                window.scroll({
                     top: 0,
+                    left: 0,
                     behavior: 'smooth'
                 });
             });
-
-            // Add logging to confirm the click event
-            backToTop.addEventListener('click', function() {
-                console.log('Back to top button clicked');
-            });
-
-            // Smooth scroll to sections for Nutshell and Red Flags
-            const links = document.querySelectorAll('a[href^="#"]');
-
-            links.forEach(link => {
-                link.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-
-                    if (targetElement) {
-                        window.history.pushState(null, null, targetId); // Change the URL without refreshing
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
-                    }
-                });
-            });
-
-            // Back button functionality to return to top of the page
-            window.addEventListener('popstate', function() {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
-
-            // Logo hover effect
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
-
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
-
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
-            });
-        });
+        };
     </script>
 </body>
 </html>
