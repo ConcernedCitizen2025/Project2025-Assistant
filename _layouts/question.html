@@ -150,9 +150,17 @@
             height: 100%;
         }
 
-        /* Smoothing the logo animation */
+        /* Smooth Logo Animation */
         .logo-container .mask {
-            transition: transform 0.5s ease-in-out;
+            transition: transform 1s ease-in-out;
+        }
+
+        .logo-container:hover .mask.left {
+            transform: translateX(-100%);
+        }
+
+        .logo-container:hover .mask.right {
+            transform: translateX(100%);
         }
 
     </style>
