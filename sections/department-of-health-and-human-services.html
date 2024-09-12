@@ -195,8 +195,8 @@
             height: 50px;
             border: solid 3px black;
             border-radius: 50%;
-            background-color: yellow; /* Added background color */
-            display: block; /* Ensure it always shows for testing */
+            background-color: rgba(173, 255, 47, 0.8); /* Faded lime color */
+            display: none; /* Initially hidden */
             cursor: pointer;
         }
 
@@ -530,9 +530,13 @@ The proposals outlined in the “Department of Health and Human Services” sect
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Show the back to top button (no hiding for now to ensure it's visible)
+            // Show the back to top button only when the user scrolls down
             window.addEventListener('scroll', function() {
-                backToTop.style.display = 'block';
+                if (window.scrollY > 100) {
+                    backToTop.style.display = 'block';
+                } else {
+                    backToTop.style.display = 'none';
+                }
             });
 
             // Scroll to the top when the arrow is clicked
