@@ -15,6 +15,12 @@
             overflow-x: hidden;
         }
 
+        /* Ensure scrolling is enabled */
+        html, body {
+            scroll-behavior: auto; /* Ensure scroll behavior is not smooth for now */
+            overflow: visible !important; /* Ensure no overflow is preventing scrolling */
+        }
+
         .back-to-top {
             position: fixed;
             bottom: 30px;
@@ -52,11 +58,15 @@
             console.log('Window loaded');
             const backToTop = document.getElementById('backToTop');
 
+            // Ensure that overflow and scroll behaviors are not blocked
+            document.documentElement.style.overflow = 'visible'; // Ensure scrolling is allowed
+            document.body.style.overflow = 'visible';
+
             backToTop.addEventListener('click', function() {
                 console.log('Button clicked');
                 
                 // Basic scroll-to-top functionality
-                window.scrollTo(0, 0); // Use this to ensure basic functionality
+                window.scrollTo(0, 0); // Ensure basic functionality
                 
                 // Log after scroll
                 console.log('Scrolled to top');
