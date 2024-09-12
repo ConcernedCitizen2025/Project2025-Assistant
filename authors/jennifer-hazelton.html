@@ -11,6 +11,71 @@
     
     <link rel="stylesheet" href="/assets/css/styles.css">
 
+    <style>
+        /* Styling adjustments */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -41,12 +106,17 @@
                 </div>
             </a>
         </div>
+        
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
+
             <div class="share-buttons">
                 <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/authors/jennifer-hazelton.html" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
@@ -60,6 +130,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="translate-container">
             <div id="google_translate_element"></div>
@@ -108,8 +179,14 @@ Hazelton’s work in senior government roles, particularly related to defense an
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -117,30 +194,38 @@ Hazelton’s work in senior government roles, particularly related to defense an
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+            const backToTop = document.getElementById('backToTop');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            // Reset nav when resizing
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
             });
         });
     </script>
