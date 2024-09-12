@@ -27,9 +27,8 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
-    
     <style>
-        /* Base styles */
+        /* Base styles for all devices */
         html, body {
             height: 100%;
             margin: 0;
@@ -46,10 +45,10 @@
             flex: 1;
         }
 
-        /* Header styling */
+        /* Center align the logo and menu */
         .header-content {
             display: flex;
-            justify-content: space-between;
+            justify-content: center; /* Ensure the logo stays centered */
             align-items: center;
             width: 100%;
             padding: 10px 20px;
@@ -69,7 +68,7 @@
         nav ul {
             list-style: none;
             padding: 0;
-            display: flex;  /* Ensure horizontal layout */
+            display: flex;
             justify-content: center;
         }
 
@@ -95,7 +94,7 @@
             padding: 10px;
         }
 
-        /* Social media buttons horizontal */
+        /* Social media buttons horizontal by default */
         .social-media-icons {
             display: flex;
             justify-content: center;
@@ -106,7 +105,7 @@
             margin: 0 10px;
         }
 
-        /* Nutshell and Red Flags logos positioning */
+        /* Positioning the nutshell and red flags logos */
         .nutshell-logo-container, .redflags-logo-container {
             position: absolute;
             top: 150px;
@@ -125,6 +124,17 @@
         .nutshell-logo-container img, .redflags-logo-container img {
             width: 175px;
             height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
         }
 
         /* Responsive styles for mobile */
@@ -183,27 +193,15 @@
             right: 30px;
             width: 50px;
             height: 50px;
-            background-color: limegreen;
-            color: black;
-            border-radius: 50%;
-            display: none; /* Initially hidden */
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 1000;
+            background-color: lime;
+            display: none;
             cursor: pointer;
         }
-
-        /* Arrow should be visible after scroll */
-        .back-to-top.show {
-            display: flex !important;
-        }
-
-    </style>
+    </style>    
 </head>
 <body>
     <header>
-        <div class="header-content">
+        <div class="header-wrapper">
             <a href="/">
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
@@ -229,7 +227,6 @@
             </div>
         </div>
 
-        <!-- Hamburger menu for mobile -->
         <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
@@ -508,7 +505,7 @@ function googleTranslateElementInit() {
 
 
     <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop">↑</div>
+    <div class="back-to-top" id="backToTop">▲</div>
 
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
@@ -525,9 +522,9 @@ function googleTranslateElementInit() {
             // Show or hide the back to top button
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) {
-                    backToTop.classList.add('show');
+                    backToTop.style.display = 'block';
                 } else {
-                    backToTop.classList.remove('show');
+                    backToTop.style.display = 'none';
                 }
             });
 
