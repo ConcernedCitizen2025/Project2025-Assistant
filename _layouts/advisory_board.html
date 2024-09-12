@@ -92,6 +92,22 @@
             color: #fff;
         }
 
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
         /* Responsive styles */
         @media (max-width: 768px) {
             /* Stack the items in mobile view */
@@ -111,11 +127,32 @@
             }
 
             nav ul {
+                display: none;
                 flex-direction: column;
+                align-items: center;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+            nav ul.showing {
+                display: flex;
             }
 
             nav ul li {
                 margin-bottom: 10px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
             }
         }
     </style>
@@ -141,6 +178,7 @@
                 </div>
             </a>
         </div>
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -174,37 +212,50 @@
                 <li>
                     <a href="{{ organization.url }}">{{ organization.title }}</a>
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        {% include cookie-consent-banner.html %}
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
+
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
             });
         });
     </script>
