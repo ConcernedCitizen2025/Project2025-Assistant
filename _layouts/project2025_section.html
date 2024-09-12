@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scroll Test with Debugging</title>
+    <title>Scroll Test with Polling</title>
     <style>
         /* Basic styles */
         html, body {
@@ -49,7 +49,6 @@
         // Log when the page is loaded
         console.log('JavaScript is running');
 
-        // Add an event listener for when the DOM content is fully loaded
         document.addEventListener("DOMContentLoaded", function() {
             console.log("DOM Content Loaded");
 
@@ -62,17 +61,18 @@
                 document.body.scrollTop = 0; // For Safari
             });
 
-            // Listen for scroll events on window
-            window.addEventListener('scroll', function() {
-                console.log("Scroll event detected on window");
-                console.log("Current scroll position:", window.scrollY);
-            });
+            // Poll for scroll position every 100 milliseconds
+            setInterval(function() {
+                let scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop;
+                console.log("Polling scroll position: ", scrollPosition);
 
-            // Listen for scroll events on document
-            document.addEventListener('scroll', function() {
-                console.log("Scroll event detected on document");
-                console.log("Document scroll position:", document.documentElement.scrollTop || document.body.scrollTop);
-            });
+                // Show or hide the back to top button based on scroll position
+                if (scrollPosition > 100) {
+                    backToTop.style.display = 'block';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            }, 100); // Poll every 100ms
         });
     </script>
 </body>
