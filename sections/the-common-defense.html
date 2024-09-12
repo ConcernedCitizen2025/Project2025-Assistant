@@ -518,10 +518,10 @@ The document emphasizes the need to return to the constitutional division of war
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
                 console.log("Back to Top Button clicked");  // Debugging click
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
+
+                // Improved cross-browser scroll solution
+                document.documentElement.scrollTop = 0;  // For modern browsers
+                document.body.scrollTop = 0;  // For Safari
             });
 
             // Debug: Check for element and logging the click
