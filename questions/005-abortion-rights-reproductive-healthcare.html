@@ -9,7 +9,6 @@
     <!-- Dynamic Meta Keywords -->
     
     <link rel="stylesheet" href="/assets/css/styles.css">
-
     <style>
         /* Ensuring the html and body occupy the full height */
         html, body {
@@ -30,10 +29,10 @@
 
         /* Styling the nutshell logo */
         .nutshell-logo-container {
-            position: relative;
-            top: 20px;
-            display: flex;
-            justify-content: center;
+            position: absolute;
+            top: 150px;
+            right: 10px;
+            width: 175px;
         }
 
         .nutshell-logo-container img {
@@ -41,55 +40,60 @@
             height: auto;
         }
 
-        /* Header layout for desktop */
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
         }
 
-        nav ul li {
-            margin-right: 20px;
+        .content-container h1, .content-container h2 {
+            text-align: center;
         }
 
-        nav ul li a {
-            text-decoration: none;
+        footer {
+            background-color: #222;
             color: #fff;
+            text-align: center;
+            padding: 10px;
         }
 
-        /* Hamburger Menu for Mobile */
-        .hamburger {
-            display: none;
-            font-size: 30px;
-            cursor: pointer;
-        }
-
+        /* Responsive Design for Mobile */
         @media (max-width: 768px) {
+            .nutshell-logo-container {
+                position: static;
+                top: auto;
+                right: auto;
+                width: 70px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .nutshell-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
             .hamburger {
                 display: block;
+                font-size: 30px;
+                cursor: pointer;
+                margin: 10px auto;
                 text-align: center;
             }
 
             nav ul {
                 display: none;
                 flex-direction: column;
-                justify-content: center;
                 text-align: center;
             }
 
-            .menu-toggle.show {
-                display: block;
+            nav ul li {
+                margin-bottom: 10px;
             }
 
-            .nutshell-logo-container {
-                top: 10px;
-                justify-content: center;
-                margin-top: 15px;
-            }
-
-            .nutshell-logo-container img {
-                width: 70px;
+            .showing {
+                display: flex !important;
             }
         }
 
@@ -108,8 +112,8 @@
             width: 100%;
             height: 100%;
         }
-    </style>
 
+    </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -125,7 +129,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>
+</script>      
 </head>
 <body>
     <header>
@@ -139,16 +143,25 @@
                     </div>
                 </div>
             </a>
-        </div>
 
-        <div class="hamburger" id="mobile-menu">&#9776; Menu</div>
+            <!-- Hamburger Menu -->
+            <div class="hamburger">&#9776; Menu</div>
 
-        <nav>
-            <ul id="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/toc.html">Table of Contents</a></li>
-                <li><a href="/about.html">About Us</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/toc.html">Table of Contents</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nutshell logo -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
+                </a>
+            </div>
+
             <div class="share-buttons">
                 <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/questions/005-abortion-rights-reproductive-healthcare.html" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
@@ -160,13 +173,6 @@
                     <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
                 </a>
             </div>
-        </nav>
-
-        <!-- Nutshell logo placed under the main logo -->
-        <div class="nutshell-logo-container">
-            <a href="#nutshell">
-                <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
-            </a>
         </div>
     </header>
 
@@ -271,9 +277,6 @@ function googleTranslateElementInit() {
 </div>
 
 
-    <!-- Include the cookie consent script -->
-    <script src="/assets/js/cookie-consent-script.js"></script>
-
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">
         <img src="/assets/images/arrow.png" alt="Back to Top">
@@ -286,40 +289,36 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
 
-    <!-- JavaScript for logo hover and hamburger menu -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
+            // Simulate the back button action to clear the hash from the URL and go back in history
+            backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
             });
 
-            // Hamburger menu functionality for mobile view
-            const mobileMenu = document.getElementById("mobile-menu");
-            const navLinks = document.getElementById("nav-links");
-
-            mobileMenu.addEventListener("click", function() {
-                navLinks.classList.toggle("show");
-                mobileMenu.classList.toggle("active");
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
             });
-        });
 
-        // Back to top button functionality
-        const backToTop = document.getElementById('backToTop');
-        backToTop.addEventListener('click', function() {
-            window.history.back();  // Trigger a back button action
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
         });
     </script>
 </body>
