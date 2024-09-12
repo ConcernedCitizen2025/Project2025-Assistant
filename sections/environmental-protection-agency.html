@@ -46,25 +46,22 @@
 
     <!-- JavaScript for Testing -->
     <script>
-        // Log to confirm script is loading
         console.log('Script is loaded');
 
-        // On page load, ensure we can interact with the button
         window.onload = function() {
             console.log('Window loaded');
             const backToTop = document.getElementById('backToTop');
 
-            // Log button click event
             backToTop.addEventListener('click', function() {
                 console.log('Button clicked');
                 
-                // Scroll to top using scrollIntoView
-                document.body.scrollIntoView({
-                    behavior: 'smooth'
-                });
+                // Basic scroll-to-top functionality
+                window.scrollTo(0, 0); // Use this to ensure basic functionality
+                
+                // Log after scroll
+                console.log('Scrolled to top');
             });
 
-            // Add a scroll event to confirm it's working
             window.addEventListener('scroll', function() {
                 console.log('Scroll event fired');
             });
