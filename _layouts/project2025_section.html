@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+    <title>Basic Scroll Test</title>
     <style>
         /* Basic styles */
         html, body {
@@ -31,7 +31,7 @@
 
         /* Force page height for scrolling */
         main {
-            height: 3000px; /* Increase height to ensure scrolling */
+            height: 3000px; /* Large height to ensure scrolling */
             padding: 10px;
             background-color: #f3f3f3;
         }
@@ -55,18 +55,17 @@
 
             const backToTop = document.getElementById('backToTop');
 
-            // Show or hide the back to top button based on scroll position
-            window.addEventListener('scroll', function() {
-                console.log("Scroll event detected");
-            });
-
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
                 console.log("Back to Top Button clicked");
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
+                // Manually force scrollTop
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            // Show or hide the back to top button based on scroll position
+            window.addEventListener('scroll', function() {
+                console.log("Scroll event detected");
             });
         });
     </script>
