@@ -195,8 +195,8 @@
             height: 50px;
             border: solid 3px black;
             border-radius: 50%;
-            background-color: #fff;
-            display: none;
+            background-color: yellow; /* Added background color */
+            display: block; /* Ensure it always shows for testing */
             cursor: pointer;
         }
 
@@ -571,13 +571,9 @@ The proposals in the “Department of Homeland Security” section of Project 20
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Show or hide the back to top button
+            // Show the back to top button (no hiding for now to ensure it's visible)
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) {
-                    backToTop.style.display = 'block';
-                } else {
-                    backToTop.style.display = 'none';
-                }
+                backToTop.style.display = 'block';
             });
 
             // Scroll to the top when the arrow is clicked
