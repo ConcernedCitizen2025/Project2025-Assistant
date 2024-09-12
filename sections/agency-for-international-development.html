@@ -182,7 +182,6 @@
             font-size: 24px;
             text-align: center;
             line-height: 50px;
-            display: block; /* Force the button to be visible */
             cursor: pointer;
             border: 2px solid red; /* Add a border for clarity */
             z-index: 9999; /* Ensure it's on top of everything */
@@ -552,6 +551,11 @@ The recommendations in the “Agency for International Development” section of
                     top: 0,
                     behavior: 'smooth'
                 });
+            });
+
+            // Add logging to confirm the click event
+            backToTop.addEventListener('click', function() {
+                console.log('Back to top button clicked');
             });
 
             // Smooth scroll to sections for Nutshell and Red Flags
