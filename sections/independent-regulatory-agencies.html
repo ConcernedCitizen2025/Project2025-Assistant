@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section Five: Independent Regulatory Agencies</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Dynamic Meta Description -->
+    
 
+    <!-- Dynamic Meta Keywords -->
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
     <style>
         /* Base styles for all devices */
         html, body {
@@ -15,12 +36,157 @@
             overflow-x: hidden;
         }
 
-        /* Ensure scrolling is enabled */
-        html, body {
-            scroll-behavior: auto; /* Ensure scroll behavior is not smooth for now */
-            overflow: visible !important; /* Ensure no overflow is preventing scrolling */
+        body {
+            display: flex;
+            flex-direction: column;
         }
 
+        main {
+            flex: 1;
+        }
+
+        /* Center align the logo and menu */
+        .header-content {
+            display: flex;
+            justify-content: center; /* Ensure the logo stays centered */
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Social media buttons horizontal by default */
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
+        /* Positioning the nutshell and red flags logos */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: absolute;
+            top: 150px;
+            width: 175px;
+            height: auto;
+        }
+
+        .nutshell-logo-container {
+            right: 10px;
+        }
+
+        .redflags-logo-container {
+            left: 10px;
+        }
+
+        .nutshell-logo-container img, .redflags-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            .header-content {
+                justify-content: space-between;
+            }
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            .nutshell-logo-container, .redflags-logo-container {
+                position: static;
+                width: 70px;
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+            .nutshell-logo-container img, .redflags-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            .social-media-icons img {
+                width: 30px;
+            }
+
+            .social-media-icons {
+                justify-content: center;
+            }
+        }
+
+        /* Back to Top Arrow */
         .back-to-top {
             position: fixed;
             bottom: 30px;
@@ -32,50 +198,342 @@
             font-size: 24px;
             text-align: center;
             line-height: 50px;
+            display: none;
             cursor: pointer;
-            border: 2px solid red;
-            z-index: 9999;
         }
-    </style>
+    </style>    
 </head>
 <body>
     <header>
-        <h1>Test Page</h1>
+        <div class="header-wrapper">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                    </div>
+                </div>
+            </a>
+
+            <!-- Red Flags logo on the left -->
+            <div class="redflags-logo-container">
+                <a href="#redflags">
+                    <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+                </a>
+            </div>
+
+            <!-- Nutshell logo on the right -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+            <div class="share-buttons">
+                <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/sections/independent-regulatory-agencies.html" target="_blank">
+                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
+                </a>
+                <a href="https://twitter.com/share?url=https://project2025assistant.org/sections/independent-regulatory-agencies.html&text=Section Five: Independent Regulatory Agencies" target="_blank">
+                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter">
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/sections/independent-regulatory-agencies.html&title=Section Five: Independent Regulatory Agencies" target="_blank">
+                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
+                </a>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div style="height: 2000px;">Scroll down</div>
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        </div>
+        <div class="content-wrapper">
+            <h1 id="independent-regulatory-agencies-between-the-lines">“Independent Regulatory Agencies” <em>Between the Lines</em></h1>
+
+<h3 id="in-depth-analysis">In-Depth Analysis:</h3>
+
+<ol>
+  <li><strong>Restructuring and Expanding the FCC’s Role:</strong>
+    <ul>
+      <li><strong>Policy Proposal:</strong> The Federal Communications Commission (FCC) is proposed to take a more aggressive stance on “reining in Big Tech,” promoting national security, and ensuring accountability. The proposal suggests that the FCC should interpret Section 230 in a way that reduces the legal protections for online platforms, particularly targeting their ability to moderate content.</li>
+      <li><strong>Concerning Implications:</strong> This restructuring could lead to increased government intervention in how private companies operate, particularly in content moderation. By narrowing the scope of Section 230, there is a risk that platforms might either over-censor content to avoid liability or allow harmful content to proliferate unchecked, potentially infringing on free speech rights.</li>
+      <li><strong>Potential Consequences:</strong> The proposed changes to Section 230 could have a chilling effect on free expression online, as platforms may either restrict more content to avoid litigation or be forced to host all speech, including harmful or extremist content. This could also lead to fragmented and inconsistent application of rules across different platforms, creating confusion for users and businesses alike.</li>
+      <li><strong>Constitutional Conflict:</strong> The proposal to narrow the scope of Section 230 could be seen as infringing on First Amendment rights by potentially limiting the ability of platforms to moderate content, thereby affecting the balance between free speech and responsible content management.</li>
+      <li><strong>Citation:</strong> U.S. Constitution, Amendment I (“Congress shall make no law… abridging the freedom of speech, or of the press…”).</li>
+    </ul>
+  </li>
+  <li><strong>Banning TikTok and Other Chinese Apps:</strong>
+    <ul>
+      <li><strong>Policy Proposal:</strong> The FCC is encouraged to take stronger actions against Chinese-owned apps like TikTok, citing national security concerns. The proposal includes banning these apps to prevent foreign influence on American users.</li>
+      <li><strong>Concerning Implications:</strong> While the national security concerns are valid, the outright banning of apps raises questions about censorship and the impact on consumer choice. It also sets a precedent for government control over digital platforms, which could be expanded in the future to other areas.</li>
+      <li><strong>Potential Consequences:</strong> Banning widely-used apps like TikTok could lead to backlash from users and questions about the government’s role in regulating digital platforms. It could also strain diplomatic relations with China, potentially leading to retaliatory measures that could impact U.S. businesses operating in China or relying on Chinese technology.</li>
+      <li><strong>Constitutional Conflict:</strong> The ban on specific digital platforms could raise First Amendment concerns, particularly if the ban is seen as restricting the free flow of information and infringing on the right to access digital services.</li>
+      <li><strong>Citation:</strong> U.S. Constitution, Amendment I (“Congress shall make no law… abridging the freedom of speech, or of the press…”).</li>
+    </ul>
+  </li>
+  <li><strong>Changes to the Federal Election Commission (FEC):</strong>
+    <ul>
+      <li><strong>Policy Proposal:</strong> The document opposes changes to the Federal Election Commission (FEC) structure that would make it less bipartisan, arguing that the current even-numbered structure prevents the agency from being weaponized for political purposes.</li>
+      <li><strong>Concerning Implications:</strong> Maintaining a strict bipartisan structure may prevent the FEC from effectively addressing election violations if decisions are consistently deadlocked along party lines. This could lead to inadequate enforcement of election laws and contribute to public distrust in the electoral process.</li>
+      <li><strong>Potential Consequences:</strong> If the FEC remains gridlocked, it could fail to hold violators accountable, leading to an erosion of election integrity and public confidence in the democratic process. On the other hand, restructuring the FEC to favor one party could lead to accusations of political bias and misuse of the commission for partisan gain.</li>
+    </ul>
+  </li>
+  <li><strong>Limiting the SEC’s Climate Change Agenda:</strong>
+    <ul>
+      <li><strong>Policy Proposal:</strong> The proposal suggests that the Securities and Exchange Commission (SEC) should reduce its focus on climate-related regulations, arguing that these create unnecessary burdens on businesses and hinder capital formation.</li>
+      <li><strong>Concerning Implications:</strong> Reducing the SEC’s role in climate-related issues could weaken efforts to address climate change, particularly in sectors that are critical to reducing carbon emissions. This might also discourage investors who are increasingly interested in sustainable and socially responsible investing.</li>
+      <li><strong>Potential Consequences:</strong> Limiting the SEC’s climate agenda could slow down the transition to a low-carbon economy, leading to long-term economic and environmental risks. It could also put U.S. companies at a disadvantage in global markets where sustainability is becoming increasingly important.</li>
+    </ul>
+  </li>
+  <li><strong>Increasing Cooperation with State Attorneys General:</strong>
+    <ul>
+      <li><strong>Policy Proposal:</strong> The document recommends enhancing cooperation between the Federal Trade Commission (FTC) and state Attorneys General, particularly in areas like Big Tech, hospital mergers, and supermarket mergers. The aim is to strengthen enforcement by leveraging state-level resources and perspectives.</li>
+      <li><strong>Concerning Implications:</strong> While cooperation between federal and state authorities can enhance enforcement, it may also lead to inconsistent application of antitrust laws across states. This could create a fragmented regulatory environment that complicates compliance for businesses operating in multiple states.</li>
+      <li><strong>Potential Consequences:</strong> Increased cooperation could lead to more robust antitrust enforcement, but it could also result in regulatory uncertainty and increased litigation, potentially slowing down business operations and innovation. Businesses might face conflicting requirements from federal and state regulators, leading to higher compliance costs.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="conclusion">Conclusion:</h3>
+<p>The proposals in the “Independent Regulatory Agencies” section reflect a broader strategy to centralize executive control over key regulatory bodies, particularly in areas like communications, elections, and financial regulation. While these changes are framed as necessary for promoting national security and economic prosperity, they also raise significant concerns about government overreach, potential First Amendment violations, and the erosion of regulatory independence. The proposed restructuring of the FCC and the banning of Chinese apps like TikTok are particularly contentious, as they may infringe on constitutional rights related to free speech and access to information. These proposals warrant careful consideration and debate to balance national interests with the protection of fundamental rights and freedoms.</p>
+
+<h2 id="potential-concerns-section-five-independent-regulatory-agencies">Potential Concerns: Section Five: Independent Regulatory Agencies</h2>
+
+<h3 id="centralization-of-power">Centralization of Power</h3>
+<p>The emphasis on the President’s power to appoint key figures in independent agencies could lead to increased political influence and reduced agency independence, potentially undermining checks and balances.</p>
+
+<h3 id="ideological-influence">Ideological Influence</h3>
+<p>The focus on aligning agency actions with conservative values may result in policies that prioritize certain viewpoints over others, potentially limiting diversity of thought and expression.</p>
+
+<h3 id="regulatory-rollbacks">Regulatory Rollbacks</h3>
+<p>The call for reducing regulatory burdens, particularly regarding climate change and ESG considerations, may lead to decreased oversight and enforcement, potentially compromising consumer protections and environmental standards.</p>
+
+<h3 id="national-security-concerns">National Security Concerns</h3>
+<p>While addressing legitimate concerns about foreign influence, the aggressive stance towards China could lead to overreach or unnecessary restrictions, potentially harming international relations and economic interests.</p>
+
+<h3 id="bipartisan-structure-of-the-fec">Bipartisan Structure of the FEC</h3>
+<p>The strong opposition to changing the FEC’s structure to an odd number of members may prevent necessary reforms to enhance its effectiveness and address potential deadlocks.</p>
+
+<h2 id="breaking-down-the-concerns-section-five-independent-regulatory-agencies">Breaking Down the Concerns: Section Five: Independent Regulatory Agencies</h2>
+
+<ul>
+  <li>
+    <p><strong>Centralization of Power</strong>: More presidential control could weaken independent agency oversight.</p>
+  </li>
+  <li>
+    <p><strong>Ideological Bias</strong>: Policies may reflect conservative values, potentially sidelining other perspectives.</p>
+  </li>
+  <li>
+    <p><strong>Less Regulation</strong>: Reducing rules, especially on environmental issues, might lead to less protection for consumers and the environment.</p>
+  </li>
+  <li>
+    <p><strong>Tough Stance on China</strong>: Concerns about Chinese influence could lead to restrictive policies impacting international relations.</p>
+  </li>
+  <li>
+    <p><strong>FEC Structure</strong>: Keeping the FEC evenly split may prevent action and maintain the status quo.</p>
+  </li>
+</ul>
+
+<h2 id="red-flags-in-the-reforms-analyzing-troubling-quotes"><span id="redflags">Red Flags in the Reforms: Analyzing Troubling Quotes</span></h2>
+
+<ul>
+  <li>
+    <p><em><strong>Quote:</strong> “Few appointments to these commissions will be as important as the President’s selection of the next chairman of the Federal Communications Commission (FCC)” (Project 2025, 2024, p. 792).</em></p>
+
+    <ul>
+      <li>
+        <p><strong>Summarize Quote:</strong> The President’s choice for the FCC chairman is crucial.</p>
+      </li>
+      <li>
+        <p><strong>Explanation:</strong> This statement underscores the significant power that comes with appointing the FCC chairman, who has considerable authority over the agency’s direction. The concern here is that such appointments could be used to steer the FCC in a direction that aligns closely with the administration’s political agenda, potentially compromising its neutrality and independence. This could impact regulatory decisions, especially concerning media, communications, and technology policies, possibly leading to biased enforcement or regulatory capture.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><em><strong>Quote:</strong> “The FCC needs to change course and bring new urgency to achieving four main goals: [r]eining in Big Tech; [p]romoting national security; [u]nleashing economic prosperity; and [e]nsuring FCC accountability and good governance” (Project 2025, 2024, p. 792).</em></p>
+
+    <ul>
+      <li>
+        <p><strong>Summarize Quote:</strong> The FCC should focus on controlling Big Tech, enhancing national security, boosting the economy, and ensuring good governance.</p>
+      </li>
+      <li>
+        <p><strong>Explanation:</strong> This directive for the FCC reflects a broader conservative agenda to impose stricter controls on Big Tech companies, which could involve curbing their influence and operations. While promoting national security and economic prosperity are valid goals, there is a concern that this focus might lead to overregulation, censorship, or the suppression of certain viewpoints under the guise of accountability and governance. It raises questions about the balance between regulation and freedom of expression, particularly in digital spaces.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><em><strong>Quote:</strong> “The FCC should require more transparency from Big Tech, which today ‘offers a black box’” (Project 2025, 2024, p. 792).</em></p>
+
+    <ul>
+      <li>
+        <p><strong>Summarize Quote:</strong> Big Tech companies should be more transparent.</p>
+      </li>
+      <li>
+        <p><strong>Explanation:</strong> The call for increased transparency from Big Tech companies is generally positive, as it seeks to hold these powerful entities accountable. However, the implementation of such measures must be carefully considered to avoid excessive burdens that could stifle innovation or lead to overreach. There is also a risk that this push for transparency could be selectively enforced or used as a tool to penalize companies based on their political alignment or content moderation policies.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><em><strong>Quote:</strong> “The FCC took an ‘appropriately strong approach to the national security threats posed by the Chinese Communist Party’” (Project 2025, 2024, p. 793).</em></p>
+
+    <ul>
+      <li>
+        <p><strong>Summarize Quote:</strong> The FCC effectively addressed national security threats from China.</p>
+      </li>
+      <li>
+        <p><strong>Explanation:</strong> This statement highlights the FCC’s role in national security, particularly concerning Chinese technology companies. While safeguarding national security is essential, there is a concern that aggressive actions, such as banning certain companies or technologies, could lead to retaliation or unnecessary tension in international relations. The framing of these issues in stark terms may also contribute to a broader narrative of confrontation rather than cooperation, potentially impacting global technology markets and innovation.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><em><strong>Quote:</strong> “DOJ should not ‘prosecute an individual for supposedly violating the law when the FEC has previously determined that a similarly situated individual has not violated the law’” (Project 2025, 2024, p. 793).</em></p>
+
+    <ul>
+      <li>
+        <p><strong>Summarize Quote:</strong> The DOJ should not prosecute if the FEC has cleared a similar case.</p>
+      </li>
+      <li>
+        <p><strong>Explanation:</strong> This directive emphasizes consistency in enforcement, suggesting that the DOJ should defer to the FEC’s previous decisions. While consistency is important, this stance could limit the DOJ’s ability to address potential legal violations effectively, especially if new evidence or circumstances arise. It may also create a precedent where previous decisions unduly constrain future enforcement actions, potentially undermining the enforcement of election laws and accountability.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="conclusion-1">Conclusion</h3>
+<p>The section on Independent Regulatory Agencies in “Project 2025” highlights a conservative vision for these entities, focusing on aligning them with broader conservative goals. The emphasis on strategic appointments, regulatory rollbacks, and a strong stance on national security reflects a desire to reshape these agencies to better reflect conservative values. However, this approach raises concerns about the potential for increased political influence, reduced agency independence, and the marginalization of diverse perspectives. The focus on transparency and accountability, while positive, must be balanced against the risk of overreach and the potential suppression of free expression. Additionally, the strong opposition to changes in the FEC’s structure suggests a resistance to reforms that could enhance its functionality and effectiveness.</p>
+
+<h2 id="independent-regulatory-agencies-in-a-nutshell"><span id="nutshell">“Independent Regulatory Agencies” in a Nutshell</span></h2>
+
+<p>The “Independent Regulatory Agencies” section of Project 2025 presents a detailed plan to restructure and refocus several key regulatory bodies in the U.S. government to align with conservative values and national security priorities. The proposals aim to expand executive influence over these agencies, with a particular focus on the Federal Communications Commission (FCC), the Federal Election Commission (FEC), the Securities and Exchange Commission (SEC), and the Federal Trade Commission (FTC). While these changes are positioned as necessary for promoting economic prosperity, national security, and accountability, they raise significant concerns about potential overreach, political influence, and the erosion of independent regulatory oversight.</p>
+
+<h3 id="key-proposals-and-concerns">Key Proposals and Concerns:</h3>
+
+<ol>
+  <li><strong>Restructuring the FCC’s Role:</strong>
+    <ul>
+      <li><strong>Proposal:</strong> The FCC should aggressively address issues with Big Tech, promote national security, boost economic growth, and ensure accountability.</li>
+      <li><strong>Concerns:</strong> The push to narrow the scope of Section 230, which currently protects online platforms from liability for content moderation, could lead to over-censorship or unchecked harmful content online. This might infringe on free speech and create inconsistent regulations across platforms.</li>
+      <li><strong>Implications:</strong> These changes could have a chilling effect on online expression, leading to either over-regulation of speech or the proliferation of harmful content. Moreover, increasing government intervention in private sector operations could stifle innovation and raise constitutional concerns regarding the First Amendment.</li>
+    </ul>
+  </li>
+  <li><strong>Banning TikTok and Other Chinese Apps:</strong>
+    <ul>
+      <li><strong>Proposal:</strong> The FCC should ban Chinese-owned apps like TikTok to protect national security.</li>
+      <li><strong>Concerns:</strong> While national security risks are real, banning these apps could be seen as censorship and might limit consumer choice. This move could also set a precedent for further government control over digital platforms, raising concerns about overreach.</li>
+      <li><strong>Implications:</strong> The outright ban could provoke backlash from users and strain U.S.-China relations, leading to potential economic repercussions and retaliatory actions. It also risks encroaching on free speech and the free flow of information.</li>
+    </ul>
+  </li>
+  <li><strong>Maintaining the Bipartisan Structure of the FEC:</strong>
+    <ul>
+      <li><strong>Proposal:</strong> The FEC should retain its even-numbered, bipartisan structure to prevent political weaponization.</li>
+      <li><strong>Concerns:</strong> Keeping the FEC evenly split along party lines may lead to deadlocks, preventing effective enforcement of election laws and undermining public confidence in the electoral process.</li>
+      <li><strong>Implications:</strong> Without reforms, the FEC might continue to struggle with gridlock, leading to inadequate oversight of election integrity. However, changing the structure to favor one party could lead to misuse of the FEC for partisan purposes, making this a complex issue with no easy solution.</li>
+    </ul>
+  </li>
+  <li><strong>Limiting the SEC’s Focus on Climate Change:</strong>
+    <ul>
+      <li><strong>Proposal:</strong> The SEC should reduce its emphasis on climate-related regulations, arguing that they burden businesses and hinder capital formation.</li>
+      <li><strong>Concerns:</strong> Reducing the SEC’s role in addressing climate change could weaken efforts to combat environmental risks and discourage sustainable investment practices.</li>
+      <li><strong>Implications:</strong> Pulling back on climate-related oversight could slow down the transition to a low-carbon economy, potentially harming long-term economic stability and global competitiveness in sectors where sustainability is increasingly prioritized.</li>
+    </ul>
+  </li>
+  <li><strong>Enhancing Cooperation Between the FTC and State Attorneys General:</strong>
+    <ul>
+      <li><strong>Proposal:</strong> The FTC should strengthen its collaboration with state Attorneys General, particularly in areas like Big Tech and corporate mergers.</li>
+      <li><strong>Concerns:</strong> While increased cooperation could improve enforcement, it may also lead to inconsistent application of antitrust laws across states, creating a fragmented regulatory environment.</li>
+      <li><strong>Implications:</strong> This could complicate compliance for businesses operating in multiple states, leading to regulatory uncertainty and increased litigation. However, it could also result in more robust enforcement of antitrust laws, particularly in industries where federal oversight has been lacking.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="conclusion-2">Conclusion:</h3>
+
+<p>The proposals in the “Independent Regulatory Agencies” section reflect a strategic effort to align these agencies with conservative priorities, emphasizing national security, economic growth, and reduced regulatory burdens. However, the potential consequences of these changes include increased government overreach, reduced agency independence, and the marginalization of diverse viewpoints. The proposed restructuring of the FCC, particularly its role in content moderation and national security, raises significant First Amendment concerns, while the suggested changes to the FEC and SEC could weaken oversight and enforcement in critical areas. The push for stronger cooperation between the FTC and state Attorneys General, though potentially beneficial, also risks creating a more complex and fragmented regulatory landscape. Overall, while the intention is to create a more accountable and efficient regulatory environment, the proposed reforms carry significant risks that warrant careful consideration and public debate.</p>
+
+        </div>
     </main>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
 
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">▲</div>
 
-    <!-- JavaScript for Testing -->
-    <script>
-        console.log('Script is loaded');
+    <footer>
+        <p>© 2024 Project 2025 Assistant</p>
+        <ul>
+            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+        </ul>
+    </footer>
 
-        window.onload = function() {
-            console.log('Window loaded');
+    <!-- JavaScript for arrow functionality -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Ensure that overflow and scroll behaviors are not blocked
-            document.documentElement.style.overflow = 'visible'; // Ensure scrolling is allowed
-            document.body.style.overflow = 'visible';
-
-            backToTop.addEventListener('click', function() {
-                console.log('Button clicked');
-                
-                // Basic scroll-to-top functionality
-                window.scrollTo(0, 0); // Ensure basic functionality
-                
-                // Log after scroll
-                console.log('Scrolled to top');
-            });
-
+            // Show or hide the back to top button
             window.addEventListener('scroll', function() {
-                console.log('Scroll event fired');
+                if (window.scrollY > 100) {
+                    backToTop.style.display = 'block';
+                } else {
+                    backToTop.style.display = 'none';
+                }
             });
-        };
+
+            // Scroll to the top when the arrow is clicked
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Logo hover effect
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-200%)";
+                    rightMask.style.transform = "translateX(200%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
     </script>
 </body>
 </html>
