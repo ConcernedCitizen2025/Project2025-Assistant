@@ -57,12 +57,88 @@
             padding: 10px;
         }
 
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hamburger Menu Styles */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .hamburger.active .bar:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .bar:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
         /* Responsive Design for Mobile */
         @media (max-width: 768px) {
             .nutshell-logo-container {
                 right: 5px; /* Adjust for smaller screens */
                 top: 150px;
             }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav ul.showing {
+                display: block;
+            }
+
+            .hamburger {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+            }
+
+            .hamburger .bar {
+                width: 25px;
+                height: 3px;
+                background-color: #fff;
+                margin: 5px 0;
+                transition: 0.4s;
+            }
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999; /* Ensure it's on top */
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
@@ -80,7 +156,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>      
+</script>
 </head>
 <body>
     <header>
@@ -95,18 +171,27 @@
                 </div>
             </a>
         </div>
+
+        <div class="hamburger" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
+
             <!-- Adding the nutshell logo and making it clickable -->
             <div class="nutshell-logo-container">
                 <a href="#nutshell">
                     <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
                 </a>
             </div>
+
             <div class="share-buttons">
                 <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/questions/142-use-eminent-domain-federal-projects-private-development.html" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
@@ -120,6 +205,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="translate-container">
             <div id="google_translate_element"></div>
@@ -190,8 +276,9 @@ Using eminent domain for private development raises significant concerns about t
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -199,17 +286,29 @@ Using eminent domain for private development raises significant concerns about t
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const navLinks = document.getElementById('nav-links');
+
+            // Logo hover effect
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
@@ -223,6 +322,28 @@ Using eminent domain for private development raises significant concerns about t
                     leftMask.style.transform = "translateX(0)";
                     rightMask.style.transform = "translateX(0)";
                 });
+            });
+
+            // Back to Top Button functionality (with hash fix)
+            backToTop.addEventListener('click', function() {
+                if (window.location.hash) {
+                    window.history.back();  // Go back in history if a hash exists
+                } else {
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
+            });
+
+            // Hamburger Menu functionality
+            hamburgerMenu.addEventListener('click', function() {
+                navLinks.classList.toggle('showing');
+                hamburgerMenu.classList.toggle('active');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navLinks.classList.remove('showing');
+                }
             });
         });
     </script>
