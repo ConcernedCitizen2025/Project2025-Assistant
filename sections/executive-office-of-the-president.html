@@ -503,6 +503,11 @@ Section 1.2 of Project 2025 outlines a strategy for consolidating and expanding 
         window.onload = function() {
             const backToTop = document.getElementById('backToTop');
 
+            // Add debugging log to confirm click event
+            backToTop.addEventListener('click', function() {
+                console.log('Button clicked');
+            });
+
             // Show or hide the back-to-top button based on scroll position
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) {
@@ -515,11 +520,7 @@ Section 1.2 of Project 2025 outlines a strategy for consolidating and expanding 
             // Scroll to the top when the button is clicked
             backToTop.addEventListener('click', function() {
                 // Scroll to the top with a fallback for older browsers
-                window.scroll({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                });
+                window.scrollTo(0, 0); // Temporarily remove smooth behavior
             });
         };
     </script>
