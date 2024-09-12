@@ -198,6 +198,12 @@
             height: 100%;
         }
 
+        /* Hamburger active menu styles */
+        .showing {
+            display: flex !important;
+            flex-direction: column;
+        }
+
     </style>    
 </head>
 <body>
@@ -566,24 +572,19 @@ The “Department of the Interior” section of Project 2025 outlines a dramatic
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Scroll to the top when the arrow is clicked
+            // Simulate the back button action to clear the hash from the URL and go back in history
             backToTop.addEventListener('click', function() {
-                console.log("Back to Top Button clicked");  // Debugging click
+                console.log("Back to Top Button clicked");
 
-                // Improved cross-browser scroll solution
-                document.documentElement.scrollTop = 0;  // For modern browsers
-                document.body.scrollTop = 0;  // For Safari
-
-                // Remove any hash in the URL (e.g., #nutshell, #redflags) without reloading the page
-                history.replaceState(null, null, window.location.pathname);
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
             });
-
-            // Debug: Check for element and logging the click
-            if (backToTop) {
-                console.log('Back to Top element found.');
-            } else {
-                console.log('Back to Top element NOT found.');
-            }
 
             // Mobile hamburger menu functionality
             const hamburger = document.querySelector('.hamburger');
