@@ -27,6 +27,7 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
+    
     <style>
         /* Base styles for all devices */
         html, body {
@@ -193,15 +194,12 @@
             right: 30px;
             width: 50px;
             height: 50px;
-            background-color: lime;
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            line-height: 50px;
+            background-image: url('/assets/images/arrow.png'); /* Use your arrow image */
+            background-size: cover;
             display: none;
             cursor: pointer;
         }
-    </style>    
+    </style>
 </head>
 <body>
     <header>
@@ -560,7 +558,7 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
 
-    <!-- JavaScript for arrow functionality -->
+    <!-- JavaScript for arrow functionality and section scrolling -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
@@ -576,6 +574,30 @@ function googleTranslateElementInit() {
 
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Smooth scroll to sections for Nutshell and Red Flags
+            const links = document.querySelectorAll('a[href^="#"]');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        window.history.pushState(null, null, targetId); // Change the URL without refreshing
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+
+            // Back button functionality to return to top of the page
+            window.addEventListener('popstate', function() {
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
