@@ -45,6 +45,26 @@
             flex: 1;
         }
 
+        /* Back to Top Arrow */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: url('/assets/images/arrow.png') no-repeat center center;
+            background-size: contain;
+            border: 2px solid red;  /* Adding this temporarily to help locate the arrow */
+            background-color: yellow; /* Temporary background color for testing */
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .back-to-top.show {
+            display: block;
+        }
+
         /* Center align the logo and menu */
         .header-content {
             display: flex;
@@ -184,26 +204,6 @@
             .social-media-icons {
                 justify-content: center;
             }
-        }
-
-        /* Back to Top Arrow */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: url('/assets/images/arrow.png') no-repeat center center;
-            background-size: contain;
-            display: none;
-            cursor: pointer;
-            z-index: 1000;
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .back-to-top.show {
-            display: block;
-            opacity: 1;
         }
     </style>    
 </head>
@@ -538,9 +538,9 @@ The Department of Defense section in Project 2025 reflects a perspective that pr
             // Show or hide the back to top button
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) {
-                    backToTop.style.display = 'block';
+                    backToTop.classList.add('show');
                 } else {
-                    backToTop.style.display = 'none';
+                    backToTop.classList.remove('show');
                 }
             });
 
