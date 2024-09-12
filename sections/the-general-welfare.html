@@ -530,28 +530,19 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
 
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");  // Debugging click
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 });
             });
 
-            // Logo hover effect
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
-
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
-
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
-            });
+            // Debug: Check for element and logging the click
+            if (backToTop) {
+                console.log('Back to Top element found.');
+            } else {
+                console.log('Back to Top element NOT found.');
+            }
         });
     </script>
 </body>
