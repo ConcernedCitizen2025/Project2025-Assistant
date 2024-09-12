@@ -88,6 +88,22 @@
             color: #fff;
         }
 
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
         /* Responsive styles */
         @media (max-width: 768px) {
             /* Stack the items in mobile view */
@@ -107,11 +123,32 @@
             }
 
             nav ul {
+                display: none;
                 flex-direction: column;
+                align-items: center;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+            nav ul.showing {
+                display: flex;
             }
 
             nav ul li {
                 margin-bottom: 10px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
             }
         }
     </style>
@@ -145,6 +182,7 @@
                 </div>
             </a>
         </div>
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -192,228 +230,229 @@ function googleTranslateElementInit() {
                 <li>
                     <a href="/organizations/1792-exchange">1792 Exchange</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/alabama-policy-institute">Alabama Policy Institute</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/alliance-defending-freedom">Alliance Defending Freedom</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/america-first-legal-foundation">America First Legal Foundation</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-accountability-foundation">American Accountability Foundation</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-center-for-law-and-justice">American Center for Law and Justice</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-compass">American Compass</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-cornerstone-institute">American Cornerstone Institute</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-council-of-trustees-and-alumni">American Council of Trustees and Alumni</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-legislative-exchange-council">American Legislative Exchange Council</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-main-street-initiative">American Main Street Initiative</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-moment">American Moment</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-principles-project">American Principles Project</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/american-worker-institute">Institute for the American Worker (I4AW)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/center-for-equal-opportunity">Center for Equal Opportunity</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/center-for-family-and-human-rights">Center for Family and Human Rights</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/center-for-immigration-studies">Center for Immigration Studies</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/center-for-renewing-america">Center for Renewing America (CRA)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/claremont-institute">Claremont Institute</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/coalition-for-a-prosperous-america">Coalition for a Prosperous America (CPA)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/competitive-enterprise-institute">Competitive Enterprise Institute (CEI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/concerned-women-for-america">Concerned Women for America (CWA)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/conservative-partnership-institute">Conservative Partnership Institute (CPI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/defense-of-freedom-institute">Defense of Freedom Institute (DFI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/ethics-and-public-policy-center">Ethics and Public Policy Center (EPPC)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/family-policy-alliance">Family Policy Alliance (FPA)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/family-research-council">Family Research Council (FRC)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/first-liberty-institute">First Liberty Institute</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/forge-leadership-network">Forge Leadership Network (FLN)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/foundation-for-defense-of-democracies">Foundation for Defense of Democracies (FDD)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/foundation-for-government-accountability">Foundation for Government Accountability (FGA)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/freedomworks">FreedomWorks</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/hillsdale-college">Hillsdale College</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/honest-elections-project">Honest Elections Project (HEP)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/independent-womens-forum">Independent Women's Forum (IWF)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/institute-for-energy-research">Institute for Energy Research (IER)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/institute-for-the-american-worker">Institute for the American Worker (I4AW)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/institute-for-womens-health">Institute for Women's Health (IWH)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/intercollegiate-studies-institute">Intercollegiate Studies Institute (ISI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/james-madison-institute">James Madison Institute (JMI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/keystone-policy-center">Keystone Policy Center (KPC)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/liberty-university">Liberty University</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/national-association-of-scholars">National Association of Scholars (NAS)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/national-center-for-public-policy-research">National Center for Public Policy Research (NCPPR)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/pacific-research-institute">Pacific Research Institute (PRI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/patrick-henry-college">Patrick Henry College</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/personnel-policy-operations">Personnel Policy Operations (PPO)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/recovery-for-america-now-foundation">Recovery for America Now Foundation (RANF)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/susan-b-anthony-pro-life-america">Susan B. Anthony Pro-Life America</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/teneo-network">Teneo Network</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/texas-public-policy-foundation">Texas Public Policy Foundation (TPPF)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/the-american-conservative">The American Conservative (TAC)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/the-heritage-foundation">The Heritage Foundation</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/the-leadership-institute-li">The Leadership Institute (LI)</a>
                 </li>
-            
+                
                 <li>
                     <a href="/organizations/young-americas-foundation">Young America's Foundation (YAF)</a>
                 </li>
-            
+                
             </ul>
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -421,30 +460,42 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
             });
         });
     </script>
