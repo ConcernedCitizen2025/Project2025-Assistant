@@ -66,6 +66,12 @@
             justify-content: center;
         }
 
+        nav ul.showing {
+            display: flex; /* Ensure it shows on toggle */
+            flex-direction: column;
+            align-items: center;
+        }
+
         nav ul li {
             margin: 0 15px;
         }
@@ -126,6 +132,10 @@
                 display: none;
                 flex-direction: column;
                 align-items: center;
+            }
+
+            nav ul.showing {
+                display: block;
             }
 
             .hamburger {
