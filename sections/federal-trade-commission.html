@@ -45,26 +45,6 @@
             flex: 1;
         }
 
-        /* Back to Top Arrow */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: url('/assets/images/arrow.png') no-repeat center center;
-            background-size: contain;
-            border: 2px solid red;  /* Adding this temporarily to help locate the arrow */
-            background-color: yellow; /* Temporary background color for testing */
-            display: none;
-            cursor: pointer;
-            z-index: 1000;
-        }
-
-        .back-to-top.show {
-            display: block;
-        }
-
         /* Center align the logo and menu */
         .header-content {
             display: flex;
@@ -205,6 +185,31 @@
                 justify-content: center;
             }
         }
+
+        /* Back to Top Arrow */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            border: solid 3px black;
+            border-radius: 50%;
+            background-color: #fff;
+            display: none;
+            cursor: pointer;
+        }
+
+        /* Create a simple arrow using CSS */
+        .back-to-top::before {
+            content: '↑'; /* Arrow symbol */
+            font-size: 30px;
+            color: black;
+            display: block;
+            text-align: center;
+            line-height: 50px; /* Ensures the arrow is centered */
+        }
+
     </style>    
 </head>
 <body>
@@ -584,9 +589,9 @@ With broader guidelines, the FTC’s decisions might seem random or based on per
             // Show or hide the back to top button
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) {
-                    backToTop.classList.add('show');
+                    backToTop.style.display = 'block';
                 } else {
-                    backToTop.classList.remove('show');
+                    backToTop.style.display = 'none';
                 }
             });
 
