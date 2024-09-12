@@ -10,24 +10,7 @@
     <!-- Dynamic Meta Keywords -->
     
     <link rel="stylesheet" href="/assets/css/styles.css">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-B4NGY0TYJ6');
-</script>
-    
     <style>
         /* Base styles for all devices */
         html, body {
@@ -194,14 +177,15 @@
             right: 30px;
             width: 50px;
             height: 50px;
-            background-color: lime; /* You can change to an image later */
+            background-color: lime; /* Set a visible background color */
             color: white;
             font-size: 24px;
             text-align: center;
             line-height: 50px;
-            display: none; /* Hidden by default */
+            display: none; /* Hide the button by default */
             cursor: pointer;
             border: 2px solid red; /* Add a border for clarity */
+            z-index: 1000; /* Ensure it's on top of other elements */
         }
     </style>
 </head>
@@ -597,10 +581,10 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
 
             // Show or hide the back to top button based on scroll position
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) { // Show after scrolling 100px
-                    backToTop.style.display = 'block'; 
+                if (window.scrollY > 100) { // If the user scrolls more than 100px
+                    backToTop.style.display = 'block'; // Show the button
                 } else {
-                    backToTop.style.display = 'none'; 
+                    backToTop.style.display = 'none'; // Hide the button
                 }
             });
 
