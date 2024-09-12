@@ -12,8 +12,8 @@
     
     
     <link rel="stylesheet" href="/assets/css/styles.css">
-
-    <!-- Favicon and related icons -->
+    
+    <!-- Favicon and theme color -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -21,6 +21,7 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
 <script>
@@ -31,74 +32,153 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
 
-    <!-- Custom mobile styling -->
     <style>
-        /* Hamburger menu styles for mobile view */
-        .menu-toggle {
-            display: none;
-            cursor: pointer;
+        /* Base styles for all devices */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
         }
 
-        .menu-toggle .bar {
-            width: 25px;
-            height: 3px;
-            background-color: #fff;
-            margin: 5px 0;
-            transition: 0.4s;
+        /* Center align the logo and menu */
+        .header-content {
+            display: flex;
+            justify-content: center; /* Ensure the logo stays centered */
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
         }
 
+        .logo-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Nav Links Horizontal for Desktop */
         nav ul {
             list-style: none;
             padding: 0;
-            margin: 0;
+            display: flex;
+            justify-content: center;
         }
 
         nav ul li {
-            display: inline-block;
-            margin-right: 20px;
+            margin: 0 15px;
         }
 
         nav ul li a {
-            color: #fff !important;
             text-decoration: none;
-            font-weight: bold;
+            color: #fff;
         }
 
-        /* Mobile styles */
-        @media screen and (max-width: 768px) {
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Social media buttons horizontal by default */
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
+        /* Positioning the nutshell and red flags logos */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: absolute;
+            top: 150px;
+            width: 175px;
+            height: auto;
+        }
+
+        .nutshell-logo-container {
+            right: 10px;
+        }
+
+        .redflags-logo-container {
+            left: 10px;
+        }
+
+        .nutshell-logo-container img, .redflags-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .content-container h1, .content-container h2 {
+            text-align: center;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
             nav ul {
                 display: none;
-                flex-direction: column;
+            }
+
+            .header-content {
+                justify-content: space-between;
+            }
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
                 width: 100%;
             }
 
-            nav ul li {
-                display: block;
-                text-align: center;
-                margin-right: 0;
+            .nutshell-logo-container, .redflags-logo-container {
+                position: static;
+                width: 70px;
+                display: inline-block;
+                margin: 0 10px;
             }
 
-            nav ul.showing {
-                display: block;
+            .nutshell-logo-container img, .redflags-logo-container img {
+                width: 70px;
+                height: auto;
             }
 
-            .menu-toggle {
-                display: block;
-                position: absolute;
-                top: 15px;
-                right: 15px;
+            .social-media-icons img {
+                width: 30px;
             }
 
-            .menu-toggle.active .bar:nth-child(1) {
-                transform: rotate(-45deg) translate(-5px, 6px);
-            }
-
-            .menu-toggle.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .menu-toggle.active .bar:nth-child(3) {
-                transform: rotate(45deg) translate(-5px, -6px);
+            .social-media-icons {
+                justify-content: center;
             }
         }
 
@@ -118,31 +198,39 @@
             height: 100%;
         }
 
-    </style>
+    </style>    
 </head>
-<body class="toc-page">
+<body>
     <header>
-        <div style="text-align: center;">
+        <div class="header-wrapper">
             <a href="/">
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/threat_logo.png" alt="ATT Logo">
-                        <img class="mask right" src="/assets/images/threat_logo.png" alt="ATT Logo">
+                        <img class="mask left" src="/assets/images/threat_logo.png" alt="Threat Logo">
+                        <img class="mask right" src="/assets/images/threat_logo.png" alt="Threat Logo">
                     </div>
                 </div>
             </a>
+
+            <!-- Red Flags logo on the left -->
+            <div class="redflags-logo-container">
+                <a href="#redflags">
+                    <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+                </a>
+            </div>
+
+            <!-- Nutshell logo on the right -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+                </a>
+            </div>
         </div>
 
-        <!-- Hamburger menu for mobile view -->
-        <div class="menu-toggle" id="mobile-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul id="nav-links">
+            <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
@@ -160,6 +248,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="translate-container">
             <div id="google_translate_element"></div>
@@ -412,6 +501,7 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
 
         </div>
     </main>
+
     <!-- Include the cookie consent banner -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
@@ -420,9 +510,6 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
     <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
 </div>
 
-    
-    <!-- Include the cookie consent script -->
-    <script src="/assets/js/cookie-consent-script.js"></script>
 
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">
@@ -436,47 +523,42 @@ The proposals outlined in the “The General Welfare” section of Project 2025 
         </ul>
     </footer>
 
-    <!-- Restoring the hover effect on the logo animation -->
+    <!-- JavaScript for arrow functionality -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
-
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
-
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
-            });
-
-            // Hamburger menu functionality for mobile view
-            const mobileMenu = document.getElementById("mobile-menu");
-            const navLinks = document.getElementById("nav-links");
-
-            mobileMenu.addEventListener("click", function() {
-                navLinks.classList.toggle("showing");
-                mobileMenu.classList.toggle("active");
-            });
-
-            // Back to Top functionality
             const backToTop = document.getElementById('backToTop');
 
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
-                console.log("Back to Top Button clicked");
+                console.log("Back to Top Button clicked");  // Debugging click
 
                 // Improved cross-browser scroll solution
                 document.documentElement.scrollTop = 0;  // For modern browsers
                 document.body.scrollTop = 0;  // For Safari
 
-                // Remove any hash in the URL (e.g., #nutshell) without reloading the page
+                // Remove any hash in the URL (e.g., #nutshell, #redflags) without reloading the page
                 history.replaceState(null, null, window.location.pathname);
+            });
+
+            // Debug: Check for element and logging the click
+            if (backToTop) {
+                console.log('Back to Top element found.');
+            } else {
+                console.log('Back to Top element NOT found.');
+            }
+
+            // Mobile hamburger menu functionality
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
             });
         });
     </script>
