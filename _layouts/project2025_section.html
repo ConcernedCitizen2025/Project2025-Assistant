@@ -24,14 +24,14 @@
             font-size: 24px;
             text-align: center;
             line-height: 50px;
-            display: none; /* Hidden by default */
+            display: block; /* Always visible for now */
             cursor: pointer;
             z-index: 9999; /* Ensure it's on top */
         }
 
-        /* Simple large content to allow scrolling */
+        /* Force page height for scrolling */
         main {
-            height: 2000px;
+            height: 3000px; /* Increase height to ensure scrolling */
             padding: 10px;
             background-color: #f3f3f3;
         }
@@ -58,11 +58,6 @@
             // Show or hide the back to top button based on scroll position
             window.addEventListener('scroll', function() {
                 console.log("Scroll event detected");
-                if (window.scrollY > 100) {
-                    backToTop.style.display = 'block';
-                } else {
-                    backToTop.style.display = 'none';
-                }
             });
 
             // Scroll to the top when the button is clicked
