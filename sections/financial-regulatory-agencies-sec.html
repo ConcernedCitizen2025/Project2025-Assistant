@@ -57,7 +57,11 @@
             // Log button click event
             backToTop.addEventListener('click', function() {
                 console.log('Button clicked');
-                window.scrollTo(0, 0); // Scroll to the top
+                
+                // Scroll to top using scrollIntoView
+                document.body.scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
 
             // Add a scroll event to confirm it's working
