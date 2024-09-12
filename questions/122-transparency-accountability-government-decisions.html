@@ -30,9 +30,10 @@
 
         /* Styling the nutshell logo */
         .nutshell-logo-container {
-            position: absolute;
-            top: 170px;
-            right: 10px;
+            position: relative;
+            top: 20px;
+            display: flex;
+            justify-content: center;
         }
 
         .nutshell-logo-container img {
@@ -40,28 +41,16 @@
             height: auto;
         }
 
-        /* Content Wrapper Styling */
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-            padding: 20px;
-        }
-
-        .content-container h1, .content-container h2 {
-            text-align: center;
-        }
-
-        /* Navigation and Hamburger Styling */
+        /* Header layout for desktop */
         nav ul {
-            list-style: none;
-            padding: 0;
             display: flex;
             justify-content: center;
+            list-style: none;
+            padding: 0;
         }
 
         nav ul li {
-            margin: 0 15px;
+            margin-right: 20px;
         }
 
         nav ul li a {
@@ -69,63 +58,38 @@
             color: #fff;
         }
 
+        /* Hamburger Menu for Mobile */
         .hamburger {
             display: none;
             font-size: 30px;
             cursor: pointer;
         }
 
-        .hamburger .bar {
-            width: 25px;
-            height: 3px;
-            background-color: #fff;
-            margin: 5px 0;
-            transition: 0.4s;
-        }
-
-        .hamburger.active .bar:nth-child(1) {
-            transform: rotate(-45deg) translate(-5px, 6px);
-        }
-
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-
-        .hamburger.active .bar:nth-child(3) {
-            transform: rotate(45deg) translate(-5px, -6px);
-        }
-
-        /* Responsive Design for Mobile */
         @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                text-align: center;
+            }
+
             nav ul {
                 display: none;
                 flex-direction: column;
-                width: 100%;
+                justify-content: center;
+                text-align: center;
             }
 
-            nav ul.showing {
+            .menu-toggle.show {
                 display: block;
-            }
-
-            .hamburger {
-                display: block;
-                position: absolute;
-                top: 15px;
-                right: 15px;
             }
 
             .nutshell-logo-container {
-                top: auto;
-                bottom: 20px;
-                right: auto;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 80px;
+                top: 10px;
+                justify-content: center;
+                margin-top: 15px;
             }
 
             .nutshell-logo-container img {
-                width: 80px;
-                height: auto;
+                width: 70px;
             }
         }
 
@@ -146,7 +110,6 @@
         }
     </style>
 
-    <!-- Favicon and related icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
@@ -178,12 +141,7 @@
             </a>
         </div>
 
-        <!-- Hamburger menu for mobile -->
-        <div class="hamburger" id="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+        <div class="hamburger" id="mobile-menu">&#9776; Menu</div>
 
         <nav>
             <ul id="nav-links">
@@ -191,14 +149,6 @@
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-
-            <!-- Adding the nutshell logo and making it clickable -->
-            <div class="nutshell-logo-container">
-                <a href="#nutshell">
-                    <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
-                </a>
-            </div>
-
             <div class="share-buttons">
                 <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/questions/122-transparency-accountability-government-decisions.html" target="_blank">
                     <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook">
@@ -211,6 +161,13 @@
                 </a>
             </div>
         </nav>
+
+        <!-- Nutshell logo placed under the main logo -->
+        <div class="nutshell-logo-container">
+            <a href="#nutshell">
+                <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
+            </a>
+        </div>
     </header>
 
     <main>
@@ -301,14 +258,10 @@ function googleTranslateElementInit() {
         </ul>
     </footer>
 
+    <!-- JavaScript for logo hover and hamburger menu -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
-            const backToTop = document.getElementById('backToTop');
-            const hamburgerMenu = document.getElementById('hamburger-menu');
-            const navLinks = document.getElementById('nav-links');
-
-            // Logo hover effect
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
@@ -324,27 +277,21 @@ function googleTranslateElementInit() {
                 });
             });
 
-            // Back to Top Button functionality (with hash fix)
-            backToTop.addEventListener('click', function() {
-                if (window.location.hash) {
-                    window.history.back();  // Go back in history if a hash exists
-                } else {
-                    document.documentElement.scrollTop = 0;  // For modern browsers
-                    document.body.scrollTop = 0;  // For Safari
-                }
-            });
+            // Hamburger menu functionality for mobile view
+            const mobileMenu = document.getElementById("mobile-menu");
+            const navLinks = document.getElementById("nav-links");
 
-            // Hamburger Menu functionality
-            hamburgerMenu.addEventListener('click', function() {
-                navLinks.classList.toggle('showing');
-                hamburgerMenu.classList.toggle('active');
+            mobileMenu.addEventListener("click", function() {
+                navLinks.classList.toggle("show");
+                mobileMenu.classList.toggle("active");
             });
+        });
 
-            window.addEventListener('resize', function() {
-                if (window.innerWidth > 768) {
-                    navLinks.classList.remove('showing');
-                }
-            });
+        // Back to top button functionality
+        const backToTop = document.getElementById('backToTop');
+        backToTop.addEventListener('click', function() {
+            window.history.back();  // Trigger a back button action
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
 </body>
