@@ -200,6 +200,7 @@
             line-height: 50px;
             display: none;
             cursor: pointer;
+            z-index: 9999; /* Make sure the arrow is on top */
         }
     </style>    
 </head>
@@ -579,6 +580,7 @@ With broader guidelines, the FTC’s decisions might seem random or based on per
 
             // Show or hide the back to top button
             window.addEventListener('scroll', function() {
+                console.log("Scroll event fired");  // Debugging scroll event
                 if (window.scrollY > 100) {
                     backToTop.style.display = 'block';
                 } else {
@@ -588,6 +590,7 @@ With broader guidelines, the FTC’s decisions might seem random or based on per
 
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
+                console.log("Button clicked");  // Debugging button click
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
