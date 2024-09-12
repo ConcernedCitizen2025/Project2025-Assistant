@@ -27,8 +27,9 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
+    
     <style>
-        /* Base styles for all devices */
+        /* Base styles */
         html, body {
             height: 100%;
             margin: 0;
@@ -45,6 +46,136 @@
             flex: 1;
         }
 
+        /* Header styling */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;  /* Ensure horizontal layout */
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Social media buttons horizontal */
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-media-icons img {
+            margin: 0 10px;
+        }
+
+        /* Nutshell and Red Flags logos positioning */
+        .nutshell-logo-container, .redflags-logo-container {
+            position: absolute;
+            top: 150px;
+            width: 175px;
+            height: auto;
+        }
+
+        .nutshell-logo-container {
+            right: 10px;
+        }
+
+        .redflags-logo-container {
+            left: 10px;
+        }
+
+        .nutshell-logo-container img, .redflags-logo-container img {
+            width: 175px;
+            height: auto;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            .header-content {
+                justify-content: space-between;
+            }
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            .nutshell-logo-container, .redflags-logo-container {
+                position: static;
+                width: 70px;
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+            .nutshell-logo-container img, .redflags-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            .social-media-icons img {
+                width: 30px;
+            }
+
+            .social-media-icons {
+                justify-content: center;
+            }
+        }
+
         /* Back to Top Arrow */
         .back-to-top {
             position: fixed;
@@ -52,35 +183,27 @@
             right: 30px;
             width: 50px;
             height: 50px;
-            border: solid 3px black;
+            background-color: limegreen;
+            color: black;
             border-radius: 50%;
-            background-color: limegreen; /* Visible for testing */
-            color: black;
             display: none; /* Initially hidden */
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            z-index: 1000;
             cursor: pointer;
-            z-index: 100; /* Make sure it is on top */
         }
 
-        /* Create a simple arrow using CSS */
-        .back-to-top::before {
-            content: '↑'; /* Arrow symbol */
-            font-size: 30px;
-            color: black;
-            display: block;
-            text-align: center;
-            line-height: 50px; /* Ensures the arrow is centered */
-        }
-
-        /* Add important to visibility styles to prevent CSS conflicts */
+        /* Arrow should be visible after scroll */
         .back-to-top.show {
-            display: block !important;
+            display: flex !important;
         }
 
-    </style>    
+    </style>
 </head>
 <body>
     <header>
-        <div class="header-wrapper">
+        <div class="header-content">
             <a href="/">
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
@@ -91,8 +214,22 @@
                 </div>
             </a>
 
+            <!-- Red Flags logo on the left -->
+            <div class="redflags-logo-container">
+                <a href="#redflags">
+                    <img class="logo-small" src="/assets/images/redflags_logo.png" alt="Red Flags Logo">
+                </a>
+            </div>
+
+            <!-- Nutshell logo on the right -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img class="logo-small" src="/assets/images/nutshell_logo.png" alt="Nutshell Logo">
+                </a>
+            </div>
         </div>
 
+        <!-- Hamburger menu for mobile -->
         <div class="hamburger">&#9776; Menu</div>
         <nav>
             <ul>
@@ -441,7 +578,7 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
 
 
     <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop"></div>
+    <div class="back-to-top" id="backToTop">↑</div>
 
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
@@ -455,7 +592,7 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Show the back-to-top button when scrolling down
+            // Show or hide the back to top button
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) {
                     backToTop.classList.add('show');
@@ -472,6 +609,22 @@ The proposals in the “Intelligence Community” section of Project 2025 outlin
                 });
             });
 
+            // Logo hover effect
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-200%)";
+                    rightMask.style.transform = "translateX(200%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
         });
     </script>
 </body>
