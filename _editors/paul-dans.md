@@ -1,5 +1,5 @@
 ---
-layout: editor
+layout: author
 title: Paul Dans
 ---
 
