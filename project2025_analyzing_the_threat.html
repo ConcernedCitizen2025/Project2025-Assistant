@@ -64,6 +64,10 @@
         .menu-toggle {
             display: none;
             cursor: pointer;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 9999;
         }
 
         .menu-toggle .bar {
@@ -94,7 +98,7 @@
         /* Mobile styles */
         @media screen and (max-width: 768px) {
             nav ul {
-                display: none;
+                display: none; /* Hide menu by default on mobile */
                 flex-direction: column;
                 width: 100%;
                 background-color: #222; /* Adds a background color */
@@ -110,11 +114,11 @@
             }
 
             nav ul.showing {
-                display: block;
+                display: block; /* Show the menu when .showing class is added */
             }
 
             .menu-toggle {
-                display: block;
+                display: block; /* Show the hamburger icon on mobile */
                 position: absolute;
                 top: 15px;
                 right: 15px;
