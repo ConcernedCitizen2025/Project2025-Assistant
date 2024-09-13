@@ -95,6 +95,10 @@
             color: #fff;
         }
 
+        nav ul.showing {
+            display: flex;
+        }
+
         /* Hamburger menu */
         .hamburger {
             display: none;
@@ -185,8 +189,9 @@
 
             /* Align share buttons for mobile */
             .share-buttons {
-                justify-content: space-between;
-                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
             }
         }
     </style>
@@ -318,6 +323,7 @@ function googleTranslateElementInit() {
 
             // Hamburger menu functionality
             hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('showing');
                 navMenu.classList.toggle('showing');
             });
 
