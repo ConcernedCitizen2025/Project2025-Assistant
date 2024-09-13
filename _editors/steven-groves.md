@@ -5,9 +5,9 @@ title: Steven Groves
 
 # Steven Groves
 
-**Role:** Former Special Assistant to the President and Deputy Press Secretary
+**Role:** Editor
 
-**Position:** Margaret Thatcher Fellow at The Heritage Foundation
+**Position:** Former Special Assistant to the President and Deputy Press Secretary and Margaret Thatcher Fellow at The Heritage Foundation
 
 **Background:**  
 Steven Groves served as a Special Assistant to the President and Deputy Press Secretary during the Trump administration. Before joining the White House, Groves was a Senior Fellow at the Heritage Foundation, focusing on international law and sovereignty. He holds a JD from the University of Florida Levin College of Law and a BA from Florida State University.
