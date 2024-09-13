@@ -14,30 +14,70 @@
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Favicon and related icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    {% include google-analytics.html %}
+
+    <!-- Custom mobile styling -->
     <style>
-        /* Custom styles for the Table of Contents page */
-        body.toc-page {
-            background-color: #f5f5f5;
-            color: #333;
+        /* Base styling */
+        body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
         }
 
-        header {
-            background-color: #222;
-            padding: 10px 0;
+        /* Center the content with proper spacing */
+        .content-wrapper {
+            max-width: 900px; /* Ensures the content doesn’t get too wide */
+            margin: 0 auto; /* Centers the content horizontally */
+            padding: 20px 40px; /* Adds padding on the sides */
+        }
+
+        /* Adjust text layout and prevent word breaking */
+        .content-wrapper {
+            word-wrap: break-word; /* Ensures proper word wrapping */
+            overflow-wrap: break-word; /* Prevents word overflow */
+            hyphens: auto; /* Enables hyphenation for long words */
+            text-align: left; /* Default alignment */
+        }
+
+        /* Handling spaces between words to avoid breaks */
+        .content-wrapper h3, .content-wrapper h4, .content-wrapper p {
+            white-space: normal; /* Prevents unnecessary word spacing */
+            word-spacing: 0; /* Reset word spacing */
+            line-height: 1.5; /* Improves readability */
+        }
+
+        /* Hamburger menu styles for mobile view */
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+        }
+
+        .menu-toggle .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+            transition: 0.4s;
         }
 
         nav ul {
             list-style: none;
             padding: 0;
-            text-align: center;
+            margin: 0;
         }
 
         nav ul li {
-            display: inline;
+            display: inline-block;
             margin-right: 20px;
         }
 
@@ -45,42 +85,49 @@
             color: #fff !important;
             text-decoration: none;
             font-weight: bold;
-            padding: 5px 10px;
-            border-radius: 5px;
         }
 
-        nav ul li a:hover {
-            background-color: #444;
-        }
+        /* Mobile styles */
+        @media screen and (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
 
-        .content-wrapper {
-            background-color: #fff;
-            margin: 20px auto;
-            padding: 30px;
-            max-width: 900px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: left; /* Ensures left-aligned text */
-        }
+            nav ul li {
+                display: block;
+                text-align: center;
+                margin-right: 0;
+            }
 
-        h1 {
-            font-size: 2em;
-            color: #444;
-            margin-bottom: 20px;
-        }
+            nav ul.showing {
+                display: block;
+            }
 
-        .content-wrapper p {
-            font-size: 1.1em;
-            margin-bottom: 20px;
-        }
+            .menu-toggle {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+            }
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #222;
-            color: #fff;
-            position: relative;
-            width: 100%;
+            .menu-toggle.active .bar:nth-child(1) {
+                transform: rotate(-45deg) translate(-5px, 6px);
+            }
+
+            .menu-toggle.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+
+            .menu-toggle.active .bar:nth-child(3) {
+                transform: rotate(45deg) translate(-5px, -6px);
+            }
+
+            /* Adjust padding for mobile view */
+            .content-wrapper {
+                padding: 10px;
+            }
         }
 
         /* Back to Top Button with Logo */
@@ -99,11 +146,11 @@
             height: 100%;
         }
 
-        /* Logo Animation Fix */
+        /* Logo Animation Fix (Same technique as Analyzing the Threat page) */
         .logo-container {
             position: relative;
             display: inline-block;
-            width: 150px; /* Adjust the width of the logo */
+            width: 150px;
             overflow: hidden;
         }
 
@@ -152,56 +199,7 @@
         .logo-container:hover .logo {
             transform: scale(1.05); /* Slightly enlarge the logo on hover */
         }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            nav ul {
-                display: none;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .hamburger {
-                display: block;
-                font-size: 30px;
-                cursor: pointer;
-                text-align: center;
-                margin: 10px auto;
-            }
-
-            nav ul.showing {
-                display: flex;
-            }
-
-            nav ul li {
-                display: block;
-                margin-bottom: 10px;
-            }
-
-            .content-wrapper {
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-        }
-
-        /* Hide hamburger menu on desktop */
-        @media (min-width: 769px) {
-            .hamburger {
-                display: none;
-            }
-        }
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    {% include google-analytics.html %}
 </head>
 <body class="toc-page">
     <header>
@@ -210,15 +208,22 @@
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/toc_logo.png" alt="TOC Logo">
-                        <img class="mask right" src="/assets/images/toc_logo.png" alt="TOC Logo">
+                        <img class="mask left" src="/assets/images/threat_logo.png" alt="ATT Logo">
+                        <img class="mask right" src="/assets/images/threat_logo.png" alt="ATT Logo">
                     </div>
                 </div>
             </a>
         </div>
-        <div class="hamburger">&#9776; Menu</div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="menu-toggle" id="mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
@@ -244,7 +249,6 @@
             {{ content }}
         </div>
     </main>
-
     <!-- Include the cookie consent banner -->
     {% include cookie-consent-banner.html %}
 
@@ -263,24 +267,38 @@
         </ul>
     </footer>
 
+    <!-- Restoring the hover effect on the logo animation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const backToTop = document.getElementById('backToTop');
-            const hamburger = document.querySelector('.hamburger');
-            const navMenu = document.querySelector('nav ul');
+            const logoContainers = document.querySelectorAll(".logo-container");
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
 
-            // Hamburger menu functionality
-            hamburger.addEventListener('click', function() {
-                navMenu.classList.toggle('showing');
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
             });
 
-            window.addEventListener('resize', function() {
-                if (window.innerWidth > 768) {
-                    navMenu.classList.remove('showing');
-                }
+            // Hamburger menu functionality for mobile view
+            const mobileMenu = document.getElementById("mobile-menu");
+            const navLinks = document.getElementById("nav-links");
+
+            mobileMenu.addEventListener("click", function() {
+                navLinks.classList.toggle("showing");
+                mobileMenu.classList.toggle("active");
             });
 
             // Back to Top functionality
+            const backToTop = document.getElementById('backToTop');
+
+            // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
                 document.documentElement.scrollTop = 0; // For modern browsers
                 document.body.scrollTop = 0; // For Safari
