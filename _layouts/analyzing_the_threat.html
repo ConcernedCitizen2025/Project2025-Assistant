@@ -30,6 +30,8 @@
         /* Base styling */
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
         .content-wrapper {
@@ -38,13 +40,13 @@
             padding: 20px;
         }
 
-        /* Center text block and ensure proper word wrapping */
+        /* Adjust text layout and prevent word breaking */
         .content-wrapper {
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            hyphens: auto;
-            text-align: left; /* Ensures text is aligned to the left */
-            padding: 0 15px; /* Adds padding for the mobile view */
+            word-wrap: normal; /* Ensure normal word wrapping */
+            overflow-wrap: normal; /* Prevent unnecessary word breaking */
+            hyphens: none; /* Disable hyphenation */
+            text-align: justify; /* Justify the text to distribute spacing evenly */
+            padding: 0 15px; /* Adds padding for mobile view */
         }
 
         /* Hamburger menu styles for mobile view */
@@ -114,6 +116,11 @@
             .menu-toggle.active .bar:nth-child(3) {
                 transform: rotate(45deg) translate(-5px, -6px);
             }
+
+            /* Adjust padding for mobile view */
+            .content-wrapper {
+                padding: 10px;
+            }
         }
 
         /* Back to Top Button with Logo */
@@ -124,13 +131,14 @@
             width: 50px;
             height: 50px;
             cursor: pointer;
-            z-index: 9999; /* Ensure it's on top */
+            z-index: 9999;
         }
 
         .back-to-top img {
             width: 100%;
             height: 100%;
         }
+
     </style>
 </head>
 <body class="toc-page">
@@ -232,9 +240,6 @@
 
             // Scroll to the top when the arrow is clicked
             backToTop.addEventListener('click', function() {
-                console.log("Back to Top Button clicked");
-
-                // Improved cross-browser scroll solution
                 document.documentElement.scrollTop = 0;  // For modern browsers
                 document.body.scrollTop = 0;  // For Safari
             });
