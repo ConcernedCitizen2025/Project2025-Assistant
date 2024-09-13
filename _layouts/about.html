@@ -155,6 +155,28 @@
 
         /* Mobile styles */
         @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 20px;  /* Add padding to prevent text from touching the edges */
+                margin: 0 auto;  /* Ensure the content is centered */
+                max-width: 100%;  /* Full width for small devices */
+                box-sizing: border-box;  /* Include padding and borders in the element's total width and height */
+            }
+
+            main {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+
+            /* Align share buttons for mobile */
+            .share-buttons {
+                justify-content: space-between;
+                width: 100%;
+            }
+
             .logo-container .logo {
                 max-width: 100%;
             }
@@ -173,10 +195,6 @@
                 display: flex;
             }
 
-            .share-buttons {
-                justify-content: space-between;
-                width: 100%;
-            }
         }
 
         @media (min-width: 769px) {
