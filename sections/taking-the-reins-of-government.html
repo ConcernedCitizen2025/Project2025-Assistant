@@ -517,15 +517,14 @@ Section One of Project 2025 outlines a vision for centralizing executive power a
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
 
-            // Simulate the back button action to clear the hash from the URL and go back in history
             backToTop.addEventListener('click', function() {
                 console.log("Back to Top Button clicked");
 
-                // Perform a history "back" action if there is a hash
+                // Check if there's a hash in the URL
                 if (window.location.hash) {
-                    window.history.back();  // Go back one step in history
+                    window.history.back();  // Simulate back navigation to remove the hash
                 } else {
-                    // If no hash, scroll to the top
+                    // No hash, scroll directly to the top
                     document.documentElement.scrollTop = 0;  // For modern browsers
                     document.body.scrollTop = 0;  // For Safari
                 }
