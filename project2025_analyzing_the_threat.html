@@ -29,7 +29,7 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
 
-    <!-- Custom styling -->
+    <!-- Custom mobile styling -->
     <style>
         /* Base styling */
         body {
@@ -47,10 +47,17 @@
 
         /* Adjust text layout and prevent word breaking */
         .content-wrapper {
-            word-wrap: normal; /* Ensures normal word wrapping */
-            overflow-wrap: normal; /* Prevents unnecessary word breaking */
-            hyphens: none; /* Disables hyphenation */
-            text-align: justify; /* Justifies text for even spacing */
+            word-wrap: break-word; /* Ensures proper word wrapping */
+            overflow-wrap: break-word; /* Prevents word overflow */
+            hyphens: auto; /* Enables hyphenation for long words */
+            text-align: left; /* Default alignment */
+        }
+
+        /* Handling spaces between words to avoid breaks */
+        .content-wrapper h3, .content-wrapper h4, .content-wrapper p {
+            white-space: normal; /* Prevents unnecessary word spacing */
+            word-spacing: 0; /* Reset word spacing */
+            line-height: 1.5; /* Improves readability */
         }
 
         /* Hamburger menu styles for mobile view */
