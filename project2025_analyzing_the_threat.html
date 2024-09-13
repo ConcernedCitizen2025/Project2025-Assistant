@@ -94,26 +94,31 @@
         /* Mobile styles */
         @media screen and (max-width: 768px) {
             nav ul {
-                display: none;
-                flex-direction: column;
+                display: none; /* Hide regular nav */
+            }
+
+            /* Align logo and hamburger in a row */
+            .header-content {
+                justify-content: space-between;
+            }
+
+            /* Social icons, logo, and hamburger should align in a row */
+            .logo-container img {
+                max-width: 100%;
+                height: auto; /* Ensures logo maintains aspect ratio */
+                display: block;
+                margin: 0 auto;
+            }
+
+            .social-media-icons {
+                justify-content: space-between;
                 width: 100%;
-            }
-
-            nav ul li {
-                display: block;
-                text-align: center;
-                margin-right: 0;
-            }
-
-            nav ul.showing {
-                display: block;
             }
 
             .menu-toggle {
                 display: block;
-                position: relative;
-                top: 0; /* No longer absolute to allow it to be below the logo */
-                margin: 0 auto;
+                font-size: 30px;
+                cursor: pointer;
             }
 
             .menu-toggle.active .bar:nth-child(1) {
