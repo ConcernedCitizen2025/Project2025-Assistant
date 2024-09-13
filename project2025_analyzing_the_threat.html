@@ -31,6 +31,26 @@
 
     <!-- Custom mobile styling -->
     <style>
+        /* Base styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Center text block and ensure proper word wrapping */
+        .content-wrapper {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            text-align: left; /* Ensures text is aligned to the left */
+            padding: 0 15px; /* Adds padding for the mobile view */
+        }
+
         /* Hamburger menu styles for mobile view */
         .menu-toggle {
             display: none;
@@ -115,7 +135,6 @@
             width: 100%;
             height: 100%;
         }
-
     </style>
 </head>
 <body class="toc-page">
