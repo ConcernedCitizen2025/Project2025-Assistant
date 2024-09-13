@@ -652,28 +652,33 @@ function googleTranslateElementInit() {
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const backToTop = document.getElementById('backToTop');
-
+    
             backToTop.addEventListener('click', function() {
                 console.log("Back to Top Button clicked");
-
+    
                 // Check if there's a hash in the URL
                 if (window.location.hash) {
-                    window.history.back();  // Simulate back navigation to remove the hash
+                    // Clear the hash without reloading the page
+                    history.replaceState(null, null, ' '); // This removes the hash
+    
+                    // Scroll to the top of the page after clearing the hash
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
                 } else {
-                    // No hash, scroll directly to the top
+                    // No hash, simply scroll directly to the top
                     document.documentElement.scrollTop = 0;  // For modern browsers
                     document.body.scrollTop = 0;  // For Safari
                 }
             });
-
+    
             // Mobile hamburger menu functionality
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('nav ul');
-
+    
             hamburger.addEventListener('click', function() {
                 navMenu.classList.toggle('showing');
             });
-
+    
             window.addEventListener('resize', function() {
                 if (window.innerWidth > 768) {
                     navMenu.classList.remove('showing');
@@ -681,5 +686,6 @@ function googleTranslateElementInit() {
             });
         });
     </script>
+    
 </body>
 </html>
