@@ -69,7 +69,7 @@
         .menu-toggle .bar {
             width: 25px;
             height: 3px;
-            background-color: #fff;
+            background-color: #000; /* Make the bars visible */
             margin: 5px 0;
             transition: 0.4s;
         }
@@ -97,12 +97,16 @@
                 display: none;
                 flex-direction: column;
                 width: 100%;
+                background-color: #222; /* Adds a background color */
+                text-align: center; /* Align text centrally */
+                padding: 10px 0;
+                margin: 0;
             }
 
             nav ul li {
                 display: block;
-                text-align: center;
                 margin-right: 0;
+                padding: 10px 0; /* Add spacing between links */
             }
 
             nav ul.showing {
