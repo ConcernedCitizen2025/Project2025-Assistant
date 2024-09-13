@@ -6,7 +6,7 @@ title: "Project 2025: Analyzing the Threat"
 # Project 2025: *Analyzing the Threat*
 
 > ### [Foreword: A Promise to America](/sections/foreword-a-promise-to-america.html)
-> #### *[Kevin D. Roberts, PhD](/authors/kevin-d-roberts-phd.html)*
+> ***[Kevin D. Roberts, PhD](/authors/kevin-d-roberts-phd.html)***
 
 ## Section 1: [Taking the Reins of Government](/sections/taking-the-reins-of-government.html)
 
