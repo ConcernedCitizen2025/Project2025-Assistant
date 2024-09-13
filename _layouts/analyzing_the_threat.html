@@ -60,16 +60,12 @@
         .menu-toggle {
             display: none;
             cursor: pointer;
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            z-index: 9999;
         }
 
         .menu-toggle .bar {
             width: 25px;
             height: 3px;
-            background-color: #000; /* Make the bars visible */
+            background-color: #fff;
             margin: 5px 0;
             transition: 0.4s;
         }
@@ -94,30 +90,26 @@
         /* Mobile styles */
         @media screen and (max-width: 768px) {
             nav ul {
-                display: none; /* Hide menu by default on mobile */
+                display: none;
                 flex-direction: column;
                 width: 100%;
-                background-color: #222; /* Adds a background color */
-                text-align: center; /* Align text centrally */
-                padding: 10px 0;
-                margin: 0;
             }
 
             nav ul li {
                 display: block;
+                text-align: center;
                 margin-right: 0;
-                padding: 10px 0; /* Add spacing between links */
             }
 
             nav ul.showing {
-                display: block; /* Show the menu when .showing class is added */
+                display: block;
             }
 
             .menu-toggle {
-                display: block; /* Show the hamburger icon on mobile */
-                position: absolute;
-                top: 15px;
-                right: 15px;
+                display: block;
+                position: relative;
+                top: 0; /* No longer absolute to allow it to be below the logo */
+                margin: 0 auto;
             }
 
             .menu-toggle.active .bar:nth-child(1) {
@@ -177,23 +169,25 @@
             <div class="bar"></div>
         </div>
 
+        <!-- Social Media Icons -->
+        <div class="share-buttons" style="text-align:center; margin-top: 10px;">
+            <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook">
+            </a>
+            <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/twitter.webp" alt="Share on Twitter">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn">
+            </a>
+        </div>
+
         <nav>
             <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook">
-                </a>
-                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.webp" alt="Share on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn">
-                </a>
-            </div>
         </nav>
     </header>
     <main>
