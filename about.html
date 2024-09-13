@@ -56,7 +56,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             flex: 1;
-            width: 90%; /* Ensures the main block takes up 90% of the screen on smaller devices */
+            text-align: justify;
         }
 
         /* Styling the header */
@@ -95,6 +95,15 @@
             color: #fff;
         }
 
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
         /* Social media icons */
         .share-buttons {
             display: flex;
@@ -122,6 +131,22 @@
             color: #555;
         }
 
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
         /* Footer styling */
         footer {
             text-align: center;
@@ -136,11 +161,26 @@
                 max-width: 100%; /* Full width for small devices */
             }
 
+            .hamburger {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hamburger.showing + nav ul {
+                display: flex;
+            }
+
             /* Adjust padding for main content */
             main {
                 padding: 20px;
                 margin: 20px auto;
-                width: 95%; /* Ensures the main block takes up 95% of the screen on mobile */
+                width: 90%; /* Ensures the main block is centered and takes up most of the screen on mobile */
+                text-align: justify;
             }
 
             /* Align share buttons for mobile */
@@ -180,6 +220,10 @@
                 </div>
             </a>
         </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -199,6 +243,12 @@
             </div>            
         </nav>      
     </header>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
     <div class="translate-container">
         <div id="google_translate_element"></div>
 
@@ -216,6 +266,7 @@ function googleTranslateElementInit() {
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     </div>
+    
     <main>
         <div class="content-wrapper">
             <h1 id="about-us">About Us</h1>
@@ -238,8 +289,9 @@ function googleTranslateElementInit() {
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -247,17 +299,34 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>        
+    
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
