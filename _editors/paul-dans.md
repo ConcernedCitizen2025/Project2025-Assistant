@@ -5,7 +5,9 @@ title: Paul Dans
 
 # Paul Dans
 
-**Role:** Director of the 2025 Presidential Transition Project, The Heritage Foundation  
+**Role:** Editor 
+
+**Position:** Director of the 2025 Presidential Transition Project, The Heritage Foundation  
 
 **Background:**  
 Paul Dans served as Chief of Staff at the U.S. Office of Personnel Management (OPM) during the Trump administration, managing federal HR policies for over two million workers. He also worked closely with the Office of Presidential Personnel as OPM's White House liaison. Before OPM, Dans was a Senior Advisor at the U.S. Department of Housing and Urban Development. He has a legal background, having practiced high-stakes commercial litigation for 15 years before founding his own firm. Dans holds degrees from the University of Virginia School of Law and MIT.
