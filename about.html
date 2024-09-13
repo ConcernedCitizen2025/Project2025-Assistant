@@ -37,7 +37,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow-x: hidden; /* Prevents horizontal scroll issues */
+            overflow-x: hidden;
         }
 
         body.about-page {
@@ -65,6 +65,14 @@
             text-align: center;
         }
 
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
         /* Adjusting the main logo size */
         .logo-container {
             text-align: center;
@@ -72,7 +80,7 @@
 
         .logo-container .logo {
             max-width: 300px;
-            width: 100%; /* Responsive width */
+            width: 100%;
             height: auto;
             margin-bottom: 0px;
         }
@@ -129,22 +137,51 @@
             color: #fff;
         }
 
-        /* Responsive styles */
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Mobile styles */
         @media (max-width: 768px) {
             .logo-container .logo {
-                max-width: 100%; /* Full width for small devices */
+                max-width: 100%;
             }
 
-            /* Adjust padding for main content */
-            main {
-                padding: 20px;
-                margin: 20px auto;
+            .hamburger {
+                display: block;
             }
 
-            /* Align share buttons for mobile */
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
             .share-buttons {
                 justify-content: space-between;
                 width: 100%;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
             }
         }
     </style>
@@ -163,7 +200,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>     
+</script>
 </head>
 <body class="about-page">
     <header>
@@ -178,6 +215,10 @@
                 </div>
             </a>
         </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -194,26 +235,10 @@
                 <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/about.html&title=About Project 2025 Assistant" target="_blank">
                     <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn">
                 </a>
-            </div>            
+            </div>
         </nav>      
     </header>
-    <div class="translate-container">
-        <div id="google_translate_element"></div>
-
-<script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-  }, 'google_translate_element');
-}
-</script>
-
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    </div>
+    
     <main>
         <div class="content-wrapper">
             <h1 id="about-us">About Us</h1>
@@ -236,8 +261,14 @@ function googleTranslateElementInit() {
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.png" alt="Back to Top">
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -245,17 +276,34 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
+    <!-- Include the cookie consent script -->
+    <script src="/assets/js/cookie-consent-script.js"></script>
+
     <footer>
         <p>© 2024 Project 2025 Assistant</p>
         <ul>
             <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
         </ul>
     </footer>        
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
@@ -269,6 +317,13 @@ function googleTranslateElementInit() {
                     leftMask.style.transform = "translateX(0)";
                     rightMask.style.transform = "translateX(0)";
                 });
+            });
+
+            // Reset nav when resizing
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
             });
         });
     </script>
