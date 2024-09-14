@@ -200,7 +200,7 @@
         /* For mobile view, reduce the logo size */
         @media only screen and (max-width: 768px) {
             .vote-logo {
-                width: 70px;
+                width: 50px;
             }
         }
     </style>
@@ -271,10 +271,10 @@
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <footer style="display: flex; align-items: center; justify-content: space-between; background-color: #222; padding: 10px;">
+    <footer style="display: flex; align-items: center; justify-content: space-between; background-color: #333; padding: 10px;">
         <!-- Logo on the left with lazy loading and fixed width -->
         <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="display: inline-block;">
-            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="width: 175px; height: auto;" class="vote-logo">
+            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="width: 125px; height: auto;" class="vote-logo">
         </a>
     
         <!-- Copyright and privacy policy in the center -->
