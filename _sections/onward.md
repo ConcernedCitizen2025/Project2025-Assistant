@@ -86,7 +86,7 @@ The document emphasizes mobilizing conservative grassroots support, potentially 
 
     - **Explanation:** This statement underscores a desire for ideological purity within the executive branch, suggesting that appointees should adhere strictly to the President's conservative vision. While loyalty and alignment with administration goals are expected, the emphasis on a single ideological perspective raises concerns about the exclusion of diverse viewpoints and the potential for groupthink. This approach may stifle internal debate and critical thinking, leading to a lack of robust policy development that considers a wide range of perspectives and potential impacts on various segments of society.
 
-- ***Quote:** "That road map is exactly what *Mandate* provides. It is not a mandate to maintain the status quo but just do it a little more efficiently. Rather, it is a mandate to significantly advance conservative principles in practice and demonstrate to the American people that where liberal policies generally fail, conservative solutions succeed in making life better for all of us" (Project 2025, 2024, p. 849).
+- ***Quote:** "That road map is exactly what Mandate provides. It is not a mandate to maintain the status quo but just do it a little more efficiently. Rather, it is a mandate to significantly advance conservative principles in practice and demonstrate to the American people that where liberal policies generally fail, conservative solutions succeed in making life better for all of us" (Project 2025, 2024, p. 849).*
 
     - **Summarize Quote:** *Mandate for Leadership* aims to advance conservative principles, contrasting them with perceived failures of liberal policies.
 
