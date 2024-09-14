@@ -1,8 +1,8 @@
 ---
 layout: home
 title: "Home"
-description: "Explore the comprehensive analysis of Project 2025, a document that poses potential risks to American democracy. Get informed about its implications and possible impacts."
-keywords: "Project 2025, analysis, implications, American democracy, upcoming election"
+description: "Dive deep into the analysis of Project 2025, a political document threatening American democracy, freedom, and constitutional rights. Understand its potential risks and impacts on the upcoming election and learn how it could reshape the future of the U.S."
+keywords: "Project 2025, analysis, threats to democracy, constitutional rights, freedom, upcoming election, political risks, U.S. Constitution, government reform"
 ---
 
 # Welcome to the *Project 2025 Assistant*
