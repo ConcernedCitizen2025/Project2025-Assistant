@@ -40,6 +40,11 @@ title: "All Questions"
 - [How does Project 2025 address the issue of racial profiling and law enforcement practices?](/questions/088-racial-profiling-law-enforcement.html)
 - [How does Project 2025 address the issue of civil asset forfeiture, and could its policies exacerbate the potential for abuse in law enforcement practices?](/questions/155-civil-asset-forfeiture-potential-abuse.html)
 
+## Drugs Policy
+- [How does Project 2025 propose to address the opioid crisis and drug addiction treatment?](/questions/033-opioid-crisis-addiction-treatment.html)
+<!--- [What is Project 2025’s stance on the legalization of marijuana, and how might its proposed policies impact federal and state-level legalization efforts, criminal justice reform, and public health?](/questions/075-legalization-marijuana-policies.html)-->
+- [How does Project 2025 address the opioid crisis, particularly regarding pharmaceutical regulations and addiction treatment programs?](/questions/098-opioid-crisis-pharmaceutical-regulations-addiction-treatment.html)
+
 ## Economic Policy
 - [What economic policies are proposed, and how might they affect job markets and wages?](/questions/013-economic-policies-job-markets-wages.html)
 - [How does Project 2025 address issues of wealth inequality and poverty?](/questions/027-wealth-inequality-poverty.html)
@@ -173,6 +178,16 @@ title: "All Questions"
 - [How does Project 2025 address the issue of Israeli settlements in the West Bank?](/questions/067-israeli-settlements-west-bank.html)
 - [What policies does Project 2025 propose regarding U.S. economic and military aid to countries in the Middle East, particularly in relation to the Israel-Palestine conflict?](/questions/068-us-economic-military-aid-middle-east.html)
 
+## Jobs - Employment
+- [What economic policies are proposed, and how might they affect job markets and wages?](/questions/013-economic-policies-job-markets-wages.html)
+- [What specific strategies does Project 2025 outline for creating jobs in the U.S., particularly in manufacturing and industrial sectors, and how does it plan to bring back jobs that have been outsourced overseas?](/questions/117-job-creation-manufacturing-industrial-sectors.html)
+- [How does Project 2025 address the issue of gender equity in education, employment, and healthcare?](/questions/158-gender-equity-education-employment-healthcare.html)
+- [How does Project 2025 address whistleblower protections, especially for government employees?](/questions/140-whistleblower-protections-government-employees.html)
+- [What changes to labor laws and workers' rights are proposed?](/questions/020-labor-laws-workers-rights.html)
+- [How does Project 2025 address the rights and protections of gig economy workers?](/questions/055-rights-protections-gig-economy-workers.html)
+- [What changes does Project 2025 propose for public sector unions and workers' collective bargaining rights?](/questions/095-public-sector-unions-workers-bargaining-rights.html)
+- [What changes does Project 2025 suggest for the regulation of labor unions, and could these proposals weaken collective bargaining rights and worker protections?](/questions/150-regulation-labor-unions-collective-bargaining.html)
+
 ## Judicial System
 - [What changes to the federal judicial system and the appointment of judges are proposed?](/questions/044-federal-judicial-system-appointment-judges.html)
 - [Does Project 2025 suggest any changes to the structure or composition of the federal judiciary, including the possibility of court-packing or limiting judicial review?](/questions/077-federal-judiciary-structure-composition-changes.html)
@@ -186,11 +201,6 @@ title: "All Questions"
 
 ## LGBTQ+ Rights
 - [What changes does Project 2025 propose for LGBTQ+ rights, including marriage equality and anti-discrimination protections?](/questions/002-lgbtq-rights-changes.html)
-
-## Drug Policies
-- [How does Project 2025 propose to address the opioid crisis and drug addiction treatment?](/questions/033-opioid-crisis-addiction-treatment.html)
-<!--- [What is Project 2025’s stance on the legalization of marijuana, and how might its proposed policies impact federal and state-level legalization efforts, criminal justice reform, and public health?](/questions/075-legalization-marijuana-policies.html)-->
-- [How does Project 2025 address the opioid crisis, particularly regarding pharmaceutical regulations and addiction treatment programs?](/questions/098-opioid-crisis-pharmaceutical-regulations-addiction-treatment.html)
 
 ## National Security and Military
 - [How does Project 2025 address issues of national security and military policy?](/questions/021-national-security-military-policy.html)
