@@ -195,6 +195,15 @@
             }
         }
     </style>
+    <!-- Add responsive CSS styling -->
+    <style>
+        /* For mobile view, reduce the logo size */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
     <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
     <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
@@ -308,9 +317,9 @@ function googleTranslateElementInit() {
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
     <footer style="position: relative; display: flex; justify-content: space-between; align-items: center;">
-        <!-- Logo on the left -->
+        <!-- Logo on the left with lazy loading and responsive width -->
         <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 0;">
-            <img src="assets/images/vote.webp" alt="Register to Vote" style="height: 50px; width: auto;">
+            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="width: 175px; height: auto;" class="vote-logo">
         </a>
     
         <!-- Copyright and privacy policy in the center -->
@@ -321,8 +330,7 @@ function googleTranslateElementInit() {
             </ul>
         </div>
     </footer>
-            
-    
+     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
