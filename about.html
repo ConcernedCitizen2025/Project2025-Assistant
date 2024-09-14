@@ -202,6 +202,9 @@
             .vote-logo {
                 width: 50px;
             }
+            footer {
+                height: auto;
+            }
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
@@ -316,15 +319,15 @@ function googleTranslateElementInit() {
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <footer style="display: flex; align-items: center; justify-content: space-between; background-color: #333; padding: 10px;">
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; position: relative;">
         <!-- Logo on the left with lazy loading and fixed width -->
-        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="display: inline-block;">
+        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 10px;">
             <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="width: 125px; height: auto;" class="vote-logo">
         </a>
     
         <!-- Copyright and privacy policy in the center -->
-        <div style="text-align: center; flex-grow: 1;">
-            <p style="margin: 0; color: white;">© 2024 Project 2025 Assistant</p>
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
             <ul style="list-style: none; padding: 0; margin: 0;">
                 <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
             </ul>
