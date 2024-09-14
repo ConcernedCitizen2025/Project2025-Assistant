@@ -5,6 +5,9 @@ title: "All Questions"
 
 # All Questions
 
+## Agriculture/Farming
+- [What changes are proposed for agricultural policies and support for farmers?](/questions/036-agricultural-policies-support-farmers.html)
+
 ## Censorship
 - [How does Project 2025 address intellectual freedom in education, particularly regarding censorship or control over educational content in schools and universities?](/questions/085-intellectual-freedom-education.html)
 - [Does Project 2025 propose any changes to the regulation of independent media, and how might these changes affect freedom of the press and the role of journalism in a democratic society?](/questions/121-regulation-independent-media-freedom-press-journalism.html)
