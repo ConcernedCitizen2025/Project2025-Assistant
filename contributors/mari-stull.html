@@ -75,7 +75,21 @@
             }
         }
     </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
 
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
     <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
     <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
@@ -198,11 +212,23 @@ Stull’s time at the State Department was controversial due to her alleged crea
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <ul>
-            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
-        </ul>
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; position: relative;">
+        <!-- Logo on the left with lazy loading and fixed width -->
+        <a href="https://vote.gov/" onclick="gtag('event', 'voter_reg_click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 10px;">
+            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" class="vote-logo">
+
+        </a>
+                  
+    
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <br><br>
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
 
     <script>
