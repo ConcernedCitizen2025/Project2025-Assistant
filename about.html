@@ -307,14 +307,21 @@ function googleTranslateElementInit() {
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <footer>
-        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});"><strong>Register to Vote</strong></a>
-
-        <p>© 2024 Project 2025 Assistant</p>
-        <ul>
-            <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
-        </ul>
-    </footer>        
+    <footer style="position: relative; display: flex; justify-content: space-between; align-items: center;">
+        <!-- Logo on the left -->
+        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 0;">
+            <img src="assets/images/vote.webp" alt="Register to Vote" style="height: 50px; width: auto;">
+        </a>
+    
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; margin-left: auto; margin-right: auto;">
+            <p>© 2024 Project 2025 Assistant</p>
+            <ul>
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+            
     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
