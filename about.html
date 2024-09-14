@@ -199,9 +199,6 @@
     <style>
         /* For mobile view, reduce the logo size */
         @media only screen and (max-width: 768px) {
-            footer {
-                height: 70px;
-            }
             .vote-logo {
                 width: 70px;
             }
@@ -319,14 +316,14 @@ function googleTranslateElementInit() {
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <footer style="position: relative; display: flex; align-items: center; justify-content: space-between; height: 175px; background-color: #222; padding: 0;">
-        <!-- Logo on the left with lazy loading and responsive width -->
-        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="display: inline-block; margin-left: 10px;">
-            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="height: 100%; width: auto;" class="vote-logo">
+    <footer style="display: flex; align-items: center; justify-content: space-between; background-color: #222; padding: 10px;">
+        <!-- Logo on the left with lazy loading and fixed width -->
+        <a href="https://vote.gov/" onclick="gtag('event', 'click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="display: inline-block;">
+            <img src="assets/images/vote.webp" alt="Register to Vote" loading="lazy" style="width: 175px; height: auto;" class="vote-logo">
         </a>
     
         <!-- Copyright and privacy policy in the center -->
-        <div style="text-align: center; margin-left: auto; margin-right: auto;">
+        <div style="text-align: center; flex-grow: 1;">
             <p style="margin: 0; color: white;">© 2024 Project 2025 Assistant</p>
             <ul style="list-style: none; padding: 0; margin: 0;">
                 <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
