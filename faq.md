@@ -5,7 +5,7 @@ title: "Demystifying Project 2025: Probing Questions"
 
 # Demystifying Project 2025: Probing Questions
 
-- [Agriculture-Farming](/_categories/agriculture-farming.html)
+- [Agriculture-Farming](/categories/agriculture-farming.html)
 - [Censorship](/categories/censorship.html)
 - [Child Welfare and Family Support](/categories/child-welfare-and-family-support.html)
 - [Civil Rights and Liberties](/categories/civil-rights-and-liberties.html)
@@ -26,7 +26,7 @@ title: "Demystifying Project 2025: Probing Questions"
 - [Indigenous Peoples' Rights](/categories/indigenous-peoples'-rights.html)
 - [Infrastructure and Housing](/categories/infrastructure-and-housing.html)
 - [Israel-Palestine Conflict](/categories/israel-palestine-conflict.html)
-- [Jobs-Employment](/_categories/jobs-employment.html)
+- [Jobs-Employment](/categories/jobs-employment.html)
 - [Judicial System](/categories/judicial-system.html)
 - [Labor and Workers' Rights](/categories/labor-and-workers'-rights.html)
 - [LGBTQ+ Rights](/categories/lgbtq+-rights.html)
