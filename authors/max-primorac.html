@@ -239,6 +239,7 @@ Primorac’s role in Project 2025 and his past positions reflect a focus on alig
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('nav ul');
             const backToTop = document.getElementById('backToTop');
@@ -259,6 +260,21 @@ Primorac’s role in Project 2025 and his past positions reflect a focus on alig
                 if (window.innerWidth > 768) {
                     navMenu.classList.remove('showing');
                 }
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
             });
         });
     </script>
