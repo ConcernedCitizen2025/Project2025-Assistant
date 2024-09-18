@@ -699,6 +699,7 @@ The proposals outlined in the “Department of Education” section of Project 2
     <!-- JavaScript for arrow functionality -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
             // Back to Top button functionality
             const backToTop = document.getElementById('backToTop');
             backToTop.addEventListener('click', function() {
@@ -751,6 +752,21 @@ The proposals outlined in the “Department of Education” section of Project 2
     
             redflagsLink.addEventListener('click', function(event) {
                 smoothScroll(event, '#redflags');
+            });
+            
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
             });
         });
     </script>

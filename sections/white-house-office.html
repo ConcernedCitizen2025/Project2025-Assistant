@@ -625,6 +625,7 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
     <!-- JavaScript for arrow functionality -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
             // Back to Top button functionality
             const backToTop = document.getElementById('backToTop');
             backToTop.addEventListener('click', function() {
@@ -677,6 +678,21 @@ Section 1.1 of Project 2025 provides a detailed plan for restructuring the White
     
             redflagsLink.addEventListener('click', function(event) {
                 smoothScroll(event, '#redflags');
+            });
+            
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
             });
         });
     </script>
