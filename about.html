@@ -326,9 +326,12 @@ function googleTranslateElementInit() {
         <!-- Logo on the left with lazy loading and fixed width -->
         <a href="https://vote.gov/" onclick="gtag('event', 'voter_reg_click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 10px;">
             <img src="/assets/images/vote.webp" alt="Register to Vote" loading="lazy" class="vote-logo">
-
         </a>
-                  
+        
+        <!-- Twitter Follow button with icon -->
+        <a href="https://twitter.com/Project2025Asst" target="_blank" style="position: absolute; right: 10px;">
+            <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 40px; height: auto;">
+        </a>
     
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
@@ -340,6 +343,7 @@ function googleTranslateElementInit() {
             <br><br>
         </div>
     </footer>
+    
      
     <script>
         document.addEventListener("DOMContentLoaded", function() {
