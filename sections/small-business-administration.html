@@ -576,17 +576,17 @@ function googleTranslateElementInit() {
         <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
     </div>
 
-    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; position: relative;">
-        <!-- Logo on the left with lazy loading and fixed width -->
-        <a href="https://vote.gov/" onclick="gtag('event', 'voter_reg_click', { 'event_category': 'registration', 'event_label': 'Voter Registration Link'});" style="position: absolute; left: 10px;">
-            <img src="/assets/images/vote.webp" alt="Register to Vote" loading="lazy" class="vote-logo">
-
-        </a>
-                  
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us!</span>
+        </div>
     
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
-            <br><br>
             <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
             <ul style="list-style: none; padding: 0; margin: 0;">
                 <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
