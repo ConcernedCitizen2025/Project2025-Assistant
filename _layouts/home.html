@@ -129,6 +129,25 @@
                 justify-content: space-between;
                 width: 100%;
             }
+
+                        /* Style for large screens */
+            @media (min-width: 769px) {
+                .content-wrapper img {
+                    float: left;
+                    max-width: 50%; /* Adjust this to make the image smaller or larger */
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            /* For smaller screens (mobile) */
+            @media (max-width: 768px) {
+                .content-wrapper img {
+                    float: none;
+                    width: 100%; /* Ensures full width on smaller screens */
+                    margin: 0 auto 20px; /* Centers the image */
+                }
+            }
         }
     </style>
     <!-- CSS Styling -->
