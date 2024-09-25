@@ -46,6 +46,7 @@ It's important to note that while striving for accuracy, there may be instances 
   </div>
   
   <!-- Text container -->
+  ## Our Goal
   <div style="display: table-cell; width: 60%; vertical-align: top;">
     <p style="text-align: justify;">
       The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
