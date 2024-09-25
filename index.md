@@ -46,7 +46,7 @@ It's important to note that while striving for accuracy, there may be instances 
   <!-- Text container -->
   <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
     <p>
-      <strong>The goal in creating this resource</strong> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
+      <h3><strong>The goal in creating this resource</strong></h3> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
     </p>
   </div>
 </div>
