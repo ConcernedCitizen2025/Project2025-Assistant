@@ -39,7 +39,7 @@ It's important to note that while striving for accuracy, there may be instances 
 
 <div style="display: table; width: 100%; margin: 20px 0;">
   <!-- Image container -->
-  <div style="display: table-cell; width: 40%; padding-right: 20px; vertical-align: top;">
+  <div style="display: table-cell; width: 50%; padding-right: 20px; vertical-align: top;">
     <a href="/questions/002-lgbtq-rights-changes.html">
       <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="width: 100%; height: auto;">
     </a>
