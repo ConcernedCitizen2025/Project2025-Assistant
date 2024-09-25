@@ -37,14 +37,14 @@ It's important to note that while striving for accuracy, there may be instances 
 
 ## Learn More about LGBTQ+ Rights
 
-<div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; margin: 20px 0;">
+<div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; margin: 20px 0;">
   <!-- Image container -->
-  <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px;">
+  <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
     <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;">
   </a>
   
   <!-- Text container -->
-  <div style="flex: 1; padding-left: 20px; text-align: justify;">
+  <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
     <p>
       <strong>The goal in creating this resource</strong> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
     </p>
