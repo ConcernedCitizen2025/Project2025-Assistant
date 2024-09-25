@@ -130,17 +130,17 @@
                 width: 100%;
             }
 
-            /* Style for large screens */
+            /* Style for larger screens */
             @media (min-width: 769px) {
                 .content-wrapper img {
                     float: left;
-                    max-width: 40%; /* Adjust image size */
+                    max-width: 400px; /* Adjust image size */
                     margin-right: 20px;
                     margin-bottom: 20px;
                 }
 
                 .content-wrapper p {
-                    width: 60%; /* Let text take up remaining space */
+                    width: calc(100% - 420px); /* Make text take up remaining space */
                 }
             }
 
@@ -156,6 +156,7 @@
                     width: 100%; /* Full width text on mobile */
                 }
             }
+
 
         }
     </style>
