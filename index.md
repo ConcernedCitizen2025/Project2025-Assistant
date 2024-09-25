@@ -35,6 +35,15 @@ Every effort has been made to ensure accuracy, including proper citations to aid
 
 It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official [Project 2025 website](https://www.project2025.org/playbook/), for verification.
 
+## Learn More about LGBTQ+ Rights
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="/questions/002-lgbtq-rights-changes.html">
+    <img src="/assets/images/descrimination.webp" alt="Rescind regulations prohibiting discrimination" style="max-width: 100%; height: auto;">
+  </a>
+</div>
+
+
 ## Our Goal
 
 The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election.
