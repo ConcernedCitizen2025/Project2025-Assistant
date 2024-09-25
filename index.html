@@ -137,6 +137,25 @@
                 justify-content: space-between;
                 width: 100%;
             }
+
+                        /* Style for large screens */
+            @media (min-width: 769px) {
+                .content-wrapper img {
+                    float: left;
+                    max-width: 50%; /* Adjust this to make the image smaller or larger */
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            /* For smaller screens (mobile) */
+            @media (max-width: 768px) {
+                .content-wrapper img {
+                    float: none;
+                    width: 100%; /* Ensures full width on smaller screens */
+                    margin: 0 auto 20px; /* Centers the image */
+                }
+            }
         }
     </style>
     <!-- CSS Styling -->
@@ -240,15 +259,21 @@ function googleTranslateElementInit() {
 
 <h2 id="learn-more-about-lgbtq-rights">Learn More about LGBTQ+ Rights</h2>
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="/questions/002-lgbtq-rights-changes.html">
-    <img src="/assets/images/descrimination.webp" alt="Rescind regulations prohibiting discrimination" style="max-width: 100%; height: auto;" />
-  </a>
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="max-width: 500px; margin: 20px; float: left; padding-right: 20px;">
+    <a href="/questions/002-lgbtq-rights-changes.html">
+      <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;" />
+    </a>
+  </div>
+  <p style="text-align: justify;">
+    The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document.
+    By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election.
+  </p>
 </div>
 
-<h2 id="our-goal">Our Goal</h2>
+<!--## Our Goal
 
-<p>The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election.</p>
+The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election.-->
 
 <p>Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.</p>
 
