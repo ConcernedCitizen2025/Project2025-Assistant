@@ -22,3 +22,5 @@ If you find this resource valuable, I encourage you to engage further. Whether b
 Should you encounter any issues with the website or wish to share your thoughts, please feel free to contact me at [concernedcitizen2025ad@gmail.com](mailto:concernedcitizen2025ad@gmail.com). I welcome respectful dialogue and constructive feedback.
 
 Remember, our democracy thrives on informed and active citizenship. Stay engaged, stay informed, and above all, **don't forget to vote!**
+
+<!-- Test commit -->
