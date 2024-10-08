@@ -13,20 +13,214 @@
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* Base styles for all devices */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevents horizontal scroll issues */
+        }
+
+        body.about-page {
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 30px;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            text-align: justify;
+        }
+
+        /* Styling the header */
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Adjusting the main logo size */
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo-container .logo {
+            max-width: 300px;
+            width: 100%; /* Responsive width */
+            height: auto;
+            margin-bottom: 0px;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav ul.showing {
+            display: flex;
+        }
+
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        /* Social media icons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .share-buttons a img {
+            margin: 0 10px;
+        }
+
+        /* Styling the main content */
+        main h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        main p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #555;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hamburger.showing + nav ul {
+                display: flex;
+            }
+
+            /* Adjust padding for main content */
+            main {
+                padding: 20px;
+                margin: 20px auto;
+                width: 90%; /* Ensures the main block is centered and takes up most of the screen on mobile */
+                text-align: justify;
+            }
+
+            /* Align share buttons for mobile */
+            .share-buttons {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> 
+    {% include google-analytics.html %}  
 </head>
 <body>
     <header>
         <div style="text-align: center;">
             <a href="/">
                 <div class="logo-container">
-                    <img class="logo" src="/assets/images/podcast_logo.webp" alt="Project 2025 Podcast Logo">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Left" loading="lazy">
-                        <img class="mask right" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Right" loading="lazy">
+                        <img class="mask left" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Left" loading="eager">
+                        <img class="mask right" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Right" loading="eager">
                     </div>
                 </div>
             </a>
         </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+
+        <nav></nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+            <div class="share-buttons">
+                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" target="_blank">
+                    <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+                </a>
+                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" target="_blank">
+                    <img src="/assets/images/share-icons/twitter.webp" alt="Share on Twitter" >
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" target="_blank">
+                    <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+                </a>
+            </div>            
+        </nav>
     </header>
 
     <main>
@@ -42,10 +236,58 @@
         </article>
     </main>
 
-    <footer>
-        <div style="text-align: center; padding: 10px; background-color: #333; color: white;">
-            © 2024 Project 2025 Assistant. All rights reserved.
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
+
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us!</span>
+        </div>
+    
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('showing');
+                navMenu.classList.toggle('showing');
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
 </body>
 </html>
