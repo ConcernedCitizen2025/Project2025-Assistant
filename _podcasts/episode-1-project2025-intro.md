@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title: "Episode 1: Project 2025 Intro"
+title: "Episode 1: Introduction to Project 2025"
 description: "The first episode of the Project 2025 podcast introducing key concepts of Project 2025."
 podcast_url: "/assets/podcast_files/episode-1-project2025-intro.wav"
 permalink: /podcasts/episode-1-project2025-intro.html
