@@ -51,8 +51,6 @@ It's important to note that while striving for accuracy, there may be instances 
   </div>
 </div>
 
-## Check Out Our Podcast
-
 <div style="text-align: center; margin: 40px 0;">
   <a href="/podcasts/episode-1-project2025-intro.html">
     <img src="/assets/images/podcast_click.webp" alt="Check out our Podcast - Click Here" style="max-width: 100%; height: auto;">
@@ -68,6 +66,6 @@ Thank you for visiting the site. Hopefully, this analysis proves valuable in you
 
 <div style="text-align: center;">
   <a href="/toc.html" style="font-size: 2em; font-weight: bold;">
-  <em>START HERE</em>
+  <em>BEGIN YOUR JOURNEY</em>
   </a>
 </div>
