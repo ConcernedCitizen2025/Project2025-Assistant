@@ -51,9 +51,13 @@ It's important to note that while striving for accuracy, there may be instances 
   </div>
 </div>
 
+## Check Out Our Podcast
 
-
-
+<div style="text-align: center; margin: 40px 0;">
+  <a href="/podcasts/episode-1-project2025-intro.html">
+    <img src="/assets/images/podcast_click.webp" alt="Check out our Podcast - Click Here" style="max-width: 100%; height: auto;">
+  </a>
+</div>
 
 
 <!--## Our Goal
