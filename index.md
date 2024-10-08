@@ -66,6 +66,6 @@ Thank you for visiting the site. Hopefully, this analysis proves valuable in you
 
 <div style="text-align: center;">
   <a href="/toc.html" style="font-size: 2em; font-weight: bold;">
-  <em>BEGIN YOUR JOURNEY</em>
+  <em>START YOUR JOURNEY</em>
   </a>
 </div>
