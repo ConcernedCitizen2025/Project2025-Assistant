@@ -20,6 +20,8 @@ collections:
     output: true
   questions:
     output: true
+  podcasts:
+    output: true
 
 defaults:
   - scope:
