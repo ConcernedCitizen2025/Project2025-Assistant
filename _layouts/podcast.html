@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- Dynamic Meta Description -->
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
+    <!-- Dynamic Meta Keywords -->
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
@@ -14,9 +16,15 @@
 </head>
 <body>
     <header>
-        <div class="logo-container">
+        <div style="text-align: center;">
             <a href="/">
-                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/podcast_logo.webp" alt="Project 2025 Podcast Logo">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Left" loading="lazy">
+                        <img class="mask right" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Right" loading="lazy">
+                    </div>
+                </div>
             </a>
         </div>
     </header>
@@ -25,14 +33,19 @@
         <article>
             <h1>{{ page.title }}</h1>
             <div class="podcast-embed">
-                <iframe src="{{ page.podcast_url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <audio controls>
+                    <source src="{{ page.podcast_url }}" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
             <p>{{ page.description }}</p>
         </article>
     </main>
 
     <footer>
-        <!-- Footer content -->
+        <div style="text-align: center; padding: 10px; background-color: #333; color: white;">
+            © 2024 Project 2025 Assistant. All rights reserved.
+        </div>
     </footer>
 </body>
 </html>
