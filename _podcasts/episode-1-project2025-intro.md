@@ -1,9 +1,11 @@
 ---
-layout: podcasts
-title: "Episode 1: Project 2025 Introduction"
-description: "In this episode, we explore the potential impacts of Project 2025 on American democracy, LGBTQ+ rights, and federal employment policies."
-keywords: "Project 2025, podcast, democracy, LGBTQ+ rights, federal policies, Schedule F"
+layout: podcast
+title: "Episode 1: Project 2025 Intro"
+description: "The first episode of the Project 2025 podcast introducing key concepts of Project 2025."
+podcast_url: "/assets/podcast_files/episode-1-project2025-intro.wav"
+permalink: /podcasts/episode-1-project2025-intro.html
 ---
+
 
 # Episode 1: Project 2025 Introduction
 
