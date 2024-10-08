@@ -231,8 +231,14 @@
                 </audio>
             </div>
             <p>{{ page.description }}</p>
+            
+            <!-- This is important -->
+            <div class="content-wrapper">
+                {{ content }}
+            </div>
         </article>
     </main>
+    
 
     <!-- Include the cookie consent banner -->
     {% include cookie-consent-banner.html %}

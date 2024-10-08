@@ -6,7 +6,6 @@ podcast_url: "/assets/podcast_files/episode-1-project2025-intro.wav"
 permalink: /podcasts/episode-1-project2025-intro.html
 ---
 
-
 # Episode 1: Project 2025 Introduction
 
 In this episode, we take a closer look at Project 2025, the political blueprint that could have a major impact on the U.S. government and its citizens. We discuss how this document plans to reshape the federal government, restrict LGBTQ+ rights, and enforce policies like Schedule F.
@@ -25,3 +24,4 @@ In this episode, we take a closer look at Project 2025, the political blueprint 
 - Reproductive rights post-Roe
 
 For more detailed analysis, visit [Project2025Assistant.org](https://project2025assistant.org).
+
