@@ -16,6 +16,14 @@ The probing questions aim to uncover the implications of the proposals within Pr
 <br>
 
 <div style="text-align: center;">
+  <a href="/podcasts/episode-1-project2025-intro.html" style="font-size: 2em; font-weight: bold;">
+    Podcast: <em>Episode 1 - Introduction to Project 2025</em>
+  </a>
+</div>
+In this first episode of the Project 2025 podcast, we introduce the key concepts and implications of Project 2025, discussing the potential threats to LGBTQ+ rights, the restructuring of the federal government, and other major changes outlined in the document. This episode is designed to provide listeners with an overview of the project and the importance of staying informed.
+<br>
+
+<div style="text-align: center;">
   <a href="/advisory_board.html" style="font-size: 1.8em; font-weight: bold;">
     Project 2025 Advisory Board: <em>Unmasking the Entities</em>
   </a>
@@ -30,5 +38,6 @@ Project 2025 features a list of organizations known as the Project 2025 Advisory
 </div>
 The "Authors and Contributors" section provides a thorough list of the individuals involved in the creation of Project 2025, including authors, editors, and other contributors. Controversy has arisen over potential affiliations between these individuals and the Republican presidential nominee. Any such connections are noted next to the names on the list. By clicking on a name, you can access detailed information about their position, background, relationship to the Trump administration, relevant controversies, and any potential concerns regarding their involvement with Project 2025.
 <br>
+
 
 
