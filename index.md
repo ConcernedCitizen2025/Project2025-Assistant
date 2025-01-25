@@ -37,7 +37,7 @@ Every effort has been made to ensure accuracy, including proper citations to aid
 
 It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official [Project 2025 website](https://www.project2025.org/playbook/), for verification.
 
-</div>
+<!-- </div> -->
 
 ## Learn More about LGBTQ+ Rights
 
