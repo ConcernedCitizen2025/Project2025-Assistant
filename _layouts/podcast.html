@@ -3,182 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Video Podcasts - Project 2025 Assistant</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <!-- Dynamic Meta Description -->
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
+
     <!-- Dynamic Meta Keywords -->
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    {% include google-analytics.html %}
     <style>
-        /* Base styles for all devices */
-        html, body {
-            height: 100%;
+        /* Styling for main content */
+        body {
             margin: 0;
-            padding: 0;
-            overflow-x: hidden; /* Prevents horizontal scroll issues */
-        }
-
-        body.podcast-page {
+            font-family: Arial, sans-serif;
             background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
         }
-
-        main {
-            background-color: #fff;
-            padding: 30px;
-            max-width: 900px;
-            margin: 30px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            flex: 1;
-            text-align: justify;
-        }
-
-        /* Styling the header */
-        header {
+        header, footer {
             background-color: #333;
-            padding: 20px 0;
+            color: white;
             text-align: center;
+            padding: 10px 0;
         }
-
-        /* Adjusting the main logo size */
-        .logo-container {
-            text-align: center;
-        }
-
-        .logo-container .logo {
+        header img {
             max-width: 300px;
-            width: 100%; /* Responsive width */
             height: auto;
-            margin-bottom: 0px;
         }
-
-        /* Navigation */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        nav ul.showing {
-            display: flex;
-        }
-
-        /* Hamburger menu */
-        .hamburger {
-            display: none;
-            font-size: 30px;
-            cursor: pointer;
+        h1 {
             text-align: center;
-            margin: 10px auto;
-        }
-
-        /* Social media icons */
-        .share-buttons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .share-buttons a img {
-            margin: 0 10px;
-        }
-
-        .podcast-embed {
-            display: flex;
-            justify-content: center;
-        }
-
-        /* Styling the main content */
-        main h1 {
-            text-align: center;
-            font-size: 2em;
-            margin-bottom: 20px;
             color: #444;
         }
-
-        main p {
-            font-size: 1.1em;
-            line-height: 1.8;
-            margin-bottom: 20px;
-            text-align: justify;
-            color: #555;
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
         }
-
-        /* Back to Top Button */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            cursor: pointer;
-            z-index: 9999;
+        .video {
+            flex: 1 1 300px;
+            max-width: 450px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
         }
-
-        .back-to-top img {
+        .video iframe {
             width: 100%;
-            height: 100%;
+            height: 250px;
         }
-
-        /* Footer styling */
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #333;
-            color: #fff;
+        .video-description {
+            padding: 10px;
+            text-align: justify;
+            font-size: 14px;
         }
-
-        /* Responsive styles */
         @media (max-width: 768px) {
-            .logo-container .logo {
-                max-width: 100%; /* Full width for small devices */
-            }
-
-            .hamburger {
-                display: block;
-            }
-
-            nav ul {
-                display: none;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .hamburger.showing + nav ul {
-                display: flex;
-            }
-
-            /* Adjust padding for main content */
-            main {
-                padding: 20px;
-                margin: 20px auto;
-                width: 90%; /* Ensures the main block is centered and takes up most of the screen on mobile */
-                text-align: justify;
-            }
-
-            /* Align share buttons for mobile */
-            .share-buttons {
-                display: flex;
-                justify-content: center;
-                margin-top: 10px;
+            .video iframe {
+                height: 200px;
             }
         }
     </style>
@@ -191,8 +90,8 @@
                 <div class="logo-container">
                     <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Left" loading="eager">
-                        <img class="mask right" src="/assets/images/podcast_logo.webp" alt="Podcast Logo Right" loading="eager">
+                        <img class="mask left" src="/assets/images/force_of_freedom_logo.png" alt="Mask Image" loading="eager">
+                        <img class="mask right" src="/assets/images/force_of_freedom_logo.png" alt="Mask Image" loading="eager">
                     </div>
                 </div>
             </a>
@@ -232,31 +131,56 @@
             </a>
         </div>
     </header>
-
-    <main>
-        <article>
-            <!--<h1>{{ page.title }}</h1>
-            <div class="podcast-embed">
-                <audio controls>
-                    <source src="{{ page.podcast_url }}" type="audio/wav">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-            <p>{{ page.description }}</p>-->
-            
-            <!-- This is important -->
-            <div class="content-wrapper">
-                {{ content }}
-            </div>
-        </article>
-    </main>
     
+    <main>
+        <div class="translate-container">
+            {% include google_translate.html %}
+        </div>
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
 
     <!-- Include the cookie consent banner -->
     {% include cookie-consent-banner.html %}
-
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
+    </header>
+
+    <main>
+        <h1>Video Podcasts</h1>
+        <div class="video-container">
+            <!-- Episode 1 -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/AoLDWWujqyg" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 1: Project 2025 Introduction</strong>
+                    <p>Lucas and Rey introduce Project 2025, a political document that could reshape the U.S., covering government restructuring and LGBTQ+ rights.</p>
+                </div>
+            </div>
+            <!-- Episode 2 -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/T8Od8Fk7Hds" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 2: Trump, Legal Battles, and Election 2024</strong>
+                    <p>Explore Donald Trump’s legal challenges, Kamala Harris’s campaign, voter ID laws, immigration rhetoric, and the stakes of Election 2024.</p>
+                </div>
+            </div>
+            <!-- Episode 3 -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/JOOTKkDukgQ" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 3: Expanding the Deep Dive into Project 2025</strong>
+                    <p>Lucas and Rey continue exploring Project 2025, uncovering troubling policies affecting LGBTQ+ rights, democracy, and government restructuring.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
         <!-- Bluesky Follow button with icon and text side by side -->
@@ -287,13 +211,28 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('nav ul');
 
+            // Hamburger menu functionality
             hamburger.addEventListener('click', function() {
-                hamburger.classList.toggle('showing');
                 navMenu.classList.toggle('showing');
             });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
