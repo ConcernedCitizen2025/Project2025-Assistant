@@ -16,6 +16,15 @@ The probing questions aim to uncover the implications of the proposals within Pr
 <br>
 
 <div style="text-align: center;">
+  <a href="video-podcasts.html" style="font-size: 2em; font-weight: bold;">
+    Video-Podcasts: <em>The Force of Freedom Podcast with Lucas and Rey</em>
+  </a>
+</div>
+Explore engaging video podcasts diving deep into Project 2025, government reform, LGBTQ+ rights, and democracy.
+<br>
+
+
+<div style="text-align: center;">
   <a href="/podcasts/episode-1-project2025-intro.html" style="font-size: 2em; font-weight: bold;">
     Podcast: <em>Episode 1 - Introduction to Project 2025</em>
   </a>
