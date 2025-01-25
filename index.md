@@ -5,6 +5,7 @@ description: "Dive deep into the analysis of Project 2025, a political document 
 keywords: "Project 2025, analysis, threats to democracy, constitutional rights, freedom, upcoming election, political risks, U.S. Constitution, government reform"
 ---
 
+<div class="content-box">
 # Welcome to the *Project 2025 Assistant*
 
 In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, **Project 2025**. The current state of affairs often feels surreal, like something out of a dystopian film.
@@ -34,6 +35,7 @@ Every effort has been made to ensure accuracy, including proper citations to aid
 ## Reader Responsibility and Original Document Access
 
 It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official [Project 2025 website](https://www.project2025.org/playbook/), for verification.
+</div>
 
 ## Learn More about LGBTQ+ Rights
 
@@ -42,6 +44,13 @@ It's important to note that while striving for accuracy, there may be instances 
   <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
     <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;">
   </a>
+
+  <!-- Embedded Video Section -->
+  <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+    <div style="width: 300px; border: 2px solid #ddd; border-radius: 8px; overflow: hidden;">
+      <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 500px;"></iframe>
+    </div>
+  </div>
   
   <!-- Text container -->
   <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
@@ -55,12 +64,7 @@ It's important to note that while striving for accuracy, there may be instances 
     {% include google_translate.html %}
 </div> -->
 
-<!-- Embedded Video Section -->
-<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
-  <div style="width: 300px; border: 2px solid #ddd; border-radius: 8px; overflow: hidden;">
-    <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 500px;"></iframe>
-  </div>
-</div>
+
 
 <div style="text-align: center; margin: 40px 0;">
   <x style="font-size: large"><b>Check out our Video-Podcast</b></x>
