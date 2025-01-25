@@ -246,9 +246,10 @@
                 <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" target="_blank">
                     <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
                 </a>
-                <a href="https://bsky.app/share?text={{ page.title | escape }}&url={{ page.url | absolute_url | escape }}" onclick="gtag('event', 'bluesky_share', { 'event_category': 'social_share', 'event_label': 'Bluesky Share'});" target="_blank">
+                <a href="https://bsky.app/" onclick="copyToClipboard('{{ page.title | escape }}: {{ page.url | absolute_url | escape }}'); alert('Page details copied! Open Bluesky and paste to share.');" target="_blank">
                     <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
                 </a>
+                
                 <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" target="_blank">
                     <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
                 </a>
