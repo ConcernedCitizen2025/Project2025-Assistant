@@ -34,8 +34,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
   <h2>Reader Responsibility and Original Document Access</h2>
 
-  <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official 
-  <div><a href="https://www.project2025.org/playbook/"><b><em>Project 2025 website</b></em>, for verification.</p></div>
+  <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official<p> <a href="https://www.project2025.org/playbook/"><b><em>Project 2025 website</b></em><p>, for verification.</p>
 </div>
 
 
