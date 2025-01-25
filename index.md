@@ -6,6 +6,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 ---
 
 <div class="content-box">
+
 # Welcome to the *Project 2025 Assistant*
 
 In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, **Project 2025**. The current state of affairs often feels surreal, like something out of a dystopian film.
