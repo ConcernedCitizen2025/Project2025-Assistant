@@ -195,7 +195,10 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    {% include google-analytics.html %}   
+    {% include google-analytics.html %}
+    
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -211,6 +214,7 @@
             </a>
         </div>
         <div class="hamburger">&#9776; Menu</div>
+
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -221,14 +225,20 @@
                 <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" target="_blank">
                     <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
                 </a>
+                <a href="https://bsky.app" target="_blank" onclick="copyBlueskyShare('{{ page.title | escape }}', '{{ page.url | absolute_url | escape }}');">
+                    <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+                </a>
+                                
+                
                 <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.webp" alt="Share on Twitter" >
+                    <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
                 </a>
                 <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" target="_blank">
                     <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
                 </a>
-            </div> 
+            </div>            
         </nav>
+
     </header>
     <main>
         <div class="translate-container">
