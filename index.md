@@ -30,7 +30,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   - <em>Potential concerns</em>
   - <em>Notable quotes</em></b>
 
-  <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled *Mandate for Leadership: The Conservative Promise*.</p>
+  <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled <em>>Mandate for Leadership: The Conservative Promise</em>.</p>
 
   <h2>Reader Responsibility and Original Document Access</h2>
 
