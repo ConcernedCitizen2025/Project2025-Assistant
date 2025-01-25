@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Podcasts - Project 2025 Assistant</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>{{ page.title }}</title>
     <!-- Dynamic Meta Description -->
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
@@ -14,8 +13,9 @@
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
-    <link rel="stylesheet" href="/assets/css/styles.css">
 
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
     <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
     <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
@@ -237,10 +237,9 @@
     </div>
 
     <main>
-        
-        <h1>Video Podcasts</h1>
+        {{ content }}
         <div class="video-container">
-            <!-- Episode 1 -->
+            <!-- Video Embeds -->
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/AoLDWWujqyg" frameborder="0" allowfullscreen></iframe>
                 <div class="video-description">
@@ -248,7 +247,6 @@
                     <p>Lucas and Rey introduce Project 2025, a political document that could reshape the U.S., covering government restructuring and LGBTQ+ rights.</p>
                 </div>
             </div>
-            <!-- Episode 2 -->
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/T8Od8Fk7Hds" frameborder="0" allowfullscreen></iframe>
                 <div class="video-description">
@@ -256,7 +254,6 @@
                     <p>Explore Donald Trump’s legal challenges, Kamala Harris’s campaign, voter ID laws, immigration rhetoric, and the stakes of Election 2024.</p>
                 </div>
             </div>
-            <!-- Episode 3 -->
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/JOOTKkDukgQ" frameborder="0" allowfullscreen></iframe>
                 <div class="video-description">
