@@ -51,9 +51,9 @@ It's important to note that while striving for accuracy, there may be instances 
   </div>
 </div>
 
-<div class="translate-container">
+<!-- <div class="translate-container">
     {% include google_translate.html %}
-</div>
+</div> -->
 
 <!-- Embedded Video Section -->
 <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
