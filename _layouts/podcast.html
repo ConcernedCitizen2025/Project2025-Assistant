@@ -131,28 +131,11 @@
             </a>
         </div>
     </header>
-    
+
     <main>
         <div class="translate-container">
             {% include google_translate.html %}
         </div>
-        <!--<div class="content-wrapper">
-            {{ content }}
-        </div> -->
-    </main>
-
-    <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop">
-        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
-    </div>
-
-    <!-- Include the cookie consent banner -->
-    {% include cookie-consent-banner.html %}
-    <!-- Include the cookie consent script -->
-    <script  defer src="/assets/js/cookie-consent-script.js"></script>
-    </header>
-
-    <main>
         <h1>Video Podcasts</h1>
         <div class="video-container">
             <!-- Episode 1 -->
@@ -181,6 +164,16 @@
             </div>
         </div>
     </main>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    {% include cookie-consent-banner.html %}
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
     <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
         <!-- Bluesky Follow button with icon and text side by side -->
