@@ -25,16 +25,16 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   <h2>What You Will Find on This Website</h2>
 
   <p>The result of this labor is a comprehensive breakdown of Project 2025. For each section, you will find:</p>
-  <b>- <em>Summaries</em><br></br>
-  - <em>Analyses</em><br></br>
-  - <em>Potential concerns</em><br></br>
+  <b>- <em>Summaries</em><br>
+  - <em>Analyses</em><br>
+  - <em>Potential concerns</em><br>
   - <em>Notable quotes</em></b>
 
   <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled <em>Mandate for Leadership: The Conservative Promise</em>.</p>
 
   <h2>Reader Responsibility and Original Document Access</h2>
 
-  <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official<p><a href="/https://www.project2025.org/playbook/"><b><em> Project 2025 website</b></em><p>, for verification.</p>
+  <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <p><a href="/https://www.project2025.org/playbook/"><b><em>Project 2025 website</b></em><p>, for verification.</p>
 </div>
 
 
