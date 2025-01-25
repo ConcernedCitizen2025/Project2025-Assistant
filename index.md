@@ -7,37 +7,37 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
 <div class="content-box">
 
-# Welcome to the *Project 2025 Assistant*
+<h1>Welcome to the <em>Project 2025 Assistant</em></h1>
 
-In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, **Project 2025**. The current state of affairs often feels surreal, like something out of a dystopian film.
+<p>In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, <em>Project 2025</em>. The current state of affairs often feels surreal, like something out of a dystopian film.</p>
 
-## The Journey into Understanding Project 2025
+<h2>The Journey into Understanding Project 2025</h2>
 
-The journey into understanding Project 2025 began in late June upon first encountering mentions of it. Intrigued, I embarked on a thorough investigation, initially using the free version of ChatGPT to analyze the document in segments. This preliminary exploration yielded fascinating insights, which were compiled into a PDF and shared with friends and family. Their interest was piqued, but it only raised more questions.
+<p>The journey into understanding Project 2025 began in late June upon first encountering mentions of it. Intrigued, I embarked on a thorough investigation, initially using the free version of ChatGPT to analyze the document in segments. This preliminary exploration yielded fascinating insights, which were compiled into a PDF and shared with friends and family. Their interest was piqued, but it only raised more questions.</p>
 
-## A Deep Dive into Project 2025
+<h2>A Deep Dive into Project 2025</h2>
 
-Determined to delve deeper, I upgraded to the paid version of ChatGPT and uploaded the entire Project 2025 document. The analysis process was repeated and expanded, employing the initial methodology with increased depth and comprehensiveness. Each iteration of this process only fueled my curiosity further, eventually leading me to undertake a **deep, systematic analysis** of Project 2025 with the intention of sharing the findings with a broader audience.
+<p>Determined to delve deeper, I upgraded to the paid version of ChatGPT and uploaded the entire Project 2025 document. The analysis process was repeated and expanded, employing the initial methodology with increased depth and comprehensiveness. Each iteration of this process only fueled my curiosity further, eventually leading me to undertake a <em>deep, systematic analysis</em> of Project 2025 with the intention of sharing the findings with a broader audience.</p>
 
-## Hundreds of Hours of Research
+<h2>Hundreds of Hours of Research</h2>
 
-Over the subsequent months, I dedicated countless hours to this project. The research expanded to include **in-depth investigations** into the authors, editors, and contributors of Project 2025, as well as the organizations represented on its advisory board. A meticulous analysis of each section yielded over **150 incisive questions**, delving deep into the document's implications and potential impacts on the future of American democracy.
+<p>Over the subsequent months, I dedicated countless hours to this project. The research expanded to include <em>in-depth investigations</em> into the authors, editors, and contributors of Project 2025, as well as the organizations represented on its advisory board. A meticulous analysis of each section yielded over <em>150 incisive questions</em>, delving deep into the document's implications and potential impacts on the future of American democracy.</p>
 
-## What You Will Find on This Website
+<h2>What You Will Find on This Website</h2>
 
-The result of this labor is a comprehensive breakdown of Project 2025. For each section, you will find:
-- **Summaries**
-- **Analyses**
-- **Potential concerns**
-- **Notable quotes**
+<p>The result of this labor is a comprehensive breakdown of Project 2025. For each section, you will find:</p>
+<b>- <em>Summaries</em>
+- <em>Analyses</em>
+- <em>Potential concerns</em>
+- <em>Notable quotes</em></b>
 
-Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled *Mandate for Leadership: The Conservative Promise*.
+<p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled *Mandate for Leadership: The Conservative Promise*.</p>
 
-## Reader Responsibility and Original Document Access
+<h2>>Reader Responsibility and Original Document Access</h2>
 
-It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official [Project 2025 website](https://www.project2025.org/playbook/), for verification.
+<p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/"><b><em>Project 2025 website</b></em>, for verification.</p>
 
-<!-- </div> -->
+</div>
 
 ## Learn More about LGBTQ+ Rights
 
