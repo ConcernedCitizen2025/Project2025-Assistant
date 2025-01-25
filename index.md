@@ -51,19 +51,23 @@ It's important to note that while striving for accuracy, there may be instances 
   </div>
 </div>
 
+<div class="translate-container">
+    {% include google_translate.html %}
+</div>
+
+<!-- Embedded Video Section -->
+<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+  <div style="width: 300px; border: 2px solid #ddd; border-radius: 8px; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 500px;"></iframe>
+  </div>
+</div>
+
 <div style="text-align: center; margin: 40px 0;">
   <x style="font-size: large"><b>Check out our Video-Podcast</b></x>
   <a href="/video-podcasts.html">
     <img src="/assets/images/video_podcast_banner.jpg" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">
   </a>
 </div>
-
-
-<!--## Our Goal
-
-The goal in creating this resource is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election.
-
-Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.-->
 
 <div style="text-align: center;">
   <a href="/toc.html" style="font-size: 2em; font-weight: bold;">
