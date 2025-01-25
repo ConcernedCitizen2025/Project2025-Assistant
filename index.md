@@ -52,6 +52,7 @@ It's important to note that while striving for accuracy, there may be instances 
 </div>
 
 <div style="text-align: center; margin: 40px 0;">
+  <x style="font-size: large"><b>Check out our Video-Podcast - Click Here</b></x>
   <a href="/video-podcasts.html">
     <img src="/assets/images/force_of_freedom_logo.png" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">
   </a>
