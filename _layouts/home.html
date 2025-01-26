@@ -265,6 +265,12 @@
         }
     </style>-->
     <script src="/assets/js/share-bluesky-script.js" defer></script>
+    
+    <!-- CSP to Allow Bluesky Embeds-->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://embed.bsky.app; frame-src 'self' https://bsky.app;">
+
+    <!-- Referrer Policy -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>
 <body>
     <header>
