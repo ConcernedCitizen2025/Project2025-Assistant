@@ -51,9 +51,9 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;"><br>
       </a>
       <br>
-      <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
+      <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br><br><br>
         <p>
-          <strong>The goal in creating this resource</strong> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
+          <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
         </p>
       </div>
     </div>
