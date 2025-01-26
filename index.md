@@ -5,26 +5,18 @@ description: "Dive deep into the analysis of Project 2025, a political document 
 keywords: "Project 2025, analysis, threats to democracy, constitutional rights, freedom, upcoming election, political risks, U.S. Constitution, government reform"
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
+<div style="display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
   <!-- Left Column (Text Content) -->
   <div style="flex: 2; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h1>Welcome to the <em>Project 2025 Assistant</em></h1>
-    <br>
     <p>In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, <em>Project 2025</em>. The current state of affairs often feels surreal, like something out of a dystopian film.</p>
-    <br>
     <h2>The Journey into Understanding Project 2025</h2>
-    <br>
     <p>The journey into understanding Project 2025 began in late June upon first encountering mentions of it. Intrigued, I embarked on a thorough investigation, initially using the free version of ChatGPT to analyze the document in segments. This preliminary exploration yielded fascinating insights, which were compiled into a PDF and shared with friends and family. Their interest was piqued, but it only raised more questions.</p>
-    <br>
-    <h2>A Deep Dive into Project 2025</h2><br>
+    <h2>A Deep Dive into Project 2025</h2>
     <p>Determined to delve deeper, I upgraded to the paid version of ChatGPT and uploaded the entire Project 2025 document. The analysis process was repeated and expanded, employing the initial methodology with increased depth and comprehensiveness. Each iteration of this process only fueled my curiosity further, eventually leading me to undertake a <em>deep, systematic analysis</em> of Project 2025 with the intention of sharing the findings with a broader audience.</p>
-    <br>
     <h2>Hundreds of Hours of Research</h2>
-    <br>
     <p>Over the subsequent months, I dedicated countless hours to this project. The research expanded to include <em>in-depth investigations</em> into the authors, editors, and contributors of Project 2025, as well as the organizations represented on its advisory board. A meticulous analysis of each section yielded over <em>150 incisive questions</em>, delving deep into the document's implications and potential impacts on the future of American democracy.</p>
-    <br>
     <h2>What You Will Find on This Website</h2>
-    <br>
     <p>The result of this labor is a comprehensive breakdown of Project 2025. For each section, you will find:</p>
     <ul>
       <li><b><em>Summaries</em></b></li>
@@ -32,11 +24,8 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       <li><b><em>Potential concerns</em></b></li>
       <li><b><em>Notable quotes</em></b></li>
     </ul>
-    <br>
     <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled <em>Mandate for Leadership: The Conservative Promise</em>.</p>
-    <br>
     <h2>Reader Responsibility and Original Document Access</h2>
-    <br>
     <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
   </div>
 
@@ -44,10 +33,11 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
     <!-- First Video -->
     <div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-      <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" 
-              frameborder="0" 
-              allowfullscreen 
-              style="width: 100%; height: 400px; border-radius: 8px;">
+      <iframe 
+        src="https://www.youtube.com/embed/iX3vMJOADlE" 
+        frameborder="0" 
+        allowfullscreen 
+        style="width: 100%; height: 400px; border-radius: 8px;">
       </iframe>
     </div>
     <!-- Learn More Section -->
@@ -60,14 +50,10 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <!-- Second Video -->
     <div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
       <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/0LN65qFUDDo?si=sLdjxCFzee-7m_tj" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
+        src="https://www.youtube.com/embed/0LN65qFUDDo?si=sLdjxCFzee-7m_tj" 
+        frameborder="0" 
+        allowfullscreen 
+        style="width: 100%; height: 315px; border-radius: 8px;">
       </iframe>
     </div>
     <br><br><br>
