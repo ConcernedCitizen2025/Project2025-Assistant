@@ -42,7 +42,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
   <!-- Video Content -->
   <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-    <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
+    <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 600px; border-radius: 8px;"></iframe>
   </div>
 
   <!-- Additional Content -->
