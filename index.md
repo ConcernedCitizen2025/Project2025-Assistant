@@ -39,38 +39,34 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <br>
     <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
   </div>
-  <div>
-    <div>
-      <!-- First Video Content -->
-      <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
-        <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" 
-                frameborder="0" 
-                allowfullscreen 
-                style="width: 100%; height: 400px; border-radius: 8px;">
-        </iframe>
-      </div>
-      <!-- Additional Content -->
-      <br><br><br>
-      <h2>Learn More about LGBTQ+ Rights</h2>
-      <div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; margin: 20px 0;">
-        <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
-          <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;"><br>
-        </a>
-      </div>
-        <!-- Second Video Content -->
-      <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
-        <iframe src="https://www.youtube.com/embed/0LN65qFUDDo" 
-                frameborder="0" 
-                allowfullscreen 
-                style="width: 100%; height: 315px; border-radius: 8px;">
-        </iframe>
-      </div>
-      <br><br><br>
-      <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br><br><br>
-        <p>
-          <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
-        </p>
-      </div>
+  <!-- First Video Content -->
+  <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
+    <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" 
+            frameborder="0" 
+            allowfullscreen 
+            style="width: 100%; height: 400px; border-radius: 8px;">
+    </iframe>
+    <!-- Additional Content -->
+    <br><br><br>
+    <h2>Learn More about LGBTQ+ Rights</h2>
+    <div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; margin: 20px 0;">
+      <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
+        <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;"><br>
+      </a>
+    </div>
+      <!-- Second Video Content -->
+    <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
+      <iframe src="https://www.youtube.com/embed/0LN65qFUDDo" 
+              frameborder="0" 
+              allowfullscreen 
+              style="width: 100%; height: 315px; border-radius: 8px;">
+      </iframe>
+    </div>
+    <br><br><br>
+    <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br><br><br>
+      <p>
+        <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
+      </p>
     </div>
   </div>
 </div>
