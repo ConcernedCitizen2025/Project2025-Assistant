@@ -44,10 +44,11 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
     <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
     <!-- Additional Content -->
+    <br><br><br>
+    <x>Learn More about LGBTQ+ Rights</x>
     <div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; margin: 20px 0;">
       <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
-        <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 70%; height: auto;"><br>
-        <x>Learn More about LGBTQ+ Rights</x>
+        <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;"><br>
       </a>
       <br>
       <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
