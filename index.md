@@ -46,10 +46,10 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   </div>
 
   <!-- Additional Content -->
-  <h2>Learn More about LGBTQ+ Rights</h2>
   <div class="flex-container" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; margin: 20px 0;">
     <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
-      <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 70%; height: auto;">
+      <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 70%; height: auto;"><br>
+      <h2>Learn More about LGBTQ+ Rights</h2>
     </a>
     <br>
     <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;">
