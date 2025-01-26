@@ -58,13 +58,13 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative; margin-top: 20px;">
         <iframe src="https://youtu.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" frameborder="0" allowfullscreen style="width: 100%; height: 315px; border-radius: 8px;"></iframe>
         <a href="https://youtu.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Video', 'event_label': 'Widescreen Video', 'value': 1 });" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 1; background: transparent;"></a>
-      </div>
-      <br>
-      <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br><br><br>
-        <p>
-          <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
-        </p>
-      </div>
+    </div>
+    <br>
+    <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br><br><br>
+      <p>
+        <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
+      </p>
+    </div>
   </div>
 </div>
 
