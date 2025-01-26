@@ -67,7 +67,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         <p>
           <h2>The goal in creating this resource</h2> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
         </p>
-    </div>
+      </div>
   </div>
 </div>
 
