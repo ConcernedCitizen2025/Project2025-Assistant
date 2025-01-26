@@ -68,7 +68,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
 
 <div style="text-align: center; margin: 40px 0;">
-  <strong>Check out our Video-Podcast</strong>
+  <h2>Check out our Video-Podcast</h2>
   <a href="/video-podcasts.html">
     <img src="/assets/images/video_podcast_banner.jpg" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">
   </a>
