@@ -56,7 +56,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
        <!-- Video Content -->
     <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
         <!-- Video Iframe -->
-        <iframe src="https://yout.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" frameborder="0" allowfullscreen style="width: 100%; height: 200px; border-radius: 8px;"></iframe>
+        <iframe src="https://yout.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" frameborder="0" allowfullscreen style="width: 100%; height: 100px; border-radius: 8px;"></iframe>
         <!-- Transparent Clickable Layer -->
         <a href="https://yout.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Video', 'event_label': 'Vertical Video', 'value': 1 });" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 1; background: transparent;"></a>
       <br>
