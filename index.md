@@ -40,9 +40,12 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
   </div>
 
-  <!-- Video Content -->
-  <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+ <!-- Video Content -->
+<div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative;">
+    <!-- Video Iframe -->
     <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
+    <!-- Transparent Clickable Layer -->
+    <a href="https://www.youtube.com/embed/iX3vMJOADlE" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Video', 'event_label': 'Vertical Video', 'value': 1 });" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 1; background: transparent;"></a>
     <!-- Additional Content -->
     <br><br><br>
     <h2>Learn More about LGBTQ+ Rights</h2>
