@@ -53,7 +53,8 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       <a href="/questions/002-lgbtq-rights-changes.html" style="flex: 1; min-width: 300px; max-width: 100%; text-align: center;">
         <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;"><br>
       </a>
-       <!--2nd Video Content -->
+    </div>
+    <!--2nd Video Content -->
     <!-- Widescreen Video -->
     <div style="flex: 1; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; position: relative; margin-top: 20px;">
         <iframe src="https://youtu.be/0LN65qFUDDo?si=7GgRvHzzu1lZNsX0" frameborder="0" allowfullscreen style="width: 100%; height: 315px; border-radius: 8px;"></iframe>
