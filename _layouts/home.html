@@ -8,7 +8,8 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-src https://www.youtube.com/ https://www.youtube-nocookie.com/; script-src 'self' https://www.youtube.com/ https://www.youtube-nocookie.com/; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;">
+
 
 
     <!-- Dynamic Meta Keywords -->
