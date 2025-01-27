@@ -43,13 +43,6 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         allowfullscreen 
         style="width: 100%; height: 400px; border-radius: 8px;">
       </iframe>
-      <div style="text-align: center;">
-        <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
-        <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-          Video by <a href="https://www.youtube.com/c/MeidasTouch" target="_blank">MeidasTouch</a>. Watch the original:
-          <a href="https://www.youtube.com/watch?v=iX3vMJOADlE" target="_blank">"Denmark fury unleashed!!!"</a>.
-        </p>
-      </div>
     </div>
     <!-- Learn More Section -->
     <div style="text-align: center;">
