@@ -31,10 +31,10 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
   <!-- Right Column (Videos and Additional Content) -->
   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
-    <div>
+    <!--<div>
     <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:nqp27wwsprlf5d673ntghnz4/app.bsky.feed.post/3lgobucxfh22m" data-bluesky-cid="bafyreigw2hgo5nofb47yj7q3ietx5u5w5gprlcw3jvevrc4iigfvh44jzq"><p lang="en">For Those Who Voted For Trump &amp; Depend On Insulin, They Are Now In The “Find Out” Stage
 🔁  @tn_brando<br><br><a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">[image or embed]</a></p>&mdash; Harlow’s Musings (<a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4?ref_src=embed">@harlowsmusings.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">January 26, 2025 at 12:39 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-    </div>
+    </div>-->
     <!-- First Video -->
     <div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
       <iframe 
