@@ -27,6 +27,31 @@
     <meta name="theme-color" content="#ffffff">
     {% include google-analytics.html %}
     <style>
+        .header-container {
+            background: url('/assets/images/new_flag_banner.png') no-repeat center center;
+            background-size: cover;
+            height: 550px; /* Matches the height of your image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .logo-container {
+            z-index: 2; /* Ensures the logo is above the banner */
+        }
+
+        .header-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adds a slight overlay to improve text/logo contrast */
+            z-index: 1;
+        }
+
         iframe {
             display: block;
         }
@@ -290,6 +315,13 @@
                             <img class="mask right" src="/assets/images/about_logo.webp" alt="About Us Logo" loading="lazy">
                         {% endif %}
                     </div>
+                </div>
+            </a>
+        </div>
+        <div class="header-container">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="eager">
                 </div>
             </a>
         </div>
