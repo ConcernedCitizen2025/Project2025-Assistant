@@ -36,13 +36,20 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 🔁  @tn_brando<br><br><a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">[image or embed]</a></p>&mdash; Harlow’s Musings (<a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4?ref_src=embed">@harlowsmusings.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">January 26, 2025 at 12:39 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
     </div>-->
     <!-- First Video -->
-    <div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
       <iframe 
         src="https://www.youtube.com/embed/iX3vMJOADlE" 
         frameborder="0" 
         allowfullscreen 
         style="width: 100%; height: 400px; border-radius: 8px;">
       </iframe>
+    </div>-->
+    <div style="text-align: center;">
+      <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.youtube.com/c/MeidasTouch" target="_blank">MeidasTouch</a>. Watch the original:
+        <a href="https://www.youtube.com/watch?v=iX3vMJOADlE" target="_blank">"Denmark Fury Unleashed!!!"</a>.
+      </p>
     </div>
     <!-- Learn More Section -->
     <div style="text-align: center;">
@@ -52,13 +59,20 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       </a>
     </div><br><br><br><br>
     <!-- Second Video -->
-    <div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+    <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
       <iframe 
         src="https://www.youtube.com/embed/0LN65qFUDDo?si=sLdjxCFzee-7m_tj" 
         frameborder="0" 
         allowfullscreen 
         style="width: 100%; height: 315px; border-radius: 8px;">
       </iframe>
+    </div>-->
+    <div style="text-align: center;">
+      <iframe src="https://www.youtube.com/embed/0LN65qFUDDo" frameborder="0" allowfullscreen style="width: 100%; height: 315px; border-radius: 8px;"></iframe>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">Colombia Insight</a>. Watch the original:
+        <a href="https://www.youtube.com/watch?v=0LN65qFUDDo" target="_blank">"Colombian President Reacts to U.S. Tariffs"</a>.
+      </p>
     </div>
     <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br>
         <p>
