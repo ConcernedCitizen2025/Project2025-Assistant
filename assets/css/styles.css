@@ -369,3 +369,11 @@ img {
     margin: 20px auto;
     max-width: 600px;
 }
+
+.home-page .header-container {
+    margin-bottom: 10px; /* Reduce this value to shrink the gap */
+}
+
+.home-page .main-container {
+    margin-top: -20px; /* Adjust as needed to fine-tune the spacing */
+}
