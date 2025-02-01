@@ -248,6 +248,24 @@
             }
                 
         }
+        /* Container for both translate and search bar */
+        .translate-share-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Align to the right */
+            margin: 10px;
+        }
+
+        /* Search bar styling */
+        .search-container {
+            margin-top: 10px;
+            float: right; /* Aligns search bar with Google Translate */
+            width: 200px; /* Adjust to match the width of the translate button */
+        }
+
+        .gcse-search {
+            width: 100%; /* Ensures the search bar fits the container */
+        }
     </style>
     <!-- <style>
         /* Responsive design for mobile */
@@ -360,13 +378,16 @@
         </div>
     </header>
     <main>
-        <div class="translate-container">
-            {% include google_translate.html %}
+        <div class="translate-share-container">
+            <div class="search-container">
+                <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+                <div class="gcse-search"></div>
+            </div>
+            <div class="translate-container">
+                {% include google_translate.html %}
+            </div>
         </div>
-        <div style="text-align: center; margin: 20px 0;">
-            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-            <div class="gcse-search"></div>
-        </div>
+        
         
         <div class="content-wrapper">
             {{ content }}
