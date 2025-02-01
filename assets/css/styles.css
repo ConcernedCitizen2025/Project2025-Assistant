@@ -379,7 +379,7 @@ img {
 }
 
 .home-page .header-container {
-    margin-bottom: 0px; /* Eliminate extra space after the header */
+    margin-bottom: -20px; /* Eliminate extra space after the header */
     padding-bottom: 0px; /* Remove padding if any */
 }
 
