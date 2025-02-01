@@ -377,3 +377,18 @@ img {
 .home-page .main-container {
     margin-top: -20px; /* Adjust as needed to fine-tune the spacing */
 }
+
+.home-page .header-container {
+    margin-bottom: 0px; /* Eliminate extra space after the header */
+    padding-bottom: 0px; /* Remove padding if any */
+}
+
+.home-page main {
+    margin-top: 0px; /* Remove unnecessary space at the top of main content */
+    padding-top: 0px; /* Adjust padding if applicable */
+}
+
+.home-page .content-wrapper {
+    margin-top: 0px; /* Ensure there's no gap at the top of the content wrapper */
+    padding-top: 0px; /* Remove any padding */
+}
