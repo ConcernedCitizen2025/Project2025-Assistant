@@ -15,9 +15,10 @@ description: "Analyze how Project 2025's trade policies could affect the U.S. ec
   <p style="font-size: 14px; color: #555; margin-top: 10px;">
     Cartoon by <a href="https://x.com/CH_Cartoon/status/1886189236644188279" target="_blank" style="color: #0073e6; text-decoration: none;">Bruce MacKinnon</a>.
     <br>
-    Used with credit to the artist. 
-  </p>
+    Shared from the artist's post on Twitter/X for informational and commentary purposes.
+    </p>
 </div>
+
 
 **Introduction**
 
