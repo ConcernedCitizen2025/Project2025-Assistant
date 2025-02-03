@@ -27,6 +27,9 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled <em>Mandate for Leadership: The Conservative Promise</em>.</p>
     <h2>Reader Responsibility and Original Document Access</h2>
     <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
+    <p>
+      <strong>The goal in creating this resource</strong> <p>is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.</p>
+    </p>
   </div>
 
   
@@ -118,11 +121,11 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         <a href="https://www.youtube.com/watch?v=0LN65qFUDDo" target="_blank">"Colombian President Reacts to U.S. Tariffs"</a>.
       </p>
     </div>
-    <div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br>
+    <!--<div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br>
         <p>
           <strong>The goal in creating this resource</strong> <p>is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.</p>
         </p>
-    </div>
+    </div>-->
   </div>
 </div>
 
