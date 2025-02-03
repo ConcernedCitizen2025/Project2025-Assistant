@@ -22,15 +22,15 @@ description: "Explore how Project 2025's proposed immigration policies, includin
     </div>
     <!-- Image Content -->
     <div id="expiring-image-container" style="flex: 1; text-align: center;">
-        <a href="#" onclick="shareToFacebook(event); return false;">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://project2025assistant.org/your-page-url" target="_blank">
             <img 
                 src="/assets/images/feb5_protest.jpg" 
-                alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
+                alt="Illustration of a protest at a capitol building with text encouraging a nationwide protest on February 5th at noon in all 50 state capitals." 
                 style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
             >
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            Image shared for informational purposes.
+            Spread the word: 50 States, 50 Capitals, 50 Marches. February 5th at noon!
         </p>
     </div>
 </div>
