@@ -20,9 +20,9 @@ description: "Explore how Project 2025's proposed immigration policies, includin
         </p>
         <!-- Include your text here -->
     </div>
-    <!-- Image Content -->
-    <div id="expiring-image-container" style="flex: 1; text-align: center;">
-        <a href="https://project2025assistant.org/questions/006-immigration-policies-impact.html" target="_blank">
+        <!-- Image Content -->
+        <div id="expiring-image-container" style="flex: 1; text-align: center;">
+        <a href="#" onclick="shareToFacebook(event)">
             <img 
                 src="/assets/images/feb5_protest.jpg" 
                 alt="Illustration of a protest at a capitol building with text encouraging a nationwide protest on February 5th at noon in all 50 state capitals." 
@@ -52,7 +52,7 @@ description: "Explore how Project 2025's proposed immigration policies, includin
 
     // Share to Facebook function
     function shareToFacebook(event) {
-        event.preventDefault();
+        event.preventDefault(); // Prevent default action
         const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org/questions/006-immigration-policies-impact.html')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
         window.open(fbShareUrl, '_blank', 'width=600,height=400');
     }
