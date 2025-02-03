@@ -12,8 +12,8 @@ description: "Explore how Project 2025's proposed immigration policies, includin
 <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
     <!-- Text Content -->
     <div style="flex: 3; padding-right: 20px;">
-        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
-        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
+        <!--<h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
+        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>-->
         <!-- Include your text here -->
     </div>
     <!-- Image Content -->
