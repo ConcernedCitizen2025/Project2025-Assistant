@@ -55,7 +55,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <!--<div style="flex: 3; padding-right: 20px;">
         <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
         <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
-        <!-- Include your text here --
+        <-- Include your text here --
     </div>-->
     <!-- Image Content -->
     <div id="expiring-image-container" style="flex: 1; text-align: center;">
