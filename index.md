@@ -71,23 +71,23 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       </p>
     </div>
     <script>
-        // Set the expiration date (YYYY-MM-DD format)
-        const expirationDate = new Date("2025-02-05T23:59:59");
-        // Get today's date
-        const today = new Date();
-        // Check if the current date is past the expiration date
-        if (today > expirationDate) {
-            const imageContainer = document.getElementById("expiring-image-container");
-            if (imageContainer) {
-                imageContainer.style.display = "none"; // Hide the image container
-            }
-        }
-        // Share to Facebook function
-        function shareToFacebook(event) {
-            event.preventDefault(); // Prevent default action
-            const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
-            window.open(fbShareUrl, '_blank', 'width=600,height=400');
-        }
+      // Set the expiration date (YYYY-MM-DD format)
+      const expirationDate = new Date("2025-02-05T23:59:59");
+      // Get today's date
+      const today = new Date();
+      // Check if the current date is past the expiration date
+      if (today > expirationDate) {
+          const imageContainer = document.getElementById("expiring-image-container");
+          if (imageContainer) {
+              imageContainer.style.display = "none"; // Hide the image container
+          }
+      }
+      // Share to Facebook function
+      function shareToFacebook(event) {
+          event.preventDefault(); // Prevent default action
+          const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}`;
+          window.open(fbShareUrl, '_blank', 'width=600,height=400');
+      }
     </script>
     <div style="text-align: center;">
       <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
