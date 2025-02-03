@@ -29,51 +29,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
-    <!-- Text Content -->
-    <!--<div style="flex: 3; padding-right: 20px;">
-        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
-        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
-        <!-- Include your text here --
-    </div>-->
-    <!-- Image Content -->
-    <div id="expiring-image-container" style="flex: 1; text-align: center;">
-        <a href="#" onclick="shareToFacebook(event); return false;">
-            <img 
-                src="/assets/images/feb5_protest.jpg" 
-                alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
-                style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
-            >
-        </a>
-        <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            Image shared for informational purposes."
-        </p>
-    </div>
-</div>
-
-<script>
-    // Set the expiration date (YYYY-MM-DD format)
-    const expirationDate = new Date("2025-02-05T23:59:59");
-
-    // Get today's date
-    const today = new Date();
-
-    // Check if the current date is past the expiration date
-    if (today > expirationDate) {
-        const imageContainer = document.getElementById("expiring-image-container");
-        if (imageContainer) {
-            imageContainer.style.display = "none"; // Hide the image container
-        }
-    }
-
-    // Share to Facebook function
-    function shareToFacebook(event) {
-        event.preventDefault();
-        const url = window.location.href; // Current page URL
-        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
-        window.open(facebookShareUrl, '_blank', 'width=600,height=400');
-    }
-</script>
+  
 
 
   <!-- Right Column (Videos and Additional Content) -->
@@ -91,6 +47,47 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         style="width: 100%; height: 400px; border-radius: 8px;">
       </iframe>
     </div>-->
+    <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+    <!-- Text Content -->
+    <!--<div style="flex: 3; padding-right: 20px;">
+        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
+        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
+        <!-- Include your text here --
+    </div>-->
+    <!-- Image Content -->
+    <div id="expiring-image-container" style="flex: 1; text-align: center;">
+        <a href="#" onclick="shareToFacebook(event); return false;">
+            <img 
+                src="/assets/images/feb5_protest.jpg" 
+                alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
+                style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
+                >
+            </a>
+            <p style="font-size: 14px; color: #555; margin-top: 10px;">
+                Image shared for informational purposes."
+            </p>
+        </div>
+    </div>
+    <script>
+        // Set the expiration date (YYYY-MM-DD format)
+        const expirationDate = new Date("2025-02-05T23:59:59");
+        // Get today's date
+        const today = new Date();
+        // Check if the current date is past the expiration date
+        if (today > expirationDate) {
+            const imageContainer = document.getElementById("expiring-image-container");
+            if (imageContainer) {
+                imageContainer.style.display = "none"; // Hide the image container
+            }
+        }
+        // Share to Facebook function
+        function shareToFacebook(event) {
+            event.preventDefault();
+            const url = window.location.href; // Current page URL
+            const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookShareUrl, '_blank', 'width=600,height=400');
+        }
+    </script>
     <div style="text-align: center;">
       <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
