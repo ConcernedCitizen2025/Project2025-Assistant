@@ -86,7 +86,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       // Share to Facebook function
       function shareToFacebook(event) {
           event.preventDefault(); // Prevent default action
-          const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}`;
+          const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
           window.open(fbShareUrl, '_blank', 'width=600,height=400');
       }
     </script>
