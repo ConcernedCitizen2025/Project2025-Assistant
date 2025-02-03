@@ -53,7 +53,7 @@ description: "Explore how Project 2025's proposed immigration policies, includin
     // Share to Facebook function
     function shareToFacebook(event) {
         event.preventDefault(); // Prevent default action
-        const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org/questions/006-immigration-policies-impact.html')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
+        const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org/questions/006-immigration-policies-impact.html')}&quote=${encodeURIComponent('This image was found on Harlow’s Musings on Bluesky. Learn more about the February 5th protest by visiting our website!')}`;
         window.open(fbShareUrl, '_blank', 'width=600,height=400');
     }
 </script>
