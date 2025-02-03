@@ -8,6 +8,52 @@ description: "Explore how Project 2025's proposed immigration policies, includin
 
 ## *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*
 
+<div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+    <!-- Text Content -->
+    <div style="flex: 3; padding-right: 20px;">
+        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
+        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
+        <!-- Include your text here -->
+    </div>
+    <!-- Image Content -->
+    <div id="expiring-image-container" style="flex: 1; text-align: center;">
+        <a href="#" onclick="shareToFacebook(event); return false;">
+            <img 
+                src="/assets/images/feb5_protest.jpg" 
+                alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
+                style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
+            >
+        </a>
+        <p style="font-size: 14px; color: #555; margin-top: 10px;">
+            Image shared for informational purposes. Original image text: "50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon)..."
+        </p>
+    </div>
+</div>
+
+<script>
+    // Set the expiration date (YYYY-MM-DD format)
+    const expirationDate = new Date("2025-02-05T23:59:59");
+
+    // Get today's date
+    const today = new Date();
+
+    // Check if the current date is past the expiration date
+    if (today > expirationDate) {
+        const imageContainer = document.getElementById("expiring-image-container");
+        if (imageContainer) {
+            imageContainer.style.display = "none"; // Hide the image container
+        }
+    }
+
+    // Share to Facebook function
+    function shareToFacebook(event) {
+        event.preventDefault();
+        const url = window.location.href; // Current page URL
+        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+        window.open(facebookShareUrl, '_blank', 'width=600,height=400');
+    }
+</script>
+
 **Introduction**
 
 Project 2025 outlines a conservative approach to reforming the U.S. immigration system, with a focus on stricter enforcement, reducing legal immigration, and bolstering border security. These proposals aim to reshape the demographic makeup of the United States, prioritizing the interests of native-born citizens and limiting the rights and opportunities available to immigrants. This analysis explores the specific immigration policies proposed in Project 2025, their potential impact on both legal and undocumented immigrants, and the broader implications for American democracy.
