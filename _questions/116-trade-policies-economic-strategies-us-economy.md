@@ -8,6 +8,17 @@ description: "Analyze how Project 2025's trade policies could affect the U.S. ec
 
 ## *What trade policies and economic strategies does Project 2025 propose, and how might these affect the U.S. economy, international trade relations, and consumer prices?*
 
+<div style="text-align: center; margin: 20px;">
+  <img src="/assets/images/how_tariffs_work.jpg" 
+       alt="Political cartoon by Bruce MacKinnon depicting Donald Trump standing in front of a fan with the Canadian flag on it. Trump is relieving himself at the fan, which blows it back into his own face. A satirical representation of the impact of tariffs." 
+       style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+  <p style="font-size: 14px; color: #555; margin-top: 10px;">
+    Cartoon by <a href="https://x.com/CH_Cartoon/status/1886189236644188279" target="_blank" style="color: #0073e6; text-decoration: none;">Bruce MacKinnon</a>.
+    <br>
+    Used with credit to the artist. 
+  </p>
+</div>
+
 **Introduction**
 
 Project 2025 outlines a series of trade policies aimed at reshaping the U.S. economy with a focus on reducing reliance on foreign goods and renegotiating international trade agreements. While these policies are designed to protect American industries and promote domestic production, they carry significant risks. Potential consequences include increased consumer prices due to tariffs and protectionist measures, strained international trade relations, and potential disruptions to global trade networks. This analysis will examine the proposed trade strategies and their likely impact on the U.S. economy and consumer costs.
