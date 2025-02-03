@@ -4,16 +4,16 @@ title: "Proposed Immigration Policies in Project 2025: Assessing the Impact on L
 description: "Explore how Project 2025's proposed immigration policies, including stricter enforcement and increased border security, could affect legal and undocumented immigrants and pose broader implications for democracy."
 ---
 
-# Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants
+//# Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants
 
-## *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*
+//## *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*
 
 
 <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
     <!-- Text Content -->
     <div style="flex: 3; padding-right: 20px;">
-        <!--<h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
-        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>-->
+        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
+        <p><em>What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?</em></p>
         <!-- Include your text here -->
     </div>
     <!-- Image Content -->
