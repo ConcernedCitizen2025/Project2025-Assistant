@@ -13,7 +13,8 @@ description: "Explore how Project 2025's proposed immigration policies, includin
     <!-- Text Content -->
     <div style="flex: 3; padding-right: 20px;">
         <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
-        <h2><em>What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?</em></h2>
+        <h2><em>What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?<br><br>
+        </em></h2>
         <h3>Introduction</h3><br><br>
         <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system, with a focus on stricter enforcement, reducing legal immigration, and bolstering border security. These proposals aim to reshape the demographic makeup of the United States, prioritizing the interests of native-born citizens and limiting the rights and opportunities available to immigrants. This analysis explores the specific immigration policies proposed in Project 2025, their potential impact on both legal and undocumented immigrants, and the broader implications for American democracy.
         </p>
