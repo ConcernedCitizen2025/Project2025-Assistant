@@ -26,7 +26,7 @@ description: "Explore how Project 2025's proposed immigration policies, includin
             <img 
                 src="/assets/images/feb5_protest.jpg" 
                 alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
-                style="max-width: 150%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
+                style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
             >
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
@@ -53,9 +53,8 @@ description: "Explore how Project 2025's proposed immigration policies, includin
     // Share to Facebook function
     function shareToFacebook(event) {
         event.preventDefault();
-        const url = window.location.href; // Current page URL
-        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
-        window.open(facebookShareUrl, '_blank', 'width=600,height=400');
+        const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org/questions/006-immigration-policies-impact.html')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
+        window.open(fbShareUrl, '_blank', 'width=600,height=400');
     }
 </script>
 
