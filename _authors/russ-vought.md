@@ -1,9 +1,9 @@
 ---
 layout: author
-title: "Russ Vought"
+title: "Russell 'Russ' Vought"
 ---
 
-# Russ Vought
+# Russell "Russ" Vought
 
 **Role:** Author
 
