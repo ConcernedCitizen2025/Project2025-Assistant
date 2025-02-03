@@ -30,7 +30,8 @@ description: "Explore how Project 2025's proposed immigration policies, includin
             >
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            Spread the word: 50 States, 50 Capitals, 50 Marches. February 5th at noon!
+            Spread the word: 50 States, 50 Capitals, 50 Marches. <strong>February 5th at noon!</strong>
+            This image is shared from Harlow’s Musings on Bluesky!
         </p>
     </div>
 </div>
