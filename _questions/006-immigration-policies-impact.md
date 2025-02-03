@@ -22,7 +22,7 @@ description: "Explore how Project 2025's proposed immigration policies, includin
     </div>
     <!-- Image Content -->
     <div id="expiring-image-container" style="flex: 1; text-align: center;">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://project2025assistant.org/your-page-url" target="_blank">
+        <a href="https://project2025assistant.org/questions/006-immigration-policies-impact.html" target="_blank">
             <img 
                 src="/assets/images/feb5_protest.jpg" 
                 alt="Illustration of a protest at a capitol building with text encouraging a nationwide protest on February 5th at noon in all 50 state capitals." 
