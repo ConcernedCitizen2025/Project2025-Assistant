@@ -314,11 +314,6 @@ function googleTranslateElementInit() {
         <button id="readAloudButton" style="margin: 20px auto; display: block;">Read Aloud</button>
         
         <div class="content-wrapper" id="readableContent">
-            This is a test. If you hear this spoken aloud, then the button is working!
-        </div>
-        
-        
-        <!--<div class="content-wrapper" id="readableContent">
             <h1 id="about-us">About Us</h1>
 
 <p>As a father and aspiring high school math teacher, I’ve always appreciated the logic and clarity of mathematics. However, over the past decade, I’ve found myself increasingly drawn into the world of politics—not out of desire, but out of necessity. The political landscape has become increasingly chaotic, often defying the logical principles I hold dear.</p>
@@ -339,7 +334,7 @@ function googleTranslateElementInit() {
 
 <!-- Test commit -->
 
-        </div>-->
+        </div>
     </main>
     
     
@@ -428,22 +423,22 @@ function googleTranslateElementInit() {
     <script src="/assets/js/search.js" defer></script>
     <script src="https://code.responsivevoice.org/responsivevoice.js"></script> 
     <script>
+        // Ensure the DOM is fully loaded
         document.addEventListener('DOMContentLoaded', function() {
-        var readButton = document.getElementById('readAloudButton');
-        var contentDiv = document.getElementById('readableContent');
-
-        if (readButton && contentDiv) {
+          var readButton = document.getElementById('readAloudButton');
+          var contentDiv = document.getElementById('readableContent');
+      
+          if (readButton && contentDiv) {
             readButton.addEventListener('click', function() {
-            console.log('Read Aloud button clicked!');
-            alert('Button clicked'); // temporary for testing
-            var text = contentDiv.innerText;
-            responsiveVoice.speak(text, "UK English Female");
+              console.log('Read Aloud button clicked!');
+              var text = contentDiv.innerText;
+              responsiveVoice.speak(text, "UK English Female");
             });
-        } else {
-            console.error('Could not find button or content element.');
-        }
+          } else {
+            console.error('Read Aloud button or content element not found.');
+          }
         });
-    </script>  
+    </script> 
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>     
 </body>
 </html>
