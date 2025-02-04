@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Global state variables
     let paragraphs = [];
+    let paragraphWordCounts = [];
     let currentParagraphIndex = 0;
     let speechRate = 1.0; // Normal speed
     let isPaused = false;
@@ -16,7 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Grab all paragraphs inside the #readableContent container
     paragraphs = document.querySelectorAll("#readableContent p");
     paragraphs.forEach(function(p) {
-       totalWords += p.innerText.split(/\s+/).filter(word => word.trim() !== "").length;
+       let count = p.innerText.split(/\s+/).filter(word => word.trim() !== "").length;
+       paragraphWordCounts.push(count);
+       totalWords += count;
     });
 
     // Grab UI elements
@@ -37,15 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const timeRemainingLabel = document.getElementById('timeRemainingLabel');
     const closePanelBtn = document.getElementById('closePanel');
 
-    // Variables for intervals
-    let progressInterval;
+    // Variable to store the requestAnimationFrame ID
+    let progressAnimationFrame;
 
     // Update the reading progress bar and time remaining display.
     function updateProgress() {
       let elapsedCurrent = 0, currentFraction = 0;
       if (currentParagraphIndex < paragraphs.length) {
-          let currentText = paragraphs[currentParagraphIndex].innerText;
-          let currentWords = currentText.split(/\s+/).filter(word => word.trim() !== "").length;
+          let currentWords = paragraphWordCounts[currentParagraphIndex];
           elapsedCurrent = (Date.now() - currentParagraphStartTime) / 1000;
           let currentEstimated = currentWords * SECONDS_PER_WORD / speechRate;
           currentFraction = Math.min(1, elapsedCurrent / currentEstimated);
@@ -53,8 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Overall words read (including partial progress in current paragraph)
       let progressWords = wordsRead;
       if (currentParagraphIndex < paragraphs.length) {
-          let currentText = paragraphs[currentParagraphIndex].innerText;
-          let currentWords = currentText.split(/\s+/).filter(word => word.trim() !== "").length;
+          let currentWords = paragraphWordCounts[currentParagraphIndex];
           progressWords += currentFraction * currentWords;
       }
       let progressPercent = (progressWords / totalWords) * 100;
@@ -63,16 +64,13 @@ document.addEventListener('DOMContentLoaded', function() {
       // Estimate remaining time based on remaining words
       let remainingTimeSec = 0;
       if (currentParagraphIndex < paragraphs.length) {
-          let currentText = paragraphs[currentParagraphIndex].innerText;
-          let currentWords = currentText.split(/\s+/).filter(word => word.trim() !== "").length;
+          let currentWords = paragraphWordCounts[currentParagraphIndex];
           let remainingCurrent = (currentWords * SECONDS_PER_WORD / speechRate) - elapsedCurrent;
           if (remainingCurrent < 0) remainingCurrent = 0;
           remainingTimeSec += remainingCurrent;
       }
       for (let i = currentParagraphIndex + 1; i < paragraphs.length; i++) {
-          let text = paragraphs[i].innerText;
-          let count = text.split(/\s+/).filter(word => word.trim() !== "").length;
-          remainingTimeSec += count * SECONDS_PER_WORD / speechRate;
+          remainingTimeSec += paragraphWordCounts[i] * SECONDS_PER_WORD / speechRate;
       }
       // Format remaining time as mm:ss
       let minutes = Math.floor(remainingTimeSec / 60);
@@ -93,16 +91,19 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    function startProgressInterval() {
-      if (progressInterval) clearInterval(progressInterval);
-      progressInterval = setInterval(function() {
-          updateProgress();
-          updateBufferProgress();
-      }, 500);
+    // Main loop for progress updates using requestAnimationFrame
+    function updateProgressLoop() {
+      updateProgress();
+      updateBufferProgress();
+      progressAnimationFrame = requestAnimationFrame(updateProgressLoop);
     }
 
-    function stopProgressInterval() {
-      if (progressInterval) clearInterval(progressInterval);
+    function startProgressLoop() {
+      progressAnimationFrame = requestAnimationFrame(updateProgressLoop);
+    }
+
+    function stopProgressLoop() {
+      if (progressAnimationFrame) cancelAnimationFrame(progressAnimationFrame);
     }
 
     // Function to read the current paragraph using ResponsiveVoice.
@@ -125,14 +126,14 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         onend: function() {
           // Update words read based on this paragraph's word count.
-          let count = text.split(/\s+/).filter(word => word.trim() !== "").length;
+          let count = paragraphWordCounts[currentParagraphIndex];
           wordsRead += count;
           if (!isPaused) {
             currentParagraphIndex++;
             if (currentParagraphIndex < paragraphs.length) {
               readCurrentParagraph();
             } else {
-              stopProgressInterval();
+              stopProgressLoop();
             }
           }
         }
@@ -150,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
       controlsDiv.style.display = "block";
       container.classList.add("fixedControlPanel");
       readCurrentParagraph();
-      startProgressInterval();
+      startProgressLoop();
     });
     
     // Play/Resume
@@ -221,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close Panel: Stop speech and reset the control panel to its initial state.
     closePanelBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
-      stopProgressInterval();
+      stopProgressLoop();
       controlsDiv.style.display = "none";
       startBtn.style.display = "block";
       container.classList.remove("fixedControlPanel");
