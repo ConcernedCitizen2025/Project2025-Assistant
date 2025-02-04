@@ -179,14 +179,18 @@
         </div>
     </header>
     
-    <main>
-        <div style="text-align: center; margin: 20px 0;">
-            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-            <div class="gcse-search"></div>
-        </div>
-        
-        <div class="translate-container">
-            <div id="google_translate_element"></div>
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
+        <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -201,8 +205,45 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-        </div>
-        <div class="content-wrapper">
+        <div id="readAloudContainer">
+    <!-- Start button (initially visible) -->
+    <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
+    
+    <!-- Control panel (initially hidden) -->
+    <div id="readAloudControls" style="display:none; position: relative;">
+      <!-- Close button at the far right -->
+      <button id="closePanel" class="ra-button" title="Close Panel" style="float: right;">X</button>
+      <!-- Navigation Buttons -->
+      <button id="prevParagraph" class="ra-button" title="Previous">⏮</button>
+      <button id="playResume" class="ra-button" title="Play/Resume">►</button>
+      <button id="pause" class="ra-button" title="Pause">⏸</button>
+      <button id="stop" class="ra-button" title="Stop">⏹</button>
+      <button id="nextParagraph" class="ra-button" title="Next">⏭</button>
+      <span id="speedControls">
+        <button id="slow" class="ra-button" title="Slower">−</button>
+        <button id="normal" class="ra-button" title="Normal">Normal</button>
+        <button id="fast" class="ra-button" title="Faster">＋</button>
+      </span>
+      <!-- Reading Progress Bar -->
+      <div id="readingProgressContainer">
+        <div id="readingProgress"></div>
+      </div>
+      <!-- Buffering Progress Bar -->
+      <div id="bufferProgressContainer">
+        <div id="bufferProgress"></div>
+      </div>
+      <!-- Time remaining display -->
+      <div id="timeRemainingLabel">Time remaining: 00:00</div>
+      <!-- Buffer indicator spinner (optional) -->
+      <span id="bufferIndicator" style="display:none;" title="Buffering">⏳</span>
+    </div>
+  </div>
+  
+    </div>
+
+    <main>
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
             <h1 id="honest-elections-project-hep">Honest Elections Project (HEP)</h1>
 
 <h2 id="overview">Overview</h2>
@@ -248,11 +289,6 @@ function googleTranslateElementInit() {
         </div>
     </main>
 
-    <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop">
-        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
-    </div>
-
     <!-- Include the cookie consent banner -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
@@ -289,6 +325,8 @@ function googleTranslateElementInit() {
             </ul>
             <br><br>
         </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
     </footer>
 
     <script>
@@ -331,5 +369,8 @@ function googleTranslateElementInit() {
             });
         });
     </script>
+    <!-- At the end of your body, include the scripts -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+    <script src="/assets/js/readAloud.js" defer></script>
 </body>
 </html>

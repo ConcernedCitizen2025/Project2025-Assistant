@@ -157,117 +157,130 @@
         }
     </style>
     <script src="/assets/js/share-bluesky-script.js" defer></script>
-</head>
-<body>
-    <header>
-        <div class="logo-container">
-            <a href="/">
-                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
-                <div class="mask-container">
-                    <img class="mask left" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
-                    <img class="mask right" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
-                </div>
-            </a>
-        </div>
-        <!-- Hamburger menu for mobile view -->
-        <div class="hamburger">&#9776; Menu</div>
-        <nav>
-            <ul id="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/toc.html">Table of Contents</a></li>
-                <li><a href="/about.html">About Us</a></li>
-            </ul>
-        </nav>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <a href="/">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
+                        <img class="mask right" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
+                    </div>
+                </a>
+            </div>
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger">&#9776; Menu</div>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/toc.html">Table of Contents</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                </ul>
+            </nav>
 
-        <!-- Social Media Icons -->
-        <div class="share-buttons">
-            <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" 
-            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
-            </a>
-            <a href="https://bsky.app" 
-            onclick="copyBlueskyShare('{{ page.title | escape }}', '{{ page.url | absolute_url | escape }}');" 
-            target="_blank">
-                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
-            </a>
-            <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" 
-            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
-            </a>
-            <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" 
-            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
-            </a>
-        </div> 
-    </header>
-    <main>
+            <!-- Social Media Icons -->
+            <div class="share-buttons">
+                <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" 
+                onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+                target="_blank">
+                    <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+                </a>
+                <a href="https://bsky.app" 
+                onclick="copyBlueskyShare('{{ page.title | escape }}', '{{ page.url | absolute_url | escape }}');" 
+                target="_blank">
+                    <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+                </a>
+                <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" 
+                onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+                target="_blank">
+                    <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" 
+                onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+                target="_blank">
+                    <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+                </a>
+            </div> 
+        </header>
+        <!-- Back to Top Button -->
+        <div class="back-to-top" id="backToTop">
+            <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+        </div>
+
         <div style="text-align: center; margin: 20px 0;">
             <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
             <div class="gcse-search"></div>
         </div>
-        
+
         <div class="translate-container">
             {% include google_translate.html %}
+            {% include readAloudControls.html %}
         </div>
-        <div class="content-wrapper">
-            {{ content }}
-        </div>
-    </main>
 
-    <!-- Include the cookie consent banner -->
-    {% include cookie-consent-banner.html %}
+        <main>
+            <!-- Content to Read -->
+            <div class="content-wrapper" id="readableContent">
+                {{ content }}
+            </div>
+        </main>
 
-    <!-- Include the cookie consent script -->
-    <script  defer src="/assets/js/cookie-consent-script.js"></script>
-    
-    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
-        <!-- Bluesky Follow button with icon and text side by side -->
-        <div style="display: flex; align-items: center; margin-bottom: 20px;">
-            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
-                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
-            </a>
-            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
-        </div>
+        <!-- Include the cookie consent banner -->
+        {% include cookie-consent-banner.html %}
+
+        <!-- Include the cookie consent script -->
+        <script  defer src="/assets/js/cookie-consent-script.js"></script>
         
-        <!-- Twitter Follow button with icon and text side by side -->
-        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-            <a href="https://twitter.com/Project2025Asst" target="_blank">
-                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
-            </a>
-            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
-        </div>
-         
-        <!-- Copyright and privacy policy in the center -->
-        <div style="text-align: center; color: white;">
-            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
-            <ul style="list-style: none; padding: 0; margin: 0;">
-                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
-            </ul>
-            <br><br>
-        </div>
-    </footer>
+        <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+            <!-- Bluesky Follow button with icon and text side by side -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                    <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+                </a>
+                <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+            </div>
+            
+            <!-- Twitter Follow button with icon and text side by side -->
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <a href="https://twitter.com/Project2025Asst" target="_blank">
+                    <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+                </a>
+                <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+            </div>
+            
+            <!-- Copyright and privacy policy in the center -->
+            <div style="text-align: center; color: white;">
+                <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+                </ul>
+                <br><br>
+            </div>
+            <!--Goes in Footer-Credit for Text to Speech-->
+            <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+        </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const logoContainers = document.querySelectorAll(".logo-container");
+                logoContainers.forEach(function(logoContainer) {
+                    const leftMask = logoContainer.querySelector(".mask.left");
+                    const rightMask = logoContainer.querySelector(".mask.right");
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
+                    logoContainer.addEventListener("mouseover", function() {
+                        leftMask.style.transform = "translateX(-200%)";
+                        rightMask.style.transform = "translateX(200%)";
+                    });
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
+                    logoContainer.addEventListener("mouseout", function() {
+                        leftMask.style.transform = "translateX(0)";
+                        rightMask.style.transform = "translateX(0)";
+                    });
                 });
             });
-        });
-    </script>
-</body>
+        </script>
+        <!-- At the end of your body, include the scripts -->
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+        <script src="/assets/js/readAloud.js" defer></script>
+    </body>
 </html>

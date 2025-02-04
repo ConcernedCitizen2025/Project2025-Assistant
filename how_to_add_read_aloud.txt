@@ -1,10 +1,30 @@
-<!-- In the head, link your main CSS -->
-<link rel="stylesheet" href="/assets/css/styles.css">
+<!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
 
-<!-- ... your page content ... -->
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
 
-<!-- In your body, include your control panel via your templating include -->
-{% include readAloudControls.html %}
+    <div class="translate-container">
+        {% include google_translate.html %}
+        {% include readAloudControls.html %}
+    </div>
+
+    <main>
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
+            {{ content }}
+        </div>
+    </main>
+
+
+<!--Goes in Footer-Credit for Text to Speech-->
+<div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+
+
 
 <!-- At the end of your body, include the scripts -->
 <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>

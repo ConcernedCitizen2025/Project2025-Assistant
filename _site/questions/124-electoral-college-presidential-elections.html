@@ -263,14 +263,18 @@
         </div>
     </header>
 
-    <main>
-        <div style="text-align: center; margin: 20px 0;">
-            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-            <div class="gcse-search"></div>
-        </div>
-        
-        <div class="translate-container">
-            <div id="google_translate_element"></div>
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
+        <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -285,8 +289,45 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-        </div>
-        <div class="content-wrapper">
+        <div id="readAloudContainer">
+    <!-- Start button (initially visible) -->
+    <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
+    
+    <!-- Control panel (initially hidden) -->
+    <div id="readAloudControls" style="display:none; position: relative;">
+      <!-- Close button at the far right -->
+      <button id="closePanel" class="ra-button" title="Close Panel" style="float: right;">X</button>
+      <!-- Navigation Buttons -->
+      <button id="prevParagraph" class="ra-button" title="Previous">⏮</button>
+      <button id="playResume" class="ra-button" title="Play/Resume">►</button>
+      <button id="pause" class="ra-button" title="Pause">⏸</button>
+      <button id="stop" class="ra-button" title="Stop">⏹</button>
+      <button id="nextParagraph" class="ra-button" title="Next">⏭</button>
+      <span id="speedControls">
+        <button id="slow" class="ra-button" title="Slower">−</button>
+        <button id="normal" class="ra-button" title="Normal">Normal</button>
+        <button id="fast" class="ra-button" title="Faster">＋</button>
+      </span>
+      <!-- Reading Progress Bar -->
+      <div id="readingProgressContainer">
+        <div id="readingProgress"></div>
+      </div>
+      <!-- Buffering Progress Bar -->
+      <div id="bufferProgressContainer">
+        <div id="bufferProgress"></div>
+      </div>
+      <!-- Time remaining display -->
+      <div id="timeRemainingLabel">Time remaining: 00:00</div>
+      <!-- Buffer indicator spinner (optional) -->
+      <span id="bufferIndicator" style="display:none;" title="Buffering">⏳</span>
+    </div>
+  </div>
+  
+    </div>
+
+    <main>
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
             <h1 id="proposed-changes-to-the-electoral-college-and-presidential-elections-in-project-2025"><strong>Proposed Changes to the Electoral College and Presidential Elections in Project 2025</strong></h1>
 
 <h2 id="does-project-2025-propose-any-changes-to-the-electoral-college-system-or-the-process-of-presidential-elections"><em>Does Project 2025 propose any changes to the Electoral College system or the process of presidential elections?</em></h2>
@@ -350,11 +391,6 @@ While measures aimed at enhancing election integrity might seem reasonable on th
     <!-- Include the cookie consent script -->
     <script  defer src="/assets/js/cookie-consent-script.js"></script>
 
-    <!-- Back to Top Button -->
-    <div class="back-to-top" id="backToTop">
-        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
-    </div>
-
     <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
         <!-- Bluesky Follow button with icon and text side by side -->
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -380,6 +416,8 @@ While measures aimed at enhancing election integrity might seem reasonable on th
             </ul>
             <br><br>
         </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
     </footer>
 
     <script>
@@ -414,5 +452,8 @@ While measures aimed at enhancing election integrity might seem reasonable on th
             });
         });
     </script>
+    <!-- At the end of your body, include the scripts -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+    <script src="/assets/js/readAloud.js" defer></script>
 </body>
 </html>
