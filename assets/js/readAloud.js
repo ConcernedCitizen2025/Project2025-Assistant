@@ -7,10 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let speechRate = 1.0; // Normal speed
     let isPaused = false;
     
+    // For double-stop functionality
+    let lastStopTime = 0; // timestamp of the last Stop button click (in milliseconds)
+    
     // Grab all paragraphs inside the #readableContent container
     paragraphs = document.querySelectorAll("#readableContent p");
     
-    // Grab UI elements
+    // Grab UI elements from the control panel
     const startBtn = document.getElementById('startReadAloud');
     const controlsDiv = document.getElementById('readAloudControls');
     const playResumeBtn = document.getElementById('playResume');
@@ -22,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const normalBtn = document.getElementById('normal');
     const fastBtn = document.getElementById('fast');
     const bufferIndicator = document.getElementById('bufferIndicator');
+    const container = document.getElementById('readAloudContainer'); // the outer container
     
     // Function to read the current paragraph
     function readCurrentParagraph() {
@@ -53,12 +57,14 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
     
-    // Start button: hide itself, show controls, and start reading from paragraph 0.
+    // Start button: hide itself, show controls, fix the control panel to the top, and start reading from paragraph 0.
     startBtn.addEventListener('click', function() {
       currentParagraphIndex = 0;
       isPaused = false;
       startBtn.style.display = "none";
       controlsDiv.style.display = "block";
+      // Make the entire container fixed so it stays in view
+      container.classList.add("fixedControlPanel");
       readCurrentParagraph();
     });
     
@@ -78,12 +84,16 @@ document.addEventListener('DOMContentLoaded', function() {
       isPaused = true;
     });
     
-    // Stop the speech entirely
+    // Stop the speech entirely. If pressed twice (within 2 seconds), reset to beginning.
     stopBtn.addEventListener('click', function() {
+      let now = Date.now();
+      if (now - lastStopTime < 2000) { // if the last click was within 2 seconds
+        // Reset to the beginning of the page
+        currentParagraphIndex = 0;
+      }
+      lastStopTime = now;
       responsiveVoice.cancel();
       isPaused = false;
-      // Optionally, reset the paragraph index:
-      // currentParagraphIndex = 0;
     });
     
     // Jump to the next paragraph
@@ -128,4 +138,3 @@ document.addEventListener('DOMContentLoaded', function() {
       readCurrentParagraph();
     });
 });
-  
