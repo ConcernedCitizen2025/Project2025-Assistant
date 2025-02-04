@@ -67,7 +67,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
             >
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
+            <strong>CLICK TO SHARE ON FACEBOOK!</STRONG><br>Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
         </p>
       </div>
     </div>
