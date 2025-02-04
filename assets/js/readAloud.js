@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ));
     
     // --- Force Stop Anchor or Default "Sources" Stop ---
-    // Check first for an element with the class "read-aloud-stop"
+    // First, check for an element with the class "read-aloud-stop".
     let forceStopIndex = contentElements.findIndex(el =>
       el.classList.contains("read-aloud-stop")
     );
@@ -134,11 +134,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Function to read the current element using ResponsiveVoice.
+    // Now, it also checks for the in-text stop token "[STOP]".
     function readCurrentParagraph() {
       if (currentParagraphIndex < 0 || currentParagraphIndex >= paragraphs.length) {
         return;
       }
-      let text = paragraphs[currentParagraphIndex].innerText;
+      let fullText = paragraphs[currentParagraphIndex].innerText;
+      let stopFound = false;
+      let text;
+      if (fullText.includes("[STOP]")) {
+          // If the token is found, only speak the text before the token.
+          text = fullText.split("[STOP]")[0];
+          stopFound = true;
+      } else {
+          text = fullText;
+      }
       currentParagraphStartTime = Date.now();
       // Begin buffering simulation.
       bufferingStartTime = Date.now();
@@ -152,16 +162,19 @@ document.addEventListener('DOMContentLoaded', function() {
           bufferProgressElem.style.width = "100%";
         },
         onend: function() {
-          // Update the number of words read based on this element.
-          let count = paragraphWordCounts[currentParagraphIndex];
+          // Update words read based on the spoken text.
+          let count = text.split(/\s+/).filter(word => word.trim() !== "").length;
           wordsRead += count;
-          if (!isPaused) {
+          if (!isPaused && !stopFound) {
             currentParagraphIndex++;
             if (currentParagraphIndex < paragraphs.length) {
               readCurrentParagraph();
             } else {
               stopProgressLoop();
             }
+          } else {
+            // If a stop token was found, then end reading.
+            stopProgressLoop();
           }
         }
       });
