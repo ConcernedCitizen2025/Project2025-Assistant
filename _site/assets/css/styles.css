@@ -501,5 +501,57 @@ img {
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Fixed control panel styling */
+.fixedControlPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f9f9f9;
+    z-index: 1000;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
   }
+  
+  /* Progress bar containers */
+  #readingProgressContainer, #bufferProgressContainer {
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  /* Reading progress bar */
+  #readingProgress {
+    background: #76c7c0;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+  }
+  
+  /* Buffering progress bar */
+  #bufferProgress {
+    background: #f1c40f;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+  }
+  
+  /* Time remaining label */
+  #timeRemainingLabel {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Style for the close button */
+  #closePanel {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
   
