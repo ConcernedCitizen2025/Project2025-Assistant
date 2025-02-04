@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Global state variables
-    let paragraphs = [];
+    let paragraphs = [];  // We'll use "paragraphs" to mean our collection of text elements.
     let paragraphWordCounts = [];
     let currentParagraphIndex = 0;
     let speechRate = 1.0; // Normal speed
@@ -14,10 +14,25 @@ document.addEventListener('DOMContentLoaded', function() {
     let bufferingStartTime = 0;
     const SECONDS_PER_WORD = 0.4; // Base time per word at rate 1.0
 
-    // Grab all paragraphs inside the #readableContent container
-    paragraphs = document.querySelectorAll("#readableContent p");
-    paragraphs.forEach(function(p) {
-       let count = p.innerText.split(/\s+/).filter(word => word.trim() !== "").length;
+    // --- NEW: Collect all text-bearing elements ---
+    // This selector grabs paragraphs (<p>), list items (<li>), and headings (<h1>-<h6>).
+    let contentElements = Array.from(document.querySelectorAll(
+      "#readableContent p, #readableContent li, #readableContent h1, #readableContent h2, #readableContent h3, #readableContent h4, #readableContent h5, #readableContent h6"
+    ));
+
+    // Filter out the "Sources" section and any content that follows.
+    let sourcesIndex = contentElements.findIndex(el =>
+      el.textContent.trim().toLowerCase().startsWith("sources")
+    );
+    if (sourcesIndex !== -1) {
+      contentElements = contentElements.slice(0, sourcesIndex);
+    }
+    // Use the resulting array as our collection.
+    paragraphs = contentElements;
+
+    // Pre-calculate word counts for each element and total words.
+    paragraphs.forEach(function(el) {
+       let count = el.innerText.split(/\s+/).filter(word => word.trim() !== "").length;
        paragraphWordCounts.push(count);
        totalWords += count;
     });
@@ -40,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const timeRemainingLabel = document.getElementById('timeRemainingLabel');
     const closePanelBtn = document.getElementById('closePanel');
 
-    // Variable to store the requestAnimationFrame ID
+    // Use requestAnimationFrame for progress updates.
     let progressAnimationFrame;
 
     // Update the reading progress bar and time remaining display.
@@ -52,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
           let currentEstimated = currentWords * SECONDS_PER_WORD / speechRate;
           currentFraction = Math.min(1, elapsedCurrent / currentEstimated);
       }
-      // Overall words read (including partial progress in current paragraph)
+      // Overall words read (including partial progress in current element)
       let progressWords = wordsRead;
       if (currentParagraphIndex < paragraphs.length) {
           let currentWords = paragraphWordCounts[currentParagraphIndex];
@@ -106,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (progressAnimationFrame) cancelAnimationFrame(progressAnimationFrame);
     }
 
-    // Function to read the current paragraph using ResponsiveVoice.
+    // Function to read the current element using ResponsiveVoice.
     function readCurrentParagraph() {
       if (currentParagraphIndex < 0 || currentParagraphIndex >= paragraphs.length) {
         return;
@@ -125,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
           bufferProgressElem.style.width = "100%";
         },
         onend: function() {
-          // Update words read based on this paragraph's word count.
+          // Update words read based on this element's word count.
           let count = paragraphWordCounts[currentParagraphIndex];
           wordsRead += count;
           if (!isPaused) {
@@ -182,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
       isPaused = false;
     });
     
-    // Next paragraph
+    // Next element
     nextBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
       if (currentParagraphIndex < paragraphs.length - 1) {
@@ -192,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Previous paragraph
+    // Previous element
     prevBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
       if (currentParagraphIndex > 0) {
