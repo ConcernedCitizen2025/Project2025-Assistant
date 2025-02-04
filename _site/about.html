@@ -440,9 +440,12 @@ function googleTranslateElementInit() {
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
-    <script src="/assets/js/search.js" defer></script>
-    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script> 
-    <script>
+    <!-- Load ResponsiveVoice (with your API key) -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+    <!-- Load your custom readAloud.js script -->
+    <script src="/assets/js/readAloud.js" defer></script>
+
+    <!--<script>
         // Ensure the DOM is fully loaded
         document.addEventListener('DOMContentLoaded', function() {
           var readButton = document.getElementById('readAloudButton');
@@ -458,9 +461,9 @@ function googleTranslateElementInit() {
             console.error('Read Aloud button or content element not found.');
           }
         });
-    </script>   
+    </script>-->   
     
-    <script>
+    <!--<script>
         document.addEventListener('DOMContentLoaded', function() {
           // Retrieve the text container element
           var contentDiv = document.getElementById('readableContent');
@@ -560,7 +563,7 @@ function googleTranslateElementInit() {
             console.error("One or more TTS control buttons not found.");
           }
         });
-    </script>
+    </script>-->
             
 </body>
 </html>
