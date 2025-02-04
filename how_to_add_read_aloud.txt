@@ -31,4 +31,4 @@
 <script src="/assets/js/readAloud.js" defer></script>
 
 
-<span style="display: none;">[STOP]</span>
+<span class="stop-marker">[STOP]</span>
