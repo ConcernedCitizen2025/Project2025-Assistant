@@ -31,115 +31,109 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       <strong>The goal in creating this resource</strong> is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.
     </p>
   </div>
-  <div class="read-aloud-stop"></div>
-
-  
-
-
-  <!-- Right Column (Videos and Additional Content) -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
-    <!--<div>
-    <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:nqp27wwsprlf5d673ntghnz4/app.bsky.feed.post/3lgobucxfh22m" data-bluesky-cid="bafyreigw2hgo5nofb47yj7q3ietx5u5w5gprlcw3jvevrc4iigfvh44jzq"><p lang="en">For Those Who Voted For Trump &amp; Depend On Insulin, They Are Now In The “Find Out” Stage
-🔁  @tn_brando<br><br><a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">[image or embed]</a></p>&mdash; Harlow’s Musings (<a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4?ref_src=embed">@harlowsmusings.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/3lgobucxfh22m?ref_src=embed">January 26, 2025 at 12:39 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-    </div>-->
-    <!-- First Video -->
-    <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-      <iframe 
-        src="https://www.youtube.com/embed/iX3vMJOADlE" 
-        frameborder="0" 
-        allowfullscreen 
-        style="width: 100%; height: 400px; border-radius: 8px;">
-      </iframe>
-    </div>-->
-    <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
-    <!-- Text Content -->
-    <!--<div style="flex: 3; padding-right: 20px;">
-        <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
-        <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
-        <-- Include your text here --
-    </div>-->
-    <!-- Image Content -->
-      <div id="expiring-image-container" style="flex: 1; text-align: center;">
-        <a href="#" onclick="shareToFacebook(event); return false;">
-            <img 
-                src="/assets/images/feb5_protest.jpg" 
-                alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
-                style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
-            >
-        </a>
-        <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            <strong>CLICK TO SHARE ON FACEBOOK!</STRONG><br>Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
-        </p>
+  <div class="read-aloud-stop">
+      <!-- Right Column (Videos and Additional Content) -->
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+        <!--<div>
+        <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:nqp27wwsprlf5d673ntghnz4/app.bsky.feed.post/3lgobucxfh22m" data-bluesky-cid="bafyreigw2hgo5nofb47yj7q3ietx5u5w5gprlcw3jvevrc4iigfvh44jzq"><p lang="en">For Those Who Voted For Trump &amp; Depend On Insulin, They Are Now In The “Find Out” Stage
+    🔁  @tn_brando<br><br><a href="https://bsky.app/profile/did:plc:nqp27wwsprlf5d673ntghnz4/post/  
+        </div>-->
+        <!-- First Video -->
+        <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+          <iframe 
+            src="https://www.youtube.com/embed/iX3vMJOADlE" 
+            frameborder="0" 
+            allowfullscreen 
+            style="width: 100%; height: 400px; border-radius: 8px;">
+          </iframe>
+        </div>-->
+        <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+        <!-- Text Content -->
+        <!--<div style="flex: 3; padding-right: 20px;">
+            <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
+            <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
+            <-- Include your text here --
+        </div>-->
+        <!-- Image Content -->
+          <div id="expiring-image-container" style="flex: 1; text-align: center;">
+            <a href="#" onclick="shareToFacebook(event); return false;">
+                <img 
+                    src="/assets/images/feb5_protest.jpg" 
+                    alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" 
+                    style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"
+                >
+            </a>
+            <p style="font-size: 14px; color: #555; margin-top: 10px;">
+                <strong>CLICK TO SHARE ON FACEBOOK!</STRONG><br>Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
+            </p>
+          </div>
+        </div>
+        <script>
+          // Set the expiration date (YYYY-MM-DD format)
+          const expirationDate = new Date("2025-02-05T23:59:59");
+          // Get today's date
+          const today = new Date();
+          // Check if the current date is past the expiration date
+          if (today > expirationDate) {
+              const imageContainer = document.getElementById("expiring-image-container");
+              if (imageContainer) {
+                  imageContainer.style.display = "none"; // Hide the image container
+              }
+          }
+          // Share to Facebook function
+          function shareToFacebook(event) {
+              event.preventDefault(); // Prevent default action
+              const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
+              window.open(fbShareUrl, '_blank', 'width=600,height=400');
+          }
+        </script>
+        <div style="text-align: center;">
+          <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
+          <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+            Video by <a href="https://www.youtube.com/c/MeidasTouch" target="_blank">MeidasTouch</a>. Watch the original:
+            <a href="https://www.youtube.com/watch?v=iX3vMJOADlE" target="_blank">"Denmark Fury Unleashed!!!"</a>.
+          </p>
+        </div>
+        <!-- Learn More Section -->
+        <div style="text-align: center;">
+          <h2>Learn More about LGBTQ+ Rights</h2>
+          <a href="/questions/002-lgbtq-rights-changes.html" style="display: block;">
+            <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;">
+          </a>
+        </div><br><br><br><br>
+        <!-- Second Video -->
+        <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+          <iframe 
+            src="https://www.youtube.com/embed/0LN65qFUDDo?si=sLdjxCFzee-7m_tj" 
+            frameborder="0" 
+            allowfullscreen 
+            style="width: 100%; height: 315px; border-radius: 8px;">
+          </iframe>
+        </div>-->
+        <div style="text-align: center;">
+          <iframe src="https://www.youtube.com/embed/0LN65qFUDDo" frameborder="0" allowfullscreen style="width: 100%; height: 315px; border-radius: 8px;"></iframe>
+          <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+            Video by <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">Colombia Insight</a>. Watch the original:
+            <a href="https://www.youtube.com/watch?v=0LN65qFUDDo" target="_blank">"Colombian President Reacts to U.S. Tariffs"</a>.
+          </p>
+        </div>
+        <!--<div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br>
+            <p>
+              <strong>The goal in creating this resource</strong> <p>is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.</p>
+            </p>
+        </div>-->
       </div>
     </div>
-    <script>
-      // Set the expiration date (YYYY-MM-DD format)
-      const expirationDate = new Date("2025-02-05T23:59:59");
-      // Get today's date
-      const today = new Date();
-      // Check if the current date is past the expiration date
-      if (today > expirationDate) {
-          const imageContainer = document.getElementById("expiring-image-container");
-          if (imageContainer) {
-              imageContainer.style.display = "none"; // Hide the image container
-          }
-      }
-      // Share to Facebook function
-      function shareToFacebook(event) {
-          event.preventDefault(); // Prevent default action
-          const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
-          window.open(fbShareUrl, '_blank', 'width=600,height=400');
-      }
-    </script>
-    <div style="text-align: center;">
-      <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
-      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        Video by <a href="https://www.youtube.com/c/MeidasTouch" target="_blank">MeidasTouch</a>. Watch the original:
-        <a href="https://www.youtube.com/watch?v=iX3vMJOADlE" target="_blank">"Denmark Fury Unleashed!!!"</a>.
-      </p>
-    </div>
-    <!-- Learn More Section -->
-    <div style="text-align: center;">
-      <h2>Learn More about LGBTQ+ Rights</h2>
-      <a href="/questions/002-lgbtq-rights-changes.html" style="display: block;">
-        <img src="/assets/images/descrimination.webp" alt="Discrimination quote from Project 2025" style="max-width: 100%; height: auto;">
+    <div style="text-align: center; margin: 40px 0;">
+      <h2>Check out our Video-Podcast</h2>
+      <a href="/video-podcasts.html">
+        <img src="/assets/images/video_podcast_banner.jpg" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">
       </a>
-    </div><br><br><br><br>
-    <!-- Second Video -->
-    <!--<div style="padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-      <iframe 
-        src="https://www.youtube.com/embed/0LN65qFUDDo?si=sLdjxCFzee-7m_tj" 
-        frameborder="0" 
-        allowfullscreen 
-        style="width: 100%; height: 315px; border-radius: 8px;">
-      </iframe>
-    </div>-->
-    <div style="text-align: center;">
-      <iframe src="https://www.youtube.com/embed/0LN65qFUDDo" frameborder="0" allowfullscreen style="width: 100%; height: 315px; border-radius: 8px;"></iframe>
-      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        Video by <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">Colombia Insight</a>. Watch the original:
-        <a href="https://www.youtube.com/watch?v=0LN65qFUDDo" target="_blank">"Colombian President Reacts to U.S. Tariffs"</a>.
-      </p>
     </div>
-    <!--<div style="flex: 1; padding-left: 20px; text-align: justify; max-width: 600px;"><br>
-        <p>
-          <strong>The goal in creating this resource</strong> <p>is to make the contents of Project 2025 more accessible to those who may not have the time or inclination to read the entire document. By providing this breakdown, it may shed light on the proposed policies and their potential implications for the upcoming presidential election. Thank you for visiting the site. Hopefully, this analysis proves valuable in your understanding of Project 2025 and its significance in shaping future policies.</p>
-        </p>
-    </div>-->
+    <div style="text-align: center;">
+      <a href="/toc.html" style="font-size: 2em; font-weight: bold;">
+        <em>START YOUR JOURNEY</em>
+      </a>
+    </div>
   </div>
-</div>
-
-
-
-<div style="text-align: center; margin: 40px 0;">
-  <h2>Check out our Video-Podcast</h2>
-  <a href="/video-podcasts.html">
-    <img src="/assets/images/video_podcast_banner.jpg" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-
-<div style="text-align: center;">
-  <a href="/toc.html" style="font-size: 2em; font-weight: bold;">
-    <em>START YOUR JOURNEY</em>
-  </a>
 </div>
