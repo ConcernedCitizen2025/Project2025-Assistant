@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Podcasts - Project 2025 Assistant</title>
+    <!-- Dynamic Meta Description -->
+    
+    <meta name="description" content="Explore engaging video podcasts diving deep into Project 2025, government reform, LGBTQ+ rights, and democracy.">
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <meta name="keywords" content="Project 2025, video podcasts, government reform, LGBTQ+ rights, democracy, political analysis">
+    
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+    <style>
+        /* General styling */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Styling for main content */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header img {
+            max-width: 300px;
+            height: auto;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .video {
+            flex: 1 1 300px;
+            max-width: 450px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .video iframe {
+            width: 100%;
+            height: 250px;
+        }
+        .video-description {
+            padding: 10px;
+            text-align: justify;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .video iframe {
+                height: 200px;
+            }
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .share-buttons a img {
+            margin: 0 10px;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        /* Mobile view styles */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+        }
+
+        /* Hide hamburger on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/force_of_freedom_logo.png" alt="Mask Image" loading="eager">
+                        <img class="mask right" src="/assets/images/force_of_freedom_logo.png" alt="Mask Image" loading="eager">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/video-podcasts.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('Video Podcasts - Project 2025 Assistant', 'http://localhost:4000/video-podcasts.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/video-podcasts.html&text=Video Podcasts - Project 2025 Assistant" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/video-podcasts.html&title=Video Podcasts - Project 2025 Assistant" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
+        <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </div>
+
+    <main>
+        <h1 id="video-podcasts">Video Podcasts</h1>
+
+<p>Welcome to the video podcast page! Explore episodes diving into Project 2025 and its impact on American politics and democracy.</p>
+
+<p>Learn more about how these policies could shape the future of the United States.</p>
+
+        <div class="video-container">
+            <!-- Video Embeds -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/AoLDWWujqyg" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 1: Project 2025 Introduction</strong>
+                    <p>Lucas and Rey introduce Project 2025, a political document that could reshape the U.S., covering government restructuring and LGBTQ+ rights.</p>
+                </div>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/T8Od8Fk7Hds" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 2: Trump, Legal Battles, and Election 2024</strong>
+                    <p>Explore Donald Trump’s legal challenges, Kamala Harris’s campaign, voter ID laws, immigration rhetoric, and the stakes of Election 2024.</p>
+                </div>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/JOOTKkDukgQ" frameborder="0" allowfullscreen></iframe>
+                <div class="video-description">
+                    <strong>Episode 3: Expanding the Deep Dive into Project 2025</strong>
+                    <p>Lucas and Rey continue exploring Project 2025, uncovering troubling policies affecting LGBTQ+ rights, democracy, and government restructuring.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+</body>
+</html>

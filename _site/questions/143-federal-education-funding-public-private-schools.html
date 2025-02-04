@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Funding</title>
+    <title>Project 2025's Federal Education Funding: Risks to Public Schools and Educational Equity</title>
+    <meta name="description" content="Analyze Project 2025's proposed changes to federal education funding and the potential impact on public schools, educational equity, and democratic accountability.">
+
+    <!-- Dynamic Meta Keywords -->
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta property="og:title" content="50 States, 50 Capitals, 50 Marches - February 5th Protest at noon!" />
+    <meta property="og:description" content="This image is shared from Harlow's Musings on Bluesky." />
+    <meta property="og:image" content="https://project2025assistant.org/assets/images/feb5_protest.jpg" />
+    <meta property="og:url" content="https://project2025assistant.org/questions/006-immigration-policies-impact.html" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="634">
+    <meta property="og:image:height" content="1106">
+    <!--<meta property="og:url" content="https://project2025assistant.org/questions/006-immigration-policies-impact.html">
+    <meta property="og:type" content="article">-->
+
     <style>
         /* Ensuring the html and body occupy the full height */
         html, body {
@@ -13,26 +27,26 @@
             padding: 0;
         }
 
-        /* Using flexbox to make sure the footer stays at the bottom if content is short */
+        /* Flexbox to ensure footer stays at the bottom */
         body {
             display: flex;
             flex-direction: column;
         }
 
-        /* Ensuring the main content takes up the available space */
         main {
             flex: 1;
         }
 
-        /* Positioning the nutshell logo */
+        /* Styling the nutshell logo */
         .nutshell-logo-container {
             position: absolute;
-            top: 170px; /* Adjust as needed */
-            right: 10px; /* Adjust as needed */
+            top: 150px;
+            right: 10px;
+            width: 175px;
         }
 
         .nutshell-logo-container img {
-            width: 175px; /* Adjust size as needed */
+            width: 175px;
             height: auto;
         }
 
@@ -40,7 +54,7 @@
             max-width: 800px;
             margin: 0 auto;
             text-align: left;
-            padding: 20px; /* Add some padding */
+            padding: 20px;
         }
 
         .content-container h1, .content-container h2 {
@@ -48,15 +62,137 @@
         }
 
         footer {
-            background-color: #222;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
         }
+
+        /* Desktop view: horizontal navigation links and no hamburger menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                margin: 10px auto;
+                text-align: center;
+            }
+
+            /* Move nutshell icon above hamburger on mobile */
+            .nutshell-logo-container {
+                position: static;
+                top: auto;
+                right: auto;
+                width: 70px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .nutshell-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            .hamburger,
+            .share-buttons {
+                margin-top: 10px;
+            }
+
+            .social-media-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop view */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999; /* Ensure it's on top */
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Smooth Logo Animation */
+        .logo-container .mask {
+            transition: transform 1s ease-in-out;
+        }
+
+        .logo-container:hover .mask.left {
+            transform: translateX(-100%);
+        }
+
+        .logo-container:hover .mask.right {
+            transform: translateX(100%);
+        }
+
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
     <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -69,40 +205,72 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>      
+</script> 
+    <script src="/assets/js/share-bluesky-script.js" defer></script>     
 </head>
 <body>
     <header>
         <div style="text-align: center;">
             <a href="/">
                 <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                        <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
+                        <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager">
                     </div>
                 </div>
             </a>
-        </div>
+
+            <!-- Nutshell logo (will be moved under the main logo in mobile view) -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img src="/assets/images/nutshell_logo.webp" alt="In a Nutshell Logo" loading="eager">
+                </a>
+            </div>
+
+            <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook" />
-                </a>
-                <a href="https://twitter.com/share?url=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html&text=Education Funding" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter" />
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html&title=Education Funding" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn" />
-                </a>
-            </div>
         </nav>
-        <div id="google_translate_element"></div>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('Project 2025&#39;s Federal Education Funding: Risks to Public Schools and Educational Equity', 'http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html&text=Project 2025's Federal Education Funding: Risks to Public Schools and Educational Equity" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/questions/143-federal-education-funding-public-private-schools.html&title=Project 2025's Federal Education Funding: Risks to Public Schools and Educational Equity" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div style="text-align: center; margin: 20px 0;">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+        
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -117,23 +285,15 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    </header>
+        </div>
+        <div class="content-wrapper">
+            <h1 id="federal-education-funding-in-project-2025-a-threat-to-public-education-and-equity">Federal Education Funding in Project 2025: A Threat to Public Education and Equity?</h1>
 
-    <!-- Adding the nutshell logo and making it clickable -->
-    <div class="nutshell-logo-container">
-        <a href="#nutshell">
-            <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
-        </a>
-    </div>
+<h2 id="are-there-proposed-changes-to-how-federal-education-funding-is-allocated-particularly-regarding-public-vs-private-schools"><em>Are there proposed changes to how federal education funding is allocated, particularly regarding public vs. private schools?</em></h2>
 
-    <main class="content-container">
-        <h3 id="are-there-proposed-changes-to-how-federal-education-funding-is-allocated-particularly-regarding-public-vs-private-schools"><em>Are there proposed changes to how federal education funding is allocated, particularly regarding public vs. private schools?</em></h3>
+<p><strong>Introduction</strong></p>
 
-<h1 id="federal-education-funding-in-project-2025-public-vs-private-schools"><strong>Federal Education Funding in Project 2025: Public vs. Private Schools</strong></h1>
-
-<h4 id="introduction"><strong>Introduction</strong></h4>
-
-<p>The allocation of federal education funding is a critical issue that affects the quality and accessibility of education across the United States. Project 2025 proposes significant changes to how federal education funds are distributed, with a focus on increasing support for private and charter schools while reducing the emphasis on traditional public schools. This analysis explores these proposed changes, examining the potential implications for public education, educational equity, and the broader impact on democratic principles.</p>
+<p>Project 2025 proposes a significant shift in how federal education funds are allocated, with a focus on supporting private and charter schools at the expense of traditional public education. By promoting school choice initiatives and reducing federal oversight, the plan raises serious concerns about the future of public education, educational equity, and accountability. This analysis examines the potential consequences of Project 2025’s approach to education funding, highlighting the risks of deepening inequalities, weakening public schools, and undermining democratic governance.</p>
 
 <h4 id="proposed-changes-to-federal-education-funding"><strong>Proposed Changes to Federal Education Funding</strong></h4>
 
@@ -172,9 +332,11 @@ While the emphasis on school choice and parental control is presented as a way t
 
 <p>In summary, while Project 2025’s proposed changes to federal education funding aim to promote school choice and improve education quality, they raise serious concerns about the potential impact on public education, educational equity, and accountability. The implications of the immunity ruling further complicate these issues, making it essential to carefully consider the long-term effects of these changes on the U.S. education system and the principles of democratic governance.</p>
 
+        </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -182,28 +344,70 @@ While the emphasis on school choice and parental control is presented as a way t
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
+            // Simulate the back button action to clear the hash from the URL and go back in history
+            backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
+            });
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
             });
         });
     </script>

@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LGBTQ+ Rights</title>
+    <title>LGBTQ+ Rights: Analyzing Changes Proposed by Project 2025 and Their Impact on Democracy</title>
+    <meta name="description" content="Explore how Project 2025's proposals could impact LGBTQ+ rights, marriage equality, and anti-discrimination protections, posing potential threats to democracy.">
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <meta name="keywords" content="LGBTQ+ rights, Project 2025, marriage equality, anti-discrimination protections, transgender rights, civil rights, Title IX, gender identity, sexual orientation, same-sex marriage, democracy threats">
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta property="og:title" content="50 States, 50 Capitals, 50 Marches - February 5th Protest at noon!" />
+    <meta property="og:description" content="This image is shared from Harlow's Musings on Bluesky." />
+    <meta property="og:image" content="https://project2025assistant.org/assets/images/feb5_protest.jpg" />
+    <meta property="og:url" content="https://project2025assistant.org/questions/006-immigration-policies-impact.html" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="634">
+    <meta property="og:image:height" content="1106">
+    <!--<meta property="og:url" content="https://project2025assistant.org/questions/006-immigration-policies-impact.html">
+    <meta property="og:type" content="article">-->
+
     <style>
         /* Ensuring the html and body occupy the full height */
         html, body {
@@ -13,26 +29,26 @@
             padding: 0;
         }
 
-        /* Using flexbox to make sure the footer stays at the bottom if content is short */
+        /* Flexbox to ensure footer stays at the bottom */
         body {
             display: flex;
             flex-direction: column;
         }
 
-        /* Ensuring the main content takes up the available space */
         main {
             flex: 1;
         }
 
-        /* Positioning the nutshell logo */
+        /* Styling the nutshell logo */
         .nutshell-logo-container {
             position: absolute;
-            top: 170px; /* Adjust as needed */
-            right: 10px; /* Adjust as needed */
+            top: 150px;
+            right: 10px;
+            width: 175px;
         }
 
         .nutshell-logo-container img {
-            width: 175px; /* Adjust size as needed */
+            width: 175px;
             height: auto;
         }
 
@@ -40,7 +56,7 @@
             max-width: 800px;
             margin: 0 auto;
             text-align: left;
-            padding: 20px; /* Add some padding */
+            padding: 20px;
         }
 
         .content-container h1, .content-container h2 {
@@ -48,15 +64,137 @@
         }
 
         footer {
-            background-color: #222;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
         }
+
+        /* Desktop view: horizontal navigation links and no hamburger menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                margin: 10px auto;
+                text-align: center;
+            }
+
+            /* Move nutshell icon above hamburger on mobile */
+            .nutshell-logo-container {
+                position: static;
+                top: auto;
+                right: auto;
+                width: 70px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .nutshell-logo-container img {
+                width: 70px;
+                height: auto;
+            }
+
+            .hamburger,
+            .share-buttons {
+                margin-top: 10px;
+            }
+
+            .social-media-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop view */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999; /* Ensure it's on top */
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Smooth Logo Animation */
+        .logo-container .mask {
+            transition: transform 1s ease-in-out;
+        }
+
+        .logo-container:hover .mask.left {
+            transform: translateX(-100%);
+        }
+
+        .logo-container:hover .mask.right {
+            transform: translateX(100%);
+        }
+
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
     <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -69,40 +207,72 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>      
+</script> 
+    <script src="/assets/js/share-bluesky-script.js" defer></script>     
 </head>
 <body>
     <header>
         <div style="text-align: center;">
             <a href="/">
                 <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
+                        <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
+                        <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager">
                     </div>
                 </div>
             </a>
-        </div>
+
+            <!-- Nutshell logo (will be moved under the main logo in mobile view) -->
+            <div class="nutshell-logo-container">
+                <a href="#nutshell">
+                    <img src="/assets/images/nutshell_logo.webp" alt="In a Nutshell Logo" loading="eager">
+                </a>
+            </div>
+
+            <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/questions/002-lgbtq-rights-changes.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook" />
-                </a>
-                <a href="https://twitter.com/share?url=http://localhost:4000/questions/002-lgbtq-rights-changes.html&text=LGBTQ+ Rights" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter" />
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/questions/002-lgbtq-rights-changes.html&title=LGBTQ+ Rights" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn" />
-                </a>
-            </div>
         </nav>
-        <div id="google_translate_element"></div>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/questions/002-lgbtq-rights-changes.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('LGBTQ+ Rights: Analyzing Changes Proposed by Project 2025 and Their Impact on Democracy', 'http://localhost:4000/questions/002-lgbtq-rights-changes.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/questions/002-lgbtq-rights-changes.html&text=LGBTQ+ Rights: Analyzing Changes Proposed by Project 2025 and Their Impact on Democracy" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/questions/002-lgbtq-rights-changes.html&title=LGBTQ+ Rights: Analyzing Changes Proposed by Project 2025 and Their Impact on Democracy" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div style="text-align: center; margin: 20px 0;">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+        
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -117,87 +287,67 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    </header>
+        </div>
+        <div class="content-wrapper">
+            <h1 id="proposed-changes-to-lgbtq-rights-in-project-2025-assessing-the-threats-to-democracy">Proposed Changes to LGBTQ+ Rights in Project 2025: Assessing the Threats to Democracy</h1>
 
-    <!-- Adding the nutshell logo and making it clickable -->
-    <div class="nutshell-logo-container">
-        <a href="#nutshell">
-            <img src="/assets/images/nutshell_logo.png" alt="In a Nutshell Logo">
-        </a>
-    </div>
-
-    <main class="content-container">
-        <h3 id="what-changes-does-project-2025-propose-for-lgbtq-rights-including-marriage-equality-and-anti-discrimination-protections"><em>What changes does Project 2025 propose for LGBTQ+ rights, including marriage equality and anti-discrimination protections?</em></h3>
-
-<h1 id="proposed-changes-to-lgbtq-rights-in-project-2025-assessing-the-threats-to-democracy">Proposed Changes to LGBTQ+ Rights in Project 2025: Assessing the Threats to Democracy</h1>
+<h2 id="what-changes-does-project-2025-propose-for-lgbtq-rights-including-marriage-equality-and-anti-discrimination-protections"><em>What changes does Project 2025 propose for LGBTQ+ rights, including marriage equality and anti-discrimination protections?</em></h2>
 
 <p><strong>Introduction</strong></p>
 
-<p>Project 2025, a conservative policy blueprint, proposes a series of changes that could significantly impact LGBTQ+ rights in the United States. These changes include potential revisions to marriage equality, anti-discrimination protections, and other civil rights that LGBTQ+ individuals have gained over recent decades. This analysis explores the specific proposals related to LGBTQ+ rights, assesses the potential threats they pose to democratic values and equality, and considers the broader implications of these changes on American society.</p>
+<p>Project 2025 outlines sweeping policy changes that could significantly impact the rights of LGBTQ+ individuals, particularly in the areas of anti-discrimination protections and marriage equality. These proposed changes threaten to reverse years of progress in securing equal rights and legal recognition for people of diverse sexual orientations and gender identities. This analysis delves into the specific risks posed by these policy shifts and their broader implications for civil liberties and democracy in the United States.</p>
+
+<p><strong>Rescinding Anti-Discrimination Protections</strong></p>
+
+<p>One of the most concerning proposals from Project 2025 is to <strong>“rescind regulations prohibiting discrimination on the basis of sexual orientation, gender identity, transgender status, and sex characteristics”</strong> (Project 2025, 2024, p. 584). This move would dismantle protections that currently shield LGBTQ+ individuals from discrimination in critical areas such as employment, housing, and public accommodations. Without these safeguards, marginalized communities could face heightened exclusion and prejudice, particularly in regions that lack state-level protections.</p>
+
+<p><strong>Potential Concerns</strong></p>
+
+<p>By eliminating federal protections, this policy risks creating a fragmented system where basic rights depend on geographical location. In states with conservative governments, LGBTQ+ individuals could face significant barriers in accessing housing, securing jobs, and receiving equal treatment in everyday life. Such discrimination would not only harm individuals but could further entrench social inequality, undermining the core democratic principle of equal protection under the law.</p>
+
+<p>Moreover, rescinding these protections would send a dangerous signal that discrimination based on identity is acceptable. The broader social consequences of this could be severe, fostering intolerance and perpetuating harmful stereotypes. As federal recognition of identity-based discrimination rolls back, the lived experiences of marginalized groups may be increasingly defined by marginalization and social exclusion.</p>
 
 <p><strong>Marriage Equality</strong></p>
 
-<p>One of the key areas where Project 2025 may propose changes is in the realm of marriage equality. Since the landmark Supreme Court ruling in <em>Obergefell v. Hodges</em> (2015), same-sex marriage has been recognized as a constitutional right across the United States. However, Project 2025 appears to challenge this ruling by advocating for policies that could potentially undermine marriage equality. The document suggests revisiting and possibly reversing federal recognition of same-sex marriages, thereby allowing states to decide whether to recognize these unions (Project 2025, 2024, Department of Justice).</p>
+<p>In addition to undoing anti-discrimination laws, Project 2025 hints at potential challenges to marriage equality, particularly by allowing states to decide whether to recognize same-sex marriages. Such a proposal would not only undermine the Supreme Court’s landmark ruling in <em>Obergefell v. Hodges</em> (2015) but also leave same-sex couples vulnerable to a patchwork of inconsistent legal standards depending on where they reside (Project 2025, 2024, Department of Justice). This could strip many families of the legal protections and benefits associated with marriage, from inheritance rights to parental rights.</p>
 
-<p><strong>Potential Concerns</strong></p>
+<p><strong>Targeting Education and Gender Identity</strong></p>
 
-<p>The potential rollback of marriage equality poses significant concerns for LGBTQ+ rights and democratic equality. By allowing states to individually determine the legality of same-sex marriages, Project 2025 could create a patchwork of laws across the country, leading to unequal treatment of LGBTQ+ individuals depending on where they live. This fragmentation of rights could undermine the constitutional principle of equal protection under the law, creating a tiered system of citizenship where some individuals have fewer rights than others based solely on their sexual orientation.</p>
+<p>Project 2025 also seeks to redefine “sex” under Title IX of the Education Amendments to mean only biological sex, thereby excluding gender identity and sexual orientation from protections. This shift would have dire consequences for transgender and gender non-conforming students, who would lose federal protection against discrimination in educational settings (Project 2025, 2024, Department of Education).</p>
 
-<p>Moreover, reversing or limiting marriage equality could have profound social and economic impacts on LGBTQ+ families. Marriage confers a wide range of legal benefits, including tax advantages, inheritance rights, and parental rights. Denying these benefits to same-sex couples could lead to increased financial insecurity and social marginalization for LGBTQ+ families, further entrenching inequality.</p>
+<p>Limiting the discussion of gender diversity and sexual orientation in schools, as well as restricting how educators address students’ chosen pronouns and names, would significantly harm LGBTQ+ youth. Such policies increase the risk of bullying and psychological distress, as young people are denied recognition and support in environments that are supposed to foster learning and personal growth.</p>
 
-<p><strong>Anti-Discrimination Protections</strong></p>
+<p><strong>Erasure of LGBTQ+ Terminology</strong></p>
 
-<p>Project 2025 also proposes revising federal anti-discrimination protections that currently safeguard LGBTQ+ individuals in various aspects of public life, including employment, housing, and education. The document suggests narrowing the scope of these protections, potentially allowing for broader exemptions based on religious beliefs (Project 2025, 2024, Department of Justice).</p>
-
-<p><strong>Potential Concerns</strong></p>
-
-<p>Weakening anti-discrimination protections for LGBTQ+ individuals could lead to increased discrimination in critical areas such as employment, housing, and education. Allowing for religious exemptions, while framed as a protection of religious freedom, could be used to justify discriminatory practices against LGBTQ+ individuals. This could result in LGBTQ+ individuals facing barriers to employment, housing, and access to public services, which would further marginalize an already vulnerable community.</p>
-
-<p>The rollback of anti-discrimination protections could also have broader implications for social cohesion and democratic values. Discrimination undermines the principle of equality before the law and can contribute to a culture of exclusion and intolerance. By weakening these protections, Project 2025 risks legitimizing discrimination, which could erode trust in public institutions and increase social divisions.</p>
-
-<p><strong>Impact on Education</strong></p>
-
-<p>Another area where Project 2025 may propose changes is in the realm of education, particularly regarding the inclusion of LGBTQ+ issues in school curricula. The document suggests revisiting federal guidelines on education to limit the discussion of LGBTQ+ topics in schools, arguing that such discussions should be left to parents rather than educators (Project 2025, 2024, Department of Education).</p>
-
-<p><strong>Potential Concerns</strong></p>
-
-<p>Limiting the discussion of LGBTQ+ issues in schools could have serious consequences for LGBTQ+ youth. Schools play a critical role in shaping young people’s understanding of diversity and inclusion. By restricting the discussion of LGBTQ+ topics, Project 2025 could contribute to an environment where LGBTQ+ students feel invisible or stigmatized. This could increase the risk of bullying, mental health issues, and lower educational outcomes for LGBTQ+ youth.</p>
-
-<p>Furthermore, restricting LGBTQ+ education could have long-term implications for social attitudes toward the LGBTQ+ community. Education is a powerful tool for combating prejudice and promoting understanding. By limiting access to information about LGBTQ+ issues, Project 2025 risks perpetuating stereotypes and misinformation, which could hinder progress toward greater social acceptance and equality.</p>
-
-<p><strong>Implications of the Immunity Ruling</strong></p>
-
-<p>The recent Supreme Court ruling on immunity, which shields government officials from certain legal challenges, could have significant implications for the implementation of Project 2025’s proposals regarding LGBTQ+ rights. By reducing the accountability of government officials, this ruling could make it more difficult for citizens to challenge discriminatory policies or seek redress for violations of their rights. This could lead to a situation where government actions that undermine LGBTQ+ rights are implemented with little to no legal recourse, further eroding democratic norms and principles.</p>
+<p>The <strong>Foreword</strong> of Project 2025 emphasizes a deliberate attempt to remove terms such as “sexual orientation,” “gender identity,” and other related phrases from federal rules, regulations, and even contracts (Project 2025, 2024, Foreword). This strategy not only represents a rollback of specific protections but signals a broader cultural push to erase LGBTQ+ identities from public discourse. By eliminating these terms from official documents, the government would be denying the legitimacy of these identities, which could embolden discriminatory practices in both public and private sectors.</p>
 
 <p><strong>Conclusion</strong></p>
 
-<p>Project 2025’s proposed changes to LGBTQ+ rights, including potential rollbacks of marriage equality and anti-discrimination protections, pose significant threats to the principles of equality and justice that underpin American democracy. By allowing states to determine the legality of same-sex marriages and weakening federal protections against discrimination, these proposals risk creating a fragmented and unequal legal landscape for LGBTQ+ individuals.</p>
+<p>Project 2025’s proposed changes to LGBTQ+ rights—including the rescission of anti-discrimination protections and potential challenges to marriage equality—pose a significant threat to both civil liberties and democratic values. By removing essential protections, the project could exacerbate social divisions, fuel discrimination, and create a patchwork of unequal rights across states. The focus on redefining “sex” in federal regulations and erasing LGBTQ+ terminology from official documents further reflects a broader agenda to marginalize and erase these communities from the national landscape. These proposals, if enacted, would not only harm LGBTQ+ individuals but could erode the foundational democratic principles of equality and justice for all.</p>
 
-<p>The potential restrictions on LGBTQ+ education further exacerbate these concerns, as they could contribute to an environment of exclusion and intolerance, particularly for LGBTQ+ youth. The implications of the immunity ruling add another layer of risk, as they could reduce the ability of citizens to hold their government accountable for actions that undermine civil rights.</p>
-
-<p>In light of these considerations, it is essential to critically assess the potential impact of Project 2025’s proposals on LGBTQ+ rights, ensuring that they do not compromise the principles of equity, justice, and democratic governance in the United States. The protection and advancement of LGBTQ+ rights are not only matters of individual freedom but are also critical to the health and integrity of American democracy as a whole.</p>
+<p>It is essential to recognize these risks and critically evaluate the potential consequences of Project 2025, not just for marginalized communities, but for the health of American democracy itself.</p>
 
 <p><br />
 <br />
 <br /></p>
 
-<h2 id="what-changes-does-project-2025-propose-for-lgbtq-rights-including-marriage-equality-and-anti-discrimination-protections-in-a-nutshell"><span id="nutshell">“What Changes Does Project 2025 Propose for LGBTQ+ Rights, Including Marriage Equality and Anti-Discrimination Protections?” In a Nutshell</span></h2>
+<h2 id="proposed-changes-to-lgbtq-rights-in-project-2025-in-a-nutshell"><span id="nutshell">“Proposed Changes to LGBTQ+ Rights in Project 2025” In a Nutshell</span></h2>
 
-<p>Project 2025 proposes changes that could significantly roll back LGBTQ+ rights in the United States. The main areas of concern include potential threats to marriage equality, weakening of anti-discrimination protections, and limitations on LGBTQ+ education.</p>
+<p>Project 2025 proposes several major changes that could severely impact LGBTQ+ rights and roll back protections that have been established over the years. One of the most troubling aspects is the plan to <strong>rescind regulations that prohibit discrimination</strong> based on sexual orientation, gender identity, transgender status, and sex characteristics. If these protections are removed, LGBTQ+ individuals could legally face discrimination in critical areas like employment, housing, and public services. Without federal protections, many states would be free to enact laws that could deny equal treatment to LGBTQ+ individuals, creating unequal rights across the country. This would lead to a patchwork of protections, leaving people vulnerable to discrimination depending on where they live.</p>
 
-<p>First, Project 2025 suggests revisiting the federal recognition of same-sex marriages. This could mean that states might once again have the power to decide whether to recognize same-sex marriages, leading to a situation where some states allow it, and others do not. This could create a confusing and unequal system where LGBTQ+ couples face different rights depending on where they live. If marriage equality is weakened, it could strip same-sex couples of the legal benefits and protections that marriage provides, such as tax advantages, inheritance rights, and parental rights, which would be a significant step backward for LGBTQ+ rights.</p>
+<p>Project 2025 also threatens <strong>marriage equality</strong>. The plan hints at allowing states to decide whether to recognize same-sex marriages, effectively rolling back the 2015 Supreme Court decision (<em>Obergefell v. Hodges</em>) that legalized same-sex marriage nationwide. If this happens, same-sex couples in certain states could lose access to the legal benefits and rights that come with marriage, such as inheritance and parental rights.</p>
 
-<p>Second, the project hints at weakening federal anti-discrimination protections for LGBTQ+ individuals. This could make it easier for people to discriminate against LGBTQ+ individuals in areas like employment, housing, and public services, particularly if these individuals claim religious reasons for doing so. This could lead to LGBTQ+ people facing more barriers to finding jobs, housing, and accessing public services, which would further marginalize an already vulnerable group.</p>
+<p>In the realm of <strong>education</strong>, Project 2025 proposes redefining “sex” under Title IX to mean biological sex only, which would exclude protections for gender identity and sexual orientation. This change would have a direct impact on transgender and non-binary students, leaving them unprotected from discrimination in schools. It would also restrict discussions about LGBTQ+ topics in the classroom, further marginalizing LGBTQ+ youth. Limiting these discussions could lead to increased bullying and mental health challenges for these students, as they would no longer have institutional support or recognition in educational settings.</p>
 
-<p>Third, Project 2025 proposes restricting discussions about LGBTQ+ issues in schools, leaving these topics to be addressed by parents rather than educators. This could mean that schools would not teach about LGBTQ+ history or issues, which could leave LGBTQ+ students feeling invisible or unsupported. This lack of education could also perpetuate stereotypes and misinformation about the LGBTQ+ community, leading to more bullying and discrimination against LGBTQ+ youth.</p>
+<p>Another alarming proposal is the deliberate <strong>removal of LGBTQ+ terminology</strong> from federal rules and regulations. Project 2025 explicitly states its intent to delete terms like “sexual orientation” and “gender identity” from federal documents. This is not just a symbolic gesture—it would signal to society that these identities are not recognized or protected by the government. This could embolden private and public institutions to discriminate against LGBTQ+ individuals without fear of legal consequences.</p>
 
-<p>These proposed changes could have far-reaching consequences. They risk increasing inequality and discrimination against LGBTQ+ individuals, undermining the progress that has been made in recent years toward equality and justice. The recent Supreme Court immunity ruling could make it even harder to challenge these changes in court, reducing the ability of LGBTQ+ individuals to fight back against discrimination and protect their rights.</p>
+<p>Overall, Project 2025’s proposed changes pose a significant threat to the <strong>civil rights</strong> of LGBTQ+ individuals and could undermine <strong>core democratic principles</strong> such as equality and justice for all. If these changes are enacted, they would likely lead to increased social division and discrimination, leaving many LGBTQ+ people in vulnerable and hostile environments. This isn’t just about specific policies—it’s about the government legitimizing inequality and erasing protections that have been crucial to LGBTQ+ individuals’ ability to live openly and safely in society.</p>
 
-<p>In summary, Project 2025 poses significant threats to LGBTQ+ rights by potentially rolling back marriage equality, weakening anti-discrimination protections, and limiting LGBTQ+ education in schools. These changes could lead to greater inequality and discrimination, making it harder for LGBTQ+ individuals to live freely and safely in the United States.</p>
-
+        </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -205,28 +355,70 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const logoContainers = document.querySelectorAll(".logo-container");
-            logoContainers.forEach(function(logoContainer) {
-                const leftMask = logoContainer.querySelector(".mask.left");
-                const rightMask = logoContainer.querySelector(".mask.right");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
 
-                logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-100%)";
-                    rightMask.style.transform = "translateX(100%)";
-                });
+            // Simulate the back button action to clear the hash from the URL and go back in history
+            backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");
 
-                logoContainer.addEventListener("mouseout", function() {
-                    leftMask.style.transform = "translateX(0)";
-                    rightMask.style.transform = "translateX(0)";
-                });
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
+            });
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
             });
         });
     </script>

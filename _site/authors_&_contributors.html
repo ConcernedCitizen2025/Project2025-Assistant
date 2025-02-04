@@ -4,18 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authors and Contributors</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
+
     <style>
+        /* Styling for authors and contributors list */
         .authors-contributors-list li {
             line-height: 1.6; /* Adjust this value for more or less space */
-            margin-bottom: 10px; /* Optional: Add some margin at the bottom of each list item */
+            margin-bottom: 10px;
+        }
+
+        /* Responsive main content container */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        /* Basic styling for the body */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Logo container */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            width: 300px; /* Updated to match the other pages */
+            height: auto;
+        }
+
+        /* Navigation menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul.showing {
+            display: flex; /* Ensure it shows on toggle */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-buttons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: block;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .share-buttons {
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        /* Hide hamburger on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
         }
     </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
 
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
     <!-- Favicon and related icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
     <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -29,38 +183,63 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
 </head>
 <body>
     <header>
         <div style="text-align: center;">
             <a href="/">
                 <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
                     <div class="mask-container">
-                        <img class="mask left" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
-                        <img class="mask right" src="/assets/images/illuminating_logo.png" alt="Illuminating Logo">
+                        <img class="mask left" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
+                        <img class="mask right" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager">
                     </div>
                 </div>
             </a>
         </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/authors_&_contributors.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook" />
-                </a>
-                <a href="https://twitter.com/share?url=http://localhost:4000/authors_&_contributors.html&text=Authors and Contributors" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter" />
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/authors_&_contributors.html&title=Authors and Contributors" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn" />
-                </a>
-            </div>
         </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/authors_&_contributors.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('Authors and Contributors', 'http://localhost:4000/authors_&amp;_contributors.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/authors_&_contributors.html&text=Authors and Contributors" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/authors_&_contributors.html&title=Authors and Contributors" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
         <div id="google_translate_element"></div>
 
 <script>
@@ -76,9 +255,9 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    </header>
-    <main style="max-width: 800px; margin: auto; text-align: left;">
-        <h1 style="text-align: center;">Authors and Contributors</h1>
+    </div>
+
+    <main>
         <div class="authors-contributors-list">
             <h1 id="authors-and-contributors">Authors and Contributors</h1>
 
@@ -416,8 +595,14 @@ function googleTranslateElementInit() {
  <!-- This is where the content from the .md file will be injected -->
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -425,15 +610,60 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
-    <footer style="text-align: center;">
-        <p>© 2024 Project 2025 Assistant</p>
-        <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");

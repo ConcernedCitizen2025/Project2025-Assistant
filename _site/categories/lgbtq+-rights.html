@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LGBTQ+ Rights</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         /* General styles */
@@ -17,26 +22,35 @@
         }
 
         header {
-            background-color: #222;
+            background-color: #333;
             padding: 10px 0;
+            text-align: center;
         }
 
         .logo-container {
             margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .logo-container img {
+            width: 300px; /* Restored to the original size for desktop view */
+            height: auto;
         }
 
         nav ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
         }
 
         nav ul li {
-            display: inline;
             margin-right: 15px;
         }
 
         nav ul li a {
-            color: #fff !important; /* Ensuring the color remains white */
+            color: #fff !important;
             text-decoration: none;
             font-weight: bold;
             padding: 5px 10px;
@@ -44,7 +58,7 @@
         }
 
         nav ul li a:hover {
-            background-color: #444;
+            background-color: #333;
         }
 
         main {
@@ -59,9 +73,8 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #222;
+            background-color: #333;
             color: #fff;
-            /* Remove fixed positioning for the footer */
             position: relative;
             width: 100%;
         }
@@ -72,26 +85,115 @@
 
         /* Specific styles for the questions */
         .faq ul, .faq ol {
-            margin-left: 0; /* Align to the left */
-            padding-left: 0; /* Remove padding */
-            list-style-position: inside; /* List items inside the container */
-            text-align: left; /* Ensure text is left-aligned */
+            margin-left: 0;
+            padding-left: 0;
+            list-style-position: inside;
+            text-align: left;
         }
 
         .faq li {
-            margin-bottom: 20px; /* Add spacing between list items */
-            line-height: 1.8; /* Space between lines within each question */
+            margin-bottom: 20px;
+            line-height: 1.8;
         }
 
         .faq p {
-            margin-bottom: 20px; /* Add spacing between paragraphs */
-            line-height: 1.8; /* Space between lines within each paragraph */
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-buttons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            /*.logo-container img {
+                width: 200px; /* Properly sized for mobile view */
+                /*margin: 0 auto;
+            }*/
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .share-buttons {
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
         }
 
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
     <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -105,38 +207,60 @@
 
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
 </head>
 <body>
     <header>
-        <div style="text-align: center;">
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                    </div>
+                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
+                    <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager">
                 </div>
             </a>
         </div>
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/categories/lgbtq+-rights.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook" />
-                </a>
-                <a href="https://twitter.com/share?url=http://localhost:4000/categories/lgbtq+-rights.html&text=LGBTQ+ Rights" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter" />
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/categories/lgbtq+-rights.html&title=LGBTQ+ Rights" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn" />
-                </a>
-            </div>
         </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/categories/lgbtq+-rights.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('LGBTQ+ Rights', 'http://localhost:4000/categories/lgbtq+-rights.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/categories/lgbtq+-rights.html&text=LGBTQ+ Rights" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/categories/lgbtq+-rights.html&title=LGBTQ+ Rights" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
         <div id="google_translate_element"></div>
 
 <script>
@@ -152,7 +276,7 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    </header>
+    </div>
     <main>
         <div class="faq">
             <h1 id="lgbtq-rights">LGBTQ+ Rights</h1>
@@ -165,8 +289,8 @@ function googleTranslateElementInit() {
 
         </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -174,15 +298,73 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
+    
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Simulate the back button action to clear the hash from the URL and go back in history
+            backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");
+
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
+            });
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");

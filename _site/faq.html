@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demystifying Project 2025: Probing Questions</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         body {
@@ -15,9 +20,14 @@
         }
 
         header {
-            background-color: #222;
+            background-color: #333;
             padding: 10px 0;
             text-align: center;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 10px;
         }
 
         nav ul {
@@ -25,7 +35,7 @@
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: center; /* Centering the navigation links */
+            justify-content: center;
         }
 
         nav ul li {
@@ -35,33 +45,32 @@
         nav ul li a {
             color: #fff !important;
             text-decoration: none;
-            font-weight: normal; /* Set font weight to normal for consistency */
-            font-size: 16px; /* Ensure consistent font size */
+            font-weight: normal;
+            font-size: 16px;
             padding: 5px 10px;
             border-radius: 5px;
         }
 
         nav ul li a:hover {
-            background-color: #444;
+            background-color: #333;
         }
 
         main {
             background-color: #fff;
             margin: 20px auto;
             padding: 20px;
-            max-width: 700px; /* Setting a max-width to center the content */
+            max-width: 700px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Centering the heading */
+            text-align: center;
         }
 
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #222;
+            background-color: #333;
             color: #fff;
             position: relative;
-            bottom: 0;
             width: 100%;
         }
 
@@ -75,9 +84,9 @@
         ul {
             padding: 0;
             list-style: none;
-            max-width: 100%; /* Ensuring the list takes up the full width available */
-            margin: 0 auto; /* Centers the list */
-            text-align: left; /* Ensures text is aligned to the left */
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: left;
         }
 
         ul li {
@@ -94,10 +103,89 @@
             text-decoration: underline;
         }
 
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                padding: 15px;
+                max-width: 90%;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .share-buttons {
+                display: flex;
+                justify-content: center;
+            }
+
+            .share-buttons a {
+                margin: 0 5px;
+            }
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        /* Hide hamburger menu on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.png">
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
     <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -110,39 +198,61 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>    
+</script>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo-container">
             <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.png" alt="Project 2025 Assistant Logo">
-                    <div class="mask-container">
-                        <img class="mask left" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                        <img class="mask right" src="/assets/images/faq_logo.png" alt="FAQ Logo">
-                    </div>
+                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
+                    <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
                 </div>
             </a>
         </div>
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
         <nav>
-            <ul>
+            <ul id="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/toc.html">Table of Contents</a></li>
                 <li><a href="/about.html">About Us</a></li>
             </ul>
-            <div class="share-buttons">
-                <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/faq.html" target="_blank">
-                    <img src="/assets/images/share-icons/facebook.png" alt="Share on Facebook" />
-                </a>
-                <a href="https://twitter.com/share?url=http://localhost:4000/faq.html&text=Demystifying Project 2025: Probing Questions" target="_blank">
-                    <img src="/assets/images/share-icons/twitter.png" alt="Share on Twitter" />
-                </a>
-                <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/faq.html&title=Demystifying Project 2025: Probing Questions" target="_blank">
-                    <img src="/assets/images/share-icons/linkedin.png" alt="Share on LinkedIn" />
-                </a>
-            </div>
         </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/faq.html" 
+            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+            </a>
+            <a href="https://bsky.app" 
+            onclick="copyBlueskyShare('Demystifying Project 2025: Probing Questions', 'http://localhost:4000/faq.html');" 
+            target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+            </a>
+            <a href="https://twitter.com/share?url=http://localhost:4000/faq.html&text=Demystifying Project 2025: Probing Questions" 
+            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/faq.html&title=Demystifying Project 2025: Probing Questions" 
+            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+            target="_blank">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+            </a>
+        </div>
+    </header>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+    
+    <div class="translate-container">
         <div id="google_translate_element"></div>
 
 <script>
@@ -158,16 +268,19 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    </header>
+    </div>
     <main>
-        <h1 id="demystifying-project-2025-probing-questions">Demystifying Project 2025: Probing Questions</h1>
+        <div class="content-wrapper">
+            <h1 id="demystifying-project-2025-probing-questions">Demystifying Project 2025: Probing Questions</h1>
 
 <ul>
+  <li><a href="/categories/agriculture-farming.html">Agriculture-Farming</a></li>
   <li><a href="/categories/censorship.html">Censorship</a></li>
   <li><a href="/categories/child-welfare-and-family-support.html">Child Welfare and Family Support</a></li>
   <li><a href="/categories/civil-rights-and-liberties.html">Civil Rights and Liberties</a></li>
   <li><a href="/categories/corporate-regulation.html">Corporate Regulation</a></li>
   <li><a href="/categories/criminal-justice.html">Criminal Justice</a></li>
+  <li><a href="/categories/drugs-policy.html">Drugs Policy</a></li>
   <li><a href="/categories/economic-policy.html">Economic Policy</a></li>
   <li><a href="/categories/education.html">Education</a></li>
   <li><a href="/categories/energy-policy.html">Energy Policy</a></li>
@@ -182,10 +295,10 @@ function googleTranslateElementInit() {
   <li><a href="/categories/indigenous-peoples'-rights.html">Indigenous Peoples’ Rights</a></li>
   <li><a href="/categories/infrastructure-and-housing.html">Infrastructure and Housing</a></li>
   <li><a href="/categories/israel-palestine-conflict.html">Israel-Palestine Conflict</a></li>
+  <li><a href="/categories/jobs-employment.html">Jobs-Employment</a></li>
   <li><a href="/categories/judicial-system.html">Judicial System</a></li>
   <li><a href="/categories/labor-and-workers'-rights.html">Labor and Workers’ Rights</a></li>
   <li><a href="/categories/lgbtq+-rights.html">LGBTQ+ Rights</a></li>
-  <li><a href="/categories/marijuana-policy.html">Marijuana</a></li>
   <li><a href="/categories/national-security-and-military.html">National Security and Military</a></li>
   <li><a href="/categories/russia-ukraine-conflict.html">Russia-Ukraine Conflict</a></li>
   <li><a href="/categories/schedule-f.html">Schedule F</a></li>
@@ -198,9 +311,11 @@ function googleTranslateElementInit() {
   <li><a href="/categories/all-questions.html">All Questions</a></li>
 </ul>
 
+        </div>
     </main>
-        <!-- Include the cookie consent banner -->
-        <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
     <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
     <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
@@ -208,30 +323,69 @@ function googleTranslateElementInit() {
 </div>
 
 
-        <!-- Include the cookie consent script -->
-        <script src="/assets/js/cookie-consent-script.js"></script>
-    <footer>
-        <p>© 2024 Project 2025 Assistant</p>
-        <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173);">Privacy Policy</a></li>
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+         
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
     </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
-    
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('showing');
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
             logoContainers.forEach(function(logoContainer) {
                 const leftMask = logoContainer.querySelector(".mask.left");
                 const rightMask = logoContainer.querySelector(".mask.right");
-    
+
                 logoContainer.addEventListener("mouseover", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
                 });
-    
-                logoContainer.addEventListener("mousemove", function() {
-                    leftMask.style.transform = "translateX(-200%)";
-                    rightMask.style.transform = "translateX(200%)";
-                });
-    
+
                 logoContainer.addEventListener("mouseout", function() {
                     leftMask.style.transform = "translateX(0)";
                     rightMask.style.transform = "translateX(0)";
@@ -239,6 +393,5 @@ function googleTranslateElementInit() {
             });
         });
     </script>
-    
 </body>
 </html>

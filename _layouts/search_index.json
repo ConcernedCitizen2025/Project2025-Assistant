@@ -1,0 +1,5 @@
+---
+permalink: /assets/js/search_index.json
+layout: null
+---
+{% include search_index.json %}

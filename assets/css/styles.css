@@ -392,3 +392,59 @@ img {
     margin-top: 0px; /* Ensure there's no gap at the top of the content wrapper */
     padding-top: 0px; /* Remove any padding */
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+#search-bar {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-results {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#search-results div {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#search-results div:hover {
+    background: #f1f1f1;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #005bb5;
+}
+
+#search-results {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

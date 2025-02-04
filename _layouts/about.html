@@ -275,6 +275,13 @@
         <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
         <div class="gcse-search"></div>
     </div>
+    <!--<div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="search-results"></div>-->
+    
+    
 
     <div class="translate-container">
         {% include google_translate.html %}
@@ -324,6 +331,8 @@
     
      
     <script>
+        console.log('Search button clicked!');
+
         document.addEventListener("DOMContentLoaded", function() {
             const logoContainers = document.querySelectorAll(".logo-container");
             const backToTop = document.getElementById('backToTop');
@@ -358,5 +367,7 @@
             });
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
+    <script src="/assets/js/search.js" defer></script>  
 </body>
 </html>

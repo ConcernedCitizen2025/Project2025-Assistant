@@ -1,0 +1,15 @@
+---
+permalink: /assets/js/search_index.json
+layout: null
+---
+
+[
+  {% for page in site.pages %}
+  {
+    "id": "{{ forloop.index }}",
+    "title": "{{ page.title | escape }}",
+    "content": "{{ page.content | strip_html | strip_newlines | replace: '"', '\"' | json_escape }}",
+    "url": "{{ page.url | absolute_url }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

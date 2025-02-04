@@ -67,3 +67,6 @@ defaults:
 theme: minima  # You can customize or replace this later
 markdown: kramdown
 
+# Important Jekyll configuration
+include:
+  - _includes
