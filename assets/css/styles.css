@@ -555,3 +555,7 @@ img {
     cursor: pointer;
 }
   
+.stop-marker {
+    color: transparent; /* Makes text invisible */
+    user-select: none; /* Prevents users from selecting it */
+}
