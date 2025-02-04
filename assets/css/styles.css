@@ -448,3 +448,34 @@ img {
     padding: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Read Aloud Control Styles */
+#readAloudContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    background: #f9f9f9;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  .ra-button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  #speedControls {
+    margin-left: 20px;
+  }
+  .ra-button:hover {
+    background: #eee;
+  }
+  /* Buffer indicator styling */
+  #bufferIndicator {
+    font-size: 18px;
+    margin-left: 10px;
+}
+  
