@@ -1,4 +1,4 @@
-I"Ã;<!--# Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants
+I"õ;<!--# Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants
 
 ## *What immigration policies are proposed, and how might they affect both legal and undocumented immigrants?*-->
 
@@ -16,11 +16,11 @@
         <!-- Image Content -->
         <div id="expiring-image-container" style="flex: 1; text-align: center;">
         <a href="#" onclick="shareToFacebook(event)">
-            <img src="/assets/images/feb5_protest.jpg" alt="Illustration of a protest at a capitol building with text encouraging a nationwide protest on February 5th at noon in all 50 state capitals." style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);" />
+            <img src="/assets/images/feb5_protest.jpg" alt="Illustration of a protest at a capitol building with text encouraging a nationwide protest on February 5th at noon in all 50 state capitals." style="max-width: 150%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);" />
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
             Spread the word: 50 States, 50 Capitals, 50 Marches. <strong>February 5th at noon!</strong>
-            This image is shared from Harlowâ€™s Musings on Bluesky!
+            <strong>CLICK TO SHARE ON FACEBOOK!</strong><br />This image is shared from Harlowâ€™s Musings on Bluesky!
         </p>
     </div>
 </div>

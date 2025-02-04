@@ -288,10 +288,19 @@
     </div>
     
     <main>
-        <div class="content-wrapper">
-            {{ content }}
+        <!-- New Read Aloud button -->
+        <button id="readAloudButton" style="margin: 20px auto; display: block;">Read Aloud</button>
+        
+        <div class="content-wrapper" id="readableContent">
+            This is a test. If you hear this spoken aloud, then the button is working!
         </div>
+        
+        
+        <!--<div class="content-wrapper" id="readableContent">
+            {{ content }}
+        </div>-->
     </main>
+    
     
     <!-- Include the cookie consent banner -->
     {% include cookie-consent-banner.html %}
@@ -324,6 +333,7 @@
             </ul>
             <br><br>
         </div>
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
     </footer>
     
     
@@ -368,6 +378,25 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
-    <script src="/assets/js/search.js" defer></script>  
+    <script src="/assets/js/search.js" defer></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script> 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var readButton = document.getElementById('readAloudButton');
+        var contentDiv = document.getElementById('readableContent');
+
+        if (readButton && contentDiv) {
+            readButton.addEventListener('click', function() {
+            console.log('Read Aloud button clicked!');
+            alert('Button clicked'); // temporary for testing
+            var text = contentDiv.innerText;
+            responsiveVoice.speak(text, "UK English Female");
+            });
+        } else {
+            console.error('Could not find button or content element.');
+        }
+        });
+    </script>  
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>     
 </body>
 </html>

@@ -1,4 +1,4 @@
-I"û(<div style="display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
+I"-)<div style="display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
   <!-- Left Column (Text Content) -->
   <div style="flex: 2; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h1>Welcome to the <em>Project 2025 Assistant</em></h1>
@@ -56,7 +56,7 @@
             <img src="/assets/images/feb5_protest.jpg" alt="Drawing of a protest at a capitol building representing February 5th protests in all 50 states. The image reads: '50 states, 50 capitals, 50 marches. 2/5/25 12pm (noon). If you cannot get there, call out from work. If you cannot call out, wear something blue. Everybody needs to post individually about it. They can't suppress everyone flooding the system with the same message. One voice.'" style="max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);" />
         </a>
         <p style="font-size: 14px; color: #555; margin-top: 10px;">
-            Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
+            <strong>CLICK TO SHARE ON FACEBOOK!</strong><br />Image shared for informational purposes. Found on Harlow's Musings on Bluesky.
         </p>
       </div>
     </div>
