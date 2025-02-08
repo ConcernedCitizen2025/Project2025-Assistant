@@ -194,24 +194,28 @@
         <!-- Social Media Icons -->
         <div class="share-buttons">
             <a href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" 
-            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook">
             </a>
             <a href="https://bsky.app" 
-            onclick="copyBlueskyShare('{{ page.title | escape }}', '{{ page.url | absolute_url | escape }}');" 
-            target="_blank">
+               target="_blank" 
+               onclick="copyBlueskyShare('{{ page.title | escape }}', '{{ page.url | absolute_url | escape }}');" 
+               title="Share to Bluesky">
                 <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
             </a>
             <a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}" 
-            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter">
             </a>
             <a href="https://www.linkedin.com/shareArticle?url={{ page.url | absolute_url }}&title={{ page.title }}" 
-            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn">
             </a>
         </div>
     </header>
