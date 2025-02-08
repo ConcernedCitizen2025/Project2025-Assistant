@@ -362,37 +362,48 @@
         </nav>
 
         <!-- Social Media Icons -->
-        <div class="share-buttons">
+        <div class="share-buttons" style="display: flex; align-items: center; gap: 10px;">
+            <!-- Static Share Icon -->
+            <img src="/assets/images/share-icons/share.png" 
+                 alt="Share Icon" 
+                 title="Share" 
+                 style="width: 32px; height: 32px;">
+        
+            <!-- Social Media Buttons -->
             <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000/test.html" 
-            onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" >
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" style="width: 32px; height: 32px;">
             </a>
             <a href="https://bsky.app" 
-            onclick="copyBlueskyShare('Home', 'http://localhost:4000/test.html');" 
-            target="_blank">
-                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky">
+               target="_blank" 
+               onclick="copyBlueskyShare('Home', 'http://localhost:4000/test.html');" 
+               title="Share to Bluesky">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky" style="width: 32px; height: 32px;">
             </a>
             <a href="https://twitter.com/share?url=http://localhost:4000/test.html&text=Home" 
-            onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" >
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" style="width: 32px; height: 32px;">
             </a>
             <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/test.html&title=Home" 
-            onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
-            target="_blank">
-                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" >
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" style="width: 32px; height: 32px;">
             </a>
         </div>
     </header>
 
-    <div style="text-align: center; margin: 20px 0;">
-        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-        <div class="gcse-search"></div>
-    </div>
-
     <div class="translate-container">
-        <div id="google_translate_element"></div>
+        <div class = "search-container">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -407,7 +418,10 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-        <div id="readAloudContainer">
+        </div>  
+        
+        <div class="translate-container">
+            <div id="readAloudContainer">
     <!-- Start button (initially visible) -->
     <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
     
@@ -441,7 +455,11 @@ function googleTranslateElementInit() {
     </div>
   </div>
   
+        </div>   
     </div>
+
+    
+    
 
     <main>
         <!-- Content to Read -->

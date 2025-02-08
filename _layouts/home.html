@@ -398,16 +398,22 @@
         </div>
     </header>
 
-    
-
     <div class="translate-container">
-        {% include google_translate.html %}
-        {% include readAloudControls.html %}
+        <div class = "search-container">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+        <div class="translate-container">
+            {% include google_translate.html %}
+        </div>  
+        
+        <div class="translate-container">
+            {% include readAloudControls.html %}
+        </div>   
     </div>
-    <div style="text-align: center; margin: 20px 0;">
-        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-        <div class="gcse-search"></div>
-    </div>
+
+    
+    
 
     <main>
         <!-- Content to Read -->

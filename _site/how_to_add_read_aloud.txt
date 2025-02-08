@@ -29,3 +29,6 @@
 <!-- At the end of your body, include the scripts -->
 <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
 <script src="/assets/js/readAloud.js" defer></script>
+
+
+<span class="stop-marker">[STOP]</span>

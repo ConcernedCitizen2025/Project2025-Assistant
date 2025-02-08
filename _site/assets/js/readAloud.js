@@ -1,8 +1,11 @@
 // readAloud.js
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Force a consistent voice for all readings.
+    const VOICE = "UK English Female";
+
     // Global state variables
-    let paragraphs = [];  // We'll use "paragraphs" to mean our collection of text elements.
+    let paragraphs = [];  // This will be our collection of text-bearing elements.
     let paragraphWordCounts = [];
     let currentParagraphIndex = 0;
     let speechRate = 1.0; // Normal speed
@@ -14,30 +17,39 @@ document.addEventListener('DOMContentLoaded', function() {
     let bufferingStartTime = 0;
     const SECONDS_PER_WORD = 0.4; // Base time per word at rate 1.0
 
-    // --- NEW: Collect all text-bearing elements ---
-    // This selector grabs paragraphs (<p>), list items (<li>), and headings (<h1>-<h6>).
+    // --- Collect All Relevant Text Elements ---
+    // This selects paragraphs (<p>), list items (<li>), and headings (<h1>-<h6>) within #readableContent.
     let contentElements = Array.from(document.querySelectorAll(
       "#readableContent p, #readableContent li, #readableContent h1, #readableContent h2, #readableContent h3, #readableContent h4, #readableContent h5, #readableContent h6"
     ));
-
-    // Filter out the "Sources" section and any content that follows.
-    let sourcesIndex = contentElements.findIndex(el =>
-      el.textContent.trim().toLowerCase().startsWith("sources")
+    
+    // --- Force Stop Anchor or Default "Sources" Stop ---
+    // First, check for an element with the class "read-aloud-stop".
+    let forceStopIndex = contentElements.findIndex(el =>
+      el.classList.contains("read-aloud-stop")
     );
-    if (sourcesIndex !== -1) {
-      contentElements = contentElements.slice(0, sourcesIndex);
+    if (forceStopIndex !== -1) {
+      // If found, slice the array so that reading stops there.
+      contentElements = contentElements.slice(0, forceStopIndex);
+    } else {
+      // Otherwise, check for an element whose text begins with "sources" (default behavior).
+      let sourcesIndex = contentElements.findIndex(el =>
+          el.textContent.trim().toLowerCase().startsWith("sources")
+      );
+      if (sourcesIndex !== -1) {
+          contentElements = contentElements.slice(0, sourcesIndex);
+      }
     }
-    // Use the resulting array as our collection.
     paragraphs = contentElements;
 
-    // Pre-calculate word counts for each element and total words.
+    // Pre-calculate word counts for each element and the total word count.
     paragraphs.forEach(function(el) {
        let count = el.innerText.split(/\s+/).filter(word => word.trim() !== "").length;
        paragraphWordCounts.push(count);
        totalWords += count;
     });
 
-    // Grab UI elements
+    // Grab UI elements from the control panel.
     const startBtn = document.getElementById('startReadAloud');
     const controlsDiv = document.getElementById('readAloudControls');
     const playResumeBtn = document.getElementById('playResume');
@@ -55,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const timeRemainingLabel = document.getElementById('timeRemainingLabel');
     const closePanelBtn = document.getElementById('closePanel');
 
-    // Use requestAnimationFrame for progress updates.
+    // Use requestAnimationFrame for smoother progress updates.
     let progressAnimationFrame;
 
     // Update the reading progress bar and time remaining display.
@@ -67,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
           let currentEstimated = currentWords * SECONDS_PER_WORD / speechRate;
           currentFraction = Math.min(1, elapsedCurrent / currentEstimated);
       }
-      // Overall words read (including partial progress in current element)
+      // Calculate overall words read (including partial progress in the current element).
       let progressWords = wordsRead;
       if (currentParagraphIndex < paragraphs.length) {
           let currentWords = paragraphWordCounts[currentParagraphIndex];
@@ -76,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let progressPercent = (progressWords / totalWords) * 100;
       readingProgressElem.style.width = progressPercent + "%";
 
-      // Estimate remaining time based on remaining words
+      // Estimate remaining time based on the remaining words.
       let remainingTimeSec = 0;
       if (currentParagraphIndex < paragraphs.length) {
           let currentWords = paragraphWordCounts[currentParagraphIndex];
@@ -87,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
       for (let i = currentParagraphIndex + 1; i < paragraphs.length; i++) {
           remainingTimeSec += paragraphWordCounts[i] * SECONDS_PER_WORD / speechRate;
       }
-      // Format remaining time as mm:ss
+      // Format remaining time as mm:ss.
       let minutes = Math.floor(remainingTimeSec / 60);
       let seconds = Math.floor(remainingTimeSec % 60);
       timeRemainingLabel.textContent = "Time remaining: " +
@@ -95,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
          (seconds < 10 ? "0" + seconds : seconds);
     }
 
-    // Update a simulated buffering progress bar (over 2 seconds)
+    // Update a simulated buffering progress bar (over a 2-second period).
     function updateBufferProgress() {
       if (bufferIndicator.style.display !== "none") {
           let elapsedBuffer = (Date.now() - bufferingStartTime) / 1000;
@@ -106,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    // Main loop for progress updates using requestAnimationFrame
+    // Main loop for progress updates using requestAnimationFrame.
     function updateProgressLoop() {
       updateProgress();
       updateBufferProgress();
@@ -122,42 +134,56 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Function to read the current element using ResponsiveVoice.
+    // Now, it also checks for the in-text stop token "[STOP]".
     function readCurrentParagraph() {
       if (currentParagraphIndex < 0 || currentParagraphIndex >= paragraphs.length) {
         return;
       }
-      let text = paragraphs[currentParagraphIndex].innerText;
+      let fullText = paragraphs[currentParagraphIndex].innerText;
+      let stopFound = false;
+      let text;
+      if (fullText.includes("[STOP]")) {
+          // If the token is found, only speak the text before the token.
+          text = fullText.split("[STOP]")[0];
+          stopFound = true;
+      } else {
+          text = fullText;
+      }
       currentParagraphStartTime = Date.now();
-      // Begin buffering simulation
+      // Begin buffering simulation.
       bufferingStartTime = Date.now();
       bufferIndicator.style.display = "inline-block";
       bufferProgressElem.style.width = "0%";
       
-      responsiveVoice.speak(text, "UK English Female", {
+      responsiveVoice.speak(text, VOICE, {
         rate: speechRate,
         onstart: function() {
           bufferIndicator.style.display = "none";
           bufferProgressElem.style.width = "100%";
         },
         onend: function() {
-          // Update words read based on this element's word count.
-          let count = paragraphWordCounts[currentParagraphIndex];
+          // Update words read based on the spoken text.
+          let count = text.split(/\s+/).filter(word => word.trim() !== "").length;
           wordsRead += count;
-          if (!isPaused) {
+          if (!isPaused && !stopFound) {
             currentParagraphIndex++;
             if (currentParagraphIndex < paragraphs.length) {
               readCurrentParagraph();
             } else {
               stopProgressLoop();
             }
+          } else {
+            // If a stop token was found, then end reading.
+            stopProgressLoop();
           }
         }
       });
     }
 
-    // Event Listeners
+    // --- Event Listeners ---
 
-    // Start reading: hide start button, show control panel (and fix it), start reading and progress updates.
+    // Start reading: hide the start button, show the control panel (and fix it to the top),
+    // then start reading and progress updates.
     startBtn.addEventListener('click', function() {
       currentParagraphIndex = 0;
       wordsRead = 0;
@@ -169,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
       startProgressLoop();
     });
     
-    // Play/Resume
+    // Play/Resume button.
     playResumeBtn.addEventListener('click', function() {
       if (isPaused) {
         responsiveVoice.resume();
@@ -179,13 +205,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Pause
+    // Pause button.
     pauseBtn.addEventListener('click', function() {
       responsiveVoice.pause();
       isPaused = true;
     });
     
-    // Stop: if clicked twice within 2 seconds, reset to beginning.
+    // Stop button: if clicked twice within 2 seconds, reset to the beginning.
     stopBtn.addEventListener('click', function() {
       let now = Date.now();
       if (now - lastStopTime < 2000) {
@@ -197,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
       isPaused = false;
     });
     
-    // Next element
+    // Next element button.
     nextBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
       if (currentParagraphIndex < paragraphs.length - 1) {
@@ -207,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Previous element
+    // Previous element button.
     prevBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
       if (currentParagraphIndex > 0) {
@@ -217,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Speed controls
+    // Speed controls.
     slowBtn.addEventListener('click', function() {
       speechRate = Math.max(0.5, speechRate - 0.1);
       responsiveVoice.cancel();
@@ -234,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
       readCurrentParagraph();
     });
     
-    // Close Panel: Stop speech and reset the control panel to its initial state.
+    // Close Panel button: stop speech and reset the control panel to its initial state.
     closePanelBtn.addEventListener('click', function() {
       responsiveVoice.cancel();
       stopProgressLoop();
