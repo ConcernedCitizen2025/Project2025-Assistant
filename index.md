@@ -51,14 +51,14 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         style="width: 100%; height: 400px; border-radius: 8px;">
       </iframe>
     </div>-->
-    <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
-      <!-- Text Content -->
-      <!--<div style="flex: 3; padding-right: 20px;">
+    <!--<div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+      <-- Text Content 
+      <--<div style="flex: 3; padding-right: 20px;">
           <h1>Proposed Immigration Policies in Project 2025: Assessing the Impact on Legal and Undocumented Immigrants</h1>
           <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system...</p>
           <-- Include your text here --
-      </div>-->
-      <!-- Image Content -->
+      </div>->
+      <-- Image Content ->
       <div id="expiring-image-container" style="flex: 1; text-align: center;">
         <a href="#" onclick="shareToFacebook(event); return false;">
             <img 
@@ -90,7 +90,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
           const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}&picture=${encodeURIComponent('https://project2025assistant.org/assets/images/feb5_protest.jpg')}`;
           window.open(fbShareUrl, '_blank', 'width=600,height=400');
       }
-    </script>
+    </script>-->
     <div style="text-align: center;">
       <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
