@@ -19,8 +19,8 @@ description: "Explore how Project 2025's proposed immigration policies, includin
         <p>Project 2025 outlines a conservative approach to reforming the U.S. immigration system, with a focus on stricter enforcement, reducing legal immigration, and bolstering border security. These proposals aim to reshape the demographic makeup of the United States, prioritizing the interests of native-born citizens and limiting the rights and opportunities available to immigrants. This analysis explores the specific immigration policies proposed in Project 2025, their potential impact on both legal and undocumented immigrants, and the broader implications for American democracy.
         </p>
         <!-- Include your text here -->
-    </div>
-        <!-- Image Content -->
+    <!--</div>
+        <-- Image Content ->
         <div id="expiring-image-container" style="flex: 1; text-align: center;">
         <a href="#" onclick="shareToFacebook(event)">
             <img 
@@ -33,10 +33,10 @@ description: "Explore how Project 2025's proposed immigration policies, includin
             Spread the word: 50 States, 50 Capitals, 50 Marches. <strong>February 5th at noon!</strong>
             <strong>CLICK TO SHARE ON FACEBOOK!</STRONG><br>This image is shared from Harlow’s Musings on Bluesky!
         </p>
-    </div>
+    </div>-->
 </div>
 
-<script>
+<!--<script>
     // Set the expiration date (YYYY-MM-DD format)
     const expirationDate = new Date("2025-02-05T23:59:59");
 
@@ -57,9 +57,9 @@ description: "Explore how Project 2025's proposed immigration policies, includin
         const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://project2025assistant.org/questions/006-immigration-policies-impact.html')}&quote=${encodeURIComponent('This image is shared from Harlow’s Musings on Bluesky.')}`;
         window.open(fbShareUrl, '_blank', 'width=600,height=400');
     }
-</script>
+</script>-->
 
-<!--**Introduction**
+**Introduction**
 
 Project 2025 outlines a conservative approach to reforming the U.S. immigration system, with a focus on stricter enforcement, reducing legal immigration, and bolstering border security. These proposals aim to reshape the demographic makeup of the United States, prioritizing the interests of native-born citizens and limiting the rights and opportunities available to immigrants. This analysis explores the specific immigration policies proposed in Project 2025, their potential impact on both legal and undocumented immigrants, and the broader implications for American democracy.-->
 
