@@ -227,6 +227,7 @@
             </a>
         </div>
     </header>
+    
     <!-- Back to Top Button -->
     <div class="back-to-top" id="backToTop">
         <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
@@ -236,16 +237,23 @@
         <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
         <div class="gcse-search"></div>
     </div>
+    <!--<div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="search-results"></div>-->
+    
+    
 
     <div class="translate-container">
         {% include google_translate.html %}
         {% include readAloudControls.html %}
     </div>
-
+    
     <main>
         <!-- Content to Read -->
         <div class="content-wrapper" id="readableContent">
-            {{ content }}
+          {{ content }}
         </div>
     </main>
 
