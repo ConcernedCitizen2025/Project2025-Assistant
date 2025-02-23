@@ -15,7 +15,7 @@ The January 2025 aviation data reveals a troubling rise in fatalities and seriou
 
 ## Download the Full Report
 
-📥 [Download the Full Report (PDF)](/assets/reports/Aviation_Safety_Analysis_Report.pdf)
+📥 [Download the Full Report (PDF)](/assets/reports/Aviation_Safety_Analysis_Report_2025.pdf)
 
 ## Key Findings
 
