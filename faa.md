@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: stay_current
 title: "FAA Cuts & Aviation Safety Crisis"
 description: "An analysis of how Musk and Trump's administration has weakened the FAA, leading to a surge in aviation fatalities. View the full report and slideshow here."
 keywords: "FAA cuts, aviation safety, Trump administration, Musk policies, aviation fatalities, airline safety, air travel risks"
