@@ -1,18 +1,42 @@
 ---
 layout: stay_current
-title: "Protests (Come up with a better title)"
-description: "Create a description"
-keywords: "incorporate keywords"
+title: "Find a Protest Near You - 50 50 01"
+description: "Find and join a 50 50 01 protest in California or across the U.S."
+keywords: "protest, 50 50 01, political activism, Bakersfield, California protests, national protests"
 ---
 
-## Protest Map
-
 <div style="text-align: center;">
-    <h2>Find a Protest Near You</h2>
-    <p>Click below to view the live protest map for 50 50 01 protests.</p>
-    <a href="https://events.pol-rev.com" target="_blank">
-        <img src="/assets/images/protest-map-preview.jpg" alt="Protest Map" style="max-width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <br><br>
-    <a href="https://events.pol-rev.com" target="_blank" class="cta-button">View Full Protest Map</a>
+    <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto; margin-bottom: 20px;">
+    <h1>Find a 50 50 01 Protest Near You</h1>
+    <p>50 states, 50 capitals, 1 movement. Stand up and make your voice heard.</p>
 </div>
+
+---
+
+## 📍 **California Protests**  
+If you're in California, click on your city below to view your local protest flyer.
+
+- **[Bakersfield](/assets/images/protests/Bakersfield.png)**
+- **[Irvine](/assets/images/protests/Irvine.png)**
+- **[Riverside](/assets/images/protests/Riverside.png)**
+- **[Sacramento](/assets/images/protests/Sacramento.png)**
+- **[San Francisco](/assets/images/protests/San_Francisco.png)**
+- **[Santa Cruz](/assets/images/protests/Santa_Cruz.png)**
+
+---
+
+## **🗺 Interactive California Protest Map**
+Click on a city to view its protest flyer.
+
+<div id="california-map" style="width: 100%; height: 500px;"></div>
+
+<script src="/assets/js/california-protest-map.js"></script>
+
+---
+
+## 🌎 **Find a Protest in Other States**
+If you're not in California, check the **official national protest map** to find your nearest event.
+
+<p style="text-align: center;">
+    <a href="https://events.pol-rev.com" target="_blank" class="cta-button">View National Protest Map</a>
+</p>
