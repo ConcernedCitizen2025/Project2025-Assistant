@@ -37,6 +37,7 @@ If you're in California, click on your city below to view your local protest fly
 </div>
 
 
+
 ---
 
 ## 🌎 **Find a Protest in Other States**
