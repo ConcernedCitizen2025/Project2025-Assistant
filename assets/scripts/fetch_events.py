@@ -1,63 +1,49 @@
-import requests
 from bs4 import BeautifulSoup
 import json
 import os
 
-# 🌐 Public Event Listing URL
-EVENTS_URL = "https://events.pol-rev.com/events"
+# 🔍 Paths
+ATOM_FILE_PATH = os.path.join(os.path.dirname(__file__), "../data/Political Revolution.atom")
+JSON_FILE_PATH = os.path.join(os.path.dirname(__file__), "../data/events.json")
 
-# 📂 Path to store events.json
-EVENTS_JSON_PATH = os.path.join(os.path.dirname(__file__), "../data/events.json")
-
-def scrape_events():
-    """Scrape event details from the Political Revolution events page."""
+def parse_atom_feed():
+    """Extract event data from the Atom feed and save it as a JSON file."""
     try:
-        print("📡 Fetching live event data from Political Revolution...")
+        print("📡 Reading Atom feed...")
 
-        # 🌍 Request event page
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-        response = requests.get(EVENTS_URL, headers=headers)
-        response.raise_for_status()  # 🔍 Raise error for failed requests
+        # Open and read the Atom file
+        with open(ATOM_FILE_PATH, "r", encoding="utf-8") as f:
+            atom_content = f.read()
 
-        # 🏗️ Parse HTML
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # 🔎 Find event listings (modify this selector if needed)
-        event_elements = soup.find_all("div", class_="event-card")
+        # Parse the Atom XML
+        soup = BeautifulSoup(atom_content, "xml")
+        entries = soup.find_all("entry")
 
         events = []
-        for event in event_elements:
-            title = event.find("h3").text.strip() if event.find("h3") else "Untitled Event"
-            link = event.find("a", href=True)["href"] if event.find("a", href=True) else "#"
-            date = event.find("time").text.strip() if event.find("time") else "Unknown Date"
+        for entry in entries:
+            title = entry.find("title").get_text(strip=True) if entry.find("title") else "No Title"
+            date = entry.find("updated").get_text(strip=True) if entry.find("updated") else "No Date"
+            link = entry.find("link")["href"] if entry.find("link") else "#"
+            summary = entry.find("summary").get_text(strip=True) if entry.find("summary") else "No Description"
 
             events.append({
                 "title": title,
                 "date": date,
-                "link": f"https://events.pol-rev.com{link}" if link.startswith("/") else link
+                "link": link,
+                "summary": summary
             })
 
         if events:
-            # 📝 Save to JSON file
-            with open(EVENTS_JSON_PATH, "w", encoding="utf-8") as f:
+            # Save to JSON file
+            with open(JSON_FILE_PATH, "w", encoding="utf-8") as f:
                 json.dump(events, f, indent=4)
 
-            print(f"✅ Successfully updated {EVENTS_JSON_PATH} with {len(events)} events.")
+            print(f"✅ Successfully extracted {len(events)} events from Atom feed.")
         else:
-            print("⚠️ No events found on the page.")
+            print("⚠️ No events found in the Atom feed.")
 
-    except requests.exceptions.HTTPError as http_err:
-        print(f"❌ HTTP Error: {http_err}")
-    except requests.exceptions.ConnectionError:
-        print("❌ Network error: Unable to connect to the event server.")
-    except requests.exceptions.Timeout:
-        print("❌ Request timed out.")
-    except requests.exceptions.RequestException as err:
-        print(f"❌ Error fetching events: {err}")
     except Exception as e:
-        print(f"❌ Unexpected error: {e}")
+        print(f"❌ Error parsing Atom feed: {e}")
 
 if __name__ == "__main__":
-    scrape_events()
+    parse_atom_feed()
