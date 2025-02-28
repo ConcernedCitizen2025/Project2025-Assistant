@@ -25,12 +25,17 @@ If you're in California, click on your city below to view your local protest fly
 
 ---
 
-## **🗺 Interactive California Protest Map**
-Click on a city to view its protest flyer.
+<h2>California Protest Map</h2>
+<p>Below is a map of upcoming protests in California. For other states, visit the full event listing: 
+   <a href="https://events.pol-rev.com/tag/50501%203%2F4" target="_blank">View all protests</a>.</p>
 
 <div id="california-map" style="width: 100%; height: 500px;"></div>
 
-<script src="/assets/js/california-protest-map.js"></script>
+<h3>Upcoming California Protests</h3>
+<div id="event-list">
+    <p>Loading events...</p>
+</div>
+
 
 ---
 
