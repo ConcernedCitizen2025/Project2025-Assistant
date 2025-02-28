@@ -2,6 +2,14 @@
 layout: table_of_contents
 title: "Table of Contents"
 ---
+<div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
+    <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS ARE HAPPENING MARCH 1-4! 🚨</h2>
+    <p style="font-size: 1.2em;">50 states. 50 capitals. One movement. Find a protest near you and take action!</p>
+    <a href="https://project2025assistant.org/protests" 
+       style="display: inline-block; background-color: white; color: #ff4d4d; font-weight: bold; padding: 10px 20px; font-size: 1.2em; border-radius: 5px; text-decoration: none; margin-top: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+       📍 FIND YOUR PROTEST NOW
+    </a>
+</div>
 
 <center><a href="/project2025_analyzing_the_threat.html" style="font-size: 2em; font-weight: bold;">Project 2025: <em><strong>Analyzing the Threat</strong></em></a></center>
 In this section, I've organized the analysis of Project 2025 according to the subsections outlined in the document's table of contents. Each subsection includes two helpful logos: one in the upper left labeled "Red Flags in the Reforms" and one in the upper right labeled "In a Nutshell." These logos serve as shortcuts to their respective sections, allowing you to quickly access specific content without having to scroll through the entire analysis. The "Red Flags" section features direct quotes from the original document, while the "In a Nutshell" section provides a concise summary of the analysis. I encourage you to explore the full analysis if you have the time, but the shortcuts can be a useful tool for a quicker review.
