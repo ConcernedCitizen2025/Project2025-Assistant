@@ -1,49 +1,76 @@
 from bs4 import BeautifulSoup
+from geopy.geocoders import Nominatim
 import json
 import os
+import time
 
-# 🔍 Paths
-ATOM_FILE_PATH = os.path.join(os.path.dirname(__file__), "../data/Political Revolution.atom")
-JSON_FILE_PATH = os.path.join(os.path.dirname(__file__), "../data/events.json")
+# 🗂 File paths
+ATOM_FEED_PATH = os.path.join(os.path.dirname(__file__), "../data/Political Revolution.atom")
+EVENTS_JSON_PATH = os.path.join(os.path.dirname(__file__), "../data/events.json")
 
-def parse_atom_feed():
-    """Extract event data from the Atom feed and save it as a JSON file."""
+# 🌎 Initialize geolocator for address lookup
+geolocator = Nominatim(user_agent="protest_event_locator")
+
+def get_coordinates(location_name):
+    """Convert location names into latitude & longitude coordinates."""
     try:
-        print("📡 Reading Atom feed...")
+        location = geolocator.geocode(location_name)
+        if location:
+            return [location.latitude, location.longitude]
+        else:
+            print(f"⚠️ Warning: Could not find coordinates for {location_name}")
+            return None
+    except Exception as e:
+        print(f"❌ Geolocation error for {location_name}: {e}")
+        return None
 
-        # Open and read the Atom file
-        with open(ATOM_FILE_PATH, "r", encoding="utf-8") as f:
-            atom_content = f.read()
+def process_atom_feed():
+    """Extract protest events from the Atom feed and save to JSON."""
+    try:
+        print("📡 Processing Atom feed...")
 
-        # Parse the Atom XML
-        soup = BeautifulSoup(atom_content, "xml")
-        entries = soup.find_all("entry")
+        with open(ATOM_FEED_PATH, "r", encoding="utf-8") as file:
+            soup = BeautifulSoup(file.read(), "xml")
 
         events = []
-        for entry in entries:
-            title = entry.find("title").get_text(strip=True) if entry.find("title") else "No Title"
-            date = entry.find("updated").get_text(strip=True) if entry.find("updated") else "No Date"
-            link = entry.find("link")["href"] if entry.find("link") else "#"
-            summary = entry.find("summary").get_text(strip=True) if entry.find("summary") else "No Description"
 
-            events.append({
+        for entry in soup.find_all("entry"):
+            title = entry.find("title").text if entry.find("title") else "No Title"
+            link = entry.find("link")["href"] if entry.find("link") else "#"
+            summary = entry.find("summary").text if entry.find("summary") else "No Description"
+            date = entry.find("updated").text if entry.find("updated") else "Unknown Date"
+
+            # Extract possible **location** from the title or summary
+            location = "Unknown"
+            possible_locations = title.split() + summary.split()
+            for word in possible_locations:
+                if "," in word:  # Looks for "City, State" format
+                    location = word.strip()
+                    break
+
+            # 🌍 Get coordinates for the location
+            coords = get_coordinates(location) if location != "Unknown" else None
+
+            event_data = {
                 "title": title,
                 "date": date,
                 "link": link,
-                "summary": summary
-            })
+                "summary": summary,
+                "location": location,
+                "coords": coords
+            }
 
-        if events:
-            # Save to JSON file
-            with open(JSON_FILE_PATH, "w", encoding="utf-8") as f:
-                json.dump(events, f, indent=4)
+            events.append(event_data)
+            time.sleep(1)  # 🔄 Prevents overloading the geolocation API
 
-            print(f"✅ Successfully extracted {len(events)} events from Atom feed.")
-        else:
-            print("⚠️ No events found in the Atom feed.")
+        # 📝 Save to JSON
+        with open(EVENTS_JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(events, f, indent=4)
 
-    except Exception as e:
-        print(f"❌ Error parsing Atom feed: {e}")
+        print(f"✅ Successfully updated {EVENTS_JSON_PATH} with {len(events)} events.")
+
+    except Exception as err:
+        print(f"❌ Error processing Atom feed: {err}")
 
 if __name__ == "__main__":
-    parse_atom_feed()
+    process_atom_feed()
