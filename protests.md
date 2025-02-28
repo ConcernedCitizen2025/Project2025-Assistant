@@ -44,6 +44,6 @@ If you're in California, click on your city below to view your local protest fly
 If you're not in California, check the **official national protest map** to find your nearest event.
 
 <p style="text-align: center;">
-    <a href="https://events.pol-rev.com" target="_blank" class="cta-button">View National Protest Map</a>
+    <a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.78261246992505,+-128.1884765625:27.568572634966767,+-100.23925781249999&zoom=5&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank" class="cta-button">View National Protest Map</a>
 </p>
 <script src="/assets/js/california-protest-map.js"></script>
