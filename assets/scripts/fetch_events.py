@@ -1,45 +1,43 @@
 import requests
-from icalendar import Calendar
+from bs4 import BeautifulSoup
 import json
 import os
 
-# 🔗 ICS Calendar URL (Replace with a working public ICS feed if needed)
-ICS_FILE_PATH = os.path.join(os.path.dirname(__file__), "../data/events.ics")
+# 🌐 Public Event Listing URL
+EVENTS_URL = "https://events.pol-rev.com/events"
 
-
-# 🛠 Headers to mimic a browser request (helps bypass bot blocks)
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": "https://events.pol-rev.com"
-}
-
-# 📂 Path to store events.json (Modify if needed)
+# 📂 Path to store events.json
 EVENTS_JSON_PATH = os.path.join(os.path.dirname(__file__), "../data/events.json")
 
-
-def fetch_events():
-    """Fetch event data from the ICS link and save to JSON."""
+def scrape_events():
+    """Scrape event details from the Political Revolution events page."""
     try:
-        print("📡 Fetching new event data...")
+        print("📡 Fetching live event data from Political Revolution...")
 
-        # 🌐 Attempt to download ICS file
-        response = with open(ICS_FILE_PATH, "rb") as f:
-        cal = Calendar.from_ical(f.read())
-        response.raise_for_status()  # 🔍 Raises error for HTTP 403, 404, etc.
+        # 🌍 Request event page
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = requests.get(EVENTS_URL, headers=headers)
+        response.raise_for_status()  # 🔍 Raise error for failed requests
 
-        # 📆 Parse ICS file
-        cal = Calendar.from_ical(response.content)
+        # 🏗️ Parse HTML
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # 🔎 Find event listings (modify this selector if needed)
+        event_elements = soup.find_all("div", class_="event-card")
+
         events = []
+        for event in event_elements:
+            title = event.find("h3").text.strip() if event.find("h3") else "Untitled Event"
+            link = event.find("a", href=True)["href"] if event.find("a", href=True) else "#"
+            date = event.find("time").text.strip() if event.find("time") else "Unknown Date"
 
-        for component in cal.walk():
-            if component.name == "VEVENT":
-                event = {
-                    "summary": str(component.get("summary")),
-                    "start": str(component.get("dtstart").dt),
-                    "location": str(component.get("location")) if component.get("location") else "N/A",
-                    "description": str(component.get("description")) if component.get("description") else "No description available"
-                }
-                events.append(event)
+            events.append({
+                "title": title,
+                "date": date,
+                "link": f"https://events.pol-rev.com{link}" if link.startswith("/") else link
+            })
 
         if events:
             # 📝 Save to JSON file
@@ -48,19 +46,18 @@ def fetch_events():
 
             print(f"✅ Successfully updated {EVENTS_JSON_PATH} with {len(events)} events.")
         else:
-            print("⚠️ No events found in the ICS file.")
+            print("⚠️ No events found on the page.")
 
     except requests.exceptions.HTTPError as http_err:
         print(f"❌ HTTP Error: {http_err}")
     except requests.exceptions.ConnectionError:
-        print("❌ Network error: Unable to connect to the ICS server.")
+        print("❌ Network error: Unable to connect to the event server.")
     except requests.exceptions.Timeout:
         print("❌ Request timed out.")
     except requests.exceptions.RequestException as err:
-        print(f"❌ Error fetching ICS: {err}")
+        print(f"❌ Error fetching events: {err}")
     except Exception as e:
         print(f"❌ Unexpected error: {e}")
 
-
 if __name__ == "__main__":
-    fetch_events()
+    scrape_events()
