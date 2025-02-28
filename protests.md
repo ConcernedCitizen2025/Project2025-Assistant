@@ -7,11 +7,11 @@ keywords: "protest, 50 50 01, political activism, Bakersfield, California protes
 
 <div style="text-align: center;">
     <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto; margin-bottom: 20px;">
-    <h1>Find a 50 50 01 Protest Near You</h1>
+    <h1>Find a 50 50 1 Protest Near You</h1>
     <p>50 states, 50 capitals, 1 movement. Stand up and make your voice heard.</p>
 </div>
 
----
+<!-----
 
 ## 📍 **California Protests**  
 If you're in California, click on your city below to view your local protest flyer.
@@ -22,10 +22,10 @@ If you're in California, click on your city below to view your local protest fly
 - **[Sacramento](/assets/images/protests/Sacramento.png)**
 - **[San Francisco](/assets/images/protests/San_Francisco.png)**
 - **[Santa Cruz](/assets/images/protests/Santa_Cruz.png)**
-
+-->
 ---
 
-<h2>California Protest Map</h2>
+<h2>📍 California Protest Map</h2>
 <p>Below is a map of upcoming protests in California. For other states, visit the full event listing: 
    <a href="https://events.pol-rev.com/tag/50501%203%2F4" target="_blank">View all protests</a>.</p>
 
