@@ -45,3 +45,4 @@ If you're not in California, check the **official national protest map** to find
 <p style="text-align: center;">
     <a href="https://events.pol-rev.com" target="_blank" class="cta-button">View National Protest Map</a>
 </p>
+<script src="/assets/js/california-protest-map.js"></script>
