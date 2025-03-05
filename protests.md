@@ -78,4 +78,6 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 ---
 
-**This page is regularly updated. Be sure to check back for the latest protest and boycott events!**
+<p><strong>Note:</strong> This map was last updated on <strong>March 5, 2025</strong>. If you are viewing it after that date, please check for the latest updates here:  
+   <a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map</a>.
+</p>
