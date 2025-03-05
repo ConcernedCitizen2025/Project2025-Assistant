@@ -135,6 +135,15 @@
         }
     </style>
     <script src="/assets/js/share-bluesky-script.js" defer></script>
+
+    <!-- Load Leaflet CSS First -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+
+    <!-- Load Leaflet JS before using it -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+    <!-- Your custom protest map script -->
+    <script defer src="/assets/js/california-protest-map.js"></script>
 </head>
 <body>
     <header>
@@ -281,14 +290,13 @@
             });
         });
     </script>
-    <!-- Load Leaflet before your script -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    
     <script src="/assets/js/california-protest-map.js"></script>
 
-    <!-- Leaflet CSS -->
+    <!-- Leaflet CSS --
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
 
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <-- Leaflet JS --
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>-->
 </body>
 </html>
