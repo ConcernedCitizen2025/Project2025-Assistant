@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }).addTo(map);
 
     // Define protest locations manually
-    const protestLocations = [
+    /*const protestLocations = [
         { city: "Bakersfield", coords: [35.3733, -119.0187], flyer: "/assets/images/protests/Bakersfield.png", date: "Mar 4" },
         { city: "Eureka", coords: [40.8021, -124.1637], link: "https://events.pol-rev.com/events/100dc7ad-a71c-4a17-b9c6-0487c8d1dc90", date: "Mar 4" },
         { city: "Irvine", coords: [33.6846, -117.8265], 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { city: "San Francisco", coords: [37.7749, -122.4194], link: "https://events.pol-rev.com/events/99d1bc6f-26f1-46c4-980c-922f51028e78", date: "Mar 4" },
         { city: "Santa Cruz", coords: [36.9741, -122.0308], link: "https://events.pol-rev.com/events/5c705629-7a79-4f56-8d88-c05ed1d2e2bc", date: "Mar 4" },
         { city: "Truckee", coords: [39.3279, -120.1833], link: "https://events.pol-rev.com/events/61669262-1c3b-4e3d-8033-2e34e71727e7", date: "Mar 1" }
-    ];
+    ];*/
 
     // Add markers to the map
     protestLocations.forEach(location => {
