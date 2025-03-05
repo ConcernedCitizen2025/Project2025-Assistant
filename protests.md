@@ -42,7 +42,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
     <p>Loading events...</p>
 </div>
 
-<script src="/assets/js/protest-map.js"></script>
+<script src="/assets/js/california-protest-map.js"></script>
 
 ---
 
