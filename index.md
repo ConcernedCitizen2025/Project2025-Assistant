@@ -5,13 +5,14 @@ description: "Dive deep into the analysis of Project 2025, a political document 
 keywords: "Project 2025, analysis, threats to democracy, constitutional rights, freedom, upcoming election, political risks, U.S. Constitution, government reform"
 ---
 <div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
-    <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS ARE HAPPENING MARCH 1-4! 🚨</h2>
-    <p style="font-size: 1.2em;">50 states. 50 capitals. One movement. Find a protest near you and take action!</p>
+    <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS & BOYCOTTS ARE HAPPENING NOW! 🚨</h2>
+    <p style="font-size: 1.2em;">March 6-27: Protests and rallies are happening nationwide. Find an event near you and take action!</p>
     <a href="https://project2025assistant.org/protests" 
        style="display: inline-block; background-color: white; color: #ff4d4d; font-weight: bold; padding: 10px 20px; font-size: 1.2em; border-radius: 5px; text-decoration: none; margin-top: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
        📍 FIND YOUR PROTEST NOW
     </a>
 </div>
+
 
 <div style="display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
   <!-- Left Column (Text Content) -->
