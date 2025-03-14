@@ -811,7 +811,13 @@ document.addEventListener("DOMContentLoaded", function() {
             date: "2025-04-19"
         },
         { city: "Washington, DC", coords: [38.9072, -77.0369], link: "https://nowmarch.org/", date: "2025-03-14" },
-        { city: "Bakersfield, CA", coords: [35.3733, -119.0187], link: "https://events.pol-rev.com/events/bakersfield-va-protest", date: "2025-03-14" },
+        { 
+            city: "Bakersfield, CA", 
+            coords: [35.3733, -119.0187], 
+            link: "https://www.bakersfield.com/news/local-veteran-to-lead-protest-against-va-cuts/article_10c9353e-ff7b-11ef-bef0-bbeb6658fdca.html", 
+            date: "2025-03-14", 
+            forceInclude: true 
+        } 
     ];
 
     // Filter out past events
