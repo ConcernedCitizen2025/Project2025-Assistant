@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get today's date for filtering
     const today = new Date().toISOString().split("T")[0];
 
-    // Protest locations
+    // Protest locations (Paste the data here)
     const protestLocations = [
         
         { city: "Irvine, CA", coords: [33.6846, -117.8265], link: "https://events.pol-rev.com/events/b9d30c6b-9649-4b92-9a86-d4af6d6c15c3", date: "2025-03-09" },
@@ -826,31 +826,6 @@ document.addEventListener("DOMContentLoaded", function() {
         } 
     ];
 
-    // Filter out past events
-    const upcomingProtests = protestLocations.filter(location => {
-        // Ensure valid date format (YYYY-MM-DD)
-        return /^\d{4}-\d{2}-\d{2}$/.test(location.date) && location.date >= today;
-    });
-
-    // Add markers to the map
-    upcomingProtests.forEach(location => {
-        let popupContent = `<strong>${location.city}</strong><br>Date: ${location.date}<br><a href="${location.link}" target="_blank">View Event</a>`;
-
-        L.marker(location.coords)
-            .addTo(map)
-            .bindPopup(popupContent);
-    });
-
-    // List the events below the map
-    /*let eventListHtml = "<ul>";
-    upcomingProtests.forEach(location => {
-        eventListHtml += `<li><a href="${location.link}" target="_blank">${location.city} - ${location.date}</a></li>`;
-    });
-    eventListHtml += "</ul>";
-
-    document.getElementById("event-list").innerHTML = eventListHtml;
-});*/
-
     // Function to extract state from city
     function getState(city) {
         const stateAbbreviations = {
@@ -886,11 +861,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Get today's date
-    const today = new Date().toISOString().split("T")[0];
-
     // Filter out past protests and sort remaining ones
-    let upcomingProtests = protestLocations.filter(location => location.date >= today);
+    let upcomingProtests = protestLocations.filter(location => {
+        return /^\d{4}-\d{2}-\d{2}$/.test(location.date) && location.date >= today;
+    });
+
     upcomingProtests = sortProtests(upcomingProtests);
 
     // Generate the sorted event list
@@ -908,17 +883,17 @@ document.addEventListener("DOMContentLoaded", function() {
         L.marker(location.coords)
             .addTo(map)
             .bindPopup(popupContent);
+        
+        eventListHtml += `<li><a href="${location.link}" target="_blank">${location.city} - ${location.date}</a></li>`;
     });
+
     eventListHtml += "</ul>";
 
-    document.getElementById("event-list").innerHTML = eventListHtml;
-
+    // Ensure event list container exists before updating it
     const eventListElement = document.getElementById("event-list");
-        if (eventListElement) {
-            eventListElement.innerHTML = eventListHtml;
-        } else {
-            console.error("Event list container not found!");
-        }
+    if (eventListElement) {
+        eventListElement.innerHTML = eventListHtml;
+    } else {
+        console.error("Event list container not found!");
     }
-
-);
+});
