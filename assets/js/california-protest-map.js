@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function() {
         { city: "Bakersfield, CA", coords: [35.3733, -119.0187], link: "https://www.mobilize.us/mobilize/event/761008/", date: "2025-03-23" },
         { city: "Los Angeles, CA", coords: [34.0522, -118.2437], link: "https://www.mobilize.us/mobilize/event/443382/", date: "Sundays" },
         { city: "Washington, DC", coords: [38.9072, -77.0369], link: "https://nowmarch.org/", date: "2025-03-14" },
-        { city: "Bakersfield, CA", coords: [35.3733, -119.0187], link: "https://votevets.org/", date: "2025-03-14" },
         {
             city: "Sacramento, CA",
             coords: [38.5766, -121.4930],
