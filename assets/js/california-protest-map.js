@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Initialize the map, focused on the U.S.
-    if (typeof window.map !== "undefined") {
-        console.warn("Map already initialized, skipping...");
-    } else {
+    if (!window.map) {
         window.map = L.map(mapContainer).setView([39.8283, -98.5795], 4);
+    } else {
+        console.warn("Map already initialized, skipping...");
     }
 
     // Load map tiles
@@ -848,15 +848,17 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (!city.includes(", ")) {
             console.warn(`Invalid city format: ${city}`);
-            return ""; // Return empty string if format is incorrect
+            return ""; // Return empty to prevent errors
         }
-        let stateCode = city.split(", ")[1]; // Extract state abbreviation
-        if (!stateAbbreviations[stateCode]) {
-            console.warn(`Unknown state code: ${stateCode}`);
-            return stateCode || ""; // Return code or empty if missing
+    
+        let stateCode = city.split(", ")[1]?.trim(); // Extract and trim state code
+    
+        if (!stateCode || !stateAbbreviations[stateCode]) {
+            console.warn(`Unknown state code: ${stateCode} in city: ${city}`);
+            return "";
         }
-
-    return stateAbbreviations[stateCode]; // Return full state name
+    
+        return stateAbbreviations[stateCode];
     }
 
     // Function to sort protests by state, city, then date
@@ -875,6 +877,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Filter out past protests and sort remaining ones
+    protestLocations.forEach(location => {
+        if (!location.city.includes(", ")) {
+            console.warn(`Skipping malformed city entry: ${location.city}`);
+        }
+    });
+    
     let upcomingProtests = protestLocations.filter(location => {
         return /^\d{4}-\d{2}-\d{2}$/.test(location.date) && location.date >= today;
     });
