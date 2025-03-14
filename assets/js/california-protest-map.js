@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const mapContainer = document.getElementById("california-map");
 
-    if (!mapContainer) return;
+    if (!mapContainer) {
+        console.error("Map container not found!");
+        return;
+    }
 
     // Initialize the map, focused on the U.S.
     const map = L.map(mapContainer).setView([39.8283, -98.5795], 4);
@@ -824,7 +827,10 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     // Filter out past events
-    const upcomingProtests = protestLocations.filter(event => event.date >= today);
+    const upcomingProtests = protestLocations.filter(location => {
+        // Ensure valid date format (YYYY-MM-DD)
+        return /^\d{4}-\d{2}-\d{2}$/.test(location.date) && location.date >= today;
+    });
 
     // Add markers to the map
     upcomingProtests.forEach(location => {
@@ -891,20 +897,28 @@ document.addEventListener("DOMContentLoaded", function() {
     let eventListHtml = "<ul>";
     let currentState = "";
 
-    upcomingProtests.forEach((location) => {
-        let stateName = getState(location.city);
-        let cityName = location.city.split(", ")[0];
-
-        // Print new state heading if different from last
-        if (stateName !== currentState) {
-            eventListHtml += `<h3>${stateName}</h3>`;
-            currentState = stateName;
+    upcomingProtests.forEach(location => {
+        if (!location.coords || location.coords.length !== 2) {
+            console.warn(`Skipping event due to missing coordinates: ${location.city}`);
+            return; // Skip invalid locations
         }
-
-        eventListHtml += `<li><strong>${cityName}</strong> - <a href="${location.link}" target="_blank">${location.date}</a></li>`;
+    
+        let popupContent = `<strong>${location.city}</strong><br>Date: ${location.date}<br><a href="${location.link}" target="_blank">View Event</a>`;
+    
+        L.marker(location.coords)
+            .addTo(map)
+            .bindPopup(popupContent);
     });
     eventListHtml += "</ul>";
 
     document.getElementById("event-list").innerHTML = eventListHtml;
 
-});
+    const eventListElement = document.getElementById("event-list");
+        if (eventListElement) {
+            eventListElement.innerHTML = eventListHtml;
+        } else {
+            console.error("Event list container not found!");
+        }
+    }
+
+);
