@@ -812,10 +812,10 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         { city: "Washington, DC", coords: [38.9072, -77.0369], link: "https://nowmarch.org/", date: "2025-03-14" },
         { 
-            event: "Veterans Rally"
-            where: "Bakersfield V.A. Clinic"
-            time: "12:00 PM (Noon) to 2:00 PM"
-            city: "Bakersfield, CA", 
+            //event: "Veterans Rally"
+            //where: "Bakersfield V.A. Clinic"
+            //time: "12:00 PM (Noon) to 2:00 PM"
+            city: "Veterans Rally:\nBakersfield V.A. Clinic @ 12:00 PM (Noon) to 2:00 PM,  Bakersfield, CA", 
             coords: [35.375586, -119.043355], 
             link: "https://www.bakersfield.com/news/local-veteran-to-lead-protest-against-va-cuts/article_10c9353e-ff7b-11ef-bef0-bbeb6658fdca.html", 
             date: "2025-03-14", 
