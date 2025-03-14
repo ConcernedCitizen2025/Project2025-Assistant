@@ -223,7 +223,8 @@
     <meta name="theme-color" content="#ffffff"> 
     {% include google-analytics.html %}  
     <!-- Web App Manifest -->
-    <link rel="manifest" href="/assets/manifest.json">
+    <link rel="manifest" href="{{ '/assets/images/favicon4/site.webmanifest' | relative_url }}">
+
 
     <!-- Register Service Worker -->
     <script>
@@ -533,6 +534,13 @@
           }
         });
     </script>-->
-            
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("{{ '/assets/js/service-worker.js' | relative_url }}")
+            .then(reg => console.log('Service Worker registered', reg))
+            .catch(err => console.log('Service Worker registration failed', err));
+        }
+    </script>
+    
 </body>
 </html>

@@ -2,6 +2,7 @@ title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
 baseurl: ""  # Leave this blank since you're using a custom domain
 url: "https://project2025assistant.org"  # Your live URL
+permalink: pretty
 author: "Benjamin Parsons"
 
 collections:
@@ -70,3 +71,4 @@ markdown: kramdown
 # Important Jekyll configuration
 include:
   - _includes
+  - assets/images/favicon4/site.webmanifest
