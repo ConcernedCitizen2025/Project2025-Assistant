@@ -32,7 +32,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 ---
 
 ## 📍 Interactive Protest Map (Updated March 5th, 2025)
-<p><strong>Note:</strong> This map was last updated on <strong>March 5, 2025</strong>. If you are viewing it after that date, please check for the latest updates here:  
+<p><strong>Note:</strong> This map was last updated on <strong>March 14, 2025</strong>. If you are viewing it after that date, please check for the latest updates here:  
    <a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map</a>.
 </p>
 
@@ -46,7 +46,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 <script src="/assets/js/protest-map.js"></script>
 
 ---
-
+<!-->
 ## 📅 Protest Events by Date, State, and City
 
 ### March 6, 2025
@@ -75,9 +75,9 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 ### March 10, 2025
 - **Portland, OR** - Protest @ Tesla South Waterfront ([Event Link](https://events.pol-rev.com/events/ba3df3b9-85e3-49d0-a933-e3ec09a774f0))
-
+-->
 ---
 
-<p><strong>Note:</strong> This map was last updated on <strong>March 5, 2025</strong>. If you are viewing it after that date, please check for the latest updates here:  
+<p><strong>Note:</strong> This map was last updated on <strong>March 14, 2025</strong>. If you are viewing it after that date, please check for the latest updates here:  
    <a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map</a>.
 </p>
