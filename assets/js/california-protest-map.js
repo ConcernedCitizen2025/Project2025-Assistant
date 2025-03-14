@@ -836,11 +836,75 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // List the events below the map
-    let eventListHtml = "<ul>";
+    /*let eventListHtml = "<ul>";
     upcomingProtests.forEach(location => {
         eventListHtml += `<li><a href="${location.link}" target="_blank">${location.city} - ${location.date}</a></li>`;
     });
     eventListHtml += "</ul>";
 
     document.getElementById("event-list").innerHTML = eventListHtml;
+});*/
+
+    // Function to extract state from city
+    function getState(city) {
+        const stateAbbreviations = {
+            "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+            "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
+            "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+            "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+            "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+            "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+            "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+            "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+            "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+            "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+            "DC": "District of Columbia"
+        };
+        
+        let stateCode = city.split(", ")[1]; // Extract state abbreviation (e.g., "CA" from "Sacramento, CA")
+        return stateAbbreviations[stateCode] || stateCode; // Return full state name
+    }
+
+    // Function to sort protests by state, city, then date
+    function sortProtests(protests) {
+        return protests.sort((a, b) => {
+            let stateA = getState(a.city);
+            let stateB = getState(b.city);
+            if (stateA !== stateB) return stateA.localeCompare(stateB); // Sort by state
+
+            let cityA = a.city.split(", ")[0];
+            let cityB = b.city.split(", ")[0];
+            if (cityA !== cityB) return cityA.localeCompare(cityB); // Sort by city
+
+            return a.date.localeCompare(b.date); // Sort by date
+        });
+    }
+
+    // Get today's date
+    const today = new Date().toISOString().split("T")[0];
+
+    // Filter out past protests and sort remaining ones
+    let upcomingProtests = protestLocations.filter(location => location.date >= today);
+    upcomingProtests = sortProtests(upcomingProtests);
+
+    // Generate the sorted event list
+    let eventListHtml = "<ul>";
+    let currentState = "";
+
+    upcomingProtests.forEach((location) => {
+        let stateName = getState(location.city);
+        let cityName = location.city.split(", ")[0];
+
+        // Print new state heading if different from last
+        if (stateName !== currentState) {
+            eventListHtml += `<h3>${stateName}</h3>`;
+            currentState = stateName;
+        }
+
+        eventListHtml += `<li><strong>${cityName}</strong> - <a href="${location.link}" target="_blank">${location.date}</a></li>`;
+    });
+    eventListHtml += "</ul>";
+
+    document.getElementById("event-list").innerHTML = eventListHtml;
+
 });
