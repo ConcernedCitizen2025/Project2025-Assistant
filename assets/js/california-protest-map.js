@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Initialize the map, focused on the U.S.
-    const map = L.map(mapContainer).setView([39.8283, -98.5795], 4);
+    if (typeof window.map !== "undefined") {
+        console.warn("Map already initialized, skipping...");
+    } else {
+        window.map = L.map(mapContainer).setView([39.8283, -98.5795], 4);
+    }
 
     // Load map tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -842,8 +846,17 @@ document.addEventListener("DOMContentLoaded", function() {
             "DC": "District of Columbia"
         };
         
-        let stateCode = city.split(", ")[1]; // Extract state abbreviation (e.g., "CA" from "Sacramento, CA")
-        return stateAbbreviations[stateCode] || stateCode; // Return full state name
+        if (!city.includes(", ")) {
+            console.warn(`Invalid city format: ${city}`);
+            return ""; // Return empty string if format is incorrect
+        }
+        let stateCode = city.split(", ")[1]; // Extract state abbreviation
+        if (!stateAbbreviations[stateCode]) {
+            console.warn(`Unknown state code: ${stateCode}`);
+            return stateCode || ""; // Return code or empty if missing
+        }
+
+    return stateAbbreviations[stateCode]; // Return full state name
     }
 
     // Function to sort protests by state, city, then date
