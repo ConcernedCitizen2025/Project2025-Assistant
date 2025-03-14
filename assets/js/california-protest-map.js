@@ -17,8 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Protest locations
     const protestLocations = [
         
-        { city: "Washington, DC", coords: [38.9072, -77.0369], link: "https://nowmarch.org/", date: "2025-03-14" },
-        { city: "Bakersfield, CA", coords: [35.3733, -119.0187], link: "https://events.pol-rev.com/events/bakersfield-va-protest", date: "2025-03-14" },
         { city: "Irvine, CA", coords: [33.6846, -117.8265], link: "https://events.pol-rev.com/events/b9d30c6b-9649-4b92-9a86-d4af6d6c15c3", date: "2025-03-09" },
         { city: "Irvine, CA", coords: [33.6846, -117.8265], link: "https://events.pol-rev.com/events/e96254d3-d538-4b54-b70a-79771517b62b", date: "2025-03-16" },
         { city: "San Luis Obispo, CA", coords: [35.2828, -120.6596], link: "https://events.pol-rev.com/events/9c2d9347-f5fc-4f2e-a1f4-30c1bd48282f", date: "2025-03-08" },
@@ -811,8 +809,10 @@ document.addEventListener("DOMContentLoaded", function() {
             coords: [41.7003, -70.2996],
             link: "https://events.pol-rev.com/events/07068a92-1d52-4066-b92f-0710058b7f4a",
             date: "2025-04-19"
-        }
-   ];
+        },
+        { city: "Washington, DC", coords: [38.9072, -77.0369], link: "https://nowmarch.org/", date: "2025-03-14" },
+        { city: "Bakersfield, CA", coords: [35.3733, -119.0187], link: "https://events.pol-rev.com/events/bakersfield-va-protest", date: "2025-03-14" },
+    ];
 
     // Filter out past events
     const upcomingProtests = protestLocations.filter(event => event.date >= today);
