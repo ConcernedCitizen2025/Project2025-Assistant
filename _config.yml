@@ -2,7 +2,7 @@ title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
 baseurl: ""  # Leave this blank since you're using a custom domain
 url: "https://project2025assistant.org"  # Your live URL
-permalink: pretty
+#permalink: pretty
 author: "Benjamin Parsons"
 
 collections:
