@@ -23,4 +23,4 @@ Should you encounter any issues with the website or wish to share your thoughts,
 
 Remember, our democracy thrives on informed and active citizenship. Stay engaged, stay informed, and above all, **don't forget to vote!**
 
-<!-- Test commit -->
+
