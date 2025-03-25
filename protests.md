@@ -36,12 +36,14 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
    <a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map</a>.
 </p>
 
-<div id="california-map" style="width: 100%; height: 500px;"></div>
-
+<div id="california-map" style="height: 600px;"></div>
 <h3>Upcoming Protests</h3>
+<div id="event-list"></div>
+
+<!--<h3>Upcoming Protests</h3>
 <div id="event-list">
     <p>Loading events...</p>
-</div>
+</div>-->
 
 <script src="/assets/js/california-protest-map.js"></script>
 
