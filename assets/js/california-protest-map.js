@@ -17,6 +17,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const today = new Date().toISOString().split("T")[0];
 
+    function extractCity(location) {
+        if (!location) return "Unknown";
+        const parts = location.split(",");
+        // Try the second-to-last or last part for the city
+        if (parts.length >= 2) {
+            return parts[parts.length - 2].trim();
+        }
+        return parts[0].trim();
+    }
+
     fetch(dataUrl)
         .then((res) => {
             if (!res.ok) throw new Error("Failed to fetch protest data");
@@ -26,11 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const events = data?.data?.searchEvents?.elements || [];
 
             const upcomingProtests = events
-                .filter((event) => event?.lat && event?.lng && event?.date >= today)
+                .filter((event) => (event.lat || event.latitude) && (event.lng || event.longitude) && event.date >= today)
                 .map((event) => {
-                    const cityMatch = event.location.match(/([A-Za-z\s]+),?\s?(CA|California)?$/);
-                    const city = cityMatch ? cityMatch[1].trim() : "Unknown";
-                    return { ...event, city };
+                    const lat = event.lat || event.latitude;
+                    const lng = event.lng || event.longitude;
+                    const city = extractCity(event.location);
+                    return { ...event, lat, lng, city };
                 })
                 .sort((a, b) => {
                     const cityCompare = a.city.localeCompare(b.city);
