@@ -4,7 +4,8 @@ title: "HANDS OFF! Protest – Bakersfield, CA"
 description: "Join the National Day of Action in Bakersfield on April 5 to defend democracy, rights, and our future. Organized by 50501 and local residents."
 ---
 
-![Hands Off Bakersfield Protest Flyer](/assets/images/protests/handsoff.jpeg)
+<img src="/assets/images/protests/handsoff.jpeg" alt="Hands Off Protest Flyer" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 0 auto 20px;" />
+
 
 ### 📣 PRESS CONTACT: [Bakersfield50501@pm.me](mailto:Bakersfield50501@pm.me)
 
