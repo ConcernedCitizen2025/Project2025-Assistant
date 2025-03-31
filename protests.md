@@ -50,7 +50,10 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 ## 🗓️ Upcoming Protests by City
 
 - **Aliso Viejo**: [F’Elon Protest](https://events.pol-rev.com/events/30ba3f4a-9d49-4703-bad8-a42ef9e920bf) – 2025-04-05  
-- **Bakersfield**: [HANDS OFF! National Day of Action – Bakersfield Protest](https://project2025assistant.org/bakersfield50501.html) – 2025-04-05  
+- **Bakersfield**: [HANDS OFF! National Day of Action – Bakersfield Protest](https://project2025assistant.org/bakersfield50501.html) – 2025-04-05
+  - [CD 22 - Canvass to Save Healthcare - Bakersfield](https://www.mobilize.us/mobilize/event/769492/) – 2025-04-12  
+  - [CD 22 - Children's Rally to Save Healthcare](https://www.mobilize.us/mobilize/event/770052/) – 2025-04-16  
+  - [CD 22 - Medicaid Cuts Hurt People with Disabilities Rally](https://www.mobilize.us/mobilize/event/770281/) – 2025-04-24   
 - **Delano**: [“With These Hands” Labor March For Immigrant Rights](https://ufw.org/chavezdayimmigrationmarch/) – 2025-03-31  
 - **Encinitas**: [Banner Drop for Mahmoud Khalil](https://events.pol-rev.com/events/a94d4370-67d7-44b4-ab0f-d353ced250ce) – 2025-04-05  
 - **Eureka**: [Eureka Protest](https://events.pol-rev.com/events/212ac3ba-a818-4736-bf78-4e79e73a1084) – 2025-04-04  
@@ -62,6 +65,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 - **Palo Alto**: [Hands Off Tesla Takedown](https://events.pol-rev.com/events/0b5043d9-ad4f-4924-93ac-27b7dd4b029b) – 2025-04-05  
 - **Ridgecrest**: [Ridgecrest Protest](https://events.pol-rev.com/events/e4359110-35a6-49ed-98bf-1330ebcc18b4) – 2025-04-05  
 - **Sacramento**: [Sacramento - Picnic Protest 4/5](https://events.pol-rev.com/events/98685677-173e-4b00-a4ba-c0e94a4b2749) – 2025-04-05  
+- **San Carlos (Virtual)**: [Pressure the Central Valley’s Most Vulnerable Republican Congressman!](https://www.mobilize.us/mobilize/event/762393/) – 2025-04-02
 - **San Francisco**: [HANDS OFF! San Francisco 4/5](https://events.pol-rev.com/events/0887ca6b-46f3-47be-8b19-f3b462156272) – 2025-04-05  
 - **San Jose**: [Remove, Reverse, Reclaim - San Jose, California](https://events.pol-rev.com/events/0e1df22c-cb9d-423c-a8ea-e8c95c3b0652) – 2025-04-05  
 - **San Luis Obispo**: [April 5 Mass Mobilization — Hands Off! San Luis Obispo Fights Back](https://events.pol-rev.com/events/67e6392b-2181-4236-940f-d98a01887c20) – 2025-04-05  
