@@ -7,9 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    // Initialize Leaflet map
     if (!window.map) {
-        window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6); // Centered on California
+        window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
     }
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -28,7 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const upcomingProtests = events
                 .filter((event) => event?.lat && event?.lng && event?.date >= today)
-                .sort((a, b) => a.date.localeCompare(b.date));
+                .map((event) => {
+                    const cityMatch = event.location.match(/([A-Za-z\s]+),?\s?(CA|California)?$/);
+                    const city = cityMatch ? cityMatch[1].trim() : "Unknown";
+                    return { ...event, city };
+                })
+                .sort((a, b) => {
+                    const cityCompare = a.city.localeCompare(b.city);
+                    return cityCompare !== 0 ? cityCompare : a.date.localeCompare(b.date);
+                });
 
             let eventListHtml = "<ul>";
 
@@ -44,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .addTo(map)
                     .bindPopup(popupContent);
 
-                eventListHtml += `<li><a href="${event.link}" target="_blank">${event.title} – ${event.date}</a></li>`;
+                eventListHtml += `<li><strong>${event.city}</strong>: <a href="${event.link}" target="_blank">${event.title}</a> – ${event.date}</li>`;
             });
 
             eventListHtml += "</ul>";
