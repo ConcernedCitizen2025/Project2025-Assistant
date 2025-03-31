@@ -40,8 +40,8 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 </ul>
 
 <div id="california-map" style="height: 600px;"></div>
-<h3>Upcoming Protests</h3>
-<div id="event-list"></div>
+<!--<h3>Upcoming Protests</h3>
+<div id="event-list"></div>-->
 
 <script src="/assets/js/california-protest-map.js"></script>
 
