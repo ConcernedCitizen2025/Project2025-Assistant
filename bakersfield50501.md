@@ -1,5 +1,5 @@
 ---
-layout: plain_page
+layout: protests
 title: "HANDS OFF! Protest in Bakersfield - April 5, 2025"
 description: "Join the Bakersfield community on April 5 for a national day of action to defend democracy, rights, and freedoms. Peaceful protest at the Liberty Bell, 1415 Truxtun Ave."
 permalink: /bakersfield50501
