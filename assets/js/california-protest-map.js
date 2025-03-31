@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initialize Leaflet map
     if (!window.map) {
-        window.map = L.map(mapContainer).setView([37.5, -119.5], 6); // CA-focused
+        window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6); // Centered on California
     }
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -17,17 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }).addTo(map);
 
     const today = new Date().toISOString().split("T")[0];
-
-    // Helper function to sort events
-    function sortProtests(protests) {
-        return protests.sort((a, b) => {
-            const cityA = a.city || "";
-            const cityB = b.city || "";
-            if (cityA !== cityB) return cityA.localeCompare(cityB);
-
-            return (a.date || "").localeCompare(b.date || "");
-        });
-    }
 
     fetch(dataUrl)
         .then((res) => {
@@ -37,18 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((data) => {
             const events = data?.data?.searchEvents?.elements || [];
 
-            let upcomingProtests = events
-                .filter(event => event.latitude && event.longitude && event.date >= today)
-                .map(event => ({
-                    title: event.title,
-                    date: event.date,
-                    link: event.link,
-                    latitude: event.latitude,
-                    longitude: event.longitude,
-                    location: event.location
-                }));
-
-            upcomingProtests = sortProtests(upcomingProtests);
+            const upcomingProtests = events
+                .filter((event) => event?.lat && event?.lng && event?.date >= today)
+                .sort((a, b) => a.date.localeCompare(b.date));
 
             let eventListHtml = "<ul>";
 
@@ -60,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <a href="${event.link}" target="_blank">View Event</a>
                 `;
 
-                L.marker([event.latitude, event.longitude])
+                L.marker([event.lat, event.lng])
                     .addTo(map)
                     .bindPopup(popupContent);
 
-                eventListHtml += `<li><a href="${event.link}" target="_blank">${event.title} - ${event.date}</a></li>`;
+                eventListHtml += `<li><a href="${event.link}" target="_blank">${event.title} – ${event.date}</a></li>`;
             });
 
             eventListHtml += "</ul>";
