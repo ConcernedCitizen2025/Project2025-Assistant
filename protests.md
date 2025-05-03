@@ -19,9 +19,9 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 |------------------------------|---------------|--------|
 | **Amazon**                   | March 7-14     | ✅     |
 | **Nestlé**                   | March 21-28    | ✅     |
-| **Walmart**                  | April 7-14     |        |
-| **24-hour Economic Blackout**| April 18       |        |
-| **General Mills**            | April 21-28    |        |
+| **Walmart**                  | April 7-14     | ✅     |
+| **24-hour Economic Blackout**| April 18       | ✅     |
+| **General Mills**            | April 21-28    | ✅     |
 | **Amazon (Round 2)**         | May 6-12       |        |
 | **Walmart (Round 2)**        | May 20-26      |        |
 | **Target**                   | June 3-9       |        |
