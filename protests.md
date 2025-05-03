@@ -31,7 +31,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 ---
 
-## 📍 Interactive Protest Map (Updated {{ site.time | date: '%B %-d, %Y' }})
+## 📍 Interactive Protest Map (Updated <!--{{ site.time | date: '%B %-d, %Y' }}-->March 31, 2025)
 
 <p><strong>Note:</strong> This map was last updated on <strong><!--{{ site.time | date: '%B %-d, %Y' }}-->March 31, 2025</strong>. If you are looking for an updated map or protests outside of California, please visit the full interactive map or the Mobilize event directory links below:</p>
 <ul>
