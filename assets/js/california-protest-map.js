@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             let eventListHtml = "<ul>";
 
-            upcomingProtests.forEach((event) => {
+            /*upcomingProtests.forEach((event) => {
                 const popupContent = `
                     <strong>${event.title}</strong><br>
                     <em>${event.location}</em><br>
@@ -63,7 +63,24 @@ document.addEventListener("DOMContentLoaded", function () {
                     .bindPopup(popupContent);
 
                 eventListHtml += `<li><strong>${event.city}</strong>: <a href="${event.link}" target="_blank">${event.title}</a> – ${event.date}</li>`;
+            });*/
+
+            const markers = L.markerClusterGroup();
+
+            upcomingProtests.forEach((event) => {
+                const popupContent = `
+                    <strong>${event.title}</strong><br>
+                    <em>${event.location}</em><br>
+                    Date: ${event.date}<br>
+                    <a href="${event.link}" target="_blank">View Event</a>
+                `;
+
+                const marker = L.marker([event.lat, event.lng]).bindPopup(popupContent);
+                markers.addLayer(marker);
             });
+
+            map.addLayer(markers);
+
 
             eventListHtml += "</ul>";
 
