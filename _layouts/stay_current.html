@@ -30,6 +30,16 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
 
     <!--map adjustment, clusters-->
+    <!-- Leaflet core CSS & JS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    ></script>
+
+    <!-- MarkerCluster plugin CSS & JS -->
     <link
         rel="stylesheet"
         href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"
@@ -38,7 +48,13 @@
         rel="stylesheet"
         href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
     />
-    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script
+        src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"
+    ></script>
+
+    <!-- Your custom map JS (make sure this comes *after* Leaflet and plugins) -->
+    <script src="/assets/js/california-protest-map.js"></script>
+
 
     
     <!-- Custom styling -->
