@@ -47,7 +47,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 ---
 
-## 🗓️ Upcoming Protests by City
+<!--## 🗓️ Upcoming Protests by City
 
 - **Aliso Viejo**: [F’Elon Protest](https://events.pol-rev.com/events/30ba3f4a-9d49-4703-bad8-a42ef9e920bf) – 2025-04-05  
 - **Bakersfield**: [HANDS OFF! National Day of Action – Bakersfield Protest](https://project2025assistant.org/bakersfield50501.html) – 2025-04-05
@@ -78,6 +78,6 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 - **Tehachapi**: [We Were Lied To: Protest - Tehachapi, CA 4/5](https://events.pol-rev.com/events/90e459f2-1ba7-4c71-94c5-1c32299e1762) – 2025-04-05  
 - **Torrance**: [Hands Off! The South Bay Fights Back](https://events.pol-rev.com/events/d35c05c0-f0a7-4181-b696-26cafaedc2db) – 2025-04-05  
 
----
+----->
 
 
