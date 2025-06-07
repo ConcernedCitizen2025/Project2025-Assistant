@@ -101,18 +101,12 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       }
     </script>-->
     <div style="text-align: center;">
-      <iframe 
-        src="https://www.instagram.com/reel/DKjfbKUupY7/embed" 
-        width="400" 
-        height="480" 
-        frameborder="0" 
-        scrolling="no" 
-        allowtransparency="true"
-        style="border-radius: 8px;">
-      </iframe>
-      <script async src="//www.instagram.com/embed.js"></script>
+      <video controls width="100%" style="max-width: 600px; border-radius: 8px;">
+        <source src="/assets/videos/big_ugly_bill.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        Watch this video on <a href="https://www.instagram.com/reel/DKjfbKUupY7/" target="_blank">Instagram</a>.
+        Source: Originally posted by <a href="https://www.instagram.com/hautefolie/" target="_blank">@hautefolie</a>
       </p>
     </div>
     <div style="text-align: center;">
