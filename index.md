@@ -101,6 +101,9 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       }
     </script>-->
     <div style="text-align: center;">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@hautefolie/video/7512282840109698334" data-video-id="7512282840109698334" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@hautefolie" href="https://www.tiktok.com/@hautefolie?refer=embed">@hautefolie</a> I uploaded all 816 pages of the Big Beautiful Bill into ChatGpt and asked what its thiught were on the bill altogether. This is what the AI had to say. You can download a PDF copy of the bill and monitor its progress on the Congress website. <a title="letfreedomring" target="_blank" href="https://www.tiktok.com/tag/letfreedomring?refer=embed">#LetFreedomRing</a> <a title="thisisamerica" target="_blank" href="https://www.tiktok.com/tag/thisisamerica?refer=embed">#ThisIsAmerica</a> <a title="fdjt" target="_blank" href="https://www.tiktok.com/tag/fdjt?refer=embed">#fdjt</a> <a target="_blank" title="♬ original sound - ✨ℂ𝕙𝕖𝕗👩‍🍳𝔹𝕠𝕪𝕒𝕣𝕕𝕖𝕖✨" href="https://www.tiktok.com/music/original-sound-7512282822314789662?refer=embed">♬ original sound - ✨ℂ𝕙𝕖𝕗👩‍🍳𝔹𝕠𝕪𝕒𝕣𝕕𝕖𝕖✨</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <div style="text-align: center;">
+    <div style="text-align: center;">
       <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
         Video by <a href="https://www.youtube.com/c/MeidasTouch" target="_blank">MeidasTouch</a>. Watch the original:
