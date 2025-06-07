@@ -101,15 +101,19 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       }
     </script>-->
     <div style="text-align: center;">
-      <div style="text-align: center;">
-        <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
-          <source src="/assets/videos/YOUR-VIDEO-NAME.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-          Video by <a href="https://www.instagram.com/hautefolie/" target="_blank">@hautefolie</a>. Originally posted on Instagram.
-        </p>
-      </div>
+      <iframe 
+        src="https://www.instagram.com/reel/DKjfbKUupY7/embed" 
+        width="400" 
+        height="480" 
+        frameborder="0" 
+        scrolling="no" 
+        allowtransparency="true"
+        style="border-radius: 8px;">
+      </iframe>
+      <script async src="//www.instagram.com/embed.js"></script>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Watch this video on <a href="https://www.instagram.com/reel/DKjfbKUupY7/" target="_blank">Instagram</a>.
+      </p>
     </div>
     <div style="text-align: center;">
       <iframe src="https://www.youtube.com/embed/iX3vMJOADlE" frameborder="0" allowfullscreen style="width: 100%; height: 400px; border-radius: 8px;"></iframe>
