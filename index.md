@@ -110,6 +110,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         allowtransparency="true"
         style="border-radius: 8px;">
       </iframe>
+      <script async src="//www.instagram.com/embed.js"></script>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
         Watch this video on <a href="https://www.instagram.com/reel/DKjfbKUupY7/" target="_blank">Instagram</a>.
       </p>
