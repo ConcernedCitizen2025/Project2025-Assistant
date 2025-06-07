@@ -100,17 +100,18 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
           window.open(fbShareUrl, '_blank', 'width=600,height=400');
       }
     </script>-->
-    <div style="text-align: center; max-width: 600px; margin: 0 auto;">
-      <blockquote 
-        class="tiktok-embed" 
-        cite="https://www.tiktok.com/@hautefolie/video/7512282840109698334" 
-        data-video-id="7512282840109698334" 
-        style="max-width: 100%; min-width: 300px; margin: auto;">
-      </blockquote>
-      <script async src="https://www.tiktok.com/embed.js"></script>
+    <div style="text-align: center;">
+      <iframe 
+        src="https://www.instagram.com/reel/DKjfbKUupY7/embed" 
+        width="400" 
+        height="480" 
+        frameborder="0" 
+        scrolling="no" 
+        allowtransparency="true"
+        style="border-radius: 8px;">
+      </iframe>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        TikTok by <a href="https://www.tiktok.com/@hautefolie" target="_blank">@hautefolie</a>.
-        <a href="https://www.tiktok.com/@hautefolie/video/7512282840109698334" target="_blank">Watch on TikTok</a>
+        Watch this video on <a href="https://www.instagram.com/reel/DKjfbKUupY7/" target="_blank">Instagram</a>.
       </p>
     </div>
     <div style="text-align: center;">
