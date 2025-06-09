@@ -23,7 +23,7 @@ jobs:
       - run: npm run fetch:protests
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'
+          ruby-version: '3.2.8'
       - run: bundle install
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
