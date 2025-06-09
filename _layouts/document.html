@@ -244,15 +244,15 @@
 
     <div class="translate-container">
         {% include google_translate.html %}
-        <!--{% include readAloudControls.html %}-->
+        {% include readAloudControls.html %}
     </div>
     
-    <!--<main>
-        <-- Content to Read --
-        <div class="content-wrapper"><--</div> id="readableContent">--
+    <main>
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
           {{ content }}
         </div>
-    </main>-->
+    </main>
 
     <!-- Back to Top Button --
     <div class="back-to-top" id="backToTop">
@@ -326,7 +326,7 @@
             });
         });
     </script>
-    <!--!-- At the end of your body, include the scripts --
+    <!-- At the end of your body, include the scripts -->
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
     <script src="/assets/js/readAloud.js" defer></script>
     <script>
@@ -338,7 +338,7 @@
             setTimeout(() => msg.style.display = "none", 1500);
         });
     }
-    </script>-->
+    </script>
 
 </body>
 </html>
