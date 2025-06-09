@@ -111,7 +111,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       </p>
     </div>
     <!--BIG UGLY BILL Link-->
-    <div style="text-align: center; margin: 40px 0;">
+    <div style="text-align: center;">
       <h2>Check out the Big Ugly Bill for yourself</h2>
       <a href="/big_ugly_bill">
         <img src="/assets/images/big_ugly.png" alt="Check out the Big Ugly Bill for yourself - Click Here" style="max-width: 100%; height: auto;">
