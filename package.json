@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch:protests": "node fetch_mobilize_protests.js",
+    "build":       "npm run fetch:protests && jekyll build"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +13,7 @@
   "description": "",
   "dependencies": {
     "lunr": "^2.3.9",
+    "node-fetch": "^2.7.0",
     "puppeteer-core": "^24.4.0"
   }
 }
