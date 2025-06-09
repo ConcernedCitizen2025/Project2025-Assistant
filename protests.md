@@ -36,10 +36,10 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 ## 📍 Interactive Protest Map
 
 <p><strong>Last updated:</strong> {{ site.time | date: "%B %-d, %Y at %-I:%M %P %Z" }} (automatically refreshed daily)</p>
-<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a>. Thank you to Mobilize for powering grassroots action. For a fuller view of events—including outside California—visit:</p>
+<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a>. Thank you to Mobilize for powering grassroots action. For a fuller view of event visit:</p>
 <ul>
-  <li><a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map</a></li>
-  <li><a href="https://www.mobilize.us/map/?show_all_events=true&tag_ids=26053" target="_blank">Mobilize Event Directory</a></li>
+  <li><a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map on events.pol-rev.com</a></li>
+  <li><a href="https://www.mobilize.us/map/?show_all_events=true&tag_ids=26053" target="_blank">Mobilize.us Event Directory</a></li>
 </ul>
 
 <div id="california-map" style="height: 600px;"></div>
