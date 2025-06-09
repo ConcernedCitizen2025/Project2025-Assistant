@@ -1,13 +1,14 @@
 title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
-baseurl: ""  # Leave this blank since you're using a custom domain
+baseurl: ""          # Leave this blank since you're using a custom domain
 url: "https://project2025assistant.org"  # Your live URL
 author: "Benjamin Parsons"
+timezone: "America/Los_Angeles"  # ← Add this line here
 
 collections:
   organizations:
     output: true
-    permalink: /organizations/:name  # Example change for clarity
+    permalink: /organizations/:name
   editors:
     output: true
   sections:
@@ -60,15 +61,15 @@ defaults:
     values:
       layout: question
   - scope:
-      path: ""  # Default scope for all pages without specific collection types
+      path: ""
     values:
       layout: default
 
-theme: minima  # You can customize or replace this later
+theme: minima
 markdown: kramdown
 
 # Important Jekyll configuration to ensure your JSON data files get copied
 include:
   - _includes
   - assets/images/favicon4/site.webmanifest
-  - assets/data   # <–– this will include mobilize_protests.json and any other JSON in that folder
+  - assets/data   # includes mobilize_protests.json and any other JSON in that folder
