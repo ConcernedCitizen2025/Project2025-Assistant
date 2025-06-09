@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: document
 title: "Big Ugly Bill — Full Text"
 ---
 
