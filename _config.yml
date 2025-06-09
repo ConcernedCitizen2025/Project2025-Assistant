@@ -2,7 +2,6 @@ title: "Project 2025 Assistant"
 description: "A comprehensive guide to Project 2025."
 baseurl: ""  # Leave this blank since you're using a custom domain
 url: "https://project2025assistant.org"  # Your live URL
-#permalink: pretty
 author: "Benjamin Parsons"
 
 collections:
@@ -68,7 +67,8 @@ defaults:
 theme: minima  # You can customize or replace this later
 markdown: kramdown
 
-# Important Jekyll configuration
+# Important Jekyll configuration to ensure your JSON data files get copied
 include:
   - _includes
   - assets/images/favicon4/site.webmanifest
+  - assets/data   # <–– this will include mobilize_protests.json and any other JSON in that folder
