@@ -1,47 +1,56 @@
 name: 🗓️ Auto-Update Protests & Deploy
 
-# Run daily at midnight Pacific Time (08:00 UTC)
 on:
   schedule:
     - cron: '0 8 * * *'
-  workflow_dispatch:   # also allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Check out your repo
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0      # needed if you later push commits
+          fetch-depth: 0
           persist-credentials: true
 
-      # 2) Install Node.js & Ruby (for Jekyll)
-      - uses: actions/setup-node@v3
-        with: { node-version: '18' }
-      - uses: ruby/setup-ruby@v1
-        with: { ruby-version: '3.x' }
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-      # 3) Fetch & install dependencies
-      - run: npm ci
-      - run: gem install bundler
-      - run: bundle install
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x'
 
-      # 4) Run your fetch script (this regenerates mobilize_protests.json)
-      - run: npm run fetch:protests
+      - name: Install JS deps
+        run: npm ci
 
-      # 5) Build the site
-      - run: bundle exec jekyll build --destination _site
+      - name: Install Ruby deps
+        run: |
+          gem install bundler
+          bundle install
 
-      # 6) Deploy the static `_site` directory to GitHub Pages
-      #    This uses the official Pages actions; no need to push back to main.
-      - uses: actions/configure-pages@v3
+      - name: Fetch Mobilize data
+        run: npm run fetch:protests
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --destination _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v3
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
 
-      - uses: actions/deploy-pages@v2
-      
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v2
