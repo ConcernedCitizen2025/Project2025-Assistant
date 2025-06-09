@@ -3,7 +3,7 @@ layout: default
 title: "Big Ugly Bill — Full Text"
 ---
 
-## Full Text of the “Big Ugly Bill”
+## Full Text of the “Big ~~Beautiful~~ <span style="color: red; font-weight: bold;">Ugly</span> Bill”
 
 <iframe
   src="{{ '/assets/pdfjs/web/viewer.html' | relative_url }}?file={{ '/assets/docs/big_ugly_bill.pdf' | relative_url | url_encode }}"
@@ -12,9 +12,9 @@ title: "Big Ugly Bill — Full Text"
   style="border:none;"
 ></iframe>
 
-<button id="back-to-top" style="margin:1em 0;">
+<!--<button id="back-to-top" style="margin:1em 0;">
   ↑ Back to Top
-</button>
+</button>-->
 <script>
   document.getElementById('back-to-top').onclick = () =>
     window.scrollTo({ top: 0, behavior: 'smooth' });
