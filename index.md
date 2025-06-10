@@ -101,16 +101,18 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       }
     </script>-->
     <!--Reporter Shot Video-->
+    {% raw %}
     <div style="text-align:center; max-width:605px; margin:auto;">
-      <iframe
-        src="https://www.tiktok.com/embed/7513876555534273834"
-        width="325"
-        height="575"
-        frameborder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        style="max-width:100%; margin:auto; display:block;"
-      ></iframe>
+      <blockquote 
+        class="tiktok-embed" 
+        cite="https://www.tiktok.com/@dailymail/video/7513876555534273834" 
+        data-video-id="7513876555534273834" 
+        style="min-width:325px;"
+      >
+        <!-- your caption -->
+      </blockquote>
     </div>
+    {% endraw %}
     <!--BIG UGLY BILL Video-->
     <div style="text-align: center;">
       <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
