@@ -102,6 +102,10 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     </script>-->
     <!--BIG UGLY BILL Video-->
     <div style="text-align: center;">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dailymail/video/7513876555534273834" data-video-id="7513876555534273834" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@dailymail" href="https://www.tiktok.com/@dailymail?refer=embed">@dailymail</a> Australian journalist Lauren Tomasi was hit by a rubber bullet while reporting on protests in LA.  Read more on Dailymail.com <a title="la" target="_blank" href="https://www.tiktok.com/tag/la?refer=embed">#la</a> <a title="riots" target="_blank" href="https://www.tiktok.com/tag/riots?refer=embed">#riots</a> <a title="lariots" target="_blank" href="https://www.tiktok.com/tag/lariots?refer=embed">#lariots</a> <a title="news" target="_blank" href="https://www.tiktok.com/tag/news?refer=embed">#news</a> <a target="_blank" title="♬ original sound - Daily Mail" href="https://www.tiktok.com/music/original-sound-7513877085060893483?refer=embed">♬ original sound - Daily Mail</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    <!--BIG UGLY BILL Video-->
+    <div style="text-align: center;">
       <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
         <source src="/assets/videos/big_ugly_bill.mp4" type="video/mp4">
         Your browser does not support the video tag.
