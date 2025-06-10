@@ -100,6 +100,16 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
           window.open(fbShareUrl, '_blank', 'width=600,height=400');
       }
     </script>-->
+    <!--Protest Guidance Video-->
+    <div style="text-align: center;">
+      <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
+        <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/?utm_source=ig_web_copy_link&igsh=MWUwbzBqYXc0aG16eA==" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
+      </p>
+    </div>
     <!--Wyatt Russell Video-->
     <div style="text-align: center;">
       <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
