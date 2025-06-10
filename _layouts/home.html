@@ -525,13 +525,12 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const leftCol  = document.querySelector(".content-box");
+            const leftCol   = document.querySelector(".content-box");
             const videoList = document.getElementById("video-list");
-
             if (leftCol && videoList) {
-            // Match the video-list max-height to the left column’s height
-            const height = leftCol.getBoundingClientRect().height;
-            videoList.style.maxHeight = `${height}px`;
+            // Match the video-list's max-height to the left column's height
+            const h = leftCol.getBoundingClientRect().height;
+            videoList.style.maxHeight = `${h}px`;
             videoList.style.overflowY = "auto";
             }
         });

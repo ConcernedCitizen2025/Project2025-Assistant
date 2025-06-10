@@ -16,7 +16,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
 <div style="display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
   <!-- Left Column (Text Content) -->
-  <div style="flex: 2; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <div class="content-box" style="flex: 2; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h1>Welcome to the <em>Project 2025 Assistant</em></h1>
     <p>In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, <em>Project 2025</em>. The current state of affairs often feels surreal, like something out of a dystopian film.</p>
     <h2>The Journey into Understanding Project 2025</h2>
