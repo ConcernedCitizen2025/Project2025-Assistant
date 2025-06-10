@@ -523,5 +523,18 @@
         });
     }
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const leftCol  = document.querySelector(".content-box");
+            const videoList = document.getElementById("video-list");
+
+            if (leftCol && videoList) {
+            // Match the video-list max-height to the left column’s height
+            const height = leftCol.getBoundingClientRect().height;
+            videoList.style.maxHeight = `${height}px`;
+            videoList.style.overflowY = "auto";
+            }
+        });
+    </script>
 </body>
 </html>
