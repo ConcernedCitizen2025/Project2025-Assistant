@@ -102,27 +102,15 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     </script>-->
     <!--Reporter Shot Video-->
     {% raw %}
-    <div style="text-align: center; max-width: 605px; margin: auto;">
+    <div style="text-align:center; max-width:605px; margin:auto;">
       <blockquote 
-        class="tiktok-embed"  
-        cite="https://www.tiktok.com/@dailymail/video/7513876555534273834"  
-        data-video-id="7513876555534273834"  
-        style="max-width: 605px;min-width: 325px;"
+        class="tiktok-embed" 
+        cite="https://www.tiktok.com/@dailymail/video/7513876555534273834" 
+        data-video-id="7513876555534273834" 
+        style="min-width:325px;"
       >
-        <section>
-          <a target="_blank" title="@dailymail" href="https://www.tiktok.com/@dailymail?refer=embed">
-            @dailymail
-          </a> 
-          Australian journalist Lauren Tomasi was hit by a rubber bullet while reporting on protests in LA.  
-          Read more on Dailymail.com 
-          <a title="la" target="_blank" href="https://www.tiktok.com/tag/la?refer=embed">#la</a> 
-          <!-- …other tags… -->
-          <a target="_blank" title="♬ original sound - Daily Mail" href="https://www.tiktok.com/music/original-sound-7513877085060893483?refer=embed">
-            ♬ original sound – Daily Mail
-          </a>
-        </section>
+        <!-- your caption -->
       </blockquote>
-      <script async src="https://www.tiktok.com/embed.js"></script>
     </div>
     {% endraw %}
     <!--BIG UGLY BILL Video-->
