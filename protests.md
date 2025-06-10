@@ -12,62 +12,88 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 </div>
 
 ---
-<!-- Wrap the boycott table and video in a flex container -->
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; margin-bottom: 20px;">
 
-  <!-- Left side: Boycott Checklist -->
+  <!-- Left column: full boycott list, including past ones -->
   <div style="flex: 1; min-width: 300px;">
-    <h2>📢 Upcoming Boycotts</h2>
+    <h2>📢 Upcoming & Past Boycotts</h2>
     {% assign today = site.time | date: '%Y-%m-%d' %}
-    <table>
+    <table style="width:100%; border-collapse: collapse; margin-top: 10px;">
       <thead>
         <tr>
-          <th>Company / Target</th>
-          <th>Dates</th>
-          <th>Status</th>
+          <th style="text-align:left; padding: 8px;">Company / Target</th>
+          <th style="text-align:left; padding: 8px;">Dates</th>
+          <th style="text-align:left; padding: 8px;">Status</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Amazon</strong></td>
-          <td>March 7–14</td>
-          <td>{% if today > '2025-03-14' %}✅{% endif %}</td>
+          <td style="padding:8px;"><strong>Amazon</strong></td>
+          <td style="padding:8px;">March 7–14</td>
+          <td style="padding:8px;">{% if today > '2025-03-14' %}✅{% endif %}</td>
         </tr>
-        <!-- repeat rows as before... -->
         <tr>
-          <td><strong>McDonald's</strong></td>
-          <td>June 24–30</td>
-          <td>{% if today > '2025-06-30' %}✅{% endif %}</td>
+          <td style="padding:8px;"><strong>Nestlé</strong></td>
+          <td style="padding:8px;">March 21–28</td>
+          <td style="padding:8px;">{% if today > '2025-03-28' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Walmart</strong></td>
+          <td style="padding:8px;">April 7–14</td>
+          <td style="padding:8px;">{% if today > '2025-04-14' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>24-hour Economic Blackout</strong></td>
+          <td style="padding:8px;">April 18</td>
+          <td style="padding:8px;">{% if today > '2025-04-18' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>General Mills</strong></td>
+          <td style="padding:8px;">April 21–28</td>
+          <td style="padding:8px;">{% if today > '2025-04-28' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Amazon (Round 2)</strong></td>
+          <td style="padding:8px;">May 6–12</td>
+          <td style="padding:8px;">{% if today > '2025-05-12' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Walmart (Round 2)</strong></td>
+          <td style="padding:8px;">May 20–26</td>
+          <td style="padding:8px;">{% if today > '2025-05-26' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Target</strong></td>
+          <td style="padding:8px;">June 3–9</td>
+          <td style="padding:8px;">{% if today > '2025-06-09' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>McDonald’s</strong></td>
+          <td style="padding:8px;">June 24–30</td>
+          <td style="padding:8px;">{% if today > '2025-06-30' %}✅{% endif %}</td>
         </tr>
       </tbody>
     </table>
-    <p><strong>Stay involved!</strong> Every boycott makes an impact.</p>
+    <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
   </div>
 
-  <!-- Right side: Protest Guidance Video -->
+  <!-- Right column: smaller video -->
   <div style="flex: 1; min-width: 300px; text-align: center;">
     <video
       controls
-      style="width: 100%; height: auto; border-radius: 8px;"
+      style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;"
       preload="metadata"
     >
-      <source
-        src="/assets/videos/protest_guidance.mp4"
-        type="video/mp4"
-      >
+      <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-      Video by
-      <a
-        href="https://www.instagram.com/reel/DKrqF95o-d6/?utm_source=ig_web_copy_link"
-        target="_blank"
-      >@lukeforthought</a>.
-      Originally posted on Instagram.
+      Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
     </p>
   </div>
 
 </div>
+
 
 ---
 
