@@ -78,10 +78,10 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
   </div>
 
   <!-- Right column: smaller video -->
-  <div style="flex: 1; min-width: 300px; text-align: center;">
+  <div style="flex: 1; min-width: 250px; text-align: center;">
     <video
       controls
-      style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;"
+      style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
       preload="metadata"
     >
       <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
