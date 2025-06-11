@@ -16,7 +16,7 @@ title: "Big Ugly Bill — Full Text"
 
 ## 🚨Greenland Invasion Concerns *Between the Lines*🚨
 
-Beginning on page 698 of the *One Big Beautiful Bill Act* **(FOUND BELOW)**, a series of provisions under the section **SEC. 100001. COAST GUARD ASSETS NECESSARY TO SECURE NORTHERN STRATEGIC INTERESTS** raise serious red flags when analyzed alongside Donald Trump’s public interest in acquiring or asserting control over Greenland.
+Beginning on page 698 of the *One Big Beautiful Bill Act* *(FOUND BELOW)*, a series of provisions under the section **SEC. 100001. COAST GUARD ASSETS NECESSARY TO SECURE NORTHERN STRATEGIC INTERESTS** raise serious red flags when analyzed alongside Donald Trump’s public interest in acquiring or asserting control over Greenland.
 
 ### 🔍 Deep Dive Into Textual Evidence
 
