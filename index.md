@@ -48,6 +48,33 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   <!-- Right Column (Videos and Additional Content) -->
   <div style="flex: 1; display: flex; flex-direction: column;">
     <div id="video-list" style="overflow-y: auto; gap: 20px; display: flex; flex-direction: column;">
+      <!--Police shoots woman Video-->
+      <div style="text-align: center;">
+        <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
+          <source src="/assets/videos/Police_Attack.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+          Woman $h0t Point Blank. Video by <a href="https://www.instagram.com/reel/DKvdLSMOTLa/?utm_source=ig_web_copy_link&igsh=Z2h1c3FhZW9mODFz" target="_blank">@_azalva5</a>. Originally posted on Instagram.
+        </p>
+      </div>
+      <!--BIG UGLY BILL Video-->
+      <div style="text-align: center;">
+        <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
+          <source src="/assets/videos/big_ugly_bill.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+          Video by <a href="https://www.instagram.com/hautefolie/" target="_blank">@hautefolie</a>. Originally posted on Instagram.
+        </p>
+      </div>
+      <!--BIG UGLY BILL Link-->
+      <div style="text-align: center;">
+        <h3>See for Yourself</h3>
+        <a href="/big_ugly_bill">
+          <img src="/assets/images/big_ugly_click.jpg" alt="Check out the Big Ugly Bill for yourself - Click Here" style="max-width: 100%; height: auto;">
+        </a>
+      </div>
       <!--Protest Guidance Video-->
       <div style="text-align: center;">
         <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
@@ -67,23 +94,6 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
         <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
           Video by <a href="https://www.instagram.com/reel/DKr-JhaufAw/?utm_source=ig_web_copy_link&igsh=MWw4YjU4dnY2aXM5Mw==" target="_blank">@peoplefor_</a>. Originally posted on Instagram.
         </p>
-      </div>
-      <!--BIG UGLY BILL Video-->
-      <div style="text-align: center;">
-        <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
-          <source src="/assets/videos/big_ugly_bill.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-          Video by <a href="https://www.instagram.com/hautefolie/" target="_blank">@hautefolie</a>. Originally posted on Instagram.
-        </p>
-      </div>
-      <!--BIG UGLY BILL Link-->
-      <div style="text-align: center;">
-        <h3>See for Yourself</h3>
-        <a href="/big_ugly_bill">
-          <img src="/assets/images/big_ugly_click.jpg" alt="Check out the Big Ugly Bill for yourself - Click Here" style="max-width: 100%; height: auto;">
-        </a>
       </div>
       <!--MidiasTouch video-->
       <div style="text-align: center;">
