@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # needed for Peaceiris to push
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -20,14 +20,26 @@ jobs:
         with:
           node-version: '18'
       - run: npm ci
+
+      # fetch Mobilizon data
       - run: npm run fetch:mobilizon
+
+      # fetch Mobilize data
       - run: npm run fetch:protests
+
+      # *** NEW STEP: merge and geocode everything ***
+      - name: Merge & geocode events
+        run: node merge_events.js
+
+      # now install Ruby & build
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
       - run: bundle install
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
+
+      # deploy
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
