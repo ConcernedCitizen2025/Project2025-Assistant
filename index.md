@@ -52,7 +52,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       <div style="text-align: center;">
         <video controls style="width: 100%; height: 400px; border-radius: 8px;" preload="metadata">
           <source src="/assets/videos/sen_padilla.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+          Your browser does not support the video tag. 
         </video>
         <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
           Watch this powerful mash-up from <a href="https://www.instagram.com/meidastouch/" target="_blank">MeidasTouch News</a> and <a href="https://www.instagram.com/aaronparnas" target="_blank">@aaronparnas</a> exposing the fascist crackdown on Senator Padilla—proof they’ll silence even a sitting U.S. Senator to protect the lies. Originally posted on Instagram.
