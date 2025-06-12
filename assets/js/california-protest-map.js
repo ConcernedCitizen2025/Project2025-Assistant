@@ -16,7 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     attribution: "&copy; OpenStreetMap contributors",
   }).addTo(map);
 
-  const today = new Date().toISOString().split("T")[0];
+  const today = new Date().toLocaleDateString("en-CA", {
+    timeZone: "America/Los_Angeles",
+    year:    "numeric",
+    month:   "2-digit",
+    day:     "2-digit"
+    });
+    // e.g. today === "2025-06-11" PST
+
 
   fetch(dataUrl)
     .then((res) => {
