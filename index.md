@@ -177,5 +177,4 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     </a>
     <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
   </div>
-
 </div>
