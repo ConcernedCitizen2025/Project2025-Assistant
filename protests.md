@@ -109,7 +109,6 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 <div id="california-map" style="height: 600px;"></div>
 <script src="/assets/js/california-protest-map.js"></script>
 
----
 
 ## 🖼️ Free Protest Signs to Download
 
