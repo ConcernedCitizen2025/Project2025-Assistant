@@ -109,7 +109,20 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 <div id="california-map" style="height: 600px;"></div>
 <script src="/assets/js/california-protest-map.js"></script>
 
-For a fuller view of event visit:</p>
+---
+
+## 🖼️ Free Protest Signs to Download
+
+<div style="text-align: center; margin-top: 40px;">
+  <a href="/protests/signs">
+    <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+  </a>
+  <p style="margin-top: 10px; font-size: 0.95em;">Click the image to browse and download ready-to-print protest signs.</p>
+</div>
+
+---
+
+For a fuller view of events visit:</p>
 <ul>
   <li><a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map on events.pol-rev.com (powered by Mobilizon)</a></li>
   <li><a href="https://www.mobilize.us/map/?show_all_events=true&tag_ids=26053" target="_blank">Mobilize.us Event Directory</a></li>
