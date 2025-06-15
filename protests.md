@@ -6,10 +6,14 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto; margin-bottom: 20px;">
-  <h1>Find a 50 50 01 Protest or Boycott Near You</h1>
-  <p>50 states, 50 capitals, 1 movement. Stand up and make your voice heard.</p>
+  <div style="display: inline-flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+    <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto;">
+    <img src="/assets/images/protests/no_kings_logo.jpg" alt="No Kings Protest Logo" style="max-width: 300px; height: auto;">
+  </div>
+  <h1>Find a Protest or Boycott Near You</h1>
+  <p>Protests and boycotts are happening around the world. Use your voice, take action, and be the change.</p>
 </div>
+
 
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; margin-bottom: 20px;">
