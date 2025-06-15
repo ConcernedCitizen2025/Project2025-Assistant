@@ -6,7 +6,7 @@ description: Browse a growing collection of downloadable protest signs designed 
 
 # Protest Sign Downloads
 
-Looking for bold, impactful signs to bring to your next protest or boycott? We've got you covered. Below, you'll find a growing collection of printable protest signs — all **100% free to download**. Each design is available in high-resolution formats suitable for **poster-size printing (20x30 inches)**. Whether you're marching for justice or making a statement, these signs are here to amplify your voice.
+Looking for bold, impactful signs to bring to your next protest? We've got you covered. Below, you'll find a growing collection of printable protest signs — all **100% free to download**. Each design is available in high-resolution formats suitable for **poster-size printing (20x30 inches)**. Whether you're marching for justice or making a statement, these signs are here to amplify your voice.
 
 ---
 
@@ -74,4 +74,4 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 
 ---
 
-More signs coming soon. If you’d like to contribute your own designs, contact us at [contact@project2025assistant.org](mailto:contact@project2025assistant.org).
+More signs coming soon...
