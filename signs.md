@@ -4,6 +4,12 @@ title: Download Free Protest Signs
 description: Browse a growing collection of downloadable protest signs designed for powerful demonstrations. Includes instructions for creating your own high-quality, poster-sized signs.
 ---
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="/protests">
+    <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px;">
+  </a>
+</div>
+
 # Protest Sign Downloads
 
 Looking for bold, impactful signs to bring to your next protest? We've got you covered. Below, you'll find a growing collection of printable protest signs — all **100% free to download**. Each design is available in high-resolution formats suitable for **poster-size printing (20x30 inches)**. Whether you're marching for justice or making a statement, these signs are here to amplify your voice.
@@ -76,3 +82,9 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 
 
 More signs coming soon...
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="/protests">
+    <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px;">
+  </a>
+</div>
