@@ -45,6 +45,15 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 
 ## 🖼️ Available Signs
 
+### No Kings, Clown
+
+<img src="/assets/images/protests/signs/no_clown_king_logo.jpg" alt="No Kings Clown Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
+
+**Download:**
+- [Download JPEG](../assets/images/protests/signs/no_clown_king.jpg){: .btn }
+
+---
+
 ### Give DOGE the Birdie
 
 <img src="/assets/images/protests/signs/give_doge_the_birdie_logo.jpg" alt="Give DOGE the Birdie Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
@@ -65,13 +74,5 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 
 ---
 
-### No Kings, Clown
-
-<img src="/assets/images/protests/signs/no_clown_king_logo.jpg" alt="No Kings Clown Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
-
-**Download:**
-- [Download JPEG](../assets/images/protests/signs/no_clown_king.jpg){: .btn }
-
----
 
 More signs coming soon...
