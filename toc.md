@@ -62,5 +62,10 @@ Project 2025 features a list of organizations known as the Project 2025 Advisory
 The "Authors and Contributors" section provides a thorough list of the individuals involved in the creation of Project 2025, including authors, editors, and other contributors. Controversy has arisen over potential affiliations between these individuals and the Republican presidential nominee. Any such connections are noted next to the names on the list. By clicking on a name, you can access detailed information about their position, background, relationship to the Trump administration, relevant controversies, and any potential concerns regarding their involvement with Project 2025.
 <br>
 
-
+<div style="text-align: center; margin-top: 40px;">
+  <a href="/signs">
+    <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+  </a>
+  <p style="margin-top: 10px; font-size: 0.95em;">Click the image to browse and download ready-to-print protest signs.</p>
+</div>
 
