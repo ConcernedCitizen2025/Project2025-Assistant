@@ -56,7 +56,8 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 <img src="/assets/images/protests/signs/no_clown_king_logo.jpg" alt="No Kings Clown Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
 
 **Download:**
-- [Download JPEG](../assets/images/protests/signs/no_clown_king.jpg){: .btn }
+- [Download JPEG](../assets/images/protests/signs/no_clown_king.jpg){: .btn.sign-download data-sign="no_clown_king.jpg" }
+
 
 ---
 
@@ -65,8 +66,8 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 <img src="/assets/images/protests/signs/give_doge_the_birdie_logo.jpg" alt="Give DOGE the Birdie Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
 
 **Downloads:**
-- [Download JPEG](../assets/images/protests/signs/give_doge_the_birdie.jpg){: .btn }
-- [Download PNG (Transparent)](../assets/images/protests/signs/give_doge_the_birdie.png){: .btn }
+- [Download JPEG](../assets/images/protests/signs/give_doge_the_birdie.jpg){: .btn.sign-download data-sign="give_doge_the_birdie.jpg" }
+- [Download PNG (Transparent)](../assets/images/protests/signs/give_doge_the_birdie.png){: .btn.sign-download data-sign="give_doge_the_birdie.png" }
 
 ---
 
@@ -75,8 +76,8 @@ Here’s how you can make your own high-quality 20x30 inch protest signs, just l
 <img src="/assets/images/protests/signs/milk_carton_logo.jpg" alt="Hands Off Our Courts Protest Sign" style="max-width: 400px; height: auto; margin-bottom: 10px;">
 
 **Downloads:**
-- [Download JPEG](../assets/images/protests/signs/milk_carton.jpg){: .btn }
-- [Download PNG (Transparent)](../assets/images/protests/signs/milk_carton.png){: .btn }
+- [Download JPEG](../assets/images/protests/signs/milk_carton.jpg){: .btn.sign-download data-sign="milk_carton.jpg" }
+- [Download PNG (Transparent)](../assets/images/protests/signs/milk_carton.png){: .btn.sign-download data-sign="milk_carton.png" }
 
 ---
 
