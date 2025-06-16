@@ -15,7 +15,7 @@ const mobilize = mRaw.map(ev => ({
   beginsOn: ev.date,
   lat:       ev.lat,
   lng:       ev.lng,
-  location:  ev.location,
+  location:  ev.location || "",
   links:     [{ title: ev.title, href: ev.link }],
 }));
 
@@ -26,11 +26,11 @@ const mobilizon = zRaw.map(ev => ({
   beginsOn: ev.date,
   lat:       ev.lat,
   lng:       ev.lng,
-  location:  ev.location,
+  location:  ev.location || "",
   links:     [{ title: ev.title, href: ev.link }],
 }));
 
-// 3) Merge Mobilize + Mobilizon by exact date+coords
+// 3) Merge by exact date+coords
 const combinedRaw = [...mobilize, ...mobilizon];
 const groups = new Map();
 combinedRaw.forEach(ev => {
@@ -46,16 +46,16 @@ const merged = Array.from(groups.values()).map(bucket => {
 });
 console.log(`➤ After merging Mobilize+Mobilizon: ${merged.length} markers`);
 
-// 4) Load manual file
+// 4) Manual file
 const pRaw = readJSON('assets/data/protest_events.json')
   .data?.searchEvents?.elements || [];
 console.log(`➤ Loaded ${pRaw.length} manual events`);
 
-// compute "today" in PST for filtering manual entries
+// PST cutoff for manual
 const todayPST = new Date().toLocaleDateString("en-CA", {
   timeZone: "America/Los_Angeles", year:"numeric", month:"2-digit", day:"2-digit"
 });
-console.log(`➤ Pacific‐Time cutoff date: ${todayPST}`);
+console.log(`➤ PST cutoff date: ${todayPST}`);
 
 const manual = pRaw
   .filter(ev => ev.date >= todayPST)
@@ -63,7 +63,7 @@ const manual = pRaw
     beginsOn: ev.date,
     lat:       ev.lat  ?? ev.latitude,
     lng:       ev.lng  ?? ev.longitude,
-    location:  ev.location,
+    location:  ev.location || "",
     links:     [{ title: ev.title, href: ev.link }],
   }));
 console.log(`➤ After filtering manual → ${manual.length} to include`);
@@ -71,24 +71,25 @@ console.log(`➤ After filtering manual → ${manual.length} to include`);
 // 5) Combine merged + manual
 const initial = merged.concat(manual);
 
-// 6) Geocode any no‐coord entries that have a location string
+// 6) Geocode missing coords using OSM Nominatim (1 req/sec)
 async function geocodeAll(arr) {
   const toGeo = arr.filter(e => (e.lat==null||e.lng==null) && e.location);
-  console.log(`🔍 Geocoding ${toGeo.length} missing‐coord events…`);
+  console.log(`🔍 Geocoding ${toGeo.length} missing-coord events…`);
   for (const ev of toGeo) {
     try {
       const url = "https://nominatim.openstreetmap.org/search?" +
         `q=${encodeURIComponent(ev.location)}&format=json&limit=1`;
-      const res = await fetch(url, { headers:{ 'User-Agent':'Project2025Assistant/1.0' } });
+      const res = await fetch(url, {
+        headers: { 'User-Agent':'Project2025Assistant/1.0 (github.com/ConcernedCitizen2025)' }
+      });
       const hits = await res.json();
       if (hits[0]) {
         ev.lat = parseFloat(hits[0].lat);
         ev.lng = parseFloat(hits[0].lon);
       }
     } catch (err) {
-      console.error("⚠️ Geocode error for", ev.location, err.message);
+      console.warn("⚠️  Geocode failed for", ev.location, err.message);
     }
-    // throttle 1 req/sec
     await new Promise(r => setTimeout(r, 1000));
   }
 }
@@ -96,15 +97,14 @@ async function geocodeAll(arr) {
 (async () => {
   await geocodeAll(initial);
 
-  // 7) Filter out anything still without coords
+  // 7) Final filter: only events with valid coords
   const final = initial.filter(ev => ev.lat!=null && ev.lng!=null);
   console.log(`✅ Final markers (incl. geocoded & manual): ${final.length}`);
 
-  // 8) Write out
-  const out = { data: final };
+  // 8) Write out for your map
   fs.writeFileSync(
     path.join(__dirname,'assets/data/merged_events.json'),
-    JSON.stringify(out, null, 2),
+    JSON.stringify({ data: final }, null, 2),
     'utf8'
   );
   console.log("→ Written assets/data/merged_events.json");
