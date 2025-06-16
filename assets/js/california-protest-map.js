@@ -1,69 +1,79 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const mapContainer = document.getElementById("california-map");
-  const dataUrl      = "/assets/data/merged_events.json";
-
-  if (!mapContainer) {
+// assets/js/california-protest-map.js
+document.addEventListener("DOMContentLoaded", async function () {
+  const container = document.getElementById("california-map");
+  if (!container) {
     console.error("Map container not found!");
     return;
   }
 
+  // Initialize Leaflet map once
   if (!window.map) {
-    window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
+    window.map = L.map(container).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(map);
+    }).addTo(window.map);
   }
+  const map = window.map;
 
-  // PST today in YYYY-MM-DD
+  // Today in PST, YYYY-MM-DD
   const today = new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Los_Angeles",
     year:    "numeric",
     month:   "2-digit",
-    day:     "2-digit"
+    day:     "2-digit",
   });
 
-  fetch(dataUrl)
-    .then(res => {
-      if (!res.ok) throw new Error("Failed to fetch merged events");
-      return res.json();
-    })
-    .then(obj => {
-      const events = obj.data || [];
+  try {
+    // Fetch merged + manual in parallel
+    const [mResp, pResp] = await Promise.all([
+      fetch("/assets/data/merged_events.json"),
+      fetch("/assets/data/protest_events.json"),
+    ]);
+    if (!mResp.ok || !pResp.ok) throw new Error("Failed to fetch data files");
 
-      // upcoming (by end date) & with coords
-      const upcoming = events
-        .filter(ev =>
-          ev.lat != null &&
-          ev.lng != null &&
-          ev.end >= today
-        )
-        .sort((a, b) => a.begin.localeCompare(b.begin));
+    const { data: merged = [] } = await mResp.json();
+    const pJson = await pResp.json();
+    const manualRaw = pJson.data?.searchEvents?.elements || [];
 
-      const markers = L.markerClusterGroup();
+    // Normalize manual entries
+    const manual = manualRaw
+      .map(ev => ({
+        begin: ev.date,
+        end:   ev.date,
+        lat:   ev.lat ?? ev.latitude,
+        lng:   ev.lng ?? ev.longitude,
+        location: ev.location,
+        links: [{ title: ev.title, href: ev.link }],
+      }))
+      // require coords and future
+      .filter(ev => ev.lat != null && ev.end >= today);
 
-      upcoming.forEach(ev => {
-        // date label: single vs range
-        const dateLabel = ev.begin === ev.end
-          ? ev.begin
-          : `${ev.begin} – ${ev.end}`;
+    // Combine + filter by end date
+    const all = merged
+      .concat(manual)
+      .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
+      .sort((a, b) => a.begin.localeCompare(b.begin));
 
-        // build links list
-        const linksHtml = ev.links
-          .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
-          .join("");
+    // Cluster and add
+    const cluster = L.markerClusterGroup();
+    all.forEach(ev => {
+      const dateLabel = ev.begin === ev.end
+        ? ev.begin
+        : `${ev.begin} – ${ev.end}`;
+      const links = ev.links
+        .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
+        .join("");
+      const popup = `
+        <strong>${ev.location || "Unknown"}</strong><br>
+        <em>${dateLabel}</em>
+        <ul style="margin:8px 0 0 16px;">${links}</ul>
+      `;
+      cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
+    });
+    map.addLayer(cluster);
 
-        const popup = `
-          <strong>${ev.location || "Unknown location"}</strong><br>
-          <em>${dateLabel}</em><br>
-          <ul style="padding-left:16px; margin:8px 0;">${linksHtml}</ul>
-        `;
-
-        L.marker([ev.lat, ev.lng])
-         .bindPopup(popup)
-         .addTo(markers);
-      });
-
-      map.addLayer(markers);
-    })
-    .catch(err => console.error("Error loading merged events:", err));
+    console.log(`✅ Rendered ${all.length} markers (incl. series & manual)`);
+  } catch (err) {
+    console.error("Error loading events:", err);
+  }
 });
