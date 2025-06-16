@@ -1,3 +1,4 @@
+// assets/js/california-protest-map.js
 document.addEventListener("DOMContentLoaded", function () {
   const mapContainer = document.getElementById("california-map");
   const mergedUrl    = "/assets/data/merged_events.json";
@@ -8,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // initialize or reuse the map
+  // initialize map
   if (!window.map) {
     window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).addTo(window.map);
   }
 
-  // get today's date in PST for filtering
+  // today in PST
   const today = new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Los_Angeles",
     year:    "numeric",
@@ -24,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
     day:     "2-digit"
   });
 
-  // helper to extract city name from a full location
   function extractCity(location) {
     if (!location) return "Unknown";
     const parts = location.split(",");
@@ -33,31 +33,33 @@ document.addEventListener("DOMContentLoaded", function () {
       : parts[0].trim();
   }
 
-  // load both JSON files in parallel
+  // fetch both JSONs
   Promise.all([
-    fetch(mergedUrl).then(res => res.ok ? res.json() : Promise.reject(res)),
-    fetch(manualUrl).then(res => res.ok ? res.json() : Promise.reject(res)),
+    fetch(mergedUrl).then(res => {
+      if (!res.ok) throw new Error("Failed to fetch merged_events.json");
+      return res.json();
+    }),
+    fetch(manualUrl).then(res => {
+      if (!res.ok) throw new Error("Failed to fetch protest_events.json");
+      return res.json();
+    }),
   ])
     .then(([autoJ, manualJ]) => {
-      // autoJ.data is an array of { beginsOn, lat, lng, location, links }
-      const autoEvents = autoJ.data || [];
+      console.log("👀 merged_events.json payload:", autoJ);
+      console.log("👀 protest_events.json payload:", manualJ);
 
-      // manualJ.data.searchEvents.elements is your manual array
-      const manualRaw = manualJ.data?.searchEvents?.elements || [];
-
-      // normalize manual events into the same shape
+      const autoEvents   = autoJ.data || [];
+      const manualRaw    = manualJ.data?.searchEvents?.elements || [];
       const manualEvents = manualRaw.map(ev => ({
         beginsOn: ev.date,
-        lat:       ev.lat  ?? ev.latitude,
-        lng:       ev.lng  ?? ev.longitude,
+        lat:       ev.lat   ?? ev.latitude,
+        lng:       ev.lng   ?? ev.longitude,
         location:  ev.location,
         links:     [{ title: ev.title, href: ev.link }],
       }));
 
-      // combine them (no dedupe between manual & auto)
       const all = [...autoEvents, ...manualEvents];
 
-      // filter only those with coords and date ≥ today
       const upcoming = all
         .filter(ev =>
           ev.lat  != null &&
@@ -69,10 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
           return c || a.beginsOn.localeCompare(b.beginsOn);
         });
 
-      // cluster and render
       const markers = L.markerClusterGroup();
       upcoming.forEach(ev => {
-        // build popup links list
         const list = ev.links
           .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
           .join("");
