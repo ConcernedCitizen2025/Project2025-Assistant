@@ -1,114 +1,60 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const mapContainer = document.getElementById("california-map");
-  const mergedUrl    = "/assets/data/merged_events.json";
-  const manualUrl    = "/assets/data/protest_events.json";
-  const virtualUrl   = "/assets/data/virtual_events.json";
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.getElementById("california-map");
+  if (!container) {
+    console.error("Map container not found!");
+    return;
+  }
 
-  if (!mapContainer) return console.error("Map container not found!");
-
-  // — Initialize or reuse the map —
+  // init map once
   if (!window.map) {
-    window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
+    window.map = L.map(container).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
   }
+  const map = window.map;
 
-  // PST “today” for filtering
+  // PST today for filtering
   const today = new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Los_Angeles",
-    year:    "numeric",
-    month:   "2-digit",
-    day:     "2-digit"
+    year:     "numeric",
+    month:    "2-digit",
+    day:      "2-digit"
   });
 
-  // Helper to pull city out of “A, B, C”
-  function extractCity(loc) {
-    if (!loc) return "Unknown";
-    const p = loc.split(",");
-    return p.length >= 2 ? p[p.length-2].trim() : p[0].trim();
-  }
+  fetch("assets/data/merged_events.json")
+    .then(res => {
+      if (!res.ok) throw new Error("Failed to fetch merged events");
+      return res.json();
+    })
+    .then(json => {
+      const events = json.data || [];
+      const markers = L.markerClusterGroup();
 
-  // 1) Load and render geo-coded events (merged + manual)
-  Promise.all([
-    fetch(mergedUrl).then(r => r.ok ? r.json() : Promise.reject(r)),
-    fetch(manualUrl).then(r => r.ok ? r.json() : Promise.reject(r)),
-  ])
-  .then(([geoJ, manualJ]) => {
-    const autoEvents = geoJ.data || [];
-    const manualRaw  = manualJ.data?.searchEvents?.elements || [];
-    const manualEvents = manualRaw.map(ev => ({
-      beginsOn: ev.date,
-      lat:       ev.lat  ?? ev.latitude,
-      lng:       ev.lng  ?? ev.longitude,
-      location:  ev.location,
-      title:     ev.title,
-      links:     [{ title: ev.title, href: ev.link }]
-    }));
+      events
+        .filter(ev => ev.lat!=null && ev.lng!=null && ev.end >= today)
+        .forEach(ev => {
+          const start = ev.begin;
+          const end   = ev.end;
+          const dateLabel = start === end ? start : `${start} – ${end}`;
+          const linksHtml = (ev.links||[])
+            .map(l=>`<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
+            .join("");
 
-    const all = [...autoEvents, ...manualEvents];
-    const upcoming = all
-      .filter(ev => ev.lat!=null && ev.lng!=null && ev.beginsOn >= today)
-      .sort((a,b) => {
-        const c = extractCity(a.location).localeCompare(extractCity(b.location));
-        return c || a.beginsOn.localeCompare(b.beginsOn);
-      });
+          const popup = `
+            <strong>${ev.title || ev.location}</strong><br/>
+            <em>${ev.location}</em><br/>
+            <em>${dateLabel}</em>
+            <ul style="margin:8px 0 0 16px;">${linksHtml}</ul>
+          `;
 
-    const markers = L.markerClusterGroup();
-    upcoming.forEach(ev => {
-      const list = ev.links.map(l =>
-        `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`
-      ).join("");
-      const popup = `
-        <strong>${ev.title || extractCity(ev.location)}</strong><br>
-        <em>${ev.location}</em><br>
-        Date: ${ev.beginsOn}<br>
-        <ul style="margin:8px 0;padding-left:16px;">${list}</ul>
-      `;
-      L.marker([ev.lat, ev.lng]).bindPopup(popup).addTo(markers);
-    });
-    window.map.addLayer(markers);
+          markers.addLayer(
+            L.marker([ev.lat, ev.lng]).bindPopup(popup)
+          );
+        });
 
-    // 2) Inject **one** virtual-events toggle right below the map
-    if (!document.getElementById("toggle-virtual")) {
-      const btn    = document.createElement("button");
-      const listEl = document.createElement("ul");
-      btn.id       = "toggle-virtual";
-      btn.textContent = "Show Virtual Events";
-      btn.className   = "virtual-toggle-btn";
-      listEl.id       = "virtual-events";
-      listEl.style.display = "none";
-
-      // insert under the map
-      mapContainer.parentNode.insertBefore(btn, mapContainer.nextSibling);
-      btn.insertAdjacentElement("afterend", listEl);
-
-      btn.addEventListener("click", () => {
-        const show = listEl.style.display === "none";
-        listEl.style.display = show ? "block" : "none";
-        btn.textContent = show ? "Hide Virtual Events" : "Show Virtual Events";
-      });
-
-      // 3) Load & populate virtual list, dropping entries without title/links
-      fetch(virtualUrl)
-        .then(r => r.ok ? r.json() : Promise.reject(r))
-        .then(json => {
-          (json.data||[]).forEach(ev => {
-            if (!ev.title || !ev.links?.length) return;
-            const dateStr = ev.begin === ev.end
-                          ? ev.begin
-                          : `${ev.begin} – ${ev.end}`;
-            const href    = ev.links[0].href;
-            const li      = document.createElement("li");
-            li.innerHTML  = `<strong>${dateStr}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`
-                          + (ev.location ? ` (<em>${ev.location}</em>)` : "");
-            listEl.appendChild(li);
-          });
-          // if no virtual events at all, hide the button
-          if (!listEl.children.length) btn.style.display = "none";
-        })
-        .catch(err => console.error("Error loading virtual events:", err));
-    }
-  })
-  .catch(err => console.error("Error loading geo/manual events:", err));
+      map.addLayer(markers);
+      console.log(`✅ Plotted ${markers.getLayers().length} markers`);
+    })
+    .catch(err => console.error("Error loading merged events:", err));
 });
