@@ -559,3 +559,24 @@ img {
     color: transparent; /* Makes text invisible */
     user-select: none; /* Prevents users from selecting it */
 }
+.virtual-toggle-btn {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 24px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.virtual-toggle-btn:hover {
+  background-color: #e04343;
+}
+#virtual-events {
+  list-style: disc inside;
+  margin: 8px 20px 20px;
+  font-size: 0.95rem;
+}
