@@ -1,52 +1,63 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const container = document.getElementById("california-map");
-  if (!container) {
-    console.error("Map container not found!");
-    return;
-  }
+  const mapContainer = document.getElementById("california-map");
+  const mergedUrl    = "/assets/data/merged_events.json";
+  const manualUrl    = "/assets/data/protest_events.json";
 
-  // init map only once
+  if (!mapContainer) return console.error("Map container not found!");
+
   if (!window.map) {
-    window.map = L.map(container).setView([36.7783, -119.4179], 6);
+    window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
   }
-  const map = window.map;
 
-  // PST today in YYYY-MM-DD
   const today = new Date().toLocaleDateString("en-CA", {
-    timeZone: "America/Los_Angeles",
-    year: "numeric", month: "2-digit", day: "2-digit"
+    timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit", day: "2-digit"
   });
 
-  fetch("/assets/data/merged_events.json")
-    .then(res => {
-      if (!res.ok) throw new Error("Fetch failed: " + res.status);
-      return res.json();
-    })
-    .then(json => {
-      const events = json.data || [];
-      const cluster = L.markerClusterGroup();
+  function extractCity(location) {
+    if (!location) return "Unknown";
+    const parts = location.split(",");
+    return parts.length >= 2 ? parts[parts.length - 2].trim() : parts[0].trim();
+  }
 
-      events
-        .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
-        .forEach(ev => {
-          const dateLabel = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
-          const links = (ev.links || [])
-            .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
-            .join("");
-          const popup = `
-            <strong>${ev.title || ev.location}</strong><br>
-            <em>${ev.location}</em><br>
-            <em>${dateLabel}</em>
-            <ul style="padding-left:16px;margin:8px 0;">${links}</ul>
-          `;
-          cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
-        });
+  Promise.all([
+    fetch(mergedUrl).then(r=>r.ok? r.json():Promise.reject(r)),
+    fetch(manualUrl).then(r=>r.ok? r.json():Promise.reject(r)),
+  ])
+  .then(([autoJ, manualJ]) => {
+    const autoEvents = autoJ.data || [];
+    const manualRaw  = manualJ.data?.searchEvents?.elements || [];
+    const manualEvents = manualRaw.map(ev=>({
+      beginsOn: ev.date,
+      lat:       ev.lat  ?? ev.latitude,
+      lng:       ev.lng  ?? ev.longitude,
+      location:  ev.location,
+      links:     [{ title: ev.title, href: ev.link }],
+      title:     ev.title
+    }));
 
-      map.addLayer(cluster);
-      console.log(`✅ Plotted ${cluster.getLayers().length} markers`);
-    })
-    .catch(err => console.error("Error loading merged_events.json:", err));
+    const all = [...autoEvents, ...manualEvents];
+    const upcoming = all
+      .filter(ev=>ev.lat!=null && ev.lng!=null && ev.beginsOn>=today)
+      .sort((a,b)=>{
+        const c = extractCity(a.location).localeCompare(extractCity(b.location));
+        return c || a.beginsOn.localeCompare(b.beginsOn);
+      });
+
+    const markers = L.markerClusterGroup();
+    upcoming.forEach(ev=>{
+      const list = ev.links.map(l=>`<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
+      const popup = `
+        <strong>${ev.title||extractCity(ev.location)}</strong><br>
+        <em>${ev.location}</em><br>
+        Date: ${ev.beginsOn}<br>
+        <ul style="padding-left:16px;margin:8px 0;">${list}</ul>
+      `;
+      L.marker([ev.lat, ev.lng]).bindPopup(popup).addTo(markers);
+    });
+    window.map.addLayer(markers);
+  })
+  .catch(err=>console.error("Error loading events:", err));
 });
