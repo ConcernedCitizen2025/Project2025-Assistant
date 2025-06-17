@@ -47,17 +47,21 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading merged_events.json:", err));
 
-  // 2) Fetch and render “virtual” events toggle
+  // 2) Fetch and render “virtual” events toggle (only one button)
   fetch("/assets/data/virtual_events.json")
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
       const virtual = (json.data || [])
-        .filter(ev => ev.title && ev.links && ev.links.length && ev.end >= today)
+        .filter(ev => ev.title && ev.links?.length && ev.end >= today)
         .sort((a, b) => a.begin.localeCompare(b.begin));
       if (!virtual.length) return;  // nothing to show
 
+      // avoid creating a second button
+      if (document.getElementById("virtual-toggle-btn")) return;
+
       // create toggle button
       const btn = document.createElement("button");
+      btn.id = "virtual-toggle-btn";
       btn.textContent = "Show Virtual Events";
       Object.assign(btn.style, {
         display: "block",
@@ -73,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // create hidden list
       const list = document.createElement("ul");
+      list.id = "virtual-events-list";
       Object.assign(list.style, {
         display: "none",
         maxWidth: "800px",
@@ -81,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
         listStyle: "none"
       });
 
-      // populate
+      // populate list
       virtual.forEach(ev => {
         const li = document.createElement("li");
         const dateLabel = ev.begin === ev.end
