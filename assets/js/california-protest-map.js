@@ -89,23 +89,40 @@ document.addEventListener("DOMContentLoaded", function () {
         btn.textContent = show ? "Hide Virtual Events" : "Show Virtual Events";
       });
 
-      // 3) Load & populate virtual list, dropping entries without title/links
+      // 3) Load & populate virtual list, dropping entries without title/links or generic virtual-only items
       fetch(virtualUrl)
         .then(r => r.ok ? r.json() : Promise.reject(r))
         .then(json => {
-          (json.data||[]).forEach(ev => {
+          (json.data || []).forEach(ev => {
+            // 1) must have a title and at least one link
             if (!ev.title || !ev.links?.length) return;
+
+            // 2) skip truly generic “Virtual…” entries
+            const loc = (ev.location || '').trim();
+            if (/^virtual\b/i.test(loc)) return;
+
+            // 3) build date (single or range)
             const dateStr = ev.begin === ev.end
-                          ? ev.begin
-                          : `${ev.begin} – ${ev.end}`;
-            const href    = ev.links[0].href;
-            const li      = document.createElement("li");
-            li.innerHTML  = `<strong>${dateStr}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`
-                          + (ev.location ? ` (<em>${ev.location}</em>)` : "");
+              ? ev.begin
+              : `${ev.begin} – ${ev.end}`;
+
+            // 4) first link
+            const href = ev.links[0].href;
+
+            // 5) render list item
+            const li = document.createElement("li");
+            li.innerHTML = `
+              <strong>${dateStr}</strong> — 
+              <a href="${href}" target="_blank">${ev.title}</a>
+              ${loc ? ` (<em>${loc}</em>)` : ''}
+            `;
             listEl.appendChild(li);
           });
-          // if no virtual events at all, hide the button
-          if (!listEl.children.length) btn.style.display = "none";
+
+          // hide the button if nothing made it into the list
+          if (!listEl.children.length) {
+            btn.style.display = 'none';
+          }
         })
         .catch(err => console.error("Error loading virtual events:", err));
     }
