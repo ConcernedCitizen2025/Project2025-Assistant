@@ -1,21 +1,23 @@
 // merge_events.js
-const fs    = require('fs');
-const path  = require('path');
-const fetch = require('node-fetch');
+const fs   = require('fs');
+const path = require('path');
 
-// helper to read JSON
-function readJSON(rel) {
-  return JSON.parse(fs.readFileSync(path.join(__dirname, rel), 'utf8'));
+// helper to read JSON files
+function readJSON(relPath) {
+  return JSON.parse(
+    fs.readFileSync(path.join(__dirname, relPath), 'utf8')
+  );
 }
 
-// 1) load raw feeds
+// 1) Load raw feeds
 const mRaw = readJSON('assets/data/mobilize_protests.json').events || [];
 const zRaw = readJSON('assets/data/mobilizon_events.json').data    || [];
 const pRaw = readJSON('assets/data/protest_events.json').data
             ?.searchEvents?.elements || [];
 
-// 2) normalize into a single list
+// 2) Normalize all events into a common shape
 const all = [
+  // Mobilize.us events
   ...mRaw.map(ev => ({
     title:    ev.title,
     begin:    ev.date,
@@ -25,11 +27,11 @@ const all = [
     location: ev.location,
     links:    [{ title: ev.title, href: ev.link }],
   })),
-  // ← UPDATED: only map items with beginsOn (or date) present
+
+  // Mobilizon events (use beginsOn if present)
   ...zRaw
     .filter(ev => ev.beginsOn || ev.date)
     .map(ev => {
-      // use beginsOn if available, otherwise date
       const ts = ev.beginsOn || ev.date;
       const d  = ts.split('T')[0];
       return {
@@ -42,6 +44,8 @@ const all = [
         links:    [{ title: ev.title, href: ev.link }],
       };
     }),
+
+  // Manual events
   ...pRaw.map(ev => ({
     title:    ev.title,
     begin:    ev.date,
@@ -53,36 +57,40 @@ const all = [
   }))
 ];
 
-
-// compute "today" in PST
+// 3) Compute "today" in PST for filtering
 const today = new Date().toLocaleDateString('en-CA', {
   timeZone: 'America/Los_Angeles',
-  year:    'numeric',
-  month:   '2-digit',
-  day:     '2-digit'
+  year:     'numeric',
+  month:    '2-digit',
+  day:      '2-digit'
 });
 
-// 3) split into geo-coded vs. virtual‐only
-const geo = all.filter(ev =>
-  ev.lat != null && ev.lng != null && ev.end >= today
+// 4) Split into geo‐coded vs. virtual
+const geoEvents = all.filter(ev =>
+  ev.lat  != null &&
+  ev.lng  != null &&
+  ev.end  >= today
 );
 
-const virtual = all
+const virtualEvents = all
   .filter(ev =>
-    (ev.lat == null || ev.lng == null) && ev.end >= today
+    (ev.lat == null || ev.lng == null) &&
+    ev.end >= today
   )
   .sort((a, b) => a.begin.localeCompare(b.begin));
 
-// 4) write out both JSONs
+// 5) Write out both JSON files
 fs.writeFileSync(
-  path.join(__dirname,'assets/data/merged_events.json'),
-  JSON.stringify({ data: geo }, null, 2),
-  'utf8'
-);
-fs.writeFileSync(
-  path.join(__dirname,'assets/data/virtual_events.json'),
-  JSON.stringify({ data: virtual }, null, 2),
+  path.join(__dirname, 'assets/data/merged_events.json'),
+  JSON.stringify({ data: geoEvents }, null, 2),
   'utf8'
 );
 
-console.log(`✅ Wrote ${geo.length} geo-events + ${virtual.length} virtual events`);
+fs.writeFileSync(
+  path.join(__dirname, 'assets/data/virtual_events.json'),
+  JSON.stringify({ data: virtualEvents }, null, 2),
+  'utf8'
+);
+
+console.log(`✅ Wrote ${geoEvents.length} geo‐coded events to merged_events.json`);
+console.log(`✅ Wrote ${virtualEvents.length} virtual events to virtual_events.json`);
