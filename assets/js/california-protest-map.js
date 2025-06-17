@@ -4,12 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const manualUrl    = "/assets/data/protest_events.json";
   const virtualUrl   = "/assets/data/virtual_events.json";
 
-  if (!mapContainer) {
-    console.error("Map container not found!");
-    return;
-  }
+  if (!mapContainer) return console.error("Map container not found!");
 
-  // initialize map
+  // — Initialize or reuse the map —
   if (!window.map) {
     window.map = L.map(mapContainer).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -25,28 +22,28 @@ document.addEventListener("DOMContentLoaded", function () {
     day:     "2-digit"
   });
 
-  // helper to extract city from "A, B, C"
+  // Helper to pull city out of “A, B, C”
   function extractCity(loc) {
     if (!loc) return "Unknown";
     const p = loc.split(",");
-    return p.length >= 2 ? p[p.length - 2].trim() : p[0].trim();
+    return p.length >= 2 ? p[p.length-2].trim() : p[0].trim();
   }
 
-  // load merged geo + manual then render markers
+  // 1) Load and render geo-coded events (merged + manual)
   Promise.all([
     fetch(mergedUrl).then(r => r.ok ? r.json() : Promise.reject(r)),
     fetch(manualUrl).then(r => r.ok ? r.json() : Promise.reject(r)),
   ])
   .then(([geoJ, manualJ]) => {
-    const autoEvents  = geoJ.data || [];
-    const manualRaw   = manualJ.data?.searchEvents?.elements || [];
+    const autoEvents = geoJ.data || [];
+    const manualRaw  = manualJ.data?.searchEvents?.elements || [];
     const manualEvents = manualRaw.map(ev => ({
       beginsOn: ev.date,
-      lat:      ev.lat  ?? ev.latitude,
-      lng:      ev.lng  ?? ev.longitude,
-      location: ev.location,
-      title:    ev.title,
-      links:    [{ title: ev.title, href: ev.link }]
+      lat:       ev.lat  ?? ev.latitude,
+      lng:       ev.lng  ?? ev.longitude,
+      location:  ev.location,
+      title:     ev.title,
+      links:     [{ title: ev.title, href: ev.link }]
     }));
 
     const all = [...autoEvents, ...manualEvents];
@@ -59,9 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const markers = L.markerClusterGroup();
     upcoming.forEach(ev => {
-      const list = ev.links
-        .map(l=>`<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
-        .join("");
+      const list = ev.links.map(l =>
+        `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`
+      ).join("");
       const popup = `
         <strong>${ev.title || extractCity(ev.location)}</strong><br>
         <em>${ev.location}</em><br>
@@ -72,40 +69,46 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     window.map.addLayer(markers);
 
-    // —— Virtual events toggle UI ——
-    const wrapper = mapContainer.parentNode;
-    const btn     = document.createElement("button");
-    btn.textContent = "Show Virtual Events";
-    btn.style.margin = "10px 0";
-    wrapper.appendChild(btn);
+    // 2) Inject **one** virtual-events toggle right below the map
+    if (!document.getElementById("toggle-virtual")) {
+      const btn    = document.createElement("button");
+      const listEl = document.createElement("ul");
+      btn.id       = "toggle-virtual";
+      btn.textContent = "Show Virtual Events";
+      btn.className   = "virtual-toggle-btn";
+      listEl.id       = "virtual-events";
+      listEl.style.display = "none";
 
-    const list = document.createElement("ul");
-    list.id = "virtual-events";
-    list.style.display = "none";
-    list.style.paddingLeft = "1em";
-    wrapper.appendChild(list);
+      // insert under the map
+      mapContainer.parentNode.insertBefore(btn, mapContainer.nextSibling);
+      btn.insertAdjacentElement("afterend", listEl);
 
-    btn.addEventListener("click", () => {
-      const hidden = list.style.display === "none";
-      list.style.display = hidden ? "block" : "none";
-      btn.textContent = hidden ? "Hide Virtual Events" : "Show Virtual Events";
-    });
+      btn.addEventListener("click", () => {
+        const show = listEl.style.display === "none";
+        listEl.style.display = show ? "block" : "none";
+        btn.textContent = show ? "Hide Virtual Events" : "Show Virtual Events";
+      });
 
-    // fetch & populate virtual list
-    fetch(virtualUrl)
-      .then(r => r.ok ? r.json() : Promise.reject(r))
-      .then(json => {
-        json.data.forEach(ev => {
-          const title = ev.title || ev.links[0]?.title || "Untitled";
-          const href  = ev.links[0]?.href  || "#";
-          const li    = document.createElement("li");
-          li.innerHTML = `<strong>${ev.begin}</strong> — <a href="${href}" target="_blank">${title}</a>${ev.location?` (<em>${ev.location}</em>)`:``}`;
-          list.appendChild(li);
-        });
-      })
-      .catch(err => console.error("Error loading virtual events:", err));
+      // 3) Load & populate virtual list, dropping entries without title/links
+      fetch(virtualUrl)
+        .then(r => r.ok ? r.json() : Promise.reject(r))
+        .then(json => {
+          (json.data||[]).forEach(ev => {
+            if (!ev.title || !ev.links?.length) return;
+            const dateStr = ev.begin === ev.end
+                          ? ev.begin
+                          : `${ev.begin} – ${ev.end}`;
+            const href    = ev.links[0].href;
+            const li      = document.createElement("li");
+            li.innerHTML  = `<strong>${dateStr}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`
+                          + (ev.location ? ` (<em>${ev.location}</em>)` : "");
+            listEl.appendChild(li);
+          });
+          // if no virtual events at all, hide the button
+          if (!listEl.children.length) btn.style.display = "none";
+        })
+        .catch(err => console.error("Error loading virtual events:", err));
+    }
   })
-  .catch(err => {
-    console.error("Error loading geo/manual events:", err);
-  });
+  .catch(err => console.error("Error loading geo/manual events:", err));
 });
