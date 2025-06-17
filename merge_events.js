@@ -25,15 +25,23 @@ const all = [
     location: ev.location,
     links:    [{ title: ev.title, href: ev.link }],
   })),
-  ...zRaw.map(ev => ({
-    title:    ev.title,
-    begin:    ev.beginsOn.split('T')[0],
-    end:      ev.beginsOn.split('T')[0],
-    lat:      ev.lat,
-    lng:      ev.lng,
-    location: ev.location,
-    links:    [{ title: ev.title, href: ev.link }],
-  })),
+  // ← UPDATED: only map items with beginsOn (or date) present
+  ...zRaw
+    .filter(ev => ev.beginsOn || ev.date)
+    .map(ev => {
+      // use beginsOn if available, otherwise date
+      const ts = ev.beginsOn || ev.date;
+      const d  = ts.split('T')[0];
+      return {
+        title:    ev.title,
+        begin:    d,
+        end:      d,
+        lat:      ev.lat,
+        lng:      ev.lng,
+        location: ev.location,
+        links:    [{ title: ev.title, href: ev.link }],
+      };
+    }),
   ...pRaw.map(ev => ({
     title:    ev.title,
     begin:    ev.date,
@@ -44,6 +52,7 @@ const all = [
     links:    [{ title: ev.title, href: ev.link }],
   }))
 ];
+
 
 // compute "today" in PST
 const today = new Date().toLocaleDateString('en-CA', {
