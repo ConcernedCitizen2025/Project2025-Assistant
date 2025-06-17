@@ -27,9 +27,10 @@ jobs:
       # fetch Mobilize data
       - run: npm run fetch:protests
 
-      # *** NEW STEP: merge and geocode everything ***
-      - name: Merge & geocode events
+      # *** NEW STEP: merge and split geo/virtual ***
+      - name: Merge & split geo/virtual
         run: node merge_events.js
+
 
       # now install Ruby & build
       - uses: ruby/setup-ruby@v1
