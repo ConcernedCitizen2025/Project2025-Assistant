@@ -65,7 +65,7 @@ const today = new Date().toLocaleDateString('en-CA', {
   day:      '2-digit'
 });
 
-// 4) Split into geo‐coded vs. virtual
+// 4) Split into geo‐coded vs. virtual only
 const geoEvents = all.filter(ev =>
   ev.lat  != null &&
   ev.lng  != null &&
@@ -77,6 +77,10 @@ const virtualEvents = all
     (ev.lat == null || ev.lng == null) &&
     ev.end >= today
   )
+  // drop any with no valid link
+  .filter(ev =>
+    ev.links.some(l => typeof l.href === 'string' && l.href.trim())
+  )
   .sort((a, b) => a.begin.localeCompare(b.begin));
 
 // 5) Write out both JSON files
@@ -85,12 +89,10 @@ fs.writeFileSync(
   JSON.stringify({ data: geoEvents }, null, 2),
   'utf8'
 );
-
 fs.writeFileSync(
   path.join(__dirname, 'assets/data/virtual_events.json'),
   JSON.stringify({ data: virtualEvents }, null, 2),
   'utf8'
 );
+console.log(`✅ ${geoEvents.length} geo and ${virtualEvents.length} virtual events written`);
 
-console.log(`✅ Wrote ${geoEvents.length} geo‐coded events to merged_events.json`);
-console.log(`✅ Wrote ${virtualEvents.length} virtual events to virtual_events.json`);
