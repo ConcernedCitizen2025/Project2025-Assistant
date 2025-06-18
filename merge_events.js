@@ -7,7 +7,51 @@ const fetch = require('node-fetch');
 const readJSON = file =>
   JSON.parse(fs.readFileSync(path.join(__dirname, file), 'utf8'));
 
-// geocode any event with a location string but no coords
+// 1) load raw feeds
+const mRaw = readJSON('assets/data/mobilize_protests.json').events   || [];
+const zRaw = readJSON('assets/data/mobilizon_events.json').data      || [];
+const pRaw = readJSON('assets/data/protest_events.json').data
+            ?.searchEvents?.elements || [];
+
+// 2) normalize into a single array
+const norm1 = ev => ({
+  title:    ev.title,
+  begin:    ev.date,
+  end:      ev.date,
+  lat:      ev.lat,
+  lng:      ev.lng,
+  location: ev.location,
+  links:    [{ title: ev.title, href: ev.link }]
+});
+const norm2 = ev => {
+  const d = (ev.beginsOn || '').split('T')[0];
+  return {
+    title:    ev.title,
+    begin:    d,
+    end:      d,
+    lat:      ev.lat,
+    lng:      ev.lng,
+    location: ev.location,
+    links:    [{ title: ev.title, href: ev.link }]
+  };
+};
+const norm3 = ev => ({
+  title:    ev.title,
+  begin:    ev.date,
+  end:      ev.date,
+  lat:      ev.lat  ?? ev.latitude,
+  lng:      ev.lng  ?? ev.longitude,
+  location: ev.location,
+  links:    [{ title: ev.title, href: ev.link }]
+});
+
+const all = [
+  ...mRaw.map(norm1),
+  ...zRaw.map(norm2),
+  ...pRaw.map(norm3),
+];
+
+// 3) geocode any with location but no coords
 async function geocodeMissing(list) {
   const toGeo = list.filter(ev =>
     (ev.lat == null || ev.lng == null) && ev.location
@@ -24,61 +68,17 @@ async function geocodeMissing(list) {
         ev.lng = parseFloat(js[0].lon);
       }
     } catch (err) {
-      console.warn('Geocode failed:', ev.location, err.message);
+      console.warn('⚠️ Geocode failed:', ev.location, err.message);
     }
-    await new Promise(r => setTimeout(r, 1000)); // throttle 1/sec
+    // throttle to avoid rate-limits
+    await new Promise(r => setTimeout(r, 1000));
   }
 }
-
+  
 ;(async () => {
-  // 1) load raw
-  const mRaw = readJSON('assets/data/mobilize_protests.json').events   || [];
-  const zRaw = readJSON('assets/data/mobilizon_events.json').data      || [];
-  const pRaw = readJSON('assets/data/protest_events.json').data
-              ?.searchEvents?.elements || [];
-
-  // 2) normalize into common shape
-  const norm1 = ev => ({
-    title:    ev.title,
-    begin:    ev.date,
-    end:      ev.date,
-    lat:      ev.lat,
-    lng:      ev.lng,
-    location: ev.location,
-    links:    [{ title: ev.title, href: ev.link }]
-  });
-  const norm2 = ev => {
-    const d = (ev.beginsOn || '').split('T')[0];
-    return {
-      title:    ev.title,
-      begin:    d,
-      end:      d,
-      lat:      ev.lat,
-      lng:      ev.lng,
-      location: ev.location,
-      links:    [{ title: ev.title, href: ev.link }]
-    };
-  };
-  const norm3 = ev => ({
-    title:    ev.title,
-    begin:    ev.date,
-    end:      ev.date,
-    lat:      ev.lat  ?? ev.latitude,
-    lng:      ev.lng  ?? ev.longitude,
-    location: ev.location,
-    links:    [{ title: ev.title, href: ev.link }]
-  });
-
-  const all = [
-    ...mRaw.map(norm1),
-    ...zRaw.map(norm2),
-    ...pRaw.map(norm3),
-  ];
-
-  // 3) geocode any missing coords (city, state, etc.)
   await geocodeMissing(all);
 
-  // PST today for filtering
+  // PST “today” cutoff (YYYY-MM-DD)
   const today = new Date().toLocaleDateString('en-CA', {
     timeZone: 'America/Los_Angeles',
     year:    'numeric',
@@ -86,16 +86,18 @@ async function geocodeMissing(list) {
     day:     '2-digit'
   });
 
-  // 4) split geo-coded vs virtual-only upcoming
+  // 4) split into geo-coded vs. virtual-only upcoming
   const geo = all.filter(ev =>
     ev.lat != null &&
     ev.lng != null &&
     ev.end >= today
   );
-  const virtual = all.filter(ev =>
-    (ev.lat == null || ev.lng == null) &&
-    ev.end >= today
-  ).sort((a, b) => a.begin.localeCompare(b.begin));
+  const virtual = all
+    .filter(ev =>
+      (ev.lat == null || ev.lng == null) &&
+      ev.end >= today
+    )
+    .sort((a, b) => a.begin.localeCompare(b.begin));
 
   // 5) write out both JSONs
   fs.writeFileSync(
