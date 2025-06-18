@@ -12,18 +12,21 @@ document.addEventListener("DOMContentLoaded", function () {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
 
-    // ↓ YOUR NEW SEARCH BOX ↓
-    const provider = new window.GeoSearch.OpenStreetMapProvider();
-    const searchControl = new window.GeoSearch.GeoSearchControl({
-      provider: provider,
-      style:   "bar",                         // inline search bar
-      showMarker: true,                       // drop a marker on result
-      autoClose:  true,                       // hide list after select
-      searchLabel: "Search by address, city…",// placeholder text
-    });
-    window.map.addControl(searchControl);
+    // ↓ add a never-collapsed search box via Control-Geocoder ↓
+    if (L.Control.Geocoder) {
+      L.Control.geocoder({
+        collapsed:   false,                      // show input by default
+        placeholder: "Search by address, city…", // placeholder text
+      })
+      .on("markgeocode", function(e) {
+        // zoom to the selected result
+        window.map.fitBounds(e.geocode.bbox);
+      })
+      .addTo(window.map);
+    }
   }
   const map = window.map;
+
 
 
   // PST “today” string for filtering
