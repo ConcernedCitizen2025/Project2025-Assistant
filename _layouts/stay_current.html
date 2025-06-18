@@ -171,21 +171,21 @@
   {% include google-analytics.html %}
 
   <!-- Scripts (put Leaflet & cluster before your script) -->
+   <!-- Leaflet & MarkerCluster (no defer) -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="/assets/js/california-protest-map.js?v={{ site.time | date: '%s' }}" defer></script>
-  <script src="/assets/js/sign-download-tracker.js" defer></script>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
-  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+  <!-- GeoSearch CSS & JS (with defer) -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet-geosearch@3.4.0/dist/geosearch.css"/>
   <script src="https://unpkg.com/leaflet-geosearch@3.4.0/dist/bundled/geosearch.umd.js"></script>
 
+  <!-- Then your map code (defer) -->
 
-
+  <script src="/assets/js/california-protest-map.js?v={{ site.time | date: '%s' }}" defer></script>
+  <script src="/assets/js/sign-download-tracker.js" defer></script>
+  
 
   <!-- Custom Styling -->
   <style>
