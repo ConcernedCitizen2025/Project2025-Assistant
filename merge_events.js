@@ -51,10 +51,12 @@ const all = [
   ...pRaw.map(norm3),
 ];
 
-// ── NEW: collapse “private” addresses to city/state ──
+// ── collapse “private” addresses to City, ST ──
 all.forEach(ev => {
-  if (typeof ev.location === 'string'
-      && ev.location.startsWith("This event’s address is private")) {
+  if (
+    typeof ev.location === 'string' &&
+    ev.location.toLowerCase().includes("address is private")
+  ) {
     const parts = ev.location.split(',').map(s => s.trim());
     if (parts.length >= 2) {
       // keep only the last two segments (City, ST)
