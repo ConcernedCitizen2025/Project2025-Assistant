@@ -11,22 +11,21 @@ document.addEventListener("DOMContentLoaded", function () {
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
-
-    // ↓ Replace with Leaflet-Geosearch autocomplete ↓
-    const provider = new GeoSearch.OpenStreetMapProvider();
-    const searchControl = new GeoSearch.GeoSearchControl({
-      provider: provider,
-      style:      "bar",                         // inline search bar
-      showMarker: true,                          // drop a marker on result
-      autoClose:  false,                         // keep input open
-      autoComplete: true,                        // enable suggestions
-      autoCompleteDelay: 250,                    // ms debounce
-      searchLabel: "Search by address, city…",   // placeholder
-    });
-    window.map.addControl(searchControl);
   }
   const map = window.map;
 
+  // ↓ Replace with Leaflet-Geosearch autocomplete ↓
+  const provider = new GeoSearch.OpenStreetMapProvider();
+  const searchControl = new GeoSearch.GeoSearchControl({
+    provider: provider,
+    style:      "bar",                         // inline search bar
+    showMarker: true,                          // drop a marker on result
+    autoClose:  false,                         // keep input open
+    autoComplete: true,                        // enable suggestions
+    autoCompleteDelay: 250,                    // ms debounce
+    searchLabel: "Search by address, city…",   // placeholder
+  });
+  window.map.addControl(searchControl);
 
 
 

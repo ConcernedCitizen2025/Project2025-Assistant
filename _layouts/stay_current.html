@@ -170,22 +170,30 @@
 
   {% include google-analytics.html %}
 
-  <!-- Scripts (put Leaflet & cluster before your script) -->
-   <!-- Leaflet & MarkerCluster (no defer) -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <!-- Leaflet & Clustering -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <script
+    src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+    defer
+  ></script>
 
-  <!-- GeoSearch CSS & JS (with defer) --
+
+
+  <!-- Leaflet-Geosearch (autocomplete) -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet-geosearch@3.4.0/dist/geosearch.css"/>
-  <script src="https://unpkg.com/leaflet-geosearch@3.4.0/dist/bundled/geosearch.umd.js"></script>-->
-
-  <!-- Geocoder -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
-  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script
+    src="https://unpkg.com/leaflet-geosearch@3.4.0/dist/bundled/geosearch.umd.js"
+    defer
+  ></script>
 
 
   <!-- Then your map code (defer) -->
