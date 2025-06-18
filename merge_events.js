@@ -73,8 +73,9 @@ async function geocodeMissing(list) {
   console.log(`🔍 Geocoding ${toGeo.length} missing-coord events…`);
   for (const ev of toGeo) {
     try {
-      const url = 'https://nominatim.openstreetmap.org/search?format=json&q=' +
-                  encodeURIComponent(ev.location);
+      const url = 'https://nominatim.openstreetmap.org/search?format=json' +
+        '&countrycodes=us' +
+        '&q=' + encodeURIComponent(ev.location);
       const res = await fetch(url, { headers: { 'User-Agent': 'Project2025Assistant/1.0' } });
       const js  = await res.json();
       if (js[0]) {

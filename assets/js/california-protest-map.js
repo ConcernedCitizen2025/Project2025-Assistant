@@ -11,6 +11,20 @@ document.addEventListener("DOMContentLoaded", function () {
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
+    // add the geocoder search box
+    if (L.Control.Geocoder) {
+      L.Control.geocoder({
+        collapsed: false,                    // show the input box by default
+        placeholder: 'Search by address, city…',
+        errorMessage: 'Nothing found.'
+      })
+      .on('markgeocode', function(e) {
+        // zoom and pan to the result
+        var bbox = e.geocode.bbox;
+        window.map.fitBounds(bbox);
+      })
+      .addTo(window.map);
+    }
   }
   const map = window.map;
 
