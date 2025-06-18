@@ -12,20 +12,21 @@ document.addEventListener("DOMContentLoaded", function () {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
 
-    // ↓ add a never-collapsed search box via Control-Geocoder ↓
-    if (L.Control.Geocoder) {
-      L.Control.geocoder({
-        collapsed:   false,                      // show input by default
-        placeholder: "Search by address, city…", // placeholder text
-      })
-      .on("markgeocode", function(e) {
-        // zoom to the selected result
-        window.map.fitBounds(e.geocode.bbox);
-      })
-      .addTo(window.map);
-    }
+    // ↓ Replace with Leaflet-Geosearch autocomplete ↓
+    const provider = new GeoSearch.OpenStreetMapProvider();
+    const searchControl = new GeoSearch.GeoSearchControl({
+      provider: provider,
+      style:      "bar",                         // inline search bar
+      showMarker: true,                          // drop a marker on result
+      autoClose:  false,                         // keep input open
+      autoComplete: true,                        // enable suggestions
+      autoCompleteDelay: 250,                    // ms debounce
+      searchLabel: "Search by address, city…",   // placeholder
+    });
+    window.map.addControl(searchControl);
   }
   const map = window.map;
+
 
 
 
