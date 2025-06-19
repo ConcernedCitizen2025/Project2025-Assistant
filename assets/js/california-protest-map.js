@@ -13,13 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }).addTo(window.map);
 
     // ↓ add a never-collapsed search box via Control-Geocoder ↓
-    if (L.Control.Geocoder) {
+    if (L.Control && L.Control.geocoder) {
       L.Control.geocoder({
         collapsed:   false,                      // show input by default
         placeholder: "Search by address, city…", // placeholder text
       })
       .on("markgeocode", function(e) {
-        // zoom to the selected result
         window.map.fitBounds(e.geocode.bbox);
       })
       .addTo(window.map);
