@@ -6,7 +6,7 @@ layout: null
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Reader – {{ page.url | replace:'/reader/','/' | split:'/' | last | capitalize }}</title>
+  <title>Reader – {{ page.url | replace:'/reader/','' | split:'/' | last | capitalize }}</title>
   <style>
     body { font-family:Georgia,serif;max-width:700px;margin:2em auto;line-height:1.6;color:#222; }
     #readAloudControls { margin:1em 0; }
@@ -20,7 +20,7 @@ layout: null
 
   <!-- back to normal -->
   <p style="text-align:right;">
-    <a href="{{ page.url | replace:'/reader/','/' }}"
+    <a href="{{ page.url | replace:'/reader/','' }}"
        style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
       ← Back to Normal View
     </a>
@@ -42,12 +42,14 @@ layout: null
 
   <!-- original content -->
   <main id="readableContent">
-    {% assign orig_url = page.url | replace:'/reader/','/' %}
-    {% assign orig = site.pages | where: "url", orig_url | first %}
+    {% assign orig_path = page.url | replace:'/reader/','' %}
+    {% assign orig = site.pages 
+         | where_exp:"p","p.url contains orig_path" 
+         | first %}
     {% if orig %}
       {{ orig.content | markdownify }}
     {% else %}
-      <p><strong>Error:</strong> could not find a page at <code>{{ orig_url }}</code></p>
+      <p><strong>Error:</strong> couldn’t find content for <code>{{ orig_path }}</code></p>
     {% endif %}
   </main>
 
