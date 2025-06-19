@@ -1,8 +1,7 @@
 ---
 layout: reader
-title:  "About Project 2025 Assistant"
-description: "Learn about …"
-keywords: "Project 2025, …"
+title: "{{ site.pages | where: 'url','/about/' | first.title }} – Reader View"
+permalink: /about/reader/
 ---
 
 {% include_relative about.md %}
