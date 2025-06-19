@@ -1,35 +1,50 @@
 ---
-# _layouts/reader.html
 layout: null
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} – Reader View</title>
   <style>
-    /* Simple, high-contrast reader styles */
-    body { font-family: Georgia, serif; max-width: 700px; margin: 2em auto; line-height: 1.6; color: #222; background:#fff; padding:0 1em; }
+    body {
+      font-family: Georgia, serif;
+      max-width: 700px;
+      margin: 2em auto;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+      padding: 0 1em;
+    }
     h1,h2,h3,h4 { margin-top: 1.2em; }
     a { color: #006; text-decoration: underline; }
+    /* read-aloud control panel fixes */
+    #readAloudControls { margin: 1em 0; }
   </style>
 </head>
-<div class="translate-container">
-    <p style="text-align:right;">
-        <a href="/about/reader/" 
-            style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
-            Reader View
-        </a>
-    </p>
-    {% include google_translate.html %}
-    {% include readAloudControls.html %}
-</div>
 <body>
-  {{ content }}
+  <!-- Back link -->
+  <p style="text-align:right;">
+    <a href="{{ page.url | replace:'/reader/','/' }}"
+       style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
+      ← Back to Normal View
+    </a>
+  </p>
 
-  <!-- Load ResponsiveVoice (with your API key) -->
+  <!-- Translate & Read-Aloud UI -->
+  <div class="translate-container" style="text-align:right; margin-bottom:1em;">
+    {% include google_translate.html %}
+  </div>
+  {% include readAloudControls.html %}
+
+  <!-- Main content -->
+  <main id="readableContent">
+    {{ content }}
+  </main>
+
+  <!-- Read-aloud scripts (no defer) -->
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
-  <!-- Load your custom readAloud.js script -->
-  <script src="/assets/js/readAloud.js" defer></script>
+  <script src="/assets/js/readAloud.js"></script>
 </body>
 </html>
