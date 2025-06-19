@@ -22,9 +22,9 @@ layout: null
     #readAloudControls { margin: 1em 0; }
   </style>
 </head>
-<body id="readableContent">
+<body>
 
-  <!-- back to normal view -->
+  <!-- Back to normal view -->
   <p style="text-align:right;">
     <a href="{{ page.url | remove: '/reader/' }}"
        style="background:#0073e6;color:#fff;padding:8px 12px;
@@ -33,32 +33,29 @@ layout: null
     </a>
   </p>
 
-  <!-- Google translate widget -->
-  <div class="translate-container" style="text-align:right;margin-bottom:1em;">
+  <!-- Google Translate widget -->
+  <div class="translate-container" style="text-align:right; margin-bottom:1em;">
     {% include google_translate.html %}
   </div>
 
-  <!-- VOICE PICKER -->
+  <!-- Voice picker -->
   <div id="voicePickerContainer" style="margin:1em 0;">
     <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
     <select id="voiceSelect"></select>
   </div>
 
-  {% include readAloudControls.html %}
-  {% comment %}
-    That partial must render elements with these IDs:
-    startReadAloud, playResume, pause, stop,
-    prevParagraph, nextParagraph, slow, normal, fast, closePanel,
-    readAloudControls, bufferIndicator, bufferProgress,
-    readingProgress, timeRemainingLabel, readAloudContainer
-  {% endcomment %}
+  <!-- Read-Aloud controls -->
+  <div id="readAloudContainer">
+    {% include readAloudControls.html %}
+  </div>
 
-  <!-- your page content -->
-  <main>
-    {{ content }}
+  <!-- Page content only (no front-matter) -->
+  <main id="readableContent">
+    {% assign about = site.pages | where: "url", page.url | first %}
+    {{ about.content }}
   </main>
 
-  <!-- read-aloud scripts (no defer) -->
+  <!-- Read-Aloud scripts (loaded last, no defer) -->
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
   <script src="/assets/js/readAloud.js"></script>
 </body>
