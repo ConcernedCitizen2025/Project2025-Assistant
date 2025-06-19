@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   map.addControl(searchControl);
 
-
+  //test
 
   // PST “today” string for filtering
   const today = new Date().toLocaleDateString("en-CA", {
