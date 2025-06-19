@@ -1,183 +1,116 @@
 // assets/js/readAloud.js
+document.addEventListener("DOMContentLoaded", () => {
+  // UI elements
+  const voiceSelect    = document.getElementById("voiceSelect");
+  const startBtn       = document.getElementById("startReadAloud");
+  const playBtn        = document.getElementById("playResume");
+  const pauseBtn       = document.getElementById("pause");
+  const stopBtn        = document.getElementById("stop");
+  const prevBtn        = document.getElementById("prevParagraph");
+  const nextBtn        = document.getElementById("nextParagraph");
+  const slowBtn        = document.getElementById("slow");
+  const normalBtn      = document.getElementById("normal");
+  const fastBtn        = document.getElementById("fast");
+  const readingBar     = document.getElementById("readingProgress");
+  const bufferBar      = document.getElementById("bufferProgress");
+  const bufferIcon     = document.getElementById("bufferIndicator");
+  const timeLabel      = document.getElementById("timeRemainingLabel");
 
-document.addEventListener('DOMContentLoaded', () => {
-  // ——— grab UI elements ———
-  const voiceSelect     = document.getElementById('voiceSelect');
-  const startBtn        = document.getElementById('startReadAloud');
-  const controlsDiv     = document.getElementById('readAloudControls');
-  const playResumeBtn   = document.getElementById('playResume');
-  const pauseBtn        = document.getElementById('pause');
-  const stopBtn         = document.getElementById('stop');
-  const prevBtn         = document.getElementById('prevParagraph');
-  const nextBtn         = document.getElementById('nextParagraph');
-  const slowBtn         = document.getElementById('slow');
-  const normalBtn       = document.getElementById('normal');
-  const fastBtn         = document.getElementById('fast');
-  const closePanelBtn   = document.getElementById('closePanel');
-  const readingBar      = document.getElementById('readingProgress');
-  const bufferBar       = document.getElementById('bufferProgress');
-  const bufferIndicator = document.getElementById('bufferIndicator');
-  const timeLabel       = document.getElementById('timeRemainingLabel');
-
-  // ——— collect text nodes ———
-  const paragraphs = Array.from(
-    document
-      .querySelectorAll('#readableContent p, #readableContent li, #readableContent h1, #readableContent h2, #readableContent h3')
+  // Gather paragraphs
+  const paras = Array.from(
+    document.querySelectorAll(
+      "#readableContent p, #readableContent li, " +
+      "#readableContent h1, h2, h3, h4, h5, h6"
+    )
   );
-  let paragraphWordCounts = [],
-      totalWords = 0;
-  paragraphs.forEach(el => {
-    let c = el.innerText.trim().split(/\s+/).length;
-    paragraphWordCounts.push(c);
-    totalWords += c;
-  });
+  let idx = 0, rate = 1.0, isPaused = false;
 
-  // ——— state ———
-  let currentIndex     = 0;
-  let speechRate       = 1.0;
-  let isPaused         = false;
-  let lastStop         = 0;
-  let wordsRead        = 0;
-  let paragraphStart   = 0;
-  let bufferStart      = 0;
-  let rafID           = null;
-  const SEC_PER_WORD   = 0.4;
+  // Filter out front-matter comments if any
+  const startIdx = paras.findIndex(p =>
+    !p.textContent.trim().startsWith("---")
+  );
+  if (startIdx > 0) paras.splice(0, startIdx);
 
-  // ——— “today” filter (not strictly needed here) ———
-  const today = new Date().toLocaleDateString('en-CA', {
-    timeZone: 'America/Los_Angeles', year:'numeric',month:'2-digit',day:'2-digit'
-  });
-
-  // ——— voice loading & picker ———
-  const pageLang = document.documentElement.lang.slice(0,2) || 'en';
-  let allVoices = [];
-  function populateVoices() {
-    allVoices = window.speechSynthesis.getVoices();
-    // pick only voices matching pageLang
-    let candidates = allVoices.filter(v => v.lang.startsWith(pageLang));
-    if (pageLang === 'en') {
-      // force UK
-      candidates = candidates.filter(v => v.lang.match(/^(en-GB|en-gb)/));
-    }
-    let female = candidates.find(v => /female/i.test(v.name)) || candidates[0];
-    let male   = candidates.find(v => /male/i.test(v.name))   || candidates[1] || female;
-    voiceSelect.innerHTML = '';
-    if (female) {
-      let o = document.createElement('option');
-      o.value = female.name; o.text = 'Female';
-      voiceSelect.appendChild(o);
-    }
-    if (male && male.name !== female.name) {
-      let o = document.createElement('option');
-      o.value = male.name; o.text = 'Male';
-      voiceSelect.appendChild(o);
-    }
-  }
-  window.speechSynthesis.addEventListener('voiceschanged', populateVoices);
-  populateVoices();
-
-  // ——— helpers ———
+  // Helper to compute remaining time & progress
   function updateProgress() {
-    let elapsed = (Date.now() - paragraphStart)/1000;
-    let count   = paragraphWordCounts[currentIndex];
-    let est     = count*SEC_PER_WORD/speechRate;
-    let frac    = Math.min(1, elapsed/est);
-    let read    = wordsRead + frac*count;
-    readingBar.style.width = (read/totalWords*100)+'%';
-
-    // remaining
-    let rem = Math.max(0, est - elapsed);
-    for (let i=currentIndex+1; i<paragraphs.length; i++){
-      rem += paragraphWordCounts[i]*SEC_PER_WORD/speechRate;
-    }
-    let m = Math.floor(rem/60), s = Math.floor(rem%60);
-    timeLabel.textContent = `Time remaining: ${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
-  }
-  function updateBuffer() {
-    let b = Math.min(1, (Date.now()-bufferStart)/2000);
-    bufferBar.style.width = (b*100)+'%';
-  }
-  function progressLoop() {
-    updateProgress(); updateBuffer();
-    rafID = requestAnimationFrame(progressLoop);
+    const totalWords = paras.reduce((sum, p) =>
+      sum + p.textContent.split(/\s+/).length, 0
+    );
+    const readWords  = paras
+      .slice(0, idx)
+      .reduce((sum, p) => sum + p.textContent.split(/\s+/).length, 0);
+    const pct = Math.min(100, (readWords/totalWords)*100);
+    readingBar.style.width = pct + "%";
+    // a rough remaining time
+    const remWords = totalWords - readWords;
+    const secs = Math.ceil(remWords*0.4 / rate);
+    timeLabel.textContent = `Time left: ${Math.floor(secs/60)}:` +
+      String(secs%60).padStart(2,"0");
   }
 
-  function speakText(txt) {
-    const u = new SpeechSynthesisUtterance(txt);
-    u.voice = allVoices.find(v=>v.name===voiceSelect.value);
-    u.lang  = u.voice.lang;
-    u.rate  = speechRate;
-    u.onstart = () => { bufferStart=Date.now(); bufferIndicator.style.display='inline-block'; };
-    u.onend   = () => {
-      bufferIndicator.style.display='none';
-      bufferBar.style.width='0%';
-      let w = txt.trim().split(/\s+/).length;
-      wordsRead += w;
-      if (!isPaused && currentIndex < paragraphs.length-1) {
-        currentIndex++; readCurrentParagraph();
-      } else {
-        cancelAnimationFrame(rafID);
+  // Speak a given text chunk
+  function speak(text) {
+    if (!voiceSelect.value) return;
+    const utt = new SpeechSynthesisUtterance(text);
+    const voice = speechSynthesis.getVoices()
+      .find(v => v.name === voiceSelect.value);
+    if (voice) utt.voice = voice;
+    utt.rate = rate;
+    utt.onstart = () => bufferIcon.style.display = "none";
+    utt.onend   = () => {
+      updateProgress();
+      if (!isPaused && idx < paras.length-1) {
+        idx++;
+        readCurrent();
       }
     };
-    window.speechSynthesis.speak(u);
+    speechSynthesis.speak(utt);
   }
 
-  let stopFound=false;
-  function readCurrentParagraph() {
-    let full = paragraphs[currentIndex].innerText;
-    stopFound = full.includes('[STOP]');
-    let txt     = stopFound ? full.split('[STOP]')[0] : full;
-    paragraphStart = Date.now();
-    bufferStart    = Date.now();
-    updateProgress();
-    updateBuffer();
-    speakText(txt);
+  function readCurrent() {
+    bufferIcon.style.display = "inline";
+    const text = paras[idx].textContent.replace(/\[STOP\].*$/, "");
+    speak(text);
   }
 
-  // ——— event handlers ———
-  startBtn.addEventListener('click', () => {
-    currentIndex=0; wordsRead=0; isPaused=false;
-    startBtn.style.display = 'none';
-    controlsDiv.style.display = 'block';
-    readCurrentParagraph();
-    progressLoop();
-  });
-  playResumeBtn.addEventListener('click', ()=>{
-    if (isPaused) { window.speechSynthesis.resume(); isPaused=false; }
-    else { readCurrentParagraph(); }
-  });
-  pauseBtn.addEventListener('click', ()=>{
-    window.speechSynthesis.pause(); isPaused=true;
-  });
-  stopBtn.addEventListener('click', ()=>{
-    let now=Date.now();
-    if (now-lastStop<2000) { currentIndex=0; wordsRead=0; }
-    lastStop=now;
-    window.speechSynthesis.cancel();
-  });
-  nextBtn.addEventListener('click', ()=>{
-    window.speechSynthesis.cancel();
-    if (currentIndex<paragraphs.length-1) { currentIndex++; readCurrentParagraph(); }
-  });
-  prevBtn.addEventListener('click', ()=>{
-    window.speechSynthesis.cancel();
-    if (currentIndex>0) { currentIndex--; readCurrentParagraph(); }
-  });
-  slowBtn.addEventListener('click', ()=>{
-    speechRate = Math.max(0.5, speechRate-0.1);
-    window.speechSynthesis.cancel(); readCurrentParagraph();
-  });
-  normalBtn.addEventListener('click', ()=>{
-    speechRate=1.0; window.speechSynthesis.cancel(); readCurrentParagraph();
-  });
-  fastBtn.addEventListener('click', ()=>{
-    speechRate=Math.min(2.0, speechRate+0.1);
-    window.speechSynthesis.cancel(); readCurrentParagraph();
-  });
-  closePanelBtn.addEventListener('click', ()=>{
-    window.speechSynthesis.cancel();
-    controlsDiv.style.display='none';
-    startBtn.style.display='inline-block';
-    cancelAnimationFrame(rafID);
-  });
+  // Load and populate `voiceSelect`
+  function loadVoices() {
+    const all = speechSynthesis.getVoices();
+    voiceSelect.innerHTML = "";
+    const lang = document.documentElement.lang.slice(0,2);
+    let opts = [];
+    if (lang === "en") {
+      // British Female/Male
+      const f = all.find(v=>v.lang==="en-GB" && /female/i.test(v.name));
+      const m = all.find(v=>v.lang==="en-GB" && /male/i.test(v.name));
+      if (f) opts.push({name:f.name,label:"Female"});
+      if (m) opts.push({name:m.name,label:"Male"});
+    }
+    if (!opts.length) {
+      // fallback to page language voices
+      opts = all
+        .filter(v=>v.lang.startsWith(lang))
+        .map(v=>({ name:v.name, label:v.name }));
+    }
+    // ensure at least two
+    opts.slice(0,2).forEach(o=>{
+      const el = document.createElement("option");
+      el.value = o.name;
+      el.text  = o.label;
+      voiceSelect.appendChild(el);
+    });
+  }
+  speechSynthesis.onvoiceschanged = loadVoices;
+  loadVoices();
+
+  // Button handlers
+  startBtn.onclick  = () => { idx=0; isPaused=false; readCurrent(); };
+  playBtn.onclick   = () => { isPaused=false; speechSynthesis.resume(); };
+  pauseBtn.onclick  = () => { isPaused=true;  speechSynthesis.pause();  };
+  stopBtn.onclick   = () => { isPaused=true;  speechSynthesis.cancel(); idx=0; updateProgress(); };
+  nextBtn.onclick   = () => { speechSynthesis.cancel(); if(idx<paras.length-1) idx++; readCurrent(); };
+  prevBtn.onclick   = () => { speechSynthesis.cancel(); if(idx>0) idx--; readCurrent(); };
+  slowBtn.onclick   = () => { rate=Math.max(0.5,rate-0.1); };
+  normalBtn.onclick = () => { rate=1.0; };
+  fastBtn.onclick   = () => { rate=Math.min(2.0,rate+0.1); };
 });
