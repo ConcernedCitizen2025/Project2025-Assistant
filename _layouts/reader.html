@@ -24,38 +24,36 @@ layout: null
 </head>
 <body>
 
-  <!-- Back to normal view -->
+  <!-- back to normal -->
   <p style="text-align:right;">
     <a href="{{ page.url | remove: '/reader/' }}"
-       style="background:#0073e6;color:#fff;padding:8px 12px;
-              border-radius:4px;text-decoration:none;">
+       style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
       ← Back to Normal View
     </a>
   </p>
 
-  <!-- Google Translate widget -->
+  <!-- Google-Translate -->
   <div class="translate-container" style="text-align:right; margin-bottom:1em;">
     {% include google_translate.html %}
   </div>
 
-  <!-- Voice picker -->
+  <!-- voice picker -->
   <div id="voicePickerContainer" style="margin:1em 0;">
     <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
     <select id="voiceSelect"></select>
   </div>
 
-  <!-- Read-Aloud controls -->
+  <!-- read-aloud controls -->
   <div id="readAloudContainer">
     {% include readAloudControls.html %}
   </div>
 
-  <!-- Your page’s rendered markdown -->
+  <!-- page content -->
   <main id="readableContent">
     {{ content }}
   </main>
 
-  <!-- Read-Aloud scripts (no defer!) -->
-  <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+  <!-- scripts (no defer!) -->
   <script src="/assets/js/readAloud.js"></script>
 </body>
 </html>
