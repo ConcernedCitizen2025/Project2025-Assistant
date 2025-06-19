@@ -1,8 +1,29 @@
 // readAloud.js
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Force a consistent voice for all readings.
-    const VOICE = "UK English Female";
+    // ─────────── VOICE MAP ───────────
+    const VOICES_BY_LANG = {
+      en: [
+        { label: "English (US) – Female", value: "US English Female" },
+        { label: "English (US) – Male",   value: "US English Male"   },
+        { label: "English (UK) – Female", value: "UK English Female" },
+        { label: "English (UK) – Male",   value: "UK English Male"   },
+      ],
+      fr: [
+        { label: "Français – Féminin",  value: "French Female" },
+        { label: "Français – Masculin", value: "French Male"   },
+      ],
+      es: [
+        { label: "Español – Femenino",   value: "Spanish Female" },
+        { label: "Español – Masculino",  value: "Spanish Male"   },
+      ],
+      de: [
+        { label: "Deutsch – Weiblich",  value: "Deutsch Female" },
+        { label: "Deutsch – Männlich",  value: "Deutsch Male"   },
+      ],
+      // …add more languages here as needed…
+    };
+
 
     // Global state variables
     let paragraphs = [];  // This will be our collection of text-bearing elements.
@@ -16,6 +37,21 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentParagraphStartTime = 0;
     let bufferingStartTime = 0;
     const SECONDS_PER_WORD = 0.4; // Base time per word at rate 1.0
+
+    // ───────── POPULATE VOICE DROPDOWN ─────────
+    const voiceSelect = document.getElementById("voiceSelect");
+    // detect two-letter page lang, fallback to "en"
+    const pageLang = (document.documentElement.lang || "en").slice(0,2);
+    const options  = VOICES_BY_LANG[pageLang] || VOICES_BY_LANG.en;
+
+    // fill the <select>
+    options.forEach(opt=>{
+      const o = document.createElement("option");
+      o.value = opt.value;
+      o.text  = opt.label;
+      voiceSelect.appendChild(o);
+    });
+
 
     // --- Collect All Relevant Text Elements ---
     // This selects paragraphs (<p>), list items (<li>), and headings (<h1>-<h6>) within #readableContent.
@@ -155,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       bufferIndicator.style.display = "inline-block";
       bufferProgressElem.style.width = "0%";
       
-      responsiveVoice.speak(text, VOICE, {
+      responsiveVoice.speak(text, voiceSelect.value, { 
         rate: speechRate,
         onstart: function() {
           bufferIndicator.style.display = "none";
