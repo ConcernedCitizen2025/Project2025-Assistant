@@ -20,6 +20,13 @@ layout: null
     h1,h2,h3,h4 { margin-top: 1.2em; }
     a { color: #006; text-decoration: underline; }
     #readAloudControls { margin: 1em 0; }
+    .ra-button { margin:0 4px; }
+    #readingProgressContainer,
+    #bufferProgressContainer {
+      width: 100%; background: #eee; height: 8px; margin: 8px 0;
+    }
+    #readingProgress { background:#0073e6; width:0%; height:100%; }
+    #bufferProgress  { background:#ccc;   width:0%; height:100%; }
   </style>
 </head>
 <body>
@@ -27,33 +34,34 @@ layout: null
   <!-- back to normal -->
   <p style="text-align:right;">
     <a href="{{ page.url | remove: '/reader/' }}"
-       style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
+       style="background:#0073e6;color:#fff;
+              padding:8px 12px;border-radius:4px;
+              text-decoration:none;">
       ← Back to Normal View
     </a>
   </p>
 
-  <!-- Google-Translate -->
-  <div class="translate-container" style="text-align:right; margin-bottom:1em;">
+  <!-- translate widget -->
+  <div style="text-align:right; margin-bottom:1em;">
     {% include google_translate.html %}
   </div>
 
   <!-- voice picker -->
-  <div id="voicePickerContainer" style="margin:1em 0;">
+  <div style="margin:1em 0;">
     <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
     <select id="voiceSelect"></select>
   </div>
 
   <!-- read-aloud controls -->
-  <div id="readAloudContainer">
-    {% include readAloudControls.html %}
+  {% include readAloudControls.html %}
+
+  <!-- your content -->
+  <div id="readableContent">
+    {{ content }}
   </div>
 
-  <!-- page content -->
-  <main id="readableContent">
-    {{ content }}
-  </main>
-
-  <!-- scripts (no defer!) -->
+  <!-- responsiveVoice.js (we won’t use it any more) -->
+  <!-- Replace with Web Speech API below -->
   <script src="/assets/js/readAloud.js"></script>
 </body>
 </html>
