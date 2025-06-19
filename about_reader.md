@@ -1,8 +1,4 @@
 ---
 layout: reader
-title: "{{ site.pages | where: 'url','/about/' | first.title }} – Reader View"
-permalink: /about/reader/
+permalink: /about/reader/   # or /contact/reader/, matching your original URL
 ---
-
-{%- assign about = site.pages | where: "url", "/about/" | first -%}
-{{ about.content | markdownify }}
