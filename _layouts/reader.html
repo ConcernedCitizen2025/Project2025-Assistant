@@ -4,44 +4,30 @@ layout: null
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{{ page.title }} – Reader View</title>
   <style>
-    body {
-      font-family: Georgia, serif;
-      max-width: 700px;
-      margin: 2em auto;
-      line-height: 1.6;
-      color: #222;
-      background: #fff;
-      padding: 0 1em;
-    }
-    h1,h2,h3,h4 { margin-top: 1.2em; }
-    a { color: #006; text-decoration: underline; }
-    #readAloudControls { margin: 1em 0; }
+    body { font-family: Georgia, serif; max-width:700px; margin:2em auto; line-height:1.6; color:#222; }
+    h1,h2,h3,h4 { margin-top:1.2em; }
+    a { color:#006; text-decoration:underline; }
     .ra-button { margin:0 4px; }
-    #readingProgressContainer,
-    #bufferProgressContainer {
-      width: 100%; background: #eee; height: 8px; margin: 8px 0;
-    }
-    #readingProgress { background:#0073e6; width:0%; height:100%; }
-    #bufferProgress  { background:#ccc;   width:0%; height:100%; }
+    #readAloudControls { margin:1em 0; }
+    #readingProgressContainer, #bufferProgressContainer { width:100%; height:8px; background:#eee; margin:8px 0; }
+    #readingProgress { width:0; height:100%; background:#0073e6; }
+    #bufferProgress  { width:0; height:100%; background:#ccc; }
   </style>
 </head>
 <body>
-
-  <!-- back to normal -->
+  <!-- back link -->
   <p style="text-align:right;">
     <a href="{{ page.url | remove: '/reader/' }}"
-       style="background:#0073e6;color:#fff;
-              padding:8px 12px;border-radius:4px;
-              text-decoration:none;">
+       style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
       ← Back to Normal View
     </a>
   </p>
 
-  <!-- translate widget -->
+  <!-- translate -->
   <div style="text-align:right; margin-bottom:1em;">
     {% include google_translate.html %}
   </div>
@@ -55,13 +41,12 @@ layout: null
   <!-- read-aloud controls -->
   {% include readAloudControls.html %}
 
-  <!-- your content -->
-  <div id="readableContent">
+  <!-- **THIS** is where your About text goes: -->
+  <main id="readableContent">
     {{ content }}
-  </div>
+  </main>
 
-  <!-- responsiveVoice.js (we won’t use it any more) -->
-  <!-- Replace with Web Speech API below -->
+  <!-- Web Speech API read-aloud -->
   <script src="/assets/js/readAloud.js"></script>
 </body>
 </html>

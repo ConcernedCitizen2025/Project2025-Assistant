@@ -5,4 +5,4 @@ permalink: /about/reader/
 ---
 
 {%- assign about = site.pages | where: "url", "/about/" | first -%}
-{{ about.content }}
+{{ about.content | markdownify }}
