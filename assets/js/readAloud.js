@@ -1,27 +1,99 @@
 // readAloud.js
 
 document.addEventListener('DOMContentLoaded', function() {
-    // ─────────── VOICE MAP ───────────
-    // readAloud.js
-    const VOICES_BY_LANG = {
-      en: [
-        { label: "English (UK) – Female", value: "UK English Female" },
-        { label: "English (UK) – Male",   value: "UK English Male"   },
-      ],
-      es: [
-        { label: "Español – Femenino",  value: "Spanish Female" },
-        { label: "Español – Masculino", value: "Spanish Male"   },
-      ],
-      fr: [
-        { label: "Français – Féminin",  value: "French Female" },
-        { label: "Français – Masculin", value: "French Male"   },
-      ],
-      de: [
-        { label: "Deutsch – Weiblich",  value: "Deutsch Female" },
-        { label: "Deutsch – Männlich",  value: "Deutsch Male"   },
-      ],
-      // …and so on for any other languages you want to support…
+    function speakText(text) {
+      const utter = new SpeechSynthesisUtterance(text);
+      // pick the voice the user chose
+      utter.voice = speechSynthesis.getVoices()
+                        .find(v => v.name === voiceSelect.value);
+      // make sure the utterance language matches the voice
+      utter.lang = utter.voice.lang;
+      utter.rate = speechRate;
+      utter.onstart = () => {
+        bufferIndicator.style.display = "none";
+        bufferProgressElem.style.width = "100%";
+      };
+      utter.onend = () => {
+        // count words and advance or stop
+        const count = text.split(/\s+/).filter(w=>w).length;
+        wordsRead += count;
+        if (!isPaused && !stopFound) {
+          currentParagraphIndex++;
+          if (currentParagraphIndex < paragraphs.length) {
+            readCurrentParagraph();
+          } else {
+            stopProgressLoop();
+          }
+        } else {
+          stopProgressLoop();
+        }
+      };
+      speechSynthesis.speak(utter);
+    }
+    // ────────────────────────────────────────────────────────
+    // VOICE SELECTION (drop into your DOMContentLoaded handler)
+    // ────────────────────────────────────────────────────────
+    const voiceSelect = document.getElementById("voiceSelect");
+    const pageLang    = (document.documentElement.lang || "en").slice(0,2);
+
+    // when voices load (and again if they change)
+    speechSynthesis.onvoiceschanged = () => {
+      const allVoices = speechSynthesis.getVoices();
+      let female, male;
+
+      if (pageLang === "en") {
+        // English: force UK voices
+        female = allVoices.find(v =>
+          v.lang.startsWith("en-") && /female/i.test(v.name) && /gb/i.test(v.lang)
+        );
+        male   = allVoices.find(v =>
+          v.lang.startsWith("en-") && /male/i.test(v.name)   && /gb/i.test(v.lang)
+        );
+        // fallback to any en-GB if exact gender not found
+        if (!female) female = allVoices.find(v => v.lang.startsWith("en-"));
+        if (!male)   male   = allVoices.find(v => v.lang.startsWith("en-"));
+      } else {
+        // Non-English: pick any voices matching pageLang
+        female = allVoices.find(v =>
+          v.lang.startsWith(pageLang) && /female/i.test(v.name)
+        );
+        male   = allVoices.find(v =>
+          v.lang.startsWith(pageLang) && /male/i.test(v.name)
+        );
+        // fallback: if only one voice exists, use it for both
+        const anyMatching = allVoices.filter(v => v.lang.startsWith(pageLang));
+        if (!female) female = anyMatching[0];
+        if (!male)   male   = anyMatching.length>1 ? anyMatching[1] : anyMatching[0];
+      }
+
+      // build dropdown
+      voiceSelect.innerHTML = "";
+      if (female) {
+        let o = document.createElement("option");
+        o.value = female.name;
+        o.text  = "Female";
+        voiceSelect.appendChild(o);
+      }
+      if (male && male.name !== female?.name) {
+        let o = document.createElement("option");
+        o.value = male.name;
+        o.text  = "Male";
+        voiceSelect.appendChild(o);
+      }
+      // if neither found, fall back to all English voices
+      if (!voiceSelect.children.length) {
+        allVoices
+          .filter(v => v.lang.startsWith("en"))
+          .slice(0,2)
+          .forEach(v => {
+            let o = document.createElement("option");
+            o.value = v.name;
+            o.text  = v.name + ` (${v.lang})`;
+            voiceSelect.appendChild(o);
+          });
+      }
     };
+
 
 
 
@@ -39,9 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const SECONDS_PER_WORD = 0.4; // Base time per word at rate 1.0
 
     // ───────── POPULATE VOICE DROPDOWN ─────────
-    const voiceSelect = document.getElementById("voiceSelect");
     // detect two-letter page lang, fallback to "en"
-    const pageLang = (document.documentElement.lang || "en").slice(0,2);
     const options  = VOICES_BY_LANG[pageLang] || VOICES_BY_LANG.en;
 
     // fill the <select>
@@ -200,119 +270,114 @@ document.addEventListener('DOMContentLoaded', function() {
       bufferIndicator.style.display = "inline-block";
       bufferProgressElem.style.width = "0%";
       
-      responsiveVoice.speak(text, voiceSelect.value, {
-        rate: speechRate,
-        onstart() {
-          bufferIndicator.style.display = "none";
-          bufferProgressElem.style.width = "100%";
-        },
-        onend: function() {
-          // Update words read based on the spoken text.
-          let count = text.split(/\s+/).filter(word => word.trim() !== "").length;
-          wordsRead += count;
-          if (!isPaused && !stopFound) {
-            currentParagraphIndex++;
-            if (currentParagraphIndex < paragraphs.length) {
-              readCurrentParagraph();
-            } else {
-              stopProgressLoop();
-            }
-          } else {
-            // If a stop token was found, then end reading.
-            stopProgressLoop();
-          }
-        }
-      });
+      function readCurrentParagraph() {
+        if (currentParagraphIndex < 0 ||
+            currentParagraphIndex >= paragraphs.length) return;
+
+        let fullText = paragraphs[currentParagraphIndex].innerText;
+        stopFound = fullText.includes("[STOP]");
+        let text = stopFound
+          ? fullText.split("[STOP]")[0]
+          : fullText;
+
+        currentParagraphStartTime = Date.now();
+        bufferingStartTime = Date.now();
+        bufferIndicator.style.display = "inline-block";
+        bufferProgressElem.style.width = "0%";
+
+        // now call our speakText helper
+        speakText(text);
+      };
     }
 
     // --- Event Listeners ---
 
-    // Start reading: hide the start button, show the control panel (and fix it to the top),
-    // then start reading and progress updates.
-    startBtn.addEventListener('click', function() {
+    // Start reading
+    startBtn.addEventListener('click', () => {
       currentParagraphIndex = 0;
       wordsRead = 0;
       isPaused = false;
-      startBtn.style.display = "none";
-      controlsDiv.style.display = "block";
-      container.classList.add("fixedControlPanel");
+      startBtn.style.display = 'none';
+      controlsDiv.style.display = 'block';
+      container.classList.add('fixedControlPanel');
       readCurrentParagraph();
       startProgressLoop();
     });
-    
-    // Play/Resume button.
-    playResumeBtn.addEventListener('click', function() {
+
+    // Play/Resume
+    playResumeBtn.addEventListener('click', () => {
       if (isPaused) {
-        responsiveVoice.resume();
+        speechSynthesis.resume();
         isPaused = false;
       } else {
         readCurrentParagraph();
       }
     });
-    
-    // Pause button.
-    pauseBtn.addEventListener('click', function() {
-      responsiveVoice.pause();
+
+    // Pause
+    pauseBtn.addEventListener('click', () => {
+      speechSynthesis.pause();
       isPaused = true;
     });
-    
-    // Stop button: if clicked twice within 2 seconds, reset to the beginning.
-    stopBtn.addEventListener('click', function() {
-      let now = Date.now();
+
+    // Stop (double-tap reset)
+    stopBtn.addEventListener('click', () => {
+      const now = Date.now();
       if (now - lastStopTime < 2000) {
         currentParagraphIndex = 0;
         wordsRead = 0;
       }
       lastStopTime = now;
-      responsiveVoice.cancel();
+      speechSynthesis.cancel();
       isPaused = false;
     });
-    
-    // Next element button.
-    nextBtn.addEventListener('click', function() {
-      responsiveVoice.cancel();
+
+    // Next paragraph
+    nextBtn.addEventListener('click', () => {
+      speechSynthesis.cancel();
       if (currentParagraphIndex < paragraphs.length - 1) {
         currentParagraphIndex++;
         isPaused = false;
         readCurrentParagraph();
       }
     });
-    
-    // Previous element button.
-    prevBtn.addEventListener('click', function() {
-      responsiveVoice.cancel();
+
+    // Previous paragraph
+    prevBtn.addEventListener('click', () => {
+      speechSynthesis.cancel();
       if (currentParagraphIndex > 0) {
         currentParagraphIndex--;
         isPaused = false;
         readCurrentParagraph();
       }
     });
-    
-    // Speed controls.
-    slowBtn.addEventListener('click', function() {
+
+    // Speed controls
+    slowBtn.addEventListener('click', () => {
       speechRate = Math.max(0.5, speechRate - 0.1);
-      responsiveVoice.cancel();
+      speechSynthesis.cancel();
       readCurrentParagraph();
     });
-    normalBtn.addEventListener('click', function() {
+    normalBtn.addEventListener('click', () => {
       speechRate = 1.0;
-      responsiveVoice.cancel();
+      speechSynthesis.cancel();
       readCurrentParagraph();
     });
-    fastBtn.addEventListener('click', function() {
+    fastBtn.addEventListener('click', () => {
       speechRate = Math.min(2.0, speechRate + 0.1);
-      responsiveVoice.cancel();
+      speechSynthesis.cancel();
       readCurrentParagraph();
     });
-    
-    // Close Panel button: stop speech and reset the control panel to its initial state.
-    closePanelBtn.addEventListener('click', function() {
-      responsiveVoice.cancel();
+
+    // Close panel
+    closePanelBtn.addEventListener('click', () => {
+      speechSynthesis.cancel();
       stopProgressLoop();
-      controlsDiv.style.display = "none";
-      startBtn.style.display = "block";
-      container.classList.remove("fixedControlPanel");
+      controlsDiv.style.display = 'none';
+      startBtn.style.display = 'block';
+      container.classList.remove('fixedControlPanel');
       currentParagraphIndex = 0;
       wordsRead = 0;
     });
+
 });
