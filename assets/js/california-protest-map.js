@@ -5,27 +5,28 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // 1) Init map once
+  // 1) Initialize the map once
   if (!window.map) {
     window.map = L.map(container).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
+
+    // ↓ add a never-collapsed search box via Control-Geocoder ↓
+    if (L.Control.Geocoder) {
+      L.Control.geocoder({
+        collapsed:   false,                      // show input by default
+        placeholder: "Search by address, city…", // placeholder text
+      })
+      .on("markgeocode", function(e) {
+        // zoom to the selected result
+        window.map.fitBounds(e.geocode.bbox);
+      })
+      .addTo(window.map);
+    }
   }
   const map = window.map;
 
-  // 2) Add Geosearch autocomplete control
-  const provider = new GeoSearch.OpenStreetMapProvider();
-  const searchControl = new GeoSearch.GeoSearchControl({
-    provider,
-    style:            "bar",                   // inline search box
-    showMarker:       true,                    // drop marker
-    autoClose:        false,                   // keep results open
-    autoComplete:     true,                    // live suggestions
-    autoCompleteDelay:250,                     // debounce
-    searchLabel:      "Search by address, city…"
-  });
-  map.addControl(searchControl);
 
 
   // PST “today” string for filtering
