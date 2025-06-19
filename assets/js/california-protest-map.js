@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // 1) Initialize the map once
+  // 1) Init map once
   if (!window.map) {
     window.map = L.map(container).setView([36.7783, -119.4179], 6);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -14,18 +14,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   const map = window.map;
 
-  // ↓ Replace with Leaflet-Geosearch autocomplete ↓
+  // 2) Add Geosearch autocomplete control
   const provider = new GeoSearch.OpenStreetMapProvider();
   const searchControl = new GeoSearch.GeoSearchControl({
-    provider: provider,
-    style:      "bar",                         // inline search bar
-    showMarker: true,                          // drop a marker on result
-    autoClose:  false,                         // keep input open
-    autoComplete: true,                        // enable suggestions
-    autoCompleteDelay: 250,                    // ms debounce
-    searchLabel: "Search by address, city…",   // placeholder
+    provider,
+    style:            "bar",                   // inline search box
+    showMarker:       true,                    // drop marker
+    autoClose:        false,                   // keep results open
+    autoComplete:     true,                    // live suggestions
+    autoCompleteDelay:250,                     // debounce
+    searchLabel:      "Search by address, city…"
   });
-  window.map.addControl(searchControl);
+  map.addControl(searchControl);
 
 
 
