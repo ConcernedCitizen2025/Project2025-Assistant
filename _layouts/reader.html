@@ -6,12 +6,11 @@ layout: null
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Reader View – {{ page.url | remove: '/reader/' | strip_newlines | split: '/' | last | capitalize }}</title>
+  <title>Reader – {{ page.url | replace:'/reader/','/' | split:'/' | last | capitalize }}</title>
   <style>
-    body { font-family:Georgia,serif; max-width:700px; margin:2em auto; line-height:1.6; color:#222; }
-    h1,h2,h3,h4 { margin-top:1.2em; }
-    .ra-button { margin:0 4px; }
+    body { font-family:Georgia,serif;max-width:700px;margin:2em auto;line-height:1.6;color:#222; }
     #readAloudControls { margin:1em 0; }
+    .ra-button { margin:0 4px; }
     #readingProgressContainer,#bufferProgressContainer { width:100%;height:8px;background:#eee;margin:8px 0; }
     #readingProgress { width:0;height:100%;background:#0073e6; }
     #bufferProgress  { width:0;height:100%;background:#ccc; }
@@ -19,15 +18,15 @@ layout: null
 </head>
 <body>
 
-  <!-- back link -->
+  <!-- back to normal -->
   <p style="text-align:right;">
-    <a href="{{ page.url | remove: '/reader/' }}"
+    <a href="{{ page.url | replace:'/reader/','/' }}"
        style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none;">
       ← Back to Normal View
     </a>
   </p>
 
-  <!-- translate widget -->
+  <!-- translate -->
   <div style="text-align:right;margin-bottom:1em;">
     {% include google_translate.html %}
   </div>
@@ -38,17 +37,21 @@ layout: null
     <select id="voiceSelect"></select>
   </div>
 
-  <!-- read‐aloud controls -->
+  <!-- read-aloud controls -->
   {% include readAloudControls.html %}
 
-  <!-- pull in the original page’s content -->
+  <!-- original content -->
   <main id="readableContent">
-    {% assign original_url = page.url | remove: 'reader/' %}
-    {% assign original = site.pages | where:"url", original_url | first %}
-    {{ original.content | markdownify }}
+    {% assign orig_url = page.url | replace:'/reader/','/' %}
+    {% assign orig = site.pages | where: "url", orig_url | first %}
+    {% if orig %}
+      {{ orig.content | markdownify }}
+    {% else %}
+      <p><strong>Error:</strong> could not find a page at <code>{{ orig_url }}</code></p>
+    {% endif %}
   </main>
 
-  <!-- read‐aloud scripts (no defer) -->
+  <!-- speech scripts -->
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
   <script src="/assets/js/readAloud.js"></script>
 </body>
