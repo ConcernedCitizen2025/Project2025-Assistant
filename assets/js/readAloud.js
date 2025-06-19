@@ -1,7 +1,29 @@
 // assets/js/readAloud.js
 document.addEventListener("DOMContentLoaded", () => {
+  // 1) determine page‐lang & whether to use ResponsiveVoice by default
   const pageLang = (document.documentElement.lang || "en").slice(0,2);
-  const useRV    = pageLang === "en";     // ResponsiveVoice only for English
+  let useRV         = pageLang === "en";
+  // 2) …unless the user explicitly “Use system voices”
+  let overrideNative = false;
+  // 3) final flag: RV only if English AND not overridden
+  let speakUsingRV   = useRV && !overrideNative;
+
+  // Inject a “Use system voices” checkbox under the voice picker:
+  const picker = document.getElementById("voicePickerContainer");
+  const chkWrap = document.createElement("div");
+  chkWrap.innerHTML = `
+    <label style="font-size:0.9em;margin-left:1em;">
+      <input type="checkbox" id="nativeVoiceToggle"/>
+      Use system voices
+    </label>
+  `;
+  picker.appendChild(chkWrap);
+  const nativeToggle = document.getElementById("nativeVoiceToggle");
+  nativeToggle.addEventListener("change", () => {
+    overrideNative = nativeToggle.checked;
+    speakUsingRV   = useRV && !overrideNative;
+    loadVoices();
+  });
 
   // grab UI
   const startBtn  = document.getElementById("startReadAloud");
@@ -67,17 +89,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // speak current paragraph
   function speakText(txt) {
-    bufIcon.style.display="inline";
-    if (useRV) {
-      responsiveVoice.speak(txt, voiceSel.value, {
-        rate,
-        onend: rvEnd
-      });
+    bufIcon.classList.add("spinning");
+    if (speakUsingRV) {
+      responsiveVoice.speak(txt, voiceSel.value, { rate, onend: rvEnd });
     } else {
-      const u = new SpeechSynthesisUtterance(txt);
+      let u = new SpeechSynthesisUtterance(txt);
       u.voice = speechSynthesis.getVoices()
-                .find(v=>v.name===voiceSel.value) 
-              || speechSynthesis.getVoices()[0];
+                  .find(v=>v.name===voiceSel.value)
+                || speechSynthesis.getVoices()[0];
       u.lang = u.voice.lang;
       u.rate = rate;
       u.onend = rvEnd;
@@ -100,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // voice selector
   function loadVoices() {
     voiceSel.innerHTML = "";
-    if (useRV) {
+    if (speakUsingRV) {
       ["UK English Female","UK English Male"].forEach(name=>{
         const o = document.createElement("option");
         o.value = name;
@@ -124,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   }
-  if (!useRV) speechSynthesis.onvoiceschanged = loadVoices;
+  if (!speakUsingRV) speechSynthesis.onvoiceschanged = loadVoices;
   loadVoices();
 
   // controls wiring
@@ -134,21 +153,21 @@ document.addEventListener("DOMContentLoaded", () => {
     controls.style.display="block";
     readCurrent();
   };
-  playBtn.onclick  = ()=>{ isPaused=false; useRV?responsiveVoice.resume():speechSynthesis.resume(); };
-  pauseBtn.onclick = ()=>{ isPaused=true;  useRV?responsiveVoice.pause():speechSynthesis.pause(); };
+  playBtn.onclick  = ()=>{ isPaused=false; speakUsingRV?responsiveVoice.resume():speechSynthesis.resume(); };
+  pauseBtn.onclick = ()=>{ isPaused=true;  speakUsingRV?responsiveVoice.pause():speechSynthesis.pause(); };
   stopBtn.onclick  = ()=>{
     isPaused=true; suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     idx=0; updateProg();
     controls.style.display="none";
     startBtn.style.display="inline-block";
   };
   nextBtn.onclick  = ()=>{ suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     if(idx<paras.length-1) idx++; readCurrent();
   };
   prevBtn.onclick  = ()=>{ suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     if(idx>0) idx--; readCurrent();
   };
 
@@ -156,20 +175,20 @@ document.addEventListener("DOMContentLoaded", () => {
     rate=Math.max(0.5,rate-0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
     suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     readCurrent();
   };
   normBtn.onclick = ()=>{
     rate=1.0; showSpeed(`Speed: ${rate.toFixed(1)}×`);
     suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     readCurrent();
   };
   fastBtn.onclick = ()=>{
     rate=Math.min(2.0,rate+0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
     suppress=true;
-    useRV?responsiveVoice.cancel():speechSynthesis.cancel();
+    speakUsingRV?responsiveVoice.cancel():speechSynthesis.cancel();
     readCurrent();
   };
 });
