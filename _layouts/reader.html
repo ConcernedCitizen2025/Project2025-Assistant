@@ -49,13 +49,12 @@ layout: null
     {% include readAloudControls.html %}
   </div>
 
-  <!-- Page content only (no front-matter) -->
+  <!-- Your page’s rendered markdown -->
   <main id="readableContent">
-    {% assign about = site.pages | where: "url", page.url | first %}
-    {{ about.content }}
+    {{ content }}
   </main>
 
-  <!-- Read-Aloud scripts (loaded last, no defer) -->
+  <!-- Read-Aloud scripts (no defer!) -->
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
   <script src="/assets/js/readAloud.js"></script>
 </body>
