@@ -43,7 +43,12 @@ layout: null
   </div>
 
   {% include readAloudControls.html %}
-
+  {# that partial needs elements with IDs:
+    startReadAloud, playResume, pause, stop, prevParagraph, nextParagraph,
+    slow, normal, fast, closePanel, readAloudControls,
+    bufferIndicator, bufferProgress, readingProgress, timeRemainingLabel,
+    readAloudContainer
+  #}
 
   <!-- Main content -->
   <main id="readableContent">
