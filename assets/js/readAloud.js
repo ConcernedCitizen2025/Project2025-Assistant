@@ -2,27 +2,27 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // ─────────── VOICE MAP ───────────
+    // readAloud.js
     const VOICES_BY_LANG = {
       en: [
-        { label: "English (US) – Female", value: "US English Female" },
-        { label: "English (US) – Male",   value: "US English Male"   },
         { label: "English (UK) – Female", value: "UK English Female" },
         { label: "English (UK) – Male",   value: "UK English Male"   },
+      ],
+      es: [
+        { label: "Español – Femenino",  value: "Spanish Female" },
+        { label: "Español – Masculino", value: "Spanish Male"   },
       ],
       fr: [
         { label: "Français – Féminin",  value: "French Female" },
         { label: "Français – Masculin", value: "French Male"   },
       ],
-      es: [
-        { label: "Español – Femenino",   value: "Spanish Female" },
-        { label: "Español – Masculino",  value: "Spanish Male"   },
-      ],
       de: [
         { label: "Deutsch – Weiblich",  value: "Deutsch Female" },
         { label: "Deutsch – Männlich",  value: "Deutsch Male"   },
       ],
-      // …add more languages here as needed…
+      // …and so on for any other languages you want to support…
     };
+
 
 
     // Global state variables
