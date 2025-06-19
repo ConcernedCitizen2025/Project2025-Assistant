@@ -52,6 +52,15 @@ document.addEventListener('DOMContentLoaded', function() {
       voiceSelect.appendChild(o);
     });
 
+    // ───────── LOAD BROWSER VOICES ─────────
+    const synth     = window.speechSynthesis;
+    let allVoices   = [];
+    function loadVoices() {
+      allVoices = synth.getVoices();
+    }
+    synth.addEventListener("voiceschanged", loadVoices);
+    loadVoices();
+
 
     // --- Collect All Relevant Text Elements ---
     // This selects paragraphs (<p>), list items (<li>), and headings (<h1>-<h6>) within #readableContent.
@@ -191,9 +200,9 @@ document.addEventListener('DOMContentLoaded', function() {
       bufferIndicator.style.display = "inline-block";
       bufferProgressElem.style.width = "0%";
       
-      responsiveVoice.speak(text, voiceSelect.value, { 
+      responsiveVoice.speak(text, voiceSelect.value, {
         rate: speechRate,
-        onstart: function() {
+        onstart() {
           bufferIndicator.style.display = "none";
           bufferProgressElem.style.width = "100%";
         },
