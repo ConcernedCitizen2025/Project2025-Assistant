@@ -1,141 +1,97 @@
-// assets/js/readAloud.js
-document.addEventListener("DOMContentLoaded", () => {
-  // 1) Populate the dropdown with only your two UK voices
-  const voiceSel = document.getElementById("voiceSelect");
-  ["UK English Female","UK English Male"].forEach(name => {
-    const o = document.createElement("option");
+// readAloud.js
+document.addEventListener('DOMContentLoaded', function() {
+  // 1) Populate voice dropdown with British options
+  const voiceSelect = document.getElementById('voiceSelect');
+  ['UK English Female','UK English Male'].forEach(name => {
+    const o = document.createElement('option');
     o.value = name;
-    o.text  = name.includes("Female") ? "Female" : "Male";
-    voiceSel.appendChild(o);
+    o.text  = name.includes('Female') ? 'Female' : 'Male';
+    voiceSelect.appendChild(o);
   });
 
-  // 2) Grab all the controls
-  const startBtn  = document.getElementById("startReadAloud");
-  const controls  = document.getElementById("readAloudControls");
-  const playBtn   = document.getElementById("playResume");
-  const pauseBtn  = document.getElementById("pause");
-  const stopBtn   = document.getElementById("stop");
-  const prevBtn   = document.getElementById("prevParagraph");
-  const nextBtn   = document.getElementById("nextParagraph");
-  const slowBtn   = document.getElementById("slow");
-  const normBtn   = document.getElementById("normal");
-  const fastBtn   = document.getElementById("fast");
-  const progBar   = document.getElementById("readingProgress");
-  const bufIcon   = document.getElementById("bufferIndicator");
-  const bufBar    = document.getElementById("bufferProgress");
-  const timeLabel = document.getElementById("timeRemainingLabel");
+  // 2) Grab all UI elements
+  const startBtn = document.getElementById('startReadAloud'),
+        controls = document.getElementById('readAloudControls'),
+        playBtn  = document.getElementById('playResume'),
+        pauseBtn = document.getElementById('pause'),
+        stopBtn  = document.getElementById('stop'),
+        prevBtn  = document.getElementById('prevParagraph'),
+        nextBtn  = document.getElementById('nextParagraph'),
+        slowBtn  = document.getElementById('slow'),
+        normBtn  = document.getElementById('normal'),
+        fastBtn  = document.getElementById('fast'),
+        bufIcon  = document.getElementById('bufferIndicator'),
+        progBar  = document.getElementById('readingProgress'),
+        timeLbl  = document.getElementById('timeRemainingLabel');
 
-  // 3) Gather your content paragraphs
+  // 3) Collect paragraphs & headings to read
   let paras = Array.from(document.querySelectorAll(
-    "#readableContent p, #readableContent li, " +
-    "#readableContent h1, #readableContent h2, #readableContent h3," +
-    "#readableContent h4, #readableContent h5, #readableContent h6"
+    '#readableContent p, ' +
+    '#readableContent li, ' +
+    '#readableContent h1, ' +
+    '#readableContent h2, ' +
+    '#readableContent h3'
   ));
-  // strip leading front-matter echoes:
-  const first = paras.findIndex(p => !p.textContent.trim().startsWith("---"));
-  if (first > 0) paras = paras.slice(first);
+  // strip any leading front-matter echoes
+  const firstReal = paras.findIndex(p => !p.textContent.trim().startsWith('---'));
+  if (firstReal > 0) paras = paras.slice(firstReal);
 
-  // 4) State vars
-  let idx      = 0,
-      rate     = 1.0,
-      isPaused = false,
-      suppress = false;
+  let idx = 0, rate = 1.0, isPaused = false;
 
-  // 5) Speed badge helper
-  function showSpeed(txt) {
-    let b = document.getElementById("speedBadge");
-    if (!b) {
-      b = document.createElement("div");
-      b.id = "speedBadge";
-      Object.assign(b.style, {
-        position:"fixed",bottom:"20px",
-        left:"50%",transform:"translateX(-50%)",
-        background:"#000",color:"#fff",
-        padding:"6px 12px",borderRadius:"4px",
-        opacity:".8",zIndex:9999,fontSize:"1em"
-      });
-      document.body.appendChild(b);
-    }
-    b.textContent = txt;
-    clearTimeout(b.to); b.to = setTimeout(()=>b.remove(),2000);
-  }
-
-  // 6) Update progress/time
-  function updateProg() {
-    const wordCount = el => el.textContent.split(/\s+/).filter(w=>w).length;
-    const totalW = paras.reduce((s,p)=>s+wordCount(p),0);
-    const doneW  = paras.slice(0,idx)
-                  .reduce((s,p)=>s+wordCount(p),0);
-    progBar.style.width = Math.min(100,doneW/totalW*100) + "%";
-    const remSec = Math.ceil((totalW - doneW) * 0.4 / rate);
-    timeLabel.textContent = 
-      `Time left: ${String(Math.floor(remSec/60)).padStart(2,"0")}` +
-      `:${String(remSec%60).padStart(2,"0")}`;
-  }
-
-  // 7) Speak helper
-  function rvEnd() {
-    bufIcon.style.display = "none";
-    if (suppress) { suppress = false; return; }
-    if (!isPaused && idx < paras.length - 1) {
-      idx++; updateProg(); readCurrent();
-    }
-  }
-
+  // 4) Read current paragraph via ResponsiveVoice
   function readCurrent() {
-    bufIcon.style.display = "inline";
-    const text = paras[idx].textContent.replace(/\[STOP\].*$/,"");
-    responsiveVoice.speak(text, voiceSel.value, {
+    const txt = paras[idx].textContent.replace(/\[STOP\].*$/, '');
+    bufIcon.classList.add('spinning');
+    responsiveVoice.speak(txt, voiceSelect.value, {
       rate,
-      onend: rvEnd
+      onstart: () => bufIcon.classList.remove('spinning'),
+      onend:   onEnd
     });
   }
 
-  // 8) Wire up controls
+  function onEnd() {
+    if (idx < paras.length - 1 && !isPaused) {
+      idx++;
+      readCurrent();
+    }
+  }
+
+  // 5) Wire up buttons
   startBtn.onclick = () => {
-    idx = 0; isPaused = false; suppress = false;
-    startBtn.style.display = "none";
-    controls.style.display = "block";
+    idx = 0; isPaused = false;
+    startBtn.style.display   = 'none';
+    controls.style.display    = 'block';
     readCurrent();
-    updateProg();
   };
-  playBtn.onclick  = () => { isPaused = false; responsiveVoice.resume();   };
-  pauseBtn.onclick = () => { isPaused = true;  responsiveVoice.pause();    };
+  playBtn.onclick  = () => { isPaused = false; responsiveVoice.resume(); };
+  pauseBtn.onclick = () => { isPaused = true;  responsiveVoice.pause();  };
   stopBtn.onclick  = () => {
-    isPaused = true; suppress = true;
+    isPaused = true;
     responsiveVoice.cancel();
-    idx = 0; updateProg();
-    controls.style.display = "none";
-    startBtn.style.display = "inline-block";
+    idx = 0;
+    controls.style.display = 'none';
+    startBtn.style.display  = 'inline-block';
   };
-  nextBtn.onclick  = () => {
-    suppress = true;
+  nextBtn.onclick = () => {
     responsiveVoice.cancel();
-    if (idx < paras.length - 1) { idx++; readCurrent(); updateProg(); }
+    if (idx < paras.length - 1) { idx++; readCurrent(); }
   };
-  prevBtn.onclick  = () => {
-    suppress = true;
+  prevBtn.onclick = () => {
     responsiveVoice.cancel();
-    if (idx > 0) { idx--; readCurrent(); updateProg(); }
+    if (idx > 0) { idx--; readCurrent(); }
   };
   slowBtn.onclick = () => {
     rate = Math.max(0.5, rate - 0.1);
-    showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
     responsiveVoice.cancel();
     readCurrent();
   };
   normBtn.onclick = () => {
     rate = 1.0;
-    showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
     responsiveVoice.cancel();
     readCurrent();
   };
   fastBtn.onclick = () => {
     rate = Math.min(2.0, rate + 0.1);
-    showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
     responsiveVoice.cancel();
     readCurrent();
   };
