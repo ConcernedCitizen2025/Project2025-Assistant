@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ───── SPEAK FUNCTIONS ─────
   function rvEnd() {
-    // hide & stop spinning
+    // stop and hide spinner
     bufIcon.classList.remove("spinning");
 
     if (suppress) { suppress = false; return; }
@@ -134,10 +134,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function speakText(txt) {
-    // show & spin the buffer icon
+    // show and start spinner
     bufIcon.classList.add("spinning");
 
-    if (speakUsingRV()) {
+    if (speakUsingRV) {
       responsiveVoice.speak(txt, voiceSel.value, { rate, onend: rvEnd });
     } else {
     let u = new SpeechSynthesisUtterance(txt);
