@@ -1,20 +1,24 @@
 {% comment %}
-  Toggle between “Reader View” and “Normal View”
-  If URL ends in /reader/, link back to the base page; otherwise append reader/
+  Toggle between “Reader View” and “Normal View”.
+  If URL already has “/reader”, remove it.
+  Otherwise strip “.html” (if present) and append “/reader”.
 {% endcomment %}
 
 {% if page.url contains '/reader' %}
   {% assign target = page.url | remove: '/reader' %}
   {% assign label  = '← Back to Normal View' %}
 {% else %}
-  {% assign target = page.url | append: '/reader' %}
+  {% assign base   = page.url | remove: '.html' %}
+  {% assign target = base | append: '/reader' %}
   {% assign label  = 'Reader View' %}
 {% endif %}
 
 <a href="{{ target }}">
   <button
     id="globalReaderToggle"
-    style="background:#0073e6;color:#fff;padding:8px 12px;border-radius:4px;border:none;cursor:pointer;"
+    style="background:#0073e6;color:#fff;
+           padding:8px 12px;border-radius:4px;
+           border:none;cursor:pointer;"
   >
     {{ label }}
   </button>
