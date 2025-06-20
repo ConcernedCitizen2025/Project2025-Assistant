@@ -189,28 +189,26 @@ document.addEventListener("DOMContentLoaded", () => {
     if (idx > 0) idx--;
     readCurrent(); updateProg();
   };
-  slowBtn.onclick  = () => {
+  slowBtn.onclick = () => {
     rate = Math.max(0.5, rate - 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
-    readCurrent(); updateProg();
+    // restart with new rate immediately
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
+    readCurrent();
   };
-  normBtn.onclick  = () => {
+  normBtn.onclick = () => {
     rate = 1.0;
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
-    readCurrent(); updateProg();
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
+    readCurrent();
   };
-  fastBtn.onclick  = () => {
+  fastBtn.onclick = () => {
     rate = Math.min(2.0, rate + 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
-    readCurrent(); updateProg();
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
+    readCurrent();
   };
 });
