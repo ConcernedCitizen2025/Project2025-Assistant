@@ -1,4 +1,6 @@
 // assets/js/readAloud.js
+console.log("✅ readAloud.js loaded, pageLang=", document.documentElement.lang);
+
 document.addEventListener("DOMContentLoaded", () => {
   // ───── HELPERS FOR LANGUAGE & ENGINE ─────
   function getPageLang() {
