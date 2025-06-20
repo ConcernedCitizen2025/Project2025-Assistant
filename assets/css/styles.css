@@ -581,15 +581,22 @@ img {
   font-size: 0.95rem;
 }
 /* bufferIndicator spinner */
+/* hide by default */
+#bufferIndicator {
+  display: none;
+}
+
+/* show + spin when buffering */
 #bufferIndicator.spinning {
   display: inline-block;
-  /* adjust size if you like */
   width: 1em;
   height: 1em;
   vertical-align: middle;
   animation: spin 1s linear infinite;
 }
+
 @keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
+

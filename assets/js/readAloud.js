@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function rvEnd() {
     // hide & stop spinning
     bufIcon.classList.remove("spinning");
-    
+
     if (suppress) { suppress = false; return; }
     if (!isPaused && idx < paras.length - 1) {
       idx++; updateProg(); readCurrent();
@@ -140,14 +140,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (speakUsingRV()) {
       responsiveVoice.speak(txt, voiceSel.value, { rate, onend: rvEnd });
     } else {
-      const u = new SpeechSynthesisUtterance(txt);
-      u.voice = speechSynthesis.getVoices()
-                    .find(v=>v.name === voiceSel.value)
-              || speechSynthesis.getVoices()[0];
-      u.lang  = u.voice.lang;
-      u.rate  = rate;
-      u.onend = rvEnd;
-      speechSynthesis.speak(u);
+    let u = new SpeechSynthesisUtterance(txt);
+    /* … */
+    u.onend = rvEnd;
+    speechSynthesis.speak(u);
     }
   }
 
