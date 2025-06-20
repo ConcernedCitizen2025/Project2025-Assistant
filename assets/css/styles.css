@@ -597,6 +597,16 @@ img {
   animation: spin 1s linear infinite;
 }
 
+/* hide everything except your article when .reader-mode is on */
+body.reader-mode header,
+body.reader-mode nav,
+body.reader-mode footer { display: none !important; }
+
+body.reader-mode #readableContent {
+  max-width: 700px;
+  margin: 2em auto;
+  /* etc… */
+}
 
 
 
