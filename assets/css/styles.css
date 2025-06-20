@@ -597,16 +597,24 @@ img {
   animation: spin 1s linear infinite;
 }
 
-/* hide everything except your article when .reader-mode is on */
+/* Hide site chrome when reader-mode is on */
 body.reader-mode header,
 body.reader-mode nav,
-body.reader-mode footer { display: none !important; }
-
-body.reader-mode #readableContent {
-  max-width: 700px;
-  margin: 2em auto;
-  /* etc… */
+body.reader-mode footer,
+body.reader-mode .sidebar,
+body.reader-mode .other-noncontent {
+  display: none !important;
 }
+
+/* Make your main content fill the width */
+body.reader-mode #readableContent,
+body.reader-mode main {
+  max-width: 700px;
+  margin: 2em auto !important;
+  padding: 0 1em !important;
+  /* any other “reader” tweaks */
+}
+
 
 
 
