@@ -581,30 +581,22 @@ img {
   font-size: 0.95rem;
 }
 /* bufferIndicator spinner */
-/* hide by default, spin when .spinning */
-#bufferIndicator {
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-#bufferIndicator.spinning {
-  opacity: 1;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
 @keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
 
-/* Only spin when “.spinning” is applied */
+/* hide by default */
+#bufferIndicator {
+  display: none;
+}
+
+/* only show & spin when .spinning is on */
 #bufferIndicator.spinning {
-  display: inline-block;    /* ensure it’s visible */
+  display: inline-block;
   animation: spin 1s linear infinite;
 }
+
 
 
 
