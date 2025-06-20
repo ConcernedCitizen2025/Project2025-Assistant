@@ -586,17 +586,15 @@ img {
   display: none;
 }
 
-/* show + spin when buffering */
+/* when spinning, show + rotate */
 #bufferIndicator.spinning {
   display: inline-block;
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
   animation: spin 1s linear infinite;
 }
 
+/* keyframes for the spin */
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+  to { transform: rotate(360deg); }
 }
+
 
