@@ -597,22 +597,27 @@ img {
   animation: spin 1s linear infinite;
 }
 
-/* Hide site chrome when reader-mode is on */
-body.reader-mode header,
-body.reader-mode nav,
-body.reader-mode footer,
-body.reader-mode .sidebar,
-body.reader-mode .other-noncontent {
+/* 1) when reader-mode is on… */
+body.reader-mode > * {
   display: none !important;
 }
 
-/* Make your main content fill the width */
-body.reader-mode #readableContent,
-body.reader-mode main {
+/* 2) …except any element tagged `.reader-show` */
+body.reader-mode > .reader-show {
+  display: block !important;
+}
+
+/* 3) make sure your text flows nicely */
+body.reader-mode {
+  background: #fff;
+}
+body.reader-mode #mainContent {
   max-width: 700px;
-  margin: 2em auto !important;
-  padding: 0 1em !important;
-  /* any other “reader” tweaks */
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.6;
+  color: #222;
+  font-family: Georgia, serif;
 }
 
 
