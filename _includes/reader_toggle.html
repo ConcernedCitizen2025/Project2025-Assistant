@@ -7,7 +7,7 @@
   {% assign target = page.url | remove: '/reader/' %}
   {% assign label  = '← Back to Normal View' %}
 {% else %}
-  {% assign target = page.url | append: 'reader/' %}
+  {% assign target = page.url | append: '/reader/' %}
   {% assign label  = 'Reader View' %}
 {% endif %}
 
