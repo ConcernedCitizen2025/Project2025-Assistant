@@ -580,22 +580,17 @@ img {
   margin: 8px 20px 20px;
   font-size: 0.95rem;
 }
-/* bufferIndicator spinner */
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-/* hide by default */
 #bufferIndicator {
-  display: none;
-}
-
-/* only show & spin when .spinning is on */
-#bufferIndicator.spinning {
   display: inline-block;
+  animation: none;
+}
+#bufferIndicator.spinning {
   animation: spin 1s linear infinite;
 }
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 
 /* 1) when reader-mode is on… */
 body.reader-mode > * {
