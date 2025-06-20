@@ -3,11 +3,11 @@
   If URL ends in /reader/, link back to the base page; otherwise append reader/
 {% endcomment %}
 
-{% if page.url contains '/reader/' %}
-  {% assign target = page.url | remove: '/reader/' %}
+{% if page.url contains '/reader' %}
+  {% assign target = page.url | remove: '/reader' %}
   {% assign label  = '← Back to Normal View' %}
 {% else %}
-  {% assign target = page.url | append: '/reader/' %}
+  {% assign target = page.url | append: '/reader' %}
   {% assign label  = 'Reader View' %}
 {% endif %}
 
