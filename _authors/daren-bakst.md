@@ -1,5 +1,5 @@
 ---
-layout: authors
+layout: author
 title: "Daren Bakst"
 ---
 
