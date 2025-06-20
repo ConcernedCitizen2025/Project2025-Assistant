@@ -208,6 +208,21 @@
             {{ content }}
         </div>
     </main>
+    
+      <!-- ■ READER VIEW TOGGLE BUTTON -->
+    {% include reader_toggle.html %}
+
+    <!-- ■ GOOGLE TRANSLATE WIDGET -->
+    {% include google_translate.html %}
+
+    <!-- ■ READ-ALOUD CONTROLS (the play/pause/etc UI) -->
+    {% include readAloudControls.html %}
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+
     <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
 
         <!-- Protest Signs Logo -->
