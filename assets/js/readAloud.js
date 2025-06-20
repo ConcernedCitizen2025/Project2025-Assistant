@@ -1,16 +1,18 @@
 // assets/js/readAloud.js
 document.addEventListener("DOMContentLoaded", () => {
-  // ───── 1) LANG & ENGINE FLAGS ─────
-  const pageLang = (document.documentElement.lang || "en").slice(0,2);
-  const useRV    = pageLang === "en";   // only use ResponsiveVoice for English
-  let overrideNative = false;           // user can toggle this
+  // ───── HELPERS FOR LANGUAGE & ENGINE ─────
+  function getPageLang() {
+    return (document.documentElement.lang || "en").slice(0,2);
+  }
+  let overrideNative = false;  // toggled by the checkbox
 
-  // helper to decide which engine to use
   function speakUsingRV() {
-    return useRV && !overrideNative && window.responsiveVoice;
+    return getPageLang() === "en"
+        && !overrideNative
+        && window.responsiveVoice;
   }
 
-  // ───── 2) INJECT “USE SYSTEM VOICES” TOGGLE ─────
+  // ───── INJECT “USE SYSTEM VOICES” TOGGLE ─────
   const picker = document.getElementById("voicePickerContainer");
   if (picker) {
     const wrap = document.createElement("div");
@@ -28,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 
-  // ───── 3) GRAB UI ELEMENTS ─────
+  // ───── GRAB UI ELEMENTS ─────
   const startBtn  = document.getElementById("startReadAloud");
   const controls  = document.getElementById("readAloudControls");
   const voiceSel  = document.getElementById("voiceSelect");
@@ -45,11 +47,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const bufIcon   = document.getElementById("bufferIndicator");
   const timeLabel = document.getElementById("timeRemainingLabel");
 
-  // ───── 4) LOAD & POPULATE VOICES ─────
+  // ───── LOAD & POPULATE VOICES ─────
   function loadVoices() {
     voiceSel.innerHTML = "";
+    const lang = getPageLang();
     if (speakUsingRV()) {
-      // ResponsiveVoice only: British Female & Male
+      // always British female + male
       ["UK English Female","UK English Male"].forEach(name => {
         const o = document.createElement("option");
         o.value = name;
@@ -57,12 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
         voiceSel.appendChild(o);
       });
     } else {
-      // native speechSynthesis: pick two voices for pageLang
+      // native voices for whatever lang
       const all = speechSynthesis.getVoices();
-      const matches = all.filter(v => v.lang.startsWith(pageLang));
+      const matches = all.filter(v => v.lang.startsWith(lang));
       let fem = matches.find(v=>/female/i.test(v.name)) || matches[0];
       let mal = matches.find(v=>/male/i.test(v.name))   || matches[1] || fem;
-      [[fem,"Female"],[mal,"Male"]].forEach(([v,label]) => {
+      [[fem,"Female"],[mal,"Male"]].forEach(([v,label])=>{
         if (!v) return;
         const o = document.createElement("option");
         o.value = v.name;
@@ -74,22 +77,21 @@ document.addEventListener("DOMContentLoaded", () => {
   speechSynthesis.onvoiceschanged = loadVoices;
   loadVoices();
 
-  // ───── 5) GATHER PARAGRAPHS ─────
+  // ───── GATHER PARAGRAPHS ─────
   let paras = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
     "#readableContent h1, #readableContent h2, #readableContent h3," +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
-  // strip any leading YAML/front-matter echoes
   const firstReal = paras.findIndex(p => !p.textContent.trim().startsWith("---"));
   if (firstReal > 0) paras = paras.slice(firstReal);
 
-  let idx      = 0;
-  let rate     = 1.0;
-  let isPaused = false;
-  let suppress = false;
+  let idx      = 0,
+      rate     = 1.0,
+      isPaused = false,
+      suppress = false;
 
-  // speed badge
+  // ───── SPEED BADGE ─────
   function showSpeed(txt) {
     let b = document.getElementById("speedBadge");
     if (!b) {
@@ -97,28 +99,29 @@ document.addEventListener("DOMContentLoaded", () => {
       b.id = "speedBadge";
       Object.assign(b.style, {
         position:"fixed", bottom:"20px", left:"50%",
-        transform:"translateX(-50%)",
-        background:"#000", color:"#fff",
-        padding:"6px 12px", borderRadius:"4px",
+        transform:"translateX(-50%)", background:"#000",
+        color:"#fff", padding:"6px 12px", borderRadius:"4px",
         opacity:".8", zIndex:9999, fontSize:"1em"
       });
       document.body.appendChild(b);
     }
     b.textContent = txt;
-    clearTimeout(b.to); b.to = setTimeout(()=>b.remove(),2000);
+    clearTimeout(b.to);
+    b.to = setTimeout(()=>b.remove(), 2000);
   }
 
+  // ───── UPDATE PROGRESS/TIME ─────
   function updateProg() {
-    const totalW = paras.reduce((s,p)=>s+p.textContent.split(/\s+/).length,0);
+    const totalW = paras.reduce((sum,p)=>sum + p.textContent.split(/\s+/).length, 0);
     const doneW  = paras.slice(0, idx)
-                      .reduce((s,p)=>s+p.textContent.split(/\s+/).length,0);
-    progBar.style.width = Math.min(100, doneW/totalW * 100) + "%";
-    const remSec = Math.ceil((totalW - doneW) * 0.4 / rate);
+                   .reduce((sum,p)=>sum + p.textContent.split(/\s+/).length, 0);
+    progBar.style.width = Math.min(100, doneW/totalW*100) + "%";
+    const remSec = Math.ceil((totalW - doneW)*0.4 / rate);
     const m = Math.floor(remSec/60), s = remSec%60;
     timeLabel.textContent = `Time left: ${m}:${String(s).padStart(2,"0")}`;
   }
 
-  // ───── 6) SPEAKING FUNCTIONS ─────
+  // ───── SPEAK FUNCTIONS ─────
   function rvEnd() {
     bufIcon.style.display = "none";
     if (suppress) { suppress = false; return; }
@@ -133,10 +136,11 @@ document.addEventListener("DOMContentLoaded", () => {
       responsiveVoice.speak(txt, voiceSel.value, { rate, onend: rvEnd });
     } else {
       const u = new SpeechSynthesisUtterance(txt);
-      u.voice = speechSynthesis.getVoices().find(v=>v.name===voiceSel.value)
-               || speechSynthesis.getVoices()[0];
-      u.lang = u.voice.lang;
-      u.rate = rate;
+      u.voice = speechSynthesis.getVoices()
+                    .find(v=>v.name === voiceSel.value)
+              || speechSynthesis.getVoices()[0];
+      u.lang  = u.voice.lang;
+      u.rate  = rate;
       u.onend = rvEnd;
       speechSynthesis.speak(u);
     }
@@ -147,13 +151,12 @@ document.addEventListener("DOMContentLoaded", () => {
     speakText(text);
   }
 
-  // ───── 7) WIRE UP CONTROLS ─────
+  // ───── WIRE UP CONTROLS ─────
   startBtn.onclick = () => {
     idx = 0; isPaused = false; suppress = false;
-    startBtn.style.display = "none";
-    controls.style.display = "block";
-    readCurrent();
-    updateProg();
+    startBtn.style.display   = "none";
+    controls.style.display    = "block";
+    readCurrent(); updateProg();
   };
   playBtn.onclick  = () => {
     isPaused = false;
@@ -176,16 +179,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (speakUsingRV()) responsiveVoice.cancel();
     else speechSynthesis.cancel();
     if (idx < paras.length - 1) idx++;
-    readCurrent();
-    updateProg();
+    readCurrent(); updateProg();
   };
   prevBtn.onclick  = () => {
     suppress = true;
     if (speakUsingRV()) responsiveVoice.cancel();
     else speechSynthesis.cancel();
     if (idx > 0) idx--;
-    readCurrent();
-    updateProg();
+    readCurrent(); updateProg();
   };
   slowBtn.onclick  = () => {
     rate = Math.max(0.5, rate - 0.1);
@@ -193,16 +194,15 @@ document.addEventListener("DOMContentLoaded", () => {
     suppress = true;
     if (speakUsingRV()) responsiveVoice.cancel();
     else speechSynthesis.cancel();
-    readCurrent();
-    updateProg();
+    readCurrent(); updateProg();
   };
   normBtn.onclick  = () => {
-    rate=1.0; showSpeed(`Speed: ${rate.toFixed(1)}×`);
+    rate = 1.0;
+    showSpeed(`Speed: ${rate.toFixed(1)}×`);
     suppress = true;
     if (speakUsingRV()) responsiveVoice.cancel();
     else speechSynthesis.cancel();
-    readCurrent();
-    updateProg();
+    readCurrent(); updateProg();
   };
   fastBtn.onclick  = () => {
     rate = Math.min(2.0, rate + 0.1);
@@ -210,7 +210,6 @@ document.addEventListener("DOMContentLoaded", () => {
     suppress = true;
     if (speakUsingRV()) responsiveVoice.cancel();
     else speechSynthesis.cancel();
-    readCurrent();
-    updateProg();
+    readCurrent(); updateProg();
   };
 });
