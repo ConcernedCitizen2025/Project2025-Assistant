@@ -581,20 +581,22 @@ img {
   font-size: 0.95rem;
 }
 /* bufferIndicator spinner */
-/* hide by default */
+/* bufferIndicator is always in the DOM, but invisible by default */
 #bufferIndicator {
-  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
-/* when spinning, show + rotate */
+/* when JS adds .spinning, fade in + rotate */
 #bufferIndicator.spinning {
-  display: inline-block;
+  opacity: 1;
   animation: spin 1s linear infinite;
 }
 
-/* keyframes for the spin */
+/* rotate keyframes */
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
 
 
