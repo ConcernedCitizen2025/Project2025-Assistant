@@ -615,6 +615,12 @@ body.reader-mode #mainContent {
   font-family: Georgia, serif;
 }
 
+/* in your main stylesheet */
+.reader-mode header,
+.reader-mode footer,
+.reader-mode .site-sidebar {
+  display: none !important;
+}
 
 
 

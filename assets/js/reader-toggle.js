@@ -1,14 +1,29 @@
 // assets/js/reader-toggle.js
-document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.getElementById('globalReaderToggle');
-  if (!btn) return;
 
-  btn.addEventListener('click', e => {
-    e.preventDefault();
-    const on = document.body.classList.toggle('reader-mode');
-    // show/hide the read-aloud controls
-    document.getElementById('readAloudContainer').style.display = on ? 'block' : 'none';
-    // update the button text
-    btn.textContent = on ? '← Exit Reader View' : 'Reader View';
+document.addEventListener("DOMContentLoaded", () => {
+  const btn       = document.getElementById("globalReaderToggle");
+  const translate = document.querySelector(".translate-container");
+  const controls  = document.getElementById("readAloudContainer");
+  const content   = document.querySelector("main"); // your page body
+
+  // Make sure the things start hidden:
+  translate.style.display = "none";
+  controls.style.display  = "none";
+
+  btn.addEventListener("click", () => {
+    const inReader = btn.textContent.startsWith("←");
+    if (!inReader) {
+      // Enter reader mode
+      content.classList.add("reader-mode");
+      translate.style.display = "block";
+      controls.style.display  = "block";
+      btn.textContent          = "← Back to Normal View";
+    } else {
+      // Exit reader mode
+      content.classList.remove("reader-mode");
+      translate.style.display = "none";
+      controls.style.display  = "none";
+      btn.textContent          = "Reader View";
+    }
   });
 });
