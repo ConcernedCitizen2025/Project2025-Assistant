@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const wrap = document.createElement("div");
     wrap.innerHTML = `
       <label style="font-size:0.9em; margin-left:1em;">
-        <id="nativeVoiceToggle"/>
+        <input type="checkbox" id="nativeVoiceToggle"/>
+        Use system voices
       </label>
     `;
     picker.appendChild(wrap);
