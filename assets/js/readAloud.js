@@ -1,12 +1,6 @@
 // assets/js/readAloud.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  // ───── HELPERS FOR LANGUAGE & ENGINE ─────
-  function getPageLang() {
-    return (document.documentElement.lang || "en").slice(0,2);
-  }
-  
-
   // ───── GRAB UI ELEMENTS ─────
   const startBtn  = document.getElementById("startReadAloud");
   const controls  = document.getElementById("readAloudControls");
@@ -20,27 +14,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const normBtn   = document.getElementById("normal");
   const fastBtn   = document.getElementById("fast");
   const progBar   = document.getElementById("readingProgress");
-  const bufBar    = document.getElementById("bufferProgress");
   const bufIcon   = document.getElementById("bufferIndicator");
   const timeLabel = document.getElementById("timeRemainingLabel");
 
-  // ───── LOAD & POPULATE VOICES ─────
-  function loadVoices() {
-    voiceSelect.innerHTML = "";
-    ["UK English Female","UK English Male"].forEach(name => {
-      const o = document.createElement("option");
-      o.value = name;
-      o.text  = name.includes("Female") ? "Female" : "Male";
-      voiceSelect.appendChild(o);
-    });
-  }
-  speechSynthesis.onvoiceschanged = loadVoices;
-  loadVoices();
+  // ───── POPULATE UK VOICES ONLY ─────
+  ["UK English Female", "UK English Male"].forEach(name => {
+    const o = document.createElement("option");
+    o.value = name;
+    o.text  = name.includes("Female") ? "Female" : "Male";
+    voiceSel.appendChild(o);
+  });
 
   // ───── GATHER PARAGRAPHS ─────
   let paras = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
-    "#readableContent h1, #readableContent h2, #readableContent h3," +
+    "#readableContent h1, #readableContent h2, #readableContent h3, " +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
   const firstReal = paras.findIndex(p => !p.textContent.trim().startsWith("---"));
@@ -58,42 +46,42 @@ document.addEventListener("DOMContentLoaded", () => {
       b = document.createElement("div");
       b.id = "speedBadge";
       Object.assign(b.style, {
-        position:"fixed", bottom:"20px", left:"50%",
-        transform:"translateX(-50%)", background:"#000",
-        color:"#fff", padding:"6px 12px", borderRadius:"4px",
-        opacity:".8", zIndex:9999, fontSize:"1em"
+        position: "fixed", bottom: "20px", left: "50%",
+        transform: "translateX(-50%)", background: "#000",
+        color: "#fff", padding: "6px 12px", borderRadius: "4px",
+        opacity: ".8", zIndex: 9999, fontSize: "1em"
       });
       document.body.appendChild(b);
     }
     b.textContent = txt;
     clearTimeout(b.to);
-    b.to = setTimeout(()=>b.remove(), 2000);
+    b.to = setTimeout(() => b.remove(), 2000);
   }
 
   // ───── UPDATE PROGRESS/TIME ─────
   function updateProg() {
-    const totalW = paras.reduce((sum,p)=>sum + p.textContent.split(/\s+/).length, 0);
+    const totalW = paras.reduce((sum,p) => sum + p.textContent.split(/\s+/).length, 0);
     const doneW  = paras.slice(0, idx)
-                   .reduce((sum,p)=>sum + p.textContent.split(/\s+/).length, 0);
+                   .reduce((sum,p) => sum + p.textContent.split(/\s+/).length, 0);
     progBar.style.width = Math.min(100, doneW/totalW*100) + "%";
     const remSec = Math.ceil((totalW - doneW)*0.4 / rate);
-    const m = Math.floor(remSec/60), s = remSec%60;
+    const m = Math.floor(remSec/60), s = remSec % 60;
     timeLabel.textContent = `Time left: ${m}:${String(s).padStart(2,"0")}`;
   }
 
-  // ───── SPEAK FUNCTIONS ─────
+  // ───── END HANDLER ─────
   function rvEnd() {
-    // stop and hide spinner
     bufIcon.classList.remove("spinning");
-
     if (suppress) { suppress = false; return; }
     if (!isPaused && idx < paras.length - 1) {
-      idx++; updateProg(); readCurrent();
+      idx++;
+      updateProg();
+      readCurrent();
     }
   }
 
+  // ───── SPEAK ONE PARAGRAPH ─────
   function speakText(txt) {
-    // show and start spinner
     bufIcon.classList.add("spinning");
     responsiveVoice.speak(txt, voiceSel.value, {
       rate,
@@ -110,20 +98,14 @@ document.addEventListener("DOMContentLoaded", () => {
   // ───── WIRE UP CONTROLS ─────
   startBtn.onclick = () => {
     idx = 0; isPaused = false; suppress = false;
-    startBtn.style.display   = "none";
-    controls.style.display    = "block";
-    readCurrent(); updateProg();
+    startBtn.style.display = "none";
+    controls.style.display = "block";
+    readCurrent();
+    updateProg();
   };
-  playBtn.onclick  = () => {
-    isPaused = false;
-    responsiveVoice.resume();
-  };
-  pauseBtn.onclick = () => {
-    isPaused = true;
-    responsiveVoice.pause();
-  };
+  playBtn.onclick  = () => { isPaused = false; responsiveVoice.resume(); };
+  pauseBtn.onclick = () => { isPaused = true;  responsiveVoice.pause(); };
   stopBtn.onclick  = () => {
-    // cancel immediately and close out the panel
     responsiveVoice.cancel();
     controls.style.display = "none";
     startBtn.style.display = "inline-block";
@@ -131,22 +113,23 @@ document.addEventListener("DOMContentLoaded", () => {
   nextBtn.onclick  = () => {
     responsiveVoice.cancel();
     if (idx < paras.length - 1) idx++;
-    readCurrent();
     updateProg();
+    readCurrent();
   };
   prevBtn.onclick  = () => {
     responsiveVoice.cancel();
     if (idx > 0) idx--;
-    readCurrent();
     updateProg();
+    readCurrent();
   };
+
   slowBtn.onclick = () => {
     rate = Math.max(0.5, rate - 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
     responsiveVoice.cancel();
     readCurrent();
   };
-  normalBtn.onclick = () => {
+  normBtn.onclick = () => {
     rate = 1.0;
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
     responsiveVoice.cancel();
