@@ -17,10 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const picker = document.getElementById("voicePickerContainer");
   if (picker) {
     const wrap = document.createElement("div");
-    wrap.innerHTML = `
-      <label style="font-size:0.9em; margin-left:1em;">
-      </label>
-    `;
+    wrap.innerHTML = ``;
     picker.appendChild(wrap);
     document.getElementById("nativeVoiceToggle")
       .addEventListener("change", e => {
