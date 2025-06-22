@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const content   = document.querySelector("main"); // your page body
 
   // Make sure the things start hidden:
-  translate.style.display = "none";
+  //translate.style.display = "none";
   controls.style.display  = "none";
 
   btn.addEventListener("click", () => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       // Exit reader mode
       content.classList.remove("reader-mode");
-      translate.style.display = "none";
+      //translate.style.display = "none";
       controls.style.display  = "none";
       btn.textContent          = "Reader View";
     }
