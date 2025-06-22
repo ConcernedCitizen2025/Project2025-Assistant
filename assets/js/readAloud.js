@@ -17,12 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const picker = document.getElementById("voicePickerContainer");
   if (picker) {
     const wrap = document.createElement("div");
-    /*wrap.innerHTML = `
+    wrap.innerHTML = `
       <label style="font-size:0.9em; margin-left:1em;">
-        <input type="checkbox" id="nativeVoiceToggle"/>
-        Use system voices
       </label>
-    `;*/
+    `;
     picker.appendChild(wrap);
     document.getElementById("nativeVoiceToggle")
       .addEventListener("change", e => {
