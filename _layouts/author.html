@@ -197,14 +197,15 @@
         {% include reader_toggle.html %}
     </div>
 
-    <div id="voicePickerContainer" style="margin:1em 0;">
-        <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
-        <select id="voiceSelect"></select>
-    </div>
+    
 
 
     <!-- 2) Read-aloud controls (hidden until you click) -->
     <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
         {% include readAloudControls.html %}
     </div>
 
