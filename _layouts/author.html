@@ -190,11 +190,11 @@
     </div>
 
     
-    <div class="reader-show translate-container">
-        <div class="reader-show">
+    <!-- always show translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
         {% include google_translate.html %}
-        </div>
     </div>
+
     <!-- 1) Reader toggle button -->
     <div class="reader-show" id="globalReaderToggleContainer">
         {% include reader_toggle.html %}
@@ -210,9 +210,6 @@
             {{ content }}
         </div>
     </main>
-
-    <!-- ■ READ-ALOUD CONTROLS (the play/pause/etc UI) -->
-    {% include readAloudControls.html %}
 
     <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
     <script src="/assets/js/reader-toggle.js"></script>
