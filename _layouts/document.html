@@ -243,18 +243,47 @@
         </div>
     </header>
 
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Google Search Bar-->
     <div style="text-align: center; margin: 20px 0;">
         <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
         <div class="gcse-search"></div>
     </div>
 
-    <div class="translate-container">
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
         {% include google_translate.html %}
     </div>
 
-    <main>
-        {{ content }}
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        {% include reader_toggle.html %}
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
+        {% include readAloudControls.html %}
+    </div>
+
+    <main class="reader-show" id="mainContent">
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
+            {{ content }}
+        </div>
     </main>
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
     <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
 
         <!-- Protest Signs Logo -->
@@ -274,10 +303,10 @@
         </div>
     </div>
 
-    <!-- Back to Top Button -->
+    <!-- Back to Top Button ->
     <div class="back-to-top" id="backToTop">
         <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
-    </div>
+    </div>-->
 
     <!-- Include the cookie consent banner -->
     {% include cookie-consent-banner.html %}
