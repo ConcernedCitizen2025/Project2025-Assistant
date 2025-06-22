@@ -1,29 +1,35 @@
 // assets/js/readAloud.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  const pageLang = (document.documentElement.lang||"en").slice(0,2);
-  const useRV    = pageLang === "en";         // only use RV on English pages
-  let overrideNative = false;                 // user toggle “Use system voices”
-  
-  // Recompute speaking mode:
-  function speakingWithRV() {
-    return useRV && !overrideNative;
+  // ───── HELPERS FOR LANGUAGE & ENGINE ─────
+  function getPageLang() {
+    return (document.documentElement.lang || "en").slice(0,2);
+  }
+  let overrideNative = false;  // toggled by the checkbox
+
+  function speakUsingRV() {
+    return getPageLang() === "en"
+        && !overrideNative
+        && window.responsiveVoice;
   }
 
-  // Inject “Use system voices” checkbox:
+  // ───── INJECT “USE SYSTEM VOICES” TOGGLE ─────
   const picker = document.getElementById("voicePickerContainer");
-  const chkWrap = document.createElement("div");
-  chkWrap.innerHTML = `
-    <label style="font-size:0.9em; margin-left:1em">
-      <input type="checkbox" id="nativeVoiceToggle"/>
-      Use system voices
-    </label>`;
-  picker.appendChild(chkWrap);
-  document.getElementById("nativeVoiceToggle")
-    .addEventListener("change", e => {
-      overrideNative = e.target.checked;
-      loadVoices();
-    });
+  if (picker) {
+    const wrap = document.createElement("div");
+    wrap.innerHTML = `
+      <label style="font-size:0.9em; margin-left:1em;">
+        <input type="checkbox" id="nativeVoiceToggle"/>
+        Use system voices
+      </label>
+    `;
+    picker.appendChild(wrap);
+    document.getElementById("nativeVoiceToggle")
+      .addEventListener("change", e => {
+        overrideNative = e.target.checked;
+        loadVoices();
+      });
+  }
 
   // ───── GRAB UI ELEMENTS ─────
   const startBtn  = document.getElementById("startReadAloud");
@@ -44,45 +50,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ───── LOAD & POPULATE VOICES ─────
   function loadVoices() {
-    voiceSelect.innerHTML = "";
-    if (speakingWithRV()) {
+    voiceSel.innerHTML = "";
+    const lang = getPageLang();
+    if (speakUsingRV()) {
+      // always British female + male
       ["UK English Female","UK English Male"].forEach(name => {
-        let o = document.createElement("option");
+        const o = document.createElement("option");
         o.value = name;
         o.text  = name.includes("Female") ? "Female" : "Male";
-        voiceSelect.appendChild(o);
+        voiceSel.appendChild(o);
       });
     } else {
-      let all = speechSynthesis.getVoices().filter(v =>
-        v.lang.startsWith(pageLang)
-      );
-      let female = all.find(v=>/female/i.test(v.name)) || all[0];
-      let male   = all.find(v=>/male/i.test(v.name))   || all[1]||female;
-      [[female,"Female"],[male,"Male"]].forEach(([v,label])=>{
-        let o = document.createElement("option");
+      // native voices for whatever lang
+      const all = speechSynthesis.getVoices();
+      const matches = all.filter(v => v.lang.startsWith(lang));
+      let fem = matches.find(v=>/female/i.test(v.name)) || matches[0];
+      let mal = matches.find(v=>/male/i.test(v.name))   || matches[1] || fem;
+      [[fem,"Female"],[mal,"Male"]].forEach(([v,label])=>{
+        if (!v) return;
+        const o = document.createElement("option");
         o.value = v.name;
         o.text  = label;
-        voiceSelect.appendChild(o);
+        voiceSel.appendChild(o);
       });
-    }
-  }
-  if (!speakingWithRV()) speechSynthesis.onvoiceschanged = loadVoices;
-  loadVoices();
-
-  // …then later, when you call speakText():
-  function speakText(txt) {
-    bufIcon.classList.add("spinning");    // start spinner
-    if (speakingWithRV()) {
-      responsiveVoice.speak(txt, voiceSelect.value, { rate, onend: onEnd });
-    } else {
-      let u = new SpeechSynthesisUtterance(txt);
-      u.voice = speechSynthesis.getVoices()
-                .find(v=>v.name === voiceSelect.value)
-              || speechSynthesis.getVoices()[0];
-      u.lang = u.voice.lang;
-      u.rate = rate;
-      u.onend = onEnd;
-      speechSynthesis.speak(u);
     }
   }
   speechSynthesis.onvoiceschanged = loadVoices;
@@ -199,29 +189,26 @@ document.addEventListener("DOMContentLoaded", () => {
     if (idx > 0) idx--;
     readCurrent(); updateProg();
   };
-    slowBtn.onclick = () => {
+  slowBtn.onclick = () => {
     rate = Math.max(0.5, rate - 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    // immediately restart current
-    if (speakingWithRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
-    readCurrent();        // same idx
+    // restart with new rate immediately
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
+    readCurrent();
   };
-
   normBtn.onclick = () => {
     rate = 1.0;
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    if (speakingWithRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
     readCurrent();
   };
-
   fastBtn.onclick = () => {
     rate = Math.min(2.0, rate + 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    if (speakingWithRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
+    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
+    isPaused = false;
     readCurrent();
   };
-
 });
