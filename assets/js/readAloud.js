@@ -95,8 +95,11 @@ document.addEventListener("DOMContentLoaded", () => {
   function speakText(txt) {
     // show and start spinner
     bufIcon.classList.add("spinning");
-
-    responsiveVoice.speak(txt, voiceSelect.value, { rate, onend: rvEnd });
+    responsiveVoice.speak(txt, voiceSel.value, {
+      rate,
+      onstart: () => bufIcon.classList.remove("spinning"),
+      onend:    rvEnd
+    });
   }
 
   function readCurrent() {
@@ -113,54 +116,46 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   playBtn.onclick  = () => {
     isPaused = false;
-    speakUsingRV() ? responsiveVoice.resume() : speechSynthesis.resume();
+    responsiveVoice.resume();
   };
   pauseBtn.onclick = () => {
     isPaused = true;
-    speakUsingRV() ? responsiveVoice.pause() : speechSynthesis.pause();
+    responsiveVoice.pause();
   };
   stopBtn.onclick  = () => {
-    isPaused = true; suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
-    idx = 0; updateProg();
+    // cancel immediately and close out the panel
+    responsiveVoice.cancel();
     controls.style.display = "none";
     startBtn.style.display = "inline-block";
   };
   nextBtn.onclick  = () => {
-    suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
+    responsiveVoice.cancel();
     if (idx < paras.length - 1) idx++;
-    readCurrent(); updateProg();
+    readCurrent();
+    updateProg();
   };
   prevBtn.onclick  = () => {
-    suppress = true;
-    if (speakUsingRV()) responsiveVoice.cancel();
-    else speechSynthesis.cancel();
+    responsiveVoice.cancel();
     if (idx > 0) idx--;
-    readCurrent(); updateProg();
+    readCurrent();
+    updateProg();
   };
   slowBtn.onclick = () => {
     rate = Math.max(0.5, rate - 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    // restart with new rate immediately
-    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
-    isPaused = false;
+    responsiveVoice.cancel();
     readCurrent();
   };
-  normBtn.onclick = () => {
+  normalBtn.onclick = () => {
     rate = 1.0;
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
-    isPaused = false;
+    responsiveVoice.cancel();
     readCurrent();
   };
   fastBtn.onclick = () => {
     rate = Math.min(2.0, rate + 0.1);
     showSpeed(`Speed: ${rate.toFixed(1)}×`);
-    speakUsingRV ? responsiveVoice.cancel() : speechSynthesis.cancel();
-    isPaused = false;
+    responsiveVoice.cancel();
     readCurrent();
   };
 });
