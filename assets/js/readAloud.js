@@ -5,31 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function getPageLang() {
     return (document.documentElement.lang || "en").slice(0,2);
   }
-  let overrideNative = false;  // toggled by the checkbox
-
-  function speakUsingRV() {
-    return getPageLang() === "en"
-        && !overrideNative
-        && window.responsiveVoice;
-  }
-
-  // ───── INJECT “USE SYSTEM VOICES” TOGGLE ─────
-  const picker = document.getElementById("voicePickerContainer");
-  if (picker) {
-    const wrap = document.createElement("div");
-    wrap.innerHTML = `
-      <label style="font-size:0.9em; margin-left:1em;">
-        <input type="checkbox" id="nativeVoiceToggle"/>
-        Use system voices
-      </label>
-    `;
-    picker.appendChild(wrap);
-    document.getElementById("nativeVoiceToggle")
-      .addEventListener("change", e => {
-        overrideNative = e.target.checked;
-        loadVoices();
-      });
-  }
+  
 
   // ───── GRAB UI ELEMENTS ─────
   const startBtn  = document.getElementById("startReadAloud");
@@ -50,30 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ───── LOAD & POPULATE VOICES ─────
   function loadVoices() {
-    voiceSel.innerHTML = "";
-    const lang = getPageLang();
-    if (speakUsingRV()) {
-      // always British female + male
-      ["UK English Female","UK English Male"].forEach(name => {
-        const o = document.createElement("option");
-        o.value = name;
-        o.text  = name.includes("Female") ? "Female" : "Male";
-        voiceSel.appendChild(o);
-      });
-    } else {
-      // native voices for whatever lang
-      const all = speechSynthesis.getVoices();
-      const matches = all.filter(v => v.lang.startsWith(lang));
-      let fem = matches.find(v=>/female/i.test(v.name)) || matches[0];
-      let mal = matches.find(v=>/male/i.test(v.name))   || matches[1] || fem;
-      [[fem,"Female"],[mal,"Male"]].forEach(([v,label])=>{
-        if (!v) return;
-        const o = document.createElement("option");
-        o.value = v.name;
-        o.text  = label;
-        voiceSel.appendChild(o);
-      });
-    }
+    voiceSelect.innerHTML = "";
+    ["UK English Female","UK English Male"].forEach(name => {
+      const o = document.createElement("option");
+      o.value = name;
+      o.text  = name.includes("Female") ? "Female" : "Male";
+      voiceSelect.appendChild(o);
+    });
   }
   speechSynthesis.onvoiceschanged = loadVoices;
   loadVoices();
@@ -137,14 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // show and start spinner
     bufIcon.classList.add("spinning");
 
-    if (speakUsingRV) {
-      responsiveVoice.speak(txt, voiceSel.value, { rate, onend: rvEnd });
-    } else {
-    let u = new SpeechSynthesisUtterance(txt);
-    /* … */
-    u.onend = rvEnd;
-    speechSynthesis.speak(u);
-    }
+    responsiveVoice.speak(txt, voiceSelect.value, { rate, onend: rvEnd });
   }
 
   function readCurrent() {
