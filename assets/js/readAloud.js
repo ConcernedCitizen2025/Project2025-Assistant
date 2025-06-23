@@ -29,45 +29,46 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
-  const readerEl  = document.getElementById("readableContent");
+  const readerEl = document.getElementById("readableContent");
 
-  // 1) Remove entire “[EXCLUDE] … [/EXCLUDE]” blocks (tags + contents)
-  readerEl.innerHTML = readerEl.innerHTML.replace(
-    /\[EXCLUDE\][\s\S]*?\[\/EXCLUDE\]/gi,
-    ""
-  );
+  // 1) Grab the raw text (includes the “[EXCLUDE]” markers)
+  const rawText = readerEl.innerText;
 
-
-  // 2) Grab the *clean* text
-  const originalTxt = readerEl.innerText;
-
-  // 3) Split into chunks on 2+ line-breaks
-  const chunks = originalTxt
+  // 2) Split into chunks on two-or-more line-breaks
+  const chunks = rawText
     .split(/\n{2,}/g)
     .map(s => s.trim())
     .filter(Boolean);
 
-  // 4) Walk the chunks, skipping everything between [EXCLUDE]…[/EXCLUDE]
+  // 3) Walk the chunks, skipping everything between [EXCLUDE] … [/EXCLUDE]
   let paras     = [];
   let reading   = true;
   let sawMarker = false;
 
   for (const chunk of chunks) {
-    if (/\[EXCLUDE\]/i.test(chunk)) {
+    if (/^\[EXCLUDE\]/i.test(chunk)) {
       sawMarker = true;
       reading   = false;
-      continue;
+      continue;              // drop the “[EXCLUDE]” chunk
     }
-    if (/\[\/EXCLUDE\]/i.test(chunk)) {
+    if (/^\[\/EXCLUDE\]/i.test(chunk)) {
       reading = true;
-      continue;
+      continue;              // drop the “[\/EXCLUDE]” chunk
     }
-    if (reading) paras.push(chunk);
+    if (reading) {
+      paras.push(chunk);
+    }
   }
 
-  // 5) If no markers were ever found, just read everything
+  // 4) If we never saw any markers, read *all* chunks
   if (!sawMarker) paras = chunks;
-  // ──────────────────────────────────────────────
+
+  // 5) Finally, remove the literal tags from the live HTML so they never appear
+  readerEl.innerHTML = readerEl.innerHTML.replace(
+    /\[EXCLUDE\]|\[\/EXCLUDE\]/gi,
+    ""
+  );
+
 
 
   let idx      = 0,
