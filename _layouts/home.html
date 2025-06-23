@@ -271,93 +271,48 @@
         .gcse-search {
             width: 100%; /* Ensures the search bar fits the container */
         }
-        /* ==== Mobile Hamburger Fix ==== */
-        @media (max-width: 768px) {
-        /* 1) Make the hamburger icon sit on top, in the corner */
-        .hamburger {
-            display: block;               /* ensure it shows */
-            position: absolute;
-            top: 1rem;                    /* tweak to taste */
-            right: 1rem;                  /* tweak to taste */
-            z-index: 1000;                /* on top of banner */
-            font-size: 2rem;              /* nice tappable size */
-            cursor: pointer;
-            color: #fff;                  /* or whatever your icon color is */
-        }
 
-        /* 2) When you toggle .showing, make the UL drop down over content */
-        nav ul {
-            position: absolute;
-            top: 100%;                    /* sit directly under header */
-            left: 0;
-            width: 100%;
-            background: rgba(0,0,0,0.9);  /* match your desktop nav bg */
-            display: none;                /* hidden by default */
+        @media (max-width: 768px) {
+        /* make the header stack vertically */
+        header {
+            display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 1rem 0;
-            margin: 0;
-            box-sizing: border-box;
         }
 
-        nav ul.showing {
-            display: flex;
-        }
-
-        /* 3) nav links styling in mobile */
-        nav ul li {
-            margin: 0.5rem 0;
-        }
-        nav ul li a {
-            color: #fff;
-            font-size: 1.2rem;
-        }
-        }
-        /* ==== Make header the positioning context ==== */
-        header {
-        position: relative;
-        }
-
-        /* ==== Hamburger always visible in top-right on mobile ==== */
-        @media (max-width: 768px) {
+        /* Hamburger goes immediately under the banner */
         .hamburger {
             display: block;
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            z-index: 1000;
+            margin: 1rem 0;       /* pushes it just below the banner */
             font-size: 2rem;
             cursor: pointer;
             color: #fff;
             background: transparent;
             border: none;
+            z-index: 1000;
         }
 
-        /* pull the UL out of the document flow and layer it under the header */
-        nav {
-            position: relative;   /* so its child UL absolutely positions to this */
-        }
+        /* Nav UL should sit right under the hamburger, above the share-buttons */
         nav ul {
-            position: absolute;
-            top: 100%;            /* just below header */
-            left: 0;
+            display: none;        /* hidden by default */
             width: 100%;
             background: rgba(0,0,0,0.9);
-            display: none;        /* hidden until you toggle */
+            list-style: none;
+            margin: 0; 
+            padding: 1rem 0;
             flex-direction: column;
             align-items: center;
-            padding: 1rem 0;
-            margin: 0;
-            list-style: none;
         }
+
+        /* When JS toggles .showing on your UL, it will slide open here */
         nav ul.showing {
             display: flex;
         }
 
-        /* tweak link styling for mobile */
         nav ul li {
             margin: 0.5rem 0;
         }
+
         nav ul li a {
             color: #fff;
             text-decoration: none;
