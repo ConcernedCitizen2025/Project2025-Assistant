@@ -31,11 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
   const readerEl  = document.getElementById("readableContent");
 
-  // 1) Strip out the literal markers so they never show up on the page
+  // 1) Remove entire “[EXCLUDE] … [/EXCLUDE]” blocks (tags + contents)
   readerEl.innerHTML = readerEl.innerHTML.replace(
-    /\[EXCLUDE\]|\[\/EXCLUDE\]/gi,
+    /\[EXCLUDE\][\s\S]*?\[\/EXCLUDE\]/gi,
     ""
   );
+
 
   // 2) Grab the *clean* text
   const originalTxt = readerEl.innerText;
