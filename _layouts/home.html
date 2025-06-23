@@ -227,64 +227,32 @@
             margin: 0 10px;
         }
 
-        /* Responsive styles for mobile */
+        /* Mobile View */
         @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
             .hamburger {
                 display: block;
-                font-size: 30px;
-                cursor: pointer;
             }
 
             nav ul {
-                display: none; /* Hide regular nav */
+                display: none;
+                flex-direction: column;
+                align-items: center;
             }
 
-            /* Align logo and hamburger in a row */
-            .header-content {
-                justify-content: space-between;
+            nav ul.showing {
+                display: flex;
             }
-
-            /* Social icons, logo, and hamburger should align in a row */
-            .logo-container img {
-                max-width: 100%;
-                height: auto; /* Ensures logo maintains aspect ratio */
-                display: block;
-                margin: 0 auto;
-            }
-
-            .social-media-icons {
-                justify-content: space-between;
-                width: 100%;
-            }
-
-            /* Style for larger screens */
-            @media (min-width: 769px) {
-                .content-wrapper img {
-                    float: left;
-                    max-width: 400px; /* Adjust image size */
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                .content-wrapper p {
-                    width: calc(100% - 420px); /* Make text take up remaining space */
-                }
-            }
-
-            /* Style for smaller screens (mobile) */
-            @media (max-width: 768px) {
-                .content-wrapper img {
-                    float: none;
-                    width: 100%; /* Full width on mobile */
-                    margin: 0 auto 20px;
-                }
-
-                .content-wrapper p {
-                    width: 100%; /* Full width text on mobile */
-                }
-            }
-                
         }
+
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+                
         /* Container for both translate and search bar */
         .translate-share-container {
             display: flex;
