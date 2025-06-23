@@ -2,6 +2,7 @@
 layout: table_of_contents
 title: "Table of Contents"
 ---
+[EXCLUDE]
 <div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
     <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS & BOYCOTTS ARE HAPPENING NOW! 🚨</h2>
     <p style="font-size: 1.2em;">Protests and rallies are happening nationwide. Find an event near you and take action!</p>
@@ -11,7 +12,8 @@ title: "Table of Contents"
     </a>
 </div>
 
-[START]
+[/EXCLUDE]
+
 <center><a href="/big_ugly_bill" style="font-size: 2em; font-weight: bold;"><em><strong>“Big Ugly Bill”</strong></em></a></center>
 <em><strong>What Is the “Big Ugly Bill”?</strong></em>
 Supporters call it the “Big Beautiful Bill,” but a viral TikTok video exposed what many now recognize as a dangerous legislative threat. In the video, the bill was described as <em>“authoritarianism wrapped in bureaucratic language”—a hostile restructuring of the republic through legislative subversion.</em> At Project2025Assistant.org, we’ve renamed it the <strong>Big Ugly Bill</strong>, and we’ve published the entire 1100+ page document so you can examine it for yourself. Our version is <strong>word-for-word identical</strong> to the official text, but with crucial upgrades: a clickable table of contents with accurate page numbers, easy navigation with a “Return to Top” button, and a layout designed for clarity and transparency. See the legislation that could reshape our government—and not for the better.
@@ -52,8 +54,6 @@ Project 2025 features a list of organizations known as the Project 2025 Advisory
 </div>
 The "Authors and Contributors" section provides a thorough list of the individuals involved in the creation of Project 2025, including authors, editors, and other contributors. Controversy has arisen over potential affiliations between these individuals and the Republican presidential nominee. Any such connections are noted next to the names on the list. By clicking on a name, you can access detailed information about their position, background, relationship to the Trump administration, relevant controversies, and any potential concerns regarding their involvement with Project 2025.
 <br>
-
-[STOP]
 
 
 

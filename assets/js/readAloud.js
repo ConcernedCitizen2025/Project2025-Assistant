@@ -28,35 +28,22 @@ document.addEventListener("DOMContentLoaded", () => {
     voiceSel.appendChild(o);
   });
 
-  // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
+  // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
   const readerEl = document.getElementById("readableContent");
-  // keep the original HTML for marker inspection…
-  const originalHTML = readerEl.innerHTML;
 
-  // …but strip any stray [START] / [STOP] so they never show up on screen
-  readerEl.innerHTML = originalHTML.replace(/\[START\]|\[STOP\]/gi, "");
+  // 1. Strip out any marker tags so readers never see them
+  let html = readerEl.innerHTML;
+  html = html.replace(/\[EXCLUDE\]([\s\S]*?)\[\/EXCLUDE\]/gi, "");
+  readerEl.innerHTML = html;
 
-  // now pull out *all* the START…STOP segments
-  const paras = [];
-  const matches = [...originalHTML.matchAll(/\[START\]([\s\S]*?)\[STOP\]/gi)];
-  if (matches.length) {
-    for (let m of matches) {
-      // m[1] is everything between a START and the next STOP
-      // split it into “paragraph” chunks on two+ line-breaks:
-      m[1]
-        .split(/\n{2,}/g)
-        .map(s => s.trim())
-        .filter(Boolean)
-        .forEach(chunk => paras.push(chunk));
-    }
-  } else {
-    // no markers at all? read the *entire* content
-    readerEl.innerText
-      .split(/\n{2,}/g)
-      .map(s => s.trim())
-      .filter(Boolean)
-      .forEach(chunk => paras.push(chunk));
-  }
+  // 2. Now take the cleaned text and break it into paragraphs
+  const paras = html
+    .replace(/<\/?[^>]+>/g, "")      // remove any remaining HTML tags
+    .split(/\n{2,}/g)                // split on 2+ line-breaks
+    .map(s => s.trim())              // trim edges
+    .filter(Boolean);                // drop empty chunks
+  // ──────────────────────────────────────────────
+
 
 
   let idx      = 0,
