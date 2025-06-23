@@ -29,50 +29,50 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
-  const allEls = Array.from(document.querySelectorAll(
+  const rawEls = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
     "#readableContent h1, #readableContent h2, #readableContent h3, " +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
 
-  // 1) remember original text so we can detect markers
-  const originals = allEls.map(el => el.textContent);
-
-  // 2) strip markers from the page so they never display
-  allEls.forEach(el => {
+  // strip markers so they never show
+  rawEls.forEach(el => {
     el.textContent = el.textContent
-                      .replace(/\[START\]/g, "")
-                      .replace(/\[STOP\]/g, "")
-                      .trim();
+      .replace(/\[START\]/gi, "")
+      .replace(/\[STOP\]/gi, "")
+      .trim();
   });
 
-  // 3) decide if we’re in bracket‐mode at all
-  const bracketMode = originals.some(txt => txt.includes("[START]"));
+  // now build the list to read
+  let paras   = [];
+  let reading = false;
 
-  // 4) build our final paras array
-  let paras = [];
-  if (!bracketMode) {
-    // no START tags = read everything
-    paras = allEls;
-  } else {
-    // only read elements between [START] and [STOP]
-    let reading = false;
-    originals.forEach((txt, i) => {
-      if (txt.includes("[START]")) {
-        reading = true;
+  rawEls.forEach(el => {
+    const orig = el.textContent;
+    // check the original (with markers) via dataset or attribute if you stored them, 
+    // but since we've wiped them, we'll peek the HTML attribute instead:
+    // (you could alternatively capture before stripping)
+    const html = el.outerHTML;
+
+    if (/\[START\]/i.test(html)) {
+      reading = true;
+    }
+    if (reading) {
+      const clean = orig.trim();
+      if (clean) {
+        el._readText = clean;   // stash it
+        paras.push(el);
       }
-      if (reading) {
-        // skip empty paragraphs
-        const clean = allEls[i].textContent.trim();
-        if (clean) {
-          allEls[i]._readText = clean;
-          paras.push(allEls[i]);
-        }
-      }
-      if (txt.includes("[STOP]")) {
-        reading = false;
-      }
-    });
+    }
+    if (/\[STOP\]/i.test(html)) {
+      reading = false;
+    }
+  });
+
+  // if we never saw any markers, just read everything
+  if (!paras.length) {
+    paras = rawEls;
+    paras.forEach(el => el._readText = el.textContent.trim());
   }
 
   let idx      = 0,
@@ -140,12 +140,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function readCurrent() {
-  const el   = paras[idx];
-  const text = el._readText != null
-             ? el._readText
-             : el.textContent;
-  speakText(text);
-}
+    const el   = paras[idx];
+    const text = el._readText || el.textContent;
+    speakText(text);
+  }
+
 
 
   // ───── WIRE UP CONTROLS ─────
