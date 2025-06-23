@@ -29,43 +29,34 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
-  // first, remove any visible [START] / [STOP] markers so users never see them
   const readerEl = document.getElementById("readableContent");
-  readerEl.innerHTML = readerEl.innerHTML.replace(/\[START\]|\[STOP\]/gi, "");
+  // keep the original HTML for marker inspection…
+  const originalHTML = readerEl.innerHTML;
 
-  // now grab the cleaned‐up text
-  const rawText = readerEl.innerText;
+  // …but strip any stray [START] / [STOP] so they never show up on screen
+  readerEl.innerHTML = originalHTML.replace(/\[START\]|\[STOP\]/gi, "");
 
-  // split on two or more line-breaks ⇒ “paragraphs”
-  const chunks = rawText
-    .split(/\n{2,}/g)
-    .map(s => s.trim())
-    .filter(Boolean);
-
-  let paras     = [];
-  let reading   = false;
-  let sawMarker = false;
-
-  for (const chunk of chunks) {
-    if (/\[START\]/i.test(chunk)) {
-      sawMarker = true;
-      reading   = true;
-      continue;              // don’t include the marker itself
+  // now pull out *all* the START…STOP segments
+  const paras = [];
+  const matches = [...originalHTML.matchAll(/\[START\]([\s\S]*?)\[STOP\]/gi)];
+  if (matches.length) {
+    for (let m of matches) {
+      // m[1] is everything between a START and the next STOP
+      // split it into “paragraph” chunks on two+ line-breaks:
+      m[1]
+        .split(/\n{2,}/g)
+        .map(s => s.trim())
+        .filter(Boolean)
+        .forEach(chunk => paras.push(chunk));
     }
-    if (/\[STOP\]/i.test(chunk)) {
-      reading = false;
-      continue;              // drop the marker
-    }
-    if (reading) {
-      paras.push(chunk);
-    }
+  } else {
+    // no markers at all? read the *entire* content
+    readerEl.innerText
+      .split(/\n{2,}/g)
+      .map(s => s.trim())
+      .filter(Boolean)
+      .forEach(chunk => paras.push(chunk));
   }
-
-  // if we never saw any START/STOP, read everything:
-  if (!sawMarker) {
-    paras = chunks;
-  }
-
 
 
   let idx      = 0,
