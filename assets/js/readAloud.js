@@ -29,43 +29,44 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
-  const nodes = Array.from(document.querySelectorAll(
-    "#readableContent p, #readableContent li, " +
-    "#readableContent h1, #readableContent h2, #readableContent h3, " +
-    "#readableContent h4, #readableContent h5, #readableContent h6"
-  ));
+  // first, remove any visible [START] / [STOP] markers so users never see them
+  const readerEl = document.getElementById("readableContent");
+  readerEl.innerHTML = readerEl.innerHTML.replace(/\[START\]|\[STOP\]/gi, "");
+
+  // now grab the cleaned‐up text
+  const rawText = readerEl.innerText;
+
+  // split on two or more line-breaks ⇒ “paragraphs”
+  const chunks = rawText
+    .split(/\n{2,}/g)
+    .map(s => s.trim())
+    .filter(Boolean);
 
   let paras     = [];
   let reading   = false;
   let sawMarker = false;
 
-  nodes.forEach(el => {
-    const raw = el.textContent || "";
-    const hasStart = /\[START\]/i.test(raw);
-    const hasStop  = /\[STOP\]/i.test(raw);
-
-    if (hasStart) {
-      reading   = true;
+  for (const chunk of chunks) {
+    if (/\[START\]/i.test(chunk)) {
       sawMarker = true;
+      reading   = true;
+      continue;              // don’t include the marker itself
     }
-
-    if (reading && !hasStart) {
-      // strip any stray markers and trim
-      const txt = raw.replace(/\[START\]|\[STOP\]/gi, "").trim();
-      if (txt) paras.push(txt);
-    }
-
-    if (hasStop) {
+    if (/\[STOP\]/i.test(chunk)) {
       reading = false;
+      continue;              // drop the marker
     }
-  });
-
-  // if we never saw any START/STOP, read *all* of them:
-  if (!sawMarker) {
-    paras = nodes
-      .map(el => el.textContent.trim())
-      .filter(t => t);
+    if (reading) {
+      paras.push(chunk);
+    }
   }
+
+  // if we never saw any START/STOP, read everything:
+  if (!sawMarker) {
+    paras = chunks;
+  }
+
+
 
   let idx      = 0,
       rate     = 1.0,
