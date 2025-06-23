@@ -28,14 +28,43 @@ document.addEventListener("DOMContentLoaded", () => {
     voiceSel.appendChild(o);
   });
 
-  // ───── GATHER PARAGRAPHS ─────
-  let paras = Array.from(document.querySelectorAll(
+    // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
+  const allEls = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
     "#readableContent h1, #readableContent h2, #readableContent h3, " +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
-  const firstReal = paras.findIndex(p => !p.textContent.trim().startsWith("---"));
-  if (firstReal > 0) paras = paras.slice(firstReal);
+
+  // if no [START] anywhere, just read them all
+  const bracketMode = allEls.some(el => el.textContent.includes("[START]"));
+  let paras = [];
+
+  if (!bracketMode) {
+    paras = allEls;
+  } else {
+    // only read between [START] … [STOP] (can be many pairs)
+    let reading = false;
+    allEls.forEach(el => {
+      let txt = el.textContent;
+
+      if (txt.includes("[START]")) {
+        reading = true;
+        txt = txt.replace("[START]", "");
+      }
+
+      if (reading) {
+        // strip any leftover markers before speaking
+        txt = txt.replace("[STOP]", "").trim();
+        // stash clean text on the element
+        el._readText = txt;
+        paras.push(el);
+      }
+
+      if (txt.includes("[STOP]")) {
+        reading = false;
+      }
+    });
+  }
 
   let idx      = 0,
       rate     = 1.0,
@@ -102,7 +131,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function readCurrent() {
-    const text = paras[idx].textContent.replace(/\[STOP\].*$/,"");
+    // if we stitched in a clean text snippet, use that…
+    const el  = paras[idx];
+    const text = el._readText != null
+              ? el._readText
+              : el.textContent.replace(/\[STOP\].*$/,"");
+
     speakText(text);
   }
 

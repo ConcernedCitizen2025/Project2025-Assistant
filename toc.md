@@ -11,7 +11,7 @@ title: "Table of Contents"
     </a>
 </div>
 
-
+[START]
 <center><a href="/big_ugly_bill" style="font-size: 2em; font-weight: bold;"><em><strong>“Big Ugly Bill”</strong></em></a></center>
 <em><strong>What Is the “Big Ugly Bill”?</strong></em>
 Supporters call it the “Big Beautiful Bill,” but a viral TikTok video exposed what many now recognize as a dangerous legislative threat. In the video, the bill was described as <em>“authoritarianism wrapped in bureaucratic language”—a hostile restructuring of the republic through legislative subversion.</em> At Project2025Assistant.org, we’ve renamed it the <strong>Big Ugly Bill</strong>, and we’ve published the entire 1100+ page document so you can examine it for yourself. Our version is <strong>word-for-word identical</strong> to the official text, but with crucial upgrades: a clickable table of contents with accurate page numbers, easy navigation with a “Return to Top” button, and a layout designed for clarity and transparency. See the legislation that could reshape our government—and not for the better.
@@ -37,15 +37,6 @@ The probing questions aim to uncover the implications of the proposals within Pr
 Explore engaging video podcasts diving deep into Project 2025, government reform, LGBTQ+ rights, and democracy.
 <br>
 
-
-<!-- <div style="text-align: center;">
-  <a href="/podcasts/episode-1-project2025-intro.html" style="font-size: 2em; font-weight: bold;">
-    Podcast: <em>Episode 1 - Introduction to Project 2025</em>
-  </a>
-</div>
-In this first episode of the Project 2025 podcast, we introduce the key concepts and implications of Project 2025, discussing the potential threats to LGBTQ+ rights, the restructuring of the federal government, and other major changes outlined in the document. This episode is designed to provide listeners with an overview of the project and the importance of staying informed.
-<br> -->
-
 <div style="text-align: center;">
   <a href="/advisory_board.html" style="font-size: 1.8em; font-weight: bold;">
     Project 2025 Advisory Board: <em>Unmasking the Entities</em>
@@ -62,6 +53,7 @@ Project 2025 features a list of organizations known as the Project 2025 Advisory
 The "Authors and Contributors" section provides a thorough list of the individuals involved in the creation of Project 2025, including authors, editors, and other contributors. Controversy has arisen over potential affiliations between these individuals and the Republican presidential nominee. Any such connections are noted next to the names on the list. By clicking on a name, you can access detailed information about their position, background, relationship to the Trump administration, relevant controversies, and any potential concerns regarding their involvement with Project 2025.
 <br>
 
+[STOP]
 
 
 
