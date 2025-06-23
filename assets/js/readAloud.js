@@ -28,38 +28,47 @@ document.addEventListener("DOMContentLoaded", () => {
     voiceSel.appendChild(o);
   });
 
-    // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
+  // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
   const allEls = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
     "#readableContent h1, #readableContent h2, #readableContent h3, " +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
 
-  // if no [START] anywhere, just read them all
-  const bracketMode = allEls.some(el => el.textContent.includes("[START]"));
-  let paras = [];
+  // 1) remember original text so we can detect markers
+  const originals = allEls.map(el => el.textContent);
 
+  // 2) strip markers from the page so they never display
+  allEls.forEach(el => {
+    el.textContent = el.textContent
+                      .replace(/\[START\]/g, "")
+                      .replace(/\[STOP\]/g, "")
+                      .trim();
+  });
+
+  // 3) decide if we’re in bracket‐mode at all
+  const bracketMode = originals.some(txt => txt.includes("[START]"));
+
+  // 4) build our final paras array
+  let paras = [];
   if (!bracketMode) {
+    // no START tags = read everything
     paras = allEls;
   } else {
-    // only read between [START] … [STOP] (can be many pairs)
+    // only read elements between [START] and [STOP]
     let reading = false;
-    allEls.forEach(el => {
-      let txt = el.textContent;
-
+    originals.forEach((txt, i) => {
       if (txt.includes("[START]")) {
         reading = true;
-        txt = txt.replace("[START]", "");
       }
-
       if (reading) {
-        // strip any leftover markers before speaking
-        txt = txt.replace("[STOP]", "").trim();
-        // stash clean text on the element
-        el._readText = txt;
-        paras.push(el);
+        // skip empty paragraphs
+        const clean = allEls[i].textContent.trim();
+        if (clean) {
+          allEls[i]._readText = clean;
+          paras.push(allEls[i]);
+        }
       }
-
       if (txt.includes("[STOP]")) {
         reading = false;
       }
@@ -131,14 +140,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function readCurrent() {
-    // if we stitched in a clean text snippet, use that…
-    const el  = paras[idx];
-    const text = el._readText != null
-              ? el._readText
-              : el.textContent.replace(/\[STOP\].*$/,"");
+  const el   = paras[idx];
+  const text = el._readText != null
+             ? el._readText
+             : el.textContent;
+  speakText(text);
+}
 
-    speakText(text);
-  }
 
   // ───── WIRE UP CONTROLS ─────
   startBtn.onclick = () => {
