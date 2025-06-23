@@ -29,28 +29,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
-  const readerEl    = document.getElementById("readableContent");
-  const originalTxt = readerEl.innerText;                           // ① keep text + markers
+  const readerEl  = document.getElementById("readableContent");
 
-  // ② strip only the literal tags so the page still shows everything
-  readerEl.innerHTML = readerEl.innerHTML
-    .replace(/\[EXCLUDE\]|\[\/EXCLUDE\]/gi, "");
+  // 1) Strip out the literal markers so they never show up on the page
+  readerEl.innerHTML = readerEl.innerHTML.replace(
+    /\[EXCLUDE\]|\[\/EXCLUDE\]/gi,
+    ""
+  );
 
-  // ③ split the original text (with markers) into “paragraphs” on 2+ line breaks
+  // 2) Grab the *clean* text
+  const originalTxt = readerEl.innerText;
+
+  // 3) Split into chunks on 2+ line-breaks
   const chunks = originalTxt
     .split(/\n{2,}/g)
     .map(s => s.trim())
     .filter(Boolean);
 
-  // ④ build paras[], but turn “reading” off between markers
-  let paras   = [];
-  let reading = true;
-  let sawMark = false;
+  // 4) Walk the chunks, skipping everything between [EXCLUDE]…[/EXCLUDE]
+  let paras     = [];
+  let reading   = true;
+  let sawMarker = false;
 
-  for (let chunk of chunks) {
+  for (const chunk of chunks) {
     if (/\[EXCLUDE\]/i.test(chunk)) {
-      sawMark = true;
-      reading = false;
+      sawMarker = true;
+      reading   = false;
       continue;
     }
     if (/\[\/EXCLUDE\]/i.test(chunk)) {
@@ -60,9 +64,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (reading) paras.push(chunk);
   }
 
-  // ⑤ if no EXCLUDE ever seen, just read everything
-  if (!sawMark) paras = chunks;
-  // ───────────────────────────────────────────────
+  // 5) If no markers were ever found, just read everything
+  if (!sawMarker) paras = chunks;
+  // ──────────────────────────────────────────────
+
 
   let idx      = 0,
       rate     = 1.0,
@@ -97,15 +102,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ───── UPDATE PROGRESS/TIME ─────
   function updateProg() {
-    const totalW = paras.reduce((sum,p) => sum + p.textContent.split(/\s+/).length, 0);
-    const doneW  = paras.slice(0, idx)
-                   .reduce((sum,p) => sum + p.textContent.split(/\s+/).length, 0);
-    progBar.style.width = Math.min(100, doneW/totalW * 100) + "%";
-    const remSec = Math.ceil((totalW - doneW)*0.4 / rate);
-    const m = Math.floor(remSec/60),
-          s = remSec % 60;
+    // total words in all chunks
+    const totalW = paras.reduce((sum, chunk) =>
+      sum + chunk.split(/\s+/).filter(w=>w).length
+    , 0);
+
+    // words already read (everything _before_ the current chunk)
+    const doneW = paras.slice(0, idx).reduce((sum, chunk) =>
+      sum + chunk.split(/\s+/).filter(w=>w).length
+    , 0);
+
+    progBar.style.width = Math.min(100, doneW / totalW * 100) + "%";
+
+    // estimate remaining time on the rest
+    const remWords = paras
+      .slice(idx)
+      .reduce((sum, chunk) => sum + chunk.split(/\s+/).filter(w=>w).length, 0);
+
+    const remSec = Math.ceil(remWords * 0.4 / rate);
+    const m = Math.floor(remSec / 60), s = remSec % 60;
     timeLabel.textContent = `Time left: ${m}:${String(s).padStart(2,"0")}`;
   }
+
 
   // ───── ON END ─────
   function rvEnd() {
