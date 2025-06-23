@@ -42,7 +42,8 @@ const paras = Array.from(
   )
 )
   // filter out anything inside a .no-audio wrapper
-  .filter(el => !el.closest(".no-audio"))
+  .filter(el => !el.closest(".hide-in-reader"))
+  .filter(el => el.offsetParent !== null)   // only those currently displayed
   // extract just the text
   .map(el => el.innerText.trim())
   // drop any empty bits

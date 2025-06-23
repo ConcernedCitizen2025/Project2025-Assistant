@@ -3,7 +3,7 @@ layout: table_of_contents
 title: "Table of Contents"
 ---
 
-<div class="no-audio">
+<div class="hide-in-reader">
   <div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
       <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS & BOYCOTTS ARE HAPPENING NOW! 🚨</h2>
       <p style="font-size: 1.2em;">Protests and rallies are happening nationwide. Find an event near you and take action!</p>

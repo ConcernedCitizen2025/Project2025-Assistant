@@ -622,6 +622,26 @@ body.reader-mode #mainContent {
   display: none !important;
 }
 
+/* in your main stylesheet */
+body.reader-mode .hide-in-reader {
+  display: none !important;
+}
+
+/* tighten up your text container too */
+body.reader-mode main#readableContent {
+  max-width: 700px;
+  margin: 2em auto;
+  line-height: 1.6;
+  padding: 0 1em;
+}
+
+/* hide global nav, footer, sidebars, etc. */
+body.reader-mode header,
+body.reader-mode nav,
+body.reader-mode footer,
+body.reader-mode .share-buttons {
+  display: none !important;
+}
 
 
 
