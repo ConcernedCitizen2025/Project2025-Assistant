@@ -29,22 +29,40 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
-  const readerEl = document.getElementById("readableContent");
+  const readerEl    = document.getElementById("readableContent");
+  const originalTxt = readerEl.innerText;                           // ① keep text + markers
 
-  // 1. Strip out any marker tags so readers never see them
-  let html = readerEl.innerHTML;
-  html = html.replace(/\[EXCLUDE\]([\s\S]*?)\[\/EXCLUDE\]/gi, "");
-  readerEl.innerHTML = html;
+  // ② strip only the literal tags so the page still shows everything
+  readerEl.innerHTML = readerEl.innerHTML
+    .replace(/\[EXCLUDE\]|\[\/EXCLUDE\]/gi, "");
 
-  // 2. Now take the cleaned text and break it into paragraphs
-  const paras = html
-    .replace(/<\/?[^>]+>/g, "")      // remove any remaining HTML tags
-    .split(/\n{2,}/g)                // split on 2+ line-breaks
-    .map(s => s.trim())              // trim edges
-    .filter(Boolean);                // drop empty chunks
-  // ──────────────────────────────────────────────
+  // ③ split the original text (with markers) into “paragraphs” on 2+ line breaks
+  const chunks = originalTxt
+    .split(/\n{2,}/g)
+    .map(s => s.trim())
+    .filter(Boolean);
 
+  // ④ build paras[], but turn “reading” off between markers
+  let paras   = [];
+  let reading = true;
+  let sawMark = false;
 
+  for (let chunk of chunks) {
+    if (/\[EXCLUDE\]/i.test(chunk)) {
+      sawMark = true;
+      reading = false;
+      continue;
+    }
+    if (/\[\/EXCLUDE\]/i.test(chunk)) {
+      reading = true;
+      continue;
+    }
+    if (reading) paras.push(chunk);
+  }
+
+  // ⑤ if no EXCLUDE ever seen, just read everything
+  if (!sawMark) paras = chunks;
+  // ───────────────────────────────────────────────
 
   let idx      = 0,
       rate     = 1.0,
