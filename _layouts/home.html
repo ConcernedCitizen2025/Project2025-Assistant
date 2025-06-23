@@ -271,6 +271,100 @@
         .gcse-search {
             width: 100%; /* Ensures the search bar fits the container */
         }
+        /* ==== Mobile Hamburger Fix ==== */
+        @media (max-width: 768px) {
+        /* 1) Make the hamburger icon sit on top, in the corner */
+        .hamburger {
+            display: block;               /* ensure it shows */
+            position: absolute;
+            top: 1rem;                    /* tweak to taste */
+            right: 1rem;                  /* tweak to taste */
+            z-index: 1000;                /* on top of banner */
+            font-size: 2rem;              /* nice tappable size */
+            cursor: pointer;
+            color: #fff;                  /* or whatever your icon color is */
+        }
+
+        /* 2) When you toggle .showing, make the UL drop down over content */
+        nav ul {
+            position: absolute;
+            top: 100%;                    /* sit directly under header */
+            left: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.9);  /* match your desktop nav bg */
+            display: none;                /* hidden by default */
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        nav ul.showing {
+            display: flex;
+        }
+
+        /* 3) nav links styling in mobile */
+        nav ul li {
+            margin: 0.5rem 0;
+        }
+        nav ul li a {
+            color: #fff;
+            font-size: 1.2rem;
+        }
+        }
+        /* ==== Make header the positioning context ==== */
+        header {
+        position: relative;
+        }
+
+        /* ==== Hamburger always visible in top-right on mobile ==== */
+        @media (max-width: 768px) {
+        .hamburger {
+            display: block;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 1000;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #fff;
+            background: transparent;
+            border: none;
+        }
+
+        /* pull the UL out of the document flow and layer it under the header */
+        nav {
+            position: relative;   /* so its child UL absolutely positions to this */
+        }
+        nav ul {
+            position: absolute;
+            top: 100%;            /* just below header */
+            left: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.9);
+            display: none;        /* hidden until you toggle */
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem 0;
+            margin: 0;
+            list-style: none;
+        }
+        nav ul.showing {
+            display: flex;
+        }
+
+        /* tweak link styling for mobile */
+        nav ul li {
+            margin: 0.5rem 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        }
+
     </style>
     <!-- <style>
         /* Responsive design for mobile */
@@ -322,25 +416,6 @@
 </head>
 <body class="home-page">
     <header>
-        <!--<div style="text-align: center;">
-            <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="eager">
-                    <div class="mask-container">
-                        {% if page.title == "Frequently Asked Questions" %}
-                            <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="lazy">
-                            <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="lazy">
-                        {% elsif page.title == "Table of Contents" %}
-                            <img class="mask left" src="/assets/images/toc_logo.webp" alt="TOC Logo" loading="lazy">
-                            <img class="mask right" src="/assets/images/toc_logo.webp" alt="TOC Logo" loading="lazy">
-                        {% elsif page.title == "About Us" %}
-                            <img class="mask left" src="/assets/images/about_logo.webp" alt="About Us Logo" loading="lazy">
-                            <img class="mask right" src="/assets/images/about_logo.webp" alt="About Us Logo" loading="lazy">
-                        {% endif %}
-                    </div>
-                </div>
-            </a>
-        </div>-->
         <div class="header-container">
             <a href="/">
                 <div class="logo-container">
