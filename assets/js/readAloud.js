@@ -28,51 +28,26 @@ document.addEventListener("DOMContentLoaded", () => {
     voiceSel.appendChild(o);
   });
 
-  // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
-  const readerEl = document.getElementById("readableContent");
+  // ───── GATHER “SPEAKABLE” PARAGRAPHS ─────
+const paras = Array.from(
+  document.querySelectorAll(
+    "#readableContent p, " +
+    "#readableContent li, " +
+    "#readableContent h1, " +
+    "#readableContent h2, " +
+    "#readableContent h3, " +
+    "#readableContent h4, " +
+    "#readableContent h5, " +
+    "#readableContent h6"
+  )
+)
+  // filter out anything inside a .no-audio wrapper
+  .filter(el => !el.closest(".no-audio"))
+  // extract just the text
+  .map(el => el.innerText.trim())
+  // drop any empty bits
+  .filter(txt => txt.length > 0);
 
-  // 1) Grab the raw text (this still contains the [EXCLUDE] markers)
-  const rawText = readerEl.innerText;
-
-  // 2) Split into “paragraph” chunks on blank lines
-  const chunks = rawText
-    .split(/\r?\n{2,}/g)
-    .map(s => s.trim())
-    .filter(Boolean);
-
-  // 3) Walk those chunks, skipping any between [EXCLUDE] … [/EXCLUDE]
-  let paras     = [];
-  let reading   = true;
-  let sawMarker = false;
-
-  for (const chunk of chunks) {
-    // if we hit “[EXCLUDE]” on its own chunk, turn _off_ reading
-    if (/^\[EXCLUDE\]$/i.test(chunk)) {
-      sawMarker = true;
-      reading   = false;
-      continue;
-    }
-    // if we hit "[/EXCLUDE]" on its own chunk, turn _on_ reading
-    if (/^\[\/EXCLUDE\]$/i.test(chunk)) {
-      reading = true;
-      continue;
-    }
-    // only push chunks when reading is true
-    if (reading) {
-      paras.push(chunk);
-    }
-  }
-
-  // 4) if we never saw any markers at all, just read _everything_
-  if (!sawMarker) {
-    paras = chunks;
-  }
-
-  // 5) finally, strip those tags out of the live DOM so nobody ever _sees_ them
-  readerEl.innerHTML = readerEl.innerHTML.replace(
-    /\[\/?EXCLUDE\]/gi,
-    ""
-  );
 
   let idx      = 0,
       rate     = 1.0,
