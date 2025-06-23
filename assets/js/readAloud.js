@@ -31,45 +31,48 @@ document.addEventListener("DOMContentLoaded", () => {
   // ───── GATHER PARAGRAPHS (EXCLUDE-aware) ─────
   const readerEl = document.getElementById("readableContent");
 
-  // 1) Grab the raw text (includes the “[EXCLUDE]” markers)
+  // 1) Grab the raw text (this still contains the [EXCLUDE] markers)
   const rawText = readerEl.innerText;
 
-  // 2) Split into chunks on two-or-more line-breaks
+  // 2) Split into “paragraph” chunks on blank lines
   const chunks = rawText
-    .split(/\n{2,}/g)
+    .split(/\r?\n{2,}/g)
     .map(s => s.trim())
     .filter(Boolean);
 
-  // 3) Walk the chunks, skipping everything between [EXCLUDE] … [/EXCLUDE]
+  // 3) Walk those chunks, skipping any between [EXCLUDE] … [/EXCLUDE]
   let paras     = [];
   let reading   = true;
   let sawMarker = false;
 
   for (const chunk of chunks) {
-    if (/^\[EXCLUDE\]/i.test(chunk)) {
+    // if we hit “[EXCLUDE]” on its own chunk, turn _off_ reading
+    if (/^\[EXCLUDE\]$/i.test(chunk)) {
       sawMarker = true;
       reading   = false;
-      continue;              // drop the “[EXCLUDE]” chunk
+      continue;
     }
-    if (/^\[\/EXCLUDE\]/i.test(chunk)) {
+    // if we hit "[/EXCLUDE]" on its own chunk, turn _on_ reading
+    if (/^\[\/EXCLUDE\]$/i.test(chunk)) {
       reading = true;
-      continue;              // drop the “[\/EXCLUDE]” chunk
+      continue;
     }
+    // only push chunks when reading is true
     if (reading) {
       paras.push(chunk);
     }
   }
 
-  // 4) If we never saw any markers, read *all* chunks
-  if (!sawMarker) paras = chunks;
+  // 4) if we never saw any markers at all, just read _everything_
+  if (!sawMarker) {
+    paras = chunks;
+  }
 
-  // 5) Finally, remove the literal tags from the live HTML so they never appear
+  // 5) finally, strip those tags out of the live DOM so nobody ever _sees_ them
   readerEl.innerHTML = readerEl.innerHTML.replace(
-    /\[EXCLUDE\]|\[\/EXCLUDE\]/gi,
+    /\[\/?EXCLUDE\]/gi,
     ""
   );
-
-
 
   let idx      = 0,
       rate     = 1.0,
