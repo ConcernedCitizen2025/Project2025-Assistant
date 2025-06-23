@@ -29,50 +29,42 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ───── GATHER PARAGRAPHS (START/STOP aware) ─────
-  const rawEls = Array.from(document.querySelectorAll(
+  const nodes = Array.from(document.querySelectorAll(
     "#readableContent p, #readableContent li, " +
     "#readableContent h1, #readableContent h2, #readableContent h3, " +
     "#readableContent h4, #readableContent h5, #readableContent h6"
   ));
 
-  // strip markers so they never show
-  rawEls.forEach(el => {
-    el.textContent = el.textContent
-      .replace(/\[START\]/gi, "")
-      .replace(/\[STOP\]/gi, "")
-      .trim();
-  });
+  let paras     = [];
+  let reading   = false;
+  let sawMarker = false;
 
-  // now build the list to read
-  let paras   = [];
-  let reading = false;
+  nodes.forEach(el => {
+    const raw = el.textContent || "";
+    const hasStart = /\[START\]/i.test(raw);
+    const hasStop  = /\[STOP\]/i.test(raw);
 
-  rawEls.forEach(el => {
-    const orig = el.textContent;
-    // check the original (with markers) via dataset or attribute if you stored them, 
-    // but since we've wiped them, we'll peek the HTML attribute instead:
-    // (you could alternatively capture before stripping)
-    const html = el.outerHTML;
-
-    if (/\[START\]/i.test(html)) {
-      reading = true;
+    if (hasStart) {
+      reading   = true;
+      sawMarker = true;
     }
-    if (reading) {
-      const clean = orig.trim();
-      if (clean) {
-        el._readText = clean;   // stash it
-        paras.push(el);
-      }
+
+    if (reading && !hasStart) {
+      // strip any stray markers and trim
+      const txt = raw.replace(/\[START\]|\[STOP\]/gi, "").trim();
+      if (txt) paras.push(txt);
     }
-    if (/\[STOP\]/i.test(html)) {
+
+    if (hasStop) {
       reading = false;
     }
   });
 
-  // if we never saw any markers, just read everything
-  if (!paras.length) {
-    paras = rawEls;
-    paras.forEach(el => el._readText = el.textContent.trim());
+  // if we never saw any START/STOP, read *all* of them:
+  if (!sawMarker) {
+    paras = nodes
+      .map(el => el.textContent.trim())
+      .filter(t => t);
   }
 
   let idx      = 0,
@@ -140,11 +132,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function readCurrent() {
-    const el   = paras[idx];
-    const text = el._readText || el.textContent;
+    const text = paras[idx];
     speakText(text);
   }
-
 
 
   // ───── WIRE UP CONTROLS ─────
