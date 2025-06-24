@@ -14,12 +14,14 @@ title: "Table of Contents"
   </div>
 </div>
 
-<center><a href="/big_ugly_bill" style="font-size: 2em; font-weight: bold;"><em><strong>“Big Ugly Bill”</strong></em></a></center>
-<em><strong>What Is the “Big Ugly Bill”?</strong></em>
-Supporters call it the “Big Beautiful Bill,” but a viral TikTok video exposed what many now recognize as a dangerous legislative threat. In the video, the bill was described as <em>“authoritarianism wrapped in bureaucratic language”—a hostile restructuring of the republic through legislative subversion.</em> At Project2025Assistant.org, we’ve renamed it the <strong>Big Ugly Bill</strong>, and we’ve published the entire 1100+ page document so you can examine it for yourself. Our version is <strong>word-for-word identical</strong> to the official text, but with crucial upgrades: a clickable table of contents with accurate page numbers, easy navigation with a “Return to Top” button, and a layout designed for clarity and transparency. See the legislation that could reshape our government—and not for the better.
+<!--<center><a href="/big_ugly_bill" style="font-size: 2em; font-weight: bold;"><em><strong>“Big Ugly Bill”</strong></em></a></center>-->
+## [“The Big ~~Beautiful~~ *Ugly* Bill”](/big_ugly_bill)
+***What Is the “Big Ugly Bill”?***
+Supporters call it the “Big Beautiful Bill,” but a viral TikTok video exposed what many now recognize as a dangerous legislative threat. In the video, the bill was described as *“authoritarianism wrapped in bureaucratic language”*—a hostile restructuring of the republic through legislative subversion.</em> At Project2025Assistant.org, we’ve renamed it the **Big Ugly Bill**, and we’ve published the entire 1100+ page document so you can examine it for yourself. Our version is **word-for-word identical** to the official text, but with crucial upgrades: a clickable table of contents with accurate page numbers, easy navigation with a “Return to Top” button, and a layout designed for clarity and transparency. See the legislation that could reshape our government—and not for the better.
 <br>
 
-<center><a href="/project2025_analyzing_the_threat.html" style="font-size: 2em; font-weight: bold;">Project 2025: <em><strong>Analyzing the Threat</strong></em></a></center>
+<!--<center><a href="/project2025_analyzing_the_threat.html" style="font-size: 2em; font-weight: bold;">Project 2025: <em><strong>Analyzing the Threat</strong></em></a></center>-->
+
 In this section, I've organized the analysis of Project 2025 according to the subsections outlined in the document's table of contents. Each subsection includes two helpful logos: one in the upper left labeled "Red Flags in the Reforms" and one in the upper right labeled "In a Nutshell." These logos serve as shortcuts to their respective sections, allowing you to quickly access specific content without having to scroll through the entire analysis. The "Red Flags" section features direct quotes from the original document, while the "In a Nutshell" section provides a concise summary of the analysis. I encourage you to explore the full analysis if you have the time, but the shortcuts can be a useful tool for a quicker review.
 <br>
 
