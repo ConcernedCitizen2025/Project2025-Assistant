@@ -26,7 +26,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
       <li><strong><a href="/protests">An interactive protest map</a></strong> where you can find local protests and boycotts to join</li>
       <li><strong><a href="/signs">A free library of printable protest signs</a></strong>, including how-to instructions for assembling large 20x30" posters at home</li>
       <li><strong><a href="/big_ugly_bill">A cleaned-up version of the 1100-page Big Ugly Bill</a></strong> with a clickable table of contents</li>
-      <li><strong><a href="/videos">Video podcasts</a></strong> exploring Project 2025 (with more if demand grows)</li>
+      <li><strong><a href="/video-podcasts.html">Video podcasts</a></strong> exploring Project 2025 (with more if demand grows)</li>
       <li><strong>Built-in accessibility</strong>: on-site translation tools and a built-in screen reader for multilingual, inclusive access</li>
     </ul>
     <br>
