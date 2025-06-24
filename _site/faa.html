@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAA Cuts & Aviation Safety Crisis</title>
+
+    <!-- Dynamic Meta Description ->
+    
+    <meta name="description" content="An analysis of how Musk and Trump's administration has weakened the FAA, leading to a surge in aviation fatalities. View the full report and slideshow here.">
+    
+
+    <!-- Dynamic Meta Keywords ->
+    
+    <meta name="keywords" content="FAA cuts, aviation safety, Trump administration, Musk policies, aviation fatalities, airline safety, air travel risks">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Favicon and related icons ->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+
+    <!-- Load Leaflet CSS First ->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+
+    <!--map adjustment, clusters->
+    <!-- ✅ Leaflet Core ->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- ✅ MarkerCluster Plugin ->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <!-- ✅ Your Custom Script ->
+    <script src="/assets/js/california-protest-map.js"></script>
+
+
+
+
+    
+    <!-- Custom styling ->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 5px 5px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            text-align: left;
+        }
+
+        .content-wrapper h3, .content-wrapper h4, .content-wrapper p {
+            white-space: normal;
+            word-spacing: 0;
+            line-height: 1.5;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        @media screen and (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+</head>-->
+
+<head>
+  <!-- ✅ Corrected and Reorganized Head Section -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAA Cuts & Aviation Safety Crisis</title>
+
+  <!-- Dynamic Meta Description -->
+  
+  <meta name="description" content="An analysis of how Musk and Trump's administration has weakened the FAA, leading to a surge in aviation fatalities. View the full report and slideshow here." />
+  
+
+  <!-- Dynamic Meta Keywords -->
+  
+  <meta name="keywords" content="FAA cuts, aviation safety, Trump administration, Musk policies, aviation fatalities, airline safety, air travel risks" />
+  
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp" />
+  <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp" />
+  <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp" />
+  <link rel="manifest" href="/assets/images/favicon4/site.webmanifest" />
+  <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+
+    <!-- 1) Leaflet core & clustering -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    defer
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+  <script
+    src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+    defer
+  ></script>
+
+  <!-- 2) Control-Geocoder -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+  />
+  <script
+    src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"
+    defer
+  ></script>
+
+  <!-- 3) Your map code -->
+  <script
+    src="/assets/js/california-protest-map.js?v=1750738340"
+    defer
+  ></script>
+
+
+  <!-- Sign tracker -->
+  <script src="/assets/js/sign-download-tracker.js" defer></script>
+  
+
+  <!-- Custom Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .content-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 5px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      hyphens: auto;
+      text-align: left;
+    }
+    .content-wrapper h3,
+    .content-wrapper h4,
+    .content-wrapper p {
+      white-space: normal;
+      word-spacing: 0;
+      line-height: 1.5;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+    @media screen and (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+      nav ul.showing {
+        display: flex;
+      }
+      .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        text-align: center;
+        margin: 10px auto;
+      }
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+    .back-to-top img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="eager">
+                </div>
+            </a>
+        </div>
+        
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div style="text-align: center; margin: 20px 0;">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        </div>
+
+        
+
+
+        <div class="content-wrapper">
+            <h1 id="faa-cuts--aviation-safety-crisis">FAA Cuts &amp; Aviation Safety Crisis</h1>
+
+<p>The January 2025 aviation data reveals a troubling rise in fatalities and serious injuries, correlating directly with the dismantling of the FAA under the Musk-Trump administration. This report provides an in-depth analysis of the crisis, supported by data from the National Transportation Safety Board (NTSB).</p>
+
+<h2 id="slideshow-presentation">Slideshow Presentation</h2>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqJLmWQuzFJ1k8kp1Um_NExdVfotobZiqixI3SrxSJkxqWwni6xzE7AtBJIimfpw/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="100%" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h2 id="download-the-full-report">Download the Full Report</h2>
+
+<p>📥 <a href="/assets/reports/Aviation_Safety_Analysis_Report_2025.pdf">Download the Full Report (PDF)</a></p>
+
+<h2 id="key-findings">Key Findings</h2>
+
+<ul>
+  <li><strong>Mass FAA Layoffs &amp; Leadership Vacuum:</strong> The administration fired key personnel, leaving air traffic control and regulatory oversight dangerously understaffed.</li>
+  <li><strong>Surging Fatalities:</strong> Over <strong>80 of the 87 worldwide aviation fatalities</strong> in January 2025 occurred in the U.S., accounting for <strong>92%</strong> of global deaths.</li>
+  <li><strong>Privatization &amp; Corruption:</strong> Elon Musk has proposed <strong>SpaceX-controlled air traffic systems</strong>, despite his history of <strong>FAA safety violations</strong>.</li>
+</ul>
+
+<p>This follows a familiar pattern—<strong>sabotage public agencies, create a crisis, then privatize for profit</strong>. We must demand <strong>restoration of oversight and accountability</strong> before more lives are lost.</p>
+
+<h2 id="take-action">Take Action</h2>
+
+<ul>
+  <li><strong>Call your representatives</strong> and demand FAA oversight be restored.</li>
+  <li><strong>Join upcoming protests</strong>:
+    <ul>
+      <li><strong>Feb 28:</strong> National economic blackout</li>
+      <li><strong>March 14:</strong> National worker &amp; student strike</li>
+      <li><strong>April 18:</strong> Economic blackout #2</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Together, we must push back before more lives are lost.</p>
+
+<hr />
+
+<p>📢 <strong>Stay informed and take action.</strong> Visit <a href="https://project2025assistant.org">Project2025Assistant.org</a> for more updates.</p>
+
+        </div>
+    </main>
+
+    <!-- Include Cookie Consent -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+    <script defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Toggle menu
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            // Scroll to top
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
+            });
+        });
+    </script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
+</body>
+</html>

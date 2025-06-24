@@ -25,14 +25,27 @@
     <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="50 States, 50 Capitals, 50 Marches - February 5th Protest at Noon" />
+    <!--<meta property="og:title" content="50 States, 50 Capitals, 50 Marches - February 5th Protest at Noon" />
     <meta property="og:description" content="This image is shared from Harlow's Musings on Bluesky." />
     <meta property="og:image" content="https://project2025assistant.org/assets/images/feb5_protest.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="634" />
     <meta property="og:image:height" content="1106" />
     <meta property="og:url" content="https://project2025assistant.org" />
+    <meta property="og:type" content="website" />-->
+    <meta property="og:title" content="Project 2025 Assistant" />
+    <meta property="og:description" content="A comprehensive guide to Project 2025 and its implications." />
+    <meta property="og:image" content="https://project2025assistant.org/assets/images/logo.webp" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    <meta property="og:url" content="https://project2025assistant.org" />
     <meta property="og:type" content="website" />
+    <script async src="https://www.tiktok.com/embed.js" charset="utf-8"></script>
+
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src *; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.instagram.com https://www.tiktok.com;">
+-->
+
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
@@ -196,6 +209,21 @@
             padding: 10px;
         }
 
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
         /* Social media buttons horizontal by default */
         .social-media-icons {
             display: flex;
@@ -207,64 +235,32 @@
             margin: 0 10px;
         }
 
-        /* Responsive styles for mobile */
+        /* Mobile View */
         @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
             .hamburger {
                 display: block;
-                font-size: 30px;
-                cursor: pointer;
             }
 
             nav ul {
-                display: none; /* Hide regular nav */
+                display: none;
+                flex-direction: column;
+                align-items: center;
             }
 
-            /* Align logo and hamburger in a row */
-            .header-content {
-                justify-content: space-between;
+            nav ul.showing {
+                display: flex;
             }
-
-            /* Social icons, logo, and hamburger should align in a row */
-            .logo-container img {
-                max-width: 100%;
-                height: auto; /* Ensures logo maintains aspect ratio */
-                display: block;
-                margin: 0 auto;
-            }
-
-            .social-media-icons {
-                justify-content: space-between;
-                width: 100%;
-            }
-
-            /* Style for larger screens */
-            @media (min-width: 769px) {
-                .content-wrapper img {
-                    float: left;
-                    max-width: 400px; /* Adjust image size */
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                .content-wrapper p {
-                    width: calc(100% - 420px); /* Make text take up remaining space */
-                }
-            }
-
-            /* Style for smaller screens (mobile) */
-            @media (max-width: 768px) {
-                .content-wrapper img {
-                    float: none;
-                    width: 100%; /* Full width on mobile */
-                    margin: 0 auto 20px;
-                }
-
-                .content-wrapper p {
-                    width: 100%; /* Full width text on mobile */
-                }
-            }
-                
         }
+
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+                
         /* Container for both translate and search bar */
         .translate-share-container {
             display: flex;
@@ -283,6 +279,55 @@
         .gcse-search {
             width: 100%; /* Ensures the search bar fits the container */
         }
+
+        @media (max-width: 768px) {
+        /* make the header stack vertically */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Hamburger goes immediately under the banner */
+        .hamburger {
+            display: block;
+            margin: 1rem 0;       /* pushes it just below the banner */
+            font-size: 2rem;
+            cursor: pointer;
+            color: #fff;
+            background: transparent;
+            border: none;
+            z-index: 1000;
+        }
+
+        /* Nav UL should sit right under the hamburger, above the share-buttons */
+        nav ul {
+            display: none;        /* hidden by default */
+            width: 100%;
+            background: rgba(0,0,0,0.9);
+            list-style: none;
+            margin: 0; 
+            padding: 1rem 0;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* When JS toggles .showing on your UL, it will slide open here */
+        nav ul.showing {
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0.5rem 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        }
+
     </style>
     <!-- <style>
         /* Responsive design for mobile */
@@ -334,16 +379,6 @@
 </head>
 <body class="home-page">
     <header>
-        <!--<div style="text-align: center;">
-            <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="eager">
-                    <div class="mask-container">
-                        
-                    </div>
-                </div>
-            </a>
-        </div>-->
         <div class="header-container">
             <a href="/">
                 <div class="logo-container">
@@ -397,13 +432,20 @@
         </div>
     </header>
 
-    <div class="translate-container">
-        <div class = "search-container">
-            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
-            <div class="gcse-search"></div>
-        </div>
-        <div class="translate-container">
-            <div id="google_translate_element"></div>
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Google Search Bar-->
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
+        <div id="google_translate_element"></div>
 
 <script>
 function googleTranslateElementInit() {
@@ -418,10 +460,30 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-        </div>  
-        
-        <div class="translate-container">
-            <div id="readAloudContainer">
+    </div>
+
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
+        <div id="readAloudContainer">
     <!-- Start button (initially visible) -->
     <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
     
@@ -451,17 +513,13 @@ function googleTranslateElementInit() {
       <!-- Time remaining display -->
       <div id="timeRemainingLabel">Time remaining: 00:00</div>
       <!-- Buffer indicator spinner (optional) -->
-      <span id="bufferIndicator" style="display:none;" title="Buffering">⏳</span>
+      <span id="bufferIndicator" title="Buffering">⏳</span>
     </div>
   </div>
   
-        </div>   
     </div>
 
-    
-    
-
-    <main>
+    <main class="reader-show" id="mainContent">
         <!-- Content to Read -->
         <div class="content-wrapper" id="readableContent">
             <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; margin: 20px 0; gap: 20px;">
@@ -547,6 +605,30 @@ function googleTranslateElementInit() {
 
         </div>
     </main>
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+
         <!-- Include the cookie consent banner -->
         <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
@@ -575,7 +657,20 @@ function googleTranslateElementInit() {
             </a>
             <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
         </div>
-         
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
             <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
@@ -611,13 +706,71 @@ function googleTranslateElementInit() {
         });
     </script>
     <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            const menu = document.querySelector('nav ul');
-            menu.classList.toggle('show');
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+            const backToTop = document.getElementById('backToTop');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            // Reset nav when resizing
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
         });
-    </script>    
+    </script> 
+
     <!-- At the end of your body, include the scripts -->
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
     <script src="/assets/js/readAloud.js" defer></script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const leftCol   = document.querySelector(".content-box");
+            const videoList = document.getElementById("video-list");
+            if (leftCol && videoList) {
+            // Match the video-list's max-height to the left column's height
+            const h = leftCol.getBoundingClientRect().height;
+            videoList.style.maxHeight = `${h}px`;
+            videoList.style.overflowY = "auto";
+            }
+        });
+    </script>
 </body>
 </html>

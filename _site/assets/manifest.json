@@ -1,0 +1,22 @@
+{
+    "name": "Project 2025 Assistant",
+    "short_name": "P2025 Assistant",
+    "description": "Get the latest updates and analysis on Project 2025.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+      {
+        "src": "/assets/images/favicon4/favicon-192x192.webp",
+        "sizes": "192x192",
+        "type": "image/webp"
+      },
+      {
+        "src": "/assets/images/favicon4/favicon-512x512.webp",
+        "sizes": "512x512",
+        "type": "image/webp"
+      }
+    ]
+  }
+  

@@ -4,3 +4,5 @@ gem 'jekyll', '~> 4.2.0'
 gem 'webrick', '~> 1.7'
 gem "minima", "~> 2.5"
 gem "tzinfo"
+gem "ffi", "~> 1.17.0"
+gem 'tzinfo-data'

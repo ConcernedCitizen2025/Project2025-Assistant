@@ -229,7 +229,24 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B4NGY0TYJ6');
-</script>     
+</script>  
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+
+
+    <!-- Register Service Worker -->
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('assets/js/service-worker.js')
+        .then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(function(error) {
+            console.error('Service Worker registration failed:', error);
+        });
+    }
+    </script>
+   
 </head>
 <body class="about-page">
     <header>
@@ -299,19 +316,14 @@
         <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
     </div>
 
+    <!-- Google Search Bar-->
     <div style="text-align: center; margin: 20px 0;">
         <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
         <div class="gcse-search"></div>
     </div>
-    <!--<div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search...">
-        <button id="search-button">Search</button>
-    </div>
-    <div id="search-results"></div>-->
-    
-    
 
-    <div class="translate-container">
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
         <div id="google_translate_element"></div>
 
 <script>
@@ -327,6 +339,29 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+    </div>
+
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
         <div id="readAloudContainer">
     <!-- Start button (initially visible) -->
     <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
@@ -357,16 +392,16 @@ function googleTranslateElementInit() {
       <!-- Time remaining display -->
       <div id="timeRemainingLabel">Time remaining: 00:00</div>
       <!-- Buffer indicator spinner (optional) -->
-      <span id="bufferIndicator" style="display:none;" title="Buffering">⏳</span>
+      <span id="bufferIndicator" title="Buffering">⏳</span>
     </div>
   </div>
   
     </div>
-    
-    <main>
+
+    <main class="reader-show" id="mainContent">
         <!-- Content to Read -->
         <div class="content-wrapper" id="readableContent">
-          <h1 id="about-us">About Us</h1>
+            <h1 id="about-us">About Us</h1>
 
 <p>As a father and aspiring high school math teacher, I’ve always appreciated the logic and clarity of mathematics. However, over the past decade, I’ve found myself increasingly drawn into the world of politics—not out of desire, but out of necessity. The political landscape has become increasingly chaotic, often defying the logical principles I hold dear.</p>
 
@@ -380,14 +415,36 @@ function googleTranslateElementInit() {
 
 <p>If you find this resource valuable, I encourage you to engage further. Whether by sharing this information, participating in local government, or simply exercising your right to vote, every action counts in safeguarding our democracy.</p>
 
-<p>Should you encounter any issues with the website or wish to share your thoughts, please feel free to contact me at <a href="mailto:concernedcitizen2025ad@gmail.com">concernedcitizen2025ad@gmail.com</a>. I welcome respectful dialogue and constructive feedback.</p>
+<p>Should you encounter any issues with the website or wish to share your thoughts, please feel free to contact me at <a href="mailto:jasper@project2025assistant.org">jasper@project2025assistant.org</a>. I welcome respectful dialogue and constructive feedback.</p>
 
 <p>Remember, our democracy thrives on informed and active citizenship. Stay engaged, stay informed, and above all, <strong>don’t forget to vote!</strong></p>
 
-<!-- Test commit -->
 
         </div>
     </main>
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
       
     
     
@@ -419,7 +476,20 @@ function googleTranslateElementInit() {
             </a>
             <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
         </div>
-         
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
             <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
@@ -428,6 +498,7 @@ function googleTranslateElementInit() {
             </ul>
             <br><br>
         </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
         <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
     </footer>
     
@@ -473,130 +544,29 @@ function googleTranslateElementInit() {
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
-    <!-- Load ResponsiveVoice (with your API key) -->
+    <!-- Load ResponsiveVoice (with your API key)-->
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
-    <!-- Load your custom readAloud.js script -->
-    <script src="/assets/js/readAloud.js" defer></script>
-
-    <!--<script>
-        // Ensure the DOM is fully loaded
-        document.addEventListener('DOMContentLoaded', function() {
-          var readButton = document.getElementById('readAloudButton');
-          var contentDiv = document.getElementById('readableContent');
-      
-          if (readButton && contentDiv) {
-            readButton.addEventListener('click', function() {
-              console.log('Read Aloud button clicked!');
-              var text = contentDiv.innerText;
-              responsiveVoice.speak(text, "UK English Female");
-            });
-          } else {
-            console.error('Read Aloud button or content element not found.');
-          }
-        });
-    </script>-->   
     
-    <!--<script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // Retrieve the text container element
-          var contentDiv = document.getElementById('readableContent');
-          
-          // Use a simple approach: split by newline characters.
-          // (If your content uses <p> tags, consider: document.querySelectorAll('#readableContent p'))
-          var paragraphs = contentDiv.innerText.split('\n').filter(function(p) {
-            return p.trim() !== "";
-          });
-          
-          // Variables to keep track of reading state
-          var currentParagraph = 0;
-          var currentRate = 1.0; // Default reading rate (1.0 is normal)
-          var voice = "UK English Female"; // Change as desired
-          
-          // Function to speak a given paragraph (with an onend callback if you want to auto-advance)
-          function speakParagraph(index) {
-            if (index >= 0 && index < paragraphs.length) {
-              // Cancel any ongoing speech and speak the paragraph with the current rate.
-              responsiveVoice.cancel();
-              responsiveVoice.speak(paragraphs[index], voice, {
-                rate: currentRate,
-                // Uncomment the following if you want to automatically go to the next paragraph:
-                // onend: function() {
-                //   currentParagraph++;
-                //   if (currentParagraph < paragraphs.length) {
-                //     speakParagraph(currentParagraph);
-                //   }
-                // }
-              });
-            }
-          }
-          
-          // Set up the control buttons
-          var startButton = document.getElementById('startButton');
-          var pauseButton = document.getElementById('pauseButton');
-          var resumeButton = document.getElementById('resumeButton');
-          var stopButton  = document.getElementById('stopButton');
-          var prevButton  = document.getElementById('prevButton');
-          var nextButton  = document.getElementById('nextButton');
-          var slowerButton= document.getElementById('slowerButton');
-          var fasterButton= document.getElementById('fasterButton');
-          
-          if (startButton && pauseButton && resumeButton && stopButton &&
-              prevButton && nextButton && slowerButton && fasterButton) {
-              
-            // Start reading from the beginning
-            startButton.addEventListener('click', function() {
-              currentParagraph = 0;
-              speakParagraph(currentParagraph);
-            });
-            
-            // Pause the current speech
-            pauseButton.addEventListener('click', function() {
-              responsiveVoice.pause();
-            });
-            
-            // Resume paused speech
-            resumeButton.addEventListener('click', function() {
-              responsiveVoice.resume();
-            });
-            
-            // Stop the speech altogether
-            stopButton.addEventListener('click', function() {
-              responsiveVoice.cancel();
-            });
-            
-            // Go to the previous paragraph
-            prevButton.addEventListener('click', function() {
-              responsiveVoice.cancel();
-              currentParagraph = Math.max(0, currentParagraph - 1);
-              speakParagraph(currentParagraph);
-            });
-            
-            // Go to the next paragraph
-            nextButton.addEventListener('click', function() {
-              responsiveVoice.cancel();
-              currentParagraph = Math.min(paragraphs.length - 1, currentParagraph + 1);
-              speakParagraph(currentParagraph);
-            });
-            
-            // Slow down the speech (reduce rate)
-            slowerButton.addEventListener('click', function() {
-              currentRate = Math.max(0.1, currentRate - 0.1);
-              responsiveVoice.cancel();
-              speakParagraph(currentParagraph);
-            });
-            
-            // Speed up the speech (increase rate)
-            fasterButton.addEventListener('click', function() {
-              currentRate += 0.1;
-              responsiveVoice.cancel();
-              speakParagraph(currentParagraph);
-            });
-            
-          } else {
-            console.error("One or more TTS control buttons not found.");
-          }
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("/assets/js/service-worker.js")
+            .then(reg => console.log('Service Worker registered', reg))
+            .catch(err => console.log('Service Worker registration failed', err));
+        }
+    </script>
+    
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
         });
-    </script>-->
-            
+    }
+    </script>
+
+
 </body>
 </html>

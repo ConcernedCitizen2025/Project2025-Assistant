@@ -4,7 +4,7 @@ title: "Home"
 description: "Dive deep into the analysis of Project 2025, a political document threatening American democracy, freedom, and constitutional rights. Understand its potential risks and impacts on the upcoming election and learn how it could reshape the future of the U.S."
 keywords: "Project 2025, analysis, threats to democracy, constitutional rights, freedom, upcoming election, political risks, U.S. Constitution, government reform"
 ---
-<div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
+<div class="hide-in-reader" style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
     <h2 style="font-size: 2em; font-weight: bold;">🚨 PROTESTS & BOYCOTTS ARE HAPPENING NOW! 🚨</h2>
     <p style="font-size: 1.2em;">Protests and rallies are happening nationwide. Find an event near you and take action!</p>
     <a href="https://project2025assistant.org/protests" 
@@ -19,26 +19,47 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
   <div class="content-box" style="flex: 2; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h1>Welcome to the <em>Project 2025 Assistant</em></h1>
     <p>In these tumultuous times, many of us find ourselves grappling with a series of unprecedented events: the COVID-19 pandemic, the Capitol insurrection, contentious Supreme Court decisions, and now, <em>Project 2025</em>. The current state of affairs often feels surreal, like something out of a dystopian film.</p>
-    <h2>The Journey into Understanding Project 2025</h2>
-    <p>The journey into understanding Project 2025 began in late June upon first encountering mentions of it. Intrigued, I embarked on a thorough investigation, initially using the free version of ChatGPT to analyze the document in segments. This preliminary exploration yielded fascinating insights, which were compiled into a PDF and shared with friends and family. Their interest was piqued, but it only raised more questions.</p>
-    <h2>A Deep Dive into Project 2025</h2>
-    <p>Determined to delve deeper, I upgraded to the paid version of ChatGPT and uploaded the entire Project 2025 document. The analysis process was repeated and expanded, employing the initial methodology with increased depth and comprehensiveness. Each iteration of this process only fueled my curiosity further, eventually leading me to undertake a <em>deep, systematic analysis</em> of Project 2025 with the intention of sharing the findings with a broader audience.</p>
-    <h2>Hundreds of Hours of Research</h2>
-    <p>Over the subsequent months, I dedicated countless hours to this project. The research expanded to include <em>in-depth investigations</em> into the authors, editors, and contributors of Project 2025, as well as the organizations represented on its advisory board. A meticulous analysis of each section yielded over <em>150 incisive questions</em>, delving deep into the document's implications and potential impacts on the future of American democracy.</p>
-    <h2>What You Will Find on This Website</h2>
-    <p>The result of this labor is a comprehensive breakdown of Project 2025. For each section, you will find:</p>
+    <br>
+    <h2>New Tools to Help You Fight Back</h2>
+    <p>This website has evolved dramatically since its launch. Now, you'll find:</p>
     <ul>
-      <li><b><em>Summaries</em></b></li>
-      <li><b><em>Analyses</em></b></li>
-      <li><b><em>Potential concerns</em></b></li>
-      <li><b><em>Notable quotes</em></b></li>
+      <li><strong><a href="/protests">An interactive protest map</a></strong> where you can find local protests and boycotts to join</li>
+      <li><strong><a href="/signs">A free library of printable protest signs</a></strong>, including how-to instructions for assembling large 20x30" posters at home</li>
+      <li><strong><a href="/biguglybill">A cleaned-up version of the 1100-page Big Ugly Bill</a></strong> with a clickable table of contents</li>
+      <li><strong><a href="/videos">Video podcasts</a></strong> exploring Project 2025 (with more if demand grows)</li>
+      <li><strong>Built-in accessibility</strong>: on-site translation tools and a built-in screen reader for multilingual, inclusive access</li>
     </ul>
-    <p>Every effort has been made to ensure accuracy, including proper citations to aid readers in locating specific information within the original 900-page document, titled <em>Mandate for Leadership: The Conservative Promise</em>.</p>
-    <h2>Reader Responsibility and Original Document Access</h2>
-    <p>It's important to note that while striving for accuracy, there may be instances of human error or AI misinterpretation. Readers are encouraged to approach this information critically and to refer to the original document, available for download on the official <a href="https://www.project2025.org/playbook/">Project 2025 website</a>, for verification.</p>
-    <p>
-      <strong>The goal in creating this resource</strong> is to make the contents of Project 2025 more accessible to those seeking to understand the policies currently shaping our nation. With Trump now in office, it is more important than ever to examine the proposed initiatives and their implications for our government and society. Thank you for visiting the site. Hopefully, this analysis provides valuable insight into Project 2025 and its role in influencing the direction of the country.<span class="stop-marker">[STOP]</span>
-    </p>
+    <br>
+    <h2>Why This Site Exists</h2>
+    <p>The journey into understanding Project 2025 began in June of 2024, when we first caught wind of the document. Using ChatGPT, we began a deep dive—section by section—culminating in a thorough breakdown of each proposal and its potential impact on our democracy.</p>
+    <br>
+    <h2>Exposing the Threats in Project 2025</h2>
+    <p>This website includes:</p>
+    <ul>
+      <li><strong>Summaries</strong> of every section</li>
+      <li><strong>Detailed analyses</strong> identifying red flags</li>
+      <li><strong>Critical questions and concerns</strong> about democratic erosion, constitutional violations, and human rights rollbacks</li>
+      <li><strong>Direct quotes</strong> that expose the document’s intentions</li>
+    </ul>
+    <br>
+    <h2>Why You Should Care</h2>
+    <p>The Big Ugly Bill has already passed the House. It funds military build-ups in the Arctic—suggesting preparations for a Greenland invasion. It cuts funding to Medicare and Medicaid. It raises the age for Social Security. It rewards ICE agents with cash bonuses while encouraging vigilantism and racial profiling. Peaceful protesters are being attacked by militarized police forces, ICE, and even the Marines, while Trump calls for crackdowns across the country.</p>
+    <br>
+    <p>Trump has now bombed Iran, breaking his own repeated promises that he would use diplomacy instead of force. In the past, he mocked other presidents for using military action against Iran, insisting that it was a political distraction and that he alone could prevent war through negotiation. For example, in 2011 he tweeted, "In order to get elected, Barack Obama will start a war with Iran" (<a href="https://www.ndtv.com/world-news/trumps-2011-post-claiming-obama-will-start-a-war-with-iran-is-now-viral-8736712" target="_blank">NDTV, Jun. 23, 2025</a>). In 2012 he said, "I believe that he [Obama] will attack Iran sometime prior to the election because he thinks that's the only way he can get elected" (<a href="https://www.cnn.com/2020/01/03/politics/kfile-trump-obama-2012-iran-war-reelection" target="_blank">CNN, Jan. 4, 2020</a>). Now, Trump has done exactly that—launching military strikes on Iran, leading to Iranian retaliation against U.S. bases in Iraq and Qatar. We are dangerously close to all-out war, and the man who once said others would cause World War III appears to be provoking it himself.</p>
+    <br>
+    <p>Meanwhile, two state representatives and their spouses were recently shot, one couple fatally. The shooter impersonated law enforcement—highlighting the danger of allowing masked ICE agents and militarized forces to operate without accountability.</p>
+    <br>
+    <p>The regime is not just rewriting laws; it's rewriting the soul of the country. This administration is changing the names of military bases back to those honoring Confederate generals. Non-white immigrants are being locked out, while wealthy white applicants from South Africa—specifically white farmers Trump claimed were victims of “large-scale killings” and “genocide” (<a href="https://www.cnn.com/2018/08/23/politics/trump-south-africa-tweet" target="_blank">CNN, Aug. 23, 2018</a>)—are welcomed through a pay-to-play “gold card” system. Trump also promoted a separate “golden visa” plan to offer residency to wealthy foreigners, including Russian oligarchs and elites (<a href="https://www.euronews.com/2025/02/26/trump-proposes-5-million-gold-card-for-wealthy-investors-including-russians" target="_blank">Euro News, Feb. 26, 2025</a>).</p>
+    <br>
+    <h2>What You Can Do</h2>
+    <ul>
+      <li>Use this site to stay informed and share what you learn</li>
+      <li><strong><a href="/protests">Attend protests</a></strong> and <strong><a href="https://www.usa.gov/elected-officials" target="_blank">call your representatives and senators</a></strong></li>
+      <li>Share resources and updates on social media</li>
+      <li>Support fellow activists and organizers in your community</li>
+    </ul>
+    <br>
+    <p><strong>Knowledge is power</strong>, and the more we understand what we’re up against, the more effectively we can resist. Thank you for being here. Let’s keep pushing forward—together.</p>
   </div>
   
 
@@ -46,7 +67,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
 
   <!-- Right Column (Videos and Additional Content) -->
-  <div style="flex: 1; display: flex; flex-direction: column;">
+  <div class="hide-in-reader" style="flex: 1; display: flex; flex-direction: column;">
     <div id="video-list" style="overflow-y: auto; gap: 20px; display: flex; flex-direction: column;">
       <!--Sen. Padilla Video-->
       <div style="text-align: center;">
@@ -147,7 +168,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
 
 
 
-<div style="text-align: center; margin: 40px 0;">
+<div class="hide-in-reader" style="text-align: center; margin: 40px 0;">
   <h2>Check out our Video-Podcast</h2>
   <a href="/video-podcasts.html">
     <img src="/assets/images/video_podcast_banner.jpg" alt="Check out our Video-Podcast - Click Here" style="max-width: 100%; height: auto;">

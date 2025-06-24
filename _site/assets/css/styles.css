@@ -559,3 +559,90 @@ img {
     color: transparent; /* Makes text invisible */
     user-select: none; /* Prevents users from selecting it */
 }
+.virtual-toggle-btn {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 24px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.virtual-toggle-btn:hover {
+  background-color: #e04343;
+}
+#virtual-events {
+  list-style: disc inside;
+  margin: 8px 20px 20px;
+  font-size: 0.95rem;
+}
+#bufferIndicator {
+  display: inline-block;
+  animation: none;
+}
+#bufferIndicator.spinning {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+
+/* 1) when reader-mode is on… */
+body.reader-mode > * {
+  display: none !important;
+}
+
+/* 2) …except any element tagged `.reader-show` */
+body.reader-mode > .reader-show {
+  display: block !important;
+}
+
+/* 3) make sure your text flows nicely */
+body.reader-mode {
+  background: #fff;
+}
+body.reader-mode #mainContent {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.6;
+  color: #222;
+  font-family: Georgia, serif;
+}
+
+/* in your main stylesheet */
+.reader-mode header,
+.reader-mode footer,
+.reader-mode .site-sidebar {
+  display: none !important;
+}
+
+/* in your main stylesheet */
+body.reader-mode .hide-in-reader {
+  display: none !important;
+}
+
+/* tighten up your text container too */
+body.reader-mode main#readableContent {
+  max-width: 700px;
+  margin: 2em auto;
+  line-height: 1.6;
+  padding: 0 1em;
+}
+
+/* hide global nav, footer, sidebars, etc. */
+body.reader-mode header,
+body.reader-mode nav,
+body.reader-mode footer,
+body.reader-mode .share-buttons {
+  display: none !important;
+}
+
+
+
+

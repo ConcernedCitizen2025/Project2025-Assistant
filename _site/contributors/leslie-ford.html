@@ -176,12 +176,14 @@
         <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
     </div>
 
+    <!-- Google Search Bar-->
     <div style="text-align: center; margin: 20px 0;">
         <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
         <div class="gcse-search"></div>
     </div>
 
-    <div class="translate-container">
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
         <div id="google_translate_element"></div>
 
 <script>
@@ -197,6 +199,29 @@ function googleTranslateElementInit() {
 
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+    </div>
+
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
         <div id="readAloudContainer">
     <!-- Start button (initially visible) -->
     <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
@@ -227,13 +252,13 @@ function googleTranslateElementInit() {
       <!-- Time remaining display -->
       <div id="timeRemainingLabel">Time remaining: 00:00</div>
       <!-- Buffer indicator spinner (optional) -->
-      <span id="bufferIndicator" style="display:none;" title="Buffering">⏳</span>
+      <span id="bufferIndicator" title="Buffering">⏳</span>
     </div>
   </div>
   
     </div>
 
-    <main>
+    <main class="reader-show" id="mainContent">
         <!-- Content to Read -->
         <div class="content-wrapper" id="readableContent">
             <h1 id="leslie-ford">Leslie Ford</h1>
@@ -264,6 +289,29 @@ Ford’s advocacy for welfare reform, including work requirements and reductions
         </div>
     </main>
 
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+
     <!-- Include the cookie consent banner -->
     <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
     This website uses cookies to ensure you get the best experience. 
@@ -292,7 +340,20 @@ Ford’s advocacy for welfare reform, including work requirements and reductions
             </a>
             <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
         </div>
-         
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
             <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
@@ -301,6 +362,7 @@ Ford’s advocacy for welfare reform, including work requirements and reductions
             </ul>
             <br><br>
         </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
         <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
     </footer>
 
@@ -348,5 +410,16 @@ Ford’s advocacy for welfare reform, including work requirements and reductions
     <!-- At the end of your body, include the scripts -->
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
     <script src="/assets/js/readAloud.js" defer></script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
 </body>
 </html>
