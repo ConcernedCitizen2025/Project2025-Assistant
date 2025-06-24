@@ -25,7 +25,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     <ul>
       <li><strong><a href="/protests">An interactive protest map</a></strong> where you can find local protests and boycotts to join</li>
       <li><strong><a href="/signs">A free library of printable protest signs</a></strong>, including how-to instructions for assembling large 20x30" posters at home</li>
-      <li><strong><a href="/biguglybill">A cleaned-up version of the 1100-page Big Ugly Bill</a></strong> with a clickable table of contents</li>
+      <li><strong><a href="/big_ugly_bill">A cleaned-up version of the 1100-page Big Ugly Bill</a></strong> with a clickable table of contents</li>
       <li><strong><a href="/videos">Video podcasts</a></strong> exploring Project 2025 (with more if demand grows)</li>
       <li><strong>Built-in accessibility</strong>: on-site translation tools and a built-in screen reader for multilingual, inclusive access</li>
     </ul>
@@ -43,7 +43,7 @@ keywords: "Project 2025, analysis, threats to democracy, constitutional rights, 
     </ul>
     <br>
     <h2>Why You Should Care</h2>
-    <p><strong><a href="/biguglybill">The Big Ugly Bill</a></strong> has already passed the House. It funds military build-ups in the Arctic—suggesting preparations for a Greenland invasion. It cuts funding to Medicare and Medicaid. It raises the age for Social Security. It rewards ICE agents with cash bonuses while encouraging vigilantism and racial profiling. Peaceful protesters are being attacked by militarized police forces, ICE, and even the Marines, while Trump calls for crackdowns across the country.</p>
+    <p><strong><a href="/big_ugly_bill">The Big Ugly Bill</a></strong> has already passed the House. It funds military build-ups in the Arctic—suggesting preparations for a Greenland invasion. It cuts funding to Medicare and Medicaid. It raises the age for Social Security. It rewards ICE agents with cash bonuses while encouraging vigilantism and racial profiling. Peaceful protesters are being attacked by militarized police forces, ICE, and even the Marines, while Trump calls for crackdowns across the country.</p>
     <br>
     <p>Trump has now bombed Iran, breaking his own repeated promises that he would use diplomacy instead of force. In the past, he mocked other presidents for using military action against Iran, insisting that it was a political distraction and that he alone could prevent war through negotiation. For example, in 2011 he tweeted, "In order to get elected, Barack Obama will start a war with Iran" (<a href="https://www.ndtv.com/world-news/trumps-2011-post-claiming-obama-will-start-a-war-with-iran-is-now-viral-8736712" target="_blank">NDTV, Jun. 23, 2025</a>). In 2012 he said, "I believe that he [Obama] will attack Iran sometime prior to the election because he thinks that's the only way he can get elected" (<a href="https://www.cnn.com/2020/01/03/politics/kfile-trump-obama-2012-iran-war-reelection" target="_blank">CNN, Jan. 4, 2020</a>). Now, Trump has done exactly that—launching military strikes on Iran, leading to Iranian retaliation against U.S. bases in Iraq and Qatar. We are dangerously close to all-out war, and the man who once said others would cause World War III appears to be provoking it himself.</p>
     <br>
