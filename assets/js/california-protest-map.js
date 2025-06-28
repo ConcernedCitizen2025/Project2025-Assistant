@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then(res => res.ok ? res.json() : Promise.reject(res))
       .then(data => {
         document.getElementById("map-last-updated")
-          .textContent = `Last updated: ${data.lastUpdated}`;
+          .textContent = `Map last updated: ${data.lastUpdated}`;
       })
       .catch(err => {
         console.error("Couldn’t load last-updated timestamp:", err);
