@@ -43,50 +43,34 @@ document.addEventListener("DOMContentLoaded", function () {
     day:    "2-digit"
   });
 
-  // 2) Plot geo-coded events, clustered by state
+  // 2) Plot geo-coded events (cache-busted)
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-    .then(r => r.ok ? r.json() : Promise.reject(r))
+    .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
-      const cluster = L.markerClusterGroup({
-        // only cluster points within 40 pixels of each other
-        maxClusterRadius: 40
-      });
-
+      const cluster = L.markerClusterGroup();    // ← no options, default behavior
       (json.data || [])
         .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
         .forEach(ev => {
-          const st = (ev.state || "OTHER").toUpperCase();
-          if (!clusters[st]) {
-            clusters[st] = L.markerClusterGroup({ 
-              // you can tweak options here if you like 
-            });
-          }
-
           const dateLabel = ev.begin === ev.end
             ? ev.begin
             : `${ev.begin} – ${ev.end}`;
-          const links = (ev.links || [])
+          const links = (ev.links||[])
             .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
             .join("");
-
           const popup = `
-            <strong>${ev.title || ev.location}</strong><br>
+            <strong>${ev.title||ev.location}</strong><br>
             <em>${ev.location}</em><br>
             <em>${dateLabel}</em>
             <ul style="padding-left:16px;margin:8px 0;">${links}</ul>
           `;
-
-          L.marker([ev.lat, ev.lng])
-            .bindPopup(popup)
-            .addTo(clusters[st]);
+          cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
         });
-
-      // finally add each state‐cluster to the map
-      Object.values(clusters).forEach(cluster => map.addLayer(cluster));
+      map.addLayer(cluster);
+      console.log(`✅ Plotted ${cluster.getLayers().length} markers`);
     })
     .catch(err => console.error("Error loading merged_events.json:", err));
 
-
+    
   // 3) Virtual events toggle (also cache-busted)
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
