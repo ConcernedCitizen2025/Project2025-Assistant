@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // 1) Initialize the map once
+  // 1) Initialize the map once (no hard-coded center/zoom)
   if (!window.map) {
-    window.map = L.map(container).setView([36.7783, -119.4179], 6);
+    window.map = L.map(container);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
@@ -28,6 +28,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   const map = window.map;
 
+  // ── Lock initial view to continental US bounds ──
+  const US_BOUNDS = [
+    [24.396308, -124.848974],  // southwest
+    [49.384358,  -66.885444]   // northeast
+  ];
+  map.fitBounds(US_BOUNDS, { padding: [40, 40] });
+
   // PST “today” string for filtering
   const today = new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Los_Angeles",
@@ -36,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     day:    "2-digit"
   });
 
-  // 2) Plot geo-coded events, with cache-busted URL
+  // 2) Plot geo-coded events (cache-busted)
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
@@ -47,11 +54,11 @@ document.addEventListener("DOMContentLoaded", function () {
           const dateLabel = ev.begin === ev.end
             ? ev.begin
             : `${ev.begin} – ${ev.end}`;
-          const links = (ev.links || [])
+          const links = (ev.links||[])
             .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
             .join("");
           const popup = `
-            <strong>${ev.title || ev.location}</strong><br>
+            <strong>${ev.title||ev.location}</strong><br>
             <em>${ev.location}</em><br>
             <em>${dateLabel}</em>
             <ul style="padding-left:16px;margin:8px 0;">${links}</ul>
@@ -63,13 +70,13 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading merged_events.json:", err));
 
-  // 3) Virtual events toggle, also cache-busted
+  // 3) Virtual events toggle (also cache-busted)
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
-      const virtual = (json.data || [])
-        .filter(ev => ev.title && ev.links?.length && ev.end >= today)
-        .sort((a, b) => a.begin.localeCompare(b.begin));
+      const virtual = (json.data||[])
+        .filter(ev=>ev.title && ev.links?.length && ev.end>=today)
+        .sort((a,b)=>a.begin.localeCompare(b.begin));
       if (!virtual.length) return;
 
       if (document.getElementById("virtual-toggle-btn")) return;
@@ -122,20 +129,19 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading virtual_events.json:", err));
 
-    // ───────────────────────────────────────────────────────────
-    // 4) Pull in the real “lastUpdated” timestamp and show it
-    // ───────────────────────────────────────────────────────────
-    fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
-      .then(res => res.ok ? res.json() : Promise.reject(res))
-      .then(data => {
-        document
-          .getElementById("map-last-updated")
-          .textContent = `Map last updated: ${data.lastUpdated} PT`;
-      })
-      .catch(err => {
-        console.error("Couldn’t load last‐updated timestamp:", err);
-        // optional: hide the placeholder if you prefer
-        // document.getElementById("map-last-updated").style.display = "none";
-      });
+  // 4) Load and display “lastUpdated” from your meta JSON
+  fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
+    .then(res => res.ok ? res.json() : Promise.reject(res))
+    .then(data => {
+      const el = document.getElementById("map-last-updated");
+      if (el) {
+        el.innerHTML = `<strong>Last updated:</strong> ${data.lastUpdated} PT`;
+      }
+    })
+    .catch(err => {
+      console.error("Couldn’t load last-updated timestamp:", err);
+      // optionally: hide if missing
+      // document.getElementById("map-last-updated").style.display = "none";
+    });
 
-}); // <-- end of DOMContentLoaded
+}); // end DOMContentLoaded

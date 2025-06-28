@@ -23,21 +23,24 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run fetch:mobilizon
-        name: Fetch Mobilizon data
+      - name: Fetch Mobilizon data
+        run: npm run fetch:mobilizon
 
-      - run: npm run fetch:protests
-        name: Fetch Mobilize data
+      - name: Fetch Mobilize data
+        run: npm run fetch:protests
 
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
+      # ←───────────────────────────────────────────────
+      # write out events_meta.json so your map can show the real “lastUpdated”
       - name: Write map‐metadata file
         run: |
-          # get PST timestamp in the format you like:
+          # PST timestamp
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
-          # write it out:
+          # overwrite the JSON file
           echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
+      # ──────────────────────────────────────────────────
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -55,19 +58,16 @@ jobs:
           publish_dir: ./_site
           keep_files: true
 
-      # ────────────────────────────────────────────────
-      # Step 1: Compute raw & filtered counts
-      # ────────────────────────────────────────────────
       - name: Compute event-counts
         id: stats
         run: |
           sudo apt-get update && sudo apt-get install -y jq
-          M=$(jq '.events | length' assets/data/mobilize_protests.json)
-          Z=$(jq '.data | length'  assets/data/mobilizon_events.json)
-          P=$(jq '.data.searchEvents.elements | length' assets/data/protest_events.json)
-          G=$(jq '.data | length'  assets/data/merged_events.json)
-          V=$(jq '.data | length'  assets/data/virtual_events.json)
-          D=$(( M + Z + P - (G + V) ))
+          M=$(jq '.events|length' assets/data/mobilize_protests.json)
+          Z=$(jq '.data|length'  assets/data/mobilizon_events.json)
+          P=$(jq '.data.searchEvents.elements|length' assets/data/protest_events.json)
+          G=$(jq '.data|length' assets/data/merged_events.json)
+          V=$(jq '.data|length' assets/data/virtual_events.json)
+          D=$((M+Z+P-(G+V)))
           echo "raw_mobilize=$M"      >> $GITHUB_OUTPUT
           echo "raw_mobilizon=$Z"     >> $GITHUB_OUTPUT
           echo "raw_protestAPI=$P"    >> $GITHUB_OUTPUT
@@ -75,9 +75,6 @@ jobs:
           echo "virtual_only=$V"      >> $GITHUB_OUTPUT
           echo "discarded=$D"         >> $GITHUB_OUTPUT
 
-      # ────────────────────────────────────────────────
-      # Step 2: Send summary e-mail
-      # ────────────────────────────────────────────────
       - name: Email update summary
         uses: dawidd6/action-send-mail@v3
         with:
@@ -97,6 +94,3 @@ jobs:
             • Geo-coded events:        ${{ steps.stats.outputs.geo_coded }}
             • Virtual-only events:     ${{ steps.stats.outputs.virtual_only }}
             • Discarded by filters:    ${{ steps.stats.outputs.discarded }}
-
-            # …after your “Merge & split geo/virtual” step…
-      
