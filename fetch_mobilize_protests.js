@@ -30,16 +30,50 @@ let url = "https://api.mobilize.us/v1/events?" +
 
 // 3) Fetch all pages
 async function fetchAll() {
-  const all = [];
-  while (url) {
-    console.log(`Fetching: ${url}`);
-    const res  = await fetch(url);
-    if (!res.ok) throw new Error(`Mobilize API error ${res.status}`);
-    const json = await res.json();
-    all.push(...(json.data || []));
-    url = json.next;
+  const all = []
+  let next = url
+  // retry parameters
+  const MAX_RETRIES = 5
+  const BASE_DELAY  = 2000  // ms
+
+  while (next) {
+    let attempt = 0
+    let success = false
+
+    while (attempt < MAX_RETRIES && !success) {
+      try {
+        console.log(`Fetching (attempt ${attempt+1}): ${next}`)
+        const res = await fetch(next)
+        if (!res.ok) {
+          // only retry on 5xx
+          if (res.status >= 500 && res.status < 600) {
+            throw new Error(`Server error ${res.status}`)
+          }
+          // for client errors, bail out immediately
+          throw new Error(`Mobilize API error ${res.status}`)
+        }
+        const js = await res.json()
+        all.push(...(js.data || js.events || []))
+        next = js.meta?.next_page_url || js.next_cursor_url || null
+        success = true
+      } catch (err) {
+        attempt++
+        if (attempt < MAX_RETRIES && /Server error/.test(err.message)) {
+          const delay = BASE_DELAY * attempt
+          console.warn(`⚠️  Fetch failed: ${err.message}. Retrying in ${delay}ms...`)
+          await new Promise(r => setTimeout(r, delay))
+        } else {
+          console.error(`❌  Giving up on ${next}: ${err.message}`)
+          // if we never succeeded on the first page, rethrow to abort
+          if (!success && all.length === 0) throw err
+          // otherwise, just stop pagination
+          next = null
+          success = true
+        }
+      }
+    }
   }
-  return all;
+  return all
 }
 
 async function main() {
