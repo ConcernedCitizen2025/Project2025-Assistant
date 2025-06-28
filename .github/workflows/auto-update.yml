@@ -80,7 +80,7 @@ jobs:
           password:       ${{ secrets.SMTP_PASSWORD }}
           subject:        "📣 Protests Auto-Update Summary"
           to:             jasper@project2025assistant.org
-          from:           "github-actions@project2025assistant.org"
+          from:           "concernedcitizen2025ad@gmail.com"
           body: |
             Your protests-map rebuild just finished!
 
