@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ──────────────────────────────────────────────────
     // 4) Pull in the real “lastUpdated” timestamp and show it
     // ──────────────────────────────────────────────────
-    fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
+    /*fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
       .then(res => res.ok ? res.json() : Promise.reject(res))
       .then(data => {
         document.getElementById("map-last-updated")
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(err => {
         console.error("Couldn’t load last-updated timestamp:", err);
-      });
+      });*/
 
 
 }); // end DOMContentLoaded
