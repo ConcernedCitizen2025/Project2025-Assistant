@@ -152,7 +152,7 @@ async function geocodeMissing(list) {
 
   // write out a small metadata file
   fs.writeFileSync(
-    path.join(__dirname, "assets/data/events_meta.json"),
+    path.join(__dirname, "_data/events_meta.json"),
     JSON.stringify({ lastUpdated: now }, null, 2),
     "utf8"
   );
