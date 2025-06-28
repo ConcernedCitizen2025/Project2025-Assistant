@@ -45,29 +45,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 2) Plot geo-coded events, clustered by state
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-    .then(res => {
-      if (!res.ok) throw res;
-      return res.json();
-    })
+    .then(r => r.ok ? r.json() : Promise.reject(r))
     .then(json => {
-      // build one MarkerClusterGroup per state
-      const clustersByState = {};
+      const clusters = {}; // { STATE: MarkerClusterGroup }
 
       (json.data || [])
         .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
         .forEach(ev => {
-          // fallback if no state
           const st = (ev.state || "OTHER").toUpperCase();
-
-          // lazily create this state’s cluster
-          if (!clustersByState[st]) {
-            clustersByState[st] = L.markerClusterGroup();
+          if (!clusters[st]) {
+            clusters[st] = L.markerClusterGroup({ 
+              // you can tweak options here if you like 
+            });
           }
 
           const dateLabel = ev.begin === ev.end
             ? ev.begin
             : `${ev.begin} – ${ev.end}`;
-
           const links = (ev.links || [])
             .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
             .join("");
@@ -79,18 +73,16 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul style="padding-left:16px;margin:8px 0;">${links}</ul>
           `;
 
-          const marker = L.marker([ev.lat, ev.lng]).bindPopup(popup);
-          clustersByState[st].addLayer(marker);
+          L.marker([ev.lat, ev.lng])
+            .bindPopup(popup)
+            .addTo(clusters[st]);
         });
 
-      // add every state-cluster to the map
-      Object.values(clustersByState).forEach(cluster => {
-        map.addLayer(cluster);
-        console.log(`✅ Plotted ${cluster.getLayers().length} markers in a state cluster`);
-      });
+      // finally add each state‐cluster to the map
+      Object.values(clusters).forEach(cluster => map.addLayer(cluster));
     })
-    .catch(err => console.error("Error loading merged_events.json:", err)
-  );
+    .catch(err => console.error("Error loading merged_events.json:", err));
+
 
   // 3) Virtual events toggle (also cache-busted)
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)

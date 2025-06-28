@@ -114,19 +114,18 @@ async function geocodeMissing(list) {
     .sort((a, b) => a.begin.localeCompare(b.begin)
   );
 
-  // after you combine mRaw, zRaw, pRaw into `all`:
+  // … after building `all = […].map(...)` …
   all.forEach(ev => {
     if (typeof ev.location === "string") {
-      // assume “City, ST” or “… , ST”
+      // assume “City, ST” at end
       const parts = ev.location.split(",");
-      const last  = parts[parts.length - 1].trim();         // e.g. "CA" or "City ST"
-      const state = last.split(" ").pop().toUpperCase();    // grab final token
-      ev.state = state;                                     // e.g. "CA", "NY"
+      const last  = parts[parts.length - 1].trim();        // e.g. "CA" or "Paris FR"
+      const st    = last.split(" ").pop().toUpperCase();   // take final token
+      ev.state    = st.length === 2 ? st : "OTHER";        // two‐letter only
     } else {
       ev.state = "OTHER";
     }
   });
-
 
   // 5) write out both JSONs
   fs.writeFileSync(
