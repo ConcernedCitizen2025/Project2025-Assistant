@@ -50,10 +50,6 @@ jobs:
         run: |
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
           echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
-
-      # sanity check
-      - name: Debug metadata
-        run: cat assets/data/events_meta.json
       # ──────────────────────────────────────────────────
 
       - uses: ruby/setup-ruby@v1
