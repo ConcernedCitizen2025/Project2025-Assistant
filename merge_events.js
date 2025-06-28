@@ -124,6 +124,24 @@ async function geocodeMissing(list) {
     JSON.stringify({ data: virtual }, null, 2),
     'utf8'
   );
+  const now = new Date().toLocaleDateString("en-US", {
+  timeZone: "America/Los_Angeles",
+  month:  "long", day: "numeric", year: "numeric"
+  })
+  + " at "
+  + new Date().toLocaleTimeString("en-US", {
+      timeZone:  "America/Los_Angeles",
+      hour12:    true,
+      hour:      "2-digit",
+      minute:    "2-digit"
+    });
+
+  // write out a small metadata file
+  fs.writeFileSync(
+    path.join(__dirname, "assets/data/events_meta.json"),
+    JSON.stringify({ lastUpdated: now }, null, 2),
+    "utf8"
+  );
 
   console.log(`✅ Wrote ${geo.length} geo‐events and ${virtual.length} virtual‐events`);
 })();
