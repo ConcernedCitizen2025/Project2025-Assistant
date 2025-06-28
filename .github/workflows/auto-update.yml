@@ -29,17 +29,12 @@ jobs:
       - name: Fetch Mobilize data
         run: npm run fetch:protests
 
-      - name: Dump raw-title keywords
+      - name: Generate keyword_freq.txt via Node
+        run: node assets/js/keyword_freq.js
+      - name: Debug keywords
         run: |
-          sudo apt-get update && sudo apt-get install -y jq
-          jq -r '.events[].title' assets/data/mobilize_protests.json \
-            | tr -c '[:alnum:]' '[\n*]' \
-            | tr '[:upper:]' '[:lower:]' \
-            | grep -E '^[a-z]{4,}$' \
-            | sort | uniq -c \
-            | sort -nr \
-            > assets/data/keyword_freq.txt
-
+          ls -l .
+          head -n20 keyword_freq.txt
 
       - name: Merge & split geo/virtual
         run: node merge_events.js
@@ -65,6 +60,12 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
+
+      - name: Verify site has metadata
+        run: |
+          ls -l _site/assets/data
+          cat _site/assets/data/events_meta.json
+
 
       - name: List site data
         run: ls -R _site/assets/data && cat _site/assets/data/events_meta.json
