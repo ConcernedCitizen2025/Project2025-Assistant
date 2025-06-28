@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch:protests": "node fetch_mobilize_protests.js",
     "fetch:mobilizon": "node fetch_mobilizon_events.js",
-    "build": "npm run fetch:protests && jekyll build"
+    "build": "npm run fetch:protests && jekyll build",
+    "extract:keywords": "node scripts/extract-keywords.js"
   },
   "keywords": [],
   "author": "",
@@ -18,4 +19,5 @@
     "pdfjs-dist": "^5.3.31",
     "puppeteer-core": "^24.4.0"
   }
+
 }
