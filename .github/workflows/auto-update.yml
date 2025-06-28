@@ -32,6 +32,13 @@ jobs:
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
+      - name: Write map‐metadata file
+        run: |
+          # get PST timestamp in the format you like:
+          LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
+          # write it out:
+          echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
@@ -90,3 +97,6 @@ jobs:
             • Geo-coded events:        ${{ steps.stats.outputs.geo_coded }}
             • Virtual-only events:     ${{ steps.stats.outputs.virtual_only }}
             • Discarded by filters:    ${{ steps.stats.outputs.discarded }}
+
+            # …after your “Merge & split geo/virtual” step…
+      
