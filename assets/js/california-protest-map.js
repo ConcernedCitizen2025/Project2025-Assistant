@@ -1,3 +1,5 @@
+// assets/js/california-protest-map.js
+
 document.addEventListener("DOMContentLoaded", function () {
   const container = document.getElementById("california-map");
   if (!container) {
@@ -12,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
 
-    // ↓ add a never-collapsed search box via Control-Geocoder ↓
+    // never-collapsed geocoder
     if (L.Control && L.Control.geocoder) {
       L.Control.geocoder({
-        collapsed:   false,                      // show input by default
-        placeholder: "Search by address, city…", // placeholder text
+        collapsed:   false,
+        placeholder: "Search by address, city…",
       })
       .on("markgeocode", function(e) {
         window.map.fitBounds(e.geocode.bbox);
@@ -26,16 +28,16 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   const map = window.map;
 
-
-
   // PST “today” string for filtering
   const today = new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Los_Angeles",
-    year: "numeric", month: "2-digit", day: "2-digit"
+    year:   "numeric",
+    month:  "2-digit",
+    day:    "2-digit"
   });
 
-  // Plot geo-coded events from merged_events.json
-  fetch("/assets/data/merged_events.json")
+  // 2) Plot geo-coded events, with cache-busted URL
+  fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
       const cluster = L.markerClusterGroup();
@@ -61,25 +63,23 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading merged_events.json:", err));
 
-  // 2) Fetch and render “virtual” events toggle (only one button)
-  fetch("/assets/data/virtual_events.json")
+  // 3) Virtual events toggle, also cache-busted
+  fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
       const virtual = (json.data || [])
         .filter(ev => ev.title && ev.links?.length && ev.end >= today)
         .sort((a, b) => a.begin.localeCompare(b.begin));
-      if (!virtual.length) return;  // nothing to show
+      if (!virtual.length) return;
 
-      // avoid creating a second button
       if (document.getElementById("virtual-toggle-btn")) return;
 
-      // create toggle button
       const btn = document.createElement("button");
       btn.id = "virtual-toggle-btn";
       btn.textContent = "Show Virtual Events";
       Object.assign(btn.style, {
         display: "block",
-        margin: "12px auto",
+        margin:  "12px auto",
         padding: "12px 24px",
         backgroundColor: "#0073e6",
         color: "#fff",
@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
         cursor: "pointer"
       });
 
-      // create hidden list
       const list = document.createElement("ul");
       list.id = "virtual-events-list";
       Object.assign(list.style, {
@@ -100,7 +99,6 @@ document.addEventListener("DOMContentLoaded", function () {
         listStyle: "none"
       });
 
-      // populate list
       virtual.forEach(ev => {
         const li = document.createElement("li");
         const dateLabel = ev.begin === ev.end
@@ -113,15 +111,13 @@ document.addEventListener("DOMContentLoaded", function () {
         list.appendChild(li);
       });
 
-      // insert right after the map
       container.parentNode.insertBefore(btn, container.nextSibling);
       container.parentNode.insertBefore(list, btn.nextSibling);
 
-      // wire up toggle
       btn.addEventListener("click", () => {
         const showing = list.style.display === "block";
         list.style.display = showing ? "none" : "block";
-        btn.textContent = showing ? "Show Virtual Events" : "Hide Virtual Events";
+        btn.textContent   = showing ? "Show Virtual Events" : "Hide Virtual Events";
       });
     })
     .catch(err => console.error("Error loading virtual_events.json:", err));
