@@ -16,34 +16,77 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
+
       - run: npm ci
 
-      # fetch Mobilizon data
       - run: npm run fetch:mobilizon
+        name: Fetch Mobilizon data
 
-      # fetch Mobilize data
       - run: npm run fetch:protests
+        name: Fetch Mobilize data
 
-      # *** NEW STEP: merge and split geo/virtual ***
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
-
-      # now install Ruby & build
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
+
       - run: bundle install
+
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
 
-      # deploy
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           keep_files: true
+
+      # ────────────────────────────────────────────────
+      # Step 1: Compute raw & filtered counts
+      # ────────────────────────────────────────────────
+      - name: Compute event-counts
+        id: stats
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+          M=$(jq '.events | length' assets/data/mobilize_protests.json)
+          Z=$(jq '.data | length'  assets/data/mobilizon_events.json)
+          P=$(jq '.data.searchEvents.elements | length' assets/data/protest_events.json)
+          G=$(jq '.data | length'  assets/data/merged_events.json)
+          V=$(jq '.data | length'  assets/data/virtual_events.json)
+          D=$(( M + Z + P - (G + V) ))
+          echo "raw_mobilize=$M"      >> $GITHUB_OUTPUT
+          echo "raw_mobilizon=$Z"     >> $GITHUB_OUTPUT
+          echo "raw_protestAPI=$P"    >> $GITHUB_OUTPUT
+          echo "geo_coded=$G"         >> $GITHUB_OUTPUT
+          echo "virtual_only=$V"      >> $GITHUB_OUTPUT
+          echo "discarded=$D"         >> $GITHUB_OUTPUT
+
+      # ────────────────────────────────────────────────
+      # Step 2: Send summary e-mail
+      # ────────────────────────────────────────────────
+      - name: Email update summary
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port:    ${{ secrets.SMTP_PORT }}
+          username:       ${{ secrets.SMTP_USERNAME }}
+          password:       ${{ secrets.SMTP_PASSWORD }}
+          subject:        "📣 Protests Auto-Update Summary"
+          to:             jasper@project2025assistant.org
+          from:           "github-actions@project2025assistant.org"
+          body: |
+            Your protests-map rebuild just finished!
+
+            • Mobilize fetched:        ${{ steps.stats.outputs.raw_mobilize }}
+            • Mobilizon fetched:       ${{ steps.stats.outputs.raw_mobilizon }}
+            • ProtestAPI fetched:      ${{ steps.stats.outputs.raw_protestAPI }}
+            • Geo-coded events:        ${{ steps.stats.outputs.geo_coded }}
+            • Virtual-only events:     ${{ steps.stats.outputs.virtual_only }}
+            • Discarded by filters:    ${{ steps.stats.outputs.discarded }}
