@@ -110,13 +110,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 <p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action.</p>
 
 <div id="california-map" style="height: 600px;"></div>
-<script
-  defer
-  src="/assets/js/california-protest-map.js?v={{ site.time | date: '%s' }}"
-></script>
-
-
-
+<script defer src="/assets/js/california-protest-map.js?v={{ site.time | date:'%s' }}"></script>
 
 
 ## 🖼️ Free Protest Signs to Download
