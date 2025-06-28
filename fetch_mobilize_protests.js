@@ -6,12 +6,23 @@ const path  = require("path");
 
 // 1) Your keyword list (all lower-cased for matching)
 const KEYWORDS = [
-  "politics","political","federal politics","state politics","local politics",
-  "climate change","canvass","defend reproductive rights","gun violence prevention",
-  "voting rights","protest","protests","protesting","rally","rallies","rallying",
-  "trump","musk","ice","immigration","detention","fight","law","kick out the clowns",
-  "not a king","no kings","dems","democrat","democratic","palestine","genocide",
-  "checks and balances","50501","505001","peaceful","defend","rights"
+  "politics", "political", "federal politics", "state politics", "local politics",
+  "climate change", "canvass", "defend reproductive rights", "gun violence prevention",
+  "voting rights", "protest", "protests", "protesting", "rally", "rallies", "rallying",
+  "trump", "musk", "ice", "immigration", "detention", "fight", "law", "kick out the clowns",
+  "not a king", "no kings", "dems", "democrat", "democratic", "palestine", "genocide",
+  "checks and balances", "50501", "505001", "peaceful", "defend", "rights",
+  "accountability", "activism", "activist", "authoritarianism", "ban", "banned",
+  "campaign", "campaigns", "canvassing", "civil", "clown", "clowns", "democracy",
+  "demonstration", "demonstrations", "dictatorship", "door", "doors", "election",
+  "elections", "equality", "fascism", "freedom", "freedoms", "gotv", "human",
+  "impeach", "impeachment", "indivisible", "justice", "knock", "knocking", "labor",
+  "liberty", "lgbtq", "lgbtqia", "march", "mobilization", "mobilize", "movement",
+  "nocrownfortheclown", "nokings", "oligarchy", "organize", "organizer", "organizing",
+  "petition", "petitioning", "phonebank", "phonebanking", "pride", "progressive",
+  "progressives", "register", "registration", "resistance", "resist", "resists",
+  "resisttrump", "resisting", "solidarity", "townhall", "trans", "tyranny", "united",
+  "union", "voter", "voters", "voting", "vote", "womens", "abortion", "reproductive"
 ].map(s => s.toLowerCase());
 
 // Helper for today’s date

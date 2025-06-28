@@ -7,7 +7,7 @@
     "fetch:protests": "node fetch_mobilize_protests.js",
     "fetch:mobilizon": "node fetch_mobilizon_events.js",
     "build": "npm run fetch:protests && jekyll build",
-    "extract:keywords": "node scripts/extract-keywords.js"
+    "extract:keywords": "node assets/scripts/extract-keywords.js"
   },
   "keywords": [],
   "author": "",
