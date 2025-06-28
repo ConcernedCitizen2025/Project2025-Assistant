@@ -132,19 +132,18 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading virtual_events.json:", err));
 
-  // 4) Load and display “lastUpdated” from your meta JSON
-  fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
-    .then(res => res.ok ? res.json() : Promise.reject(res))
-    .then(data => {
-      const el = document.getElementById("map-last-updated");
-      if (el) {
-        el.innerHTML = `<strong>Last updated:</strong> ${data.lastUpdated}`;
-      }
-    })
-    .catch(err => {
-      console.error("Couldn't load last-updated timestamp:", err);
-      // optionally: hide if missing
-      // document.getElementById("map-last-updated").style.display = "none";
-    });
+    // ──────────────────────────────────────────────────
+    // 4) Pull in the real “lastUpdated” timestamp and show it
+    // ──────────────────────────────────────────────────
+    fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
+      .then(res => res.ok ? res.json() : Promise.reject(res))
+      .then(data => {
+        document.getElementById("map-last-updated")
+          .textContent = `Last updated: ${data.lastUpdated}`;
+      })
+      .catch(err => {
+        console.error("Couldn’t load last-updated timestamp:", err);
+      });
+
 
 }); // end DOMContentLoaded
