@@ -47,7 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
     .then(r => r.ok ? r.json() : Promise.reject(r))
     .then(json => {
-      const clusters = {}; // { STATE: MarkerClusterGroup }
+      const cluster = L.markerClusterGroup({
+        // only cluster points within 40 pixels of each other
+        maxClusterRadius: 40
+      });
 
       (json.data || [])
         .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
