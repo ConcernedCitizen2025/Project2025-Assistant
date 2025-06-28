@@ -47,7 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
-      const cluster = L.markerClusterGroup();    // ← no options, default behavior
+      const cluster = L.markerClusterGroup({
+        maxClusterRadius: 40
+      });
       (json.data || [])
         .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
         .forEach(ev => {
@@ -70,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(err => console.error("Error loading merged_events.json:", err));
 
-    
+
   // 3) Virtual events toggle (also cache-busted)
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
