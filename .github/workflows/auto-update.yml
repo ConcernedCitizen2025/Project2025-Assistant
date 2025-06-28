@@ -32,13 +32,13 @@ jobs:
       - name: Dump raw-title keywords
         run: |
           sudo apt-get update && sudo apt-get install -y jq
-          jq -r '.events[].title' assets/data/mobilize_protests.json \
+          jq -r '.events[].title' /assets/data/mobilize_protests.json \
             | tr -c '[:alnum:]' '[\n*]' \
             | tr '[:upper:]' '[:lower:]' \
             | grep -E '^[a-z]{4,}$' \
             | sort | uniq -c \
             | sort -nr \
-            > assets/data/keyword_freq.txt
+            > /assets/data/keyword_freq.txt
 
 
       - name: Merge & split geo/virtual
@@ -49,7 +49,7 @@ jobs:
       - name: Write map-metadata file
         run: |
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
-          echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
+          echo "{\"lastUpdated\":\"$LAST\"}" > /assets/data/events_meta.json
 
       # ──────────────────────────────────────────────────
 
