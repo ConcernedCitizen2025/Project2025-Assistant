@@ -109,7 +109,7 @@ jobs:
           username:       ${{ secrets.SMTP_USERNAME }}
           password:       ${{ secrets.SMTP_PASSWORD }}
           subject:        "📣 Protests Auto-Update Summary"
-          to:             jasper@project2025assistant.org
+          to:             concernedcitizen2025ad@gmail.com
           from:           "concernedcitizen2025ad@gmail.com"
           body: |
             Your protests-map rebuild just finished!
