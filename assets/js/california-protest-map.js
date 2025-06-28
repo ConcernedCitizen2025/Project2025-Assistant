@@ -43,32 +43,54 @@ document.addEventListener("DOMContentLoaded", function () {
     day:    "2-digit"
   });
 
-  // 2) Plot geo-coded events (cache-busted)
+  // 2) Plot geo-coded events, clustered by state
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-    .then(res => res.ok ? res.json() : Promise.reject(res))
+    .then(res => {
+      if (!res.ok) throw res;
+      return res.json();
+    })
     .then(json => {
-      const cluster = L.markerClusterGroup();
+      // build one MarkerClusterGroup per state
+      const clustersByState = {};
+
       (json.data || [])
         .filter(ev => ev.lat != null && ev.lng != null && ev.end >= today)
         .forEach(ev => {
+          // fallback if no state
+          const st = (ev.state || "OTHER").toUpperCase();
+
+          // lazily create this state’s cluster
+          if (!clustersByState[st]) {
+            clustersByState[st] = L.markerClusterGroup();
+          }
+
           const dateLabel = ev.begin === ev.end
             ? ev.begin
             : `${ev.begin} – ${ev.end}`;
-          const links = (ev.links||[])
+
+          const links = (ev.links || [])
             .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
             .join("");
+
           const popup = `
-            <strong>${ev.title||ev.location}</strong><br>
+            <strong>${ev.title || ev.location}</strong><br>
             <em>${ev.location}</em><br>
             <em>${dateLabel}</em>
             <ul style="padding-left:16px;margin:8px 0;">${links}</ul>
           `;
-          cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
+
+          const marker = L.marker([ev.lat, ev.lng]).bindPopup(popup);
+          clustersByState[st].addLayer(marker);
         });
-      map.addLayer(cluster);
-      console.log(`✅ Plotted ${cluster.getLayers().length} markers`);
+
+      // add every state-cluster to the map
+      Object.values(clustersByState).forEach(cluster => {
+        map.addLayer(cluster);
+        console.log(`✅ Plotted ${cluster.getLayers().length} markers in a state cluster`);
+      });
     })
-    .catch(err => console.error("Error loading merged_events.json:", err));
+    .catch(err => console.error("Error loading merged_events.json:", err)
+  );
 
   // 3) Virtual events toggle (also cache-busted)
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
@@ -135,11 +157,11 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(data => {
       const el = document.getElementById("map-last-updated");
       if (el) {
-        el.innerHTML = `<strong>Last updated:</strong> ${data.lastUpdated} PT`;
+        el.innerHTML = `<strong>Last updated:</strong> ${data.lastUpdated}`;
       }
     })
     .catch(err => {
-      console.error("Couldn’t load last-updated timestamp:", err);
+      console.error("Couldn't load last-updated timestamp:", err);
       // optionally: hide if missing
       // document.getElementById("map-last-updated").style.display = "none";
     });
