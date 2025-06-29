@@ -61,6 +61,13 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
 
+          # right after “Build Jekyll site”
+      - name: Debug built merged_events.json
+        run: |
+          echo "Built merged_events.json has $(jq '.data|length' _site/assets/data/merged_events.json) geo‐events"
+          head -n5 _site/assets/data/merged_events.json
+
+
       - name: Verify site has metadata
         run: |
           ls -l _site/assets/data
