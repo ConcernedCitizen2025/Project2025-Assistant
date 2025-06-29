@@ -2,3 +2,4 @@ TokenExpAug2025.txt
 !assets/data/merged_events.json
 !assets/data/virtual_events.json
 !assets/data/events_meta.json
+"assets/data/*.json" 
