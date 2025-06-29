@@ -64,13 +64,17 @@ async function fetchAll() {
           throw new Error(`Mobilize API error ${res.status}`)
         }
         const js = await res.json()
+        console.log('🗒️ payload keys:', Object.keys(js));
+        // and if you need more detail:
+        console.log(JSON.stringify(js, null,2));
+
         all.push(...(js.data || js.events || []))
         // after you do `const js = await res.json()…`
         console.log('Mobilize page meta:', js.meta)   // TEMP: inspect what the API returned
 
         // Mobilize v1 returns `js.meta.next_cursor_url` when there’s more to fetch:
         // pick up the Mobilize “next_cursor_url” field instead of next_page_url
-        next = js.meta?.next_cursor_url || js.next_cursor_url || null
+        next = js.pagination?.next_cursor || js.next_cursor || null
         console.log('▶️ next page URL →', next)
 
         success = true
