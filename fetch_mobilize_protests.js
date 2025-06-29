@@ -69,7 +69,9 @@ async function fetchAll() {
         console.log('Mobilize page meta:', js.meta)   // TEMP: inspect what the API returned
 
         // Mobilize v1 returns `js.meta.next_cursor_url` when there’s more to fetch:
-        next = js.meta?.next_cursor_url || null
+        // pick up the Mobilize “next_cursor_url” field instead of next_page_url
+        next = js.meta?.next_cursor_url || js.next_cursor_url || null
+        console.log('▶️ next page URL →', next)
 
         success = true
       } catch (err) {
