@@ -29,13 +29,6 @@ jobs:
       - name: Fetch Mobilize data
         run: npm run fetch:protests
 
-      - name: Generate keyword_freq.txt via Node
-        run: node assets/js/keyword_freq.js
-      - name: Debug keywords
-        run: |
-          ls -l .
-          head -n20 keyword_freq.txt
-
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
