@@ -56,6 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const filtered = (json.data || []).filter(ev => {
         const valid = ev.lat != null && ev.lng != null && ev.end >= today;
+        
+        // Add this to log *every* event's date comparison
+        console.log(`📅 Comparing: ${ev.end} >= ${today} → ${valid ? '✅' : '❌'}`);
+
         if (!valid) {
           console.warn("🛑 Skipped:", ev.title, {
             lat: ev.lat,
@@ -64,8 +68,10 @@ document.addEventListener("DOMContentLoaded", function () {
             today
           });
         }
+
         return valid;
       });
+
 
       filtered.forEach(ev => {
         const dateLabel = ev.begin === ev.end
@@ -82,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
         cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
       });
+      console.log("✅ Final filtered marker count:", filtered.length);
+
 
       console.log("🔖 Markers added to cluster:", cluster.getLayers().length);
 
