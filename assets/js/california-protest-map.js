@@ -47,6 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
     .then(json => {
+      console.log(`📦 Total geo‐events in JSON: ${json.data.length}`);
+
       const cluster = L.markerClusterGroup({
         maxClusterRadius: 40
       });
@@ -67,6 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
           `;
           cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
         });
+      console.log(`🔖 All child markers (should match JSON):`, cluster.getAllChildMarkers().length);
+      console.log(`🌐 Cluster groups (icon count at this zoom):`, cluster.getLayers().length);
+
       map.addLayer(cluster);
       console.log(`✅ Plotted ${cluster.getLayers().length} markers`);
     })
