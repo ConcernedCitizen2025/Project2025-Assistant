@@ -74,7 +74,8 @@ async function fetchAll() {
 
         // Mobilize v1 returns `js.meta.next_cursor_url` when there’s more to fetch:
         // pick up the Mobilize “next_cursor_url” field instead of next_page_url
-        next = js.pagination?.next_cursor || js.next_cursor || null
+        next = js.next || null;
+
         console.log('▶️ next page URL →', next)
 
         success = true
