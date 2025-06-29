@@ -73,3 +73,6 @@ include:
   - _includes
   - assets/images/favicon4/site.webmanifest
   - assets/data   # includes mobilize_protests.json and any other JSON in that folder
+  - assets/data/merged_events.json
+  - assets/data/virtual_events.json
+  - assets/data/events_meta.json

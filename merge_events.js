@@ -113,6 +113,8 @@ async function geocodeMissing(list) {
     )
     .sort((a, b) => a.begin.localeCompare(b.begin)
   );
+  console.log(`📊 Summary — Total: ${all.length}, Geo: ${geo.length}, Virtual: ${virtual.length}`);
+
 
   // … after building `all = […].map(...)` …
   all.forEach(ev => {

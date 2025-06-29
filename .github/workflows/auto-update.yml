@@ -82,7 +82,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          keep_files: false   # ← remove “true” so old files get overwritten
+          keep_files: false    # ← ensure old files are deleted
+          
+
 
 
       - name: Compute event-counts

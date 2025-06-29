@@ -139,11 +139,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // 4) Pull in the real “lastUpdated” timestamp and show it
     // ──────────────────────────────────────────────────
     fetch('/assets/data/events_meta.json?v=' + Date.now())
-      .then(r => r.json())
+      .then(res => res.ok ? res.json() : Promise.reject("Could not fetch events_meta.json"))
       .then(data => {
-        document.getElementById('map-last-updated')
-                .textContent = `Map last updated: ${data.lastUpdated}`;
-      });
+        document.getElementById('map-last-updated').textContent =
+          `Map last updated: ${data.lastUpdated}`;
+      })
+      .catch(err => console.error("Error loading metadata:", err));
+
 
 
 
