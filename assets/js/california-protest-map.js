@@ -7,78 +7,71 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // 1) Initialize the map once (no hard-coded center/zoom)
+  // 1) Initialize the map once
   if (!window.map) {
     window.map = L.map(container);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors",
     }).addTo(window.map);
 
-    // never-collapsed geocoder
     if (L.Control && L.Control.geocoder) {
       L.Control.geocoder({
-        collapsed:   false,
+        collapsed: false,
         placeholder: "Search by address, city…",
       })
-      .on("markgeocode", function(e) {
-        window.map.fitBounds(e.geocode.bbox);
-      })
-      .addTo(window.map);
+        .on("markgeocode", function (e) {
+          window.map.fitBounds(e.geocode.bbox);
+        })
+        .addTo(window.map);
     }
   }
   const map = window.map;
 
-  // ── Lock initial view to continental US bounds ──
   const US_BOUNDS = [
-    [24.396308, -124.848974],  // southwest
-    [49.384358,  -66.885444]   // northeast
+    [24.396308, -124.848974],
+    [49.384358, -66.885444],
   ];
   map.fitBounds(US_BOUNDS, { padding: [40, 40] });
 
-  // PST “today” string for filtering
-  const today = new Date().toLocaleDateString("en-CA", {
-    timeZone: "America/Los_Angeles",
-    year:   "numeric",
-    month:  "2-digit",
-    day:    "2-digit"
-  });
+  // Set date filter: allow yesterday through future
+  const date = new Date();
+  date.setDate(date.getDate() - 1);
+  const threshold = date.toISOString().slice(0, 10); // YYYY-MM-DD
 
-
-  // 2) Plot geo-coded events (cache-busted)
-  console.log("📅 Today is:", today);
-
+  // 2) Plot geo-coded events
   fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-    .then(res => res.ok ? res.json() : Promise.reject(res))
-    .then(json => {
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    .then((json) => {
       console.log("🔎 First 3 events after fetch:", json.data.slice(0, 3));
 
       const cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
+      let skippedTooOld = 0;
+      let skippedMissingCoords = 0;
 
-      const filtered = (json.data || []).filter(ev => {
-        const valid = ev.lat != null && ev.lng != null && ev.end >= today;
-        
-        // Add this to log *every* event's date comparison
-        console.log(`📅 Comparing: ${ev.end} >= ${today} → ${valid ? '✅' : '❌'}`);
+      const filtered = (json.data || []).filter((ev) => {
+        const validDate = ev.end >= threshold;
+        const hasCoords = ev.lat != null && ev.lng != null;
 
-        if (!valid) {
+        if (!validDate || !hasCoords) {
+          if (!validDate) skippedTooOld++;
+          if (!hasCoords) skippedMissingCoords++;
           console.warn("🛑 Skipped:", ev.title, {
+            reason: !validDate ? "Too old" : "Missing coordinates",
             lat: ev.lat,
             lng: ev.lng,
             end: ev.end,
-            today
+            threshold,
           });
         }
 
-        return valid;
+        return validDate && hasCoords;
       });
 
-
-      filtered.forEach(ev => {
-        const dateLabel = ev.begin === ev.end
-          ? ev.begin
-          : `${ev.begin} – ${ev.end}`;
+      filtered.forEach((ev) => {
+        const dateLabel =
+          ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
         const links = (ev.links || [])
-          .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
+          .map((l) => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
           .join("");
         const popup = `
           <strong>${ev.title || ev.location}</strong><br>
@@ -88,28 +81,27 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
         cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
       });
+
       console.log("✅ Final filtered marker count:", filtered.length);
-
-
-      console.log("🔖 Markers added to cluster:", cluster.getLayers().length);
+      console.log("❌ Skipped due to age:", skippedTooOld);
+      console.log("❌ Skipped due to missing coordinates:", skippedMissingCoords);
 
       map.addLayer(cluster);
       console.log(`✅ Plotted ${cluster.getLayers().length} markers`);
     })
-    .catch(err => console.error("Error loading merged_events.json:", err));
+    .catch((err) => console.error("Error loading merged_events.json:", err));
 
-
-
-  // 3) Virtual events toggle (also cache-busted)
+  // 3) Virtual events toggle
   fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
-    .then(res => res.ok ? res.json() : Promise.reject(res))
-    .then(json => {
-      console.log("🔎 First 3 events after fetch:", json.data.slice(0, 3));
-      const virtual = (json.data||[])
-        .filter(ev=>ev.title && ev.links?.length && ev.end>=today)
-        .sort((a,b)=>a.begin.localeCompare(b.begin));
-      if (!virtual.length) return;
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    .then((json) => {
+      console.log("🔎 First 3 virtual events:", json.data?.slice(0, 3));
 
+      const virtual = (json.data || [])
+        .filter((ev) => ev.title && ev.links?.length && ev.end >= threshold)
+        .sort((a, b) => a.begin.localeCompare(b.begin));
+
+      if (!virtual.length) return;
       if (document.getElementById("virtual-toggle-btn")) return;
 
       const btn = document.createElement("button");
@@ -117,14 +109,14 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.textContent = "Show Virtual Events";
       Object.assign(btn.style, {
         display: "block",
-        margin:  "12px auto",
+        margin: "12px auto",
         padding: "12px 24px",
         backgroundColor: "#0073e6",
         color: "#fff",
         border: "none",
         borderRadius: "6px",
         fontSize: "1em",
-        cursor: "pointer"
+        cursor: "pointer",
       });
 
       const list = document.createElement("ul");
@@ -134,17 +126,16 @@ document.addEventListener("DOMContentLoaded", function () {
         maxWidth: "800px",
         margin: "8px auto",
         padding: "0 1em",
-        listStyle: "none"
+        listStyle: "none",
       });
 
-      virtual.forEach(ev => {
+      virtual.forEach((ev) => {
         const li = document.createElement("li");
-        const dateLabel = ev.begin === ev.end
-          ? ev.begin
-          : `${ev.begin} – ${ev.end}`;
+        const dateLabel =
+          ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
         const href = ev.links[0].href || "#";
-        li.innerHTML = `<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`
-                     + (ev.location ? ` (<em>${ev.location}</em>)` : "");
+        li.innerHTML = `<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>` +
+          (ev.location ? ` (<em>${ev.location}</em>)` : "");
         li.style.padding = "6px 0";
         list.appendChild(li);
       });
@@ -155,24 +146,19 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.addEventListener("click", () => {
         const showing = list.style.display === "block";
         list.style.display = showing ? "none" : "block";
-        btn.textContent   = showing ? "Show Virtual Events" : "Hide Virtual Events";
+        btn.textContent = showing ? "Show Virtual Events" : "Hide Virtual Events";
       });
     })
-    .catch(err => console.error("Error loading virtual_events.json:", err));
+    .catch((err) => console.error("Error loading virtual_events.json:", err));
 
-    // ──────────────────────────────────────────────────
-    // 4) Pull in the real “lastUpdated” timestamp and show it
-    // ──────────────────────────────────────────────────
-    fetch('/assets/data/events_meta.json?v=' + Date.now())
-      .then(res => res.ok ? res.json() : Promise.reject("Could not fetch events_meta.json"))
-      .then(data => {
-        console.log("🔎 First 3 events after fetch:", json.data.slice(0, 3));
-        document.getElementById('map-last-updated').textContent =
-          `Map last updated: ${data.lastUpdated}`;
-      })
-      .catch(err => console.error("Error loading metadata:", err));
-
-
-
-
-}); // end DOMContentLoaded
+  // 4) Load timestamp metadata
+  fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
+    .then((res) => (res.ok ? res.json() : Promise.reject("Could not fetch events_meta.json")))
+    .then((data) => {
+      const el = document.getElementById("map-last-updated");
+      if (el) {
+        el.textContent = `Map last updated: ${data.lastUpdated}`;
+      }
+    })
+    .catch((err) => console.error("Error loading metadata:", err));
+});
