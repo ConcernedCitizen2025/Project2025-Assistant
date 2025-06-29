@@ -65,7 +65,12 @@ async function fetchAll() {
         }
         const js = await res.json()
         all.push(...(js.data || js.events || []))
-        next = js.meta?.next_page_url || js.next_cursor_url || null
+        // after you do `const js = await res.json()…`
+        console.log('Mobilize page meta:', js.meta)   // TEMP: inspect what the API returned
+
+        // Mobilize v1 returns `js.meta.next_cursor_url` when there’s more to fetch:
+        next = js.meta?.next_cursor_url || null
+
         success = true
       } catch (err) {
         attempt++
