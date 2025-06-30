@@ -93,10 +93,20 @@ if (window.__P25A_MAP_LOADED__) {
     }
 
     function applyPreset(days){
-      if(days==="all") return render(raw,labelOf("all"));
-      const th=new Date(today.getTime()+(days-1)*ONE_DAY);
-      render(raw.filter(ev=>ev.lat!=null&&new Date(ev.end)>=th),labelOf(days));
+      if(days === "all") return render(raw, labelOf("all"));
+
+      const rangeStart = new Date(today); // inclusive
+      const rangeEnd = new Date(today.getTime() + (days - 1) * ONE_DAY); // inclusive
+
+      const filtered = raw.filter(ev => {
+        if (ev.lat == null || ev.lng == null) return false;
+        const beginDate = new Date(ev.begin);
+        return beginDate >= rangeStart && beginDate <= rangeEnd;
+      });
+
+      render(filtered, labelOf(days));
     }
+
 
     function openCustom(){
       const wrap=document.createElement("div");
