@@ -98,17 +98,33 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
   <!-- Right column: smaller video -->
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <video
-      controls
-      style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
-      preload="metadata"
-    >
-      <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-      Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
-    </p>
+    <div>
+      <video
+        controls
+        style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
+        preload="metadata"
+      >
+        <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
+      </p>
+    </div>
+    <div>
+      <video
+        controls
+        style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
+        preload="metadata"
+      >
+        <source src="/assets/videos/ice_boycotts.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        <h2>Companies to boycott that are linked to ICE:</h2> <strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. See the above video for more information.
+        Video by <a href="https://www.instagram.com/reel/DLdDhQRyVAd/?igsh=MTM2dmg2amFocnNwdg%3D%3D" target="_blank">@micthagoodkid</a>. Originally posted on Instagram.
+      </p>
+    </div>
   </div>
 
 </div>
