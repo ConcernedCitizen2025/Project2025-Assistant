@@ -1,7 +1,7 @@
 // assets/js/california-protest-map.js — COMPLETE REWRITE
 // --------------------------------------------------------------------
 // Adds: date‑range filter bar (All/30/15/7/3/Today + Custom), live count
-// persistence via localStorage, and robust duplicate‑avoidance.
+// persistence via localStorage, robust duplicate‑avoidance, and virtual toggle.
 // --------------------------------------------------------------------
 
 /** 0) FIRE ONLY ONCE — guard against double injection (duplicate <script> tags) */
@@ -15,9 +15,9 @@ if (window.__P25A_MAP_LOADED__) {
     if (!mapEl) return console.error("Map container #california-map not found!");
 
     /* ---------------------------------------------------------------- 2. Helpers */
-    const ONE_DAY = 86_400_000;                                  // ms
+    const ONE_DAY = 86_400_000;
     const today   = new Date(); today.setHours(0,0,0,0);
-    const fmt     = (d)=>d.toISOString().slice(0,10);            // YYYY‑MM‑DD
+    const fmt     = (d)=>d.toISOString().slice(0,10);
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
     if (!window.p25aMap) {
@@ -25,11 +25,9 @@ if (window.__P25A_MAP_LOADED__) {
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:"&copy; OpenStreetMap contributors"
       }).addTo(window.p25aMap);
-      // geocoder
       if (L.Control?.geocoder) L.Control.geocoder({collapsed:false})
         .on("markgeocode", e=>window.p25aMap.fitBounds(e.geocode.bbox))
         .addTo(window.p25aMap);
-      // initial fit (CONUS)
       window.p25aMap.fitBounds([[24.396308,-124.848974],[49.384358,-66.885444]],{padding:[40,40]});
     }
     const map = window.p25aMap;
@@ -44,7 +42,7 @@ if (window.__P25A_MAP_LOADED__) {
         "margin:12px auto;max-width:900px";
       mapEl.parentNode.insertBefore(uiBar, mapEl);
     }
-    uiBar.innerHTML = "";                                      // clear duplicates
+    uiBar.innerHTML = "";
 
     const badge = document.createElement("span");
     badge.id="event-badge";
@@ -80,51 +78,34 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 6. Filtering */
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
-    function render(list, lbl) {
-      if (cluster) map.removeLayer(cluster);
-      cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
-
-      list.forEach(ev => {
+    function render(list,lbl){
+      if(cluster) map.removeLayer(cluster);
+      cluster=L.markerClusterGroup({maxClusterRadius:40});
+      list.forEach(ev=>{
         const dateStr = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
-        const linkList = (ev.links || [])
-          .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
-          .join("");
-
-        const popup = `
-          <strong>${ev.title}</strong><br>
-          <em>${ev.location}</em><br>
-          <em>${dateStr}</em>
-          ${linkList ? `<ul style="padding-left:16px;margin:8px 0;">${linkList}</ul>` : ""}
-        `;
-
-        cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
+        const links = (ev.links || []).map(l=>`<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
+        const popup = `<strong>${ev.title}</strong><br><em>${ev.location}</em><br><em>${dateStr}</em>`+
+          (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
+        cluster.addLayer(L.marker([ev.lat,ev.lng]).bindPopup(popup));
       });
-
       map.addLayer(cluster);
-      badge.textContent = `Showing: ${lbl} — ${list.length} event${list.length !== 1 ? "s" : ""}`;
+      badge.textContent=`Showing: ${lbl} — ${list.length} events`;
     }
-
 
     function applyPreset(days){
-      if(days === "all") return render(raw, labelOf("all"));
-
-      const rangeStart = new Date(today); // inclusive
-      const rangeEnd = new Date(today.getTime() + (days - 1) * ONE_DAY); // inclusive
-
-      const filtered = raw.filter(ev => {
-        if (ev.lat == null || ev.lng == null) return false;
-        const beginDate = new Date(ev.begin);
-        return beginDate >= rangeStart && beginDate <= rangeEnd;
-      });
-
-      render(filtered, labelOf(days));
+      if(days==="all") return render(raw,labelOf("all"));
+      const th=new Date(today.getTime()+days*ONE_DAY);
+      render(raw.filter(ev=>ev.lat!=null&&new Date(ev.begin)<=th&&new Date(ev.end)>=today),labelOf(days));
     }
-
 
     function openCustom(){
       const wrap=document.createElement("div");
       Object.assign(wrap.style,{position:"fixed",inset:0,background:"rgba(0,0,0,.4)",display:"flex",alignItems:"center",justifyContent:"center",zIndex:9999});
-      wrap.innerHTML=`<div style=\"background:#fff;padding:20px;border-radius:8px;text-align:center\">\n        <h3 style=\"margin-top:0\">Custom Range</h3>\n        <label>Start:<br><input type=date id=start></label><br><br>\n        <label>End:<br><input type=date id=end></label><br><br>\n        <button id=apply>Apply</button> <button id=cancel>Cancel</button></div>`;
+      wrap.innerHTML=`<div style=\"background:#fff;padding:20px;border-radius:8px;text-align:center\">
+        <h3 style=\"margin-top:0\">Custom Range</h3>
+        <label>Start:<br><input type=date id=start></label><br><br>
+        <label>End:<br><input type=date id=end></label><br><br>
+        <button id=apply>Apply</button> <button id=cancel>Cancel</button></div>`;
       document.body.appendChild(wrap);
       wrap.querySelector("#start").value=fmt(today);
       wrap.querySelector("#end").value=fmt(today);
@@ -152,7 +133,36 @@ if (window.__P25A_MAP_LOADED__) {
       applyPreset(saved==="all"?"all":saved==="custom"?"all":parseInt(saved,10));
     }
 
-    /* ---------------------------------------------------------------- 7. Metadata timestamp */
+    /* ---------------------------------------------------------------- 7. Virtual Events Toggle */
+    fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
+      .then(r=>r.json())
+      .then(js=>{
+        const virtual=js.data||[];
+        if(!virtual.length) return;
+        const btn=document.createElement("button");
+        btn.textContent="Show Virtual Events";
+        Object.assign(btn.style,{display:"block",margin:"12px auto",padding:"12px 24px",backgroundColor:"#0073e6",color:"#fff",border:"none",borderRadius:"6px",fontSize:"1em",cursor:"pointer"});
+        const list=document.createElement("ul");
+        list.style.cssText="display:none;max-width:800px;margin:8px auto;padding:0 1em;list-style:none";
+        virtual.sort((a,b)=>a.begin.localeCompare(b.begin)).forEach(ev=>{
+          const li=document.createElement("li");
+          const dateLabel=ev.begin===ev.end?ev.begin:`${ev.begin} – ${ev.end}`;
+          const href=ev.links?.[0]?.href||"#";
+          li.innerHTML=`<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`+
+            (ev.location?` (<em>${ev.location}</em>)`:"");
+          li.style.padding="6px 0";
+          list.appendChild(li);
+        });
+        mapEl.parentNode.insertBefore(btn, mapEl.nextSibling);
+        mapEl.parentNode.insertBefore(list, btn.nextSibling);
+        btn.onclick=()=>{
+          const showing=list.style.display==="block";
+          list.style.display=showing?"none":"block";
+          btn.textContent=showing?"Show Virtual Events":"Hide Virtual Events";
+        };
+      });
+
+    /* ---------------------------------------------------------------- 8. Metadata timestamp */
     fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
       .then(r=>r.ok?r.json():null)
       .then(d=>{if(!d) return; const el=document.getElementById("map-last-updated"); if(el) el.textContent=`Map last updated: ${d.lastUpdated}`;});
