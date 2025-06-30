@@ -76,6 +76,21 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
           <td style="padding:8px;">June 24–30</td>
           <td style="padding:8px;">{% if today > '2025-06-30' %}✅{% endif %}</td>
         </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Independence Day boycott</strong></td>
+          <td style="padding:8px;">July 4th</td>
+          <td style="padding:8px;">{% if today > '2025-07-04' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Starbucks, Amazon, and Home Depot</strong></td>
+          <td style="padding:8px;">July 1-31</td>
+          <td style="padding:8px;">{% if today > '2025-07-31' %}✅{% endif %}</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Walmart, McDonald's, and Lowe's</strong></td>
+          <td style="padding:8px;">August 1-31</td>
+          <td style="padding:8px;">{% if today > '2025-08-31' %}✅{% endif %}</td>
+        </tr>
       </tbody>
     </table>
     <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
