@@ -80,17 +80,30 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 6. Filtering */
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
-    function render(list,lbl){
-      if(cluster) map.removeLayer(cluster);
-      cluster=L.markerClusterGroup({maxClusterRadius:40});
-      list.forEach(ev=>{
-        const pop=`<strong>${ev.title}</strong><br><em>${ev.location}</em><br>`+
-          `<em>${ev.begin===ev.end?ev.begin:`${ev.begin} – ${ev.end}`}</em>`;
-        cluster.addLayer(L.marker([ev.lat,ev.lng]).bindPopup(pop));
+    function render(list, lbl) {
+      if (cluster) map.removeLayer(cluster);
+      cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
+
+      list.forEach(ev => {
+        const dateStr = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
+        const linkList = (ev.links || [])
+          .map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`)
+          .join("");
+
+        const popup = `
+          <strong>${ev.title}</strong><br>
+          <em>${ev.location}</em><br>
+          <em>${dateStr}</em>
+          ${linkList ? `<ul style="padding-left:16px;margin:8px 0;">${linkList}</ul>` : ""}
+        `;
+
+        cluster.addLayer(L.marker([ev.lat, ev.lng]).bindPopup(popup));
       });
+
       map.addLayer(cluster);
-      badge.textContent=`Showing: ${lbl} — ${list.length} events`;
+      badge.textContent = `Showing: ${lbl} — ${list.length} event${list.length !== 1 ? "s" : ""}`;
     }
+
 
     function applyPreset(days){
       if(days === "all") return render(raw, labelOf("all"));
