@@ -643,6 +643,12 @@ body.reader-mode .share-buttons {
   display: none !important;
 }
 
+#date-filter-bar button:hover {
+  background:#e1e1e1;
+}
+#date-filter-bar button:active {
+  background:#ccc;
+}
 
 
 
