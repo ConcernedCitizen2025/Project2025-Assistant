@@ -93,6 +93,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
         </tr>
       </tbody>
     </table>
+    <h2>Companies to boycott that are linked to ICE:<strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. See the video to the right for more info.</h2>
     <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
   </div>
 
@@ -121,7 +122,6 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
         Your browser does not support the video tag.
       </video>
       <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        <h2>Companies to boycott that are linked to ICE:</h2> <strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. See the above video for more information.
         Video by <a href="https://www.instagram.com/reel/DLdDhQRyVAd/?igsh=MTM2dmg2amFocnNwdg%3D%3D" target="_blank">@micthagoodkid</a>. Originally posted on Instagram.
       </p>
     </div>
