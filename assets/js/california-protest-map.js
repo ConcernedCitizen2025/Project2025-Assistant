@@ -21,6 +21,7 @@ if (window.__P25A_MAP_LOADED__) {
     const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
     const today = new Date(utc - PST_OFFSET * 60000); // Convert to PT
     today.setHours(0, 0, 0, 0);
+    const yesterday = new Date(today.getTime() - ONE_DAY);
     const fmt = (d)=>d.toISOString().slice(0,10);
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
@@ -98,13 +99,13 @@ if (window.__P25A_MAP_LOADED__) {
 
     function applyPreset(days){
       if(days==="all") {
-        const filtered = raw.filter(ev => ev.lat != null && new Date(ev.end) >= today);
+        const filtered = raw.filter(ev => ev.lat != null && new Date(ev.end) >= yesterday);
         return render(filtered, labelOf("all"));
       }
       const cutoff = new Date(today.getTime() + (days - 1) * ONE_DAY);
       const filtered = raw.filter(ev => {
         const startDate = new Date(ev.begin);
-        return ev.lat != null && startDate >= today && startDate <= cutoff;
+        return ev.lat != null && startDate >= yesterday && startDate <= cutoff;
       });
       render(filtered, labelOf(days));
     }
