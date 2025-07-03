@@ -1,12 +1,12 @@
-// assets/js/california-protest-map.js — COMPLETE REWRITE
+// assets/js/california-protest-map.js — COMPLETE REWRITE
 // --------------------------------------------------------------------
-// Adds: date‑range filter bar (All/30/15/7/3/Today + Custom), live count
-// persistence via localStorage, robust duplicate‑avoidance, and virtual toggle.
+// Adds: date range filter bar (All/30/15/7/3/Today + Custom), live count
+// persistence via localStorage, robust duplicate avoidance, and virtual toggle.
 // --------------------------------------------------------------------
 
 /** 0) FIRE ONLY ONCE — guard against double injection (duplicate <script> tags) */
 if (window.__P25A_MAP_LOADED__) {
-  console.debug("california‑protest‑map.js: already initialized → skip");
+  console.debug("california protest map.js: already initialized → skip");
 } else {
   window.__P25A_MAP_LOADED__ = true;
   document.addEventListener("DOMContentLoaded", () => {
@@ -93,9 +93,16 @@ if (window.__P25A_MAP_LOADED__) {
     }
 
     function applyPreset(days){
-      if(days==="all") return render(raw,labelOf("all"));
-      const th=new Date(today.getTime()+days*ONE_DAY);
-      render(raw.filter(ev=>ev.lat!=null&&new Date(ev.begin)<=th&&new Date(ev.end)>=today),labelOf(days));
+      if(days==="all") {
+        const filtered = raw.filter(ev => ev.lat != null && new Date(ev.end) >= today);
+        return render(filtered, labelOf("all"));
+      }
+      const cutoff = new Date(today.getTime() + (days - 1) * ONE_DAY);
+      const filtered = raw.filter(ev => {
+        const endDate = new Date(ev.end);
+        return ev.lat != null && endDate >= today && endDate <= cutoff;
+      });
+      render(filtered, labelOf(days));
     }
 
     function openCustom(){
