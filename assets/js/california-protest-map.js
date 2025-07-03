@@ -99,8 +99,8 @@ if (window.__P25A_MAP_LOADED__) {
       }
       const cutoff = new Date(today.getTime() + (days - 1) * ONE_DAY);
       const filtered = raw.filter(ev => {
-        const endDate = new Date(ev.end);
-        return ev.lat != null && endDate >= today && endDate <= cutoff;
+        const startDate = new Date(ev.begin);
+        return ev.lat != null && startDate >= today && startDate <= cutoff;
       });
       render(filtered, labelOf(days));
     }
@@ -156,7 +156,7 @@ if (window.__P25A_MAP_LOADED__) {
           const dateLabel=ev.begin===ev.end?ev.begin:`${ev.begin} – ${ev.end}`;
           const href=ev.links?.[0]?.href||"#";
           li.innerHTML=`<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`+
-            (ev.location?` (<em>${ev.location}</em>)`:"");
+            (ev.location?` (<em>${ev.location}</em>)`:" ");
           li.style.padding="6px 0";
           list.appendChild(li);
         });
