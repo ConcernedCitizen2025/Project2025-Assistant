@@ -16,8 +16,12 @@ if (window.__P25A_MAP_LOADED__) {
 
     /* ---------------------------------------------------------------- 2. Helpers */
     const ONE_DAY = 86_400_000;
-    const today   = new Date(); today.setHours(0,0,0,0);
-    const fmt     = (d)=>d.toISOString().slice(0,10);
+    const PST_OFFSET = 420; // PST is UTC-8 (480), PDT is UTC-7 (420) in minutes
+    const now = new Date();
+    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const today = new Date(utc - PST_OFFSET * 60000); // Convert to PT
+    today.setHours(0, 0, 0, 0);
+    const fmt = (d)=>d.toISOString().slice(0,10);
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
     if (!window.p25aMap) {
