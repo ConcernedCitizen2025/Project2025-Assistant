@@ -149,7 +149,8 @@ if (window.__P25A_MAP_LOADED__) {
     fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
       .then(r=>r.json())
       .then(js=>{
-        const virtual=js.data||[];
+        let virtual=js.data||[];
+        virtual = virtual.filter(ev => new Date(ev.end || ev.begin) >= yesterday);
         if(!virtual.length) return;
         const btn=document.createElement("button");
         btn.textContent="Show Virtual Events";
