@@ -7,6 +7,9 @@ const fetch = require('node-fetch');
 const readJSON = file =>
   JSON.parse(fs.readFileSync(path.join(__dirname, file), 'utf8'));
 
+// Normalize “smart quotes” to plain ASCII quotes
+const normalizeQuotes = str => str.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"');
+
 // 1) load raw feeds
 const mRaw = readJSON('assets/data/mobilize_protests.json').events   || [];
 const zRaw = readJSON('assets/data/mobilizon_events.json').data      || [];
@@ -15,35 +18,38 @@ const pRaw = readJSON('assets/data/protest_events.json').data
 
 // 2) normalize into a single array
 const norm1 = ev => ({
-  title:    ev.title,
+  title:    normalizeQuotes(ev.title),
   begin:    ev.date,
   end:      ev.date,
   lat:      ev.lat,
   lng:      ev.lng,
-  location: ev.location,
-  links:    [{ title: ev.title, href: ev.link }]
+  location: normalizeQuotes(ev.location),
+  links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
 });
+
 const norm2 = ev => {
   const d = (ev.beginsOn || '').split('T')[0];
   return {
-    title:    ev.title,
+    title:    normalizeQuotes(ev.title),
     begin:    d,
     end:      d,
     lat:      ev.lat,
     lng:      ev.lng,
-    location: ev.location,
-    links:    [{ title: ev.title, href: ev.link }]
+    location: normalizeQuotes(ev.location),
+    links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
   };
 };
+
 const norm3 = ev => ({
-  title:    ev.title,
+  title:    normalizeQuotes(ev.title),
   begin:    ev.date,
   end:      ev.date,
   lat:      ev.lat  ?? ev.latitude,
   lng:      ev.lng  ?? ev.longitude,
-  location: ev.location,
-  links:    [{ title: ev.title, href: ev.link }]
+  location: normalizeQuotes(ev.location),
+  links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
 });
+
 
 const all = [
   ...mRaw.map(norm1),
