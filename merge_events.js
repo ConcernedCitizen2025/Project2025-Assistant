@@ -24,7 +24,7 @@ const norm1 = ev => ({
   lat:      ev.lat,
   lng:      ev.lng,
   location: normalizeQuotes(ev.location),
-  links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
+  links: [{ title: normalizeQuotes(ev.title), href: normalizeQuotes(ev.link) }]
 });
 
 const norm2 = ev => {
@@ -36,7 +36,7 @@ const norm2 = ev => {
     lat:      ev.lat,
     lng:      ev.lng,
     location: normalizeQuotes(ev.location),
-    links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
+    links: [{ title: normalizeQuotes(ev.title), href: normalizeQuotes(ev.link) }]
   };
 };
 
@@ -47,7 +47,7 @@ const norm3 = ev => ({
   lat:      ev.lat  ?? ev.latitude,
   lng:      ev.lng  ?? ev.longitude,
   location: normalizeQuotes(ev.location),
-  links:    [{ title: normalizeQuotes(ev.title), href: ev.link }]
+  links: [{ title: normalizeQuotes(ev.title), href: normalizeQuotes(ev.link) }]
 });
 
 
