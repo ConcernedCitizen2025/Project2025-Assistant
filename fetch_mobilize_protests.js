@@ -103,7 +103,7 @@ async function main() {
       ].filter(Boolean).join(", ");
       const text = (evt.title + " " + (evt.description || "")).toLowerCase();
 
-      const matchesKeyword = KEYWORDS.some(kw => text.includes(kw));
+      const isRecurring = (evt.timeslots?.length || 0) > 1;
 
       return {
         key:    `${evt.title}|${date}|${coords.latitude}|${coords.longitude}|${evt.browser_url}`,
@@ -113,8 +113,7 @@ async function main() {
         lat:    coords.latitude,
         lng:    coords.longitude,
         link:   evt.browser_url,
-        matchesKeyword,
-        keep:   !isStale(date) // ← only filter out old events now
+        keep:   (isRecurring || !isStale(date)) && KEYWORDS.some(kw => text.includes(kw))
       };
     })
     .filter(e => e.keep);
