@@ -99,16 +99,25 @@ if (window.__P25A_MAP_LOADED__) {
 
     function applyPreset(days){
       if(days==="all") {
-        const filtered = raw.filter(ev => ev.lat != null && new Date(ev.end) >= yesterday);
+        const filtered = raw.filter(ev => 
+          ev.lat != null && new Date(ev.end) >= yesterday
+        );
         return render(filtered, labelOf("all"));
       }
+
       const cutoff = new Date(today.getTime() + (days - 1) * ONE_DAY);
+      
       const filtered = raw.filter(ev => {
         const startDate = new Date(ev.begin);
-        return ev.lat != null && startDate >= yesterday && startDate <= cutoff;
+        const endDate   = new Date(ev.end);
+        return ev.lat != null &&
+              endDate >= yesterday &&   // event is still happening or upcoming
+              startDate <= cutoff;      // starts within the selected range
       });
+
       render(filtered, labelOf(days));
     }
+
 
     function openCustom(){
       const wrap=document.createElement("div");
