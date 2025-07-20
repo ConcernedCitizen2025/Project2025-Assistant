@@ -110,15 +110,19 @@ async function geocodeMissing(list) {
   const geo = all.filter(ev =>
     ev.lat != null &&
     ev.lng != null &&
-    ev.end >= today
+    (
+      !ev.end || ev.end >= today || ev.begin >= today
+    )
   );
+
   const virtual = all
     .filter(ev =>
       (ev.lat == null || ev.lng == null) &&
-      ev.end >= today
+      (
+        !ev.end || ev.end >= today || ev.begin >= today
+      )
     )
-    .sort((a, b) => a.begin.localeCompare(b.begin)
-  );
+    .sort((a, b) => a.begin.localeCompare(b.begin));
   console.log(`📊 Summary — Total: ${all.length}, Geo: ${geo.length}, Virtual: ${virtual.length}`);
 
 
