@@ -121,25 +121,38 @@ if (window.__P25A_MAP_LOADED__) {
 
     function openCustom(){
       const wrap=document.createElement("div");
-      Object.assign(wrap.style,{position:"fixed",inset:0,background:"rgba(0,0,0,.4)",display:"flex",alignItems:"center",justifyContent:"center",zIndex:9999});
-      wrap.innerHTML=`<div style=\"background:#fff;padding:20px;border-radius:8px;text-align:center\">
-        <h3 style=\"margin-top:0\">Custom Range</h3>
+      Object.assign(wrap.style,{
+        position:"fixed",inset:0,background:"rgba(0,0,0,.4)",
+        display:"flex",alignItems:"center",justifyContent:"center",zIndex:9999
+      });
+      wrap.innerHTML=`<div style="background:#fff;padding:20px;border-radius:8px;text-align:center">
+        <h3 style="margin-top:0">Custom Range</h3>
         <label>Start:<br><input type=date id=start></label><br><br>
         <label>End:<br><input type=date id=end></label><br><br>
         <button id=apply>Apply</button> <button id=cancel>Cancel</button></div>`;
       document.body.appendChild(wrap);
       wrap.querySelector("#start").value=fmt(today);
       wrap.querySelector("#end").value=fmt(today);
+
       wrap.querySelector("#apply").onclick=()=>{
         const s=new Date(wrap.querySelector("#start").value);
         const e=new Date(wrap.querySelector("#end").value);
-        const list=raw.filter(ev=>ev.lat!=null&&new Date(ev.begin)>=s&&new Date(ev.begin)<=e);
+
+        const list=raw.filter(ev=>{
+          if (ev.lat == null) return false;
+          const startDate = new Date(ev.begin);
+          const endDate   = new Date(ev.end);
+          return endDate >= yesterday && startDate <= e && endDate >= s;
+        });
+
         render(list,`${s.toLocaleDateString()} – ${e.toLocaleDateString()}`);
         localStorage.setItem("p25a-date-range","custom");
         wrap.remove();
       };
+
       wrap.querySelector("#cancel").onclick=()=>wrap.remove();
     }
+
 
     function initFilter(){
       uiBar.querySelectorAll("button").forEach(btn=>{
