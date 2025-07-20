@@ -56,28 +56,14 @@ async function fetchAll() {
         console.log(`Fetching (attempt ${attempt+1}): ${next}`)
         const res = await fetch(next)
         if (!res.ok) {
-          // only retry on 5xx
           if (res.status >= 500 && res.status < 600) {
             throw new Error(`Server error ${res.status}`)
           }
-          // for client errors, bail out immediately
           throw new Error(`Mobilize API error ${res.status}`)
         }
         const js = await res.json()
-        console.log('🗒️ payload keys:', Object.keys(js));
-        // and if you need more detail:
-        console.log(JSON.stringify(js, null,2));
-
         all.push(...(js.data || js.events || []))
-        // after you do `const js = await res.json()…`
-        console.log('Mobilize page meta:', js.meta)   // TEMP: inspect what the API returned
-
-        // Mobilize v1 returns `js.meta.next_cursor_url` when there’s more to fetch:
-        // pick up the Mobilize “next_cursor_url” field instead of next_page_url
-        next = js.next || null;
-
-        console.log('▶️ next page URL →', next)
-
+        next = js.next || null
         success = true
       } catch (err) {
         attempt++
@@ -87,9 +73,7 @@ async function fetchAll() {
           await new Promise(r => setTimeout(r, delay))
         } else {
           console.error(`❌  Giving up on ${next}: ${err.message}`)
-          // if we never succeeded on the first page, rethrow to abort
           if (!success && all.length === 0) throw err
-          // otherwise, just stop pagination
           next = null
           success = true
         }
@@ -103,7 +87,7 @@ async function main() {
   const raw = await fetchAll();
   console.log(`⚡️ Fetched ${raw.length} events total`);
 
-  // 4) Map + filter stale + keyword
+  // 4) Map + prune stale
   const mapped = raw
     .map(evt => {
       const slot = evt.timeslots?.[0] || {};
@@ -117,8 +101,9 @@ async function main() {
         loc.locality,
         loc.region
       ].filter(Boolean).join(", ");
-      // prepare searchable text
       const text = (evt.title + " " + (evt.description || "")).toLowerCase();
+
+      const matchesKeyword = KEYWORDS.some(kw => text.includes(kw));
 
       return {
         key:    `${evt.title}|${date}|${coords.latitude}|${coords.longitude}|${evt.browser_url}`,
@@ -128,12 +113,13 @@ async function main() {
         lat:    coords.latitude,
         lng:    coords.longitude,
         link:   evt.browser_url,
-        keep:   !isStale(date) && KEYWORDS.some(kw => text.includes(kw))
+        matchesKeyword,
+        keep:   !isStale(date) // ← only filter out old events now
       };
     })
     .filter(e => e.keep);
 
-  console.log(`⚡️ ${mapped.length} after pruning stale & keyword filter`);
+  console.log(`⚡️ ${mapped.length} after pruning stale`);
 
   // 5) Deduplicate
   const seen = new Set();
