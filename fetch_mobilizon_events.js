@@ -5,24 +5,53 @@ const path  = require('path');
 
 // your protest-related keywords (lowercase)
 const KEYWORDS = [
+  // Core civic terms
   "politics", "political", "federal politics", "state politics", "local politics",
-  "climate change", "canvass", "defend reproductive rights", "gun violence prevention",
-  "voting rights", "protest", "protests", "protesting", "rally", "rallies", "rallying",
-  "trump", "musk", "ice", "immigration", "detention", "fight", "law", "kick out the clowns",
-  "not a king", "no kings", "dems", "democrat", "democratic", "palestine", "genocide",
-  "checks and balances", "50501", "505001", "peaceful", "defend", "rights",
-  "accountability", "activism", "activist", "authoritarianism", "ban", "banned",
-  "campaign", "campaigns", "canvassing", "civil", "clown", "clowns", "democracy",
-  "demonstration", "demonstrations", "dictatorship", "door", "doors", "election",
-  "elections", "equality", "fascism", "freedom", "freedoms", "gotv", "human",
-  "impeach", "impeachment", "indivisible", "justice", "knock", "knocking", "labor",
-  "liberty", "lgbtq", "lgbtqia", "march", "mobilization", "mobilize", "movement",
-  "nocrownfortheclown", "nokings", "oligarchy", "organize", "organizer", "organizing",
-  "petition", "petitioning", "phonebank", "phonebanking", "pride", "progressive",
-  "progressives", "register", "registration", "resistance", "resist", "resists",
-  "resisttrump", "resisting", "solidarity", "townhall", "trans", "tyranny", "united",
-  "union", "voter", "voters", "voting", "vote", "womens", "abortion", "reproductive"
-];
+  "constitution", "constitutional", "checks and balances", "democracy", "dictatorship",
+  "authoritarianism", "tyranny", "oligarchy", "autocracy", "freedom", "liberty",
+
+  // Elections & voting
+  "vote", "voter", "voters", "voting", "election", "elections", "register", "registration",
+  "ballot", "ballots", "referendum", "initiative", "recall", "campaign", "campaigns", "canvass",
+  "canvassing", "gotv", "knock", "knocking", "door", "doors", "phonebank", "phonebanking",
+
+  // Activism terms
+  "protest", "protests", "protesting", "rally", "rallies", "rallying",
+  "march", "marching", "demonstration", "demonstrations", "sit-in", "die-in", "direct action",
+  "petition", "petitioning", "solidarity", "mutual aid", "organize", "organizer", "organizing",
+  "movement", "mobilization", "mobilize", "activism", "activist",
+
+  // Rights & justice
+  "human rights", "civil rights", "equal rights", "justice", "accountability",
+  "abortion", "pro-choice", "pro life", "reproductive", "bodily autonomy",
+  "lgbtq", "lgbtqia", "pride", "trans rights", "gay rights", "queer rights", "womens rights",
+  "labor", "union", "workers rights", "working families", "economic justice",
+
+  // Social & cultural flashpoints
+  "book ban", "drag ban", "censorship", "school board", "education", "curriculum", "library",
+  "racism", "antiracist", "diversity", "equity", "inclusion", "DEI",
+
+  // Anti-authoritarian slogans
+  "resist", "resistance", "resisting", "resisttrump", "nocrownfortheclown", "nokings",
+  "not a king", "no kings", "kick out the clowns", "orange clown", "trump", "maga",
+
+  // Public policy & crisis terms
+  "gun", "gun violence", "gun reform", "gun violence prevention", "school shooting",
+  "health", "healthcare", "mental health", "medicare", "medicaid", "insurance",
+  "environment", "environmental", "climate", "climate change", "green energy", "renewable",
+  "big oil", "pharma", "pharmaceutical", "coal", "pollution", "polluting",
+
+  // Hot-button issues
+  "immigration", "deportation", "detention", "ice", "border", "sanctuary",
+  "police reform", "defund police", "criminal justice", "mass incarceration",
+
+  // Popular hashtags/phrases
+  "#vote", "#resist", "#bansoffourbodies", "#protecttranskids", "#climateaction", "#defenddemocracy",
+
+  // Misc trending topics
+  "supreme court", "scotus", "gerrymandering", "voter suppression", "fake electors",
+  "project 2025", "insurrection", "coup", "authoritarian"
+].map(s => s.toLowerCase());
 
 
 // Mobilizon GraphQL endpoint (same as your instance’s /api) :contentReference[oaicite:1]{index=1}
