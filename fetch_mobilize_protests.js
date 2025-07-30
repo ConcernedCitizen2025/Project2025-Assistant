@@ -3,58 +3,51 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
 
-// Keywords for filtering
-const KEYWORDS = [
-  "politics", "political", "democracy", "election", "elections", "vote", "voter", "voting",
-  "protest", "protests", "rally", "rallies", "march", "marching", "demonstration", "resist",
-  "freedom", "justice", "rights", "activism", "activist", "union", "labor", "organize", "movement",
-  "climate", "climate change", "environment", "gun", "healthcare", "reproductive", "abortion",
-  "immigration", "ice", "deportation", "accountability", "authoritarian", "tyranny", "fascism",
-  "working families", "project 2025", "insurrection"
-].map(s => s.toLowerCase());
-
+// Helper for today’s date
 const todayStr = new Date().toISOString().slice(0, 10);
 function isStale(dateStr) {
-  return dateStr && dateStr < todayStr;
+  if (!dateStr) return false; // keep if no date (ongoing)
+  return dateStr < todayStr;
 }
 
-let url = "https://api.mobilize.us/v1/events?" +
-  new URLSearchParams({ timeslot_start: "gte_now", per_page: "100" }).toString();
+// Base URL for Mobilize API
+const BASE_URL = "https://api.mobilize.us/v1/events";
 
-async function fetchAll() {
-  const all = [];
-  let page = 1;
-  const MAX_PAGES = 200; // safety cap
-  const BASE_URL = "https://api.mobilize.us/v1/events";
-
-  while (page <= MAX_PAGES) {
-    const url = `${BASE_URL}?${new URLSearchParams({
+// Build initial query (page 1)
+function buildUrl(page = 1) {
+  return (
+    BASE_URL +
+    "?" +
+    new URLSearchParams({
       timeslot_start: "gte_now",
       per_page: "100",
       page: page.toString(),
-    })}`;
+    }).toString()
+  );
+}
 
+// Fetch all pages of events
+async function fetchAll() {
+  const all = [];
+  let page = 1;
+
+  while (true) {
+    const url = buildUrl(page);
     console.log(`Fetching page ${page}: ${url}`);
 
     const res = await fetch(url);
-
-    if (res.status === 404) {
-      console.log(`✅ No more pages after ${page - 1}. Total pages: ${page - 1}`);
-      break;
-    }
-
     if (!res.ok) throw new Error(`API error ${res.status}`);
 
     const js = await res.json();
     const events = js.data || js.events || [];
-
-    if (!events.length) {
-      console.log(`✅ No more events, stopping at page ${page}.`);
-      break;
-    }
-
     console.log(`➡️ Page ${page} returned ${events.length} events`);
+
+    if (!events.length) break;
+
     all.push(...events);
+
+    // Stop if fewer than 100 results (last page)
+    if (events.length < 100) break;
 
     page++;
   }
@@ -62,14 +55,13 @@ async function fetchAll() {
   return all;
 }
 
-
-
 async function main() {
   const raw = await fetchAll();
-  console.log(`⚡️ Fetched ${raw.length} events total`);
+  console.log(`⚡️ Fetched ${raw.length} raw Mobilize events`);
 
+  // Map & filter out stale events ONLY
   const mapped = raw
-    .map(evt => {
+    .map((evt) => {
       const slot = evt.timeslots?.[0] || {};
       const date = slot.start_date
         ? new Date(slot.start_date * 1000).toISOString().slice(0, 10)
@@ -79,43 +71,44 @@ async function main() {
       const address = [
         ...(loc.address_lines || []),
         loc.locality,
-        loc.region
-      ].filter(Boolean).join(", ");
-      const text = (evt.title + " " + (evt.description || "")).toLowerCase();
-      const isRecurring = (evt.timeslots?.length || 0) > 1;
+        loc.region,
+      ]
+        .filter(Boolean)
+        .join(", ");
 
       return {
-        key: `${evt.title}|${date}|${coords.latitude}|${coords.longitude}|${evt.browser_url}`,
         title: evt.title,
         date,
         location: address,
         lat: coords.latitude,
         lng: coords.longitude,
         link: evt.browser_url,
-        keep: (isRecurring || !isStale(date)) && KEYWORDS.some(kw => text.includes(kw))
       };
     })
-    .filter(e => e.keep);
+    .filter((e) => !isStale(e.date)); // keep only future or ongoing
 
-  console.log(`⚡️ ${mapped.length} after pruning stale`);
+  console.log(`⚡️ ${mapped.length} events after removing past dates`);
 
+  // Deduplicate
   const seen = new Set();
-  const unique = mapped.filter(e => {
-    if (seen.has(e.key)) return false;
-    seen.add(e.key);
+  const unique = mapped.filter((e) => {
+    const key = `${e.title}|${e.date}|${e.lat}|${e.lng}|${e.link}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
     return true;
   });
+  console.log(`⚡️ ${unique.length} events after dedupe`);
 
-  console.log(`⚡️ ${unique.length} after dedupe`);
-
-  const out = unique.map(({ key, keep, ...rest }) => rest);
+  // Write final JSON
+  const out = unique;
   const outPath = path.join(__dirname, "assets/data/mobilize_protests.json");
   fs.writeFileSync(outPath, JSON.stringify({ events: out }, null, 2), "utf8");
 
-  console.log(`✅ Written ${out.length} events to ${outPath}`);
+  const sizeKB = (fs.statSync(outPath).size / 1024).toFixed(1);
+  console.log(`✅ Written ${out.length} events (${sizeKB} KB) → ${outPath}`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
