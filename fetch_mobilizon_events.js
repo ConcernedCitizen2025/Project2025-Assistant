@@ -85,15 +85,20 @@ async function fetchMobilizon() {
         ? ev.url
         : `https://events.pol-rev.com/events/${ev.uuid}`;
 
+      // ✅ Convert to PT date instead of slicing ISO string
+      const begins = new Date(ev.beginsOn);
+      const date = begins.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
       return {
         title: ev.title,
-        date: ev.beginsOn.slice(0, 10),
+        date,
         location,
         lat,
         lng,
         link
       };
     });
+
 
     // Write final JSON
     const outPath = path.join(__dirname, 'assets/data/mobilizon_events.json');

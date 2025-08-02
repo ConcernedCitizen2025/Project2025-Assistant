@@ -64,7 +64,7 @@ async function main() {
     .map((evt) => {
       const slot = evt.timeslots?.[0] || {};
       const date = slot.start_date
-        ? new Date(slot.start_date * 1000).toISOString().slice(0, 10)
+        ? new Date(slot.start_date * 1000).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
         : null;
       const loc = evt.location || {};
       const coords = loc.location || {};
