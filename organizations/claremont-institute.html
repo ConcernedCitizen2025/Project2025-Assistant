@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claremont Institute</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+    <style>
+        /* General styling */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .share-buttons a img {
+            margin: 0 10px;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Hamburger menu */
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        /* Mobile view styles */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+        }
+
+        /* Hide hamburger on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/mask.jpg" alt="Mask Image" loading="eager">
+                        <img class="mask right" src="/assets/images/mask.jpg" alt="Mask Image" loading="eager">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons" style="display: flex; align-items: center; gap: 10px;">
+            <!-- Static Share Icon -->
+            <img src="/assets/images/share-icons/share.png" 
+                 alt="Share Icon" 
+                 title="Share" 
+                 style="width: 32px; height: 32px;">
+        
+            <!-- Social Media Buttons -->
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/organizations/claremont-institute" 
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://bsky.app" 
+               target="_blank" 
+               onclick="copyBlueskyShare('Claremont Institute', 'https://project2025assistant.org/organizations/claremont-institute');" 
+               title="Share to Bluesky">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/organizations/claremont-institute&text=Claremont Institute" 
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/organizations/claremont-institute&title=Claremont Institute" 
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+        </div>
+    </header>
+    
+    <!-- Back to Top Button -->
+    <div class="reader-show back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Google Search Bar-->
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
+        <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </div>
+
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
+        <div id="readAloudContainer">
+    <!-- Start button (initially visible) -->
+    <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
+    
+    <!-- Control panel (initially hidden) -->
+    <div id="readAloudControls" style="display:none; position: relative;">
+      <!-- Close button at the far right -->
+      <button id="closePanel" class="ra-button" title="Close Panel" style="float: right;">X</button>
+      <!-- Navigation Buttons -->
+      <button id="prevParagraph" class="ra-button" title="Previous">⏮</button>
+      <button id="playResume" class="ra-button" title="Play/Resume">►</button>
+      <button id="pause" class="ra-button" title="Pause">⏸</button>
+      <button id="stop" class="ra-button" title="Stop">⏹</button>
+      <button id="nextParagraph" class="ra-button" title="Next">⏭</button>
+      <span id="speedControls">
+        <button id="slow" class="ra-button" title="Slower">−</button>
+        <button id="normal" class="ra-button" title="Normal">Normal</button>
+        <button id="fast" class="ra-button" title="Faster">＋</button>
+      </span>
+      <!-- Reading Progress Bar -->
+      <div id="readingProgressContainer">
+        <div id="readingProgress"></div>
+      </div>
+      <!-- Buffering Progress Bar -->
+      <div id="bufferProgressContainer">
+        <div id="bufferProgress"></div>
+      </div>
+      <!-- Time remaining display -->
+      <div id="timeRemainingLabel">Time remaining: 00:00</div>
+      <!-- Buffer indicator spinner (optional) -->
+      <span id="bufferIndicator" title="Buffering">⏳</span>
+    </div>
+  </div>
+  
+    </div>
+
+    <main class="reader-show" id="mainContent">
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
+            <h1 id="claremont-institute">Claremont Institute</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The Claremont Institute, founded in 1979 by students of political theorist Harry V. Jaffa, is a conservative think tank based in Upland, California. The institute’s mission is to restore the principles of the American Founding to their rightful preeminent authority in national life. It focuses on teaching and promoting the philosophical foundations of limited government, statesmanship, natural rights, and the Constitution. The institute has gained significant influence in the conservative movement, particularly through its involvement in contemporary political and legal debates.</p>
+
+<h2 id="mission-and-activities">Mission and Activities</h2>
+<p>The Claremont Institute’s mission revolves around education, writing, and litigation to promote its conservative principles. Key activities include:</p>
+<ul>
+  <li><strong>Education:</strong> The institute runs several fellowship programs, including the Publius, Lincoln, John Marshall, and Speechwriters Fellowships, to train future conservative leaders in politics, law, media, and academia. These programs are central to its strategy of influencing the next generation of conservative thinkers and policymakers.</li>
+  <li><strong>Publications:</strong> It publishes the <em>Claremont Review of Books</em> and <em>The American Mind</em>, which engage with policy at the level of ideas and promote conservative thought. These publications have become important platforms for advancing the institute’s ideological perspectives.</li>
+  <li><strong>Litigation:</strong> Through the Center for Constitutional Jurisprudence, the institute engages in strategic constitutional litigation, filing briefs that advocate for the principles of the American Founding, often aligning with conservative legal interpretations.</li>
+</ul>
+
+<h2 id="leadership-and-influence">Leadership and Influence</h2>
+<ul>
+  <li><strong><a href="https://www.theguardian.com/us-news/2024/mar/11/claremont-institute-society-for-american-civic-renewal-links">Ryan Williams</a>:</strong> President of the Claremont Institute since 2017, Williams has directed the organization’s focus on contemporary conservative issues, particularly those aligned with Trump-era policies. His leadership has solidified Claremont’s position as a significant intellectual force in the conservative movement.</li>
+  <li><strong><a href="https://statesunited.org/resources/the-final-case/">John Eastman</a>:</strong> Senior Fellow and founding director of the Center for Constitutional Jurisprudence at Claremont, Eastman played a controversial role in advising former President Donald Trump during the 2020 election disputes. His legal theories about rejecting Electoral College votes have been highly scrutinized, contributing to efforts to overturn the election results, which has led to widespread criticism and legal challenges.</li>
+</ul>
+
+<h2 id="connections-to-trump">Connections to Trump</h2>
+<p>The Claremont Institute has been a strong supporter of Donald Trump, particularly in defending his policies and actions related to the 2020 election. The institute’s influence grew during Trump’s presidency, with several of its fellows, like John Eastman, playing central roles in the administration’s legal strategies. Claremont’s involvement in supporting Trump’s election challenges, including the controversial efforts led by Eastman, highlights its significant impact on Trump-era conservatism.</p>
+
+<h2 id="concerns">Concerns</h2>
+<ul>
+  <li><strong>Support for Election Disputes:</strong> The Claremont Institute’s backing of efforts to challenge the 2020 election results, particularly through John Eastman’s controversial legal advice, poses risks to the integrity of democratic processes. This involvement suggests a willingness to engage in strategies that may undermine public trust in electoral outcomes and democratic institutions.</li>
+  <li><strong>Ideological Shift:</strong> Under Trump’s influence, the Claremont Institute has shifted towards a more aggressive form of conservatism that some critics argue is at odds with its original mission of promoting the Founders’ principles. This shift has sparked debate within the conservative movement about the direction and legacy of the institute.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The Claremont Institute is a significant force in the conservative movement, promoting a return to what it views as the true principles of the American Founding. While its educational and publishing efforts contribute to conservative intellectual discourse, its controversial involvement in the 2020 election disputes raises critical questions about its impact on American democracy. Ongoing scrutiny of its activities and affiliations is essential to understand the broader implications of its influence.</p>
+
+<h2 id="sources">Sources</h2>
+<ul>
+  <li><a href="https://www.claremont.org">Claremont Institute</a></li>
+  <li><a href="https://www.historynewsnetwork.org/article/how-trumpism-changed-the-claremont-institute-and-v">History News Network - How Trumpism Changed the Claremont Institute</a></li>
+  <li><a href="https://newrepublic.com/article/163981/claremont-john-eastman-coup-memo">New Republic - Claremont Institute’s Defense of John Eastman’s Coup Memos</a></li>
+  <li><a href="https://www.vice.com/en/tag/claremont-institute/">Vice - Claremont Institute and Trump</a></li>
+  <li><a href="https://www.monitoringinfluence.org/org/claremont-institute/">Monitoring Influence - Claremont Institute</a></li>
+  <li><a href="https://www.theguardian.com/us-news/2024/mar/11/claremont-institute-society-for-american-civic-renewal-links">The Guardian - Revealed: US conservative thinktank’s links to extremist fraternal order</a></li>
+  <li><a href="https://statesunited.org/resources/the-final-case/">States United - The Final Case for John Eastman’s Disbarment</a></li>
+</ul>
+
+        </div>
+    </main>
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+    <!-- At the end of your body, include the scripts -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+    <script src="/assets/js/readAloud.js" defer></script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
+</body>
+</html>

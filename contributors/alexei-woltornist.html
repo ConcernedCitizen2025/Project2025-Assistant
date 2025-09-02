@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexei Woltornist</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <style>
+        /* Styling adjustments */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hamburger {
+            display: none;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            .hamburger {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+            <a href="/">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                    <div class="mask-container">
+                        <img class="mask left" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager"> 
+                        <img class="mask right" src="/assets/images/illuminating_logo.webp" alt="Illuminating Logo" loading="eager"> 
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons" style="display: flex; align-items: center; gap: 10px;">
+            <!-- Static Share Icon -->
+            <img src="/assets/images/share-icons/share.png" 
+                 alt="Share Icon" 
+                 title="Share" 
+                 style="width: 32px; height: 32px;">
+        
+            <!-- Social Media Buttons -->
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/contributors/alexei-woltornist.html" 
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://bsky.app" 
+               target="_blank" 
+               onclick="copyBlueskyShare('Alexei Woltornist', 'https://project2025assistant.org/contributors/alexei-woltornist.html');" 
+               title="Share to Bluesky">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/contributors/alexei-woltornist.html&text=Alexei Woltornist" 
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/contributors/alexei-woltornist.html&title=Alexei Woltornist" 
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+        </div>
+    </header>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <!-- Google Search Bar-->
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <!-- "always show" Google translate -->
+    <div class="translate-container" style="text-align:right; margin-bottom:1em;">
+        <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </div>
+
+    <!-- 1) Reader toggle button -->
+    <div class="reader-show" id="globalReaderToggleContainer">
+        <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+    </div>
+
+    <!-- 2) Read-aloud controls (hidden until you click) -->
+    <div class="reader-show" id="readAloudContainer" style="display:none;">
+        <div id="voicePickerContainer" style="margin:1em 0;">
+            <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+            <select id="voiceSelect"></select>
+        </div>
+        <div id="readAloudContainer">
+    <!-- Start button (initially visible) -->
+    <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
+    
+    <!-- Control panel (initially hidden) -->
+    <div id="readAloudControls" style="display:none; position: relative;">
+      <!-- Close button at the far right -->
+      <button id="closePanel" class="ra-button" title="Close Panel" style="float: right;">X</button>
+      <!-- Navigation Buttons -->
+      <button id="prevParagraph" class="ra-button" title="Previous">⏮</button>
+      <button id="playResume" class="ra-button" title="Play/Resume">►</button>
+      <button id="pause" class="ra-button" title="Pause">⏸</button>
+      <button id="stop" class="ra-button" title="Stop">⏹</button>
+      <button id="nextParagraph" class="ra-button" title="Next">⏭</button>
+      <span id="speedControls">
+        <button id="slow" class="ra-button" title="Slower">−</button>
+        <button id="normal" class="ra-button" title="Normal">Normal</button>
+        <button id="fast" class="ra-button" title="Faster">＋</button>
+      </span>
+      <!-- Reading Progress Bar -->
+      <div id="readingProgressContainer">
+        <div id="readingProgress"></div>
+      </div>
+      <!-- Buffering Progress Bar -->
+      <div id="bufferProgressContainer">
+        <div id="bufferProgress"></div>
+      </div>
+      <!-- Time remaining display -->
+      <div id="timeRemainingLabel">Time remaining: 00:00</div>
+      <!-- Buffer indicator spinner (optional) -->
+      <span id="bufferIndicator" title="Buffering">⏳</span>
+    </div>
+  </div>
+  
+    </div>
+
+    <main class="reader-show" id="mainContent">
+        <!-- Content to Read -->
+        <div class="content-wrapper" id="readableContent">
+            <h1 id="alexei-woltornist">Alexei Woltornist</h1>
+
+<p><strong>Role:</strong> Contributor</p>
+
+<p><strong>Position:</strong> Co-Founder, ATHOS</p>
+
+<p><strong>Background:</strong><br />
+Alexei Woltornist is a seasoned communications and public relations expert with a decade of experience advising non-profits, government leaders, and public figures. He is the co-founder of ATHOS, a public relations firm where he specializes in strategic communications, government relations, and media outreach. Prior to founding ATHOS, Woltornist served as the Assistant Secretary for Public Affairs at the U.S. Department of Homeland Security (DHS) under the Trump administration. In this role, he managed all outreach and media relations efforts for the department, directing a team of over 800 communications professionals. His responsibilities included overseeing strategic, incident, and internal communications, and serving as the principal communications advisor to the Secretary of Homeland Security. Woltornist was recognized with the Outstanding Service Medal from the Secretary of Homeland Security for his contributions during his tenure.</p>
+
+<p>Before his work at DHS, Woltornist was a spokesman at the U.S. Department of Justice, where he led communications efforts for the Antitrust Division and managed media engagement for high-profile investigations, including those involving Big Tech. He also served as the Communications Director for the Republican Study Committee in the U.S. House of Representatives, where he worked on advancing conservative policies under the chairmanship of Rep. Mark Walker.</p>
+
+<p><strong>Relation to Trump:</strong><br />
+Woltornist’s role as Assistant Secretary for Public Affairs at DHS placed him at the heart of the Trump administration’s communications strategy, where he was instrumental in shaping the public narrative on key national security issues. He played a significant role in managing the administration’s response to crises, such as hurricanes and cybersecurity breaches, and was a key figure in promoting the administration’s policies through conservative media outlets. His involvement with Project 2025 further cements his connection to Trump’s broader political agenda. In this initiative, Woltornist has been featured in training videos advising future political appointees on effectively communicating with the public and media, specifically encouraging engagement with conservative media channels to reach their audience.</p>
+
+<p><strong>Scandals or Controversies:</strong><br />
+Woltornist has not been directly involved in any significant scandals. However, his communications strategies, particularly those that focus on circumventing mainstream media in favor of conservative outlets, have been a point of contention. Critics argue that this approach reinforces echo chambers and limits public discourse to more ideologically aligned channels.</p>
+
+<p><strong>Potential Concerns:</strong><br />
+Woltornist’s strong alignment with conservative media strategies and his advisory role in Project 2025 raise concerns about the potential for biased communication tactics in future conservative administrations. His focus on steering public discourse through selective media engagement could further polarize the political landscape.</p>
+
+<h3 id="sources">Sources</h3>
+<ul>
+  <li><a href="https://athospr.com/teammember/alexei-woltornist/">ATHOS - Alexei Woltornist</a></li>
+  <li><a href="https://www.democracynow.org/2024/8/12/project_2025_training_videos_propublica_documented">Democracy Now! - Leaked Project 2025 Training Videos</a></li>
+  <li><a href="https://spt.franciscan.edu/voices/alexei-woltornist/">Franciscan University - Voices of Franciscan</a></li>
+  <li><a href="https://www.dhs.gov/archive/person/alexei-woltornist">DHS - Alexei Woltornist</a></li>
+</ul>
+
+        </div>
+    </main>
+
+    <!-- ■ READ-ALOUD + TOGGLE SCRIPT INITS -->
+    <script src="/assets/js/reader-toggle.js"></script>
+    <script src="/assets/js/readAloud.js"></script>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+            const backToTop = document.getElementById('backToTop');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            // Reset nav when resizing
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+    <!-- At the end of your body, include the scripts -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+    <script src="/assets/js/readAloud.js" defer></script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,654 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Basic responsive Flexbox setup for the header navigation */
+nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap on smaller screens */
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+/*nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}*/
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Logo Container Styles */
+.logo-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden; /* Ensures the masks are hidden when moved out of view */
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 1.5s ease; /* Adjust the animation speed here */
+}
+
+.mask.left {
+    transform: translateX(0);
+}
+
+.mask.right {
+    transform: translateX(0);
+}
+
+.mask-container:hover .mask.left {
+    transform: translateX(-100%); /* Move mask left out of the view */
+}
+
+.mask-container:hover .mask.right {
+    transform: translateX(100%); /* Move mask right out of the view */
+}
+
+/* List and Column Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    white-space: normal; /* Allow wrapping */
+    overflow: visible; /* Show all content */
+    text-overflow: clip; /* Prevent ellipsis */
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+/* Article Container Styles (for content-heavy pages) */
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.article-container h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.article-container p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.article-container h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.article-container p {
+    padding-left: 2em;
+    text-indent: -1em;
+}
+
+/* Content Wrapper (general-purpose for centering content) */
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Specific Layout Styles */
+/* Use classes to target specific layouts when needed */
+
+.organization-layout .article-container,
+.author-layout .article-container,
+.contributor-layout .article-container,
+.editor-layout .article-container,
+.project2025-section-layout .article-container {
+    /* Apply specific styles to all content-heavy layout pages */
+}
+
+.advisory-board-layout .columns {
+    /* Specific styles for the advisory board layout */
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+/* Common styles for content-heavy layout pages */
+
+.content-layout .article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.content-layout .article-container h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.content-layout .article-container p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.content-layout .article-container h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.content-layout .article-container p {
+    padding-left: 2em;
+    text-indent: -1em;
+}
+
+.content-layout .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Link Styles */
+a {
+    color: blue; /* Blue for unvisited links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+    color: rgb(120, 0, 150); /* Gray for visited links */
+}
+
+/* Ensure the links in the gray bar remain white on all pages */
+nav ul li a {
+    color: white !important;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0 !important; /* Optional: Slightly lighter on hover */
+}
+
+/* Increase line-height for better readability in text blocks */
+p, li, .content {
+    line-height: 1.6;
+}
+
+#google_translate_element {
+    float: right; /* Adjust as needed */
+    margin-top: 10px;
+}
+
+/* Logo styling */
+.logo-container {
+    background-color: transparent; /* Ensures the container has no background */
+}
+
+.logo {
+    background-color: transparent; /* Removes any background on the image */
+    border-radius: 50%; /* Optional: Makes sure the image appears as a circle */
+}
+
+a.logo-link {
+    background-color: transparent;
+}
+
+/* Share button styling */
+.share-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*.share-buttons p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}*/
+
+.share-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.share-buttons a img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.share-buttons a:hover img {
+    transform: scale(1.1);
+}
+
+.translate-share-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;  /* Ensures that the image does not overflow its container */
+    height: auto;     /* Maintains the aspect ratio */
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    /* Logo scaling */
+    .logo {
+        max-width: 80%; /* Adjust as needed */
+        height: auto;
+    }
+
+    /* Social media buttons */
+    .share-buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .share-buttons a {
+        margin: 0 5px; /* Space between buttons */
+    }
+
+    /* Hamburger menu */
+    nav ul {
+        display: none; /* Hide the regular menu */
+    }
+
+    nav .hamburger {
+        display: block; /* Show hamburger icon */
+        text-align: center;
+        cursor: pointer;
+    }
+
+    /* Show menu when hamburger is clicked */
+    nav ul.show {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Default desktop styles */
+@media (min-width: 769px) {
+    /* Ensure the regular menu shows on larger screens */
+    nav ul {
+        display: inline-block;
+    }
+
+    nav .hamburger {
+        display: none;
+    }
+
+    .share-buttons {
+        display: flex;
+        justify-content: center;
+    }
+}
+.gcse-search {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/*.home-page .header-container {
+    margin-bottom: 10px; /* Reduce this value to shrink the gap */
+/*} */
+
+.home-page .main-container {
+    margin-top: -20px; /* Adjust as needed to fine-tune the spacing */
+}
+
+.home-page .header-container {
+    margin-bottom: -20px; /* Eliminate extra space after the header */
+    padding-bottom: 0px; /* Remove padding if any */
+}
+
+.home-page main {
+    margin-top: 0px; /* Remove unnecessary space at the top of main content */
+    padding-top: 0px; /* Adjust padding if applicable */
+}
+
+.home-page .content-wrapper {
+    margin-top: 0px; /* Ensure there's no gap at the top of the content wrapper */
+    padding-top: 0px; /* Remove any padding */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+#search-bar {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-results {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#search-results div {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#search-results div:hover {
+    background: #f1f1f1;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #005bb5;
+}
+
+#search-results {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Read Aloud Control Styles */
+#readAloudContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    background: #f9f9f9;
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  .ra-button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  #speedControls {
+    margin-left: 20px;
+  }
+  .ra-button:hover {
+    background: #eee;
+  }
+  /* Buffer indicator styling */
+  #bufferIndicator {
+    font-size: 18px;
+    margin-left: 10px;
+}
+  
+/* Fixed control panel */
+.fixedControlPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f9f9f9;
+    z-index: 1000;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Buffer indicator spinner */
+  #bufferIndicator {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Keyframes for spinning animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fixed control panel styling */
+.fixedControlPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f9f9f9;
+    z-index: 1000;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Progress bar containers */
+  #readingProgressContainer, #bufferProgressContainer {
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  /* Reading progress bar */
+  #readingProgress {
+    background: #76c7c0;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+  }
+  
+  /* Buffering progress bar */
+  #bufferProgress {
+    background: #f1c40f;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+  }
+  
+  /* Time remaining label */
+  #timeRemainingLabel {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Style for the close button */
+  #closePanel {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+.stop-marker {
+    color: transparent; /* Makes text invisible */
+    user-select: none; /* Prevents users from selecting it */
+}
+.virtual-toggle-btn {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 24px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.virtual-toggle-btn:hover {
+  background-color: #e04343;
+}
+#virtual-events {
+  list-style: disc inside;
+  margin: 8px 20px 20px;
+  font-size: 0.95rem;
+}
+#bufferIndicator {
+  display: inline-block;
+  animation: none;
+}
+#bufferIndicator.spinning {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+
+/* 1) when reader-mode is on… */
+body.reader-mode > * {
+  display: none !important;
+}
+
+/* 2) …except any element tagged `.reader-show` */
+body.reader-mode > .reader-show {
+  display: block !important;
+}
+
+/* 3) make sure your text flows nicely */
+body.reader-mode {
+  background: #fff;
+}
+body.reader-mode #mainContent {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.6;
+  color: #222;
+  font-family: Georgia, serif;
+}
+
+/* in your main stylesheet */
+.reader-mode header,
+.reader-mode footer,
+.reader-mode .site-sidebar {
+  display: none !important;
+}
+
+/* in your main stylesheet */
+body.reader-mode .hide-in-reader {
+  display: none !important;
+}
+
+/* tighten up your text container too */
+body.reader-mode main#readableContent {
+  max-width: 700px;
+  margin: 2em auto;
+  line-height: 1.6;
+  padding: 0 1em;
+}
+
+/* hide global nav, footer, sidebars, etc. */
+body.reader-mode header,
+body.reader-mode nav,
+body.reader-mode footer,
+body.reader-mode .share-buttons {
+  display: none !important;
+}
+
+#date-filter-bar button:hover {
+  background:#e1e1e1;
+}
+#date-filter-bar button:active {
+  background:#ccc;
+}
+
+
+

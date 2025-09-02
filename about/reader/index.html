@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Reader – About</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 700px;
+      margin: 2em auto;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+      padding: 0 1em;
+    }
+    h1,h2,h3,h4 { margin-top:1.2em; }
+    a { color:#006; text-decoration:underline; }
+    #readAloudControls { margin:1em 0; }
+    .ra-button { margin:0 4px; }
+    #readingProgressContainer,
+    #bufferProgressContainer {
+      width:100%; height:8px;
+      background:#eee; margin:8px 0;
+    }
+    #readingProgress { width:0; height:100%; background:#0073e6; }
+    #bufferProgress  { width:0; height:100%; background:#ccc; }
+    /* spinning hourglass */
+    #bufferIndicator.spinning {
+      display:inline-block;
+      animation:spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform:rotate(360deg) } }
+  </style>
+</head>
+<body>
+
+  <!-- Reader Toggle Button -->
+  <p style="text-align:right;">
+    <button id="globalReaderToggle"
+        style="background:#0073e6;
+               color:#fff;
+               padding:8px 12px;
+               border-radius:4px;
+               border:none;
+               cursor:pointer;">
+  Reader View
+</button>
+
+
+  </p>
+
+  <!-- Google Translate widget -->
+  <div style="text-align:right; margin-bottom:1em;">
+    <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </div>
+
+  <!-- Voice picker (must have this id) -->
+  <div id="voicePickerContainer" style="margin:1em 0;">
+    <label for="voiceSelect" style="font-weight:bold;">Voice:</label>
+    <select id="voiceSelect"></select>
+  </div>
+
+  <!-- Read-aloud controls (inside this container) -->
+  <div id="readAloudContainer">
+    <div id="readAloudContainer">
+    <!-- Start button (initially visible) -->
+    <button id="startReadAloud" class="ra-button" title="Start Read Aloud">► Start Read Aloud</button>
+    
+    <!-- Control panel (initially hidden) -->
+    <div id="readAloudControls" style="display:none; position: relative;">
+      <!-- Close button at the far right -->
+      <button id="closePanel" class="ra-button" title="Close Panel" style="float: right;">X</button>
+      <!-- Navigation Buttons -->
+      <button id="prevParagraph" class="ra-button" title="Previous">⏮</button>
+      <button id="playResume" class="ra-button" title="Play/Resume">►</button>
+      <button id="pause" class="ra-button" title="Pause">⏸</button>
+      <button id="stop" class="ra-button" title="Stop">⏹</button>
+      <button id="nextParagraph" class="ra-button" title="Next">⏭</button>
+      <span id="speedControls">
+        <button id="slow" class="ra-button" title="Slower">−</button>
+        <button id="normal" class="ra-button" title="Normal">Normal</button>
+        <button id="fast" class="ra-button" title="Faster">＋</button>
+      </span>
+      <!-- Reading Progress Bar -->
+      <div id="readingProgressContainer">
+        <div id="readingProgress"></div>
+      </div>
+      <!-- Buffering Progress Bar -->
+      <div id="bufferProgressContainer">
+        <div id="bufferProgress"></div>
+      </div>
+      <!-- Time remaining display -->
+      <div id="timeRemainingLabel">Time remaining: 00:00</div>
+      <!-- Buffer indicator spinner (optional) -->
+      <span id="bufferIndicator" title="Buffering">⏳</span>
+    </div>
+  </div>
+  
+  </div>
+
+  <!-- Your page’s content, stripped of images, etc. -->
+  <main id="readableContent">
+    
+    
+    
+      <p><strong>Error:</strong> couldn’t find content for <code>/about</code></p>
+    
+  </main>
+
+  <!-- Reader & toggle scripts -->
+  <script src="/assets/js/reader-toggle.js"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=aJFrbqeA"></script>
+  <script src="/assets/js/readAloud.js"></script>
+</body>
+</html>

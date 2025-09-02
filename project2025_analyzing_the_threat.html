@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2025: Analyzing the Threat</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Favicon and related icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+
+    <!-- Custom mobile styling -->
+    <style>
+        /* Base styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center the content with proper spacing */
+        .content-wrapper {
+            max-width: 900px; /* Ensures the content doesn’t get too wide */
+            margin: 0 auto; /* Centers the content horizontally */
+            padding: 5px 5px; /* Adds padding on the sides */
+        }
+
+        /* Adjust text layout and prevent word breaking */
+        .content-wrapper {
+            word-wrap: break-word; /* Ensures proper word wrapping */
+            overflow-wrap: break-word; /* Prevents word overflow */
+            hyphens: auto; /* Enables hyphenation for long words */
+            text-align: left; /* Default alignment */
+        }
+
+        /* Handling spaces between words to avoid breaks */
+        .content-wrapper h3, .content-wrapper h4, .content-wrapper p {
+            white-space: normal; /* Prevents unnecessary word spacing */
+            word-spacing: 0; /* Reset word spacing */
+            line-height: 1.5; /* Improves readability */
+        }
+
+        /* Hide hamburger by default */
+        .hamburger {
+            display: none;
+        }
+
+        /* Nav Links Horizontal for Desktop */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Mobile styles */
+        @media screen and (max-width: 768px) {
+            .logo-container .logo {
+                max-width: 100%; /* Full width for small devices */
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .hamburger {
+            display: block;
+            font-size: 30px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px auto;
+        }
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container" style="text-align: center;">
+            <a href="/">
+                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/threat_logo.webp" alt="ATT Logo" loading="eager"> 
+                    <img class="mask right" src="/assets/images/threat_logo.webp" alt="ATT Logo" loading="eager"> 
+                </div>
+            </a>
+        </div>
+        
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons" style="display: flex; align-items: center; gap: 10px;">
+            <!-- Static Share Icon -->
+            <img src="/assets/images/share-icons/share.png" 
+                 alt="Share Icon" 
+                 title="Share" 
+                 style="width: 32px; height: 32px;">
+        
+            <!-- Social Media Buttons -->
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/project2025_analyzing_the_threat.html" 
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://bsky.app" 
+               target="_blank" 
+               onclick="copyBlueskyShare('Project 2025: Analyzing the Threat', 'https://project2025assistant.org/project2025_analyzing_the_threat.html');" 
+               title="Share to Bluesky">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/project2025_analyzing_the_threat.html&text=Project 2025: Analyzing the Threat" 
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/project2025_analyzing_the_threat.html&title=Project 2025: Analyzing the Threat" 
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+        </div>
+ 
+    </header>
+
+    <main>
+        <div style="text-align: center; margin: 20px 0;">
+            <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+            <div class="gcse-search"></div>
+        </div>
+
+        <div class="translate-container">
+            <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        </div>
+        <div class="content-wrapper">
+            <h1 id="project-2025-analyzing-the-threat">Project 2025: <em>Analyzing the Threat</em></h1>
+
+<blockquote>
+  <h3 id="foreword-a-promise-to-america"><a href="/sections/foreword-a-promise-to-america.html">Foreword: A Promise to America</a></h3>
+  <h4 id="kevin-d-roberts-phd"><em><a href="/authors/kevin-d-roberts-phd.html">Kevin D. Roberts, PhD</a></em></h4>
+</blockquote>
+
+<h2 id="section-1-taking-the-reins-of-government">Section 1: <a href="/sections/taking-the-reins-of-government.html">Taking the Reins of Government</a></h2>
+
+<blockquote>
+  <h3 id="1-white-house-office"><a href="/sections/white-house-office.html">1. White House Office</a></h3>
+  <h4 id="rick-dearborn"><em><a href="/authors/rick-dearborn.html">Rick Dearborn</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="2-executive-office-of-the-president-of-the-united-states"><a href="/sections/executive-office-of-the-president.html">2. Executive Office of the President of the United States</a></h3>
+  <h4 id="russ-vought"><em><a href="/authors/russ-vought.html">Russ Vought</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="3-central-personnel-agencies-managing-the-bureaucracy"><a href="/sections/central-personnel-agencies.html">3. Central Personnel Agencies: Managing the Bureaucracy</a></h3>
+  <h4 id="donald-devine-dennis-dean-kirk-and-paul-dans"><em><a href="/authors/donald-devine.html">Donald Devine</a></em>, <em><a href="/authors/dennis-dean-kirk.html">Dennis Dean Kirk</a></em>, and <em><a href="/editors/paul-dans.html">Paul Dans</a></em></h4>
+</blockquote>
+
+<h2 id="section-2-the-common-defense">Section 2: <a href="/sections/the-common-defense.html">The Common Defense</a></h2>
+
+<blockquote>
+  <h3 id="4-department-of-defense"><a href="/sections/department-of-defense.html">4. Department of Defense</a></h3>
+  <h4 id="christopher-miller"><em><a href="/authors/christopher-miller.html">Christopher Miller</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="5-department-of-homeland-security"><a href="/sections/department-of-homeland-security.html">5. Department of Homeland Security</a></h3>
+  <h4 id="ken-cuccinelli"><em><a href="/authors/ken-cuccinelli.html">Ken Cuccinelli</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="6-department-of-state"><a href="/sections/department-of-state.html">6. Department of State</a></h3>
+  <h4 id="kiron-k-skinner"><em><a href="/authors/kiron-k-skinner.html">Kiron K. Skinner</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="7-intelligence-community"><a href="/sections/intelligence-community.html">7. Intelligence Community</a></h3>
+  <h4 id="dustin-j-carmack"><em><a href="/authors/dustin-j-carmack.html">Dustin J. Carmack</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="8-media-agencies">8. Media Agencies:</h3>
+  <blockquote>
+    <h4 id="us-agency-for-global-media"><a href="/sections/us-agency-for-global-media.html">U.S. Agency for Global Media</a></h4>
+    <h4 id="mora-namdar"><em><a href="/authors/mora-namdar.html">Mora Namdar</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <h4 id="corporation-for-public-broadcasting"><a href="/sections/corporation-for-public-broadcasting.html">Corporation for Public Broadcasting</a></h4>
+    <h4 id="mike-gonzalez"><em><a href="/contributors/mike-gonzalez.html">Mike Gonzalez</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <h3 id="9-agency-for-international-development"><a href="/sections/agency-for-international-development.html">9. Agency for International Development</a></h3>
+  <h4 id="max-primorac"><em><a href="/authors/max-primorac.html">Max Primorac</a></em></h4>
+</blockquote>
+
+<h2 id="section-3-the-general-welfare">Section 3: <a href="/sections/the-general-welfare.html">The General Welfare</a></h2>
+
+<blockquote>
+  <h3 id="10-department-of-agriculture"><a href="/sections/department-of-agriculture.html">10. Department of Agriculture</a></h3>
+  <h4 id="daren-bakst"><em><a href="/authors/daren-bakst.html">Daren Bakst</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="11-department-of-education"><a href="/sections/department-of-education.html">11. Department of Education</a></h3>
+  <h4 id="lindsey-m-burke"><em><a href="/authors/lindsey-m-burke.html">Lindsey M. Burke</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="12-department-of-energy-and-related-commissions"><a href="/sections/department-of-energy-and-related-commissions.html">12. Department of Energy and Related Commissions</a></h3>
+  <h4 id="bernard-l-mcnamee"><em><a href="/authors/bernard-l-mcnamee.html">Bernard L. McNamee</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="13-environmental-protection-agency"><a href="/sections/environmental-protection-agency.html">13. Environmental Protection Agency</a></h3>
+  <h4 id="mandy-m-gunasekara"><em><a href="/authors/mandy-m-gunasekara.html">Mandy M. Gunasekara</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="14-department-of-health-and-human-services"><a href="/sections/department-of-health-and-human-services.html">14. Department of Health and Human Services</a></h3>
+  <h4 id="roger-severino"><em><a href="/authors/roger-severino.html">Roger Severino</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="15-department-of-housing-and-urban-development"><a href="/sections/department-of-housing-and-urban-development.html">15. Department of Housing and Urban Development</a></h3>
+  <h4 id="benjamin-s-carson-sr-md"><em><a href="/authors/benjamin-s-carson-sr-md.html">Benjamin S. Carson, Sr., MD</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="16-department-of-the-interior"><a href="/sections/department-of-the-interior.html">16. Department of the Interior</a></h3>
+  <h4 id="william-perry-pendley"><em><a href="/authors/william-perry-pendley.html">William Perry Pendley</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="17-department-of-justice"><a href="/sections/department-of-justice.html">17. Department of Justice</a></h3>
+  <h4 id="gene-hamilton"><em><a href="/authors/gene-hamilton.html">Gene Hamilton</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="18-department-of-labor-and-related-agencies"><a href="/sections/department-of-labor-and-related-agencies.html">18. Department of Labor and Related Agencies</a></h3>
+  <h4 id="jonathan-berry"><em><a href="/authors/jonathan-berry.html">Jonathan Berry</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="19-department-of-transportation"><a href="/sections/department-of-transportation.html">19. Department of Transportation</a></h3>
+  <h4 id="diana-furchtgott-roth"><em><a href="/authors/diana-furchtgott-roth.html">Diana Furchtgott-Roth</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="20-department-of-veterans-affairs"><a href="/sections/department-of-veterans-affairs.html">20. Department of Veterans Affairs</a></h3>
+  <h4 id="brooks-d-tucker"><em><a href="/authors/brooks-d-tucker.html">Brooks D. Tucker</a></em></h4>
+</blockquote>
+
+<h2 id="section-4-the-economy">Section 4: <a href="/sections/the-economy.html">The Economy</a></h2>
+
+<blockquote>
+  <h3 id="21-department-of-commerce"><a href="/sections/department-of-commerce.html">21. Department of Commerce</a></h3>
+  <h4 id="thomas-f-gilman"><em><a href="/authors/thomas-f-gilman.html">Thomas F. Gilman</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="22-department-of-the-treasury"><a href="/sections/department-of-the-treasury.html">22. Department of the Treasury</a></h3>
+  <h4 id="william-l-walton-stephen-moore-and-david-r-burton"><em><a href="/authors/william-l-walton.html">William L. Walton</a></em>, <em><a href="/authors/stephen-moore.html">Stephen Moore</a></em>, and <em><a href="/authors/david-r-burton.html">David R. Burton</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="23-exportimport-bank">23. Export–Import Bank:</h3>
+  <blockquote>
+    <h4 id="the-exportimport-bank-should-be-abolished"><a href="/sections/export-import-bank-abolish.html">The Export–Import Bank Should Be Abolished</a></h4>
+    <h4 id="veronique-de-rugy"><em><a href="/authors/veronique-de-rugy.html">Veronique de Rugy</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <h4 id="the-case-for-the-exportimport-bank"><a href="/sections/export-import-bank-case.html">The Case for the Export–Import Bank</a></h4>
+    <h4 id="jennifer-hazelton"><em><a href="/authors/jennifer-hazelton.html">Jennifer Hazelton</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <h3 id="24-federal-reserve"><a href="/sections/federal-reserve.html">24. Federal Reserve</a></h3>
+  <h4 id="paul-winfree"><em><a href="/authors/paul-winfree.html">Paul Winfree</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="25-small-business-administration"><a href="/sections/small-business-administration.html">25. Small Business Administration</a></h3>
+  <h4 id="karen-kerrigan"><em><a href="/authors/karen-kerrigan.html">Karen Kerrigan</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="26-trade">26. Trade:</h3>
+  <blockquote>
+    <h4 id="the-case-for-fair-trade"><a href="/sections/trade-fair-trade.html">The Case for Fair Trade</a></h4>
+    <h4 id="peter-navarro"><em><a href="/authors/peter-navarro.html">Peter Navarro</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <h4 id="the-case-for-free-trade"><a href="/sections/trade-free-trade.html">The Case for Free Trade</a></h4>
+    <h4 id="kent-lassman"><em><a href="/authors/kent-lassman.html">Kent Lassman</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<h2 id="section-5-independent-regulatory-agencies">Section 5: <a href="/sections/independent-regulatory-agencies.html">Independent Regulatory Agencies</a></h2>
+
+<blockquote>
+  <h3 id="27-financial-regulatory-agencies">27. Financial Regulatory Agencies:</h3>
+  <blockquote>
+    <h4 id="securities-and-exchange-commission-and-related-agencies"><a href="/sections/financial-regulatory-agencies-sec.html">Securities and Exchange Commission and Related Agencies</a></h4>
+    <h4 id="david-r-burton"><em><a href="/authors/david-r-burton.html">David R. Burton</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <h4 id="consumer-financial-protection-bureau"><a href="/sections/financial-regulatory-agencies-cfpb.html">Consumer Financial Protection Bureau</a></h4>
+    <h4 id="robert-bowes"><em><a href="/contributors/robert-bowes.html">Robert Bowes</a></em></h4>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <h3 id="28-federal-communications-commission"><a href="/sections/federal-communications-commission.html">28. Federal Communications Commission</a></h3>
+  <h4 id="brendan-carr"><em><a href="/authors/brendan-carr.html">Brendan Carr</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="29-federal-election-commission"><a href="/sections/federal-election-commission.html">29. Federal Election Commission</a></h3>
+  <h4 id="hans-a-von-spakovsky"><em><a href="/authors/hans-a-von-spakovsky.html">Hans A. von Spakovsky</a></em></h4>
+</blockquote>
+
+<blockquote>
+  <h3 id="30-federal-trade-commission"><a href="/sections/federal-trade-commission.html">30. Federal Trade Commission</a></h3>
+  <h4 id="adam-candeub"><em><a href="/authors/adam-candeub.html">Adam Candeub</a></em></h4>
+</blockquote>
+
+<h2 id="onward"><a href="/sections/onward.html">Onward!</a></h2>
+<blockquote>
+  <h4 id="edwin-j-feulner"><em><a href="/authors/edwin-j-feulner-phd.html">Edwin J. Feulner</a></em></h4>
+</blockquote>
+
+<hr />
+
+<h3 id="sources">Sources:</h3>
+<ul>
+  <li>Project 2025. (2024). <em>Mandate for leadership: The conservative promise</em>. The Heritage Foundation.</li>
+  <li>Trump v. United States, 23-939, 600 U.S. ___ (2024).</li>
+</ul>
+
+<hr />
+
+<h3 id="want-to-dive-deeper">Want to dive deeper?</h3>
+<ul>
+  <li>Download the complete <em>“Mandate for Leadership: The Conservative Promise”</em> from <a href="https://www.project2025.org/playbook/">Project 2025’s official site</a>.</li>
+  <li>Download the <a href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf&amp;ved=2ahUKEwjSpLaIwZSIAxWdQzABHdzvIOIQFnoECCAQAQ&amp;usg=AOvVaw3HuY7eG54ooFvHOx3vdtxI">Supreme Court Immunity Ruling</a>.</li>
+</ul>
+
+        </div>
+    </main>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+    
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+    </footer>
+
+    <!-- Hamburger Menu and Back to Top Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('showing');
+                navMenu.classList.toggle('showing');
+            });
+
+            // Back to Top functionality
+            backToTop.addEventListener('click', function() {
+                document.documentElement.scrollTop = 0; // For modern browsers
+                document.body.scrollTop = 0; // For Safari
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
+</body>
+</html>

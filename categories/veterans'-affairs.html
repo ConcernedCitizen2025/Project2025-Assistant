@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterans' Affairs</title>
+    <!-- Dynamic Meta Description -->
+    
+
+    <!-- Dynamic Meta Keywords -->
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo-container {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .logo-container img {
+            width: 300px; /* Restored to the original size for desktop view */
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff !important;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+        }
+
+        main {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            width: 100%;
+        }
+
+        h1, h2 {
+            color: #444;
+        }
+
+        /* Specific styles for the questions */
+        .faq ul, .faq ol {
+            margin-left: 0;
+            padding-left: 0;
+            list-style-position: inside;
+            text-align: left;
+        }
+
+        .faq li {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .faq p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* Social media buttons */
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-buttons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Back to Top Button with Logo */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-to-top img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Responsive styles for mobile */
+        @media (max-width: 768px) {
+            /*.logo-container img {
+                width: 200px; /* Properly sized for mobile view */
+                /*margin: 0 auto;
+            }*/
+
+            .logo-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .hamburger {
+                display: block;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px auto;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul.showing {
+                display: flex;
+            }
+
+            .share-buttons {
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+        /* Hide hamburger menu on desktop */
+        @media (min-width: 769px) {
+            .hamburger {
+                display: none;
+            }
+        }
+
+    </style>
+    <!-- CSS Styling -->
+    <style>
+        /* Default for desktop */
+        .vote-logo {
+            width: 125px;
+            height: auto;
+        }
+
+        /* For mobile (screens smaller than 768px) */
+        @media only screen and (max-width: 768px) {
+            .vote-logo {
+                width: 70px;
+            }
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
+    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B4NGY0TYJ6');
+</script>
+    <script src="/assets/js/share-bluesky-script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/">
+                <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="lazy">
+                <div class="mask-container">
+                    <img class="mask left" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager"> 
+                    <img class="mask right" src="/assets/images/faq_logo.webp" alt="FAQ Logo" loading="eager">
+                </div>
+            </a>
+        </div>
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger">&#9776; Menu</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/toc.html">Table of Contents</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Social Media Icons -->
+        <div class="share-buttons" style="display: flex; align-items: center; gap: 10px;">
+            <!-- Static Share Icon -->
+            <img src="/assets/images/share-icons/share.png" 
+                 alt="Share Icon" 
+                 title="Share" 
+                 style="width: 32px; height: 32px;">
+        
+            <!-- Social Media Buttons -->
+            <a href="https://www.facebook.com/sharer.php?u=https://project2025assistant.org/categories/veterans'-affairs.html" 
+               onclick="gtag('event', 'facebook_share', { 'event_category': 'social_share', 'event_label': 'Facebook Share'});" 
+               target="_blank" 
+               title="Share to Facebook">
+                <img src="/assets/images/share-icons/facebook.webp" alt="Share on Facebook" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://bsky.app" 
+               target="_blank" 
+               onclick="copyBlueskyShare('Veterans&#39; Affairs', 'https://project2025assistant.org/categories/veterans&#39;-affairs.html');" 
+               title="Share to Bluesky">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Share on Bluesky" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://twitter.com/share?url=https://project2025assistant.org/categories/veterans'-affairs.html&text=Veterans' Affairs" 
+               onclick="gtag('event', 'twitter_share', { 'event_category': 'social_share', 'event_label': 'Twitter Share'});" 
+               target="_blank" 
+               title="Share to Twitter">
+                <img src="/assets/images/share-icons/twittertrans.png" alt="Share on Twitter" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?url=https://project2025assistant.org/categories/veterans'-affairs.html&title=Veterans' Affairs" 
+               onclick="gtag('event', 'linkedin_share', { 'event_category': 'social_share', 'event_label': 'LinkedIn Share'});" 
+               target="_blank" 
+               title="Share to LinkedIn">
+                <img src="/assets/images/share-icons/linkedin.webp" alt="Share on LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+        </div>
+    </header>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <script async src="https://cse.google.com/cse.js?cx=31f47f78ef92a4137"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <div class="translate-container">
+        <div id="google_translate_element"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,es,zh-CN,zh-TW,tl,vi,ar,fr,ko,ru,pt,ht,hi,de,pl,it,ur,fa,te,ja,gu,bn,ta,pa,th,sr,hy,el,km,yo,am,nl,ne,uk,sw,ml',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </div>
+    <main>
+        <div class="faq">
+            <h1 id="veterans-affairs">Veterans’ Affairs</h1>
+
+<h2 id="questions">Questions</h2>
+
+<ul>
+  <li><a href="/questions/038-veterans-benefits-support-services.html">What are the proposed changes to veterans’ benefits and support services?</a></li>
+</ul>
+
+        </div>
+    </main>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Protest Signs Logo -->
+        <div style="text-align: center;">
+            <a href="/signs">
+            <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to browse and download free printable protest signs.</p>
+        </div>
+
+        <!-- Find Protest Map Logo -->
+        <div style="text-align: center;">
+            <a href="/protests">
+            <img src="/assets/images/smallerIcons/find_protest.jpg" alt="Find a Protest Near You" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+            <p style="margin-top: 10px; font-size: 0.95em;">Click to explore upcoming protests and events near you.</p>
+        </div>
+    </div>
+    <!-- Include the cookie consent banner -->
+    <div id="cookie-consent-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background-color: #000; color: #fff; padding: 15px; text-align: center; display: none;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="/privacy-policy" style="color: #fff; text-decoration: underline;">Learn more</a>
+    <button id="accept-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #28a745; color: #fff; border: none; cursor: pointer;">Accept Tracking</button>
+    <button id="reject-cookies" style="margin-left: 15px; padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; cursor: pointer;">Reject (Anonymous Count Only)</button>
+</div>
+
+
+    <!-- Include the cookie consent script -->
+    <script  defer src="/assets/js/cookie-consent-script.js"></script>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <img src="/assets/images/arrow.webp" alt="Back to Top" loading="lazy">
+    </div>
+
+    <footer style="display: flex; justify-content: center; align-items: center; background-color: #333; padding: 10px; flex-direction: column;">
+        <!-- Bluesky Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <a href="https://bsky.app/profile/project2025assistant.org" target="_blank">
+                <img src="/assets/images/share-icons/bluesky.png" alt="Follow us on Bluesky" loading="lazy" style="width: 40px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 12px; font-size: 20px;">Follow Us on Bluesky!</span>
+        </div>
+        
+        <!-- Twitter Follow button with icon and text side by side -->
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <a href="https://twitter.com/Project2025Asst" target="_blank">
+                <img src="/assets/images/share-icons/twitter_bw.webp" alt="Follow us on Twitter" loading="lazy" style="width: 30px; height: auto;">
+            </a>
+            <span style="color: white; margin-left: 8px; font-size: 16px;">Follow Us on Twitter!</span>
+        </div>
+        
+        <!-- Contact section -->
+        <div style="color: white; margin-bottom: 10px;">
+            <a href="mailto:contact@project2025assistant.org" style="color: #4da6ff; text-decoration: underline; margin-right: 10px;">Contact Us:</a>
+            
+            <span id="copy-email" 
+                onclick="copyEmail()" 
+                style="cursor: pointer; color: rgb(173, 173, 173); text-decoration: underline; user-select: none;">
+                contact@project2025assistant.org
+            </span>
+            <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
+        </div>
+
+
+        <!-- Copyright and privacy policy in the center -->
+        <div style="text-align: center; color: white;">
+            <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li><a href="/privacy-policy.html" style="color: rgb(173, 173, 173); text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+            <br><br>
+        </div>
+        <!--Goes in Footer-Credit for Text to Speech-->
+        <div><a href="https://responsivevoice.org">ResponsiveVoice-NonCommercial</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img title="ResponsiveVoice Text To Speech" src="https://responsivevoice.org/wp-content/uploads/2014/08/95x15.png" alt="95x15" width="95" height="15" /></a></div>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const logoContainers = document.querySelectorAll(".logo-container");
+            const backToTop = document.getElementById('backToTop');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            // Simulate the back button action to clear the hash from the URL and go back in history
+            backToTop.addEventListener('click', function() {
+                console.log("Back to Top Button clicked");
+
+                // Perform a history "back" action if there is a hash
+                if (window.location.hash) {
+                    window.history.back();  // Go back one step in history
+                } else {
+                    // If no hash, scroll to the top
+                    document.documentElement.scrollTop = 0;  // For modern browsers
+                    document.body.scrollTop = 0;  // For Safari
+                }
+            });
+
+            // Hamburger menu functionality
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('showing');
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    navMenu.classList.remove('showing');
+                }
+            });
+
+            logoContainers.forEach(function(logoContainer) {
+                const leftMask = logoContainer.querySelector(".mask.left");
+                const rightMask = logoContainer.querySelector(".mask.right");
+
+                logoContainer.addEventListener("mouseover", function() {
+                    leftMask.style.transform = "translateX(-100%)";
+                    rightMask.style.transform = "translateX(100%)";
+                });
+
+                logoContainer.addEventListener("mouseout", function() {
+                    leftMask.style.transform = "translateX(0)";
+                    rightMask.style.transform = "translateX(0)";
+                });
+            });
+        });
+    </script>
+    <script>
+    function copyEmail() {
+        const email = "contact@project2025assistant.org";
+        navigator.clipboard.writeText(email).then(() => {
+            const msg = document.getElementById("copy-msg");
+            msg.style.display = "inline";
+            setTimeout(() => msg.style.display = "none", 1500);
+        });
+    }
+    </script>
+
+</body>
+</html>
