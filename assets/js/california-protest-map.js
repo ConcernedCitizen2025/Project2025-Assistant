@@ -23,6 +23,9 @@ if (window.__P25A_MAP_LOADED__) {
     today.setHours(0, 0, 0, 0);
     const yesterday = new Date(today.getTime() - ONE_DAY);
     const fmt = (d)=>d.toISOString().slice(0,10);
+    const todayStr = fmt(today);
+    const yesterdayStr = fmt(yesterday);
+
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
     if (!window.p25aMap) {
@@ -99,20 +102,18 @@ if (window.__P25A_MAP_LOADED__) {
 
     function applyPreset(days){
       if(days==="all") {
-        const filtered = raw.filter(ev => 
-          ev.lat != null && new Date(ev.end) >= yesterday
+        const filtered = raw.filter(ev =>
+          ev.lat != null && ev.lng != null &&
+          ((ev.end || ev.begin) >= yesterdayStr)
         );
         return render(filtered, labelOf("all"));
       }
 
-      const cutoff = new Date(today.getTime() + (days - 1) * ONE_DAY);
-      
+      const cutoffStr = fmt(new Date(today.getTime() + (days - 1) * ONE_DAY));
       const filtered = raw.filter(ev => {
-        const startDate = new Date(ev.begin);
-        const endDate   = new Date(ev.end);
-        return ev.lat != null &&
-              endDate >= yesterday &&   // event is still happening or upcoming
-              startDate <= cutoff;      // starts within the selected range
+        if (ev.lat == null || ev.lng == null) return false;
+        const b = ev.begin, e = ev.end || ev.begin;
+        return e >= yesterdayStr && b <= cutoffStr;
       });
 
       render(filtered, labelOf(days));
@@ -172,7 +173,7 @@ if (window.__P25A_MAP_LOADED__) {
       .then(r=>r.json())
       .then(js=>{
         let virtual=js.data||[];
-        virtual = virtual.filter(ev => new Date(ev.end || ev.begin) >= yesterday);
+        virtual = virtual.filter(ev => (ev.end || ev.begin) >= yesterdayStr);
         if(!virtual.length) return;
         const btn=document.createElement("button");
         btn.textContent="Show Virtual Events";
@@ -199,7 +200,16 @@ if (window.__P25A_MAP_LOADED__) {
 
     /* ---------------------------------------------------------------- 8. Metadata timestamp */
     fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
-      .then(r=>r.ok?r.json():null)
-      .then(d=>{if(!d) return; const el=document.getElementById("map-last-updated"); if(el) el.textContent=`Map last updated: ${d.lastUpdated}`;});
+      .then(r => r.ok ? r.json() : null)
+      .then(d => {
+        if (!d) return;
+        const wrap = document.getElementById('map-last-updated');
+        if (!wrap) return;
+        // Prefer the existing <em>…</em> slot; fall back to setting whole text if not found
+        const slot = wrap.querySelector('em');
+        if (slot) slot.textContent = d.lastUpdated;
+        else wrap.textContent = `Last updated: ${d.lastUpdated}`;
+      })
+      .catch(() => {});
   });
 }
