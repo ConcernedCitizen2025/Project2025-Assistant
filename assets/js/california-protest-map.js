@@ -164,8 +164,10 @@ if (window.__P25A_MAP_LOADED__) {
           applyPreset(v==="all"?"all":parseInt(v,10));
         };
       });
-      const saved=localStorage.getItem("p25a-date-range")||"all";
-      applyPreset(saved==="all"?"all":saved==="custom"?"all":parseInt(saved,10));
+      // Default to ALL unless user explicitly picked a preset (ignore "custom" at first load)
+      const saved = localStorage.getItem("p25a-date-range");
+      const initial = (!saved || saved === "custom") ? "all" : saved;
+      applyPreset(initial === "all" ? "all" : parseInt(initial, 10));
     }
 
     /* ---------------------------------------------------------------- 7. Virtual Events Toggle */
