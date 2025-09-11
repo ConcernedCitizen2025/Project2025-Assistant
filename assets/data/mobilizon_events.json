@@ -169,6 +169,14 @@
       "link": "https://events.pol-rev.com/events/8f630035-4fa1-44b9-9019-18600f4edea1"
     },
     {
+      "title": "NO KINGS Sioux Falls",
+      "date": "2025-10-18",
+      "location": "Sioux Falls, South Dakota, United States of America, Sioux Falls",
+      "lat": 43.5476008,
+      "lng": -96.7293629,
+      "link": "https://events.pol-rev.com/events/685fde06-ffda-4a71-8342-62d988575267"
+    },
+    {
       "title": "No Kings 2.0",
       "date": "2025-10-18",
       "location": "Harbor Island Entrance, Mamaroneck",
@@ -225,6 +233,30 @@
       "link": "https://events.pol-rev.com/events/386dac95-724c-45b7-821c-895243985462"
     },
     {
+      "title": "No Kings in Park County",
+      "date": "2025-10-18",
+      "location": "Cody City Park, Cody, Wyoming, United States of America, Cody",
+      "lat": 44.5254898,
+      "lng": -109.0688009,
+      "link": "https://events.pol-rev.com/events/94fc195e-d6d0-4e20-bc64-389f8b7f0f55"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Humboldt County Law Library, I Street, Eureka, CA 95502, United States of America, Eureka",
+      "lat": 40.8027324,
+      "lng": -124.1624717,
+      "link": "https://events.pol-rev.com/events/d06d210e-1c69-4f20-8af3-2a15fc4cff99"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Humboldt County courthouse",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/a1979b4f-ee28-4a8b-bdf1-3b1329d8061d"
+    },
+    {
       "title": "No Kings Around the Bay",
       "date": "2025-10-18",
       "location": "Bay Trail, Eureka, CA 95537, United States of America, Eureka",
@@ -233,11 +265,11 @@
       "link": "https://events.pol-rev.com/events/c7d1be80-642a-40bb-b15c-c41b4266d65f"
     },
     {
-      "title": "No Kings Around the Bay!",
+      "title": "No Kings March:  Co-op to the Courthouse!",
       "date": "2025-10-18",
-      "location": "Bay Trail, Eureka, CA 95537, United States of America, Eureka and Arcata",
-      "lat": 40.7505082,
-      "lng": -124.1986086,
+      "location": "North Coast Co-op, 25 4th Street, Eureka, CA 95501, United States of America, Eureka",
+      "lat": 40.8025186,
+      "lng": -124.1713106,
       "link": "https://events.pol-rev.com/events/40016f7c-3c50-48d4-93b0-f8c2b7121c43"
     },
     {
@@ -247,6 +279,14 @@
       "lat": 44.83441732341872,
       "lng": -93.60179901123048,
       "link": "https://events.pol-rev.com/events/3ecaef65-9dc0-456b-b75b-77d87b38ffc4"
+    },
+    {
+      "title": "NO KINGS Rapid City",
+      "date": "2025-10-18",
+      "location": "City/School Administration Center, 300 6th Street, Rapid City, SD 57701, United States of America, Rapid City",
+      "lat": 44.0827127,
+      "lng": -103.2256403,
+      "link": "https://events.pol-rev.com/events/1210f993-38ef-4f2e-8d77-3071f0a1f204"
     },
     {
       "title": "No Kings Troy",
@@ -287,6 +327,14 @@
       "lat": 38.4416517,
       "lng": -105.2358142,
       "link": "https://events.pol-rev.com/events/29425182-b6fd-4dd4-8972-64d0d218707f"
+    },
+    {
+      "title": "NO KINGS Pierre",
+      "date": "2025-10-18",
+      "location": "Pierre, South Dakota, United States of America, Pierre",
+      "lat": 44.3683644,
+      "lng": -100.351136,
+      "link": "https://events.pol-rev.com/events/56a9dc05-9e8e-4fd7-8398-0d5d2518063d"
     },
     {
       "title": "NO KINGS",
@@ -921,6 +969,14 @@
       "link": "https://events.pol-rev.com/events/3da165d2-f60d-4856-a6d7-feff8dd78873"
     },
     {
+      "title": "Sign Holding at Tyngsboro Bridge",
+      "date": "2025-09-20",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/73df268a-956c-473d-a2bd-f595cfdc5e28"
+    },
+    {
       "title": "\"People Over Billionaires\"",
       "date": "2025-09-20",
       "location": "2120 Main Street, Fort Myers, FL 33901, United States of America, Fort Myers",
@@ -1191,30 +1247,6 @@
       "lat": 33.4708979,
       "lng": -112.073198,
       "link": "https://events.pol-rev.com/events/bee3af12-26b2-47a7-a15e-db516fe8b019"
-    },
-    {
-      "title": "Hands Off Beverly Weekly Wednesday Protest",
-      "date": "2025-09-10",
-      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
-      "lat": 42.5488363,
-      "lng": -70.8778836,
-      "link": "https://events.pol-rev.com/events/b073a26c-d630-47b8-91dd-99dce293da63"
-    },
-    {
-      "title": "RhRR @ Moon Valley in North Central Phoenix",
-      "date": "2025-09-10",
-      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
-      "lat": 33.6261453,
-      "lng": -112.0663766,
-      "link": "https://events.pol-rev.com/events/192804ce-32ef-4eca-9239-551df51503e7"
-    },
-    {
-      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-      "date": "2025-09-10",
-      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
-      "lat": 33.4974465,
-      "lng": -112.0838942,
-      "link": "https://events.pol-rev.com/events/4c4f0836-bea3-41d1-8784-679ca6f7a5ac"
     }
   ]
 }
