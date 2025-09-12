@@ -79,9 +79,16 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 5. Data fetch */
     let raw=[]; let cluster;
     fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-      .then(r=>r.json())
-      .then(js=>{raw=js.data||[]; initFilter();})
-      .catch(e=>console.error("merged_events.json fetch",e));
+      .then(r => r.json())
+      .then(js => {
+        raw = js.data || [];
+        // ⬇️ TEMP: ignore date filters; render everything with coords
+        const allGeo = raw.filter(e => e.lat != null && e.lng != null);
+        render(allGeo, 'All Geocoded (debug)');
+        // initFilter(); // ← leave this commented for this test
+      })
+      .catch(e => console.error("merged_events.json fetch", e));
+
 
     /* ---------------------------------------------------------------- 6. Filtering */
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
