@@ -3,12 +3,12 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
 
-// Helper for today’s date
-const todayStr = new Date().toISOString().slice(0, 10);
-function isStale(dateStr) {
-  if (!dateStr) return false; // keep if no date (ongoing)
-  return dateStr < todayStr;
-}
+// Helper for today’s date in PACIFIC time (YYYY-MM-DD)
+const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
+// (Optional cleanup) we don't filter here anymore; merge/map handles dates
+// function isStale(dateStr) { ... }  // ← you can delete the old isStale function
+
 
 // Base URL for Mobilize API
 const BASE_URL = "https://api.mobilize.us/v1/events";
@@ -92,7 +92,9 @@ async function main() {
     };
   });
 
-  console.log(`⚡️ ${mapped.length} events after removing past dates`);
+  const futureCount = mapped.filter(e => e.date && e.date >= todayStr).length;
+  console.log(`ℹ️ Mobilize mapped: total=${mapped.length}, future>=${todayStr}=${futureCount}`);
+
 
   // Deduplicate
   const seen = new Set();
