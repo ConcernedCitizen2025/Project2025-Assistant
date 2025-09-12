@@ -166,6 +166,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Big Bend Protest",
+      "begin": "",
+      "end": "",
+      "lat": null,
+      "lng": null,
+      "location": "Bonnie Bayardi",
+      "links": [
+        {
+          "title": "Big Bend Protest",
+          "href": "https://events.pol-rev.com/events/94a7de48-def6-40f4-b652-b3e7c8ebc07d"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Sign Up to Volunteer!",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -211,21 +226,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Voter Protection Partner Meeting",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Voter Protection Partner Meeting",
-          "href": "https://www.mobilize.us/organizetn/event/595101/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Learn More about Michigan Voices",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -236,21 +236,6 @@
         {
           "title": "Learn More about Michigan Voices",
           "href": "https://www.mobilize.us/mivoices/event/608186/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "PPT & T4APA! Research Committee",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "PPT & T4APA! Research Committee",
-          "href": "https://www.mobilize.us/ppt/event/715326/"
         }
       ],
       "state": "OTHER"
@@ -346,21 +331,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Access the Vote Florida",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Access the Vote Florida",
-          "href": "https://www.mobilize.us/rev-up-aapd/event/765661/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Spanberger for Governor Statewide Virtual Phonebank",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -416,96 +386,6 @@
         {
           "title": "Phone Bank for Abigail Spanberger for VA!",
           "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/774353/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Postcards: Support Democrats in 2025 elections!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Postcards: Support Democrats in 2025 elections!",
-          "href": "https://www.mobilize.us/activateamerica/event/775279/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Postcards for California: Vote Yes on Redistricting to Save Democracy",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Postcards for California: Vote Yes on Redistricting to Save Democracy",
-          "href": "https://www.mobilize.us/activateamerica/event/777101/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Postcards for Pennsylvania's Supreme Court election 2025",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Postcards for Pennsylvania's Supreme Court election 2025",
-          "href": "https://www.mobilize.us/activateamerica/event/777104/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "DFL War Room Daily Call to Action!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "DFL War Room Daily Call to Action!",
-          "href": "https://www.mobilize.us/dfl/event/781250/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Take Action: Vote-by-Mail Phonebank",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Take Action: Vote-by-Mail Phonebank",
-          "href": "https://www.mobilize.us/duvalcountydec/event/782741/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "TAKE ACTION: Contact your Representatives about Trump's Agenda!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "TAKE ACTION: Contact your Representatives about Trump's Agenda!",
-          "href": "https://www.mobilize.us/msdemocrats/event/791504/"
         }
       ],
       "state": "OTHER"
@@ -601,36 +481,6 @@
       "state": "OTHER"
     },
     {
-      "title": "PENNSYLVANIA - Virtual - Cecile's Leaders Weekly Office Hours!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "PENNSYLVANIA - Virtual - Cecile's Leaders Weekly Office Hours!",
-          "href": "https://www.mobilize.us/supermajority/event/815135/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Vote by Mail Re-Enrollment Phone Bank",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Vote by Mail Re-Enrollment Phone Bank",
-          "href": "https://www.mobilize.us/volusiadems/event/815260/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "John Lewis \"Good Trouble\" Teach-In: The Racial Injustice of Gun Violence",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -656,51 +506,6 @@
         {
           "title": "Save Colbert and Freedom of the Press",
           "href": "https://www.mobilize.us/americawrite/event/816560/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "How to Knock Doors",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "How to Knock Doors",
-          "href": "https://www.mobilize.us/spanbergerforgovernor/event/818235/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "GAE-Retired Informational Meeting--open to all GAE-Retired members",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "GAE-Retired Informational Meeting--open to all GAE-Retired members",
-          "href": "https://www.mobilize.us/gae/event/819731/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "LIVESTREAM: EcoMadres 2nd Annual Summit: From Heat to Hope",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "LIVESTREAM: EcoMadres 2nd Annual Summit: From Heat to Hope",
-          "href": "https://www.mobilize.us/momscleanairforce/event/820590/"
         }
       ],
       "state": "OTHER"
@@ -811,21 +616,6 @@
       "state": "OTHER"
     },
     {
-      "title": "The Black Possibilities App",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "The Black Possibilities App",
-          "href": "https://www.mobilize.us/imagineblack/event/825889/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Remote Phone Bank with Team Aftyn!",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -856,21 +646,6 @@
       "state": "OTHER"
     },
     {
-      "title": "EPA Coal Ash Hearing on Proposed Rollbacks",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "EPA Coal Ash Hearing on Proposed Rollbacks",
-          "href": "https://www.mobilize.us/jtnwi/event/828155/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Make Deep Canvassing Calls to Young People!",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -881,21 +656,6 @@
         {
           "title": "Make Deep Canvassing Calls to Young People!",
           "href": "https://www.mobilize.us/nextgen/event/829145/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "JOIN THE DALLAS CHAPTER OF CAT LADIES FOR AMERICA!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "JOIN THE DALLAS CHAPTER OF CAT LADIES FOR AMERICA!",
-          "href": "https://www.mobilize.us/catladiesforamerica/event/829669/"
         }
       ],
       "state": "OTHER"
@@ -946,49 +706,6 @@
       "state": "OTHER"
     },
     {
-      "title": "DC demands federal forces OUT NOW",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "DC demands federal forces OUT NOW",
-          "href": "https://www.mobilize.us/oepindivisible/event/830838/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "location": "This event's address is private. Sign up for more details, ME",
-      "links": [
-        {
-          "title": "Cover a public event (farmers' market, etc) for Graham!",
-          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "state": "ME"
-    },
-    {
-      "title": "Kristen for Mayor",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Kristen for Mayor",
-          "href": "https://www.mobilize.us/miamibeachdems/event/831441/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Tackling Voter Registration & Education",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -1019,21 +736,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Voter Education Forum with Minnesota Secretary of State Steve Simon",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Voter Education Forum with Minnesota Secretary of State Steve Simon",
-          "href": "https://www.mobilize.us/rev-up-aapd/event/832210/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Volunteer with Project 26 PA @ Pitt!",
       "begin": "2025-09-12",
       "end": "2025-09-12",
@@ -1044,36 +746,6 @@
         {
           "title": "Volunteer with Project 26 PA @ Pitt!",
           "href": "https://www.mobilize.us/p26/event/832813/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Let's Talk Teams: Friday Open Office Hours",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Let's Talk Teams: Friday Open Office Hours",
-          "href": "https://www.mobilize.us/honestyforohioeducation/event/834761/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Phone Bank for Dixie",
-      "begin": "2025-09-12",
-      "end": "2025-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Phone Bank for Dixie",
-          "href": "https://www.mobilize.us/vincentdixiefortennessee/event/836066/"
         }
       ],
       "state": "OTHER"
@@ -1134,6 +806,36 @@
         {
           "title": "MeckDems Board of Education District 1 Candidate Forum",
           "href": "https://www.mobilize.us/mecklenburgcountydems/event/842326/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Request a Yard Sign!",
+      "begin": "2025-09-12",
+      "end": "2025-09-12",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Request a Yard Sign!",
+          "href": "https://www.mobilize.us/jolandajonesforcongress/event/843407/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Hughes For Everyone Canvassing",
+      "begin": "2025-09-12",
+      "end": "2025-09-12",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Hughes For Everyone Canvassing",
+          "href": "https://www.mobilize.us/Hughes for Everyone/event/843457/"
         }
       ],
       "state": "OTHER"
@@ -1289,6 +991,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Postcards: Support Democrats in 2025 elections!",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Postcards: Support Democrats in 2025 elections!",
+          "href": "https://www.mobilize.us/activateamerica/event/775279/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Sister District Portland+ & Friends Phonebank!",
       "begin": "2025-09-13",
       "end": "2025-09-13",
@@ -1314,6 +1031,51 @@
         {
           "title": "2025 Sister District & Partners National Phonebank!",
           "href": "https://www.mobilize.us/sisterdistrict/event/776575/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Postcards for California: Vote Yes on Redistricting to Save Democracy",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Postcards for California: Vote Yes on Redistricting to Save Democracy",
+          "href": "https://www.mobilize.us/activateamerica/event/777101/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Postcards for Pennsylvania's Supreme Court election 2025",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Postcards for Pennsylvania's Supreme Court election 2025",
+          "href": "https://www.mobilize.us/activateamerica/event/777104/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Take Action: Vote-by-Mail Phonebank",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Take Action: Vote-by-Mail Phonebank",
+          "href": "https://www.mobilize.us/duvalcountydec/event/782741/"
         }
       ],
       "state": "OTHER"
@@ -1469,6 +1231,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Vote by Mail Re-Enrollment Phone Bank",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Vote by Mail Re-Enrollment Phone Bank",
+          "href": "https://www.mobilize.us/volusiadems/event/815260/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Jesse Vogel Recurring Canvass Shifts",
       "begin": "2025-09-13",
       "end": "2025-09-13",
@@ -1525,6 +1302,21 @@
       "state": "PA"
     },
     {
+      "title": "The Black Possibilities App",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "The Black Possibilities App",
+          "href": "https://www.mobilize.us/imagineblack/event/825889/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Voter Protection Hotline Volunteer Training",
       "begin": "2025-09-13",
       "end": "2025-09-13",
@@ -1535,6 +1327,21 @@
         {
           "title": "Voter Protection Hotline Volunteer Training",
           "href": "https://www.mobilize.us/spanbergerforgovernor/event/827765/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "JOIN THE DALLAS CHAPTER OF CAT LADIES FOR AMERICA!",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "JOIN THE DALLAS CHAPTER OF CAT LADIES FOR AMERICA!",
+          "href": "https://www.mobilize.us/catladiesforamerica/event/829669/"
         }
       ],
       "state": "OTHER"
@@ -1555,6 +1362,34 @@
       "state": "OTHER"
     },
     {
+      "title": "DC demands federal forces OUT NOW",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "DC demands federal forces OUT NOW",
+          "href": "https://www.mobilize.us/oepindivisible/event/830838/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Cover a public event (farmers' market, etc) for Graham!",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "location": "This event's address is private. Sign up for more details, ME",
+      "links": [
+        {
+          "title": "Cover a public event (farmers' market, etc) for Graham!",
+          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
+        }
+      ],
+      "state": "ME"
+    },
+    {
       "title": "DCDP General Membership Meeting: Meet Mac Deford and Eduardo Curry",
       "begin": "2025-09-13",
       "end": "2025-09-13",
@@ -1565,6 +1400,21 @@
         {
           "title": "DCDP General Membership Meeting: Meet Mac Deford and Eduardo Curry",
           "href": "https://www.mobilize.us/dorchestercountydemocrats/event/830993/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Kristen for Mayor",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Kristen for Mayor",
+          "href": "https://www.mobilize.us/miamibeachdems/event/831441/"
         }
       ],
       "state": "OTHER"
@@ -1638,6 +1488,21 @@
         {
           "title": "GOTV Phonebank - Debra for Georgia!",
           "href": "https://www.mobilize.us/shigleyforgeorgia/event/835682/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Phone Bank for Dixie",
+      "begin": "2025-09-13",
+      "end": "2025-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Phone Bank for Dixie",
+          "href": "https://www.mobilize.us/vincentdixiefortennessee/event/836066/"
         }
       ],
       "state": "OTHER"
@@ -1718,7 +1583,7 @@
       "state": "OTHER"
     },
     {
-      "title": "Saturday Phone Bank ~ Rush For NJ LD1 Assembly",
+      "title": "Saturday Phone Bank ~ Rush For Assembly NJ LD1",
       "begin": "2025-09-13",
       "end": "2025-09-13",
       "lat": null,
@@ -1726,7 +1591,7 @@
       "location": "",
       "links": [
         {
-          "title": "Saturday Phone Bank ~ Rush For NJ LD1 Assembly",
+          "title": "Saturday Phone Bank ~ Rush For Assembly NJ LD1",
           "href": "https://www.mobilize.us/carolynrush/event/838991/"
         }
       ],
@@ -2333,6 +2198,21 @@
       "state": "OTHER"
     },
     {
+      "title": "DFL War Room Daily Call to Action!",
+      "begin": "2025-09-15",
+      "end": "2025-09-15",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "DFL War Room Daily Call to Action!",
+          "href": "https://www.mobilize.us/dfl/event/781250/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Postcarding Party with Ann and Chris!  All are Welcome!",
       "begin": "2025-09-15",
       "end": "2025-09-15",
@@ -2358,6 +2238,21 @@
         {
           "title": "Resistance Committee - Organizer Meeting",
           "href": "https://www.mobilize.us/semdems/event/785071/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "TAKE ACTION: Contact your Representatives about Trump's Agenda!",
+      "begin": "2025-09-15",
+      "end": "2025-09-15",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "TAKE ACTION: Contact your Representatives about Trump's Agenda!",
+          "href": "https://www.mobilize.us/msdemocrats/event/791504/"
         }
       ],
       "state": "OTHER"
@@ -3038,21 +2933,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Data Management for the Movement | Lehigh Valley Stands Up",
-      "begin": "2025-09-15",
-      "end": "2025-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Data Management for the Movement | Lehigh Valley Stands Up",
-          "href": "https://www.mobilize.us/pastandsup/event/840552/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Volunteer Onboarding Call",
       "begin": "2025-09-15",
       "end": "2025-09-15",
@@ -3243,6 +3123,21 @@
         {
           "title": "Registration Repair Textbank",
           "href": "https://www.mobilize.us/ncvp/event/842836/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Phonebanking with Sarah Blas for City Council",
+      "begin": "2025-09-15",
+      "end": "2025-09-15",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Phonebanking with Sarah Blas for City Council",
+          "href": "https://www.mobilize.us/sarahblasforcitycouncil/event/843492/"
         }
       ],
       "state": "OTHER"
@@ -5089,6 +4984,21 @@
       "state": "OTHER"
     },
     {
+      "title": "My City Votes Volunteer Research Committee",
+      "begin": "2025-09-16",
+      "end": "2025-09-16",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "My City Votes Volunteer Research Committee",
+          "href": "https://www.mobilize.us/vnp/event/843313/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "All On The Line Monthly Volunteer Virtual Meeting",
       "begin": "2025-09-17",
       "end": "2025-09-17",
@@ -5852,6 +5762,21 @@
       "state": "OTHER"
     },
     {
+      "title": "PENNSYLVANIA - Virtual - Cecile's Leaders Weekly Office Hours!",
+      "begin": "2025-09-17",
+      "end": "2025-09-17",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "PENNSYLVANIA - Virtual - Cecile's Leaders Weekly Office Hours!",
+          "href": "https://www.mobilize.us/supermajority/event/815135/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "It's me. Hi! I'm the Precinct Organizer, it's Me",
       "begin": "2025-09-17",
       "end": "2025-09-17",
@@ -6465,6 +6390,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Phonebank for VA with Sister District East Bay!",
+      "begin": "2025-09-17",
+      "end": "2025-09-17",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Phonebank for VA with Sister District East Bay!",
+          "href": "https://www.mobilize.us/sisterdistricteastbay/event/837210/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Wednesday Phone Bank Circle for 2025 Races",
       "begin": "2025-09-17",
       "end": "2025-09-17",
@@ -6820,6 +6760,36 @@
         {
           "title": "IUSC Mid-Month Members Zoom Call",
           "href": "https://www.mobilize.us/indivisibleupstatesc/event/843232/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "VAN UPDATE: VBM Training",
+      "begin": "2025-09-17",
+      "end": "2025-09-17",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "VAN UPDATE: VBM Training",
+          "href": "https://www.mobilize.us/njdsc/event/843261/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Call Virginia Voters!",
+      "begin": "2025-09-17",
+      "end": "2025-09-17",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Call Virginia Voters!",
+          "href": "https://www.mobilize.us/committodemocracy/event/843342/"
         }
       ],
       "state": "OTHER"
@@ -8098,21 +8068,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Text Training",
-      "begin": "2025-09-18",
-      "end": "2025-09-18",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Text Training",
-          "href": "https://www.mobilize.us/nextgen/event/842330/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Virtual ICE Bystander Training",
       "begin": "2025-09-18",
       "end": "2025-09-18",
@@ -8158,6 +8113,36 @@
       "state": "OTHER"
     },
     {
+      "title": "Working Families Party Member Orientation - Los Angeles Chapter",
+      "begin": "2025-09-18",
+      "end": "2025-09-18",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Working Families Party Member Orientation - Los Angeles Chapter",
+          "href": "https://www.mobilize.us/ca-wfp/event/843405/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Yes to Prop 50 - a guide to hard conversations to save democracy!",
+      "begin": "2025-09-18",
+      "end": "2025-09-18",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Yes to Prop 50 - a guide to hard conversations to save democracy!",
+          "href": "https://www.mobilize.us/swingleft/event/843455/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "POSTCARD TRAINING W/MIRIAM! Learn how to get started postcarding with Field Team 6!",
       "begin": "2025-09-19",
       "end": "2025-09-19",
@@ -8168,6 +8153,21 @@
         {
           "title": "POSTCARD TRAINING W/MIRIAM! Learn how to get started postcarding with Field Team 6!",
           "href": "https://www.mobilize.us/ft6/event/602257/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "PPT & T4APA! Research Committee",
+      "begin": "2025-09-19",
+      "end": "2025-09-19",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "PPT & T4APA! Research Committee",
+          "href": "https://www.mobilize.us/ppt/event/715326/"
         }
       ],
       "state": "OTHER"
@@ -8213,6 +8213,21 @@
         {
           "title": "REV UP Minnesota Coalition",
           "href": "https://www.mobilize.us/rev-up-aapd/event/765636/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Access the Vote Florida",
+      "begin": "2025-09-19",
+      "end": "2025-09-19",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Access the Vote Florida",
+          "href": "https://www.mobilize.us/rev-up-aapd/event/765661/"
         }
       ],
       "state": "OTHER"
@@ -8308,6 +8323,21 @@
       "state": "OTHER"
     },
     {
+      "title": "How to Knock Doors",
+      "begin": "2025-09-19",
+      "end": "2025-09-19",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "How to Knock Doors",
+          "href": "https://www.mobilize.us/spanbergerforgovernor/event/818235/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Adopt a Day Labor Corner Training Series: Harm reduction post ICE Arrest",
       "begin": "2025-09-19",
       "end": "2025-09-19",
@@ -8318,6 +8348,21 @@
         {
           "title": "Adopt a Day Labor Corner Training Series: Harm reduction post ICE Arrest",
           "href": "https://www.mobilize.us/ndlon/event/834494/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Let's Talk Teams: Friday Open Office Hours",
+      "begin": "2025-09-19",
+      "end": "2025-09-19",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Let's Talk Teams: Friday Open Office Hours",
+          "href": "https://www.mobilize.us/honestyforohioeducation/event/834761/"
         }
       ],
       "state": "OTHER"
@@ -8338,7 +8383,7 @@
       "state": "OTHER"
     },
     {
-      "title": "Rally to the Polls with Senator Mark Warner and Fmr. Del. Elizabeth Guzman",
+      "title": "CD7 GOTV Phone Banking \"Power Hour\"",
       "begin": "2025-09-19",
       "end": "2025-09-19",
       "lat": null,
@@ -8346,22 +8391,7 @@
       "location": "",
       "links": [
         {
-          "title": "Rally to the Polls with Senator Mark Warner and Fmr. Del. Elizabeth Guzman",
-          "href": "https://www.mobilize.us/spanbergerforgovernor/event/842450/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "CD7 Phone Banking \"Power Hour\"",
-      "begin": "2025-09-19",
-      "end": "2025-09-19",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "CD7 Phone Banking \"Power Hour\"",
+          "title": "CD7 GOTV Phone Banking \"Power Hour\"",
           "href": "https://www.mobilize.us/civictn/event/842803/"
         }
       ],
@@ -8693,21 +8723,6 @@
         {
           "title": "Anti-Fascist Book Club - On Fascism and Fascism and Democracy",
           "href": "https://www.mobilize.us/mothersagainstgregabbott/event/746122/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Indivisible Hill Country Virtual Meetings",
-      "begin": "2025-09-21",
-      "end": "2025-09-21",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Indivisible Hill Country Virtual Meetings",
-          "href": "https://www.mobilize.us/indivisiblenb/event/750841/"
         }
       ],
       "state": "OTHER"
@@ -9323,6 +9338,21 @@
         {
           "title": "Early Childhood Education Action Hour",
           "href": "https://www.mobilize.us/savethechildrenactionnetwork/event/842852/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Fundraiser Kickoff: Erasing Lunch Debt Pledge-A-Thon",
+      "begin": "2025-09-22",
+      "end": "2025-09-22",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Fundraiser Kickoff: Erasing Lunch Debt Pledge-A-Thon",
+          "href": "https://www.mobilize.us/nebraskaforus/event/843340/"
         }
       ],
       "state": "OTHER"
@@ -10361,6 +10391,36 @@
       "state": "OTHER"
     },
     {
+      "title": "Messaging, Media, and Digital Engagement Training",
+      "begin": "2025-09-24",
+      "end": "2025-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Messaging, Media, and Digital Engagement Training",
+          "href": "https://www.mobilize.us/nokings/event/843348/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "CD7 GOTV Phone Banking \"Power Hour\"",
+      "begin": "2025-09-24",
+      "end": "2025-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "CD7 GOTV Phone Banking \"Power Hour\"",
+          "href": "https://www.mobilize.us/civictn/event/843377/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Courtwatch DC Training",
       "begin": "2025-09-25",
       "end": "2025-09-25",
@@ -10856,21 +10916,6 @@
       "state": "OTHER"
     },
     {
-      "title": "Text Out the Vote in Virginia",
-      "begin": "2025-09-25",
-      "end": "2025-09-25",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Text Out the Vote in Virginia",
-          "href": "https://www.mobilize.us/nextgen/event/842191/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "No Kings Safety and Security Training",
       "begin": "2025-09-25",
       "end": "2025-09-25",
@@ -10881,6 +10926,21 @@
         {
           "title": "No Kings Safety and Security Training",
           "href": "https://www.mobilize.us/moveon/event/842897/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Letter to the Editor Training",
+      "begin": "2025-09-25",
+      "end": "2025-09-25",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Letter to the Editor Training",
+          "href": "https://www.mobilize.us/savethechildrenactionnetwork/event/843284/"
         }
       ],
       "state": "OTHER"
@@ -11001,6 +11061,21 @@
         {
           "title": "Click. Post. Win. Social Media for Campaigns",
           "href": "https://www.mobilize.us/bluevote/event/836770/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Precinct Operations Workshop - Election Rules and Regulations",
+      "begin": "2025-09-27",
+      "end": "2025-09-27",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Precinct Operations Workshop - Election Rules and Regulations",
+          "href": "https://www.mobilize.us/scdc/event/843499/"
         }
       ],
       "state": "OTHER"
@@ -11151,6 +11226,21 @@
         {
           "title": "Progressive Caucus September Meeting: What Happened at the DNC?",
           "href": "https://www.mobilize.us/dpcf/event/838600/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "September 2025 - High Road Restaurants National Meeting",
+      "begin": "2025-09-29",
+      "end": "2025-09-29",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "September 2025 - High Road Restaurants National Meeting",
+          "href": "https://www.mobilize.us/onefairwage/event/838739/"
         }
       ],
       "state": "OTHER"
@@ -11516,6 +11606,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Sarasota-Charlotte Democratic Progressive Caucus Kickoff Meeting - with Guest speaker Allen Spence",
+      "begin": "2025-09-30",
+      "end": "2025-09-30",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Sarasota-Charlotte Democratic Progressive Caucus Kickoff Meeting - with Guest speaker Allen Spence",
+          "href": "https://www.mobilize.us/sarasotacountydec/event/843321/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Storytelling Planning Team Meeting",
       "begin": "2025-10-01",
       "end": "2025-10-01",
@@ -11726,6 +11831,21 @@
       "state": "OTHER"
     },
     {
+      "title": "Volunteer Phone Bank opportunity",
+      "begin": "2025-10-01",
+      "end": "2025-10-01",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Volunteer Phone Bank opportunity",
+          "href": "https://www.mobilize.us/electjordan/event/843423/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "Sister District Portland+ Monthly Team Call",
       "begin": "2025-10-02",
       "end": "2025-10-02",
@@ -11931,6 +12051,21 @@
         {
           "title": "Building Community @ the Nashville Black Market",
           "href": "https://www.mobilize.us/equityalliance/event/831272/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Signal Training - October 3rd",
+      "begin": "2025-10-03",
+      "end": "2025-10-03",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Signal Training - October 3rd",
+          "href": "https://www.mobilize.us/indivisiblenevadacounty/event/843363/"
         }
       ],
       "state": "OTHER"
@@ -12251,6 +12386,21 @@
       "state": "OTHER"
     },
     {
+      "title": "New Jersey Volunteer Recruitment Virtual Phone Bank",
+      "begin": "2025-10-06",
+      "end": "2025-10-06",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "New Jersey Volunteer Recruitment Virtual Phone Bank",
+          "href": "https://www.mobilize.us/hrc/event/843491/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "ACLU of FL Banned Book Club",
       "begin": "2025-10-07",
       "end": "2025-10-07",
@@ -12501,6 +12651,21 @@
         {
           "title": "Labor Neighbor Phonebanking",
           "href": "https://www.mobilize.us/waaflcio/event/842817/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "CD7 Election Day Phone Banking \"Power Hour\"",
+      "begin": "2025-10-07",
+      "end": "2025-10-07",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "CD7 Election Day Phone Banking \"Power Hour\"",
+          "href": "https://www.mobilize.us/civictn/event/843384/"
         }
       ],
       "state": "OTHER"
@@ -13098,6 +13263,36 @@
       "state": "OTHER"
     },
     {
+      "title": "October Black Engagement Committee Meeting",
+      "begin": "2025-10-09",
+      "end": "2025-10-09",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "October Black Engagement Committee Meeting",
+          "href": "https://www.mobilize.us/maricopacountydemocraticparty/event/843514/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Voter Protection Partner Meeting",
+      "begin": "2025-10-10",
+      "end": "2025-10-10",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Voter Protection Partner Meeting",
+          "href": "https://www.mobilize.us/organizetn/event/595101/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
       "title": "South Carolina Disability Vote Coalition",
       "begin": "2025-10-10",
       "end": "2025-10-10",
@@ -13496,6 +13691,21 @@
         {
           "title": "Letter to the Editor Training",
           "href": "https://www.mobilize.us/savethechildrenactionnetwork/event/842844/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Messaging, Media, and Digital Engagement Training",
+      "begin": "2025-10-14",
+      "end": "2025-10-14",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Messaging, Media, and Digital Engagement Training",
+          "href": "https://www.mobilize.us/nokings/event/843351/"
         }
       ],
       "state": "OTHER"
@@ -14326,20 +14536,7 @@
       "state": "OTHER"
     },
     {
-      "title": "An Evening with DNC Vice Chair Malcolm Kenyatta",
-      "begin": "2025-10-24",
-      "end": "2025-10-24",
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "An Evening with DNC Vice Chair Malcolm Kenyatta",
-          "href": "https://www.mobilize.us/pinellascountydec/event/834662/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "New Yorkers for Democracy: How to Make Your Vote Count in NYC Mayor's Race",
+      "title": "New Yorkers for Democracy: How to Make Your Vote Count in the NYC Mayor's Race",
       "begin": "2025-10-24",
       "end": "2025-10-24",
       "lat": null,
@@ -14347,7 +14544,7 @@
       "location": "",
       "links": [
         {
-          "title": "New Yorkers for Democracy: How to Make Your Vote Count in NYC Mayor's Race",
+          "title": "New Yorkers for Democracy: How to Make Your Vote Count in the NYC Mayor's Race",
           "href": "https://www.mobilize.us/newyorkersfordemocracy/event/839591/"
         }
       ],
@@ -14797,6 +14994,21 @@
         {
           "title": "\"Our Schools Our Power\" Quarterly Organizing Meet-Ups",
           "href": "https://www.mobilize.us/peoplesactioninstitute/event/783919/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "GAE-Retired Informational Meeting--open to all GAE-Retired members",
+      "begin": "2025-11-14",
+      "end": "2025-11-14",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "GAE-Retired Informational Meeting--open to all GAE-Retired members",
+          "href": "https://www.mobilize.us/gae/event/819731/"
         }
       ],
       "state": "OTHER"

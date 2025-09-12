@@ -79,9 +79,14 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 5. Data fetch */
     let raw=[]; let cluster;
     fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
-      .then(r=>r.json())
-      .then(js=>{raw=js.data||[]; initFilter();})
-      .catch(e=>console.error("merged_events.json fetch",e));
+      .then(r => r.json())
+      .then(js => {
+        raw = js.data || [];
+        initFilter();               // ⬅ re-enable the filter bar
+      })
+      .catch(e => console.error("merged_events.json fetch", e));
+
+
 
     /* ---------------------------------------------------------------- 6. Filtering */
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
@@ -100,75 +105,86 @@ if (window.__P25A_MAP_LOADED__) {
       badge.textContent=`Showing: ${lbl} — ${list.length} events`;
     }
 
-    function applyPreset(days){
-      if(days==="all") {
+    function applyPreset(days) {
+      const todayStr = fmt(today); // YYYY-MM-DD in PT
+
+      if (days === "all") {
+        // Show all upcoming/ongoing with coords (no past)
         const filtered = raw.filter(ev =>
           ev.lat != null && ev.lng != null &&
-          ((ev.end || ev.begin) >= yesterdayStr)
+          ((ev.end || ev.begin) >= todayStr)
         );
-        return render(filtered, labelOf("all"));
+        return render(filtered, "All (upcoming)");
       }
 
+      // Numeric presets: starts within window AND not past
       const cutoffStr = fmt(new Date(today.getTime() + (days - 1) * ONE_DAY));
       const filtered = raw.filter(ev => {
         if (ev.lat == null || ev.lng == null) return false;
-        const b = ev.begin, e = ev.end || ev.begin;
-        return e >= yesterdayStr && b <= cutoffStr;
+        const b = ev.begin;                  // "YYYY-MM-DD"
+        const e = ev.end || ev.begin;        // "YYYY-MM-DD"
+        if (!b && !e) return false;
+        return e >= todayStr && b <= cutoffStr;
       });
 
       render(filtered, labelOf(days));
     }
 
-
-    function openCustom(){
-      const wrap=document.createElement("div");
-      Object.assign(wrap.style,{
-        position:"fixed",inset:0,background:"rgba(0,0,0,.4)",
-        display:"flex",alignItems:"center",justifyContent:"center",zIndex:9999
+    function openCustom() {
+      const wrap = document.createElement("div");
+      Object.assign(wrap.style, {
+        position: "fixed", inset: 0, background: "rgba(0,0,0,.4)",
+        display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999
       });
-      wrap.innerHTML=`<div style="background:#fff;padding:20px;border-radius:8px;text-align:center">
+      wrap.innerHTML = `<div style="background:#fff;padding:20px;border-radius:8px;text-align:center">
         <h3 style="margin-top:0">Custom Range</h3>
-        <label>Start:<br><input type=date id=start></label><br><br>
-        <label>End:<br><input type=date id=end></label><br><br>
-        <button id=apply>Apply</button> <button id=cancel>Cancel</button></div>`;
+        <label>Start:<br><input type="date" id="start"></label><br><br>
+        <label>End:<br><input type="date" id="end"></label><br><br>
+        <button id="apply">Apply</button> <button id="cancel">Cancel</button>
+      </div>`;
       document.body.appendChild(wrap);
-      wrap.querySelector("#start").value=fmt(today);
-      wrap.querySelector("#end").value=fmt(today);
 
-      wrap.querySelector("#apply").onclick=()=>{
-        const s=new Date(wrap.querySelector("#start").value);
-        const e=new Date(wrap.querySelector("#end").value);
+      // Default both inputs to today (PT)
+      wrap.querySelector("#start").value = fmt(today);
+      wrap.querySelector("#end").value = fmt(today);
 
-        const list=raw.filter(ev=>{
-          if (ev.lat == null) return false;
-          const startDate = new Date(ev.begin);
-          const endDate   = new Date(ev.end);
-          return endDate >= yesterday && startDate <= e && endDate >= s;
+      wrap.querySelector("#apply").onclick = () => {
+        const startStr = wrap.querySelector("#start").value; // YYYY-MM-DD
+        const endStr   = wrap.querySelector("#end").value;   // YYYY-MM-DD
+
+        const list = raw.filter(ev => {
+          if (ev.lat == null || ev.lng == null) return false;
+          const b = ev.begin;
+          const e = ev.end || ev.begin;
+          if (!b && !e) return false;
+          // overlap test using safe string comparisons
+          return e >= startStr && b <= endStr;
         });
 
-        render(list,`${s.toLocaleDateString()} – ${e.toLocaleDateString()}`);
-        localStorage.setItem("p25a-date-range","custom");
+        render(list, `${new Date(startStr).toLocaleDateString()} – ${new Date(endStr).toLocaleDateString()}`);
+        localStorage.setItem("p25a-date-range", "custom");
         wrap.remove();
       };
 
-      wrap.querySelector("#cancel").onclick=()=>wrap.remove();
+      wrap.querySelector("#cancel").onclick = () => wrap.remove();
     }
 
+    function initFilter() {
+      // Always default to ALL on load so we don’t silently shrink due to old localStorage
+      localStorage.setItem("p25a-date-range", "all");
+      applyPreset("all");
 
-    function initFilter(){
-      uiBar.querySelectorAll("button").forEach(btn=>{
-        btn.onclick=()=>{
-          const v=btn.dataset.days;
-          if(v==="custom") return openCustom();
-          localStorage.setItem("p25a-date-range",v);
-          applyPreset(v==="all"?"all":parseInt(v,10));
+      // Wire buttons
+      uiBar.querySelectorAll("button").forEach(btn => {
+        btn.onclick = () => {
+          const v = btn.dataset.days;
+          if (v === "custom") return openCustom();
+          localStorage.setItem("p25a-date-range", v);
+          applyPreset(v === "all" ? "all" : parseInt(v, 10));
         };
       });
-      // Default to ALL unless user explicitly picked a preset (ignore "custom" at first load)
-      const saved = localStorage.getItem("p25a-date-range");
-      const initial = (!saved || saved === "custom") ? "all" : saved;
-      applyPreset(initial === "all" ? "all" : parseInt(initial, 10));
     }
+
 
     /* ---------------------------------------------------------------- 7. Virtual Events Toggle */
     fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
