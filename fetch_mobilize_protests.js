@@ -60,32 +60,37 @@ async function main() {
   console.log(`⚡️ Fetched ${raw.length} raw Mobilize events`);
 
   // Map & filter out stale events ONLY
-  const mapped = raw
-    .map((evt) => {
-      const slot = evt.timeslots?.[0] || {};
-      const date = slot.start_date
-        ? new Date(slot.start_date * 1000).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
-        : null;
-      const loc = evt.location || {};
-      const coords = loc.location || {};
-      const address = [
-        ...(loc.address_lines || []),
-        loc.locality,
-        loc.region,
-      ]
-        .filter(Boolean)
-        .join(", ");
+  const mapped = raw.map((evt) => {
+    // Pick the earliest FUTURE timeslot; if none, fall back to latest past slot
+    const slots = Array.isArray(evt.timeslots) ? evt.timeslots.slice() : [];
+    const nowSec = Math.floor(Date.now() / 1000);
+    const future = slots.filter(s => typeof s.start_date === 'number' && s.start_date >= nowSec);
+    const pick = future.length
+      ? future.sort((a, b) => a.start_date - b.start_date)[0]   // earliest future
+      : slots.sort((a, b) => b.start_date - a.start_date)[0];   // latest past (fallback)
 
-      return {
-        title: evt.title,
-        date,
-        location: address,
-        lat: coords.latitude,
-        lng: coords.longitude,
-        link: evt.browser_url,
-      };
-    })
-    .filter((e) => !isStale(e.date)); // keep only future or ongoing
+    const date = pick?.start_date
+      ? new Date(pick.start_date * 1000).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
+      : null;
+
+    const loc = evt.location || {};
+    const coords = loc.location || {};
+    const address = [
+      ...(loc.address_lines || []),
+      loc.locality,
+      loc.region,
+    ].filter(Boolean).join(", ");
+
+    return {
+      id: evt.id, // keep ID to debug specific reports
+      title: evt.title,
+      date,
+      location: address,
+      lat: coords.latitude,
+      lng: coords.longitude,
+      link: evt.browser_url,
+    };
+  });
 
   console.log(`⚡️ ${mapped.length} events after removing past dates`);
 
