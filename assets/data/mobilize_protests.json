@@ -20822,9 +20822,9 @@
       "id": 816462,
       "title": "Knocking Doors for the Democratic Ticket in Burke/West Springfield!",
       "date": "2025-09-13",
-      "location": "Burke, VA",
-      "lat": 38.7843884,
-      "lng": -77.2807423,
+      "location": "6051 Tammy Dr, Franconia, VA",
+      "lat": 38.7869442,
+      "lng": -77.1441721,
       "link": "https://www.mobilize.us/spanbergerforgovernor/event/816462/"
     },
     {
@@ -49820,6 +49820,15 @@
       "link": "https://www.mobilize.us/njvictory2025/event/837209/"
     },
     {
+      "id": 837210,
+      "title": "Phonebank for VA with Sister District East Bay!",
+      "date": "2025-09-17",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://www.mobilize.us/sisterdistricteastbay/event/837210/"
+    },
+    {
       "id": 837211,
       "title": "Claverack Canvass",
       "date": "2025-09-13",
@@ -56874,7 +56883,9 @@
       "id": 838824,
       "title": "Bisbee: For Our People, For Our Pueblo con Adelita Grijalva! **NEW DATE**",
       "date": "2025-09-18",
-      "location": "This event’s address is private. Sign up for more details, Bisbee, AZ",
+      "location": "901 Tombstone Canyon, Bisbee, AZ 85603, Bisbee, AZ",
+      "lat": 31.4525538,
+      "lng": -109.9326598,
       "link": "https://www.mobilize.us/adelitaforcongress/event/838824/"
     },
     {
@@ -57920,7 +57931,7 @@
     },
     {
       "id": 838991,
-      "title": "Saturday Phone Bank ~ Rush For NJ LD1 Assembly",
+      "title": "Saturday Phone Bank ~ Rush For Assembly NJ LD1",
       "date": "2025-09-13",
       "location": "",
       "lat": null,
@@ -66204,15 +66215,6 @@
       "lat": null,
       "lng": null,
       "link": "https://www.mobilize.us/fww/event/840392/"
-    },
-    {
-      "id": 840393,
-      "title": "No Kings Palm Springs",
-      "date": "2025-10-18",
-      "location": "1 N Belardo Road Palm Springs CA, Palm Springs, CA",
-      "lat": 33.8292108,
-      "lng": -116.5479425,
-      "link": "https://www.mobilize.us/nokings/event/840393/"
     },
     {
       "id": 840396,
@@ -75993,15 +75995,6 @@
       "link": "https://www.mobilize.us/northumberlandcountydemocraticparty/event/842245/"
     },
     {
-      "id": 842246,
-      "title": "Brooklyn Neighborhood Union Launch",
-      "date": "2025-09-20",
-      "location": "504 Annabel Ave, Baltimore, MD",
-      "lat": 39.237861,
-      "lng": -76.602913,
-      "link": "https://www.mobilize.us/progressivemaryland/event/842246/"
-    },
-    {
       "id": 842247,
       "title": "Democracy on Tap!",
       "date": "2025-09-30",
@@ -81314,6 +81307,13 @@
       "lat": 30.3150825,
       "lng": -95.4578779,
       "link": "https://www.mobilize.us/mcdptx/event/843475/"
+    },
+    {
+      "id": 843482,
+      "title": "Coffee with the Candidate",
+      "date": "2025-09-30",
+      "location": "This event’s address is private. Sign up for more details, Phoenix, AZ",
+      "link": "https://www.mobilize.us/ld2democrats2024/event/843482/"
     }
   ]
 }
