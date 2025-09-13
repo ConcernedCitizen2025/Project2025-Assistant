@@ -127,14 +127,13 @@ if (window.__P25A_MAP_LOADED__) {
         const popup = `<strong>${ev.title}</strong><br><em>${ev.location || ''}</em><br><em>${dateStr}</em>` +
                       (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
 
-        // robust match: "no kings", "No-Kings", "NoKings", plus URL variants
-        const t = (ev.title || '').toLowerCase().replace(/\W+/g, ''); // strip spaces/punct
+        // robust No Kings match
+        const t = (ev.title || '').toLowerCase().replace(/\W+/g,'');
         const u = (ev.links?.[0]?.href || '').toLowerCase();
         const isNoKings = t.includes('nokings') || u.includes('/nokings/');
 
-
         const markerOpts = isNoKings
-          ? { icon: nkIcon, pane: 'nkPane', zIndexOffset: 1000 }
+          ? { icon: nkIcon, pane: 'nkPane', zIndexOffset: 10000 } // ← bigger z-index
           : undefined;
 
         const marker = L.marker([ev.lat, ev.lng], markerOpts).bindPopup(popup);
@@ -146,8 +145,12 @@ if (window.__P25A_MAP_LOADED__) {
       map.addLayer(cluster);
       map.addLayer(nkLayer);
 
+      // ensure NK pins sit visually on top even if panes tie
+      nkLayer.eachLayer(m => m.bringToFront());
+
       badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
+
 
 
     function applyPreset(days) {

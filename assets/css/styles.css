@@ -656,4 +656,9 @@ body.reader-mode .share-buttons {
   box-shadow: 0 0 8px rgba(0,0,0,.45);
 }
 
+.leaflet-marker-icon.nk-pin,
+.leaflet-marker-icon.nk-pin-debug {
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
 
