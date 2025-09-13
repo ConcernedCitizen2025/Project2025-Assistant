@@ -115,45 +115,36 @@ if (window.__P25A_MAP_LOADED__) {
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
     function render(list, lbl) {
-      if (cluster)  map.removeLayer(cluster);
-      if (nkLayer)  map.removeLayer(nkLayer);
+      // remove any existing layer(s)
+      if (cluster) map.removeLayer(cluster);
+      if (nkLayer) map.removeLayer(nkLayer);  // harmless if undefined
 
+      // rebuild a fresh clustered layer for ALL events
       cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
-      nkLayer = L.layerGroup();
-
-      let nkRendered = 0;
 
       list.forEach(ev => {
         const dateStr = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
-        const links = (ev.links || []).map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
-        const popup = `<strong>${ev.title}</strong><br><em>${ev.location || ''}</em><br><em>${dateStr}</em>` +
-                      (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
+        const links = (ev.links || []).map(l =>
+          `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`
+        ).join("");
 
-        // robust No Kings match
-        const t = (ev.title || '').toLowerCase().replace(/\W+/g,'');
-        const u = (ev.links?.[0]?.href || '').toLowerCase();
-        const isNoKings = t.includes('nokings') || u.includes('/nokings/');
+        const popup =
+          `<strong>${ev.title}</strong><br>` +
+          `<em>${ev.location || ''}</em><br>` +
+          `<em>${dateStr}</em>` +
+          (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
 
-        const markerOpts = isNoKings
-          ? { icon: nkIcon, zIndexOffset: 10000 } // same pane as others; sits above via zIndexOffset
-          : undefined;
-
-        const marker = L.marker([ev.lat, ev.lng], markerOpts).bindPopup(popup);
-
-        if (isNoKings) { nkLayer.addLayer(marker); nkRendered++;
-        else           cluster.addLayer(marker);
+        // baseline marker (no custom icon/pane yet)
+        const marker = L.marker([ev.lat, ev.lng]).bindPopup(popup);
+        cluster.addLayer(marker);
       });
 
       map.addLayer(cluster);
-      map.addLayer(nkLayer);
 
-      console.log('Rendered No Kings markers:', nkRendered);
-
-      // ensure NK pins sit visually on top even if panes tie
-      
-
+      // update the UI badge
       badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
+
 
 
 
