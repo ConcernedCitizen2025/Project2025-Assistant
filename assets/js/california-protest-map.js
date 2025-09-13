@@ -146,7 +146,7 @@ if (window.__P25A_MAP_LOADED__) {
       map.addLayer(nkLayer);
 
       // ensure NK pins sit visually on top even if panes tie
-      nkLayer.eachLayer(m => m.bringToFront());
+      
 
       badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
