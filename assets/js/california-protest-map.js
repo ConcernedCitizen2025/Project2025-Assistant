@@ -28,17 +28,28 @@ if (window.__P25A_MAP_LOADED__) {
 
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
+    /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
     if (!window.p25aMap) {
       window.p25aMap = L.map(mapEl);
+
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:"&copy; OpenStreetMap contributors"
       }).addTo(window.p25aMap);
+
+      // Create a dedicated pane so "No Kings" markers sit ABOVE clusters
+      if (!window.p25aMap.getPane('nkPane')) {
+        window.p25aMap.createPane('nkPane');
+        window.p25aMap.getPane('nkPane').style.zIndex = 650; // cluster/marker pane ~600
+      }
+
       if (L.Control?.geocoder) L.Control.geocoder({collapsed:false})
         .on("markgeocode", e=>window.p25aMap.fitBounds(e.geocode.bbox))
         .addTo(window.p25aMap);
+
       window.p25aMap.fitBounds([[24.396308,-124.848974],[49.384358,-66.885444]],{padding:[40,40]});
     }
     const map = window.p25aMap;
+
 
     /* ---------------------------------------------------------------- 4. UI BAR (build once) */
     let uiBar = document.getElementById("date-filter-bar");
@@ -78,6 +89,15 @@ if (window.__P25A_MAP_LOADED__) {
 
     /* ---------------------------------------------------------------- 5. Data fetch */
     let raw=[]; let cluster;
+    let nkLayer; // non-clustered layer for "No Kings"
+    const nkIcon = L.icon({
+      iconUrl: '/assets/images/no_kings_logo.png', // note forward slashes for web path
+      iconSize: [34, 34],
+      iconAnchor: [17, 17],
+      popupAnchor: [0, -12],
+      className: 'nk-pin'
+    });
+
     fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
       .then(r => r.json())
       .then(js => {
@@ -91,19 +111,40 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 6. Filtering */
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
-    function render(list,lbl){
-      if(cluster) map.removeLayer(cluster);
-      cluster=L.markerClusterGroup({maxClusterRadius:40});
-      list.forEach(ev=>{
+    function render(list, lbl) {
+      if (cluster)  map.removeLayer(cluster);
+      if (nkLayer)  map.removeLayer(nkLayer);
+
+      cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
+      nkLayer = L.layerGroup();
+
+      list.forEach(ev => {
         const dateStr = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
-        const links = (ev.links || []).map(l=>`<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
-        const popup = `<strong>${ev.title}</strong><br><em>${ev.location}</em><br><em>${dateStr}</em>`+
-          (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
-        cluster.addLayer(L.marker([ev.lat,ev.lng]).bindPopup(popup));
+        const links = (ev.links || []).map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
+        const popup = `<strong>${ev.title}</strong><br><em>${ev.location || ''}</em><br><em>${dateStr}</em>` +
+                      (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
+
+        // Match by title; optional: OR the first link’s URL contains "/nokings/"
+        const isNoKings =
+          (ev.title || '').toLowerCase().includes('no kings') ||
+          ((ev.links?.[0]?.href || '').toLowerCase().includes('/nokings/'));
+
+        const markerOpts = isNoKings
+          ? { icon: nkIcon, pane: 'nkPane', zIndexOffset: 1000 }
+          : undefined;
+
+        const marker = L.marker([ev.lat, ev.lng], markerOpts).bindPopup(popup);
+
+        if (isNoKings) nkLayer.addLayer(marker);
+        else           cluster.addLayer(marker);
       });
+
       map.addLayer(cluster);
-      badge.textContent=`Showing: ${lbl} — ${list.length} events`;
+      map.addLayer(nkLayer);
+
+      badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
+
 
     function applyPreset(days) {
       const todayStr = fmt(today); // YYYY-MM-DD in PT
