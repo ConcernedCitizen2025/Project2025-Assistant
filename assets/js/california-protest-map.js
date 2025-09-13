@@ -121,6 +121,8 @@ if (window.__P25A_MAP_LOADED__) {
       cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
       nkLayer = L.layerGroup();
 
+      let nkRendered = 0;
+
       list.forEach(ev => {
         const dateStr = ev.begin === ev.end ? ev.begin : `${ev.begin} – ${ev.end}`;
         const links = (ev.links || []).map(l => `<li><a href="${l.href}" target="_blank">${l.title}</a></li>`).join("");
@@ -133,17 +135,19 @@ if (window.__P25A_MAP_LOADED__) {
         const isNoKings = t.includes('nokings') || u.includes('/nokings/');
 
         const markerOpts = isNoKings
-          ? { icon: nkIcon, pane: 'nkPane', zIndexOffset: 10000 } // ← bigger z-index
+          ? { icon: nkIcon, zIndexOffset: 10000 } // same pane as others; sits above via zIndexOffset
           : undefined;
 
         const marker = L.marker([ev.lat, ev.lng], markerOpts).bindPopup(popup);
 
-        if (isNoKings) nkLayer.addLayer(marker);
+        if (isNoKings) { nkLayer.addLayer(marker); nkRendered++;
         else           cluster.addLayer(marker);
       });
 
       map.addLayer(cluster);
       map.addLayer(nkLayer);
+
+      console.log('Rendered No Kings markers:', nkRendered);
 
       // ensure NK pins sit visually on top even if panes tie
       
