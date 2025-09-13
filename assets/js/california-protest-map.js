@@ -39,8 +39,9 @@ if (window.__P25A_MAP_LOADED__) {
       // Create a dedicated pane so "No Kings" markers sit ABOVE clusters
       if (!window.p25aMap.getPane('nkPane')) {
         window.p25aMap.createPane('nkPane');
-        window.p25aMap.getPane('nkPane').style.zIndex = 650; // cluster/marker pane ~600
+        window.p25aMap.getPane('nkPane').style.zIndex = 800; // ← was 650
       }
+
 
       if (L.Control?.geocoder) L.Control.geocoder({collapsed:false})
         .on("markgeocode", e=>window.p25aMap.fitBounds(e.geocode.bbox))
@@ -89,14 +90,16 @@ if (window.__P25A_MAP_LOADED__) {
 
     /* ---------------------------------------------------------------- 5. Data fetch */
     let raw=[]; let cluster;
+    // near let raw=[]; let cluster;
     let nkLayer; // non-clustered layer for "No Kings"
     const nkIcon = L.icon({
-      iconUrl: '/assets/images/no_kings_logo.png', // note forward slashes for web path
-      iconSize: [34, 34],
-      iconAnchor: [17, 17],
-      popupAnchor: [0, -12],
+      iconUrl: '/assets/images/no_kings_logo.png',
+      iconSize: [48, 48],       // ← bigger
+      iconAnchor: [24, 24],
+      popupAnchor: [0, -18],
       className: 'nk-pin'
     });
+
 
     fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
       .then(r => r.json())
@@ -124,10 +127,11 @@ if (window.__P25A_MAP_LOADED__) {
         const popup = `<strong>${ev.title}</strong><br><em>${ev.location || ''}</em><br><em>${dateStr}</em>` +
                       (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
 
-        // Match by title; optional: OR the first link’s URL contains "/nokings/"
-        const isNoKings =
-          (ev.title || '').toLowerCase().includes('no kings') ||
-          ((ev.links?.[0]?.href || '').toLowerCase().includes('/nokings/'));
+        // robust match: "no kings", "No-Kings", "NoKings", plus URL variants
+        const t = (ev.title || '').toLowerCase().replace(/\W+/g, ''); // strip spaces/punct
+        const u = (ev.links?.[0]?.href || '').toLowerCase();
+        const isNoKings = t.includes('nokings') || u.includes('/nokings/');
+
 
         const markerOpts = isNoKings
           ? { icon: nkIcon, pane: 'nkPane', zIndexOffset: 1000 }

@@ -650,5 +650,10 @@ body.reader-mode .share-buttons {
   background:#ccc;
 }
 
+/* Make “No Kings” pins stand out */
+.leaflet-marker-icon.nk-pin {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,.45);
+}
 
 
