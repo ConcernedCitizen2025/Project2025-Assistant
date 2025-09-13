@@ -89,14 +89,13 @@ if (window.__P25A_MAP_LOADED__) {
     uiBar.append(customBtn,badge);
 
     /* ---------------------------------------------------------------- 5. Data fetch */
-    let raw=[]; let cluster;
-    // near let raw=[]; let cluster;
-    let nkLayer; // layer for "No Kings" (never clustered)
+    let raw=[]; let cluster; let nkCluster;
+
     const nkIcon = L.icon({
       iconUrl: '/assets/images/no_kings_logo.png',
-      iconSize: [48, 48],
-      iconAnchor: [24, 24],
-      popupAnchor: [0, -16],
+      iconSize: [36, 36],       // ← shrunk a smidge from 48 → 36
+      iconAnchor: [18, 18],
+      popupAnchor: [0, -12],
       className: 'nk-pin'
     });
 
@@ -116,13 +115,26 @@ if (window.__P25A_MAP_LOADED__) {
     const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
     function render(list, lbl) {
-      // clear old
-      if (cluster) map.removeLayer(cluster);
-      if (nkLayer) map.removeLayer(nkLayer);
+      // clear old layers
+      if (cluster)   map.removeLayer(cluster);
+      if (nkCluster) map.removeLayer(nkCluster);
 
-      // rebuild layers
+      // normal (non–No Kings) clustered layer
       cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
-      nkLayer  = L.layerGroup();
+
+      // No Kings clustered layer (separate group, custom cluster icon)
+      nkCluster = L.markerClusterGroup({
+        maxClusterRadius: 50,
+        iconCreateFunction: function (c) {
+          const count = c.getChildCount();
+          // a divIcon that uses the NK logo as the background with a tiny count badge
+          return L.divIcon({
+            html: `<div class="nk-cluster"><span class="count">${count}</span></div>`,
+            className: 'nk-cluster-icon',
+            iconSize: [40, 40]
+          });
+        }
+      });
 
       let nkRendered = 0;
 
@@ -137,26 +149,26 @@ if (window.__P25A_MAP_LOADED__) {
           `<em>${dateStr}</em>` +
           (links ? `<ul style="padding-left:16px;margin:8px 0;">${links}</ul>` : "");
 
-        // robust “No Kings” match (catches "No-Kings", "NoKings", and /nokings/ URLs)
+        // robust “No Kings” match (No Kings / No-Kings / NoKings, or /nokings/ URL)
         const t = (ev.title || '').toLowerCase().replace(/\W+/g, '');
         const u = (ev.links?.[0]?.href || '').toLowerCase();
         const isNoKings = t.includes('nokings') || u.includes('/nokings/');
 
-        const marker = L.marker(
-          [ev.lat, ev.lng],
-          isNoKings ? { icon: nkIcon, zIndexOffset: 1000 } : undefined
-        ).bindPopup(popup);
+        const marker = L.marker([ev.lat, ev.lng], isNoKings ? { icon: nkIcon } : undefined)
+                        .bindPopup(popup);
 
-        if (isNoKings) { nkLayer.addLayer(marker); nkRendered++; }
+        if (isNoKings) { nkCluster.addLayer(marker); nkRendered++; }
         else           { cluster.addLayer(marker); }
       });
 
+      // add both clusters to the map (NK clusters render separately from others)
       map.addLayer(cluster);
-      map.addLayer(nkLayer);
+      map.addLayer(nkCluster);
 
       console.log('Rendered No Kings markers:', nkRendered);
       badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
+
 
 
 
