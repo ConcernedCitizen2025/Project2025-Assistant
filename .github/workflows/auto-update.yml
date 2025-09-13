@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'     # current LTS
 
       - run: npm ci
 
@@ -27,13 +27,12 @@ jobs:
         run: npm run fetch:mobilizon
 
       - name: Fetch Mobilize data
+        # if your npm script points to Puppeteer, swap to: run: node fetch_mobilize_protests.js
         run: npm run fetch:protests
 
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
-      # ←───────────────────────────────────────────────
-      # write out events_meta.json so your map can show the real “lastUpdated”
       - name: Write map‐metadata file
         run: |
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
@@ -41,16 +40,8 @@ jobs:
 
       - name: Debug metadata
         run: |
-          echo "Contents of assets/data/events_meta.json:"
-          cat assets/data/events_meta.json
-
-
-      - name: Debug metadata
-        run: |
           ls -R assets/data
           cat assets/data/events_meta.json
-
-      # ──────────────────────────────────────────────────
 
       - name: Commit updated events_meta.json back to main
         run: |
@@ -60,46 +51,41 @@ jobs:
           git commit -m "📅 Auto-update: map lastUpdated timestamp" || echo "No changes to commit"
           git push origin main
 
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
 
       - run: bundle install
 
+      # install jq BEFORE we use it in the debug step
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
 
-          # right after “Build Jekyll site”
       - name: Debug built merged_events.json
         run: |
-          echo "Built merged_events.json has $(jq '.data|length' _site/assets/data/merged_events.json) geo‐events"
+          echo "Built merged_events.json has $(jq '.data|length' _site/assets/data/merged_events.json) geo-events"
           head -n5 _site/assets/data/merged_events.json
-
 
       - name: Verify site has metadata
         run: |
           ls -l _site/assets/data
           cat _site/assets/data/events_meta.json
 
-
-      - name: List site data
-        run: ls -R _site/assets/data && cat _site/assets/data/events_meta.json
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          keep_files: false    # ← ensure old files are deleted
-          
-
-
+          keep_files: false
 
       - name: Compute event-counts
         id: stats
         run: |
-          sudo apt-get update && sudo apt-get install -y jq
           M=$(jq '.events|length' assets/data/mobilize_protests.json)
           Z=$(jq '.data|length'  assets/data/mobilizon_events.json)
           P=$(jq '.data.searchEvents.elements|length' assets/data/protest_events.json)
@@ -132,3 +118,4 @@ jobs:
             • Geo-coded events:        ${{ steps.stats.outputs.geo_coded }}
             • Virtual-only events:     ${{ steps.stats.outputs.virtual_only }}
             • Discarded by filters:    ${{ steps.stats.outputs.discarded }}
+
