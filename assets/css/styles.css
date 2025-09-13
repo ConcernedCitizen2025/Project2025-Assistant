@@ -662,3 +662,8 @@ body.reader-mode .share-buttons {
   box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
+/* Make “No Kings” pins stand out a bit */
+.leaflet-marker-icon.nk-pin {
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,.45);
+}
