@@ -1129,6 +1129,14 @@
       "link": "https://events.pol-rev.com/events/61257640-8de8-4520-9691-cd557a193663"
     },
     {
+      "title": "Rally for Democracy",
+      "date": "2025-10-04",
+      "location": "South Portland, Maine, United States of America, South Portland",
+      "lat": 43.64147,
+      "lng": -70.24088,
+      "link": "https://events.pol-rev.com/events/7b542adf-6bbc-482c-a9fe-6e91acc31dc6"
+    },
+    {
       "title": "Watertown Tesla Takedown",
       "date": "2025-10-04",
       "location": "Pleasant St, Watertown, MA, United States of America, Watertown",
@@ -1193,6 +1201,14 @@
       "link": "https://events.pol-rev.com/events/6f50eb9d-b9b7-4c71-8a6f-e82ee7be6326"
     },
     {
+      "title": "Altoona Bridge Work",
+      "date": "2025-09-30",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/7da46ff8-515f-453c-ac6c-f773ac7aebff"
+    },
+    {
       "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
       "date": "2025-09-30",
       "location": "",
@@ -1223,14 +1239,6 @@
       "lat": 33.3841527,
       "lng": -111.9011703,
       "link": "https://events.pol-rev.com/events/440bc432-8afe-4457-a18d-ddf0ea5683bd"
-    },
-    {
-      "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
-      "date": "2025-09-29",
-      "location": "",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/6704dc7c-3d7a-4ede-8cb6-df92810d2aa2"
     }
   ]
 }
