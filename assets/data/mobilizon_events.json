@@ -1153,6 +1153,14 @@
       "link": "https://events.pol-rev.com/events/ecf18ba4-4974-47fc-a89a-e1ad0161f403"
     },
     {
+      "title": "50501 Chalk the Town: Swiftie-Style",
+      "date": "2025-10-02",
+      "location": "801 North Linden Street, Bloomington, IL 61701, United States of America, Bloomington",
+      "lat": 40.48492,
+      "lng": -88.981414,
+      "link": "https://events.pol-rev.com/events/15ae75e5-d97d-4f44-9aa8-1d935cf946e7"
+    },
+    {
       "title": "RhRR @ the ICE Field Office in central Phoenix",
       "date": "2025-10-02",
       "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
@@ -1199,46 +1207,6 @@
       "lat": 33.4974465,
       "lng": -112.0838942,
       "link": "https://events.pol-rev.com/events/6f50eb9d-b9b7-4c71-8a6f-e82ee7be6326"
-    },
-    {
-      "title": "Altoona Bridge Work",
-      "date": "2025-09-30",
-      "location": "",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/7da46ff8-515f-453c-ac6c-f773ac7aebff"
-    },
-    {
-      "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
-      "date": "2025-09-30",
-      "location": "",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/26fb911d-18c8-4270-91fb-9db2b86864ca"
-    },
-    {
-      "title": "Pro Democracy Rally Weekly",
-      "date": "2025-09-30",
-      "location": "Bank of the West, 100 South Main Street, Sebastopol, CA 95472, United States of America, Sebastopol",
-      "lat": 38.4018631,
-      "lng": -122.8243343,
-      "link": "https://events.pol-rev.com/events/7aa6a520-1d05-4930-b520-cb9ea05a628e"
-    },
-    {
-      "title": "RhRR @ ICE/U.S. Immigration Court in Phoenix",
-      "date": "2025-09-30",
-      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
-      "lat": 33.4508244,
-      "lng": -112.0830871,
-      "link": "https://events.pol-rev.com/events/97832fed-077d-49a1-87d1-a19c78bf574a"
-    },
-    {
-      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-      "date": "2025-09-30",
-      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
-      "lat": 33.3841527,
-      "lng": -111.9011703,
-      "link": "https://events.pol-rev.com/events/440bc432-8afe-4457-a18d-ddf0ea5683bd"
     }
   ]
 }
