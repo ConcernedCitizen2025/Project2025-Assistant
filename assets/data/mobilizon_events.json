@@ -305,6 +305,14 @@
       "link": "https://events.pol-rev.com/events/df926d13-ee05-4b68-89e3-b173286a0258"
     },
     {
+      "title": "No Kings! San Francisco",
+      "date": "2025-10-18",
+      "location": "Sue Bierman Park, San Francisco, California, United States of America, San Francisco",
+      "lat": 37.7960669,
+      "lng": -122.3959753,
+      "link": "https://events.pol-rev.com/events/1c0a2aa6-2ce4-4f87-bb0d-5299adaf3f08"
+    },
+    {
       "title": "No Kings 2.0",
       "date": "2025-10-18",
       "location": "Harbor Island Entrance, Mamaroneck",
@@ -647,6 +655,14 @@
       "lat": 40.6829839,
       "lng": -76.2024071,
       "link": "https://events.pol-rev.com/events/7071b8e9-ccf6-42e1-8ea2-0875d2083c9a"
+    },
+    {
+      "title": "Duluth No Kings!",
+      "date": "2025-10-18",
+      "location": "Duluth City Hall, 411 West 1st Street, Duluth, MN 55802, United States of America, Duluth",
+      "lat": 46.7838565,
+      "lng": -92.1052761,
+      "link": "https://events.pol-rev.com/events/b5db7f7b-895f-498a-91c7-34ad6a1476f2"
     },
     {
       "title": "No Kings - Dothan",
@@ -1167,46 +1183,6 @@
       "lat": 33.4708979,
       "lng": -112.073198,
       "link": "https://events.pol-rev.com/events/20b91100-c742-4484-addc-00ed889c97a1"
-    },
-    {
-      "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
-      "date": "2025-10-01",
-      "location": "",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/b07aea89-0c45-4c7d-89b2-f252ce1e11a1"
-    },
-    {
-      "title": "Bloomington Normal 50501 Book Club",
-      "date": "2025-10-01",
-      "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
-      "lat": 40.4765409,
-      "lng": -88.9914247,
-      "link": "https://events.pol-rev.com/events/e0510c37-e7be-4855-8ede-60d7c963d95a"
-    },
-    {
-      "title": "Hands Off Beverly Weekly Wednesday Protest",
-      "date": "2025-10-01",
-      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
-      "lat": 42.5488363,
-      "lng": -70.8778836,
-      "link": "https://events.pol-rev.com/events/fd8ee262-feed-4501-a107-e72471e9e882"
-    },
-    {
-      "title": "RhRR @ Moon Valley in North Central Phoenix",
-      "date": "2025-10-01",
-      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
-      "lat": 33.6261453,
-      "lng": -112.0663766,
-      "link": "https://events.pol-rev.com/events/c5e90e49-8b55-474e-b8a6-49ab29a574b7"
-    },
-    {
-      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-      "date": "2025-10-01",
-      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
-      "lat": 33.4974465,
-      "lng": -112.0838942,
-      "link": "https://events.pol-rev.com/events/6f50eb9d-b9b7-4c71-8a6f-e82ee7be6326"
     }
   ]
 }
