@@ -643,6 +643,62 @@ body.reader-mode .share-buttons {
   display: none !important;
 }
 
+#date-filter-bar button:hover {
+  background:#e1e1e1;
+}
+#date-filter-bar button:active {
+  background:#ccc;
+}
 
+/* Make “No Kings” pins stand out */
+.leaflet-marker-icon.nk-pin {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,.45);
+}
 
+.leaflet-marker-icon.nk-pin,
+.leaflet-marker-icon.nk-pin-debug {
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
 
+/* Make “No Kings” pins stand out a bit */
+.leaflet-marker-icon.nk-pin {
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,.45);
+}
+
+/* Individual NK pins */
+.leaflet-marker-icon.nk-pin {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,.45);
+}
+
+/* NK cluster icon */
+.leaflet-marker-icon.nk-cluster-icon {
+  background: transparent;
+  border: none;
+}
+.nk-cluster {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-image: url('/assets/images/no_kings_logo.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.45);
+}
+.nk-cluster .count {
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #333;
+  font: 700 11px/18px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  text-align: center;
+}

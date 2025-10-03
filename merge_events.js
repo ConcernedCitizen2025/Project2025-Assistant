@@ -92,78 +92,79 @@ async function geocodeMissing(list) {
 (async () => {
   await geocodeMissing(all);
 
-  // Cutoff: today in PST
-  const today = new Date().toLocaleDateString('en-CA', {
+// --- Cutoff: keep events whose end/begin is on/after TWO DAYS AGO (Pacific time)
+const ONE_DAY = 86_400_000;
+const nowUtc = new Date();
+const utcMillis = nowUtc.getTime() + nowUtc.getTimezoneOffset() * 60000;
+// PDT offset ~420 min (ok for current season)
+const PT_OFFSET_MIN = 420;
+const todayPT = new Date(utcMillis - PT_OFFSET_MIN * 60000);
+todayPT.setHours(0, 0, 0, 0);
+const cutoffDate = new Date(todayPT.getTime() - 2 * ONE_DAY);
+const cutoffStr = cutoffDate.toISOString().slice(0, 10);
+
+// Split into geo-coded vs virtual-only, ONLY applying the 2-day date rule
+const geo = all.filter(ev =>
+  ev.lat != null &&
+  ev.lng != null &&
+  ((ev.end || ev.begin || '') >= cutoffStr)
+);
+
+const virtual = all
+  .filter(ev =>
+    (ev.lat == null || ev.lng == null) &&
+    ((ev.end || ev.begin || '') >= cutoffStr)
+  )
+  .sort((a, b) => a.begin.localeCompare(b.begin));
+
+console.log(`📊 Summary — Total: ${all.length}, Geo: ${geo.length}, Virtual: ${virtual.length}`);
+
+// Add state code for convenience (propagates because objects are shared)
+all.forEach((ev) => {
+  if (typeof ev.location === 'string') {
+    const parts = ev.location.split(',');
+    const last = parts[parts.length - 1].trim();
+    const st = last.split(' ').pop().toUpperCase();
+    ev.state = st.length === 2 ? st : 'OTHER';
+  } else {
+    ev.state = 'OTHER';
+  }
+});
+
+// Write merged files
+fs.writeFileSync(
+  path.join(__dirname, 'assets/data/merged_events.json'),
+  JSON.stringify({ data: geo }, null, 2),
+  'utf8'
+);
+
+fs.writeFileSync(
+  path.join(__dirname, 'assets/data/virtual_events.json'),
+  JSON.stringify({ data: virtual }, null, 2),
+  'utf8'
+);
+
+// Metadata (rename var to avoid 'now' name clash elsewhere)
+const nowPTLabel =
+  new Date().toLocaleDateString('en-US', {
     timeZone: 'America/Los_Angeles',
+    month: 'long',
+    day: 'numeric',
     year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
+  }) +
+  ' at ' +
+  new Date().toLocaleTimeString('en-US', {
+    timeZone: 'America/Los_Angeles',
+    hour12: true,
+    hour: '2-digit',
+    minute: '2-digit',
   });
 
-  // Split into geo-coded vs virtual-only upcoming
-  const geo = all.filter(
-    (ev) =>
-      ev.lat != null &&
-      ev.lng != null &&
-      (!ev.end || ev.end >= today || ev.begin >= today)
-  );
+fs.writeFileSync(
+  path.join(__dirname, 'assets/data/events_meta.json'),
+  JSON.stringify({ lastUpdated: nowPTLabel }, null, 2),
+  'utf8'
+);
 
-  const virtual = all
-    .filter(
-      (ev) =>
-        (ev.lat == null || ev.lng == null) &&
-        (!ev.end || ev.end >= today || ev.begin >= today)
-    )
-    .sort((a, b) => a.begin.localeCompare(b.begin));
-
-  console.log(`📊 Summary — Total: ${all.length}, Geo: ${geo.length}, Virtual: ${virtual.length}`);
-
-  // Add state code for convenience
-  all.forEach((ev) => {
-    if (typeof ev.location === 'string') {
-      const parts = ev.location.split(',');
-      const last = parts[parts.length - 1].trim();
-      const st = last.split(' ').pop().toUpperCase();
-      ev.state = st.length === 2 ? st : 'OTHER';
-    } else {
-      ev.state = 'OTHER';
-    }
-  });
-
-  // Write merged files
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/merged_events.json'),
-    JSON.stringify({ data: geo }, null, 2),
-    'utf8'
-  );
-
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/virtual_events.json'),
-    JSON.stringify({ data: virtual }, null, 2),
-    'utf8'
-  );
-
-  // Metadata
-  const now =
-    new Date().toLocaleDateString('en-US', {
-      timeZone: 'America/Los_Angeles',
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-    }) +
-    ' at ' +
-    new Date().toLocaleTimeString('en-US', {
-      timeZone: 'America/Los_Angeles',
-      hour12: true,
-      hour: '2-digit',
-      minute: '2-digit',
-    });
-
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/events_meta.json'),
-    JSON.stringify({ lastUpdated: now }, null, 2),
-    'utf8'
-  );
-
-  console.log(`✅ Wrote ${geo.length} geo-events and ${virtual.length} virtual-events`);
-})();
+console.log(`✅ Wrote ${geo.length} geo-events and ${virtual.length} virtual-events`);
+})(); // ← close the IIFE you opened earlier

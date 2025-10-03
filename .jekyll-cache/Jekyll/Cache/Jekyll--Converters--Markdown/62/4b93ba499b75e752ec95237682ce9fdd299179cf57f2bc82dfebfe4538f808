@@ -1,4 +1,4 @@
-I"�<div style="text-align: center;">
+I"�<div style="text-align: center;">
   <div style="display: inline-flex; align-items: center; gap: 20px; margin-bottom: 20px;">
     <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto;" />
     <img src="/assets/images/protests/no_kings_logo.jpg" alt="No Kings Protest Logo" style="max-width: 300px; height: auto;" />
@@ -66,22 +66,49 @@
         <tr>
           <td style="padding:8px;"><strong>McDonald’s</strong></td>
           <td style="padding:8px;">June 24–30</td>
-          <td style="padding:8px;"></td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Independence Day boycott</strong></td>
+          <td style="padding:8px;">July 4th</td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Starbucks, Amazon, and Home Depot</strong></td>
+          <td style="padding:8px;">July 1-31</td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Walmart, McDonald's, and Lowe's</strong></td>
+          <td style="padding:8px;">August 1-31</td>
+          <td style="padding:8px;">✅</td>
         </tr>
       </tbody>
     </table>
+    <h3>Companies to boycott that are linked to ICE: <strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. <em>See the video to the right for more info.</em></h3>
     <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
   </div>
 
   <!-- Right column: smaller video -->
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
-      <source src="/assets/videos/protest_guidance.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-      Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
-    </p>
+    <div>
+      <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
+        <source src="/assets/videos/protest_guidance.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
+      </p>
+    </div>
+    <div>
+      <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
+        <source src="/assets/videos/ice_boycotts.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DLdDhQRyVAd/?igsh=MTM2dmg2amFocnNwdg%3D%3D" target="_blank">@micthagoodkid</a>. Originally posted on Instagram.
+      </p>
+    </div>
   </div>
 
 </div>
@@ -90,14 +117,17 @@
 
 <h2 id="-interactive-protest-map">📍 Interactive Protest Map</h2>
 
-<p><strong>Last updated:</strong> June 24, 2025 at 4:02 am WTZ (automatically refreshed daily)</p>
-<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action. 
+<div id="map-last-updated">
+  <strong>Last updated:</strong>
+  <em>Loading…</em>
+</div>
+
+<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action.</p>
 
 <div id="california-map" style="height: 600px;"></div>
-<script defer="" src="/assets/js/california-protest-map.js?v=1750737778"></script>
+<script defer="" src="/assets/js/california-protest-map.js?v=1759456599"></script>
 
-
-## 🖼️ Free Protest Signs to Download
+<h2 id="️-free-protest-signs-to-download">🖼️ Free Protest Signs to Download</h2>
 
 <div style="text-align: center; margin-top: 40px;">
   <a href="/signs">
@@ -106,9 +136,9 @@
   <p style="margin-top: 10px; font-size: 0.95em;">Click the image to browse and download ready-to-print protest signs.</p>
 </div>
 
----
+<hr />
 
-For a fuller view of events visit:</p>
+<p>For a fuller view of events visit:&lt;/p&gt;</p>
 <ul>
   <li><a href="https://events.pol-rev.com/search?mode=MAP&amp;eventPage=1&amp;bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&amp;zoom=6&amp;sortByEvents=START_TIME_ASC&amp;isOnline=false&amp;contentType=EVENTS" target="_blank">Full Protest Map on events.pol-rev.com (powered by Mobilizon)</a></li>
   <li><a href="https://www.mobilize.us/map/?show_all_events=true&amp;tag_ids=26053" target="_blank">Mobilize.us Event Directory</a></li>

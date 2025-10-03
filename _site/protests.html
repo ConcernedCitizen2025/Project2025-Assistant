@@ -1,148 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find a Protest or Boycott Near You - 50 50 01</title>
 
-    <!-- Dynamic Meta Description ->
-    
-    <meta name="description" content="Find and join a 50 50 01 protest or boycott across the U.S. Stay updated on upcoming events and make your voice heard.">
-    
-
-    <!-- Dynamic Meta Keywords ->
-    
-    <meta name="keywords" content="protest, boycott, 50 50 01, political activism, national protests, economic blackout">
-    
-    <link rel="stylesheet" href="/assets/css/styles.css">
-
-    <!-- Favicon and related icons ->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp">
-    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp">
-    <link rel="icon" type="image/webp" sizes="16x16" href="/assets/images/favicon4/favicon-16x16.webp">
-    <link rel="manifest" href="/assets/images/favicon4/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicon4/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B4NGY0TYJ6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B4NGY0TYJ6');
-</script>
-
-    <!-- Load Leaflet CSS First ->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
-
-    <!--map adjustment, clusters->
-    <!-- ✅ Leaflet Core ->
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-    <!-- ✅ MarkerCluster Plugin ->
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
-    />
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
-    />
-    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-
-    <!-- ✅ Your Custom Script ->
-    <script src="/assets/js/california-protest-map.js"></script>
-
-
-
-
-    
-    <!-- Custom styling ->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .content-wrapper {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 5px 5px;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            hyphens: auto;
-            text-align: left;
-        }
-
-        .content-wrapper h3, .content-wrapper h4, .content-wrapper p {
-            white-space: normal;
-            word-spacing: 0;
-            line-height: 1.5;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        @media screen and (max-width: 768px) {
-            nav ul {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-            }
-
-            nav ul.showing {
-                display: flex;
-            }
-
-            .hamburger {
-                display: block;
-                font-size: 30px;
-                cursor: pointer;
-                text-align: center;
-                margin: 10px auto;
-            }
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            cursor: pointer;
-            z-index: 9999;
-        }
-
-        .back-to-top img {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-
-</head>-->
 
 <head>
   <!-- ✅ Corrected and Reorganized Head Section -->
@@ -163,10 +21,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-
+  
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon4/apple-touch-icon.webp" />
   <link rel="icon" type="image/webp" sizes="32x32" href="/assets/images/favicon4/favicon-32x32.webp" />
@@ -186,39 +41,20 @@
   gtag('config', 'G-B4NGY0TYJ6');
 </script>
 
-    <!-- 1) Leaflet core & clustering -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  />
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    defer
-  ></script>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
-  />
-  <script
-    src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
-    defer
-  ></script>
+  <!-- 1) Leaflet core & clustering -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
-  <!-- 2) Control-Geocoder -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
-  />
-  <script
-    src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"
-    defer
-  ></script>
+  <!-- 2) Control-Geocoder (optional; your JS checks for it) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <script defer src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
   <!-- 3) Your map code -->
-  <script
-    src="/assets/js/california-protest-map.js?v=1750738340"
-    defer
-  ></script>
+  <script defer src="/assets/js/california-protest-map.js?v=1759456599"></script>
+
 
 
   <!-- Sign tracker -->
@@ -410,22 +246,49 @@ function googleTranslateElementInit() {
         <tr>
           <td style="padding:8px;"><strong>McDonald’s</strong></td>
           <td style="padding:8px;">June 24–30</td>
-          <td style="padding:8px;"></td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Independence Day boycott</strong></td>
+          <td style="padding:8px;">July 4th</td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Starbucks, Amazon, and Home Depot</strong></td>
+          <td style="padding:8px;">July 1-31</td>
+          <td style="padding:8px;">✅</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>Walmart, McDonald's, and Lowe's</strong></td>
+          <td style="padding:8px;">August 1-31</td>
+          <td style="padding:8px;">✅</td>
         </tr>
       </tbody>
     </table>
+    <h3>Companies to boycott that are linked to ICE: <strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. <em>See the video to the right for more info.</em></h3>
     <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
   </div>
 
   <!-- Right column: smaller video -->
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
-      <source src="/assets/videos/protest_guidance.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-      Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
-    </p>
+    <div>
+      <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
+        <source src="/assets/videos/protest_guidance.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
+      </p>
+    </div>
+    <div>
+      <video controls="" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;" preload="metadata">
+        <source src="/assets/videos/ice_boycotts.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
+        Video by <a href="https://www.instagram.com/reel/DLdDhQRyVAd/?igsh=MTM2dmg2amFocnNwdg%3D%3D" target="_blank">@micthagoodkid</a>. Originally posted on Instagram.
+      </p>
+    </div>
   </div>
 
 </div>
@@ -434,14 +297,17 @@ function googleTranslateElementInit() {
 
 <h2 id="-interactive-protest-map">📍 Interactive Protest Map</h2>
 
-<p><strong>Last updated:</strong> June 24, 2025 at 4:12 am WTZ (automatically refreshed daily)</p>
-<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action. 
+<div id="map-last-updated">
+  <strong>Last updated:</strong>
+  <em>Loading…</em>
+</div>
+
+<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action.</p>
 
 <div id="california-map" style="height: 600px;"></div>
-<script defer="" src="/assets/js/california-protest-map.js?v=1750738340"></script>
+<script defer="" src="/assets/js/california-protest-map.js?v=1759456599"></script>
 
-
-## 🖼️ Free Protest Signs to Download
+<h2 id="️-free-protest-signs-to-download">🖼️ Free Protest Signs to Download</h2>
 
 <div style="text-align: center; margin-top: 40px;">
   <a href="/signs">
@@ -450,9 +316,9 @@ function googleTranslateElementInit() {
   <p style="margin-top: 10px; font-size: 0.95em;">Click the image to browse and download ready-to-print protest signs.</p>
 </div>
 
----
+<hr />
 
-For a fuller view of events visit:</p>
+<p>For a fuller view of events visit:&lt;/p&gt;</p>
 <ul>
   <li><a href="https://events.pol-rev.com/search?mode=MAP&amp;eventPage=1&amp;bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&amp;zoom=6&amp;sortByEvents=START_TIME_ASC&amp;isOnline=false&amp;contentType=EVENTS" target="_blank">Full Protest Map on events.pol-rev.com (powered by Mobilizon)</a></li>
   <li><a href="https://www.mobilize.us/map/?show_all_events=true&amp;tag_ids=26053" target="_blank">Mobilize.us Event Directory</a></li>

@@ -1,22 +1,11 @@
 // fetch_mobilizon_events.js
-const fetch = require('node-fetch');    // npm install node-fetch@2
-const fs    = require('fs');
-const path  = require('path');
+const fetch = require('node-fetch'); // npm install node-fetch@2
+const fs = require('fs');
+const path = require('path');
 
-// your protest-related keywords (lowercase)
-const KEYWORDS = [
-  "politics","political","federal politics","state politics","local politics",
-  "climate change","canvass","defend reproductive rights","gun violence prevention",
-  "voting rights","protest","protests","protesting","rally","rallies","rallying",
-  "trump","musk","ice","immigration","detention","fight","law","kick out the clowns",
-  "not a king","no kings","dems","democrat","democratic","palestine","genocide",
-  "checks and balances","50501","505001","peaceful","defend","rights"
-];
-
-// Mobilizon GraphQL endpoint (same as your instance’s /api) :contentReference[oaicite:1]{index=1}
 const API_URL = 'https://events.pol-rev.com/api';
 
-// Query: gets the EventSearchResult fields + inline fragment to grab full Event.url
+// GraphQL query to get events starting from now
 const QUERY = `
   query SearchEvents($beginsOn: DateTime, $limit: Int) {
     searchEvents(beginsOn: $beginsOn, limit: $limit) {
@@ -27,7 +16,6 @@ const QUERY = `
         beginsOn
         endsOn
         status
-        tags { slug title }
         physicalAddress { description geom locality }
         ... on Event {
           url
@@ -41,14 +29,16 @@ const QUERY = `
 
 async function fetchMobilizon() {
   try {
-    const today = new Date().toISOString();
+    console.log("Fetching Mobilizon events...");
+    const twoDaysAgoISO = new Date(Date.now() - 2 * 86400000).toISOString();
+
     const res = await fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         query: QUERY,
-        variables: { beginsOn: today, limit: 1000 }
-      })
+        variables: { beginsOn: twoDaysAgoISO, limit: 1000 },
+      }),
     });
 
     const { data, errors } = await res.json();
@@ -58,37 +48,27 @@ async function fetchMobilizon() {
     }
 
     let events = data.searchEvents.elements || [];
+    console.log(`⚡️ Fetched ${events.length} raw Mobilizon events`);
 
-    // Keep only future (or ongoing) events
-    const now = new Date();
-    events = events.filter(ev =>
-      ev.beginsOn && new Date(ev.beginsOn) >= now
-    );
+    // Keep only events beginning on/after the 2-day cutoff
+    const cutoff = new Date(Date.now() - 2 * 86400000);
+    events = events.filter(ev => ev.beginsOn && new Date(ev.beginsOn) >= cutoff);
 
-    // Keyword filter on title + address text
-    events = events.filter(ev => {
-      const hay = [
-        ev.title,
-        ev.physicalAddress?.description || '',
-        ev.physicalAddress?.locality   || '',
-        ev.onlineAddress               || ''
-      ].join(' ').toLowerCase();
-      return KEYWORDS.some(kw => hay.includes(kw));
-    });
+    console.log(`⚡️ After removing past events: ${events.length}`);
 
     // Dedupe by id|beginsOn|geom
     const seen = new Set();
     events = events.filter(ev => {
       const geom = ev.physicalAddress?.geom || '';
-      const key  = `${ev.id}|${ev.beginsOn}|${geom}`;
+      const key = `${ev.id}|${ev.beginsOn}|${geom}`;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     });
+    console.log(`⚡️ After dedupe: ${events.length}`);
 
     // Transform into your desired output shape
     const output = events.map(ev => {
-      // parse "lng;lat"
       let lat = null, lng = null;
       if (ev.physicalAddress?.geom) {
         const [lngStr, latStr] = ev.physicalAddress.geom.split(';');
@@ -98,16 +78,20 @@ async function fetchMobilizon() {
 
       const locationParts = [];
       if (ev.physicalAddress?.description) locationParts.push(ev.physicalAddress.description);
-      if (ev.physicalAddress?.locality)    locationParts.push(ev.physicalAddress.locality);
+      if (ev.physicalAddress?.locality) locationParts.push(ev.physicalAddress.locality);
       const location = locationParts.join(', ');
 
       const link = ev.url
         ? ev.url
         : `https://events.pol-rev.com/events/${ev.uuid}`;
 
+      // ✅ Convert to PT date instead of slicing ISO string
+      const begins = new Date(ev.beginsOn);
+      const date = begins.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
       return {
-        title:    ev.title,
-        date:     ev.beginsOn.slice(0,10),  // "YYYY-MM-DD"
+        title: ev.title,
+        date,
         location,
         lat,
         lng,
@@ -115,14 +99,15 @@ async function fetchMobilizon() {
       };
     });
 
-    // Write out to your data folder
+
+    // Write final JSON
     const outPath = path.join(__dirname, 'assets/data/mobilizon_events.json');
-    fs.writeFileSync(outPath, JSON.stringify({ data: output }, null, 2));
-    console.log(`✅ Wrote ${output.length} events to ${outPath}`);
+    fs.writeFileSync(outPath, JSON.stringify({ data: output }, null, 2), 'utf8');
+
+    console.log(`✅ Wrote ${output.length} Mobilizon events → ${outPath}`);
   } catch (err) {
     console.error('❌ Error fetching Mobilizon events:', err);
   }
 }
 
 fetchMobilizon();
-
