@@ -3,7 +3,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+const http = require('http');       // ← add
+const https = require('https');     // (keep)
+const { URL } = require('url');     // ← add
+
 
 const csvUrl = process.argv[2];
 if (!csvUrl) {
@@ -11,16 +14,46 @@ if (!csvUrl) {
   process.exit(1);
 }
 
-function fetchText(url) {
+function fetchText(url, redirects = 0) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      if (res.statusCode !== 200) return reject(new Error(`HTTP ${res.statusCode}`));
-      let data = '';
-      res.on('data', (c) => (data += c));
-      res.on('end', () => resolve(data));
-    }).on('error', reject);
+    if (redirects > 5) return reject(new Error('Too many redirects'));
+
+    const u = new URL(url);
+    const client = u.protocol === 'http:' ? http : https;
+
+    const req = client.get(
+      {
+        hostname: u.hostname,
+        path: u.pathname + u.search,
+        headers: { 'User-Agent': 'P25A-Action/1.0' },
+      },
+      (res) => {
+        // Follow 3xx Location redirects (e.g., Google’s 307/308)
+        if (
+          res.statusCode &&
+          res.statusCode >= 300 &&
+          res.statusCode < 400 &&
+          res.headers.location
+        ) {
+          const next = new URL(res.headers.location, u).toString();
+          res.resume(); // drain body before following
+          return resolve(fetchText(next, redirects + 1));
+        }
+
+        if (res.statusCode !== 200) {
+          return reject(new Error(`HTTP ${res.statusCode}`));
+        }
+
+        let data = '';
+        res.on('data', (c) => (data += c));
+        res.on('end', () => resolve(data));
+      }
+    );
+
+    req.on('error', reject);
   });
 }
+
 
 // minimal CSV parser covering quotes and commas.
 function parseCSV(text) {
