@@ -1,6 +1,8 @@
 // Videos feed renderer — reads /assets/data/videos.json and embeds
 (function(){
   const GRID_ID = 'video-feed-grid';
+  const EMBED_INSTAGRAM = false;  // keep false to avoid login-gates
+  const EMBED_FACEBOOK  = false;  // keep false to avoid login-gates
   const DATA_URL = '/assets/data/videos.json?cb=' + Date.now();
 
   const $grid = document.getElementById(GRID_ID);
@@ -45,17 +47,48 @@
         return cardWrap(embed, meta);
       }
 
-      if (type === 'instagram'){
-        // blockquote per Instagram embed
-        const embed = `<blockquote class="instagram-media" data-instgrm-permalink="${escapeHtml(url)}" data-instgrm-version="14" style="background:#FFF; border:0; margin:0; padding:0; width:100%;"></blockquote>`;
-        return cardWrap(embed, meta);
+            if (type === 'instagram'){
+        if (EMBED_INSTAGRAM) {
+          const embed = `<blockquote class="instagram-media" data-instgrm-permalink="${escapeHtml(url)}" data-instgrm-version="14" style="background:#FFF;border:0;margin:0;padding:0;width:100%;"></blockquote>`;
+          return cardWrap(embed, meta);
+        } else {
+          // link card (no login required)
+          const card = `
+            <div style="position:relative;padding-top:56.25%;background:#f7f7f7;display:flex;align-items:center;justify-content:center;">
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:600;">
+                Open on Instagram
+              </div>
+            </div>
+            <div style="padding:10px;">
+              <a href="${escapeHtml(url)}" target="_blank" rel="noopener" style="display:inline-block;padding:8px 12px;border-radius:6px;border:1px solid #ccc;text-decoration:none;">
+                View on Instagram ↗
+              </a>
+            </div>`;
+          return cardWrap(card, meta);
+        }
       }
 
       if (type === 'facebook'){
-        // fb-video element
-        const embed = `<div class="fb-video" data-href="${escapeHtml(url)}" data-allowfullscreen="true" data-width="500"></div>`;
-        return cardWrap(embed, meta);
+        if (EMBED_FACEBOOK) {
+          const embed = `<div class="fb-video" data-href="${escapeHtml(url)}" data-allowfullscreen="true" data-width="500"></div>`;
+          return cardWrap(embed, meta);
+        } else {
+          // link card (no login required)
+          const card = `
+            <div style="position:relative;padding-top:56.25%;background:#f1f5f9;display:flex;align-items:center;justify-content:center;">
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:600;">
+                Open on Facebook
+              </div>
+            </div>
+            <div style="padding:10px;">
+              <a href="${escapeHtml(url)}" target="_blank" rel="noopener" style="display:inline-block;padding:8px 12px;border-radius:6px;border:1px solid #ccc;text-decoration:none;">
+                View on Facebook ↗
+              </a>
+            </div>`;
+          return cardWrap(card, meta);
+        }
       }
+
 
       // Fallback: simple link
       const link = `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">Open video</a>`;
