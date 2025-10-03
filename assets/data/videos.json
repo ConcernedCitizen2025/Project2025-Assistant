@@ -2,22 +2,10 @@
   "items": [
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "title": "Example: YouTube clip",
-      "posted": "2025-10-01",
-      "tags": ["project2025"]
-    },
-    {
-      "type": "instagram",
-      "url": "https://www.instagram.com/reel/XXXXXXXXXXX/",
-      "title": "Example: Instagram Reel",
-      "posted": "2025-10-02"
-    },
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/watch/?v=1234567890",
-      "title": "Example: Facebook Video",
-      "posted": "2025-10-02"
+      "url": "https://www.youtube.com/watch?v=vJY-MMCUARo",
+      "title": "MAGA Mike CAUGHT on Hot Mic TRASHING Trump FOR SHUTDOWN - YouTube",
+      "posted": "2025-10-02",
+      "source": "youtube"
     }
   ]
 }
