@@ -22,7 +22,7 @@ function fetchText(url) {
   });
 }
 
-// minimal CSV parser covering quotes and commas
+// minimal CSV parser covering quotes and commas.
 function parseCSV(text) {
   const rows = [];
   let i = 0, field = '', row = [], inQuotes = false;
