@@ -68,7 +68,7 @@ While the *One Big Beautiful Bill* does not use the word "Greenland," the specif
 <div style="text-align: center; background-color: #ff4d4d; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);">
     <h2 style="font-size: 2em; font-weight: bold;">🚨PROTESTS & BOYCOTTS ARE HAPPENING NOW!🚨</h2>
     <p style="font-size: 1.2em;">Protests and rallies are happening nationwide. Find an event near you and take action!</p>
-    <a href="https://project2025assistant.org/protests" 
+    <a href="{{ '/protests' | relative_url }}" 
        style="display: inline-block; background-color: white; color: #ff4d4d; font-weight: bold; padding: 10px 20px; font-size: 1.2em; border-radius: 5px; text-decoration: none; margin-top: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
        📍 FIND YOUR PROTEST NOW
     </a>

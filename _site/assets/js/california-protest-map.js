@@ -181,7 +181,7 @@ console.log('[P25A map] v2025-10-02-ALLRAW');
 function applyPreset(days) {
   if (days === "all") {
     console.log("applyPreset: all → rendering RAW length", raw.length);
-    return render(raw, "All (last 2 days + upcoming)"); // ← NO FRONTEND FILTERS
+    return render(raw, "All (last 1 day + upcoming)");// ← NO FRONTEND FILTERS
   }
 
   // numeric presets: keep windowed behavior

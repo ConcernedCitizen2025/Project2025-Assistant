@@ -100,7 +100,7 @@ const utcMillis = nowUtc.getTime() + nowUtc.getTimezoneOffset() * 60000;
 const PT_OFFSET_MIN = 420;
 const todayPT = new Date(utcMillis - PT_OFFSET_MIN * 60000);
 todayPT.setHours(0, 0, 0, 0);
-const cutoffDate = new Date(todayPT.getTime() - 2 * ONE_DAY);
+const cutoffDate = new Date(todayPT.getTime() - 1 * ONE_DAY);
 const cutoffStr = cutoffDate.toISOString().slice(0, 10);
 
 // Split into geo-coded vs virtual-only, ONLY applying the 2-day date rule
