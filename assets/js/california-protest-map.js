@@ -174,85 +174,47 @@ if (window.__P25A_MAP_LOADED__) {
 
 
 
-    function applyPreset(days) {
-      const todayStr = fmt(today); // YYYY-MM-DD in PT
+    // --- VERSION MARKER (so we know this file is actually loaded)
+console.log('[P25A map] v2025-10-02-ALLRAW');
 
-      if (days === "all") {
-        // Show all upcoming/ongoing with coords (no past)
-        const filtered = raw.filter(ev =>
-          ev.lat != null && ev.lng != null &&
-          ((ev.end || ev.begin) >= todayStr)
-        );
-        return render(filtered, "All (upcoming)");
-      }
+// Completely replace your applyPreset with this:
+function applyPreset(days) {
+  if (days === "all") {
+    console.log("applyPreset: all → rendering RAW length", raw.length);
+    return render(raw, "All (last 1 day + upcoming)");// ← NO FRONTEND FILTERS
+  }
 
-      // Numeric presets: starts within window AND not past
-      const cutoffStr = fmt(new Date(today.getTime() + (days - 1) * ONE_DAY));
-      const filtered = raw.filter(ev => {
-        if (ev.lat == null || ev.lng == null) return false;
-        const b = ev.begin;                  // "YYYY-MM-DD"
-        const e = ev.end || ev.begin;        // "YYYY-MM-DD"
-        if (!b && !e) return false;
-        return e >= todayStr && b <= cutoffStr;
-      });
+  // numeric presets: keep windowed behavior
+  const cutoffStr = fmt(new Date(today.getTime() + (parseInt(days, 10) - 1) * ONE_DAY));
+  const twoDaysAgoStr = fmt(new Date(today.getTime() - 2 * ONE_DAY));
+  const filtered = raw.filter(ev => {
+    if (ev.lat == null || ev.lng == null) return false;
+    const b = ev.begin, e = ev.end || ev.begin;
+    // show events that are running at least into the last 2 days,
+    // and whose start is within the selected window
+    return (e >= twoDaysAgoStr) && (b <= cutoffStr);
+  });
 
-      render(filtered, labelOf(days));
-    }
+  return render(filtered, labelOf(days));
+}
 
-    function openCustom() {
-      const wrap = document.createElement("div");
-      Object.assign(wrap.style, {
-        position: "fixed", inset: 0, background: "rgba(0,0,0,.4)",
-        display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999
-      });
-      wrap.innerHTML = `<div style="background:#fff;padding:20px;border-radius:8px;text-align:center">
-        <h3 style="margin-top:0">Custom Range</h3>
-        <label>Start:<br><input type="date" id="start"></label><br><br>
-        <label>End:<br><input type="date" id="end"></label><br><br>
-        <button id="apply">Apply</button> <button id="cancel">Cancel</button>
-      </div>`;
-      document.body.appendChild(wrap);
+// Completely replace your initFilter tail with this:
+function initFilter() {
+  uiBar.querySelectorAll("button").forEach(btn => {
+    btn.onclick = () => {
+      const v = btn.dataset.days;
+      if (v === "custom") return openCustom();
+      localStorage.setItem("p25a-date-range", v);
+      applyPreset(v === "all" ? "all" : parseInt(v, 10));
+    };
+  });
 
-      // Default both inputs to today (PT)
-      wrap.querySelector("#start").value = fmt(today);
-      wrap.querySelector("#end").value = fmt(today);
+  // Force initial view to ALL to match backend (last 2 days + upcoming)
+  localStorage.setItem("p25a-date-range", "all");
+  applyPreset("all");
+}
 
-      wrap.querySelector("#apply").onclick = () => {
-        const startStr = wrap.querySelector("#start").value; // YYYY-MM-DD
-        const endStr   = wrap.querySelector("#end").value;   // YYYY-MM-DD
 
-        const list = raw.filter(ev => {
-          if (ev.lat == null || ev.lng == null) return false;
-          const b = ev.begin;
-          const e = ev.end || ev.begin;
-          if (!b && !e) return false;
-          // overlap test using safe string comparisons
-          return e >= startStr && b <= endStr;
-        });
-
-        render(list, `${new Date(startStr).toLocaleDateString()} – ${new Date(endStr).toLocaleDateString()}`);
-        localStorage.setItem("p25a-date-range", "custom");
-        wrap.remove();
-      };
-
-      wrap.querySelector("#cancel").onclick = () => wrap.remove();
-    }
-
-    function initFilter() {
-      // Always default to ALL on load so we don’t silently shrink due to old localStorage
-      localStorage.setItem("p25a-date-range", "all");
-      applyPreset("all");
-
-      // Wire buttons
-      uiBar.querySelectorAll("button").forEach(btn => {
-        btn.onclick = () => {
-          const v = btn.dataset.days;
-          if (v === "custom") return openCustom();
-          localStorage.setItem("p25a-date-range", v);
-          applyPreset(v === "all" ? "all" : parseInt(v, 10));
-        };
-      });
-    }
 
 
     /* ---------------------------------------------------------------- 7. Virtual Events Toggle */

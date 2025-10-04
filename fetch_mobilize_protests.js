@@ -15,16 +15,18 @@ const BASE_URL = "https://api.mobilize.us/v1/events";
 
 // Build initial query (page 1)
 function buildUrl(page = 1) {
-  return (
-    BASE_URL +
-    "?" +
-    new URLSearchParams({
-      timeslot_start: "gte_now",
-      per_page: "100",
-      page: page.toString(),
-    }).toString()
-  );
+  // two days ago (UTC) in epoch seconds
+  const twoDaysAgoSec = Math.floor(Date.now() / 1000) - 2 * 24 * 60 * 60;
+
+  const params = new URLSearchParams({
+    timeslot_start: `gte_${twoDaysAgoSec}`, // ← backticks ensure interpolation
+    per_page: '100',
+    page: String(page),
+  });
+
+  return `${BASE_URL}?${params.toString()}`;
 }
+
 
 // Fetch all pages of events
 async function fetchAll() {

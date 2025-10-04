@@ -30,14 +30,14 @@ const QUERY = `
 async function fetchMobilizon() {
   try {
     console.log("Fetching Mobilizon events...");
-    const today = new Date().toISOString();
+    const twoDaysAgoISO = new Date(Date.now() - 2 * 86400000).toISOString();
 
     const res = await fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         query: QUERY,
-        variables: { beginsOn: today, limit: 1000 },
+        variables: { beginsOn: twoDaysAgoISO, limit: 1000 },
       }),
     });
 
@@ -50,9 +50,9 @@ async function fetchMobilizon() {
     let events = data.searchEvents.elements || [];
     console.log(`⚡️ Fetched ${events.length} raw Mobilizon events`);
 
-    // Keep only future events
-    const now = new Date();
-    events = events.filter(ev => ev.beginsOn && new Date(ev.beginsOn) >= now);
+    // Keep only events beginning on/after the 2-day cutoff
+    const cutoff = new Date(Date.now() - 2 * 86400000);
+    events = events.filter(ev => ev.beginsOn && new Date(ev.beginsOn) >= cutoff);
 
     console.log(`⚡️ After removing past events: ${events.length}`);
 
