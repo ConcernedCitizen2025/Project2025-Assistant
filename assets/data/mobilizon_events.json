@@ -1187,10 +1187,18 @@
     {
       "title": "No Thrones.No Crowns.No Kings.",
       "date": "2025-10-18",
-      "location": "",
+      "location": "The Bear, Idaho",
       "lat": null,
       "lng": null,
       "link": "https://events.pol-rev.com/events/0a14a0b9-5fbd-421f-bc71-8da26880ef00"
+    },
+    {
+      "title": "No Kings Day 2.0 - Mineola, TX",
+      "date": "2025-10-18",
+      "location": "Meet at Gazebo first - E. Broad (US 80) and N. Pacific (US 69), Mineola",
+      "lat": 32.663342,
+      "lng": -95.48809,
+      "link": "https://events.pol-rev.com/events/f6d67082-ee05-46f6-ba31-d28c60e7f321"
     },
     {
       "title": "No Kings Rally Pottsville, PA",
@@ -1687,38 +1695,6 @@
       "lat": 37.2267869,
       "lng": -95.7065088,
       "link": "https://events.pol-rev.com/events/b5efb2df-ab22-4502-8bee-74f2bdb20b8e"
-    },
-    {
-      "title": "NO FASCISM Fridays McFarland, WI",
-      "date": "2025-10-10",
-      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
-      "lat": 43.0131401,
-      "lng": -89.2906864,
-      "link": "https://events.pol-rev.com/events/833f9a71-a358-4196-b6d0-67aba1eab154"
-    },
-    {
-      "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-      "date": "2025-10-09",
-      "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
-      "lat": 33.5237023,
-      "lng": -112.0989607,
-      "link": "https://events.pol-rev.com/events/f65959bd-258b-4cbe-b249-80510da6ba01"
-    },
-    {
-      "title": "50501 Chalks:  Cheezy Chalkin'",
-      "date": "2025-10-09",
-      "location": "Red Raccoon Games, 301 North Main Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4805563,
-      "lng": -88.993499,
-      "link": "https://events.pol-rev.com/events/67f65791-2060-4e54-ae7b-6b5ae42027c7"
-    },
-    {
-      "title": "RhRR @ the ICE Field Office in central Phoenix",
-      "date": "2025-10-09",
-      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
-      "lat": 33.4708979,
-      "lng": -112.073198,
-      "link": "https://events.pol-rev.com/events/e03debfd-de9e-4309-a8e6-e8fe0f48c312"
     }
   ]
 }
