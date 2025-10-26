@@ -180,8 +180,25 @@ console.log('[P25A map] v2025-10-02-ALLRAW');
 // Completely replace your applyPreset with this:
 function applyPreset(days) {
   if (days === "all") {
-    console.log("applyPreset: all → rendering RAW length", raw.length);
-    return render(raw, "All (last 1 day + upcoming)");// ← NO FRONTEND FILTERS
+    // Force All to mean: last 1 day + upcoming (in PT) even if backend lags
+    const ONE_DAY = 86400000;
+    const now = new Date();
+    const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+    const PT_OFFSET_MIN = 420; // PDT; if you want exact, we can compute via Intl, but this is fine right now
+    const todayPT = new Date(utc - PT_OFFSET_MIN * 60000);
+    todayPT.setHours(0, 0, 0, 0);
+    const yesterdayStr = new Date(todayPT.getTime() - 1 * ONE_DAY).toISOString().slice(0, 10);
+
+    const filtered = raw.filter(ev => {
+      if (ev.lat == null || ev.lng == null) return false;
+      const b = ev.begin;
+      const e = ev.end || ev.begin;
+      if (!b && !e) return false;
+      return (e >= yesterdayStr);  // keep only yesterday+future
+    });
+
+    console.log('[map] ALL filtered to >=', yesterdayStr, 'count=', filtered.length);
+    return render(filtered, "All (last 1 day + upcoming)");
   }
 
   // numeric presets: keep windowed behavior
