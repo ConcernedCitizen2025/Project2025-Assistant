@@ -545,6 +545,14 @@
       "link": "https://events.pol-rev.com/events/0d69bed6-4688-4d21-999c-ede54e14c897"
     },
     {
+      "title": "Disconnect ICE, Disconnect AT&T",
+      "date": "2025-11-16",
+      "location": "AT&T, Bloomington",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/fa798d61-3d45-4838-a9bb-b2898ca97fcb"
+    },
+    {
       "title": "Stand Up For Democracy",
       "date": "2025-11-15",
       "location": "Vallejo-Benicia Indivisible, Vallejo",
@@ -911,38 +919,6 @@
       "lat": 33.4708979,
       "lng": -112.073198,
       "link": "https://events.pol-rev.com/events/51fb9244-058b-4b30-abc6-86ea748a3dc3"
-    },
-    {
-      "title": "Hands Off Beverly Weekly Wednesday Protest",
-      "date": "2025-10-29",
-      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
-      "lat": 42.5488363,
-      "lng": -70.8778836,
-      "link": "https://events.pol-rev.com/events/20b0743c-aec1-44f6-8400-c0847c855384"
-    },
-    {
-      "title": "Eagleville, PA Neighborhood Protest with Community for Change",
-      "date": "2025-10-29",
-      "location": "Walgreens, 2803 Ridge Pike, Eagleville, Norristown, PA 19403, United States of America, Norristown",
-      "lat": 40.147851,
-      "lng": -75.3950178,
-      "link": "https://events.pol-rev.com/events/165c4c0b-d1d7-48e3-8b76-d56d0d1bc522"
-    },
-    {
-      "title": "Rush-hour Resistance Rally @ the Melrose Curve in Phoenix",
-      "date": "2025-10-29",
-      "location": "711 West Glenrosa Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
-      "lat": 33.4983402,
-      "lng": -112.084459,
-      "link": "https://events.pol-rev.com/events/dc47e008-45f0-4573-938f-e636a0e3b762"
-    },
-    {
-      "title": "RhRR @ Moon Valley in North Central Phoenix",
-      "date": "2025-10-29",
-      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
-      "lat": 33.6261453,
-      "lng": -112.0663766,
-      "link": "https://events.pol-rev.com/events/a785a58a-66a8-4b71-9312-0ddbd8b622b4"
     }
   ]
 }
