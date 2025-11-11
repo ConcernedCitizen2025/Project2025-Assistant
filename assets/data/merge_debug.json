@@ -1,0 +1,238 @@
+{
+  "cutoffStr": "2025-11-10",
+  "totals": {
+    "all": 11500,
+    "geoKept": 405,
+    "virtKept": 71
+  },
+  "perSource": {
+    "mobilize": {
+      "total": 11381,
+      "recent": 365,
+      "withCoords": 8375,
+      "keptGeo": 257,
+      "keptVirt": 108,
+      "sampleDroppedByDate": [
+        {
+          "title": "Brazoria Democrats County Executive Committee",
+          "begin": "2025-10-16",
+          "end": "2025-10-16",
+          "lat": 29.351775,
+          "lng": -95.3973602,
+          "location": "4230 FM 1462, ste 200, Rosharon, TX",
+          "links": [
+            {
+              "title": "Brazoria Democrats County Executive Committee",
+              "href": "https://www.mobilize.us/bcdp/event/109220/"
+            }
+          ]
+        },
+        {
+          "title": "All On The Line Monthly Volunteer Virtual Meeting",
+          "begin": "2025-10-15",
+          "end": "2025-10-15",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "All On The Line Monthly Volunteer Virtual Meeting",
+              "href": "https://www.mobilize.us/allontheline/event/271054/"
+            }
+          ]
+        },
+        {
+          "title": "Fridays at 4--Letter Writing and More! (4 pm Pacific/7 pm Eastern)",
+          "begin": "2025-10-03",
+          "end": "2025-10-03",
+          "lat": 42.1945758,
+          "lng": -122.7094767,
+          "location": "Ashland, OR",
+          "links": [
+            {
+              "title": "Fridays at 4--Letter Writing and More! (4 pm Pacific/7 pm Eastern)",
+              "href": "https://www.mobilize.us/swingleft/event/274619/"
+            }
+          ]
+        }
+      ],
+      "sampleDroppedByCoords": [
+        {
+          "title": "2020 Victorious! Strategic Community Organizing * Phenomenal Election Impact | Communities United",
+          "begin": "2027-12-31",
+          "end": "2027-12-31",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "2020 Victorious! Strategic Community Organizing * Phenomenal Election Impact | Communities United",
+              "href": "https://www.mobilize.us/2020victorious/event/373889/"
+            }
+          ]
+        },
+        {
+          "title": "HIGHLIGHTS * 2020 Victorious! | Communities United: NATIONAL PRIORITIES - Community Advocacy",
+          "begin": "2027-12-31",
+          "end": "2027-12-31",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "HIGHLIGHTS * 2020 Victorious! | Communities United: NATIONAL PRIORITIES - Community Advocacy",
+              "href": "https://www.mobilize.us/2020victorious/event/376802/"
+            }
+          ]
+        },
+        {
+          "title": "Membership Matters * 2020 Victorious! | Communities United ... (benefits-privileges)",
+          "begin": "2027-12-31",
+          "end": "2027-12-31",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Membership Matters * 2020 Victorious! | Communities United ... (benefits-privileges)",
+              "href": "https://www.mobilize.us/2020victorious/event/381214/"
+            }
+          ]
+        }
+      ]
+    },
+    "mobilizon": {
+      "total": 113,
+      "recent": 111,
+      "withCoords": 100,
+      "keptGeo": 98,
+      "keptVirt": 13,
+      "sampleDroppedByDate": [
+        {
+          "title": "General Meeting - West Seattle Indivisible",
+          "begin": "2025-11-09",
+          "end": "2025-11-09",
+          "lat": 47.5626534,
+          "lng": -122.386272,
+          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "links": [
+            {
+              "title": "General Meeting - West Seattle Indivisible",
+              "href": "https://events.pol-rev.com/events/50f19d82-c07d-4ae4-a057-6494c862dab8"
+            }
+          ]
+        },
+        {
+          "title": "Save our Democracy High Visibility Protest",
+          "begin": "2025-11-09",
+          "end": "2025-11-09",
+          "lat": 37.977684,
+          "lng": -122.52009,
+          "location": "800 Belle Avenue, San Rafael, CA 94901, United States of America, San Rafael",
+          "links": [
+            {
+              "title": "Save our Democracy High Visibility Protest",
+              "href": "https://events.pol-rev.com/events/dbbcb138-d0af-45fa-b96b-0748e17c324b"
+            }
+          ]
+        }
+      ],
+      "sampleDroppedByCoords": [
+        {
+          "title": "Rally for Democracy",
+          "begin": "2025-12-27",
+          "end": "2025-12-27",
+          "lat": null,
+          "lng": null,
+          "location": "Middle Green, Ipswich",
+          "links": [
+            {
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/8618600e-f9a8-465a-8153-323cad3af666"
+            }
+          ]
+        },
+        {
+          "title": "Rally for Democracy",
+          "begin": "2025-12-20",
+          "end": "2025-12-20",
+          "lat": null,
+          "lng": null,
+          "location": "Middle Green, Ipswich",
+          "links": [
+            {
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/88a69d5c-df03-4202-9161-1edefc08ade3"
+            }
+          ]
+        },
+        {
+          "title": "Rally for Democracy",
+          "begin": "2025-12-13",
+          "end": "2025-12-13",
+          "lat": null,
+          "lng": null,
+          "location": "Middle Green, Ipswich",
+          "links": [
+            {
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/2fda7e03-419d-4a45-a600-4a1c8ed04aae"
+            }
+          ]
+        }
+      ]
+    },
+    "protestapi": {
+      "total": 6,
+      "recent": 0,
+      "withCoords": 6,
+      "keptGeo": 0,
+      "keptVirt": 0,
+      "sampleDroppedByDate": [
+        {
+          "title": "SIGN MAKING PARTY - Come get creative and build community.",
+          "begin": "2025-06-11",
+          "end": "2025-06-11",
+          "lat": 35.3804540127671,
+          "lng": -119.01556893175709,
+          "location": "1201 24th St, Suite D200, 93301, Bakersfield, United States",
+          "links": [
+            {
+              "title": "SIGN MAKING PARTY - Come get creative and build community.",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "GOOD TROUBLE LIVES ON: Bakersfield, CA organized by John Lewis Actions",
+          "begin": "2025-07-17",
+          "end": "2025-07-17",
+          "lat": 35.37093695829334,
+          "lng": -119.02452722020709,
+          "location": "Bakersfield, CA, United States",
+          "links": [
+            {
+              "title": "GOOD TROUBLE LIVES ON: Bakersfield, CA organized by John Lewis Actions",
+              "href": "https://www.mobilize.us/mobilize/event/803926/"
+            }
+          ]
+        },
+        {
+          "title": "Let's start a #ResistTrump Chapter in Bakersfield CA organized by ResistTrump Campaign",
+          "begin": "2025-06-28",
+          "end": "2025-06-28",
+          "lat": 35.376486,
+          "lng": -119.024076,
+          "location": "Starbucks, 5210 Olive Dr, Bakersfield, CA 93308, United States",
+          "links": [
+            {
+              "title": "Let's start a #ResistTrump Chapter in Bakersfield CA organized by ResistTrump Campaign",
+              "href": "https://www.mobilize.us/mobilize/event/794031/"
+            }
+          ]
+        }
+      ],
+      "sampleDroppedByCoords": []
+    }
+  }
+}

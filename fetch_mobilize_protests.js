@@ -61,63 +61,13 @@ async function main() {
   const raw = await fetchAll();
   console.log(`⚡️ Fetched ${raw.length} raw Mobilize events`);
 
-  // Map & filter out stale events ONLY
-  const mapped = raw.map((evt) => {
-    // Pick the earliest FUTURE timeslot; if none, fall back to latest past slot
-    const slots = Array.isArray(evt.timeslots) ? evt.timeslots.slice() : [];
-    const nowSec = Math.floor(Date.now() / 1000);
-    const future = slots.filter(s => typeof s.start_date === 'number' && s.start_date >= nowSec);
-    const pick = future.length
-      ? future.sort((a, b) => a.start_date - b.start_date)[0]   // earliest future
-      : slots.sort((a, b) => b.start_date - a.start_date)[0];   // latest past (fallback)
+  // --- KEEP EVERYTHING RAW: no mapping, no filtering, no dedupe
+console.log(`⚡️ Fetched ${raw.length} raw Mobilize events (writing raw)`);
 
-    const date = pick?.start_date
-      ? new Date(pick.start_date * 1000).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
-      : null;
+const outPath = path.join(__dirname, "assets/data/mobilize_protests.json");
+fs.writeFileSync(outPath, JSON.stringify({ events: raw }, null, 2), "utf8");
 
-    const loc = evt.location || {};
-    const coords = loc.location || {};
-    const address = [
-      ...(loc.address_lines || []),
-      loc.locality,
-      loc.region,
-    ].filter(Boolean).join(", ");
+const sizeKB = (fs.statSync(outPath).size / 1024).toFixed(1);
+console.log(`✅ Written RAW Mobilize feed (${raw.length} items, ${sizeKB} KB) → ${outPath}`);
 
-    return {
-      id: evt.id, // keep ID to debug specific reports
-      title: evt.title,
-      date,
-      location: address,
-      lat: coords.latitude,
-      lng: coords.longitude,
-      link: evt.browser_url,
-    };
-  });
-
-  const futureCount = mapped.filter(e => e.date && e.date >= todayStr).length;
-  console.log(`ℹ️ Mobilize mapped: total=${mapped.length}, future>=${todayStr}=${futureCount}`);
-
-
-  // Deduplicate
-  const seen = new Set();
-  const unique = mapped.filter((e) => {
-    const key = `${e.title}|${e.date}|${e.lat}|${e.lng}|${e.link}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-  console.log(`⚡️ ${unique.length} events after dedupe`);
-
-  // Write final JSON
-  const out = unique;
-  const outPath = path.join(__dirname, "assets/data/mobilize_protests.json");
-  fs.writeFileSync(outPath, JSON.stringify({ events: out }, null, 2), "utf8");
-
-  const sizeKB = (fs.statSync(outPath).size / 1024).toFixed(1);
-  console.log(`✅ Written ${out.length} events (${sizeKB} KB) → ${outPath}`);
-}
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+};

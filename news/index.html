@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
   <!-- ✅ Corrected and Reorganized Head Section -->
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>News & Video Drops</title>
@@ -51,21 +48,59 @@
   <script defer src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
   <!-- 3) Your map code -->
-  <script defer src="/assets/js/california-protest-map.js?v=1762678428"></script>
-
-
+  <script defer src="/assets/js/california-protest-map.js?v=1762850107"></script>
 
   <!-- Sign tracker -->
   <script src="/assets/js/sign-download-tracker.js" defer></script>
   
-
   <!-- Custom Styling -->
   <style>
+    :root{
+      /* Hero height used both to size the band and create padding for content overlay */
+      --hero-h: clamp(160px, 22vw, 360px);
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
+    header{
+      position: relative;
+      padding-top: var(--hero-h); /* lets the logo/nav sit “over” the hero band */
+      overflow: clip;
+    }
+    /* Rotating hero band behind the logo */
+    #rotating-hero{
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: var(--hero-h);
+      overflow: hidden;
+      z-index: 0; /* sits behind logo/nav */
+    }
+    .hero-layer{
+      position: absolute; inset: 0;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      opacity: 0;
+      transition: opacity 900ms ease;
+      will-change: opacity, background-image;
+    }
+    .hero-layer.is-active{ opacity: 1; }
+    /* Gentle dark veil to keep logo/text readable */
+    #rotating-hero::after{
+      content:"";
+      position:absolute; inset:0;
+      background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2));
+      pointer-events:none;
+    }
+
+    /* Keep header content above the hero */
+    .header-container, .hamburger, nav{
+      position: relative;
+      z-index: 1;
+    }
+
     .content-wrapper {
       max-width: 900px;
       margin: 0 auto;
@@ -125,28 +160,276 @@
       width: 100%;
       height: 100%;
     }
+
+    /* ===== Stay Current layout customizations ===== */
+
+    /* Kill the gray header bar height & bg (only on this layout) */
+    .layout-stay-current header {
+      background: transparent !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* Hide the default logo row entirely on this layout */
+    .layout-stay-current .header-container {
+      display: none !important;
+    }
+
+    /* Keep nav if you want; if you also want to hide the menu bar, uncomment:
+    .layout-stay-current nav { display: none !important; }
+    .layout-stay-current .hamburger { display: none !important; }
+    */
+
+    /* Hero overlayed logo (hover to reveal) */
+    .hero-rotator { position: relative; }
+    .hero-logo {
+      position: absolute;
+      left: 20px;
+      top: 14px;
+      z-index: 5;
+      opacity: 0;
+      transition: opacity .25s ease;
+      pointer-events: auto; /* clickable when visible */
+    }
+    .hero-logo img {
+      height: 64px; width: auto;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.5));
+    }
+
+    /* Fade in when hovering anywhere on the hero */
+    .hero-rotator:hover .hero-logo { opacity: 1; }
+
+    /* Keyboard accessibility: show when focused */
+    .hero-logo:focus-visible,
+    .hero-logo a:focus-visible { opacity: 1; outline: 2px solid #fff; outline-offset: 3px; }
+
+    /* Touch devices (no hover): keep the logo visible so there’s a way home */
+    @media (hover: none) and (pointer: coarse) {
+      .hero-logo { opacity: 1; }
+    }
+    /* One-bar hero band */
+    .stay-current-header { margin: 0; padding: 0; }
+    .hero-rotator {
+      position: relative;
+      width: 100%;
+      height: clamp(180px, 22vw, 320px); /* responsive band height */
+      overflow: hidden;
+    }
+
+    /* Layers are set/animated by your existing JS */
+    .hero-layer {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      opacity: 0; transition: opacity .8s ease;
+    }
+    .hero-layer.is-active { opacity: 1; }
+
+    /* Subtle dark gradient for readability (optional) */
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.15) 40%, rgba(0,0,0,0));
+      pointer-events: none;
+    }
+
+    /* Hover-to-reveal logo */
+    .hero-logo {
+      position: absolute; left: 20px; top: 14px;
+      z-index: 5; opacity: 0; transition: opacity .25s ease;
+    }
+    .hero-logo img {
+      height: 64px; width: auto;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.5));
+    }
+    /* Fade in on hover over the hero band */
+    .hero-rotator:hover .hero-logo { opacity: 1; }
+    /* Keyboard focus support */
+    .hero-logo:focus-visible,
+    .hero-logo a:focus-visible { opacity: 1; outline: 2px solid #fff; outline-offset: 3px; }
+    /* Touch devices (no hover): keep visible so there’s a way home */
+    @media (hover: none) and (pointer: coarse) {
+      .hero-logo { opacity: 1; }
+    }
+
+    /* Optional: tighten nav spacing under the hero */
+    .stay-current-header nav { padding: 6px 0; }
+
+    /* --- HERO HEIGHT & LAYOUT (taller, responsive) --- */
+    .hero-rotator{
+      position: relative;
+      width: 100%;
+      /* Taller band: ~40% of viewport height, min 320px, max 560px */
+      height: clamp(320px, 40vh, 560px);
+      min-height: 320px;
+      overflow: hidden;
+      z-index: 1; /* keep above header background if any */
+    }
+
+    /* Make sure layers actually fill the hero area */
+    .hero-rotator .hero-layer{
+      position: absolute; inset: 0;
+      background-size: cover;         /* fill without distortion */
+      background-position: center;    /* center the subject */
+      background-repeat: no-repeat;
+      opacity: 0;
+      transition: opacity .8s ease;
+    }
+    .hero-rotator .hero-layer.is-active{ opacity: 1; }
+
+    /* Gradient overlay for readability (doesn't block hover) */
+    .hero-rotator .hero-overlay{
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.15) 40%, rgba(0,0,0,0));
+      pointer-events: none; /* critical so hover passes through */
+      z-index: 3;
+    }
+
+    /* --- HOVER-TO-REVEAL LOGO (ensure it’s on top & clickable) --- */
+    .hero-logo{
+      position: absolute;
+      left: 20px; top: 16px;
+      z-index: 4;                 /* above overlay/layers */
+      opacity: 0;                 /* hidden by default */
+      transition: opacity .25s ease;
+      pointer-events: auto;       /* click works */
+    }
+    .hero-logo img{
+      height: clamp(56px, 8vh, 92px); /* grows with hero height */
+      width: auto;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.5));
+    }
+
+    /* Show logo when hovering anywhere over the hero band */
+    .hero-rotator:hover .hero-logo{ opacity: 1; }
+
+    /* Keyboard accessibility: show on focus */
+    .hero-logo:focus-visible{ opacity: 1; outline: 2px solid #fff; outline-offset: 3px; }
+
+    /* Touch devices (no hover): keep logo visible so there’s a way home */
+    @media (hover: none) and (pointer: coarse){
+      .hero-logo{ opacity: 1; }
+    }
+
+    /* Optional: slightly shorter band on very small screens */
+    @media (max-width: 480px){
+      .hero-rotator{
+        height: clamp(260px, 30vh, 420px);
+        min-height: 260px;
+      }
+    }
+
+    /* === FIX: make hero tall and remove extra top padding === */
+    .layout-stay-current header{
+      padding-top: 0 !important;             /* kill the spacer padding */
+    }
+
+    #rotating-hero{
+      height: clamp(320px, 40vh, 560px) !important;  /* override the short var(--hero-h) */
+      min-height: 320px !important;
+    }
+
+    /* optional: if you keep the :root --hero-h anywhere, neutralize it on this layout */
+    .layout-stay-current:root{
+      --hero-h: clamp(320px, 40vh, 560px);
+    }
+
+    /* Nuclear overrides to guarantee height + visibility on protests.md */
+    .stay-current-header { height:auto !important; }
+
+    /* Hero band forced height (wins over anything in styles.css) */
+    #rotating-hero { height: clamp(380px, 45vh, 620px) !important; min-height: 380px !important; }
+
+    /* Make sure layers fill the hero and actually crossfade */
+    #rotating-hero .hero-layer{
+      position:absolute; inset:0;
+      background-size:cover; background-position:center; background-repeat:no-repeat;
+      opacity:0; transition:opacity .8s ease;
+    }
+    #rotating-hero .hero-layer.is-active{ opacity:1; }
+
+    /* Hover-to-reveal logo must win */
+    .hero-rotator:hover .hero-logo { opacity: 1 !important; }
+
+    /* If some global header styles added padding back, kill it here */
+    .layout-stay-current header { padding:0 !important; margin:0 !important; background:transparent !important; box-shadow:none !important; }
+
+    /* (Debug toggle) outline hero size — uncomment if needed */
+    /* #rotating-hero { outline: 2px solid fuchsia !important; } */
+
+    /* --- NAV CONTRAST FIX (stay_current layout only) --- */
+    .layout-stay-current .stay-current-header nav a {
+      color: #111 !important;          /* dark text */
+      font-weight: 700;                 /* a bit bolder */
+      text-decoration: none;
+    }
+
+    .layout-stay-current .stay-current-header nav a:hover,
+    .layout-stay-current .stay-current-header nav a:focus-visible {
+      color: #000 !important;           /* even darker on hover/focus */
+      text-decoration: underline;       /* clear affordance */
+      text-underline-offset: 2px;
+    }
+
+    /* Make the hamburger visible against light backgrounds */
+    .layout-stay-current .stay-current-header .hamburger {
+      color: #111 !important;
+    }
+
+    /* Mobile menu: give the dropdown a light divider so links stand out */
+    @media (max-width: 768px) {
+      .layout-stay-current .stay-current-header nav ul.showing {
+        background: #fff;
+        border-top: 1px solid #ddd;
+      }
+      .layout-stay-current .stay-current-header nav li {
+        border-bottom: 1px solid #eee;
+      }
+    }
+
   </style>
 </head>
 
-<body>
-    <header>
-        <div class="header-container">
-            <a href="/">
-                <div class="logo-container">
-                    <img class="logo" src="/assets/images/logo.webp" alt="Project 2025 Assistant Logo" loading="eager">
-                </div>
-            </a>
-        </div>
-        
-        <div class="hamburger">&#9776; Menu</div>
-        <nav>
-            <ul id="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/toc.html">Table of Contents</a></li>
-                <li><a href="/about.html">About Us</a></li>
-            </ul>
-        </nav>
+<body class="layout-stay-current">
+    <header class="stay-current-header" style="padding-top:0 !important; height:auto !important;">
+      <!-- Rotating hero band (one bar only) -->
+      <div id="rotating-hero"
+          class="hero-rotator"
+          aria-hidden="false"
+          style="height:clamp(380px,45vh,620px)!important;
+                  min-height:380px!important;
+                  display:block!important;
+                  position:relative!important;
+                  overflow:hidden!important;">
+        <div class="hero-layer"></div>
+        <div class="hero-layer"></div>
+
+        <!-- Hover-to-reveal logo (clickable home link) -->
+        <a class="hero-logo" href="/" aria-label="Project 2025 Assistant — Home"
+          style="position:absolute;left:20px;top:16px;z-index:5;
+                  opacity:0;transition:opacity .25s ease;pointer-events:auto;">
+          <img src="/assets/images/logo.webp"
+              alt="Project 2025 Assistant Logo"
+              loading="eager"
+              style="height:clamp(56px,8vh,92px);width:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));">
+        </a>
+
+        <!-- Gradient for readability -->
+        <div class="hero-overlay" style="position:absolute;inset:0;
+            background:linear-gradient(to bottom,rgba(0,0,0,.35),rgba(0,0,0,.15) 40%,rgba(0,0,0,0));
+            pointer-events:none;z-index:3;"></div>
+      </div>
+
+      <!-- Keep your menu below the hero -->
+      <div class="hamburger">&#9776; Menu</div>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/toc.html">Table of Contents</a></li>
+          <li><a href="/about.html">About Us</a></li>
+        </ul>
+      </nav>
     </header>
+
 
     <main>
         <div style="text-align: center; margin: 20px 0;">
@@ -171,9 +454,6 @@ function googleTranslateElementInit() {
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
         </div>
-
-        
-
 
         <div class="content-wrapper">
             <!-- Intro -->
@@ -232,7 +512,7 @@ function googleTranslateElementInit() {
 </style>
 
 <!-- Render script -->
-<script defer="" src="/assets/js/videos-feed.js?v=1762678428"></script>
+<script defer="" src="/assets/js/videos-feed.js?v=1762850107"></script>
 
 
         </div>
@@ -282,7 +562,6 @@ function googleTranslateElementInit() {
             <span id="copy-msg" style="margin-left: 8px; color: lightgreen; display: none;">Copied!</span>
         </div>
 
-
         <!-- Copyright and privacy policy in the center -->
         <div style="text-align: center; color: white;">
             <p style="margin: 0;">© 2024 Project 2025 Assistant</p>
@@ -323,6 +602,777 @@ function googleTranslateElementInit() {
             setTimeout(() => msg.style.display = "none", 1500);
         });
     }
+    </script>
+
+    <script id="hero-images" type="application/json">
+    [
+    
+    
+    
+      
+      
+        
+        "/assets/images/protests/no_kings_protest/cropped/nk001.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk002.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk003.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk004.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk005.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk006.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk007.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk008.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk009.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk010.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk011.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk012.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk013.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk014.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk015.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk016.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk017.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk018.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk019.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk020.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk021.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk022.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk023.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk024.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk025.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk026.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk027.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk028.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk029.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk030.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk031.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk032.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk033.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk034.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk035.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk036.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk037.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk038.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk039.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk040.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk041.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk042.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk043.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk044.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk045.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk046.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk047.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk048.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk049.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk050.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk051.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk052.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk053.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk054.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk055.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk056.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk057.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk058.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk059.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk060.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk061.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk062.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk063.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk064.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk065.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk066.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk067.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk068.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk069.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk070.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk071.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk072.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk073.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk074.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk075.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk076.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk077.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk078.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk079.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk080.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk081.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk082.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk083.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk084.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk085.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk086.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk087.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk088.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk089.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk090.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk091.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk092.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk093.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk094.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk095.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk096.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk097.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk098.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk099.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk100.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk101.jpg"
+        
+      
+    
+      
+      
+        ,
+        "/assets/images/protests/no_kings_protest/cropped/nk102.jpg"
+        
+      
+    
+    ]
+    </script>
+
+
+    <script>
+    (function(){
+      const INTERVAL = 6000;
+      const hero = document.getElementById('rotating-hero');
+      if (!hero) return;
+      const layers = hero.querySelectorAll('.hero-layer');
+      if (layers.length < 2) return;
+
+      // ← NEW: read the JSON that Liquid emitted above
+      let SOURCES = [];
+      try {
+        const raw = document.getElementById('hero-images')?.textContent || '[]';
+        SOURCES = JSON.parse(raw);
+      } catch (e) {
+        console.warn('Hero images JSON parse failed:', e);
+        SOURCES = [];
+      }
+
+      if (!SOURCES.length) return;
+
+      // Shuffle for variety
+      const slides = SOURCES.slice().sort(() => Math.random() - 0.5);
+
+      function setBg(el, url){ el.style.backgroundImage = `url("${url}")`; }
+
+      // Preload (lightweight)
+      slides.forEach(src => { const img = new Image(); img.src = src; });
+
+      let idx = 0;
+      setBg(layers[0], slides[0]);
+      layers[0].classList.add('is-active');
+      if (slides[1]) setBg(layers[1], slides[1]);
+
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduceMotion || slides.length < 2) return;
+
+      setInterval(() => {
+        const active = hero.querySelector('.hero-layer.is-active');
+        const idle = Array.from(layers).find(l => l !== active);
+        idx = (idx + 1) % slides.length;
+        setBg(idle, slides[idx]);
+        void idle.offsetWidth; // reflow to ensure transition
+        idle.classList.add('is-active');
+        active.classList.remove('is-active');
+      }, INTERVAL);
+    })();
     </script>
 
 </body>
