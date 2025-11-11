@@ -1,134 +1,145 @@
 ---
 layout: stay_current
-title: "Find a Protest or Boycott Near You - 50 50 01"
-description: "Find and join a 50 50 01 protest or boycott across the U.S. Stay updated on upcoming events and make your voice heard."
-keywords: "protest, boycott, 50 50 01, political activism, national protests, economic blackout"
+title: "Find a Protest or Boycott Near You"
+description: "Join the Nov 25–Dec 2 Economic Blackout and find actions near you. See companies to avoid, tips for low-friction participation, and a live protest map."
+keywords: "protest, boycott, economic blackout, nationwide blackout, activism, november 25, december 2, no kings, map"
 ---
 
-<div style="text-align: center;">
-  <div style="display: inline-flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-    <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width: 300px; height: auto;">
-    <img src="/assets/images/protests/no_kings_logo.jpg" alt="No Kings Protest Logo" style="max-width: 300px; height: auto;">
-  </div>
-  <h1>Find a Protest or Boycott Near You</h1>
-  <p>Protests and boycotts are happening around the world. Use your voice, take action, and be the change.</p>
-</div>
+{% assign today = site.time | date: '%Y-%m-%d' %}
+{% assign blackout_start = '2025-11-25' %}
+{% assign blackout_end   = '2025-12-02' %}
 
+<div style="text-align:center">
+  <div style="display:inline-flex;align-items:center;gap:20px;margin-bottom:18px;">
+    <img src="/assets/images/protests/50501_logo.png" alt="50 50 01 Protest Logo" style="max-width:260px;height:auto;">
+    <img src="/assets/images/protests/no_kings_logo.jpg" alt="No Kings Protest Logo" style="max-width:260px;height:auto;">
+  </div>
+  <h1 style="margin:0 0 6px;">Find a Protest or Boycott Near You</h1>
+  <p style="color:#4b5563;margin:0">Use your voice. Take action. Be the change.</p>
+</div>
 
 ---
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; margin-bottom: 20px;">
 
-  <!-- Left column: full boycott list, including past ones -->
-  <div style="flex: 1; min-width: 300px;">
-    <h2>📢 Upcoming & Past Boycotts</h2>
-    {% assign today = site.time | date: '%Y-%m-%d' %}
-    <table style="width:100%; border-collapse: collapse; margin-top: 10px;">
-      <thead>
-        <tr>
-          <th style="text-align:left; padding: 8px;">Company / Target</th>
-          <th style="text-align:left; padding: 8px;">Dates</th>
-          <th style="text-align:left; padding: 8px;">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="padding:8px;"><strong>Amazon</strong></td>
-          <td style="padding:8px;">March 7–14</td>
-          <td style="padding:8px;">{% if today > '2025-03-14' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Nestlé</strong></td>
-          <td style="padding:8px;">March 21–28</td>
-          <td style="padding:8px;">{% if today > '2025-03-28' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Walmart</strong></td>
-          <td style="padding:8px;">April 7–14</td>
-          <td style="padding:8px;">{% if today > '2025-04-14' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>24-hour Economic Blackout</strong></td>
-          <td style="padding:8px;">April 18</td>
-          <td style="padding:8px;">{% if today > '2025-04-18' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>General Mills</strong></td>
-          <td style="padding:8px;">April 21–28</td>
-          <td style="padding:8px;">{% if today > '2025-04-28' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Amazon (Round 2)</strong></td>
-          <td style="padding:8px;">May 6–12</td>
-          <td style="padding:8px;">{% if today > '2025-05-12' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Walmart (Round 2)</strong></td>
-          <td style="padding:8px;">May 20–26</td>
-          <td style="padding:8px;">{% if today > '2025-05-26' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Target</strong></td>
-          <td style="padding:8px;">June 3–9</td>
-          <td style="padding:8px;">{% if today > '2025-06-09' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>McDonald’s</strong></td>
-          <td style="padding:8px;">June 24–30</td>
-          <td style="padding:8px;">{% if today > '2025-06-30' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Independence Day boycott</strong></td>
-          <td style="padding:8px;">July 4th</td>
-          <td style="padding:8px;">{% if today > '2025-07-04' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Starbucks, Amazon, and Home Depot</strong></td>
-          <td style="padding:8px;">July 1-31</td>
-          <td style="padding:8px;">{% if today > '2025-07-31' %}✅{% endif %}</td>
-        </tr>
-        <tr>
-          <td style="padding:8px;"><strong>Walmart, McDonald's, and Lowe's</strong></td>
-          <td style="padding:8px;">August 1-31</td>
-          <td style="padding:8px;">{% if today > '2025-08-31' %}✅{% endif %}</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3>Companies to boycott that are linked to ICE: <strong>ARCO AM/PM, Enterprise Rent-A-Car, Hilton, Marriott, U.S. Bank, Chevron, Valero, Marathon, PetroStar, Sinclair, and Phillips 66</strong>. <em>See the video to the right for more info.</em></h3>
-    <p style="margin-top: 10px;"><strong>Stay involved!</strong> Every boycott makes an impact.</p>
+---
+<div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start;margin-bottom:28px;">
+
+  <!-- LEFT: Announcement + suggested actions + companies -->
+  <div style="flex:1 1 420px;min-width:320px;max-width:760px">
+    <h2 style="margin-top:0">🚫 8-Day Economic Blackout — Nov 25 → Dec 2</h2>
+
+    <p style="font-size:1.05em;line-height:1.55">
+      A growing nationwide coalition is calling for an <strong>economic blackout</strong> from
+      <strong>Tuesday, Nov 25</strong> through <strong>Tuesday, Dec 2</strong>.
+      The core asks: <strong>no shopping</strong>, <strong>no streaming</strong>, <strong>no scrolling</strong>,
+      <strong>no ad engagement</strong>, <strong>no online purchases</strong>.
+      If you absolutely must buy something, <strong>favor local small businesses and pay cash</strong> when possible.
+    </p>
+
+    <ul style="margin:0 0 14px 1.1em;line-height:1.6">
+      <li><strong>Skip the apps</strong> (uninstall or log out for the week).</li>
+      <li><strong>Pause streaming</strong> (music & video) — turn off autoplay and background refresh.</li>
+      <li><strong>Constructive swaps</strong>: read a book, make art, deep-clean a room, hike, check in on a friend, or volunteer.</li>
+    </ul>
+
+    <p style="margin:10px 0 0">
+      More background and organizing info:
+      <a href="https://www.binnews.com/content/2025-11-05-were-shutting-it-down-nationwide-economic-blackout-kicks-off-nov-25/" target="_blank" rel="noopener">BIN News announcement</a>.
+    </p>
+
+    <hr style="margin:22px 0">
+
+    <h3 style="margin:0 0 10px">🏷️ Companies to Avoid (ongoing)</h3>
+    <p style="margin:0 0 10px">These brands are frequent targets in economic boycotts due to labor, pricing, or policy concerns:</p>
+    <div style="columns:2;column-gap:20px;max-width:780px">
+      <ul style="margin:0 0 8px 1.1em;break-inside:avoid">
+        <li>Amazon</li>
+        <li>Walmart</li>
+        <li>Target</li>
+        <li>McDonald’s</li>
+        <li>Starbucks</li>
+      </ul>
+      <ul style="margin:0 0 8px 1.1em;break-inside:avoid">
+        <li>Home Depot</li>
+        <li>Lowes</li>
+        <li>Comcast / Xfinity</li>
+        <li>AT&amp;T</li>
+        <li>Charter / Spectrum</li>
+      </ul>
+    </div>
+
+    <hr style="margin:22px 0">
+
+    <h3 style="margin:0 0 10px">🧊 ICE-Linked Companies (often referenced)</h3>
+    <p style="margin:0 10px 12px 0">
+      Below are examples frequently cited by organizers when discussing corporate ties to immigration detention, deportation flights,
+      or data infrastructure. Use this list to inform your spending and outreach:
+    </p>
+
+    <details style="background:#fafafa;border:1px solid #ddd;border-radius:8px;padding:10px 14px">
+      <summary style="cursor:pointer;font-weight:600">Open list</summary>
+      <div style="display:flex;flex-wrap:wrap;gap:18px;margin-top:12px">
+        <div style="flex:1 1 280px;min-width:240px">
+          <strong>Detention & Transport</strong>
+          <ul style="margin:6px 0 0 1.1em;line-height:1.6">
+            <li>GEO Group</li>
+            <li>CoreCivic</li>
+            <li>CSI Aviation (prime contractor for ICE Air)</li>
+            <li>GlobalX Airlines (operates many removal flights)</li>
+          </ul>
+        </div>
+        <div style="flex:1 1 280px;min-width:240px">
+          <strong>Data / Tech / Comms</strong>
+          <ul style="margin:6px 0 0 1.1em;line-height:1.6">
+            <li>Palantir Technologies</li>
+            <li>Dell (enterprise licensing/support)</li>
+            <li>Booz Allen Hamilton; CACI; General Dynamics; L3Harris; Motorola Solutions</li>
+            <li>AT&amp;T; Comcast; Charter (network/cable services)</li>
+          </ul>
+        </div>
+        <div style="flex:1 1 280px;min-width:240px">
+          <strong>Logistics & Supplies</strong>
+          <ul style="margin:6px 0 0 1.1em;line-height:1.6">
+            <li>UPS; FedEx (package & cargo services)</li>
+            <li>Ecolab (detention facility supplies)</li>
+          </ul>
+        </div>
+      </div>
+      <p style="margin-top:12px;font-size:.92em;color:#555">
+        Sources frequently shared by organizers include a June 2025 Fortune overview of Fortune 500 contracts and
+        human-rights reporting on deportation flights and detention operations.
+      </p>
+    </details>
+
+    <p style="margin:14px 0 0;font-size:.95em;color:#444">
+      Tip: when you organize locally, pair boycotts with <em>buycotts</em> — route spending to worker-friendly,
+      immigrant-owned, and community-based alternatives.
+    </p>
   </div>
 
-  <!-- Right column: smaller video -->
-  <div style="flex: 1; min-width: 250px; text-align: center;">
-    <div>
-      <video
-        controls
-        style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
-        preload="metadata"
-      >
-        <source src="/assets/videos/protest_guidance.mp4" type="video/mp4">
+  <!-- RIGHT: Two stacked videos (local files) -->
+  <div style="flex:1 1 320px;min-width:260px;text-align:center">
+    <div style="margin-bottom:18px">
+      <video controls style="width:100%;max-width:420px;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.12)" preload="metadata">
+        <source src="/assets/videos/blackout.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        Video by <a href="https://www.instagram.com/reel/DKrqF95o-d6/" target="_blank">@lukeforthought</a>. Originally posted on Instagram.
-      </p>
+      <div style="font-size:.9em;color:#555;margin-top:8px">
+        Economic Blackout explainer (Nov 25–Dec 2)
+      </div>
     </div>
+
     <div>
-      <video
-        controls
-        style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"
-        preload="metadata"
-      >
-        <source src="/assets/videos/ice_boycotts.mp4" type="video/mp4">
+      <video controls style="width:100%;max-width:420px;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.12)" preload="metadata">
+        <source src="/assets/videos/machinelogout.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p style="font-size: 0.9em; color: #555; margin-top: 10px;">
-        Video by <a href="https://www.instagram.com/reel/DLdDhQRyVAd/?igsh=MTM2dmg2amFocnNwdg%3D%3D" target="_blank">@micthagoodkid</a>. Originally posted on Instagram.
-      </p>
+      <div style="font-size:.9em;color:#555;margin-top:8px">
+        “Log off the machine” — no scrolling, no streaming, no ads
+      </div>
     </div>
   </div>
 
 </div>
-
 
 ---
 
@@ -136,7 +147,7 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 {% include protest_map.html %}
 
-<p>Protests data are pulled each night from <a href="https://www.mobilize.us" target="_blank">Mobilize.us</a> and <a href="https://www.mobilizon.org" target="_blank">Mobilizon.org</a>. Thank you to Mobilize and Mobilizon for powering grassroots action.</p>
+<p>Protest data is refreshed nightly from <a href="https://www.mobilize.us" target="_blank" rel="noopener">Mobilize</a> and <a href="https://www.mobilizon.org" target="_blank" rel="noopener">Mobilizon</a>.</p>
 
 <div id="california-map" style="height: 600px;"></div>
 <script defer src="/assets/js/california-protest-map.js?v={{ site.time | date: '%s' }}"></script>
@@ -144,17 +155,17 @@ keywords: "protest, boycott, 50 50 01, political activism, national protests, ec
 
 ## 🖼️ Free Protest Signs to Download
 
-<div style="text-align: center; margin-top: 40px;">
+<div style="text-align:center;margin-top:32px;">
   <a href="/signs">
-    <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.15); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <img src="/assets/images/smallerIcons/free_protest_signs.jpg" alt="Download Free Protest Signs" style="max-width: 300px; height: auto; border-radius: 10px; box-shadow: 0 4px 18px rgba(0,0,0,.12); transition: transform .18s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
   </a>
-  <p style="margin-top: 10px; font-size: 0.95em;">Click the image to browse and download ready-to-print protest signs.</p>
+  <p style="margin-top: 10px; font-size: .95em; color:#4b5563;">Click to browse and download ready-to-print protest signs.</p>
 </div>
 
 ---
 
-For a fuller view of events visit:</p>
+<p style="margin:.6rem 0 0;">For a fuller view of events visit:</p>
 <ul>
-  <li><a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank">Full Protest Map on events.pol-rev.com (powered by Mobilizon)</a></li>
-  <li><a href="https://www.mobilize.us/map/?show_all_events=true&tag_ids=26053" target="_blank">Mobilize.us Event Directory</a></li>
+  <li><a href="https://events.pol-rev.com/search?mode=MAP&eventPage=1&bbox=49.38237278700955,+-101.93115234375:39.07890809706475,+-87.95654296875&zoom=6&sortByEvents=START_TIME_ASC&isOnline=false&contentType=EVENTS" target="_blank" rel="noopener">Full Protest Map on events.pol-rev.com (Mobilizon)</a></li>
+  <li><a href="https://www.mobilize.us/map/?show_all_events=true&tag_ids=26053" target="_blank" rel="noopener">Mobilize.us Event Directory</a></li>
 </ul>

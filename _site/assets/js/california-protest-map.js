@@ -5,10 +5,16 @@
 // --------------------------------------------------------------------
 
 /** 0) FIRE ONLY ONCE — guard against double injection (duplicate <script> tags) */
+
+
 if (window.__P25A_MAP_LOADED__) {
   console.debug("california protest map.js: already initialized → skip");
 } else {
   window.__P25A_MAP_LOADED__ = true;
+
+  // Declare DEBUG *inside* the guarded block so it never redeclares
+  const DEBUG = false; // flip to true when you want verbose logs
+
   document.addEventListener("DOMContentLoaded", () => {
     /* ---------------------------------------------------------------- 1. DOM refs */
     const mapEl = document.getElementById("california-map");
@@ -101,7 +107,7 @@ if (window.__P25A_MAP_LOADED__) {
 
 
 
-    fetch(`/assets/data/merged_events.json?v=${Date.now()}`)
+    fetch(`assets/data/merged_events.json?v=${Date.now()}`)
       .then(r => r.json())
       .then(js => {
         raw = js.data || [];
@@ -169,56 +175,51 @@ if (window.__P25A_MAP_LOADED__) {
       badge.textContent = `Showing: ${lbl} — ${list.length} events`;
     }
 
-
-
-
-
-
     // --- VERSION MARKER (so we know this file is actually loaded)
-console.log('[P25A map] v2025-10-02-ALLRAW');
+DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
 
-// Completely replace your applyPreset with this:
-function applyPreset(days) {
-  if (days === "all") {
-    console.log("applyPreset: all → rendering RAW length", raw.length);
-    return render(raw, "All (last 1 day + upcoming)");// ← NO FRONTEND FILTERS
-  }
+    function applyPreset(days) {
+      // "All" = trust the backend entirely (yesterday + upcoming)
+      if (days === "all") {
+        DEBUG && console.log("[map] ALL uses backend as-is len=", raw.length);
+        return render(raw, "All (last 1 day + upcoming)");
+      }
 
-  // numeric presets: keep windowed behavior
-  const cutoffStr = fmt(new Date(today.getTime() + (parseInt(days, 10) - 1) * ONE_DAY));
-  const twoDaysAgoStr = fmt(new Date(today.getTime() - 2 * ONE_DAY));
-  const filtered = raw.filter(ev => {
-    if (ev.lat == null || ev.lng == null) return false;
-    const b = ev.begin, e = ev.end || ev.begin;
-    // show events that are running at least into the last 2 days,
-    // and whose start is within the selected window
-    return (e >= twoDaysAgoStr) && (b <= cutoffStr);
-  });
+      // Numeric presets (30/15/7/3/1) restrict to a forward window
+      const cutoffStr = fmt(new Date(today.getTime() + (parseInt(days, 10) - 1) * ONE_DAY));
+      const yStr = fmt(new Date(today.getTime() - ONE_DAY)); // keep items that are ongoing since yesterday
 
-  return render(filtered, labelOf(days));
-}
+      const filtered = raw.filter(ev => {
+        if (ev.lat == null || ev.lng == null) return false;
+        const b = ev.begin, e = ev.end || ev.begin;
+        if (!b && !e) return false;
+        return (e >= yStr) && (b <= cutoffStr);
+      });
 
-// Completely replace your initFilter tail with this:
-function initFilter() {
-  uiBar.querySelectorAll("button").forEach(btn => {
-    btn.onclick = () => {
-      const v = btn.dataset.days;
-      if (v === "custom") return openCustom();
-      localStorage.setItem("p25a-date-range", v);
-      applyPreset(v === "all" ? "all" : parseInt(v, 10));
-    };
-  });
+      render(filtered, labelOf(days));
+    }
 
-  // Force initial view to ALL to match backend (last 2 days + upcoming)
-  localStorage.setItem("p25a-date-range", "all");
-  applyPreset("all");
-}
+    function initFilter() {
+      uiBar.querySelectorAll("button").forEach(btn => {
+        btn.onclick = () => {
+          const v = btn.dataset.days;
+          if (v === "custom") return openCustom();
+          localStorage.setItem("p25a-date-range", v);
+          applyPreset(v === "all" ? "all" : parseInt(v, 10));
+        };
+      });
+
+      // Respect saved preset, default to "all"
+      const saved = localStorage.getItem("p25a-date-range") || "all";
+      applyPreset(saved === "all" ? "all" : parseInt(saved, 10));
+    }
+
 
 
 
 
     /* ---------------------------------------------------------------- 7. Virtual Events Toggle */
-    fetch(`/assets/data/virtual_events.json?v=${Date.now()}`)
+    fetch(`assets/data/virtual_events.json?v=${Date.now()}`)
       .then(r=>r.json())
       .then(js=>{
         let virtual=js.data||[];
@@ -248,7 +249,7 @@ function initFilter() {
       });
 
     /* ---------------------------------------------------------------- 8. Metadata timestamp */
-    fetch(`/assets/data/events_meta.json?v=${Date.now()}`)
+    fetch(`assets/data/events_meta.json?v=${Date.now()}`)
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         if (!d) return;
