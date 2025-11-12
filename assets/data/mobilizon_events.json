@@ -433,6 +433,14 @@
       "link": "https://events.pol-rev.com/events/be4c563b-b989-430c-a409-a1479796706d"
     },
     {
+      "title": "Hike to Resist",
+      "date": "2025-11-28",
+      "location": "Dayton Bluffs Preserve, 2997 Illinois Route 71, Ottawa, IL 61350, United States of America, Ottawa",
+      "lat": 41.368925,
+      "lng": -88.7965588,
+      "link": "https://events.pol-rev.com/events/94bcfd55-1de6-4f7b-953e-de144b21a758"
+    },
+    {
       "title": "Hands Off Beverly Weekly Wednesday Protest",
       "date": "2025-11-26",
       "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
@@ -675,9 +683,9 @@
     {
       "title": "Disconnect ICE, Disconnect AT&T",
       "date": "2025-11-16",
-      "location": "AT&T, Bloomington",
-      "lat": null,
-      "lng": null,
+      "location": "AT&T, 305 North Veterans Parkway, Bloomington, IL 61704, United States of America, Bloomington",
+      "lat": 40.4824868,
+      "lng": -88.9521401,
       "link": "https://events.pol-rev.com/events/fa798d61-3d45-4838-a9bb-b2898ca97fcb"
     },
     {
@@ -887,22 +895,6 @@
       "lat": 33.4885385,
       "lng": -112.0819572,
       "link": "https://events.pol-rev.com/events/8e4c173b-5a34-4b74-b470-1ed05324914d"
-    },
-    {
-      "title": "General Meeting - West Seattle Indivisible",
-      "date": "2025-11-09",
-      "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
-      "lat": 47.5626534,
-      "lng": -122.386272,
-      "link": "https://events.pol-rev.com/events/50f19d82-c07d-4ae4-a057-6494c862dab8"
-    },
-    {
-      "title": "Save our Democracy High Visibility Protest",
-      "date": "2025-11-09",
-      "location": "800 Belle Avenue, San Rafael, CA 94901, United States of America, San Rafael",
-      "lat": 37.977684,
-      "lng": -122.52009,
-      "link": "https://events.pol-rev.com/events/dbbcb138-d0af-45fa-b96b-0748e17c324b"
     }
   ]
 }

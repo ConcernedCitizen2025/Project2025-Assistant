@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-11-10",
+  "cutoffStr": "2025-11-11",
   "totals": {
-    "all": 11500,
-    "geoKept": 405,
-    "virtKept": 71
+    "all": 11499,
+    "geoKept": 396,
+    "virtKept": 69
   },
   "perSource": {
     "mobilize": {
       "total": 11381,
-      "recent": 365,
+      "recent": 354,
       "withCoords": 8375,
-      "keptGeo": 257,
-      "keptVirt": 108,
+      "keptGeo": 250,
+      "keptVirt": 104,
       "sampleDroppedByDate": [
         {
           "title": "Brazoria Democrats County Executive Committee",
@@ -102,37 +102,23 @@
       ]
     },
     "mobilizon": {
-      "total": 113,
+      "total": 112,
       "recent": 111,
       "withCoords": 100,
-      "keptGeo": 98,
-      "keptVirt": 13,
+      "keptGeo": 99,
+      "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "General Meeting - West Seattle Indivisible",
-          "begin": "2025-11-09",
-          "end": "2025-11-09",
-          "lat": 47.5626534,
-          "lng": -122.386272,
-          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "title": "Rush-hour Resistance Rally @ 7th Ave & Osborne in Phoenix",
+          "begin": "2025-11-10",
+          "end": "2025-11-10",
+          "lat": 33.4885385,
+          "lng": -112.0819572,
+          "location": "North 5th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "General Meeting - West Seattle Indivisible",
-              "href": "https://events.pol-rev.com/events/50f19d82-c07d-4ae4-a057-6494c862dab8"
-            }
-          ]
-        },
-        {
-          "title": "Save our Democracy High Visibility Protest",
-          "begin": "2025-11-09",
-          "end": "2025-11-09",
-          "lat": 37.977684,
-          "lng": -122.52009,
-          "location": "800 Belle Avenue, San Rafael, CA 94901, United States of America, San Rafael",
-          "links": [
-            {
-              "title": "Save our Democracy High Visibility Protest",
-              "href": "https://events.pol-rev.com/events/dbbcb138-d0af-45fa-b96b-0748e17c324b"
+              "title": "Rush-hour Resistance Rally @ 7th Ave & Osborne in Phoenix",
+              "href": "https://events.pol-rev.com/events/8e4c173b-5a34-4b74-b470-1ed05324914d"
             }
           ]
         }
