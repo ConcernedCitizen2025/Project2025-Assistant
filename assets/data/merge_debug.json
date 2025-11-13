@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-11-11",
+  "cutoffStr": "2025-11-12",
   "totals": {
-    "all": 11499,
-    "geoKept": 396,
-    "virtKept": 69
+    "all": 11502,
+    "geoKept": 383,
+    "virtKept": 67
   },
   "perSource": {
     "mobilize": {
       "total": 11381,
-      "recent": 354,
+      "recent": 340,
       "withCoords": 8375,
-      "keptGeo": 250,
-      "keptVirt": 104,
+      "keptGeo": 239,
+      "keptVirt": 101,
       "sampleDroppedByDate": [
         {
           "title": "Brazoria Democrats County Executive Committee",
@@ -102,23 +102,51 @@
       ]
     },
     "mobilizon": {
-      "total": 112,
-      "recent": 111,
-      "withCoords": 100,
-      "keptGeo": 99,
+      "total": 115,
+      "recent": 110,
+      "withCoords": 102,
+      "keptGeo": 98,
       "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "Rush-hour Resistance Rally @ 7th Ave & Osborne in Phoenix",
-          "begin": "2025-11-10",
-          "end": "2025-11-10",
-          "lat": 33.4885385,
-          "lng": -112.0819572,
-          "location": "North 5th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+          "title": "VETS SAY NO MILITARY TAKEOVER OF AMERICAN CITIES;  NO OATHS TO TRUMP;  NO CUTS TO THE VA;  NO STEAMROLLING OVER OUR CONSTITUTION AND RULES OF LAW!!",
+          "begin": "2025-11-11",
+          "end": "2025-11-11",
+          "lat": 40.80207,
+          "lng": -124.16367,
+          "location": "Humboldt County Superior Courthouse, Eureka",
           "links": [
             {
-              "title": "Rush-hour Resistance Rally @ 7th Ave & Osborne in Phoenix",
-              "href": "https://events.pol-rev.com/events/8e4c173b-5a34-4b74-b470-1ed05324914d"
+              "title": "VETS SAY NO MILITARY TAKEOVER OF AMERICAN CITIES;  NO OATHS TO TRUMP;  NO CUTS TO THE VA;  NO STEAMROLLING OVER OUR CONSTITUTION AND RULES OF LAW!!",
+              "href": "https://events.pol-rev.com/events/b3049b84-3dfd-4574-86ad-73b15bc5496b"
+            }
+          ]
+        },
+        {
+          "title": "Veterans No Oath to Trump",
+          "begin": "2025-11-11",
+          "end": "2025-11-11",
+          "lat": 34.2312304,
+          "lng": -111.3252653,
+          "location": "714 South Beeline Highway, Payson, AZ 85541, United States of America, Payson",
+          "links": [
+            {
+              "title": "Veterans No Oath to Trump",
+              "href": "https://events.pol-rev.com/events/7af4d91e-c5fd-4aae-b6ce-b50baf24e37e"
+            }
+          ]
+        },
+        {
+          "title": "Veteran's Day - No Oath to Trump - 11/11/25 - 11am-Noon - 3 Locations",
+          "begin": "2025-11-11",
+          "end": "2025-11-11",
+          "lat": 42.9455372,
+          "lng": -78.766955,
+          "location": "878 Cleveland Drive, Buffalo, NY 14225, United States of America, Buffalo",
+          "links": [
+            {
+              "title": "Veteran's Day - No Oath to Trump - 11/11/25 - 11am-Noon - 3 Locations",
+              "href": "https://events.pol-rev.com/events/19ce8181-0a36-41ff-8e20-2b4552da1f08"
             }
           ]
         }

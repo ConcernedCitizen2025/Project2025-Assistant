@@ -1,51 +1,6 @@
 {
   "data": [
     {
-      "title": "Los Angeles, CA: Food & Water Team LA Volunteer Meeting",
-      "begin": "2025-11-11",
-      "end": "2025-11-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Los Angeles, CA: Food & Water Team LA Volunteer Meeting",
-          "href": "https://www.mobilize.us/fwa/event/752408/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Precinct Ops Book Club: November",
-      "begin": "2025-11-11",
-      "end": "2025-11-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Precinct Ops Book Club: November",
-          "href": "https://www.mobilize.us/arlingtondems/event/752603/"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
-      "title": "Yakima says No Oaths to Trump: Veterans Day Overpass Bannering!",
-      "begin": "2025-11-11",
-      "end": "2025-11-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Yakima says No Oaths to Trump: Veterans Day Overpass Bannering!",
-          "href": "https://events.pol-rev.com/events/ce56505c-2ada-4546-beb5-3ede4469041d"
-        }
-      ],
-      "state": "OTHER"
-    },
-    {
       "title": "Who We Are: A Virtual Orientation for New Members",
       "begin": "2025-11-12",
       "end": "2025-11-12",
@@ -446,6 +401,21 @@
         {
           "title": "Allen Park Holiday Market",
           "href": "https://www.mobilize.us/investinmikids/event/852653/"
+        }
+      ],
+      "state": "OTHER"
+    },
+    {
+      "title": "Holiday Protest, White Bear Lake",
+      "begin": "2025-12-06",
+      "end": "2025-12-06",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Holiday Protest, White Bear Lake",
+          "href": "https://events.pol-rev.com/events/b0a0e49f-ce48-445d-9af8-11dfcb17eaa4"
         }
       ],
       "state": "OTHER"
