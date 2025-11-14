@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-11-12",
+  "cutoffStr": "2025-11-13",
   "totals": {
-    "all": 11502,
-    "geoKept": 383,
-    "virtKept": 67
+    "all": 11497,
+    "geoKept": 366,
+    "virtKept": 62
   },
   "perSource": {
     "mobilize": {
       "total": 11381,
-      "recent": 340,
+      "recent": 322,
       "withCoords": 8375,
-      "keptGeo": 239,
-      "keptVirt": 101,
+      "keptGeo": 228,
+      "keptVirt": 94,
       "sampleDroppedByDate": [
         {
           "title": "Brazoria Democrats County Executive Committee",
@@ -102,51 +102,51 @@
       ]
     },
     "mobilizon": {
-      "total": 115,
-      "recent": 110,
-      "withCoords": 102,
-      "keptGeo": 98,
+      "total": 110,
+      "recent": 106,
+      "withCoords": 98,
+      "keptGeo": 94,
       "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "VETS SAY NO MILITARY TAKEOVER OF AMERICAN CITIES;  NO OATHS TO TRUMP;  NO CUTS TO THE VA;  NO STEAMROLLING OVER OUR CONSTITUTION AND RULES OF LAW!!",
-          "begin": "2025-11-11",
-          "end": "2025-11-11",
-          "lat": 40.80207,
-          "lng": -124.16367,
-          "location": "Humboldt County Superior Courthouse, Eureka",
+          "title": "Hands Off Beverly Weekly Wednesday Protest",
+          "begin": "2025-11-12",
+          "end": "2025-11-12",
+          "lat": 42.5488363,
+          "lng": -70.8778836,
+          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
           "links": [
             {
-              "title": "VETS SAY NO MILITARY TAKEOVER OF AMERICAN CITIES;  NO OATHS TO TRUMP;  NO CUTS TO THE VA;  NO STEAMROLLING OVER OUR CONSTITUTION AND RULES OF LAW!!",
-              "href": "https://events.pol-rev.com/events/b3049b84-3dfd-4574-86ad-73b15bc5496b"
+              "title": "Hands Off Beverly Weekly Wednesday Protest",
+              "href": "https://events.pol-rev.com/events/efd7b5bb-e7bb-49e8-8696-62eec5ebcec8"
             }
           ]
         },
         {
-          "title": "Veterans No Oath to Trump",
-          "begin": "2025-11-11",
-          "end": "2025-11-11",
-          "lat": 34.2312304,
-          "lng": -111.3252653,
-          "location": "714 South Beeline Highway, Payson, AZ 85541, United States of America, Payson",
+          "title": "Rush-hour Resistance Rally @ Moon Valley in North Central Phoenix",
+          "begin": "2025-11-12",
+          "end": "2025-11-12",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "Veterans No Oath to Trump",
-              "href": "https://events.pol-rev.com/events/7af4d91e-c5fd-4aae-b6ce-b50baf24e37e"
+              "title": "Rush-hour Resistance Rally @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/b5fe42d0-d2f5-449d-9845-e3495a8d8648"
             }
           ]
         },
         {
-          "title": "Veteran's Day - No Oath to Trump - 11/11/25 - 11am-Noon - 3 Locations",
-          "begin": "2025-11-11",
-          "end": "2025-11-11",
-          "lat": 42.9455372,
-          "lng": -78.766955,
-          "location": "878 Cleveland Drive, Buffalo, NY 14225, United States of America, Buffalo",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-11-12",
+          "end": "2025-11-12",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "Veteran's Day - No Oath to Trump - 11/11/25 - 11am-Noon - 3 Locations",
-              "href": "https://events.pol-rev.com/events/19ce8181-0a36-41ff-8e20-2b4552da1f08"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/55937f01-43e2-4b86-b93e-9f8d55888125"
             }
           ]
         }
