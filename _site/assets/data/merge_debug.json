@@ -1,113 +1,152 @@
 {
-  "cutoffStr": "2025-11-08",
+  "cutoffStr": "2025-11-14",
+  "lookbackDays": 1,
   "totals": {
-    "all": 11545,
-    "geoKept": 362,
-    "virtKept": 70
+    "all": 5737,
+    "geoKept": 5351,
+    "virtKept": 14
   },
   "perSource": {
     "mobilize": {
-      "total": 11381,
-      "recent": 418,
-      "withCoords": 8375,
-      "keptGeo": 297,
-      "keptVirt": 121,
+      "total": 5573,
+      "recent": 5352,
+      "withCoords": 4743,
+      "keptGeo": 4539,
+      "keptVirt": 813,
       "sampleDroppedByDate": [
         {
-          "title": "Brazoria Democrats County Executive Committee",
-          "begin": "2025-10-16",
-          "end": "2025-10-16",
-          "lat": 29.351775,
-          "lng": -95.3973602,
-          "location": "4230 FM 1462, ste 200, Rosharon, TX",
-          "links": [
-            {
-              "title": "Brazoria Democrats County Executive Committee",
-              "href": "https://www.mobilize.us/bcdp/event/109220/"
-            }
-          ]
-        },
-        {
-          "title": "All On The Line Monthly Volunteer Virtual Meeting",
-          "begin": "2025-10-15",
-          "end": "2025-10-15",
-          "lat": null,
-          "lng": null,
+          "_id": 450178,
+          "mobilize_id": 450178,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/450178/",
+          "title": "Springfield District Committee Monthly Meeting",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 38.7843884,
+          "lng": -77.2807423,
           "location": "",
           "links": [
             {
-              "title": "All On The Line Monthly Volunteer Virtual Meeting",
-              "href": "https://www.mobilize.us/allontheline/event/271054/"
+              "title": "Springfield District Committee Monthly Meeting",
+              "href": "https://www.mobilize.us/fairfaxdems/event/450178/"
             }
-          ]
+          ],
+          "_src": "mobilize"
         },
         {
-          "title": "Fridays at 4--Letter Writing and More! (4 pm Pacific/7 pm Eastern)",
-          "begin": "2025-10-03",
-          "end": "2025-10-03",
-          "lat": 42.1945758,
-          "lng": -122.7094767,
-          "location": "Ashland, OR",
+          "_id": 520496,
+          "mobilize_id": 520496,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/520496/",
+          "title": "HWD General Info Session",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 0,
+          "lng": 0,
+          "location": "",
           "links": [
             {
-              "title": "Fridays at 4--Letter Writing and More! (4 pm Pacific/7 pm Eastern)",
-              "href": "https://www.mobilize.us/swingleft/event/274619/"
+              "title": "HWD General Info Session",
+              "href": "https://www.mobilize.us/hwd/event/520496/"
             }
-          ]
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 548652,
+          "mobilize_id": 548652,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/548652/",
+          "title": "WFP Leadership Activist to Activist Call Party",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 39.9651949,
+          "lng": -105.0206757,
+          "location": "Thornton, CO",
+          "links": [
+            {
+              "title": "WFP Leadership Activist to Activist Call Party",
+              "href": "https://www.mobilize.us/workingfamilies/event/548652/"
+            }
+          ],
+          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
         {
-          "title": "2020 Victorious! Strategic Community Organizing * Phenomenal Election Impact | Communities United",
-          "begin": "2027-12-31",
-          "end": "2027-12-31",
+          "_id": 437109,
+          "mobilize_id": 437109,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/437109/",
+          "title": "Baytown Area Democrats Club Meeting",
+          "begin": "2025-12-09",
+          "end": "2026-11-10",
           "lat": null,
           "lng": null,
-          "location": "",
+          "location": "This event's address is private. Sign up for more details, Baytown, TX",
           "links": [
             {
-              "title": "2020 Victorious! Strategic Community Organizing * Phenomenal Election Impact | Communities United",
-              "href": "https://www.mobilize.us/2020victorious/event/373889/"
+              "title": "Baytown Area Democrats Club Meeting",
+              "href": "https://www.mobilize.us/baytownareadems/event/437109/"
             }
-          ]
+          ],
+          "_src": "mobilize"
         },
         {
-          "title": "HIGHLIGHTS * 2020 Victorious! | Communities United: NATIONAL PRIORITIES - Community Advocacy",
-          "begin": "2027-12-31",
-          "end": "2027-12-31",
+          "_id": 443382,
+          "mobilize_id": 443382,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
+          "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
+          "begin": "2025-11-16",
+          "end": "2025-12-14",
           "lat": null,
           "lng": null,
-          "location": "",
+          "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
           "links": [
             {
-              "title": "HIGHLIGHTS * 2020 Victorious! | Communities United: NATIONAL PRIORITIES - Community Advocacy",
-              "href": "https://www.mobilize.us/2020victorious/event/376802/"
+              "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
+              "href": "https://www.mobilize.us/civicsundays/event/443382/"
             }
-          ]
+          ],
+          "_src": "mobilize"
         },
         {
-          "title": "Membership Matters * 2020 Victorious! | Communities United ... (benefits-privileges)",
-          "begin": "2027-12-31",
-          "end": "2027-12-31",
+          "_id": 459133,
+          "mobilize_id": 459133,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/459133/",
+          "title": "Politics & Coffee with the New Trier Democrats",
+          "begin": "2025-11-23",
+          "end": "2025-12-14",
           "lat": null,
           "lng": null,
-          "location": "",
+          "location": "This event's address is private. Sign up for more details, Winnetka, IL",
           "links": [
             {
-              "title": "Membership Matters * 2020 Victorious! | Communities United ... (benefits-privileges)",
-              "href": "https://www.mobilize.us/2020victorious/event/381214/"
+              "title": "Politics & Coffee with the New Trier Democrats",
+              "href": "https://www.mobilize.us/newtrierdemocraticorganization/event/459133/"
             }
-          ]
+          ],
+          "_src": "mobilize"
         }
       ]
     },
     "mobilizon": {
       "total": 158,
-      "recent": 14,
+      "recent": 13,
       "withCoords": 142,
-      "keptGeo": 14,
+      "keptGeo": 13,
       "keptVirt": 0,
       "sampleDroppedByDate": [
+        {
+          "title": "General Meeting - West Seattle Indivisible",
+          "begin": "2025-11-09",
+          "end": "2025-11-09",
+          "lat": 47.5626534,
+          "lng": -122.386272,
+          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "links": [
+            {
+              "title": "General Meeting - West Seattle Indivisible",
+              "href": "https://events.pol-rev.com/events/50f19d82-c07d-4ae4-a057-6494c862dab8"
+            }
+          ]
+        },
         {
           "title": "NO FASCISM Fridays McFarland, WI",
           "begin": "2025-11-07",
@@ -133,20 +172,6 @@
             {
               "title": "Canvass for Prop 50 with ISBLA in The South Bay!",
               "href": "https://events.pol-rev.com/events/7b27f60d-547c-47f1-be16-f50975b2da44"
-            }
-          ]
-        },
-        {
-          "title": "Trump + Tesla Takedown",
-          "begin": "2025-11-01",
-          "end": "2025-11-01",
-          "lat": 42.3480424,
-          "lng": -71.082783,
-          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
-          "links": [
-            {
-              "title": "Trump + Tesla Takedown",
-              "href": "https://events.pol-rev.com/events/e6f86f85-aa63-41ec-bc58-c32cc206c50d"
             }
           ]
         }

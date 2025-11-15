@@ -1,0 +1,59 @@
+I"<!-- Intro -->
+<div style="max-width:900px;margin:0 auto 16px;">
+  <h1 style="margin:0 0 6px;">News &amp; Video Drops</h1>
+  <p style="margin:0;color:#555;">
+    Short clips and videos I’ve shared recently. This section updates automatically—check back often.
+  </p>
+</div>
+
+<!-- Video Drops (auto from /assets/data/videos.json) -->
+<section id="video-drops" class="video-drops">
+  <h2 style="text-align:center;margin:0 0 12px;">🎬 Video Drops</h2>
+  <div id="video-feed-grid" class="video-feed-grid" aria-live="polite">
+    <div class="vd-loading">Loading videos…</div>
+  </div>
+</section>
+
+<!-- Provider SDKs (loaded once, guarded) -->
+<script>
+  // Instagram
+  (function loadIG(){
+    if (window.__IG_EMBED_LOADED__) return;
+    window.__IG_EMBED_LOADED__ = true;
+    var s=document.createElement('script');
+    s.src='https://www.instagram.com/embed.js'; s.async=true; s.defer=true;
+    document.head.appendChild(s);
+  })();
+  // Facebook
+  (function loadFB(){
+    if (window.__FB_SDK_LOADED__) return;
+    window.__FB_SDK_LOADED__ = true;
+    var d=document, s=d.createElement('script'); s.async=true; s.defer=true;
+    s.crossOrigin='anonymous';
+    s.src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0';
+    if (!d.getElementById('fb-root')) {
+      var fr=d.createElement('div'); fr.id='fb-root'; d.body.appendChild(fr);
+    }
+    document.head.appendChild(s);
+  })();
+</script>
+
+<!-- Styles (tiny) -->
+<style>
+  .video-feed-grid {
+    display:grid; gap:16px; grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    max-width: 1100px; margin: 0 auto 24px; padding: 0 8px;
+  }
+  .video-card {
+    background:#fff; border:1px solid #ddd; border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.06); overflow:hidden;
+  }
+  .video-card .meta { padding:10px; font-size:.9rem; color:#444 }
+  .video-card .title { font-weight:600; margin-bottom:6px; }
+  .vd-loading { text-align:center; padding:24px; color:#666 }
+</style>
+
+<!-- Render script -->
+<script defer="" src="/assets/js/videos-feed.js?v=1763247744"></script>
+
+:ET
