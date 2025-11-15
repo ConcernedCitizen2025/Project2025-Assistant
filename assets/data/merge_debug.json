@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-11-13",
+  "cutoffStr": "2025-11-14",
   "totals": {
-    "all": 11497,
-    "geoKept": 366,
-    "virtKept": 62
+    "all": 11494,
+    "geoKept": 344,
+    "virtKept": 61
   },
   "perSource": {
     "mobilize": {
       "total": 11381,
-      "recent": 322,
+      "recent": 301,
       "withCoords": 8375,
-      "keptGeo": 228,
-      "keptVirt": 94,
+      "keptGeo": 211,
+      "keptVirt": 90,
       "sampleDroppedByDate": [
         {
           "title": "Brazoria Democrats County Executive Committee",
@@ -102,51 +102,51 @@
       ]
     },
     "mobilizon": {
-      "total": 110,
-      "recent": 106,
-      "withCoords": 98,
-      "keptGeo": 94,
+      "total": 107,
+      "recent": 104,
+      "withCoords": 95,
+      "keptGeo": 92,
       "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "Hands Off Beverly Weekly Wednesday Protest",
-          "begin": "2025-11-12",
-          "end": "2025-11-12",
-          "lat": 42.5488363,
-          "lng": -70.8778836,
-          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+          "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 33.5237023,
+          "lng": -112.0989607,
+          "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
           "links": [
             {
-              "title": "Hands Off Beverly Weekly Wednesday Protest",
-              "href": "https://events.pol-rev.com/events/efd7b5bb-e7bb-49e8-8696-62eec5ebcec8"
+              "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
+              "href": "https://events.pol-rev.com/events/32f187dc-72c2-49f8-9323-640ea1675fd6"
             }
           ]
         },
         {
-          "title": "Rush-hour Resistance Rally @ Moon Valley in North Central Phoenix",
-          "begin": "2025-11-12",
-          "end": "2025-11-12",
-          "lat": 33.6261453,
-          "lng": -112.0663766,
-          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+          "title": "RhRR @ the ICE Field Office in central Phoenix",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 33.4708979,
+          "lng": -112.073198,
+          "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
           "links": [
             {
-              "title": "Rush-hour Resistance Rally @ Moon Valley in North Central Phoenix",
-              "href": "https://events.pol-rev.com/events/b5fe42d0-d2f5-449d-9845-e3495a8d8648"
+              "title": "RhRR @ the ICE Field Office in central Phoenix",
+              "href": "https://events.pol-rev.com/events/5b66deb2-dedb-4452-a3f8-495f406f0fbd"
             }
           ]
         },
         {
-          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-          "begin": "2025-11-12",
-          "end": "2025-11-12",
-          "lat": 33.4974465,
-          "lng": -112.0838942,
-          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+          "title": "50501 General Meeting",
+          "begin": "2025-11-13",
+          "end": "2025-11-13",
+          "lat": 40.4929987,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-              "href": "https://events.pol-rev.com/events/55937f01-43e2-4b86-b93e-9f8d55888125"
+              "title": "50501 General Meeting",
+              "href": "https://events.pol-rev.com/events/fd9f60c7-8562-43a0-870b-7a3dc0cf19d9"
             }
           ]
         }
