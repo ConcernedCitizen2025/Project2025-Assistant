@@ -19,6 +19,14 @@ if (window.__P25A_MAP_LOADED__) {
     /* ---------------------------------------------------------------- 1. DOM refs */
     const mapEl = document.getElementById("california-map");
     if (!mapEl) return console.error("Map container #california-map not found!");
+    // ensure the map has height
+    if (!mapEl.style.height || mapEl.offsetHeight < 100) {
+      mapEl.style.height = '600px';
+    }
+    // global error tracer
+    window.addEventListener('error', e => console.error('[map global error]', e.message, e.error));
+    console.log('[map] DOM ready, script alive');
+
 
     /* ---------------------------------------------------------------- 2. Helpers */
     const ONE_DAY = 86_400_000;
@@ -31,6 +39,62 @@ if (window.__P25A_MAP_LOADED__) {
     const fmt = (d)=>d.toISOString().slice(0,10);
     const todayStr = fmt(today);
     const yesterdayStr = fmt(yesterday);
+
+    // ---- Load merged data with cache-busting + server cutoff guard
+    async function loadEventsSafe() {
+      // helper: PT yesterday (YYYY-MM-DD)
+      const ONE_DAY = 86_400_000;
+      const f = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Los_Angeles',
+        year: 'numeric', month: '2-digit', day: '2-digit'
+      });
+      const [y,m,d] = f.format(new Date()).split('-').map(Number);
+      const todayPT = new Date(Date.UTC(y, m-1, d, 8, 0, 0));
+      const yestPT  = new Date(todayPT.getTime() - ONE_DAY);
+      const fallbackCutoff = yestPT.toISOString().slice(0,10);
+
+      let meta = null;
+      try {
+        const r = await fetch('assets/data/events_meta.json?cb=' + Date.now());
+        if (r.ok) meta = await r.json();
+      } catch (_) {
+        /* ignore */
+      }
+
+      // choose cache-buster and cutoff safely
+      const cb = '?v=' + encodeURIComponent(meta?.lastUpdated || Date.now());
+      const cutoffStr =
+        meta?.cutoff ||
+        meta?.cutoffStr ||
+        (meta?.lastUpdated ? String(meta.lastUpdated).slice(0,10) : fallbackCutoff);
+
+      // fetch datasets
+      const [geoJ, virtJ] = await Promise.all([
+        fetch('assets/data/merged_events.json'  + cb).then(r => r.json()),
+        fetch('assets/data/virtual_events.json' + cb).then(r => r.json()),
+      ]);
+
+      const geo  = Array.isArray(geoJ?.data)  ? geoJ.data  : [];
+      const virt = Array.isArray(virtJ?.data) ? virtJ.data : [];
+
+      // extra safety: apply cutoff if meta was missing or too old
+      const withinWindow = (ev) => {
+        const b = ev.begin ? String(ev.begin).slice(0,10) : null;
+        const e = ev.end   ? String(ev.end).slice(0,10)   : b;
+        if (!b && !e) return true;
+        return (e || b) >= cutoffStr;
+      };
+
+      return {
+        meta: meta || { lastUpdated: null },
+        cutoffStr,
+        geo:  geo.filter(withinWindow),
+        virt: virt.filter(withinWindow),
+      };
+    }
+
+
+
 
 
     /* ---------------------------------------------------------------- 3. Map bootstrap (singletons) */
@@ -94,46 +158,43 @@ if (window.__P25A_MAP_LOADED__) {
     const customBtn = makeBtn("Custom…","custom");
     uiBar.append(customBtn,badge);
 
-    /* ---------------------------------------------------------------- 5. Data fetch */
-    let raw=[]; let cluster; let nkCluster;
+        
+    /* ---------------------------------------------------------------- 6. Filtering */
+    const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
+
+    let raw = [];
+    let cluster, nkCluster;
 
     const nkIcon = L.icon({
       iconUrl: '/assets/images/no_kings_logo.png',
-      iconSize: [36, 36],       // ← shrunk a smidge from 48 → 36
+      iconSize: [36, 36],
       iconAnchor: [18, 18],
       popupAnchor: [0, -12],
       className: 'nk-pin'
     });
 
+    // if markercluster is missing, provide a simple fallback
+    const hasClusters = typeof L.markerClusterGroup === 'function';
+    function makeCluster(opts) {
+      return hasClusters ? L.markerClusterGroup(opts) : L.layerGroup();
+    }
 
-
-    fetch(`assets/data/merged_events.json?v=${Date.now()}`)
-      .then(r => r.json())
-      .then(js => {
-        raw = js.data || [];
-        initFilter();               // ⬅ re-enable the filter bar
-      })
-      .catch(e => console.error("merged_events.json fetch", e));
-
-
-
-    /* ---------------------------------------------------------------- 6. Filtering */
-    const labelOf = d=> d==="all"?"All Dates":d===1?"Today":d==="custom"?"Custom":`Next ${d} Days`;
 
     function render(list, lbl) {
       // clear old layers
       if (cluster)   map.removeLayer(cluster);
       if (nkCluster) map.removeLayer(nkCluster);
 
-      // normal (non–No Kings) clustered layer
-      cluster = L.markerClusterGroup({ maxClusterRadius: 40 });
+      // old:
+      // cluster   = L.markerClusterGroup({ maxClusterRadius: 40 });
+      // nkCluster = L.markerClusterGroup({...});
 
-      // No Kings clustered layer (separate group, custom cluster icon)
-      nkCluster = L.markerClusterGroup({
+      // new:
+      cluster   = makeCluster({ maxClusterRadius: 40 });
+      nkCluster = makeCluster({
         maxClusterRadius: 50,
         iconCreateFunction: function (c) {
-          const count = c.getChildCount();
-          // a divIcon that uses the NK logo as the background with a tiny count badge
+          const count = c.getChildCount?.() ?? c.getLayers().length;
           return L.divIcon({
             html: `<div class="nk-cluster"><span class="count">${count}</span></div>`,
             className: 'nk-cluster-icon',
@@ -141,6 +202,7 @@ if (window.__P25A_MAP_LOADED__) {
           });
         }
       });
+
 
       let nkRendered = 0;
 
@@ -172,7 +234,9 @@ if (window.__P25A_MAP_LOADED__) {
       map.addLayer(nkCluster);
 
       console.log('Rendered No Kings markers:', nkRendered);
-      badge.textContent = `Showing: ${lbl} — ${list.length} events`;
+      badge.textContent = `Showing: ${lbl} — ${list.length} events`; 
+      // for "All", lbl currently shows "All (last 1 day + upcoming)" — keep that phrasing
+
     }
 
     // --- VERSION MARKER (so we know this file is actually loaded)
@@ -218,48 +282,73 @@ DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
 
 
 
-    /* ---------------------------------------------------------------- 7. Virtual Events Toggle */
-    fetch(`assets/data/virtual_events.json?v=${Date.now()}`)
-      .then(r=>r.json())
-      .then(js=>{
-        let virtual=js.data||[];
-        virtual = virtual.filter(ev => (ev.end || ev.begin) >= yesterdayStr);
-        if(!virtual.length) return;
-        const btn=document.createElement("button");
-        btn.textContent="Show Virtual Events";
-        Object.assign(btn.style,{display:"block",margin:"12px auto",padding:"12px 24px",backgroundColor:"#0073e6",color:"#fff",border:"none",borderRadius:"6px",fontSize:"1em",cursor:"pointer"});
-        const list=document.createElement("ul");
-        list.style.cssText="display:none;max-width:800px;margin:8px auto;padding:0 1em;list-style:none";
-        virtual.sort((a,b)=>a.begin.localeCompare(b.begin)).forEach(ev=>{
-          const li=document.createElement("li");
-          const dateLabel=ev.begin===ev.end?ev.begin:`${ev.begin} – ${ev.end}`;
-          const href=ev.links?.[0]?.href||"#";
-          li.innerHTML=`<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>`+
-            (ev.location?` (<em>${ev.location}</em>)`:" ");
+    /* ---------------------------------------------------------------- 5–8. Load, render, virtual list, meta */
+    
+
+    function buildVirtualList(virtual, cutoffStr) {
+      const existing = document.getElementById('virtual-toggle-btn');
+      if (existing) existing.remove();
+      const existingList = document.getElementById('virtual-list');
+      if (existingList) existingList.remove();
+
+      if (!virtual.length) return;
+
+      const btn = document.createElement("button");
+      btn.id = 'virtual-toggle-btn';
+      btn.textContent = "Show Virtual Events";
+      Object.assign(btn.style,{
+        display:"block",margin:"12px auto",padding:"12px 24px",
+        backgroundColor:"#0073e6",color:"#fff",border:"none",
+        borderRadius:"6px",fontSize:"1em",cursor:"pointer"
+      });
+
+      const list = document.createElement("ul");
+      list.id = 'virtual-list';
+      list.style.cssText = "display:none;max-width:800px;margin:8px auto;padding:0 1em;list-style:none";
+
+      virtual
+        .slice()
+        .sort((a,b)=> (a.begin||'').localeCompare(b.begin||''))
+        .forEach(ev=>{
+          const li = document.createElement("li");
+          const dateLabel = ev.begin===ev.end? ev.begin : `${ev.begin} – ${ev.end}`;
+          const href = ev.links?.[0]?.href || "#";
+          li.innerHTML = `<strong>${dateLabel}</strong> — <a href="${href}" target="_blank">${ev.title}</a>` +
+                        (ev.location?` (<em>${ev.location}</em>)`:" ");
           li.style.padding="6px 0";
           list.appendChild(li);
         });
-        mapEl.parentNode.insertBefore(btn, mapEl.nextSibling);
-        mapEl.parentNode.insertBefore(list, btn.nextSibling);
-        btn.onclick=()=>{
-          const showing=list.style.display==="block";
-          list.style.display=showing?"none":"block";
-          btn.textContent=showing?"Show Virtual Events":"Hide Virtual Events";
-        };
-      });
 
-    /* ---------------------------------------------------------------- 8. Metadata timestamp */
-    fetch(`assets/data/events_meta.json?v=${Date.now()}`)
-      .then(r => r.ok ? r.json() : null)
-      .then(d => {
-        if (!d) return;
-        const wrap = document.getElementById('map-last-updated');
-        if (!wrap) return;
-        // Prefer the existing <em>…</em> slot; fall back to setting whole text if not found
-        const slot = wrap.querySelector('em');
-        if (slot) slot.textContent = d.lastUpdated;
-        else wrap.textContent = `Last updated: ${d.lastUpdated}`;
+      mapEl.parentNode.insertBefore(btn, mapEl.nextSibling);
+      mapEl.parentNode.insertBefore(list, btn.nextSibling);
+
+      btn.onclick = ()=>{
+        const showing = list.style.display==="block";
+        list.style.display = showing ? "none" : "block";
+        btn.textContent    = showing ? "Show Virtual Events" : "Hide Virtual Events";
+      };
+    }
+
+    function setMeta(meta) {
+      const wrap = document.getElementById('map-last-updated');
+      if (!wrap || !meta?.lastUpdated) return;
+      const slot = wrap.querySelector('em');
+      if (slot) slot.textContent = meta.lastUpdated;
+      else wrap.textContent = `Last updated: ${meta.lastUpdated}`;
+    }
+
+    // One unified load & kick-off
+    loadEventsSafe()
+      .then(({ meta, cutoffStr, geo, virt }) => {
+        console.log('[map] loaded', { cutoffStr, geoLen: geo.length, virtLen: virt.length, meta });
+        raw = geo;
+        initFilter();
+        buildVirtualList(virt, cutoffStr);
+        setMeta(meta);
       })
-      .catch(() => {});
-  });
+      .catch(e => console.error('events load failed:', e));
+
+
+    });
 }
+

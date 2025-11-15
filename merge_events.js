@@ -28,6 +28,41 @@ function saveCache() {
   }
 }
 
+async function writeFileWithRetry(filePath, content, encoding = 'utf8', tries = 6, delayMs = 300) {
+  for (let i = 0; i < tries; i++) {
+    try {
+      const tmp = filePath + '.tmp';
+      fs.writeFileSync(tmp, content, { encoding });
+      try { fs.renameSync(tmp, filePath); } catch {}
+      return;
+    } catch (e) {
+      if (i === tries - 1) throw e;
+      await new Promise(r => setTimeout(r, delayMs * Math.pow(2, i)));
+    }
+  }
+}
+
+
+
+/* ----------------------------- DROP ACCOUNTING ----------------------------- */
+const dropStats = {
+  totalDropped: 0,                       // actual discarded (not recent/upcoming)
+  reasons: { OUT_OF_WINDOW: 0, INVALID_DATE: 0 },
+  kept:    { GEO: 0, VIRTUAL: 0, NO_DATE: 0 }, // not "dropped" but useful counts
+  perSource: {},                         // { mobilize:{...}, mobilizon:{...}, protestapi:{...} }
+};
+
+function markSrc(src){
+  if (!dropStats.perSource[src]) {
+    dropStats.perSource[src] = {
+      OUT_OF_WINDOW: 0, INVALID_DATE: 0,
+      GEO: 0, VIRTUAL: 0, NO_DATE: 0
+    };
+  }
+}
+const ISO_DATE = d => typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d);
+
+
 // ---- helpers you already have (keep ONE copy)
 const readJSON = (file) =>
   JSON.parse(fs.readFileSync(path.join(__dirname, file), 'utf8'));
@@ -40,6 +75,8 @@ const mRaw = readJSON('assets/data/mobilize_protests.json').events || [];
 const zRaw = readJSON('assets/data/mobilizon_events.json').data || [];
 const pRaw =
   readJSON('assets/data/protest_events.json').data?.searchEvents?.elements || [];
+console.log(`📥 Loaded feeds — mobilize:${mRaw.length} mobilizon:${zRaw.length} protestapi:${pRaw.length}`);
+
 
 // Mobilize normalizer — supports both RAW and LEGACY-MAPPED shapes
 function toPTDateStrFromEpoch(sec) {
@@ -50,46 +87,57 @@ function toPTDateStrFromEpoch(sec) {
   });
 }
 
+// Mobilize normalizer — supports RAW/legacy and string-or-number timeslot epochs
 const norm1 = (ev) => {
-  // Heuristic: RAW has timeslots OR browser_url OR nested coords; legacy doesn’t.
   const looksRaw =
     Array.isArray(ev.timeslots) ||
     !!ev.browser_url ||
     !!(ev.location && ev.location.location);
 
   if (looksRaw) {
+    // 1) collapse timeslots (accept number or numeric string)
     const slots = Array.isArray(ev.timeslots) ? ev.timeslots : [];
     let minStart = null, maxEnd = null;
     for (const s of slots) {
-      if (typeof s.start_date === 'number') {
-        minStart = (minStart == null) ? s.start_date : Math.min(minStart, s.start_date);
-        const end = (typeof s.end_date === 'number') ? s.end_date : s.start_date;
-        maxEnd = (maxEnd == null) ? end : Math.max(maxEnd, end);
-      }
+      const start = Number(s?.start_date);
+      const end   = Number(s?.end_date ?? s?.start_date);
+      if (Number.isFinite(start)) minStart = (minStart == null) ? start : Math.min(minStart, start);
+      if (Number.isFinite(end))   maxEnd   = (maxEnd   == null) ? end   : Math.max(maxEnd, end);
     }
-    const begin = toPTDateStrFromEpoch(minStart);
-    const end   = toPTDateStrFromEpoch(maxEnd);
+    const begin = Number.isFinite(minStart) ? toPTDateStrFromEpoch(minStart) : null;
+    const end   = Number.isFinite(maxEnd)   ? toPTDateStrFromEpoch(maxEnd)   : begin;
 
+    // 2) coords + address
     const loc = ev.location || {};
-    const coords = loc.location || {};
-    const address = [
-      ...(loc.address_lines || []),
-      loc.locality,
-      loc.region,
-    ].filter(Boolean).join(', ');
+    const coords = (loc.location && typeof loc.location === 'object') ? loc.location : {};
+    const address = [...(loc.address_lines || []), loc.locality, loc.region].filter(Boolean).join(', ');
+
+    // 3) best link + stable Mobilize id
+    const href =
+      (typeof ev.browser_url === 'string' && ev.browser_url) ||
+      (typeof ev.url        === 'string' && ev.url) ||
+      (Array.isArray(ev.links) && ev.links[0] && ev.links[0].href) ||
+      (typeof ev.link       === 'string' && ev.link) || '';
+    const m = /\/event\/(\d+)/.exec(href);
+    const _id = m ? Number(m[1]) : null;
 
     return {
+      _id,                        // used for dedupe
+      mobilize_id: _id || null,   // <-- add this
+      canonical_mobilize_url: _id ? `https://www.mobilize.us/event/${_id}/` : null, // <-- add this
       title: normalizeQuotes(ev.title || ''),
       begin,
       end,
-      lat: (coords.latitude != null) ? Number(coords.latitude) : null,
-      lng: (coords.longitude != null) ? Number(coords.longitude) : null,
+      lat: Number.isFinite(Number(coords.latitude))  ? Number(coords.latitude)  : null,
+      lng: Number.isFinite(Number(coords.longitude)) ? Number(coords.longitude) : null,
       location: normalizeQuotes(address || ''),
-      links: [{ title: normalizeQuotes(ev.title || ''), href: normalizeQuotes(ev.browser_url || '') }],
+      links: [{ title: normalizeQuotes(ev.title || ''), href: normalizeQuotes(href) }],
+      _src: 'mobilize',
     };
+
   }
 
-  // LEGACY-MAPPED shape fallback: {title,date,location,lat,lng,link}
+  // LEGACY fallback (unchanged)
   return {
     title: normalizeQuotes(ev.title || ''),
     begin: ev.date ? String(ev.date).slice(0,10) : null,
@@ -100,7 +148,6 @@ const norm1 = (ev) => {
     links: [{ title: normalizeQuotes(ev.title || ''), href: normalizeQuotes(ev.link || '') }],
   };
 };
-
 
 
 // Mobilizon → unified shape (accepts several possible date fields)
@@ -138,7 +185,31 @@ const norm3 = (ev) => ({
   links: [{ title: normalizeQuotes(ev.title), href: normalizeQuotes(ev.link) }],
 });
 
-const all = [...mRaw.map(norm1), ...zRaw.map(norm2), ...pRaw.map(norm3)];
+const all = [
+  ...mRaw.map(ev => ({ ...norm1(ev), _src: 'mobilize' })),
+  ...zRaw.map(ev => ({ ...norm2(ev), _src: 'mobilizon' })),
+  ...pRaw.map(ev => ({ ...norm3(ev), _src: 'protestapi' })),
+];
+
+// --- Mobilize ID-based dedupe (keep the most recent by end/begin)
+const byId = new Map();
+for (const ev of all) {
+  if (ev._src === 'mobilize' && ev._id != null) {
+    const prev = byId.get(ev._id);
+    const curKey  = (ev.end || ev.begin || '').slice(0,10);
+    if (!prev) byId.set(ev._id, ev);
+    else {
+      const prevKey = (prev.end || prev.begin || '').slice(0,10);
+      if (curKey > prevKey) byId.set(ev._id, ev);
+    }
+  }
+}
+const mobilizeDeduped = Array.from(byId.values());
+const others = all.filter(ev => ev._src !== 'mobilize' || ev._id == null);
+const allDeduped = [...mobilizeDeduped, ...others];
+
+
+
 // After const all = [...mRaw.map(norm1), ...zRaw.map(norm2), ...pRaw.map(norm3)];
 const zMissing = zRaw
   .map(norm2)
@@ -166,12 +237,17 @@ async function geocodeMissing(list) {
   // Build the set needing geocode (no coords but has a location string)
   const toGeo = list.filter(ev => (ev.lat == null || ev.lng == null) && ev.location && String(ev.location).trim().length);
   const total = toGeo.length;
+
+  console.log(`🔍 Geocoding check: candidates=${total}`);
+
   if (!total) {
     console.log('🔍 Geocoding: nothing to do (all events have coords)');
     return;
   }
 
   console.log(`🔍 Geocoding ${total} events… (using cache + 1 req/s throttle)`);
+  // ... (rest of function unchanged)
+
 
   let done = 0;
   let cacheHits = 0;
@@ -255,51 +331,65 @@ async function geocodeMissing(list) {
 
 
 (async () => {
-  await geocodeMissing(all);
+  try {
+    await geocodeMissing(allDeduped);
 
-  // --- Cutoff: keep yesterday + upcoming (Pacific Time, DST aware)
-  const ONE_DAY = 86_400_000;
+    // --- Cutoff: keep recent + upcoming (Pacific Time, DST aware)
+    // Configure with env LOOKBACK_DAYS (default 30)
+    // Example (Windows CMD):  set LOOKBACK_DAYS=45 && node merge_events.js
+    const ONE_DAY = 86_400_000;
+    const LOOKBACK_DAYS = Math.max(0, parseInt(process.env.LOOKBACK_DAYS || '30', 10) || 30);
 
-  // ✅ DST-safe PT midnight (fixed)
-  function ptMidnightToday() {
-    const now = new Date();
-    const f = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'America/Los_Angeles',
-      year: 'numeric', month: '2-digit', day: '2-digit'
-    });
-    const [y, m, d] = f.format(now).split('-').map(Number);
-    // IMPORTANT: month is 0-based for Date.UTC → use (m - 1)
-    return new Date(Date.UTC(y, m - 1, d, 8, 0, 0));
-  }
+    // ✅ DST-safe PT midnight (fixed)
+    function ptMidnightToday() {
+      const now = new Date();
+      const f = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Los_Angeles',
+        year: 'numeric', month: '2-digit', day: '2-digit'
+      });
+      const [y, m, d] = f.format(now).split('-').map(Number);
+      // IMPORTANT: month is 0-based for Date.UTC → use (m - 1)
+      return new Date(Date.UTC(y, m - 1, d, 8, 0, 0));
+    }
 
-
-
-  const todayPT = ptMidnightToday();
-  const yesterdayPT = new Date(todayPT.getTime() - ONE_DAY);
-  const cutoffStr = yesterdayPT.toISOString().slice(0, 10);
-
-  function beginEndStr(ev) {
-    const b = ev.begin ? String(ev.begin).slice(0, 10) : null;
-    const e = ev.end   ? String(ev.end).slice(0, 10)   : b;
-    return { b, e };
-  }
-
-  function isRecentOrUpcoming(ev) {
-    const { b, e } = beginEndStr(ev);
-    // If both dates missing, KEEP it (we'll let the frontend filter)
-    if (!b && !e) return true;
-    return (e || b) >= cutoffStr; // safe YYYY-MM-DD string compare
-  }
+    const todayPT = ptMidnightToday();
+    // Look back N days (default 30, overridable by env LOOKBACK_DAYS)
+    const cutoffDate = new Date(todayPT.getTime() - LOOKBACK_DAYS * ONE_DAY);
+    const cutoffStr = cutoffDate.toISOString().slice(0, 10);
 
 
-  const geo = all.filter(ev =>
-    ev.lat != null &&
-    ev.lng != null &&
-    isRecentOrUpcoming(ev)
-  );
+    // Timestamp for reports (available early so writers can use it)
+    const runTimestampPT =
+      new Date().toLocaleDateString('en-US', {
+        timeZone: 'America/Los_Angeles',
+        month: 'long', day: 'numeric', year: 'numeric',
+      }) + ' at ' +
+      new Date().toLocaleTimeString('en-US', {
+        timeZone: 'America/Los_Angeles',
+        hour12: true, hour: '2-digit', minute: '2-digit',
+      });
 
-  const virtual = all
-    .filter(ev =>
+    function beginEndStr(ev) {
+      const b = ev.begin ? String(ev.begin).slice(0, 10) : null;
+      const e = ev.end   ? String(ev.end).slice(0, 10)   : b;
+      return { b, e };
+    }
+
+    function isRecentOrUpcoming(ev) {
+      const { b, e } = beginEndStr(ev);
+      if (!b && !e) return true;
+      return (e || b) >= cutoffStr;
+    }
+
+
+
+    const geo = allDeduped.filter(ev =>
+      ev.lat != null &&
+      ev.lng != null &&
+      isRecentOrUpcoming(ev)
+    );
+
+    const virtual = allDeduped.filter(ev =>
       (ev.lat == null || ev.lng == null) &&
       isRecentOrUpcoming(ev)
     )
@@ -309,114 +399,229 @@ async function geocodeMissing(list) {
       return (ab || ae || '').localeCompare(bb || be || '');
     });
 
-  console.log(`📊 Summary — cutoff >= ${cutoffStr} — Total: ${all.length}, Geo kept: ${geo.length}, Virtual kept: ${virtual.length}`);
+    console.log(`📊 Summary — cutoff >= ${cutoffStr} — Total: ${allDeduped.length}, Geo kept: ${geo.length}, Virtual kept: ${virtual.length}`);
 
-  // Add state code
-  all.forEach((ev) => {
-    if (typeof ev.location === 'string') {
-      const parts = ev.location.split(',');
-      const last = parts[parts.length - 1].trim();
-      const st = last.split(' ').pop().toUpperCase();
-      ev.state = st.length === 2 ? st : 'OTHER';
-    } else {
-      ev.state = 'OTHER';
-    }
-  });
-
-  // -------------------- DEBUG COUNTS (paste above the writes) --------------------
-  (function debugCounts() {
-    const src = { mobilize: mRaw, mobilizon: zRaw, protestapi: pRaw };
-
-    function beginEndStr(ev) {
-      const b = ev.begin ? String(ev.begin).slice(0, 10) : null;
-      const e = ev.end   ? String(ev.end).slice(0, 10)   : b;
-      return { b, e };
-    }
-    function isRecentOrUpcoming(ev) {
-      const { b, e } = beginEndStr(ev);
-      if (!b && !e) return false;
-      return (e || b) >= cutoffStr; // YYYY-MM-DD compare
-    }
-
-    const buckets = {};
-    for (const [name, rawArr] of Object.entries(src)) {
-      // Re-normalize exactly as used to build `all`
-      let normed;
-      if (name === 'mobilize') normed = mRaw.map(norm1);
-      else if (name === 'mobilizon') normed = zRaw.map(norm2);
-      else normed = pRaw.map(norm3);
-
-      const total = normed.length;
-      const recent = normed.filter(isRecentOrUpcoming);
-      const withCoords = normed.filter(e => e.lat != null && e.lng != null);
-      const keptGeo = normed.filter(e => (e.lat != null && e.lng != null) && isRecentOrUpcoming(e));
-      const keptVirt = normed.filter(e => (e.lat == null || e.lng == null) && isRecentOrUpcoming(e));
-
-      buckets[name] = {
-        total,
-        recent: recent.length,
-        withCoords: withCoords.length,
-        keptGeo: keptGeo.length,
-        keptVirt: keptVirt.length,
-        sampleDroppedByDate: normed.filter(e => !isRecentOrUpcoming(e)).slice(0, 3),
-        sampleDroppedByCoords: normed.filter(e => isRecentOrUpcoming(e) && (e.lat == null || e.lng == null)).slice(0, 3),
+    (function presenceCheck() {
+      const idFrom = (u) => {
+        const m = String(u||'').match(/mobilize\.us\/(?:[^\/]+\/)?events?\/(\d+)/);
+        return m ? +m[1] : null;
       };
-    }
+      const idsInMerged = new Set(
+        geo.concat(virtual).flatMap(e => (e.links||[]).map(l => idFrom(l.href)).filter(Boolean))
+      );
+      const want = [867978, 869819, 869820];
+      console.log('🔎 presence in merged:', want.map(id => [id, idsInMerged.has(id)]));
+    })();
 
-    const summary = {
-      cutoffStr,
-      totals: {
-        all: all.length,
-        geoKept: geo.length,
-        virtKept: virtual.length,
-      },
-      perSource: buckets,
+
+
+    // -------- Write metadata for the frontend --------
+    const meta = {
+      lastUpdated: runTimestampPT,   // e.g., "November 14, 2025 at 10:52 AM"
+      lookbackDays: LOOKBACK_DAYS,   // numeric
+      cutoff: cutoffStr              // ✅ "YYYY-MM-DD" (PT “yesterday” if LOOKBACK_DAYS=1)
     };
 
-    if (DEBUG) console.log('🧪 merge debug:', JSON.stringify(summary, null, 2));
-    try {
-      fs.writeFileSync(
-        path.join(__dirname, 'assets/data/merge_debug.json'),
-        JSON.stringify(summary, null, 2),
-        'utf8'
-      );
-      console.log('🧪 Wrote assets/data/merge_debug.json for inspection');
-    } catch (e) {
-      console.warn('Could not write merge_debug.json:', e.message);
-    }
-  })();
+    await writeFileWithRetry(path.join(__dirname, 'assets/data/merged_events.json'),
+      JSON.stringify({ data: geo }, null, 2), 'utf8');
+
+    await writeFileWithRetry(path.join(__dirname, 'assets/data/virtual_events.json'),
+      JSON.stringify({ data: virtual }, null, 2), 'utf8');
+
+    await writeFileWithRetry(
+      path.join(__dirname, 'assets/data/events_meta.json'),
+      JSON.stringify(meta, null, 2),
+      'utf8'
+    );
 
 
-  // Write merged files
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/merged_events.json'),
-    JSON.stringify({ data: geo }, null, 2),
-    'utf8'
-  );
-
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/virtual_events.json'),
-    JSON.stringify({ data: virtual }, null, 2),
-    'utf8'
-  );
-
-  // Metadata
-  const lastUpdated =
-    new Date().toLocaleDateString('en-US', {
-      timeZone: 'America/Los_Angeles',
-      month: 'long', day: 'numeric', year: 'numeric',
-    }) + ' at ' +
-    new Date().toLocaleTimeString('en-US', {
-      timeZone: 'America/Los_Angeles',
-      hour12: true, hour: '2-digit', minute: '2-digit',
+    // Add state code
+    allDeduped.forEach((ev) => {
+      if (typeof ev.location === 'string') {
+        const parts = ev.location.split(',');
+        const last = parts[parts.length - 1].trim();
+        const st = last.split(' ').pop().toUpperCase();
+        ev.state = st.length === 2 ? st : 'OTHER';
+      } else {
+        ev.state = 'OTHER';
+      }
     });
 
-  fs.writeFileSync(
-    path.join(__dirname, 'assets/data/events_meta.json'),
-    JSON.stringify({ lastUpdated }, null, 2),
-    'utf8'
-  );
+    // -------------------- DEBUG COUNTS (paste above the writes) --------------------
+    {
+      const src = { mobilize: mRaw, mobilizon: zRaw, protestapi: pRaw };
 
-  console.log(`✅ Wrote ${geo.length} geo-events and ${virtual.length} virtual-events`);
-})();
+      function beginEndStr(ev) {
+        const b = ev.begin ? String(ev.begin).slice(0, 10) : null;
+        const e = ev.end   ? String(ev.end).slice(0, 10)   : b;
+        return { b, e };
+      }
+      function isRecentOrUpcoming(ev) {
+        const { b, e } = beginEndStr(ev);
+        if (!b && !e) return false;
+        return (e || b) >= cutoffStr; // YYYY-MM-DD compare
+      }
 
+      // Build per-source buckets exactly like before
+      const buckets = {};
+      for (const [name, rawArr] of Object.entries(src)) {
+        let normed;
+        if (name === 'mobilize') normed = mRaw.map(norm1);
+        else if (name === 'mobilizon') normed = zRaw.map(norm2);
+        else normed = pRaw.map(norm3);
+
+        const total = normed.length;
+        const recent = normed.filter(isRecentOrUpcoming);
+        const withCoords = normed.filter(e => e.lat != null && e.lng != null);
+        const keptGeo = normed.filter(e => (e.lat != null && e.lng != null) && isRecentOrUpcoming(e));
+        const keptVirt = normed.filter(e => (e.lat == null || e.lng == null) && isRecentOrUpcoming(e));
+
+        buckets[name] = {
+          total,
+          recent: recent.length,
+          withCoords: withCoords.length,
+          keptGeo: keptGeo.length,
+          keptVirt: keptVirt.length,
+          sampleDroppedByDate: normed.filter(e => !isRecentOrUpcoming(e)).slice(0, 3),
+          sampleDroppedByCoords: normed.filter(e => isRecentOrUpcoming(e) && (e.lat == null || e.lng == null)).slice(0, 3),
+        };
+      }
+
+      // Now write merge_debug.json asynchronously
+      (async function debugCounts() {
+        const summary = {
+          cutoffStr,
+          lookbackDays: Math.max(0, parseInt(process.env.LOOKBACK_DAYS || '30', 10) || 30),
+          totals: {
+            all: all.length,
+            geoKept: geo.length,
+            virtKept: virtual.length,
+          },
+          perSource: buckets,
+        };
+
+        if (DEBUG) console.log('🧪 merge debug:', JSON.stringify(summary, null, 2));
+
+        try {
+          await writeFileWithRetry(
+            path.join(__dirname, 'assets/data/merge_debug.json'),
+            JSON.stringify(summary, null, 2),
+            'utf8'
+          );
+          console.log('🧪 Wrote assets/data/merge_debug.json for inspection');
+        } catch (e) {
+          console.warn('Could not write merge_debug.json:', e.message);
+        }
+      })();
+    }
+    // -------------------- end DEBUG COUNTS --------------------
+
+
+    /* -------------------- DISCARD REPORT (JSON + CSV) -------------------- */
+    (async function writeDiscardReport() {
+      // Helpers
+      function beginEndStr(ev) {
+        const b = ev.begin ? String(ev.begin).slice(0,10) : null;
+        const e = ev.end   ? String(ev.end).slice(0,10)   : b;
+        return { b, e };
+      }
+      function isRecentOrUpcoming(ev) {
+        const { b, e } = beginEndStr(ev);
+        if (!b && !e) return false;
+        return (e || b) >= cutoffStr; // YYYY-MM-DD compare
+      }
+
+      // Normalized sources
+      const mobilizeN  = mRaw.map(norm1);
+      const mobilizonN = zRaw.map(norm2);
+      const protestN   = pRaw.map(norm3);
+
+      function perSourceStats(normed) {
+        const keptGeo  = normed.filter(e => (e.lat != null && e.lng != null) && isRecentOrUpcoming(e)).length;
+        const keptVirt = normed.filter(e => (e.lat == null || e.lng == null) && isRecentOrUpcoming(e)).length;
+        const recent   = keptGeo + keptVirt;
+        return {
+          OUT_OF_WINDOW: normed.length - recent,
+          INVALID_DATE: 0,
+          GEO: keptGeo,
+          VIRTUAL: keptVirt,
+          NO_DATE: 0
+        };
+      }
+
+      const perSource = {
+        mobilize:  perSourceStats(mobilizeN),
+        mobilizon: perSourceStats(mobilizonN),
+        protestapi: perSourceStats(protestN),
+      };
+
+      const fetched = {
+        mobilize: mRaw.length,
+        mobilizon: zRaw.length,
+        protestapi: pRaw.length,
+        total: mRaw.length + zRaw.length + pRaw.length
+      };
+
+      const kept = { geo: geo.length, virtual: virtual.length, noDate: 0 };
+
+      const droppedAgg = Object.values(perSource).reduce((acc, s) => {
+        acc.OUT_OF_WINDOW += s.OUT_OF_WINDOW || 0;
+        acc.INVALID_DATE  += s.INVALID_DATE  || 0;
+        return acc;
+      }, { OUT_OF_WINDOW: 0, INVALID_DATE: 0 });
+
+      const dropped = {
+        total: droppedAgg.OUT_OF_WINDOW + droppedAgg.INVALID_DATE,
+        OUT_OF_WINDOW: droppedAgg.OUT_OF_WINDOW,
+        INVALID_DATE: droppedAgg.INVALID_DATE
+      };
+
+      const payload = {
+        lastUpdated: runTimestampPT,
+        cutoffStr,
+        lookbackDays: Math.max(0, parseInt(process.env.LOOKBACK_DAYS || '30', 10) || 30),
+        fetched, kept, dropped, perSource
+      };
+
+      // CSV sampling of OUT_OF_WINDOW
+      const rows = ['status,reason,source,title,begin,end,lat,lng,link'];
+      function pushDroppedSample(sourceName, normed) {
+        for (const ev of normed) {
+          const { b, e } = beginEndStr(ev);
+          const inWindow = (b || e) && ((e || b) >= cutoffStr);
+          if (!inWindow) {
+            const link = ev.links && ev.links[0] ? (ev.links[0].href || '') : '';
+            rows.push(
+              `"DROPPED","OUT_OF_WINDOW","${sourceName.replace(/"/g,'""')}",` +
+              `"${(ev.title||'').replace(/"/g,'""')}","${b||''}","${e||''}",` +
+              `"${ev.lat ?? ''}","${ev.lng ?? ''}","${link.replace(/"/g,'""')}"`,
+            );
+          }
+        }
+      }
+      pushDroppedSample('mobilize',  mobilizeN.slice(0, 2000));
+      pushDroppedSample('mobilizon', mobilizonN.slice(0, 200));
+      pushDroppedSample('protestapi', protestN.slice(0, 200));
+
+      // Write with retry to dodge OneDrive/Excel locks
+      const csvPath = path.join(__dirname, 'assets/data/discard_rows.csv');
+      const tmpPath = csvPath + '.tmp';
+
+      try {
+        await writeFileWithRetry(
+          path.join(__dirname, 'assets/data/discard_report.json'),
+          JSON.stringify(payload, null, 2),
+          'utf8'
+        );
+        await writeFileWithRetry(tmpPath, rows.join('\n'), 'utf8');
+        try { fs.renameSync(tmpPath, csvPath); } catch {}
+        console.log('🧾 Wrote assets/data/discard_report.json and discard_rows.csv');
+      } catch (e) {
+        console.warn('Could not write discard report files:', e.message);
+      }
+    })(); // <-- close writeDiscardReport IIFE
+
+  } catch (e) {
+    console.error('❌ merge_events.js failed:', e);
+  }
+})(); // <-- close outer async () => IIFE
