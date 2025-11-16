@@ -42,33 +42,26 @@ if (window.__P25A_MAP_LOADED__) {
 
     // ---- Load merged data with cache-busting + server cutoff guard
     async function loadEventsSafe() {
-      // helper: PT yesterday (YYYY-MM-DD)
-      const ONE_DAY = 86_400_000;
-      const f = new Intl.DateTimeFormat('en-CA', {
-        timeZone: 'America/Los_Angeles',
-        year: 'numeric', month: '2-digit', day: '2-digit'
-      });
-      const [y,m,d] = f.format(new Date()).split('-').map(Number);
-      const todayPT = new Date(Date.UTC(y, m-1, d, 8, 0, 0));
-      const yestPT  = new Date(todayPT.getTime() - ONE_DAY);
-      const fallbackCutoff = yestPT.toISOString().slice(0,10);
+      const meta = await fetch('assets/data/events_meta.json?cb=' + Date.now())
+        .then(r => r.ok ? r.json() : {})
+        .catch(() => ({}));
 
-      let meta = null;
-      try {
-        const r = await fetch('assets/data/events_meta.json?cb=' + Date.now());
-        if (r.ok) meta = await r.json();
-      } catch (_) {
-        /* ignore */
+      const isISO = s => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s);
+
+      // Prefer server-provided ISO cutoff; otherwise compute PT "yesterday"
+      let cutoffStr = isISO(meta.cutoff) ? meta.cutoff : null;
+      if (!cutoffStr) {
+        const f = new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit'
+        });
+        const [y, m, d] = f.format(new Date()).split('-').map(Number);
+        const todayPT = new Date(Date.UTC(y, m - 1, d, 8, 0, 0)); // PT midnight
+        const yest = new Date(todayPT.getTime() - 86_400_000);
+        cutoffStr = yest.toISOString().slice(0, 10);
       }
 
-      // choose cache-buster and cutoff safely
-      const cb = '?v=' + encodeURIComponent(meta?.lastUpdated || Date.now());
-      const cutoffStr =
-        meta?.cutoff ||
-        meta?.cutoffStr ||
-        (meta?.lastUpdated ? String(meta.lastUpdated).slice(0,10) : fallbackCutoff);
+      const cb = meta.lastUpdated ? ('?v=' + encodeURIComponent(meta.lastUpdated)) : ('?v=' + Date.now());
 
-      // fetch datasets
       const [geoJ, virtJ] = await Promise.all([
         fetch('assets/data/merged_events.json'  + cb).then(r => r.json()),
         fetch('assets/data/virtual_events.json' + cb).then(r => r.json()),
@@ -77,7 +70,6 @@ if (window.__P25A_MAP_LOADED__) {
       const geo  = Array.isArray(geoJ?.data)  ? geoJ.data  : [];
       const virt = Array.isArray(virtJ?.data) ? virtJ.data : [];
 
-      // extra safety: apply cutoff if meta was missing or too old
       const withinWindow = (ev) => {
         const b = ev.begin ? String(ev.begin).slice(0,10) : null;
         const e = ev.end   ? String(ev.end).slice(0,10)   : b;
@@ -85,13 +77,9 @@ if (window.__P25A_MAP_LOADED__) {
         return (e || b) >= cutoffStr;
       };
 
-      return {
-        meta: meta || { lastUpdated: null },
-        cutoffStr,
-        geo:  geo.filter(withinWindow),
-        virt: virt.filter(withinWindow),
-      };
+      return { meta, cutoffStr, geo: geo.filter(withinWindow), virt: virt.filter(withinWindow) };
     }
+
 
 
 
