@@ -36,10 +36,7 @@ jobs:
       - name: Write map‐metadata file
         run: |
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
-          # ISO YYYY-MM-DD for PT "yesterday 00:00"
-          CUTOFF=$(TZ="America/Los_Angeles" date -d "yesterday 00:00" '+%F')
-          echo "{\"lastUpdated\":\"$LAST\",\"lookbackDays\":1,\"cutoff\":\"$CUTOFF\"}" > assets/data/events_meta.json
-
+          echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
 
       - name: Debug metadata
         run: |
