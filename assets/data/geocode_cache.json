@@ -4823,8 +4823,20 @@
     "lat": 34.045655,
     "lng": -85.056058
   },
+  "Stanford, CA": {
+    "lat": 37.4265407,
+    "lng": -122.1703055
+  },
+  "Webster, MA": {
+    "lat": 42.0501373,
+    "lng": -71.8803308
+  },
   "Middle Green, Ipswich": {
     "lat": 42.679727,
     "lng": -70.8325336
+  },
+  "Las Vegas for the People, 7th and Mills": {
+    "lat": null,
+    "lng": null
   }
 }

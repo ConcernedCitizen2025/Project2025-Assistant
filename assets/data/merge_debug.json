@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-10-16",
+  "cutoffStr": "2025-10-17",
   "lookbackDays": 30,
   "totals": {
-    "all": 5527,
-    "geoKept": 5506,
-    "virtKept": 16
+    "all": 5433,
+    "geoKept": 5411,
+    "virtKept": 17
   },
   "perSource": {
     "mobilize": {
-      "total": 5416,
-      "recent": 5416,
-      "withCoords": 4597,
-      "keptGeo": 4597,
-      "keptVirt": 819,
+      "total": 5321,
+      "recent": 5321,
+      "withCoords": 4517,
+      "keptGeo": 4517,
+      "keptVirt": 804,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
@@ -72,11 +72,11 @@
       ]
     },
     "mobilizon": {
-      "total": 105,
-      "recent": 105,
+      "total": 106,
+      "recent": 106,
       "withCoords": 93,
       "keptGeo": 93,
-      "keptVirt": 12,
+      "keptVirt": 13,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {

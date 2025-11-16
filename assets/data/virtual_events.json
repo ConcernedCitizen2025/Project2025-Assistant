@@ -5,7 +5,7 @@
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-11-14",
+      "begin": "2025-11-15",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -140,6 +140,21 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "Food Is a Human Right",
+      "begin": "2025-11-22",
+      "end": "2025-11-22",
+      "lat": null,
+      "lng": null,
+      "location": "Las Vegas for the People, 7th and Mills",
+      "links": [
+        {
+          "title": "Food Is a Human Right",
+          "href": "https://events.pol-rev.com/events/b0d283e3-aae7-4c7f-b1e5-553dd0910c7a"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 774031,
