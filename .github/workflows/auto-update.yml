@@ -2,7 +2,7 @@ name: 🗓️ Auto-Update Protests & Deploy
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'   # 08:00 UTC daily
   workflow_dispatch:
 
 permissions:
@@ -11,15 +11,19 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'     # current LTS
+          node-version: '20'
+
+      - name: Install jq (used below)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - run: npm ci
 
@@ -27,28 +31,43 @@ jobs:
         run: npm run fetch:mobilizon
 
       - name: Fetch Mobilize data
-        # if your npm script points to Puppeteer, swap to: run: node fetch_mobilize_protests.js
+        # If your npm script uses Puppeteer, you can also do:
+        # run: node fetch_mobilize_protests.js
         run: npm run fetch:protests
 
       - name: Merge & split geo/virtual
         run: node merge_events.js
 
-      - name: Write map‐metadata file
+      - name: Write map-metadata file (safe)
         run: |
+          # Pull values from the merge reports written by merge_events.js
+          CUTOFF=$(jq -r '.cutoffStr // .cutoff' assets/data/discard_report.json)
+          LOOKBACK=$(jq -r '.lookbackDays // 30'   assets/data/discard_report.json)
+          # Fallbacks if format ever changes
+          if [ -z "$CUTOFF" ] || [ "$CUTOFF" = "null" ]; then
+            CUTOFF=$(jq -r '.cutoffStr // .cutoff' assets/data/merge_debug.json)
+          fi
+          if [ -z "$LOOKBACK" ] || [ "$LOOKBACK" = "null" ]; then
+            LOOKBACK=$(jq -r '.lookbackDays // 30' assets/data/merge_debug.json)
+          fi
           LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
-          echo "{\"lastUpdated\":\"$LAST\"}" > assets/data/events_meta.json
-
-      - name: Debug metadata
-        run: |
-          ls -R assets/data
+          cat > assets/data/events_meta.json <<EOF
+          {
+            "lastUpdated": "$LAST",
+            "lookbackDays": ${LOOKBACK:-30},
+            "cutoff": "${CUTOFF:-$(date -u '+%Y-%m-%d')}",
+            "cutoffStr": "${CUTOFF:-$(date -u '+%Y-%m-%d')}"
+          }
+          EOF
+          echo "events_meta.json →"
           cat assets/data/events_meta.json
 
       - name: Commit updated events_meta.json back to main
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/data/events_meta.json
-          git commit -m "📅 Auto-update: map lastUpdated timestamp" || echo "No changes to commit"
+          git commit -m "📅 Auto-update: map metadata" || echo "No changes to commit"
           git push origin main
 
       - uses: ruby/setup-ruby@v1
@@ -57,23 +76,14 @@ jobs:
 
       - run: bundle install
 
-      # install jq BEFORE we use it in the debug step
-      - name: Install jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination _site
 
-      - name: Debug built merged_events.json
+      - name: Debug built data
         run: |
-          echo "Built merged_events.json has $(jq '.data|length' _site/assets/data/merged_events.json) geo-events"
-          head -n5 _site/assets/data/merged_events.json
-
-      - name: Verify site has metadata
-        run: |
-          ls -l _site/assets/data
+          echo "Geo events: $(jq '.data|length' _site/assets/data/merged_events.json)"
+          echo "Virtual events: $(jq '.data|length' _site/assets/data/virtual_events.json)"
+          echo "Meta:"
           cat _site/assets/data/events_meta.json
 
       - name: Deploy to GitHub Pages
@@ -82,40 +92,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           keep_files: false
-
-      - name: Compute event-counts
-        id: stats
-        run: |
-          M=$(jq '.events|length' assets/data/mobilize_protests.json)
-          Z=$(jq '.data|length'  assets/data/mobilizon_events.json)
-          P=$(jq '.data.searchEvents.elements|length' assets/data/protest_events.json)
-          G=$(jq '.data|length' assets/data/merged_events.json)
-          V=$(jq '.data|length' assets/data/virtual_events.json)
-          D=$((M+Z+P-(G+V)))
-          echo "raw_mobilize=$M"      >> $GITHUB_OUTPUT
-          echo "raw_mobilizon=$Z"     >> $GITHUB_OUTPUT
-          echo "raw_protestAPI=$P"    >> $GITHUB_OUTPUT
-          echo "geo_coded=$G"         >> $GITHUB_OUTPUT
-          echo "virtual_only=$V"      >> $GITHUB_OUTPUT
-          echo "discarded=$D"         >> $GITHUB_OUTPUT
-
-      - name: Email update summary
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: ${{ secrets.SMTP_HOST }}
-          server_port:    ${{ secrets.SMTP_PORT }}
-          username:       ${{ secrets.SMTP_USERNAME }}
-          password:       ${{ secrets.SMTP_PASSWORD }}
-          subject:        "📣 Protests Auto-Update Summary"
-          to:             concernedcitizen2025ad@gmail.com
-          from:           "concernedcitizen2025ad@gmail.com"
-          body: |
-            Your protests-map rebuild just finished!
-
-            • Mobilize fetched:        ${{ steps.stats.outputs.raw_mobilize }}
-            • Mobilizon fetched:       ${{ steps.stats.outputs.raw_mobilizon }}
-            • ProtestAPI fetched:      ${{ steps.stats.outputs.raw_protestAPI }}
-            • Geo-coded events:        ${{ steps.stats.outputs.geo_coded }}
-            • Virtual-only events:     ${{ steps.stats.outputs.virtual_only }}
-            • Discarded by filters:    ${{ steps.stats.outputs.discarded }}
-
