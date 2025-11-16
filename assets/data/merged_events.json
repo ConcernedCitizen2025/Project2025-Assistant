@@ -20346,7 +20346,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/809288/",
       "title": "Indivisible Benton County at the Corvallis Farmers Market!",
       "begin": "2025-11-15",
-      "end": "2025-11-15",
+      "end": "2025-11-22",
       "lat": 44.5638165,
       "lng": -123.2587597,
       "location": "NW 1st and Monroe, Corvallis, OR",
@@ -25584,7 +25584,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/825049/",
       "title": "📣🗳️ The People's Legislative Forum 📣🗳️",
       "begin": "2025-11-19",
-      "end": "2025-11-19",
+      "end": "2025-12-16",
       "lat": 0,
       "lng": 0,
       "location": "",
@@ -27942,7 +27942,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/832583/",
       "title": "StepForward Together, Rally",
       "begin": "2025-11-16",
-      "end": "2025-12-07",
+      "end": "2026-06-14",
       "lat": 34.4677435,
       "lng": -117.3488622,
       "location": "12000 Amargosa Rd, Victorville, CA",
@@ -30551,7 +30551,7 @@
       "mobilize_id": 837663,
       "canonical_mobilize_url": "https://www.mobilize.us/event/837663/",
       "title": "Membership & Volunteer Committee - Democracy Action Network / Indivisible",
-      "begin": "2025-11-19",
+      "begin": "2025-12-03",
       "end": "2026-01-21",
       "lat": 34.0931603,
       "lng": -118.3783347,
@@ -35716,7 +35716,7 @@
       "_id": 847722,
       "mobilize_id": 847722,
       "canonical_mobilize_url": "https://www.mobilize.us/event/847722/",
-      "title": "NORTH PORT DEMOCRATIC CLUB – Monthly Meeting",
+      "title": "NORTH PORT DEMOCRATIC CLUB - Annual Toy Drive & Monthly Meeting",
       "begin": "2025-11-20",
       "end": "2026-03-19",
       "lat": 27.0741392,
@@ -35724,7 +35724,7 @@
       "location": "1602 Kramer Way, North Port, FL",
       "links": [
         {
-          "title": "NORTH PORT DEMOCRATIC CLUB – Monthly Meeting",
+          "title": "NORTH PORT DEMOCRATIC CLUB - Annual Toy Drive & Monthly Meeting",
           "href": "https://www.mobilize.us/sarasotacountydec/event/847722/"
         }
       ],
@@ -89551,6 +89551,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 870452,
+      "mobilize_id": 870452,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/870452/",
+      "title": "Middleridge Playground Meet-and-Greet with Tom Dannan",
+      "begin": "2025-11-22",
+      "end": "2025-11-22",
+      "lat": 38.8073967,
+      "lng": -77.3219615,
+      "location": "5425 Governor Yeardley Dr, Fairfax, VA",
+      "links": [
+        {
+          "title": "Middleridge Playground Meet-and-Greet with Tom Dannan",
+          "href": "https://www.mobilize.us/friendsoftomdannan/event/870452/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 870454,
       "mobilize_id": 870454,
       "canonical_mobilize_url": "https://www.mobilize.us/event/870454/",
@@ -97111,24 +97129,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 871142,
-      "mobilize_id": 871142,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/871142/",
-      "title": "Young Canyon Dems Social Hour!",
-      "begin": "2025-12-04",
-      "end": "2025-12-04",
-      "lat": 33.636761,
-      "lng": -117.6094961,
-      "location": "29851 Aventura Suite D, Rancho Santa Margarita, CA",
-      "links": [
-        {
-          "title": "Young Canyon Dems Social Hour!",
-          "href": "https://www.mobilize.us/canyondems/event/871142/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 871144,
       "mobilize_id": 871144,
       "canonical_mobilize_url": "https://www.mobilize.us/event/871144/",
@@ -97160,6 +97160,78 @@
         {
           "title": "Fund healthcare not billionaire welfare",
           "href": "https://www.mobilize.us/indivisiblenebraskalincoln/event/871145/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 871152,
+      "mobilize_id": 871152,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871152/",
+      "title": "Draft Testimonies for Gaithersburg Public Comment Period",
+      "begin": "2025-11-17",
+      "end": "2025-11-17",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "Draft Testimonies for Gaithersburg Public Comment Period",
+          "href": "https://www.mobilize.us/progressivemaryland/event/871152/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 871153,
+      "mobilize_id": 871153,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871153/",
+      "title": "Macon-Bibb Democrats: Stop the Third Term – A New Voices Better Choices Postcarding Event",
+      "begin": "2025-11-18",
+      "end": "2025-11-18",
+      "lat": 32.8362826,
+      "lng": -83.6312095,
+      "location": "488 1st St, Macon, GA",
+      "links": [
+        {
+          "title": "Macon-Bibb Democrats: Stop the Third Term – A New Voices Better Choices Postcarding Event",
+          "href": "https://www.mobilize.us/georgiademocrats/event/871153/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 871154,
+      "mobilize_id": 871154,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871154/",
+      "title": "Jackson County Democratic Party Holiday Celebration",
+      "begin": "2025-12-11",
+      "end": "2025-12-11",
+      "lat": 35.3435109,
+      "lng": -83.2231593,
+      "location": "1528 Webster Rd, Sylva, NC",
+      "links": [
+        {
+          "title": "Jackson County Democratic Party Holiday Celebration",
+          "href": "https://www.mobilize.us/jacksoncountydemocrats/event/871154/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 871155,
+      "mobilize_id": 871155,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871155/",
+      "title": "Block Walk for Natomi Blair",
+      "begin": "2025-11-22",
+      "end": "2025-11-22",
+      "lat": 30.5535179,
+      "lng": -97.8553238,
+      "location": "901 Crystal Falls Pkwy, Leander, TX",
+      "links": [
+        {
+          "title": "Block Walk for Natomi Blair",
+          "href": "https://www.mobilize.us/wilcodemocrats/event/871155/"
         }
       ],
       "_src": "mobilize"
