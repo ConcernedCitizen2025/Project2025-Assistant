@@ -310,14 +310,6 @@
       "location": "Middle Green, Ipswich",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/495cf0bf-6a71-4892-a613-b0d37abbc67b"
-    },
-    {
-      "title": "Rally for Democracy",
-      "date": "2025-12-06",
-      "location": "Middle Green, Ipswich",
-      "lat": null,
-      "lng": null,
       "link": "https://events.pol-rev.com/events/33126f7a-58e1-4af3-abd6-3a4e02c6a5e3"
     },
     {
@@ -457,12 +449,28 @@
       "link": "https://events.pol-rev.com/events/be4c563b-b989-430c-a409-a1479796706d"
     },
     {
+      "title": "Blackout Friday",
+      "date": "2025-11-28",
+      "location": "9210 Sheridan Boulevard, Westminster, CO 80031, United States of America, Westminster",
+      "lat": 39.8639109,
+      "lng": -105.0530863,
+      "link": "https://events.pol-rev.com/events/3de0e3ab-31fd-4442-b5e1-1b237db2b6e1"
+    },
+    {
       "title": "Hike to Resist",
       "date": "2025-11-28",
       "location": "Dayton Bluffs Preserve, 2997 Illinois Route 71, Ottawa, IL 61350, United States of America, Ottawa",
       "lat": 41.368925,
       "lng": -88.7965588,
       "link": "https://events.pol-rev.com/events/94bcfd55-1de6-4f7b-953e-de144b21a758"
+    },
+    {
+      "title": "\"We Ain't Buying It\" Black Friday Target Store Boycott & Sign Waving Event",
+      "date": "2025-11-28",
+      "location": "Westwood Village, Target, 2800 Southwest Barton Street, Seattle, WA 98126, United States of America, Seattle",
+      "lat": 47.5221283,
+      "lng": -122.368932,
+      "link": "https://events.pol-rev.com/events/2fe911d6-594c-47f2-8299-2f441d3fa5f5"
     },
     {
       "title": "Hands Off Beverly Weekly Wednesday Protest",
@@ -529,12 +537,20 @@
       "link": "https://events.pol-rev.com/events/09a08a0c-8ac0-4919-ac1b-ef97cf17a040"
     },
     {
-      "title": "Rally for Democracy",
+      "title": "\"We Ain't Buying It\" Whole Foods Boycott & Sign Waving",
+      "date": "2025-11-23",
+      "location": "4755 Fauntleroy Way Southwest, Seattle, WA 98126, United States of America, Seattle",
+      "lat": 47.5603902,
+      "lng": -122.3817117,
+      "link": "https://events.pol-rev.com/events/ecf54dd8-8b09-4d18-83f2-bbed7bf22efd"
+    },
+    {
+      "title": "\"We Ain't Buying It!\" Sign‑Making Party!",
       "date": "2025-11-22",
-      "location": "Middle Green, Ipswich",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/63b8ac62-7e17-49bf-a129-cca2f8384eb1"
+      "location": "High Point Branch Seattle City Public Library, 3411 Southwest Raymond Street, Seattle, WA 98126, United States of America, Seattle",
+      "lat": 47.5480967,
+      "lng": -122.375868,
+      "link": "https://events.pol-rev.com/events/877acba7-b6ee-49ff-baed-5f0974cc9244"
     },
     {
       "title": "Rally for Democracy",
@@ -542,7 +558,7 @@
       "location": "Middle Green, Ipswich",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/cd916cb7-23d2-4ad1-95ed-ebabdb526bf6"
+      "link": "https://events.pol-rev.com/events/63b8ac62-7e17-49bf-a129-cca2f8384eb1"
     },
     {
       "title": "Stand Up For Democracy",
@@ -647,6 +663,14 @@
       "lat": 33.4708979,
       "lng": -112.073198,
       "link": "https://events.pol-rev.com/events/73dcd747-bd87-4dc2-b2d7-cda6885c714c"
+    },
+    {
+      "title": "Buffalo Blitz",
+      "date": "2025-11-20",
+      "location": "Buffalo, New York, United States of America, Buffalo",
+      "lat": 42.88645,
+      "lng": -78.87837,
+      "link": "https://events.pol-rev.com/events/adbc27ef-9bda-454d-b68d-c27bd8ac6c6d"
     },
     {
       "title": "Buffalo Blitz @ City Hall",
@@ -815,38 +839,6 @@
       "lat": 30.3126157,
       "lng": -95.458214,
       "link": "https://events.pol-rev.com/events/a977dcb5-89eb-44c0-9fcb-3e79b530c409"
-    },
-    {
-      "title": "Town Hall to Build for a General Strike",
-      "date": "2025-11-15",
-      "location": "5030 1st Avenue South, Seattle, WA 98134, United States of America, Seattle",
-      "lat": 47.5567295,
-      "lng": -122.3332153,
-      "link": "https://events.pol-rev.com/events/0d2a13ad-cdd7-428c-99d0-c34c171dde9c"
-    },
-    {
-      "title": "BROOKLINE RALLY FOR DEMOCRACY",
-      "date": "2025-11-14",
-      "location": "Brookline, MA 02446, United States of America, Brookline",
-      "lat": 42.3422771,
-      "lng": -71.1213923,
-      "link": "https://events.pol-rev.com/events/2fc5ef16-eed7-42b0-83cf-76f58d3426d5"
-    },
-    {
-      "title": "NO FASCISM Fridays McFarland, WI",
-      "date": "2025-11-14",
-      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
-      "lat": 43.0131401,
-      "lng": -89.2906864,
-      "link": "https://events.pol-rev.com/events/02534f74-af57-4cf9-b838-9120321fdf49"
-    },
-    {
-      "title": "NO FASCISM Fridays McFarland, WI",
-      "date": "2025-11-14",
-      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
-      "lat": 43.0131401,
-      "lng": -89.2906864,
-      "link": "https://events.pol-rev.com/events/51a8c2aa-454f-4f93-93af-35e1b87a157c"
     }
   ]
 }
