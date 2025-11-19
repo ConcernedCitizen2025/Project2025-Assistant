@@ -5,7 +5,7 @@
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-11-17",
+      "begin": "2025-11-18",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -91,6 +91,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 871728,
+      "mobilize_id": 871728,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871728/",
+      "title": "Join Society of St. Andrew for an Avocado Glean in Bowling Green, FL 🥑",
+      "begin": "2025-11-21",
+      "end": "2025-11-21",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, FL",
+      "links": [
+        {
+          "title": "Join Society of St. Andrew for an Avocado Glean in Bowling Green, FL 🥑",
+          "href": "https://www.mobilize.us/endhunger/event/871728/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -122,6 +140,39 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "title": "We Ain't Buyin' It - Let's Make Art Instead!",
+      "begin": "2025-11-28",
+      "end": "2025-11-28",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "We Ain't Buyin' It - Let's Make Art Instead!",
+          "href": "https://events.pol-rev.com/events/0f33b0b2-ee34-494f-9dcd-de09f72e18fa"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
+      "_id": 871889,
+      "mobilize_id": 871889,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871889/",
+      "title": "Bexar Special MOVEment Meeting - VIRTUAL",
+      "begin": "2025-12-01",
+      "end": "2025-12-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Bexar Special MOVEment Meeting - VIRTUAL",
+          "href": "https://www.mobilize.us/movetexas/event/871889/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 774031,

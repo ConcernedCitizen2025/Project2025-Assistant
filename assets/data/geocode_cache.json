@@ -4819,9 +4819,17 @@
     "lat": 30.5736134,
     "lng": -97.8567339
   },
+  "West Columbia, SC": {
+    "lat": 33.991869,
+    "lng": -81.0640341
+  },
   "Staten Island, NY": {
     "lat": 40.5834557,
     "lng": -74.1496048
+  },
+  "Montville, NJ": {
+    "lat": 40.9148209,
+    "lng": -74.383763
   },
   "Santa Ana, CA": {
     "lat": 33.7494951,
@@ -4886,6 +4894,42 @@
   "Golden, CO": {
     "lat": 39.7546349,
     "lng": -105.22058
+  },
+  "Lansing, MI": {
+    "lat": 42.7338254,
+    "lng": -84.5546295
+  },
+  "Eden, MD": {
+    "lat": 38.2804795,
+    "lng": -75.652387
+  },
+  "Mount Dora, FL": {
+    "lat": 28.8004955,
+    "lng": -81.6446961
+  },
+  "East Lansing, MI": {
+    "lat": 42.7320307,
+    "lng": -84.4721678
+  },
+  "Moorhead, MN": {
+    "lat": 46.8739081,
+    "lng": -96.7538674
+  },
+  "This event's address is private. Sign up for more details, FL": {
+    "lat": null,
+    "lng": null
+  },
+  "Spring Grove, PA": {
+    "lat": 39.8745437,
+    "lng": -76.8658078
+  },
+  "New Brighton, MN": {
+    "lat": 45.0628999,
+    "lng": -93.2060969
+  },
+  "Bristol, CT": {
+    "lat": 41.6735209,
+    "lng": -72.9464859
   },
   "Middle Green, Ipswich": {
     "lat": 42.679727,
