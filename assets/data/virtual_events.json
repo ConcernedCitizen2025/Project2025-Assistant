@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 830960,
-      "mobilize_id": 830960,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
-      "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-11-18",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, ME",
-      "links": [
-        {
-          "title": "Cover a public event (farmers' market, etc) for Graham!",
-          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 861053,
-      "mobilize_id": 861053,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/861053/",
-      "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
-      "begin": "2025-11-18",
-      "end": "2025-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, TN",
-      "links": [
-        {
-          "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
-          "href": "https://www.mobilize.us/tirrcvotes/event/861053/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 870322,
-      "mobilize_id": 870322,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/870322/",
-      "title": "Phone Bank with Organized Power in Numbers",
-      "begin": "2025-11-18",
-      "end": "2025-11-25",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank with Organized Power in Numbers",
-          "href": "https://www.mobilize.us/hearamerica/event/870322/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 793161,
       "mobilize_id": 793161,
       "canonical_mobilize_url": "https://www.mobilize.us/event/793161/",
@@ -68,6 +14,24 @@
         {
           "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
           "href": "https://www.mobilize.us/emeraldcoastindivisible/event/793161/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 830960,
+      "mobilize_id": 830960,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
+      "title": "Cover a public event (farmers' market, etc) for Graham!",
+      "begin": "2025-11-19",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, ME",
+      "links": [
+        {
+          "title": "Cover a public event (farmers' market, etc) for Graham!",
+          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
         }
       ],
       "_src": "mobilize"
@@ -109,6 +73,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 861053,
+      "mobilize_id": 861053,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/861053/",
+      "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
+      "begin": "2025-11-22",
+      "end": "2025-12-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, TN",
+      "links": [
+        {
+          "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
+          "href": "https://www.mobilize.us/tirrcvotes/event/861053/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -140,6 +122,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 870322,
+      "mobilize_id": 870322,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/870322/",
+      "title": "Phone Bank with Organized Power in Numbers",
+      "begin": "2025-11-25",
+      "end": "2025-11-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank with Organized Power in Numbers",
+          "href": "https://www.mobilize.us/hearamerica/event/870322/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "title": "We Ain't Buyin' It - Let's Make Art Instead!",
