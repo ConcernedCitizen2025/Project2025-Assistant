@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 793161,
-      "mobilize_id": 793161,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/793161/",
-      "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
-      "begin": "2025-11-19",
-      "end": "2025-12-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
-          "href": "https://www.mobilize.us/emeraldcoastindivisible/event/793161/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 830960,
-      "mobilize_id": 830960,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
-      "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-11-19",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, ME",
-      "links": [
-        {
-          "title": "Cover a public event (farmers' market, etc) for Graham!",
-          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 751329,
       "mobilize_id": 751329,
       "canonical_mobilize_url": "https://www.mobilize.us/event/751329/",
@@ -50,6 +14,24 @@
         {
           "title": "LD9 Dems Monthly Meeting - Hybrid",
           "href": "https://www.mobilize.us/ld9democrats/event/751329/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 830960,
+      "mobilize_id": 830960,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
+      "title": "Cover a public event (farmers' market, etc) for Graham!",
+      "begin": "2025-11-20",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, ME",
+      "links": [
+        {
+          "title": "Cover a public event (farmers' market, etc) for Graham!",
+          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
         }
       ],
       "_src": "mobilize"
@@ -104,6 +86,24 @@
         {
           "title": "Tropical Meme Society bridge drop",
           "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 871891,
+      "mobilize_id": 871891,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/871891/",
+      "title": "North Metro Meet and Greet with Angie Craig",
+      "begin": "2025-11-22",
+      "end": "2025-11-22",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "North Metro Meet and Greet with Angie Craig",
+          "href": "https://www.mobilize.us/angiecraig/event/871891/"
         }
       ],
       "_src": "mobilize"
@@ -170,24 +170,6 @@
         {
           "title": "Bexar Special MOVEment Meeting - VIRTUAL",
           "href": "https://www.mobilize.us/movetexas/event/871889/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 774031,
-      "mobilize_id": 774031,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/774031/",
-      "title": "Monthly Lane County Wolf Pack Meeting",
-      "begin": "2025-12-03",
-      "end": "2025-12-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Lane County Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/774031/"
         }
       ],
       "_src": "mobilize"
@@ -293,6 +275,42 @@
         {
           "title": "Community Conversations: HIV, Health, and Hope",
           "href": "https://www.mobilize.us/gardenstateequality/event/871011/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 793161,
+      "mobilize_id": 793161,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/793161/",
+      "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
+      "begin": "2025-12-17",
+      "end": "2025-12-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
+          "href": "https://www.mobilize.us/emeraldcoastindivisible/event/793161/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 872313,
+      "mobilize_id": 872313,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/872313/",
+      "title": "Nathan Sage Virtual Rally",
+      "begin": "2025-12-18",
+      "end": "2025-12-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Nathan Sage Virtual Rally",
+          "href": "https://www.mobilize.us/sageforsenate/event/872313/"
         }
       ],
       "_src": "mobilize"
