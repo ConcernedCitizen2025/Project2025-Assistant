@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 751329,
-      "mobilize_id": 751329,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/751329/",
-      "title": "LD9 Dems Monthly Meeting - Hybrid",
-      "begin": "2025-11-20",
-      "end": "2025-12-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LD9 Dems Monthly Meeting - Hybrid",
-          "href": "https://www.mobilize.us/ld9democrats/event/751329/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 830960,
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-11-20",
+      "begin": "2025-11-21",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -86,24 +68,6 @@
         {
           "title": "Tropical Meme Society bridge drop",
           "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 871891,
-      "mobilize_id": 871891,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/871891/",
-      "title": "North Metro Meet and Greet with Angie Craig",
-      "begin": "2025-11-22",
-      "end": "2025-11-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "North Metro Meet and Greet with Angie Craig",
-          "href": "https://www.mobilize.us/angiecraig/event/871891/"
         }
       ],
       "_src": "mobilize"
@@ -211,6 +175,21 @@
       "_src": "mobilize"
     },
     {
+      "title": "De-Escalation Training",
+      "begin": "2025-12-04",
+      "end": "2025-12-04",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "De-Escalation Training",
+          "href": "https://events.pol-rev.com/events/d809368a-1e55-4a76-b691-8983503c1181"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
       "title": "Holiday Protest, White Bear Lake",
       "begin": "2025-12-06",
       "end": "2025-12-06",
@@ -293,6 +272,24 @@
         {
           "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
           "href": "https://www.mobilize.us/emeraldcoastindivisible/event/793161/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 751329,
+      "mobilize_id": 751329,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/751329/",
+      "title": "LD9 Dems Monthly Meeting - Hybrid",
+      "begin": "2025-12-18",
+      "end": "2025-12-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LD9 Dems Monthly Meeting - Hybrid",
+          "href": "https://www.mobilize.us/ld9democrats/event/751329/"
         }
       ],
       "_src": "mobilize"
