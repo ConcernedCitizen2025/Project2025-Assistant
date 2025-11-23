@@ -4811,9 +4811,9 @@
     "lat": 44.5645659,
     "lng": -123.2620435
   },
-  "Apache Junction, AZ": {
-    "lat": 33.4150485,
-    "lng": -111.549577
+  "Farmington, MN": {
+    "lat": 44.6402434,
+    "lng": -93.1435497
   },
   "Glendale, AZ": {
     "lat": 33.5386858,
@@ -4846,6 +4846,10 @@
   "Montville, NJ": {
     "lat": 40.9148209,
     "lng": -74.383763
+  },
+  "Dawsonville, GA": {
+    "lat": 34.4212053,
+    "lng": -84.1190804
   },
   "Santa Ana, CA": {
     "lat": 33.7494951,
@@ -4899,10 +4903,6 @@
     "lat": 42.7338254,
     "lng": -84.5546295
   },
-  "Eden, MD": {
-    "lat": 38.2804795,
-    "lng": -75.652387
-  },
   "Mount Dora, FL": {
     "lat": 28.8004955,
     "lng": -81.6446961
@@ -4914,10 +4914,6 @@
   "Moorhead, MN": {
     "lat": 46.8739081,
     "lng": -96.7538674
-  },
-  "This event's address is private. Sign up for more details, FL": {
-    "lat": null,
-    "lng": null
   },
   "Spring Grove, PA": {
     "lat": 39.8745437,
@@ -4990,6 +4986,18 @@
   "Oregon, WI": {
     "lat": 42.9259657,
     "lng": -89.3842779
+  },
+  "Decatur, GA": {
+    "lat": 30.8736613,
+    "lng": -84.5740953
+  },
+  "Springville, UT": {
+    "lat": 40.1652447,
+    "lng": -111.6114726
+  },
+  "Marshall, NC": {
+    "lat": 35.7974807,
+    "lng": -82.6839313
   },
   "Middle Green, Ipswich": {
     "lat": 42.679727,
