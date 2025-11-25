@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-10-25",
+  "cutoffStr": "2025-10-26",
   "lookbackDays": 30,
   "totals": {
-    "all": 4792,
-    "geoKept": 4769,
+    "all": 4843,
+    "geoKept": 4820,
     "virtKept": 18
   },
   "perSource": {
     "mobilize": {
-      "total": 4702,
-      "recent": 4702,
-      "withCoords": 4013,
-      "keptGeo": 4013,
-      "keptVirt": 689,
+      "total": 4763,
+      "recent": 4763,
+      "withCoords": 4075,
+      "keptGeo": 4075,
+      "keptVirt": 688,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
@@ -56,7 +56,7 @@
           "mobilize_id": 459133,
           "canonical_mobilize_url": "https://www.mobilize.us/event/459133/",
           "title": "Politics & Coffee with the New Trier Democrats",
-          "begin": "2025-11-23",
+          "begin": "2025-12-14",
           "end": "2025-12-14",
           "lat": null,
           "lng": null,
@@ -72,11 +72,11 @@
       ]
     },
     "mobilizon": {
-      "total": 84,
-      "recent": 84,
-      "withCoords": 74,
-      "keptGeo": 74,
-      "keptVirt": 10,
+      "total": 74,
+      "recent": 74,
+      "withCoords": 65,
+      "keptGeo": 65,
+      "keptVirt": 9,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
