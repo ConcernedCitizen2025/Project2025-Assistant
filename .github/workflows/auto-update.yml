@@ -11,6 +11,10 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      LOOKBACK_DAYS: "1"              # 🔒 force “yesterday only”
+      TZ: America/Los_Angeles         # for timestamps
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,29 +40,14 @@ jobs:
         run: npm run fetch:protests
 
       - name: Merge & split geo/virtual
-        run: node merge_events.js
+        run: node merge_events.js   # merge script already reads LOOKBACK_DAYS
 
-      - name: Write map-metadata file (safe)
+      - name: Write map-metadata file (yesterday-only)
         run: |
-          # Pull values from the merge reports written by merge_events.js
           CUTOFF=$(jq -r '.cutoffStr // .cutoff' assets/data/discard_report.json)
-          LOOKBACK=$(jq -r '.lookbackDays // 30'   assets/data/discard_report.json)
-          # Fallbacks if format ever changes
-          if [ -z "$CUTOFF" ] || [ "$CUTOFF" = "null" ]; then
-            CUTOFF=$(jq -r '.cutoffStr // .cutoff' assets/data/merge_debug.json)
-          fi
-          if [ -z "$LOOKBACK" ] || [ "$LOOKBACK" = "null" ]; then
-            LOOKBACK=$(jq -r '.lookbackDays // 30' assets/data/merge_debug.json)
-          fi
-          LAST=$(TZ="America/Los_Angeles" date '+%B %-d, %Y at %-I:%M %p PT')
-          cat > assets/data/events_meta.json <<EOF
-          {
-            "lastUpdated": "$LAST",
-            "lookbackDays": ${LOOKBACK:-30},
-            "cutoff": "${CUTOFF:-$(date -u '+%Y-%m-%d')}",
-            "cutoffStr": "${CUTOFF:-$(date -u '+%Y-%m-%d')}"
-          }
-          EOF
+          LAST=$(date '+%B %-d, %Y at %-I:%M %p PT')
+          printf '{"lastUpdated":"%s","lookbackDays":%s,"cutoff":"%s","cutoffStr":"%s"}\n' \
+            "$LAST" "$LOOKBACK_DAYS" "$CUTOFF" "$CUTOFF" > assets/data/events_meta.json
           echo "events_meta.json →"
           cat assets/data/events_meta.json
 
@@ -67,7 +56,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/data/events_meta.json
-          git commit -m "📅 Auto-update: map metadata" || echo "No changes to commit"
+          git commit -m "📅 Auto-update: map metadata (1-day window)" || echo "No changes to commit"
           git push origin main
 
       - uses: ruby/setup-ruby@v1
