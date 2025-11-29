@@ -1,19 +1,56 @@
 {
-  "cutoffStr": "2025-10-30",
-  "lookbackDays": 30,
+  "cutoffStr": "2025-11-28",
+  "lookbackDays": 1,
   "totals": {
-    "all": 4940,
-    "geoKept": 4919,
+    "all": 4971,
+    "geoKept": 4947,
     "virtKept": 16
   },
   "perSource": {
     "mobilize": {
-      "total": 4869,
-      "recent": 4869,
-      "withCoords": 4154,
-      "keptGeo": 4154,
-      "keptVirt": 715,
-      "sampleDroppedByDate": [],
+      "total": 4900,
+      "recent": 4898,
+      "withCoords": 4178,
+      "keptGeo": 4176,
+      "keptVirt": 722,
+      "sampleDroppedByDate": [
+        {
+          "_id": 867978,
+          "mobilize_id": 867978,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/867978/",
+          "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
+          "begin": "2025-11-16",
+          "end": "2025-11-16",
+          "lat": 35.6238225,
+          "lng": -117.6683317,
+          "location": "132 N China Lake Blvd, Ridgecrest, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
+              "href": "https://www.mobilize.us/nokings/event/867978/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869819,
+          "mobilize_id": 869819,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869819/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+          "begin": "2025-11-15",
+          "end": "2025-11-15",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+              "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "_id": 437109,
@@ -125,9 +162,9 @@
     },
     "protestapi": {
       "total": 6,
-      "recent": 1,
+      "recent": 0,
       "withCoords": 6,
-      "keptGeo": 1,
+      "keptGeo": 0,
       "keptVirt": 0,
       "sampleDroppedByDate": [
         {

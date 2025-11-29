@@ -40,7 +40,7 @@ if (window.__P25A_MAP_LOADED__) {
     const todayStr = fmt(today);
     const yesterdayStr = fmt(yesterday);
 
-    // ---- Load merged data with cache-busting + server cutoff guard
+    // ---- Load merged data with cache-busting + strict PT "yesterday" guard
     async function loadEventsSafe() {
       const meta = await fetch('assets/data/events_meta.json?cb=' + Date.now())
         .then(r => r.ok ? r.json() : {})
@@ -48,23 +48,32 @@ if (window.__P25A_MAP_LOADED__) {
 
       const isISO = s => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s);
 
-      // Prefer server-provided ISO cutoff; otherwise compute PT "yesterday"
-      let cutoffStr = isISO(meta.cutoff) ? meta.cutoff : null;
-      if (!cutoffStr) {
+      function ptYesterdayISO() {
         const f = new Intl.DateTimeFormat('en-CA', {
-          timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit'
+          timeZone: 'America/Los_Angeles',
+          year: 'numeric', month: '2-digit', day: '2-digit'
         });
         const [y, m, d] = f.format(new Date()).split('-').map(Number);
-        const todayPT = new Date(Date.UTC(y, m - 1, d, 8, 0, 0)); // PT midnight
+        // PT midnight is UTC 08:00 (standard) or 07:00 (daylight). Using 08:00 is fine for ISO date.
+        const todayPT = new Date(Date.UTC(y, m - 1, d, 8, 0, 0));
         const yest = new Date(todayPT.getTime() - 86_400_000);
-        cutoffStr = yest.toISOString().slice(0, 10);
+        return yest.toISOString().slice(0, 10);
       }
 
-      const cb = meta.lastUpdated ? ('?v=' + encodeURIComponent(meta.lastUpdated)) : ('?v=' + Date.now());
+      // Use server cutoff ONLY if it declares lookbackDays === 1; otherwise force PT "yesterday"
+      const serverCutoff = isISO(meta.cutoffStr) ? meta.cutoffStr
+                        : isISO(meta.cutoff)     ? meta.cutoff
+                        : null;
+      const cutoffStr = (Number(meta.lookbackDays) === 1 && serverCutoff)
+        ? serverCutoff
+        : ptYesterdayISO();
+
+      // Cache-bust data loads; if meta has lastUpdated, use that so CDN can revalidate
+      const vtag = meta.lastUpdated ? ('?v=' + encodeURIComponent(meta.lastUpdated)) : ('?v=' + Date.now());
 
       const [geoJ, virtJ] = await Promise.all([
-        fetch('assets/data/merged_events.json'  + cb).then(r => r.json()),
-        fetch('assets/data/virtual_events.json' + cb).then(r => r.json()),
+        fetch('assets/data/merged_events.json'  + vtag).then(r => r.json()),
+        fetch('assets/data/virtual_events.json' + vtag).then(r => r.json()),
       ]);
 
       const geo  = Array.isArray(geoJ?.data)  ? geoJ.data  : [];
@@ -73,12 +82,17 @@ if (window.__P25A_MAP_LOADED__) {
       const withinWindow = (ev) => {
         const b = ev.begin ? String(ev.begin).slice(0,10) : null;
         const e = ev.end   ? String(ev.end).slice(0,10)   : b;
-        if (!b && !e) return true;
-        return (e || b) >= cutoffStr;
+        return (e || b) && ((e || b) >= cutoffStr);
       };
 
       return { meta, cutoffStr, geo: geo.filter(withinWindow), virt: virt.filter(withinWindow) };
     }
+
+    // Ensure we only ever do the network loads once even if called twice
+    const loadEventsSafeOnce = (() => {
+      let _p = null;
+      return () => (_p ||= loadEventsSafe());
+    })();
 
 
 
@@ -326,7 +340,7 @@ DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
     }
 
     // One unified load & kick-off
-    loadEventsSafe()
+    loadEventsSafeOnce()
       .then(({ meta, cutoffStr, geo, virt }) => {
         console.log('[map] loaded', { cutoffStr, geoLen: geo.length, virtLen: virt.length, meta });
         raw = geo;
