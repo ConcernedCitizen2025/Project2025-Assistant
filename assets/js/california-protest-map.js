@@ -88,6 +88,11 @@ if (window.__P25A_MAP_LOADED__) {
       return { meta, cutoffStr, geo: geo.filter(withinWindow), virt: virt.filter(withinWindow) };
     }
 
+    // Ensure we only ever do the network loads once even if called twice
+    const loadEventsSafeOnce = (() => {
+      let _p = null;
+      return () => (_p ||= loadEventsSafe());
+    })();
 
 
 
@@ -335,7 +340,7 @@ DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
     }
 
     // One unified load & kick-off
-    loadEventsSafe()
+    loadEventsSafeOnce()
       .then(({ meta, cutoffStr, geo, virt }) => {
         console.log('[map] loaded', { cutoffStr, geoLen: geo.length, virtLen: virt.length, meta });
         raw = geo;
