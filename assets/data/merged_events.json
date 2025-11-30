@@ -28734,7 +28734,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/844019/",
       "title": "Gill/Montague Bridge/Route 2 Standout",
       "begin": "2025-11-28",
-      "end": "2025-11-28",
+      "end": "2025-12-26",
       "lat": 42.6129806,
       "lng": -72.5489049,
       "location": "Massachusetts 2 & Main Road, Gill, MA",
@@ -69169,7 +69169,7 @@
       "links": [
         {
           "title": "🚀 Campaign Kick-Off Party with DeLano for HD-71",
-          "href": "https://www.mobilize.us/delanoforiowahd71/event/872209/"
+          "href": "https://www.mobilize.us/delano-hd71/event/872209/"
         }
       ],
       "_src": "mobilize"
@@ -87926,6 +87926,24 @@
         {
           "title": "NDP Latino Caucus CD1 Spanish Canvassing 101",
           "href": "https://www.mobilize.us/nebdems/event/873888/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 873892,
+      "mobilize_id": 873892,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/873892/",
+      "title": "Albemarle Christmas Parade",
+      "begin": "2025-12-13",
+      "end": "2025-12-13",
+      "lat": 35.3567389,
+      "lng": -80.1983124,
+      "location": "115 C. B. Crook Dr, Albemarle, NC",
+      "links": [
+        {
+          "title": "Albemarle Christmas Parade",
+          "href": "https://www.mobilize.us/indivisibleure/event/873892/"
         }
       ],
       "_src": "mobilize"
