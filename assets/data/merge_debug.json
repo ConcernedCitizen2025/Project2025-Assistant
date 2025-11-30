@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-11-28",
+  "cutoffStr": "2025-11-29",
   "lookbackDays": 1,
   "totals": {
-    "all": 4974,
-    "geoKept": 4949,
-    "virtKept": 16
+    "all": 4915,
+    "geoKept": 4888,
+    "virtKept": 15
   },
   "perSource": {
     "mobilize": {
-      "total": 4903,
-      "recent": 4900,
-      "withCoords": 4181,
-      "keptGeo": 4178,
-      "keptVirt": 722,
+      "total": 4844,
+      "recent": 4843,
+      "withCoords": 4129,
+      "keptGeo": 4128,
+      "keptVirt": 715,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -28,42 +28,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
               "href": "https://www.mobilize.us/nokings/event/867978/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869819,
-          "mobilize_id": 869819,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869819/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
-          "begin": "2025-11-15",
-          "end": "2025-11-15",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
-              "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -128,11 +92,54 @@
     },
     "mobilizon": {
       "total": 65,
-      "recent": 65,
+      "recent": 60,
       "withCoords": 57,
-      "keptGeo": 57,
-      "keptVirt": 8,
-      "sampleDroppedByDate": [],
+      "keptGeo": 53,
+      "keptVirt": 7,
+      "sampleDroppedByDate": [
+        {
+          "title": "No Business with ICE Rally",
+          "begin": "2025-11-28",
+          "end": "2025-11-28",
+          "lat": 33.805757975225745,
+          "lng": -118.32817733287813,
+          "location": "SOUTHWEST CORNER OF LOMITA BLVD AND CRENSHAW BLVD IN TORRANCE, Torrance",
+          "links": [
+            {
+              "title": "No Business with ICE Rally",
+              "href": "https://events.pol-rev.com/events/5f4c4e2c-4176-43bc-ab6d-8612ec416fa3"
+            }
+          ]
+        },
+        {
+          "title": "We Ain't Buyin' It - Let's Make Art Instead!",
+          "begin": "2025-11-28",
+          "end": "2025-11-28",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "We Ain't Buyin' It - Let's Make Art Instead!",
+              "href": "https://events.pol-rev.com/events/0f33b0b2-ee34-494f-9dcd-de09f72e18fa"
+            }
+          ]
+        },
+        {
+          "title": "NO FASCISM Fridays McFarland, WI",
+          "begin": "2025-11-28",
+          "end": "2025-11-28",
+          "lat": 43.0131401,
+          "lng": -89.2906864,
+          "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+          "links": [
+            {
+              "title": "NO FASCISM Fridays McFarland, WI",
+              "href": "https://events.pol-rev.com/events/be4c563b-b989-430c-a409-a1479796706d"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Rally for Democracy",
