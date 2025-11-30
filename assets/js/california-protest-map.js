@@ -154,35 +154,6 @@ if (window.__P25A_MAP_LOADED__) {
         geo:  physical.filter(withinWindow),  // map only shows physical events
         virt: allVirtual.filter(withinWindow) // virtuals only in the “Show Virtual Events” section
       };
-
-
-      const withinWindow = (ev) => {
-        const b = ev.begin ? String(ev.begin).slice(0,10) : null;
-        const e = ev.end   ? String(ev.end).slice(0,10)   : b;
-        return (e || b) && ((e || b) >= cutoffStr);
-      };
-
-      const geoWindow  = Array.isArray(geoJ?.data)  ? geoJ.data.filter(withinWindow)  : [];
-      const virtWindow = Array.isArray(virtJ?.data) ? virtJ.data.filter(withinWindow) : [];
-
-      // IDs of virtuals coming from the separate virtual feed
-      const VIRTUAL_IDS = new Set(virtWindow.map(idOf).filter(Boolean));
-
-      // Split *text-marked* virtuals out of geo list
-      const textVirtuals = geoWindow.filter(isVirtualByText);
-
-      // Build final lists
-      const geoClean = geoWindow.filter(ev => {
-        // exclude anything known virtual by ID OR text
-        if (VIRTUAL_IDS.has(idOf(ev))) return false;
-        if (isVirtualByText(ev)) return false;
-        return true;
-      });
-
-      const virtCombined = [...virtWindow, ...textVirtuals];
-
-      return { meta, cutoffStr, geo: geoClean, virt: virtCombined };
-
     }
 
     // Ensure we only ever do the network loads once even if called twice
@@ -339,7 +310,7 @@ if (window.__P25A_MAP_LOADED__) {
     }
 
     // --- VERSION MARKER (so we know this file is actually loaded)
-DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
+    DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
 
     function applyPreset(days) {
       // "All" = trust the backend entirely (yesterday + upcoming)
