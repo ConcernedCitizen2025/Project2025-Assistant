@@ -40,6 +40,29 @@ if (window.__P25A_MAP_LOADED__) {
     const todayStr = fmt(today);
     const yesterdayStr = fmt(yesterday);
 
+    // ---- helpers used by both map + virtual list
+    const idFromHref = (href) => {
+      const m = /\/event\/(\d+)/.exec(String(href || ''));
+      return m ? +m[1] : null;
+    };
+    const idOf = (ev) =>
+      ev?.mobilize_id ??
+      idFromHref(ev?.canonical_mobilize_url) ??
+      idFromHref(ev?.links?.[0]?.href);
+
+    // Text-based virtual detection (no impact on geocoding)
+    function isVirtualByText(ev) {
+      const loc = String(ev.location || '').toLowerCase();
+      const title = String(ev.title || '').toLowerCase();
+      // things we frequently see on Mobilize
+      if (/\bvirtual\b/.test(loc) || /\bjoin from anywhere\b/.test(loc)) return true;
+      if (/\bonline\b|\bwebinar\b|\bzoom\b|\bgoogle meet\b|\bmicrosoft teams\b|\blivestream\b/.test(loc)) return true;
+      // occasionally they only put it in the title
+      if (/\bvirtual\b|\bonline\b|\bwebinar\b/.test(title)) return true;
+      return false;
+    }
+
+
     // ---- Load merged data with cache-busting + strict PT "yesterday" guard
     async function loadEventsSafe() {
       const meta = await fetch('assets/data/events_meta.json?cb=' + Date.now())
@@ -85,7 +108,27 @@ if (window.__P25A_MAP_LOADED__) {
         return (e || b) && ((e || b) >= cutoffStr);
       };
 
-      return { meta, cutoffStr, geo: geo.filter(withinWindow), virt: virt.filter(withinWindow) };
+      const geoWindow  = Array.isArray(geoJ?.data)  ? geoJ.data.filter(withinWindow)  : [];
+      const virtWindow = Array.isArray(virtJ?.data) ? virtJ.data.filter(withinWindow) : [];
+
+      // IDs of virtuals coming from the separate virtual feed
+      const VIRTUAL_IDS = new Set(virtWindow.map(idOf).filter(Boolean));
+
+      // Split *text-marked* virtuals out of geo list
+      const textVirtuals = geoWindow.filter(isVirtualByText);
+
+      // Build final lists
+      const geoClean = geoWindow.filter(ev => {
+        // exclude anything known virtual by ID OR text
+        if (VIRTUAL_IDS.has(idOf(ev))) return false;
+        if (isVirtualByText(ev)) return false;
+        return true;
+      });
+
+      const virtCombined = [...virtWindow, ...textVirtuals];
+
+      return { meta, cutoffStr, geo: geoClean, virt: virtCombined };
+
     }
 
     // Ensure we only ever do the network loads once even if called twice
