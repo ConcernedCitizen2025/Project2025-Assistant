@@ -102,33 +102,58 @@ if (window.__P25A_MAP_LOADED__) {
       const geo  = Array.isArray(geoJ?.data)  ? geoJ.data  : [];
       const virt = Array.isArray(virtJ?.data) ? virtJ.data : [];
 
+      // Heuristic: detect virtuals hiding in geo feed
+      const looksVirtual = (ev) => {
+        const loc   = String(ev.location || '').toLowerCase();
+        const title = String(ev.title || '').toLowerCase();
+        const links = (ev.links || []).map(l => String(l.href || '').toLowerCase()).join(' ');
+
+        // 1) explicit wording
+        const saysVirtual =
+          loc.includes('virtual event') ||
+          loc.includes('join from anywhere') ||
+          /^virtual\b|^online\b/.test(loc) ||
+          title.includes('virtual');
+
+        // 2) video/conference platforms
+        const videoLink =
+          /(zoom\.us|meet\.google\.com|teams\.microsoft\.com|webex\.com|gotowebinar|gotomeeting|crowdcast|hopin\.com|eventbrite\.com\/e\/.*online)/.test(links);
+
+        // 3) nonsense coords (0,0 cluster etc.)
+        const lat = Number(ev.lat), lng = Number(ev.lng);
+        const badCoords = !Number.isFinite(lat) || !Number.isFinite(lng) ||
+                          (Math.abs(lat) < 0.5 && Math.abs(lng) < 0.5);
+
+        return saysVirtual || videoLink || badCoords;
+      };
+
+      // Split: keep physical for the map, push virtuals to the list
+      const virtFromGeo = geo.filter(looksVirtual);
+      const physical    = geo.filter(e => !looksVirtual(e));
+
+      // De-dupe virtuals by first link/url
+      const keyOf = (e) => (e.links?.[0]?.href) || (e.canonical_mobilize_url) || (e._id ? 'id:'+e._id : e.title||'');
+      const seen = new Set();
+      const allVirtual = [...virt, ...virtFromGeo].filter(e => {
+        const k = keyOf(e);
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+
+      // Date window filter (yesterday PT or server cutoff) applies to both
       const withinWindow = (ev) => {
         const b = ev.begin ? String(ev.begin).slice(0,10) : null;
         const e = ev.end   ? String(ev.end).slice(0,10)   : b;
         return (e || b) && ((e || b) >= cutoffStr);
       };
 
-      const geoWindow  = Array.isArray(geoJ?.data)  ? geoJ.data.filter(withinWindow)  : [];
-      const virtWindow = Array.isArray(virtJ?.data) ? virtJ.data.filter(withinWindow) : [];
-
-      // IDs of virtuals coming from the separate virtual feed
-      const VIRTUAL_IDS = new Set(virtWindow.map(idOf).filter(Boolean));
-
-      // Split *text-marked* virtuals out of geo list
-      const textVirtuals = geoWindow.filter(isVirtualByText);
-
-      // Build final lists
-      const geoClean = geoWindow.filter(ev => {
-        // exclude anything known virtual by ID OR text
-        if (VIRTUAL_IDS.has(idOf(ev))) return false;
-        if (isVirtualByText(ev)) return false;
-        return true;
-      });
-
-      const virtCombined = [...virtWindow, ...textVirtuals];
-
-      return { meta, cutoffStr, geo: geoClean, virt: virtCombined };
-
+      return {
+        meta,
+        cutoffStr,
+        geo:  physical.filter(withinWindow),  // map only shows physical events
+        virt: allVirtual.filter(withinWindow) // virtuals only in the “Show Virtual Events” section
+      };
     }
 
     // Ensure we only ever do the network loads once even if called twice
@@ -285,7 +310,7 @@ if (window.__P25A_MAP_LOADED__) {
     }
 
     // --- VERSION MARKER (so we know this file is actually loaded)
-DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
+    DEBUG && console.log('[P25A map] v2025-10-02-ALLRAW');
 
     function applyPreset(days) {
       // "All" = trust the backend entirely (yesterday + upcoming)

@@ -11521,6 +11521,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 774247,
+      "mobilize_id": 774247,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/774247/",
+      "title": "Minnesota Wolf Pack Pub Chat",
+      "begin": "2025-12-13",
+      "end": "2026-11-14",
+      "lat": 45.0051486,
+      "lng": -93.2719878,
+      "location": "1712 Marshall St NE, Suite 100, Minneapolis, MN",
+      "links": [
+        {
+          "title": "Minnesota Wolf Pack Pub Chat",
+          "href": "https://www.mobilize.us/workingfamilies/event/774247/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 774357,
       "mobilize_id": 774357,
       "canonical_mobilize_url": "https://www.mobilize.us/event/774357/",
@@ -49452,7 +49470,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/868782/",
       "title": "MN Wolf Pack Monthly Virtual Meeting",
       "begin": "2025-12-09",
-      "end": "2025-12-09",
+      "end": "2026-02-10",
       "lat": 0,
       "lng": 0,
       "location": "",
@@ -51574,7 +51592,7 @@
       "_id": 869279,
       "mobilize_id": 869279,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869279/",
-      "title": "Overpass Visibility Brigade Action *Black Friday Edition 🫰",
+      "title": "Overpass Visibility Brigade Action *Holiday Lineup",
       "begin": "2025-11-28",
       "end": "2026-01-01",
       "lat": 37.8659619,
@@ -51582,7 +51600,7 @@
       "location": "598 University Ave, Berkeley, CA",
       "links": [
         {
-          "title": "Overpass Visibility Brigade Action *Black Friday Edition 🫰",
+          "title": "Overpass Visibility Brigade Action *Holiday Lineup",
           "href": "https://www.mobilize.us/indivisible-east-bay/event/869279/"
         }
       ],
