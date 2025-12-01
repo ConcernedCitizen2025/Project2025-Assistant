@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-11-29",
+  "cutoffStr": "2025-11-30",
   "lookbackDays": 1,
   "totals": {
-    "all": 4915,
-    "geoKept": 4888,
+    "all": 4857,
+    "geoKept": 4831,
     "virtKept": 15
   },
   "perSource": {
     "mobilize": {
-      "total": 4844,
-      "recent": 4843,
-      "withCoords": 4129,
-      "keptGeo": 4128,
-      "keptVirt": 715,
+      "total": 4791,
+      "recent": 4789,
+      "withCoords": 4070,
+      "keptGeo": 4068,
+      "keptVirt": 721,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -28,6 +28,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
               "href": "https://www.mobilize.us/nokings/event/867978/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869819,
+          "mobilize_id": 869819,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869819/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+          "begin": "2025-11-15",
+          "end": "2025-11-15",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+              "href": "https://www.mobilize.us/nokings/event/869819/"
             }
           ],
           "_src": "mobilize"
@@ -91,51 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 65,
-      "recent": 60,
-      "withCoords": 57,
-      "keptGeo": 53,
-      "keptVirt": 7,
+      "total": 60,
+      "recent": 57,
+      "withCoords": 53,
+      "keptGeo": 51,
+      "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "No Business with ICE Rally",
-          "begin": "2025-11-28",
-          "end": "2025-11-28",
-          "lat": 33.805757975225745,
-          "lng": -118.32817733287813,
-          "location": "SOUTHWEST CORNER OF LOMITA BLVD AND CRENSHAW BLVD IN TORRANCE, Torrance",
-          "links": [
-            {
-              "title": "No Business with ICE Rally",
-              "href": "https://events.pol-rev.com/events/5f4c4e2c-4176-43bc-ab6d-8612ec416fa3"
-            }
-          ]
-        },
-        {
-          "title": "We Ain't Buyin' It - Let's Make Art Instead!",
-          "begin": "2025-11-28",
-          "end": "2025-11-28",
+          "title": "Rally for Democracy",
+          "begin": "2025-11-29",
+          "end": "2025-11-29",
           "lat": null,
           "lng": null,
-          "location": "",
+          "location": "Middle Green, Ipswich",
           "links": [
             {
-              "title": "We Ain't Buyin' It - Let's Make Art Instead!",
-              "href": "https://events.pol-rev.com/events/0f33b0b2-ee34-494f-9dcd-de09f72e18fa"
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/3123a021-ac3b-406c-af08-1b9804536ec0"
             }
           ]
         },
         {
-          "title": "NO FASCISM Fridays McFarland, WI",
-          "begin": "2025-11-28",
-          "end": "2025-11-28",
-          "lat": 43.0131401,
-          "lng": -89.2906864,
-          "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+          "title": "Stand Up For Democracy",
+          "begin": "2025-11-29",
+          "end": "2025-11-29",
+          "lat": 38.13543436198,
+          "lng": -122.21771512982154,
+          "location": "Vallejo-Benicia Indivisible, Vallejo",
           "links": [
             {
-              "title": "NO FASCISM Fridays McFarland, WI",
-              "href": "https://events.pol-rev.com/events/be4c563b-b989-430c-a409-a1479796706d"
+              "title": "Stand Up For Democracy",
+              "href": "https://events.pol-rev.com/events/9b90c45d-416e-4443-bef3-75e2e994fc9e"
+            }
+          ]
+        },
+        {
+          "title": "Hands Off Beverly Weekly Saturday Protest",
+          "begin": "2025-11-29",
+          "end": "2025-11-29",
+          "lat": 42.5471373,
+          "lng": -70.8846872,
+          "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
+          "links": [
+            {
+              "title": "Hands Off Beverly Weekly Saturday Protest",
+              "href": "https://events.pol-rev.com/events/e65c55f9-d747-4c76-bbb7-8cb20c4fb7eb"
             }
           ]
         }
