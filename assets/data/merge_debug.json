@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-01",
+  "cutoffStr": "2025-12-02",
   "lookbackDays": 1,
   "totals": {
-    "all": 5026,
-    "geoKept": 5000,
-    "virtKept": 18
+    "all": 5107,
+    "geoKept": 5086,
+    "virtKept": 14
   },
   "perSource": {
     "mobilize": {
-      "total": 4961,
-      "recent": 4959,
-      "withCoords": 4180,
-      "keptGeo": 4178,
-      "keptVirt": 781,
+      "total": 5042,
+      "recent": 5041,
+      "withCoords": 4251,
+      "keptGeo": 4250,
+      "keptVirt": 791,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -28,24 +28,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
               "href": "https://www.mobilize.us/nokings/event/867978/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"

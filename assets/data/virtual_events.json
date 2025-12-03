@@ -1,11 +1,29 @@
 {
   "data": [
     {
+      "_id": 809234,
+      "mobilize_id": 809234,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
+      "title": "Monthly Linn-Benton Wolf Pack Meeting",
+      "begin": "2025-12-02",
+      "end": "2025-12-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Linn-Benton Wolf Pack Meeting",
+          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 830960,
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-01",
+      "begin": "2025-12-02",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -23,7 +41,7 @@
       "mobilize_id": 861053,
       "canonical_mobilize_url": "https://www.mobilize.us/event/861053/",
       "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
-      "begin": "2025-12-01",
+      "begin": "2025-12-02",
       "end": "2025-12-02",
       "lat": null,
       "lng": null,
@@ -32,60 +50,6 @@
         {
           "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
           "href": "https://www.mobilize.us/tirrcvotes/event/861053/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 867614,
-      "mobilize_id": 867614,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/867614/",
-      "title": "Bystander Training: Film The Police",
-      "begin": "2025-12-01",
-      "end": "2025-12-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Bystander Training: Film The Police",
-          "href": "https://www.mobilize.us/hwd/event/867614/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 871889,
-      "mobilize_id": 871889,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/871889/",
-      "title": "Bexar Special MOVEment Meeting - VIRTUAL",
-      "begin": "2025-12-01",
-      "end": "2025-12-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Bexar Special MOVEment Meeting - VIRTUAL",
-          "href": "https://www.mobilize.us/movetexas/event/871889/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 809234,
-      "mobilize_id": 809234,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
-      "title": "Monthly Linn-Benton Wolf Pack Meeting",
-      "begin": "2025-12-02",
-      "end": "2025-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Linn-Benton Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
         }
       ],
       "_src": "mobilize"
@@ -188,42 +152,6 @@
         {
           "title": "Pasco County Democratic Executive Committee",
           "href": "https://www.mobilize.us/pascocountydec/event/557062/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 776742,
-      "mobilize_id": 776742,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/776742/",
-      "title": "Monthly Marion County Wolf Pack Meeting",
-      "begin": "2025-12-10",
-      "end": "2025-12-10",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Marion County Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/776742/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 873966,
-      "mobilize_id": 873966,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/873966/",
-      "title": "#FreedomToLive Nationwide Vigils/Events to #EndGunViolence",
-      "begin": "2025-12-10",
-      "end": "2025-12-10",
-      "lat": null,
-      "lng": null,
-      "location": "Woodland Hilla, CA",
-      "links": [
-        {
-          "title": "#FreedomToLive Nationwide Vigils/Events to #EndGunViolence",
-          "href": "https://www.mobilize.us/newtownactionalliance/event/873966/"
         }
       ],
       "_src": "mobilize"
