@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 809234,
-      "mobilize_id": 809234,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
-      "title": "Monthly Linn-Benton Wolf Pack Meeting",
-      "begin": "2025-12-02",
-      "end": "2025-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Linn-Benton Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 830960,
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-02",
+      "begin": "2025-12-03",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -32,24 +14,6 @@
         {
           "title": "Cover a public event (farmers' market, etc) for Graham!",
           "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 861053,
-      "mobilize_id": 861053,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/861053/",
-      "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
-      "begin": "2025-12-02",
-      "end": "2025-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, TN",
-      "links": [
-        {
-          "title": "Nashville Door Knocking -- Aftyn Behn for Congressional District 7!!!",
-          "href": "https://www.mobilize.us/tirrcvotes/event/861053/"
         }
       ],
       "_src": "mobilize"
@@ -68,24 +32,6 @@
         {
           "title": "Virtual Meet & Greet with Eileen Laubacher",
           "href": "https://www.mobilize.us/eileenforcolorado/event/863645/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 758303,
-      "mobilize_id": 758303,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
-      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-      "begin": "2025-12-04",
-      "end": "2025-12-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"
@@ -111,7 +57,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
       "title": "Tropical Meme Society bridge drop",
       "begin": "2025-12-05",
-      "end": "2026-01-02",
+      "end": "2026-01-31",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -206,6 +152,24 @@
         {
           "title": "LD9 Dems Monthly Meeting - Hybrid",
           "href": "https://www.mobilize.us/ld9democrats/event/751329/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 758303,
+      "mobilize_id": 758303,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
+      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+      "begin": "2025-12-18",
+      "end": "2025-12-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"
