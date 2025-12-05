@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-03",
+  "cutoffStr": "2025-12-04",
   "lookbackDays": 1,
   "totals": {
-    "all": 5055,
-    "geoKept": 5032,
-    "virtKept": 12
+    "all": 5031,
+    "geoKept": 5009,
+    "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 4989,
-      "recent": 4987,
-      "withCoords": 4202,
-      "keptGeo": 4200,
-      "keptVirt": 787,
+      "total": 4968,
+      "recent": 4966,
+      "withCoords": 4182,
+      "keptGeo": 4180,
+      "keptVirt": 786,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,51 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 60,
-      "recent": 57,
-      "withCoords": 54,
-      "keptGeo": 51,
+      "total": 57,
+      "recent": 54,
+      "withCoords": 51,
+      "keptGeo": 48,
       "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-          "begin": "2025-12-02",
-          "end": "2025-12-02",
-          "lat": 33.4508244,
-          "lng": -112.0830871,
-          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+          "title": "Resistance Readers - Bloomington-Normal 50501 Book Club",
+          "begin": "2025-12-03",
+          "end": "2025-12-03",
+          "lat": 40.4765409,
+          "lng": -88.9914247,
+          "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
           "links": [
             {
-              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-              "href": "https://events.pol-rev.com/events/9b5be532-a66e-4e5c-8f4d-0c4d28528301"
+              "title": "Resistance Readers - Bloomington-Normal 50501 Book Club",
+              "href": "https://events.pol-rev.com/events/0c9eb189-9d7c-4fa9-8fe1-2fc5b9f45291"
             }
           ]
         },
         {
-          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-          "begin": "2025-12-02",
-          "end": "2025-12-02",
-          "lat": 33.2196363,
-          "lng": -111.5631059,
-          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-12-03",
+          "end": "2025-12-03",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-              "href": "https://events.pol-rev.com/events/9ee4ddcb-1877-40aa-a83a-59e556342d7d"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/bcf45bb9-1afe-4bbb-83a9-120c8692bac6"
             }
           ]
         },
         {
-          "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-          "begin": "2025-12-02",
-          "end": "2025-12-02",
-          "lat": 33.3841527,
-          "lng": -111.9011703,
-          "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+          "title": "RhRR @ Moon Valley in North Central Phoenix",
+          "begin": "2025-12-03",
+          "end": "2025-12-03",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-              "href": "https://events.pol-rev.com/events/69d2479f-5a79-4ad7-9462-c99627c0794e"
+              "title": "RhRR @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/e33b65b9-699c-47de-aedf-50b206c9e189"
             }
           ]
         }
