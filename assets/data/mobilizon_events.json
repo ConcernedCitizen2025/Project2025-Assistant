@@ -401,12 +401,28 @@
       "link": "https://events.pol-rev.com/events/8aa21665-073c-43a1-8abe-285ef3b8b643"
     },
     {
+      "title": "NO FASCISM Saturday - Dedham Tesla",
+      "date": "2025-12-06",
+      "location": "Tesla, 840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+      "lat": 42.2359433,
+      "lng": -71.1782556,
+      "link": "https://events.pol-rev.com/events/ca46cbf1-7d85-45e0-8d01-fa8f50001fc3"
+    },
+    {
       "title": "NO FASCISM Fridays McFarland, WI",
       "date": "2025-12-05",
       "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
       "lat": 43.0131401,
       "lng": -89.2906864,
       "link": "https://events.pol-rev.com/events/86c2f784-f5c6-4078-ac1d-b7c83263c487"
+    },
+    {
+      "title": "Test recurring",
+      "date": "2025-12-05",
+      "location": "Plantation, Florida, United States of America, Plantation",
+      "lat": 26.13421,
+      "lng": -80.23184,
+      "link": "https://events.pol-rev.com/events/7cdec162-630f-4dfb-9dfe-22d5f13c7720"
     },
     {
       "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
@@ -431,30 +447,6 @@
       "lat": 33.4708979,
       "lng": -112.073198,
       "link": "https://events.pol-rev.com/events/f4e0bc7d-45fd-48cd-9db5-3684b9b12ef3"
-    },
-    {
-      "title": "Resistance Readers - Bloomington-Normal 50501 Book Club",
-      "date": "2025-12-03",
-      "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
-      "lat": 40.4765409,
-      "lng": -88.9914247,
-      "link": "https://events.pol-rev.com/events/0c9eb189-9d7c-4fa9-8fe1-2fc5b9f45291"
-    },
-    {
-      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-      "date": "2025-12-03",
-      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
-      "lat": 33.4974465,
-      "lng": -112.0838942,
-      "link": "https://events.pol-rev.com/events/bcf45bb9-1afe-4bbb-83a9-120c8692bac6"
-    },
-    {
-      "title": "RhRR @ Moon Valley in North Central Phoenix",
-      "date": "2025-12-03",
-      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
-      "lat": 33.6261453,
-      "lng": -112.0663766,
-      "link": "https://events.pol-rev.com/events/e33b65b9-699c-47de-aedf-50b206c9e189"
     }
   ]
 }
