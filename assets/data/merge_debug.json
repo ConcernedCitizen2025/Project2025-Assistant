@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-05",
+  "cutoffStr": "2025-12-06",
   "lookbackDays": 1,
   "totals": {
-    "all": 4995,
-    "geoKept": 4973,
+    "all": 4957,
+    "geoKept": 4936,
     "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 4933,
-      "recent": 4931,
-      "withCoords": 4144,
-      "keptGeo": 4142,
-      "keptVirt": 789,
+      "total": 4898,
+      "recent": 4896,
+      "withCoords": 4120,
+      "keptGeo": 4118,
+      "keptVirt": 778,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,51 +109,37 @@
       ]
     },
     "mobilizon": {
-      "total": 56,
-      "recent": 53,
-      "withCoords": 50,
-      "keptGeo": 48,
+      "total": 53,
+      "recent": 51,
+      "withCoords": 48,
+      "keptGeo": 46,
       "keptVirt": 5,
       "sampleDroppedByDate": [
         {
-          "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-          "begin": "2025-12-04",
-          "end": "2025-12-04",
-          "lat": 33.5237023,
-          "lng": -112.0989607,
-          "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
+          "title": "NO FASCISM Fridays McFarland, WI",
+          "begin": "2025-12-05",
+          "end": "2025-12-05",
+          "lat": 43.0131401,
+          "lng": -89.2906864,
+          "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
           "links": [
             {
-              "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-              "href": "https://events.pol-rev.com/events/49844d1a-dfd2-49f7-910a-6278ca3d1d4e"
+              "title": "NO FASCISM Fridays McFarland, WI",
+              "href": "https://events.pol-rev.com/events/86c2f784-f5c6-4078-ac1d-b7c83263c487"
             }
           ]
         },
         {
-          "title": "De-Escalation Training",
-          "begin": "2025-12-04",
-          "end": "2025-12-04",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "Test recurring",
+          "begin": "2025-12-05",
+          "end": "2025-12-05",
+          "lat": 26.13421,
+          "lng": -80.23184,
+          "location": "Plantation, Florida, United States of America, Plantation",
           "links": [
             {
-              "title": "De-Escalation Training",
-              "href": "https://events.pol-rev.com/events/d809368a-1e55-4a76-b691-8983503c1181"
-            }
-          ]
-        },
-        {
-          "title": "RhRR @ the ICE Field Office in central Phoenix",
-          "begin": "2025-12-04",
-          "end": "2025-12-04",
-          "lat": 33.4708979,
-          "lng": -112.073198,
-          "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
-          "links": [
-            {
-              "title": "RhRR @ the ICE Field Office in central Phoenix",
-              "href": "https://events.pol-rev.com/events/f4e0bc7d-45fd-48cd-9db5-3684b9b12ef3"
+              "title": "Test recurring",
+              "href": "https://events.pol-rev.com/events/7cdec162-630f-4dfb-9dfe-22d5f13c7720"
             }
           ]
         }

@@ -5,7 +5,7 @@
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-05",
+      "begin": "2025-12-06",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -14,24 +14,6 @@
         {
           "title": "Cover a public event (farmers' market, etc) for Graham!",
           "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2025-12-05",
-      "end": "2026-01-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"
@@ -173,6 +155,24 @@
         {
           "title": "Day Without an Immigrant",
           "href": "https://www.mobilize.us/pcun/event/875250/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2025-12-20",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"
