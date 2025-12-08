@@ -5,7 +5,7 @@
       "mobilize_id": 830960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
       "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-06",
+      "begin": "2025-12-07",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -17,21 +17,6 @@
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "title": "Holiday Protest, White Bear Lake",
-      "begin": "2025-12-06",
-      "end": "2025-12-06",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Holiday Protest, White Bear Lake",
-          "href": "https://events.pol-rev.com/events/b0a0e49f-ce48-445d-9af8-11dfcb17eaa4"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 557062,
