@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-12-07",
+  "cutoffStr": "2025-12-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 4668,
-    "geoKept": 4644,
-    "virtKept": 10
+    "all": 4704,
+    "geoKept": 4682,
+    "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 4608,
-      "recent": 4606,
-      "withCoords": 3887,
-      "keptGeo": 3885,
+      "total": 4647,
+      "recent": 4644,
+      "withCoords": 3926,
+      "keptGeo": 3923,
       "keptVirt": 721,
       "sampleDroppedByDate": [
         {
@@ -49,6 +49,24 @@
             }
           ],
           "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
+            }
+          ],
+          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -75,8 +93,8 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2025-12-07",
-          "end": "2025-12-14",
+          "begin": "2025-12-14",
+          "end": "2026-02-22",
           "lat": null,
           "lng": null,
           "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
@@ -109,51 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 54,
-      "recent": 48,
-      "withCoords": 49,
+      "total": 51,
+      "recent": 49,
+      "withCoords": 47,
       "keptGeo": 45,
-      "keptVirt": 3,
+      "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Rally for Democracy",
-          "begin": "2025-12-06",
-          "end": "2025-12-06",
-          "lat": null,
-          "lng": null,
-          "location": "Middle Green, Ipswich",
+          "title": "The Future of Coastal LA: Senate District 24 Candidate Forum & Meet & Greet",
+          "begin": "2025-12-07",
+          "end": "2025-12-07",
+          "lat": 33.788697,
+          "lng": -118.3776181,
+          "location": "Pacific Unitarian Church, 5621, Rancho Palos Verdes, CA 90274, United States of America, Rancho Palos Verdes",
           "links": [
             {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/33126f7a-58e1-4af3-abd6-3a4e02c6a5e3"
+              "title": "The Future of Coastal LA: Senate District 24 Candidate Forum & Meet & Greet",
+              "href": "https://events.pol-rev.com/events/590c18c4-132d-42b5-b5e0-71837f681042"
             }
           ]
         },
         {
-          "title": "Stand Up For Democracy",
-          "begin": "2025-12-06",
-          "end": "2025-12-06",
-          "lat": 38.13543436198,
-          "lng": -122.21771512982154,
-          "location": "Vallejo-Benicia Indivisible, Vallejo",
+          "title": "Weekly coffee with the Resistance",
+          "begin": "2025-12-07",
+          "end": "2025-12-07",
+          "lat": 41.3605131,
+          "lng": -88.8279315,
+          "location": "1915 Champlain Street, Ottawa, IL 61350, United States of America, Ottawa",
           "links": [
             {
-              "title": "Stand Up For Democracy",
-              "href": "https://events.pol-rev.com/events/273a923b-4688-4c1e-8599-387e31af3af7"
-            }
-          ]
-        },
-        {
-          "title": "Holiday Protest, White Bear Lake",
-          "begin": "2025-12-06",
-          "end": "2025-12-06",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Holiday Protest, White Bear Lake",
-              "href": "https://events.pol-rev.com/events/b0a0e49f-ce48-445d-9af8-11dfcb17eaa4"
+              "title": "Weekly coffee with the Resistance",
+              "href": "https://events.pol-rev.com/events/e7537a52-d40b-4324-876e-a85774c1fd15"
             }
           ]
         }

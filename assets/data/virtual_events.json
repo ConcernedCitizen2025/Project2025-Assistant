@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 830960,
-      "mobilize_id": 830960,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
-      "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-07",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, ME",
-      "links": [
-        {
-          "title": "Cover a public event (farmers' market, etc) for Graham!",
-          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 557062,
       "mobilize_id": 557062,
       "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
@@ -35,6 +17,39 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "_id": 830960,
+      "mobilize_id": 830960,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
+      "title": "Cover a public event (farmers' market, etc) for Graham!",
+      "begin": "2025-12-08",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, ME",
+      "links": [
+        {
+          "title": "Cover a public event (farmers' market, etc) for Graham!",
+          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "title": "WSI Immigration: Adopt a Corner Meeting",
+      "begin": "2025-12-10",
+      "end": "2025-12-10",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "WSI Immigration: Adopt a Corner Meeting",
+          "href": "https://events.pol-rev.com/events/995295c1-83e3-48dc-bd86-102a4041335a"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 871011,
