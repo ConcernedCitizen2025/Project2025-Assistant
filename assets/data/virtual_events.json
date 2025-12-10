@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 557062,
-      "mobilize_id": 557062,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
-      "title": "Pasco County Democratic Executive Committee",
-      "begin": "2025-12-08",
-      "end": "2025-12-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Pasco County Democratic Executive Committee",
-          "href": "https://www.mobilize.us/pascocountydec/event/557062/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 830960,
-      "mobilize_id": 830960,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/830960/",
-      "title": "Cover a public event (farmers' market, etc) for Graham!",
-      "begin": "2025-12-08",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, ME",
-      "links": [
-        {
-          "title": "Cover a public event (farmers' market, etc) for Graham!",
-          "href": "https://www.mobilize.us/grahamformaine/event/830960/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "title": "WSI Immigration: Adopt a Corner Meeting",
       "begin": "2025-12-10",
       "end": "2025-12-10",
@@ -173,6 +137,24 @@
         {
           "title": "Tropical Meme Society bridge drop",
           "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 557062,
+      "mobilize_id": 557062,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
+      "title": "Pasco County Democratic Executive Committee",
+      "begin": "2026-01-12",
+      "end": "2026-03-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Pasco County Democratic Executive Committee",
+          "href": "https://www.mobilize.us/pascocountydec/event/557062/"
         }
       ],
       "_src": "mobilize"

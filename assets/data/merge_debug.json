@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-08",
+  "cutoffStr": "2025-12-09",
   "lookbackDays": 1,
   "totals": {
-    "all": 4704,
-    "geoKept": 4682,
-    "virtKept": 11
+    "all": 4760,
+    "geoKept": 4741,
+    "virtKept": 10
   },
   "perSource": {
     "mobilize": {
-      "total": 4647,
-      "recent": 4644,
-      "withCoords": 3926,
-      "keptGeo": 3923,
-      "keptVirt": 721,
+      "total": 4702,
+      "recent": 4699,
+      "withCoords": 3969,
+      "keptGeo": 3966,
+      "keptVirt": 733,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 51,
-      "recent": 49,
-      "withCoords": 47,
-      "keptGeo": 45,
+      "total": 52,
+      "recent": 52,
+      "withCoords": 48,
+      "keptGeo": 48,
       "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "The Future of Coastal LA: Senate District 24 Candidate Forum & Meet & Greet",
-          "begin": "2025-12-07",
-          "end": "2025-12-07",
-          "lat": 33.788697,
-          "lng": -118.3776181,
-          "location": "Pacific Unitarian Church, 5621, Rancho Palos Verdes, CA 90274, United States of America, Rancho Palos Verdes",
-          "links": [
-            {
-              "title": "The Future of Coastal LA: Senate District 24 Candidate Forum & Meet & Greet",
-              "href": "https://events.pol-rev.com/events/590c18c4-132d-42b5-b5e0-71837f681042"
-            }
-          ]
-        },
-        {
-          "title": "Weekly coffee with the Resistance",
-          "begin": "2025-12-07",
-          "end": "2025-12-07",
-          "lat": 41.3605131,
-          "lng": -88.8279315,
-          "location": "1915 Champlain Street, Ottawa, IL 61350, United States of America, Ottawa",
-          "links": [
-            {
-              "title": "Weekly coffee with the Resistance",
-              "href": "https://events.pol-rev.com/events/e7537a52-d40b-4324-876e-a85774c1fd15"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Rally for Democracy",
