@@ -81,6 +81,14 @@
       "link": "https://events.pol-rev.com/events/13f92052-cc88-40e0-b980-0c1d1c2d4cd4"
     },
     {
+      "title": "New Years Revolution Rally",
+      "date": "2025-12-28",
+      "location": "801 Alaskan Way, Seattle, WA 98104, United States of America, Seattle",
+      "lat": 47.602429,
+      "lng": -122.337361,
+      "link": "https://events.pol-rev.com/events/d5bfc2a4-2fb0-4cfb-aa0b-163f321b7dd8"
+    },
+    {
       "title": "Rally for Democracy",
       "date": "2025-12-27",
       "location": "Middle Green, Ipswich",
@@ -321,7 +329,7 @@
       "link": "https://events.pol-rev.com/events/41b48c95-acc7-4a96-9812-74b08538d278"
     },
     {
-      "title": "Be the change you want to see",
+      "title": "Be the change you want to see - EVENT CANCELLED",
       "date": "2025-12-13",
       "location": "Carl Lock",
       "lat": 43.037490750704585,
@@ -343,6 +351,14 @@
       "lat": 30.3126157,
       "lng": -95.458214,
       "link": "https://events.pol-rev.com/events/dc4fc35e-d46a-4ea2-8343-acc94dde1f30"
+    },
+    {
+      "title": "MY US WISHLIST",
+      "date": "2025-12-12",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/429d3665-ca56-4bd9-b33b-23189a82990d"
     },
     {
       "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
@@ -383,38 +399,6 @@
       "lat": 33.6261453,
       "lng": -112.0663766,
       "link": "https://events.pol-rev.com/events/8fa95981-473f-4f69-b362-f059a336162f"
-    },
-    {
-      "title": "LA Forward: South Bay Cities Gathering (Co-Sponsored by ISBLA)",
-      "date": "2025-12-09",
-      "location": "Torrance, California, United States of America, Torrance",
-      "lat": 33.8371392,
-      "lng": -118.3413606,
-      "link": "https://events.pol-rev.com/events/559930c6-1d9e-4e63-b204-32c78159752b"
-    },
-    {
-      "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-      "date": "2025-12-09",
-      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
-      "lat": 33.4508244,
-      "lng": -112.0830871,
-      "link": "https://events.pol-rev.com/events/44fe6666-d6b0-4ba6-9d26-c122903d3d9e"
-    },
-    {
-      "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-      "date": "2025-12-09",
-      "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
-      "lat": 33.2196363,
-      "lng": -111.5631059,
-      "link": "https://events.pol-rev.com/events/2343370d-dd7e-4496-a007-b445fbf3e39c"
-    },
-    {
-      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-      "date": "2025-12-09",
-      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
-      "lat": 33.3841527,
-      "lng": -111.9011703,
-      "link": "https://events.pol-rev.com/events/9e84384b-71ce-4468-89e0-ca9d4a94f11b"
     }
   ]
 }

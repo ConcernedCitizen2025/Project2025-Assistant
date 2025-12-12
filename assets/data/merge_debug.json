@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-10",
+  "cutoffStr": "2025-12-11",
   "lookbackDays": 1,
   "totals": {
-    "all": 4754,
-    "geoKept": 4731,
-    "virtKept": 11
+    "all": 4674,
+    "geoKept": 4645,
+    "virtKept": 18
   },
   "perSource": {
     "mobilize": {
-      "total": 4696,
-      "recent": 4694,
-      "withCoords": 3962,
-      "keptGeo": 3960,
-      "keptVirt": 734,
+      "total": 4618,
+      "recent": 4616,
+      "withCoords": 3889,
+      "keptGeo": 3887,
+      "keptVirt": 729,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,51 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 52,
-      "recent": 48,
-      "withCoords": 48,
-      "keptGeo": 44,
+      "total": 50,
+      "recent": 47,
+      "withCoords": 45,
+      "keptGeo": 43,
       "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "LA Forward: South Bay Cities Gathering (Co-Sponsored by ISBLA)",
-          "begin": "2025-12-09",
-          "end": "2025-12-09",
-          "lat": 33.8371392,
-          "lng": -118.3413606,
-          "location": "Torrance, California, United States of America, Torrance",
+          "title": "WSI Immigration: Adopt a Corner Meeting",
+          "begin": "2025-12-10",
+          "end": "2025-12-10",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "LA Forward: South Bay Cities Gathering (Co-Sponsored by ISBLA)",
-              "href": "https://events.pol-rev.com/events/559930c6-1d9e-4e63-b204-32c78159752b"
+              "title": "WSI Immigration: Adopt a Corner Meeting",
+              "href": "https://events.pol-rev.com/events/995295c1-83e3-48dc-bd86-102a4041335a"
             }
           ]
         },
         {
-          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-          "begin": "2025-12-09",
-          "end": "2025-12-09",
-          "lat": 33.4508244,
-          "lng": -112.0830871,
-          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-12-10",
+          "end": "2025-12-10",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-              "href": "https://events.pol-rev.com/events/44fe6666-d6b0-4ba6-9d26-c122903d3d9e"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/78d82e23-d7ed-404a-9e50-9623d5a47bbc"
             }
           ]
         },
         {
-          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-          "begin": "2025-12-09",
-          "end": "2025-12-09",
-          "lat": 33.2196363,
-          "lng": -111.5631059,
-          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
+          "title": "RhRR @ Moon Valley in North Central Phoenix",
+          "begin": "2025-12-10",
+          "end": "2025-12-10",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-              "href": "https://events.pol-rev.com/events/2343370d-dd7e-4496-a007-b445fbf3e39c"
+              "title": "RhRR @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/8fa95981-473f-4f69-b362-f059a336162f"
             }
           ]
         }
