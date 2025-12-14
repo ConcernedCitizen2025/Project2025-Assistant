@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-12",
+  "cutoffStr": "2025-12-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 4609,
-    "geoKept": 4588,
-    "virtKept": 10
+    "all": 4580,
+    "geoKept": 4561,
+    "virtKept": 9
   },
   "perSource": {
     "mobilize": {
-      "total": 4556,
-      "recent": 4553,
-      "withCoords": 3840,
-      "keptGeo": 3837,
-      "keptVirt": 716,
+      "total": 4520,
+      "recent": 4517,
+      "withCoords": 3809,
+      "keptGeo": 3806,
+      "keptVirt": 711,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 47,
-      "recent": 45,
-      "withCoords": 43,
-      "keptGeo": 41,
-      "keptVirt": 4,
+      "total": 54,
+      "recent": 53,
+      "withCoords": 50,
+      "keptGeo": 50,
+      "keptVirt": 3,
       "sampleDroppedByDate": [
         {
-          "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-          "begin": "2025-12-11",
-          "end": "2025-12-11",
-          "lat": 33.5237023,
-          "lng": -112.0989607,
-          "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
+          "title": "MY US WISHLIST",
+          "begin": "2025-12-12",
+          "end": "2025-12-12",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-              "href": "https://events.pol-rev.com/events/7aa10ba0-3d07-4ef4-adb3-5a600f57c0a0"
-            }
-          ]
-        },
-        {
-          "title": "RhRR @ the ICE Field Office in central Phoenix",
-          "begin": "2025-12-11",
-          "end": "2025-12-11",
-          "lat": 33.4708979,
-          "lng": -112.073198,
-          "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
-          "links": [
-            {
-              "title": "RhRR @ the ICE Field Office in central Phoenix",
-              "href": "https://events.pol-rev.com/events/56a57cd2-b530-4ee4-91d5-0dd2a3a25a5a"
+              "title": "MY US WISHLIST",
+              "href": "https://events.pol-rev.com/events/429d3665-ca56-4bd9-b33b-23189a82990d"
             }
           ]
         }
