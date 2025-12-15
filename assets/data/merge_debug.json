@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-13",
+  "cutoffStr": "2025-12-14",
   "lookbackDays": 1,
   "totals": {
-    "all": 4580,
-    "geoKept": 4561,
-    "virtKept": 9
+    "all": 4283,
+    "geoKept": 4257,
+    "virtKept": 8
   },
   "perSource": {
     "mobilize": {
-      "total": 4520,
-      "recent": 4517,
-      "withCoords": 3809,
-      "keptGeo": 3806,
-      "keptVirt": 711,
+      "total": 4224,
+      "recent": 4221,
+      "withCoords": 3575,
+      "keptGeo": 3572,
+      "keptVirt": 649,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 54,
-      "recent": 53,
+      "total": 53,
+      "recent": 44,
       "withCoords": 50,
-      "keptGeo": 50,
-      "keptVirt": 3,
+      "keptGeo": 42,
+      "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "MY US WISHLIST",
-          "begin": "2025-12-12",
-          "end": "2025-12-12",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "Vigil for Those in IÇE Detention: Donna Hughes Brown",
+          "begin": "2025-12-13",
+          "end": "2025-12-13",
+          "lat": 37.062636,
+          "lng": -94.531878,
+          "location": "1599 West 26th Street, Joplin, MO 64804, United States of America, Joplin",
           "links": [
             {
-              "title": "MY US WISHLIST",
-              "href": "https://events.pol-rev.com/events/429d3665-ca56-4bd9-b33b-23189a82990d"
+              "title": "Vigil for Those in IÇE Detention: Donna Hughes Brown",
+              "href": "https://events.pol-rev.com/events/f0f33ba0-a0ea-42f4-bf20-850eb38d1473"
+            }
+          ]
+        },
+        {
+          "title": "Rally for Democracy",
+          "begin": "2025-12-13",
+          "end": "2025-12-13",
+          "lat": null,
+          "lng": null,
+          "location": "Middle Green, Ipswich",
+          "links": [
+            {
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/2fda7e03-419d-4a45-a600-4a1c8ed04aae"
+            }
+          ]
+        },
+        {
+          "title": "UnAccountable: Join Us to Demand Real LAPD Accountability",
+          "begin": "2025-12-13",
+          "end": "2025-12-13",
+          "lat": 34.061624,
+          "lng": -118.306739,
+          "location": "3700 Wilshire Boulevard, Los Angeles, CA 90010, United States of America, Los Angeles",
+          "links": [
+            {
+              "title": "UnAccountable: Join Us to Demand Real LAPD Accountability",
+              "href": "https://events.pol-rev.com/events/0388dbd2-f181-497d-b7f5-c40781a157d6"
             }
           ]
         }
@@ -174,20 +202,6 @@
             {
               "title": "Rally for Democracy",
               "href": "https://events.pol-rev.com/events/88a69d5c-df03-4202-9161-1edefc08ade3"
-            }
-          ]
-        },
-        {
-          "title": "Rally for Democracy",
-          "begin": "2025-12-13",
-          "end": "2025-12-13",
-          "lat": null,
-          "lng": null,
-          "location": "Middle Green, Ipswich",
-          "links": [
-            {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/2fda7e03-419d-4a45-a600-4a1c8ed04aae"
             }
           ]
         }
