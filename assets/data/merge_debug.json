@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-14",
+  "cutoffStr": "2025-12-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 4283,
-    "geoKept": 4257,
-    "virtKept": 8
+    "all": 4321,
+    "geoKept": 4300,
+    "virtKept": 10
   },
   "perSource": {
     "mobilize": {
-      "total": 4224,
-      "recent": 4221,
-      "withCoords": 3575,
-      "keptGeo": 3572,
-      "keptVirt": 649,
+      "total": 4271,
+      "recent": 4268,
+      "withCoords": 3624,
+      "keptGeo": 3621,
+      "keptVirt": 647,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2025-12-14",
+          "begin": "2026-01-04",
           "end": "2026-02-22",
           "lat": null,
           "lng": null,
@@ -107,19 +107,19 @@
           "_src": "mobilize"
         },
         {
-          "_id": 459133,
-          "mobilize_id": 459133,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/459133/",
-          "title": "Politics & Coffee with the New Trier Democrats",
-          "begin": "2025-12-14",
-          "end": "2025-12-14",
+          "_id": 547245,
+          "mobilize_id": 547245,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
+          "title": "Monthly All Member Meeting",
+          "begin": "2026-02-05",
+          "end": "2026-02-05",
           "lat": null,
           "lng": null,
-          "location": "This event's address is private. Sign up for more details, Winnetka, IL",
+          "location": "This event's address is private. Sign up for more details",
           "links": [
             {
-              "title": "Politics & Coffee with the New Trier Democrats",
-              "href": "https://www.mobilize.us/newtrierdemocraticorganization/event/459133/"
+              "title": "Monthly All Member Meeting",
+              "href": "https://www.mobilize.us/sisterdistrictsouthbay/event/547245/"
             }
           ],
           "_src": "mobilize"
@@ -127,51 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 53,
-      "recent": 44,
-      "withCoords": 50,
-      "keptGeo": 42,
+      "total": 44,
+      "recent": 42,
+      "withCoords": 42,
+      "keptGeo": 40,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "Vigil for Those in IÇE Detention: Donna Hughes Brown",
-          "begin": "2025-12-13",
-          "end": "2025-12-13",
-          "lat": 37.062636,
-          "lng": -94.531878,
-          "location": "1599 West 26th Street, Joplin, MO 64804, United States of America, Joplin",
+          "title": "An Interactive Afternoon with Shasti Conrad ! West Seattle Indivisible General Meeting",
+          "begin": "2025-12-14",
+          "end": "2025-12-14",
+          "lat": 47.5626534,
+          "lng": -122.386272,
+          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
           "links": [
             {
-              "title": "Vigil for Those in IÇE Detention: Donna Hughes Brown",
-              "href": "https://events.pol-rev.com/events/f0f33ba0-a0ea-42f4-bf20-850eb38d1473"
+              "title": "An Interactive Afternoon with Shasti Conrad ! West Seattle Indivisible General Meeting",
+              "href": "https://events.pol-rev.com/events/6b22b56d-cbfb-4c7b-b654-ab413ba1033c"
             }
           ]
         },
         {
-          "title": "Rally for Democracy",
-          "begin": "2025-12-13",
-          "end": "2025-12-13",
-          "lat": null,
-          "lng": null,
-          "location": "Middle Green, Ipswich",
+          "title": "West Seattle Resist: Sunday Solidary Action",
+          "begin": "2025-12-14",
+          "end": "2025-12-14",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/2fda7e03-419d-4a45-a600-4a1c8ed04aae"
-            }
-          ]
-        },
-        {
-          "title": "UnAccountable: Join Us to Demand Real LAPD Accountability",
-          "begin": "2025-12-13",
-          "end": "2025-12-13",
-          "lat": 34.061624,
-          "lng": -118.306739,
-          "location": "3700 Wilshire Boulevard, Los Angeles, CA 90010, United States of America, Los Angeles",
-          "links": [
-            {
-              "title": "UnAccountable: Join Us to Demand Real LAPD Accountability",
-              "href": "https://events.pol-rev.com/events/0388dbd2-f181-497d-b7f5-c40781a157d6"
+              "title": "West Seattle Resist: Sunday Solidary Action",
+              "href": "https://events.pol-rev.com/events/468f4b56-9bcd-4d32-8d4f-259b9d46c77d"
             }
           ]
         }

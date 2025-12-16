@@ -4819,6 +4819,10 @@
     "lat": 37.9340915,
     "lng": -122.5352539
   },
+  "Pembroke Pines, FL": {
+    "lat": 26.0061943,
+    "lng": -80.2872086
+  },
   "West Columbia, SC": {
     "lat": 33.991869,
     "lng": -81.0640341
@@ -4830,10 +4834,6 @@
   "Adrian, MI": {
     "lat": 41.8975152,
     "lng": -84.0373054
-  },
-  "Lansing, MI": {
-    "lat": 42.7338254,
-    "lng": -84.5546295
   },
   "Bloomington, MN": {
     "lat": 44.8322405,
@@ -4967,10 +4967,6 @@
     "lat": 45.143731,
     "lng": -122.8553725
   },
-  "Ephrata, PA": {
-    "lat": 40.1799111,
-    "lng": -76.1789242
-  },
   "Palm Beach Gardens, FL": {
     "lat": 26.8233946,
     "lng": -80.1386547
@@ -4978,10 +4974,6 @@
   "Dartmouth, MA": {
     "lat": 41.6386894,
     "lng": -70.9933545
-  },
-  "Port Jefferson, NY": {
-    "lat": 40.9465118,
-    "lng": -73.0691257
   },
   "White Settlement, TX": {
     "lat": 32.7595737,
@@ -5050,10 +5042,6 @@
   "Page County, VA": {
     "lat": 38.6002354,
     "lng": -78.5016516
-  },
-  "West Springfield, VA": {
-    "lat": 38.775844,
-    "lng": -77.2253673
   },
   "Clare, MI": {
     "lat": 43.9688673,
@@ -5194,6 +5182,22 @@
   "Texas City, TX": {
     "lat": 29.396013,
     "lng": -94.9175485
+  },
+  "Delavan, WI": {
+    "lat": 42.633102,
+    "lng": -88.6460554
+  },
+  "Glendale, AZ": {
+    "lat": 33.5386858,
+    "lng": -112.185994
+  },
+  "Southington, CT": {
+    "lat": 41.6005435,
+    "lng": -72.8782941
+  },
+  "Pinetop-Lakeside, AZ": {
+    "lat": 34.1448702,
+    "lng": -109.9584743
   },
   "Middle Green, Ipswich": {
     "lat": 42.679727,

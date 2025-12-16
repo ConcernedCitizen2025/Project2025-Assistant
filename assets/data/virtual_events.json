@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "_id": 877118,
+      "mobilize_id": 877118,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877118/",
+      "title": "Broward Deserves Better",
+      "begin": "2025-12-16",
+      "end": "2025-12-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Broward Deserves Better",
+          "href": "https://www.mobilize.us/seealliance/event/877118/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 793161,
       "mobilize_id": 793161,
       "canonical_mobilize_url": "https://www.mobilize.us/event/793161/",
@@ -104,6 +122,24 @@
         {
           "title": "Tropical Meme Society bridge drop",
           "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877157,
+      "mobilize_id": 877157,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877157/",
+      "title": "Visibility Brigade - Fort Lee, NJ",
+      "begin": "2025-12-21",
+      "end": "2025-12-21",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Visibility Brigade - Fort Lee, NJ",
+          "href": "https://www.mobilize.us/fortleevisibilitybrigade/event/877157/"
         }
       ],
       "_src": "mobilize"
