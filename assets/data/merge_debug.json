@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-15",
+  "cutoffStr": "2025-12-16",
   "lookbackDays": 1,
   "totals": {
-    "all": 4321,
-    "geoKept": 4300,
-    "virtKept": 10
+    "all": 4353,
+    "geoKept": 4326,
+    "virtKept": 16
   },
   "perSource": {
     "mobilize": {
-      "total": 4271,
-      "recent": 4268,
-      "withCoords": 3624,
-      "keptGeo": 3621,
-      "keptVirt": 647,
+      "total": 4304,
+      "recent": 4301,
+      "withCoords": 3659,
+      "keptGeo": 3656,
+      "keptVirt": 645,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 44,
-      "recent": 42,
-      "withCoords": 42,
-      "keptGeo": 40,
+      "total": 43,
+      "recent": 41,
+      "withCoords": 41,
+      "keptGeo": 39,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "An Interactive Afternoon with Shasti Conrad ! West Seattle Indivisible General Meeting",
-          "begin": "2025-12-14",
-          "end": "2025-12-14",
-          "lat": 47.5626534,
-          "lng": -122.386272,
-          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "title": "Sign Making for \"We're Still Standing\" March in January",
+          "begin": "2025-12-15",
+          "end": "2025-12-15",
+          "lat": 47.5856517,
+          "lng": -122.3868919,
+          "location": "4312 Southwest Hill Street, Seattle, WA 98116, United States of America, Seattle",
           "links": [
             {
-              "title": "An Interactive Afternoon with Shasti Conrad ! West Seattle Indivisible General Meeting",
-              "href": "https://events.pol-rev.com/events/6b22b56d-cbfb-4c7b-b654-ab413ba1033c"
+              "title": "Sign Making for \"We're Still Standing\" March in January",
+              "href": "https://events.pol-rev.com/events/9b8957dc-702a-4997-bbf5-550a905e45a4"
             }
           ]
         },
         {
-          "title": "West Seattle Resist: Sunday Solidary Action",
-          "begin": "2025-12-14",
-          "end": "2025-12-14",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
+          "title": "Shut the FLOCK Off Exploratory 1st meeting",
+          "begin": "2025-12-15",
+          "end": "2025-12-15",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "West Seattle Resist: Sunday Solidary Action",
-              "href": "https://events.pol-rev.com/events/468f4b56-9bcd-4d32-8d4f-259b9d46c77d"
+              "title": "Shut the FLOCK Off Exploratory 1st meeting",
+              "href": "https://events.pol-rev.com/events/772491a0-54a2-485f-bbcc-746e140c89f3"
             }
           ]
         }
