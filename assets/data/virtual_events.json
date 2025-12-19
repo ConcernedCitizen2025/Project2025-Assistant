@@ -1,30 +1,12 @@
 {
   "data": [
     {
-      "_id": 793161,
-      "mobilize_id": 793161,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/793161/",
-      "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
-      "begin": "2025-12-17",
-      "end": "2025-12-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Emerald Coast Indivisible Monthly Meeting (Virtual)",
-          "href": "https://www.mobilize.us/emeraldcoastindivisible/event/793161/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 758303,
       "mobilize_id": 758303,
       "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
       "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
       "begin": "2025-12-18",
-      "end": "2025-12-18",
+      "end": "2026-12-03",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -158,6 +140,24 @@
         {
           "title": "Monthly All Member Meeting",
           "href": "https://www.mobilize.us/sisterdistrictsouthbay/event/547245/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877745,
+      "mobilize_id": 877745,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877745/",
+      "title": "Data Center Reform Lobby Day",
+      "begin": "2026-02-09",
+      "end": "2026-02-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Data Center Reform Lobby Day",
+          "href": "https://www.mobilize.us/indivisible-nova-west/event/877745/"
         }
       ],
       "_src": "mobilize"

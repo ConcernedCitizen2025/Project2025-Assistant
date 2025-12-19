@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-17",
+  "cutoffStr": "2025-12-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 4348,
-    "geoKept": 4326,
+    "all": 4291,
+    "geoKept": 4271,
     "virtKept": 9
   },
   "perSource": {
     "mobilize": {
-      "total": 4301,
-      "recent": 4298,
-      "withCoords": 3668,
-      "keptGeo": 3665,
-      "keptVirt": 633,
+      "total": 4247,
+      "recent": 4244,
+      "withCoords": 3616,
+      "keptGeo": 3613,
+      "keptVirt": 631,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,51 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 41,
-      "recent": 37,
-      "withCoords": 39,
-      "keptGeo": 35,
+      "total": 38,
+      "recent": 36,
+      "withCoords": 36,
+      "keptGeo": 34,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "Candlelight Vigil in Support of Our Immigrant Community",
-          "begin": "2025-12-16",
-          "end": "2025-12-16",
-          "lat": 39.08312638912245,
-          "lng": -74.82344453863688,
-          "location": "Cape May County Courthouse, Cape May Court House",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-12-17",
+          "end": "2025-12-17",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "Candlelight Vigil in Support of Our Immigrant Community",
-              "href": "https://events.pol-rev.com/events/e56d4243-fb08-4e44-9ee6-f2031d353877"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/e934c1cc-e67c-4f6b-b622-25b6b3e4e613"
             }
           ]
         },
         {
-          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-          "begin": "2025-12-16",
-          "end": "2025-12-16",
-          "lat": 33.4508244,
-          "lng": -112.0830871,
-          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+          "title": "RhRR @ Moon Valley in North Central Phoenix",
+          "begin": "2025-12-17",
+          "end": "2025-12-17",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-              "href": "https://events.pol-rev.com/events/d0fe4965-4921-45f5-a75a-97f521674fba"
-            }
-          ]
-        },
-        {
-          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-          "begin": "2025-12-16",
-          "end": "2025-12-16",
-          "lat": 33.2196363,
-          "lng": -111.5631059,
-          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
-          "links": [
-            {
-              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-              "href": "https://events.pol-rev.com/events/3344917a-59cc-4b3c-808e-51608df70785"
+              "title": "RhRR @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/51bcfe27-58aa-4340-b376-2c5f28ea01ea"
             }
           ]
         }

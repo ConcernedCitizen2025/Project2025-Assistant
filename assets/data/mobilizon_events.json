@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "title": "Citizens' Impeachment",
+      "date": "2026-02-16",
+      "location": "726 Exchange Street, Buffalo, NY 14210, United States of America, Buffalo",
+      "lat": 42.8747406,
+      "lng": -78.849655,
+      "link": "https://events.pol-rev.com/events/257219c5-8a6d-4b7d-9c6c-7ec659d09496"
+    },
+    {
       "title": "Trump Takedown",
       "date": "2026-02-07",
       "location": "In front of the Tesla Showroom at Prudential Center, Boston",
@@ -295,38 +303,6 @@
       "lat": 33.6261453,
       "lng": -112.0663766,
       "link": "https://events.pol-rev.com/events/51bcfe27-58aa-4340-b376-2c5f28ea01ea"
-    },
-    {
-      "title": "Candlelight Vigil in Support of Our Immigrant Community",
-      "date": "2025-12-16",
-      "location": "Cape May County Courthouse, Cape May Court House",
-      "lat": 39.08312638912245,
-      "lng": -74.82344453863688,
-      "link": "https://events.pol-rev.com/events/e56d4243-fb08-4e44-9ee6-f2031d353877"
-    },
-    {
-      "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-      "date": "2025-12-16",
-      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
-      "lat": 33.4508244,
-      "lng": -112.0830871,
-      "link": "https://events.pol-rev.com/events/d0fe4965-4921-45f5-a75a-97f521674fba"
-    },
-    {
-      "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-      "date": "2025-12-16",
-      "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
-      "lat": 33.2196363,
-      "lng": -111.5631059,
-      "link": "https://events.pol-rev.com/events/3344917a-59cc-4b3c-808e-51608df70785"
-    },
-    {
-      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-      "date": "2025-12-16",
-      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
-      "lat": 33.3841527,
-      "lng": -111.9011703,
-      "link": "https://events.pol-rev.com/events/2b290394-8d8b-45d7-8158-c4ed4ad74071"
     }
   ]
 }
