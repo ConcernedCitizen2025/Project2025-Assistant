@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 758303,
-      "mobilize_id": 758303,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
-      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-      "begin": "2025-12-18",
-      "end": "2026-12-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 872313,
-      "mobilize_id": 872313,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/872313/",
-      "title": "Nathan Sage Virtual Rally",
-      "begin": "2025-12-18",
-      "end": "2025-12-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Nathan Sage Virtual Rally",
-          "href": "https://www.mobilize.us/sageforsenate/event/872313/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 875250,
-      "mobilize_id": 875250,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/875250/",
-      "title": "Day Without an Immigrant",
-      "begin": "2025-12-18",
-      "end": "2025-12-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, OR",
-      "links": [
-        {
-          "title": "Day Without an Immigrant",
-          "href": "https://www.mobilize.us/pcun/event/875250/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -127,6 +73,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 878058,
+      "mobilize_id": 878058,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878058/",
+      "title": "Zoom Workshop: Writing public comments",
+      "begin": "2026-01-16",
+      "end": "2026-01-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WA",
+      "links": [
+        {
+          "title": "Zoom Workshop: Writing public comments",
+          "href": "https://www.mobilize.us/wallingfordindivisible /event/878058/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
@@ -140,6 +104,24 @@
         {
           "title": "Monthly All Member Meeting",
           "href": "https://www.mobilize.us/sisterdistrictsouthbay/event/547245/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 758303,
+      "mobilize_id": 758303,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
+      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+      "begin": "2026-02-05",
+      "end": "2026-12-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"

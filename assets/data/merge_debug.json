@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-18",
+  "cutoffStr": "2025-12-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 4291,
-    "geoKept": 4271,
-    "virtKept": 9
+    "all": 4214,
+    "geoKept": 4193,
+    "virtKept": 8
   },
   "perSource": {
     "mobilize": {
-      "total": 4247,
-      "recent": 4244,
-      "withCoords": 3616,
-      "keptGeo": 3613,
-      "keptVirt": 631,
+      "total": 4170,
+      "recent": 4167,
+      "withCoords": 3558,
+      "keptGeo": 3555,
+      "keptVirt": 612,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,36 +128,50 @@
     },
     "mobilizon": {
       "total": 38,
-      "recent": 36,
+      "recent": 34,
       "withCoords": 36,
-      "keptGeo": 34,
+      "keptGeo": 32,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-          "begin": "2025-12-17",
-          "end": "2025-12-17",
-          "lat": 33.4974465,
-          "lng": -112.0838942,
-          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+          "title": "Community Defense and ICE Watch Training - Bloomington Normal 50501",
+          "begin": "2025-12-18",
+          "end": "2025-12-18",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
-              "href": "https://events.pol-rev.com/events/e934c1cc-e67c-4f6b-b622-25b6b3e4e613"
+              "title": "Community Defense and ICE Watch Training - Bloomington Normal 50501",
+              "href": "https://events.pol-rev.com/events/bbf5ac78-686a-449b-86a8-c13172c3df3e"
             }
           ]
         },
         {
-          "title": "RhRR @ Moon Valley in North Central Phoenix",
-          "begin": "2025-12-17",
-          "end": "2025-12-17",
-          "lat": 33.6261453,
-          "lng": -112.0663766,
-          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+          "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
+          "begin": "2025-12-18",
+          "end": "2025-12-18",
+          "lat": 33.5237023,
+          "lng": -112.0989607,
+          "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Moon Valley in North Central Phoenix",
-              "href": "https://events.pol-rev.com/events/51bcfe27-58aa-4340-b376-2c5f28ea01ea"
+              "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
+              "href": "https://events.pol-rev.com/events/ca632956-d886-415c-bf92-efef5e608d6e"
+            }
+          ]
+        },
+        {
+          "title": "Town of Plattsburgh Town Board Meeting",
+          "begin": "2025-12-18",
+          "end": "2025-12-18",
+          "lat": 44.704917,
+          "lng": -73.541127,
+          "location": "Plattsburgh Town Hall, 151 Banker Road, City of Plattsburgh, NY 12901, United States of America, City of Plattsburgh",
+          "links": [
+            {
+              "title": "Town of Plattsburgh Town Board Meeting",
+              "href": "https://events.pol-rev.com/events/48f25ce8-b45f-4769-bafb-b74b0015c50e"
             }
           ]
         }

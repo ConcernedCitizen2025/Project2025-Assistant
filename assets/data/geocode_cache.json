@@ -4815,10 +4815,6 @@
     "lat": 39.8045432,
     "lng": -83.8925234
   },
-  "Hercules, CA": {
-    "lat": 38.0171441,
-    "lng": -122.2885808
-  },
   "Larkspur, CA": {
     "lat": 37.9340915,
     "lng": -122.5352539
@@ -4842,10 +4838,6 @@
   "Bloomington, MN": {
     "lat": 44.8322405,
     "lng": -93.3204872
-  },
-  "Louisville, CO": {
-    "lat": 39.977763,
-    "lng": -105.1319296
   },
   "Mason, OH": {
     "lat": 39.3600586,
@@ -4963,17 +4955,9 @@
     "lat": 39.8745437,
     "lng": -76.8658078
   },
-  "Palm Beach Gardens, FL": {
-    "lat": 26.8233946,
-    "lng": -80.1386547
-  },
   "Dartmouth, MA": {
     "lat": 41.6386894,
     "lng": -70.9933545
-  },
-  "Maple Grove, MN": {
-    "lat": 45.0984983,
-    "lng": -93.4419222
   },
   "Plymouth, MN": {
     "lat": 45.0065149,
@@ -4982,10 +4966,6 @@
   "South Windsor, CT": {
     "lat": 41.8352395,
     "lng": -72.5562712
-  },
-  "This event's address is private. Sign up for more details, OR": {
-    "lat": null,
-    "lng": null
   },
   "Yorkville, IL": {
     "lat": 41.6411409,
@@ -5039,10 +5019,6 @@
     "lat": 43.9688673,
     "lng": -84.8505091
   },
-  "Lumberton, TX": {
-    "lat": 30.2655322,
-    "lng": -94.1991444
-  },
   "Libertyville, IL": {
     "lat": 42.2830786,
     "lng": -87.9531303
@@ -5062,6 +5038,10 @@
   "Loveland, OH": {
     "lat": 39.2689476,
     "lng": -84.263826
+  },
+  "Palm Beach Gardens, FL": {
+    "lat": 26.8233946,
+    "lng": -80.1386547
   },
   "Salida, CO": {
     "lat": 38.5371195,
@@ -5091,17 +5071,9 @@
     "lat": 33.8653563,
     "lng": -118.0806221
   },
-  "South Orange Village, NJ": {
-    "lat": 40.7451082,
-    "lng": -74.2614099
-  },
   "Eden, MD": {
     "lat": 38.2804795,
     "lng": -75.652387
-  },
-  "Henderson, NV": {
-    "lat": 36.0319602,
-    "lng": -114.9822716
   },
   "Garden Grove, CA": {
     "lat": 33.7746292,
@@ -5143,17 +5115,9 @@
     "lat": 26.1403635,
     "lng": -80.2133808
   },
-  "Astoria, NY": {
-    "lat": 40.7720145,
-    "lng": -73.9302673
-  },
   "Edwardsville, IL": {
     "lat": 38.8114364,
     "lng": -89.953157
-  },
-  "Texas City, TX": {
-    "lat": 29.396013,
-    "lng": -94.9175485
   },
   "Delavan, WI": {
     "lat": 42.633102,
@@ -5194,6 +5158,34 @@
   "San Clemente, CA": {
     "lat": 33.4270275,
     "lng": -117.6124179
+  },
+  "Allegan, MI": {
+    "lat": 42.5867203,
+    "lng": -85.8861492
+  },
+  "Harrison Township, NJ": {
+    "lat": 39.7225865,
+    "lng": -75.2016135
+  },
+  "This event's address is private. Sign up for more details, WA": {
+    "lat": null,
+    "lng": null
+  },
+  "Brewer, ME": {
+    "lat": 44.7967947,
+    "lng": -68.7621574
+  },
+  "Lone Tree, CO": {
+    "lat": 39.5364152,
+    "lng": -104.9041528
+  },
+  "Wylie, TX": {
+    "lat": 33.0151561,
+    "lng": -96.5388038
+  },
+  "Murphy, TX": {
+    "lat": 33.0151208,
+    "lng": -96.6130478
   },
   "Middle Green, Ipswich": {
     "lat": 42.679727,
