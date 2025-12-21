@@ -57,12 +57,28 @@
       "link": "https://events.pol-rev.com/events/b3903888-46e2-4a65-8f7f-24f196673fb1"
     },
     {
+      "title": "Resistance Readers 50501 Book Club: When No is Not Enough by Naomi Klein",
+      "date": "2026-01-07",
+      "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
+      "lat": 40.4765409,
+      "lng": -88.9914247,
+      "link": "https://events.pol-rev.com/events/988e10e1-60cf-4323-afef-f61dd56e1ba4"
+    },
+    {
       "title": "ESTES PARK Takes Back January 6th for the Nation",
       "date": "2026-01-06",
       "location": "170 Macgregor Avenue, Estes Park, CO 80517, United States of America, Estes Park",
       "lat": 40.3775598,
       "lng": -105.5203746,
       "link": "https://events.pol-rev.com/events/4cdb75c0-094f-4826-bb14-3e35e0d73f82"
+    },
+    {
+      "title": "January 6 Defense of The Constitution",
+      "date": "2026-01-06",
+      "location": "Paul, Zillah, WA",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/a0073973-7acd-44b7-81ab-616f8730615d"
     },
     {
       "title": "We Will Never Forget—January 6th Rally on Bainbridge Island",
@@ -271,38 +287,6 @@
       "lat": 42.2359433,
       "lng": -71.1782556,
       "link": "https://events.pol-rev.com/events/e9e52a87-fb07-468f-9473-2b8f79cc4b19"
-    },
-    {
-      "title": "Community Defense and ICE Watch Training - Bloomington Normal 50501",
-      "date": "2025-12-18",
-      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4929988,
-      "lng": -88.9684006,
-      "link": "https://events.pol-rev.com/events/bbf5ac78-686a-449b-86a8-c13172c3df3e"
-    },
-    {
-      "title": "RhRR @ Christown Spectrum in NW Central Phoenix",
-      "date": "2025-12-18",
-      "location": "1825 West Bethany Home Road, Phoenix, AZ 85015, United States of America, Phoenix",
-      "lat": 33.5237023,
-      "lng": -112.0989607,
-      "link": "https://events.pol-rev.com/events/ca632956-d886-415c-bf92-efef5e608d6e"
-    },
-    {
-      "title": "Town of Plattsburgh Town Board Meeting",
-      "date": "2025-12-18",
-      "location": "Plattsburgh Town Hall, 151 Banker Road, City of Plattsburgh, NY 12901, United States of America, City of Plattsburgh",
-      "lat": 44.704917,
-      "lng": -73.541127,
-      "link": "https://events.pol-rev.com/events/48f25ce8-b45f-4769-bafb-b74b0015c50e"
-    },
-    {
-      "title": "RhRR @ the ICE Field Office in central Phoenix",
-      "date": "2025-12-18",
-      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
-      "lat": 33.4708979,
-      "lng": -112.073198,
-      "link": "https://events.pol-rev.com/events/5524a351-377f-4c0a-ae84-ff598ce53d31"
     }
   ]
 }

@@ -4819,10 +4819,6 @@
     "lat": 37.9340915,
     "lng": -122.5352539
   },
-  "Pembroke Pines, FL": {
-    "lat": 26.0061943,
-    "lng": -80.2872086
-  },
   "Hillsborough, NC": {
     "lat": 36.075382,
     "lng": -79.0993958
@@ -4874,10 +4870,6 @@
   "Decatur, GA": {
     "lat": 30.8736613,
     "lng": -84.5740953
-  },
-  "Laveen, AZ": {
-    "lat": 33.3618814,
-    "lng": -112.1533861
   },
   "Lake City, MN": {
     "lat": 44.4478474,
@@ -5163,6 +5155,10 @@
     "lat": 42.5867203,
     "lng": -85.8861492
   },
+  "Lake Forest, CA": {
+    "lat": 33.6469261,
+    "lng": -117.6859213
+  },
   "Harrison Township, NJ": {
     "lat": 39.7225865,
     "lng": -75.2016135
@@ -5186,6 +5182,22 @@
   "Murphy, TX": {
     "lat": 33.0151208,
     "lng": -96.6130478
+  },
+  "Cheyenne, WY": {
+    "lat": 41.139981,
+    "lng": -104.820246
+  },
+  "Mundelein, IL": {
+    "lat": 42.263079,
+    "lng": -88.0039653
+  },
+  "Belleville, IL": {
+    "lat": 38.5135805,
+    "lng": -89.9841627
+  },
+  "Paul, Zillah, WA": {
+    "lat": null,
+    "lng": null
   },
   "Middle Green, Ipswich": {
     "lat": 42.679727,
