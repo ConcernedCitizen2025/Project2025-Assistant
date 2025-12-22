@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-20",
+  "cutoffStr": "2025-12-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 4183,
-    "geoKept": 4165,
+    "all": 4043,
+    "geoKept": 4021,
     "virtKept": 9
   },
   "perSource": {
     "mobilize": {
-      "total": 4141,
-      "recent": 4138,
-      "withCoords": 3533,
-      "keptGeo": 3530,
-      "keptVirt": 608,
+      "total": 4001,
+      "recent": 3998,
+      "withCoords": 3412,
+      "keptGeo": 3409,
+      "keptVirt": 589,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,54 @@
     },
     "mobilizon": {
       "total": 36,
-      "recent": 36,
+      "recent": 32,
       "withCoords": 33,
-      "keptGeo": 33,
-      "keptVirt": 3,
-      "sampleDroppedByDate": [],
+      "keptGeo": 30,
+      "keptVirt": 2,
+      "sampleDroppedByDate": [
+        {
+          "title": "Rally for Democracy",
+          "begin": "2025-12-20",
+          "end": "2025-12-20",
+          "lat": null,
+          "lng": null,
+          "location": "Middle Green, Ipswich",
+          "links": [
+            {
+              "title": "Rally for Democracy",
+              "href": "https://events.pol-rev.com/events/88a69d5c-df03-4202-9161-1edefc08ade3"
+            }
+          ]
+        },
+        {
+          "title": "Stand Up For Democracy",
+          "begin": "2025-12-20",
+          "end": "2025-12-20",
+          "lat": 38.13543436198,
+          "lng": -122.21771512982154,
+          "location": "Vallejo-Benicia Indivisible, Vallejo",
+          "links": [
+            {
+              "title": "Stand Up For Democracy",
+              "href": "https://events.pol-rev.com/events/649bb4da-c295-4ac9-92ad-63aa483098dc"
+            }
+          ]
+        },
+        {
+          "title": "Arvada Holiday Party/Protest",
+          "begin": "2025-12-20",
+          "end": "2025-12-20",
+          "lat": 39.7997223,
+          "lng": -105.0780813,
+          "location": "7305 Grandview Avenue, Arvada, CO 80002, United States of America, Arvada",
+          "links": [
+            {
+              "title": "Arvada Holiday Party/Protest",
+              "href": "https://events.pol-rev.com/events/c1359b0a-d8fa-42fd-8667-d56cd0172f0d"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "January 6 Defense of The Constitution",
@@ -159,20 +202,6 @@
             {
               "title": "Rally for Democracy",
               "href": "https://events.pol-rev.com/events/8618600e-f9a8-465a-8153-323cad3af666"
-            }
-          ]
-        },
-        {
-          "title": "Rally for Democracy",
-          "begin": "2025-12-20",
-          "end": "2025-12-20",
-          "lat": null,
-          "lng": null,
-          "location": "Middle Green, Ipswich",
-          "links": [
-            {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/88a69d5c-df03-4202-9161-1edefc08ade3"
             }
           ]
         }
