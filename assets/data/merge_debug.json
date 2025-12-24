@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-22",
+  "cutoffStr": "2025-12-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 4098,
-    "geoKept": 4080,
+    "all": 4149,
+    "geoKept": 4131,
     "virtKept": 8
   },
   "perSource": {
     "mobilize": {
-      "total": 4060,
-      "recent": 4057,
-      "withCoords": 3463,
-      "keptGeo": 3460,
-      "keptVirt": 597,
+      "total": 4110,
+      "recent": 4107,
+      "withCoords": 3509,
+      "keptGeo": 3506,
+      "keptVirt": 601,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 32,
-      "recent": 31,
-      "withCoords": 30,
-      "keptGeo": 29,
+      "total": 33,
+      "recent": 32,
+      "withCoords": 31,
+      "keptGeo": 30,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "West Seattle Resist: Sunday Solidary Action",
-          "begin": "2025-12-21",
-          "end": "2025-12-21",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
+          "title": "Sign Making for \"We're Still Standing\" March in January",
+          "begin": "2025-12-22",
+          "end": "2025-12-22",
+          "lat": 47.5856517,
+          "lng": -122.3868919,
+          "location": "4312 Southwest Hill Street, Seattle, WA 98116, United States of America, Seattle",
           "links": [
             {
-              "title": "West Seattle Resist: Sunday Solidary Action",
-              "href": "https://events.pol-rev.com/events/39676164-7b8c-42fc-9cdf-515491ed5bd6"
+              "title": "Sign Making for \"We're Still Standing\" March in January",
+              "href": "https://events.pol-rev.com/events/e89638a2-a6af-4c4c-bace-880a48a8051e"
             }
           ]
         }
