@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2025-12-23",
+  "cutoffStr": "2025-12-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 4149,
-    "geoKept": 4131,
-    "virtKept": 8
+    "all": 4180,
+    "geoKept": 4159,
+    "virtKept": 9
   },
   "perSource": {
     "mobilize": {
-      "total": 4110,
-      "recent": 4107,
-      "withCoords": 3509,
-      "keptGeo": 3506,
+      "total": 4142,
+      "recent": 4139,
+      "withCoords": 3541,
+      "keptGeo": 3538,
       "keptVirt": 601,
       "sampleDroppedByDate": [
         {
@@ -127,23 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 33,
-      "recent": 32,
-      "withCoords": 31,
-      "keptGeo": 30,
+      "total": 32,
+      "recent": 29,
+      "withCoords": 30,
+      "keptGeo": 27,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "Sign Making for \"We're Still Standing\" March in January",
-          "begin": "2025-12-22",
-          "end": "2025-12-22",
-          "lat": 47.5856517,
-          "lng": -122.3868919,
-          "location": "4312 Southwest Hill Street, Seattle, WA 98116, United States of America, Seattle",
+          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
+          "begin": "2025-12-23",
+          "end": "2025-12-23",
+          "lat": 33.4508244,
+          "lng": -112.0830871,
+          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
           "links": [
             {
-              "title": "Sign Making for \"We're Still Standing\" March in January",
-              "href": "https://events.pol-rev.com/events/e89638a2-a6af-4c4c-bace-880a48a8051e"
+              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
+              "href": "https://events.pol-rev.com/events/4ccc176a-f5c2-43d7-98de-921bbb182cdd"
+            }
+          ]
+        },
+        {
+          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
+          "begin": "2025-12-23",
+          "end": "2025-12-23",
+          "lat": 33.2196363,
+          "lng": -111.5631059,
+          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
+          "links": [
+            {
+              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
+              "href": "https://events.pol-rev.com/events/84768f52-5842-40de-9821-c10e2ef7ce8b"
+            }
+          ]
+        },
+        {
+          "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+          "begin": "2025-12-23",
+          "end": "2025-12-23",
+          "lat": 33.3841527,
+          "lng": -111.9011703,
+          "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+          "links": [
+            {
+              "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+              "href": "https://events.pol-rev.com/events/e7ddc9b9-1682-4977-80a4-191d7d46083b"
             }
           ]
         }
