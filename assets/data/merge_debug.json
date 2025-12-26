@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-24",
+  "cutoffStr": "2025-12-25",
   "lookbackDays": 1,
   "totals": {
-    "all": 4180,
-    "geoKept": 4159,
+    "all": 4176,
+    "geoKept": 4155,
     "virtKept": 9
   },
   "perSource": {
     "mobilize": {
-      "total": 4142,
-      "recent": 4139,
-      "withCoords": 3541,
-      "keptGeo": 3538,
-      "keptVirt": 601,
+      "total": 4141,
+      "recent": 4138,
+      "withCoords": 3538,
+      "keptGeo": 3535,
+      "keptVirt": 603,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,51 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 32,
-      "recent": 29,
-      "withCoords": 30,
-      "keptGeo": 27,
+      "total": 29,
+      "recent": 26,
+      "withCoords": 27,
+      "keptGeo": 24,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-          "begin": "2025-12-23",
-          "end": "2025-12-23",
-          "lat": 33.4508244,
-          "lng": -112.0830871,
-          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+          "title": "ICE Press Conference",
+          "begin": "2025-12-24",
+          "end": "2025-12-24",
+          "lat": 39.0846722,
+          "lng": -94.5812608,
+          "location": "Executive office for immigration review, Kansas City",
           "links": [
             {
-              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-              "href": "https://events.pol-rev.com/events/4ccc176a-f5c2-43d7-98de-921bbb182cdd"
+              "title": "ICE Press Conference",
+              "href": "https://events.pol-rev.com/events/24f63b25-9bf6-4e4e-8f23-0cd675b8aa92"
             }
           ]
         },
         {
-          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-          "begin": "2025-12-23",
-          "end": "2025-12-23",
-          "lat": 33.2196363,
-          "lng": -111.5631059,
-          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-12-24",
+          "end": "2025-12-24",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-              "href": "https://events.pol-rev.com/events/84768f52-5842-40de-9821-c10e2ef7ce8b"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/267e4a33-b868-42b8-b2dc-e2acaee12352"
             }
           ]
         },
         {
-          "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-          "begin": "2025-12-23",
-          "end": "2025-12-23",
-          "lat": 33.3841527,
-          "lng": -111.9011703,
-          "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+          "title": "RhRR @ Moon Valley in North Central Phoenix",
+          "begin": "2025-12-24",
+          "end": "2025-12-24",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
-              "href": "https://events.pol-rev.com/events/e7ddc9b9-1682-4977-80a4-191d7d46083b"
+              "title": "RhRR @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/d165d0e9-d849-4150-aa30-8fffb38fbef0"
             }
           ]
         }
