@@ -365,7 +365,7 @@
       "mobilize_id": 387671,
       "canonical_mobilize_url": "https://www.mobilize.us/event/387671/",
       "title": "Sign Up to Volunteer!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-30",
       "lat": 0,
       "lng": 0,
@@ -419,7 +419,7 @@
       "mobilize_id": 390052,
       "canonical_mobilize_url": "https://www.mobilize.us/event/390052/",
       "title": "Virtual Phonebank Training On Demand",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -959,7 +959,7 @@
       "mobilize_id": 463816,
       "canonical_mobilize_url": "https://www.mobilize.us/event/463816/",
       "title": "Canvass (Door Knocking) Training On Demand",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -1274,6 +1274,24 @@
         {
           "title": "LGBTQIA Council of the Kentucky Democratic Party Monthly Meeting",
           "href": "https://www.mobilize.us/kydems/event/544715/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 545112,
+      "mobilize_id": 545112,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/545112/",
+      "title": "LeMario Brown for State Senate Phone Bank - Crawford County",
+      "begin": "2025-12-29",
+      "end": "2026-01-02",
+      "lat": 32.7145384,
+      "lng": -84.0211213,
+      "location": "640 GA-128, Roberta, GA",
+      "links": [
+        {
+          "title": "LeMario Brown for State Senate Phone Bank - Crawford County",
+          "href": "https://www.mobilize.us/georgiademocrats/event/545112/"
         }
       ],
       "_src": "mobilize"
@@ -2651,7 +2669,7 @@
       "mobilize_id": 590695,
       "canonical_mobilize_url": "https://www.mobilize.us/event/590695/",
       "title": "Kitchen Prep",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-02-27",
       "lat": 38.2542376,
       "lng": -85.759407,
@@ -2831,7 +2849,7 @@
       "mobilize_id": 597102,
       "canonical_mobilize_url": "https://www.mobilize.us/event/597102/",
       "title": "Auburn Fridays for the Future",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-18",
       "lat": 38.897553,
       "lng": -121.0743689,
@@ -3011,7 +3029,7 @@
       "mobilize_id": 602257,
       "canonical_mobilize_url": "https://www.mobilize.us/event/602257/",
       "title": "POSTCARD TRAINING W/MIRIAM! Learn how to get started postcarding with Field Team 6!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-09",
       "end": "2026-01-31",
       "lat": 0,
       "lng": 0,
@@ -3029,7 +3047,7 @@
       "mobilize_id": 602625,
       "canonical_mobilize_url": "https://www.mobilize.us/event/602625/",
       "title": "Join \"COFFEE & CONVERSATION\": Discussion from Attendees - Weekday M-F @9 AM CT Zoom! 5yrs running.",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-01-01",
       "lat": 42.0660499,
       "lng": -88.0167406,
@@ -3479,7 +3497,7 @@
       "mobilize_id": 621533,
       "canonical_mobilize_url": "https://www.mobilize.us/event/621533/",
       "title": "Join \"COFFEE & CONVERSATION\": Discussion from Attendees - Weekday M-F @9 AM CT Zoom! 5yrs running.",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-01-09",
       "lat": 42.0660499,
       "lng": -88.0167406,
@@ -3803,7 +3821,7 @@
       "mobilize_id": 681204,
       "canonical_mobilize_url": "https://www.mobilize.us/event/681204/",
       "title": "ZOOM Link attached 4 \"5CT Happy/Unhappy/Happy Hour\" SHARE Holiday Stories & Wear Something FESTIVE!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 42.0660499,
       "lng": -88.0167406,
@@ -3812,6 +3830,24 @@
         {
           "title": "ZOOM Link attached 4 \"5CT Happy/Unhappy/Happy Hour\" SHARE Holiday Stories & Wear Something FESTIVE!",
           "href": "https://www.mobilize.us/indivisible/event/681204/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 686041,
+      "mobilize_id": 686041,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/686041/",
+      "title": "LeMario Brown for State Senate Phone Bank - Houston County",
+      "begin": "2025-12-30",
+      "end": "2026-01-17",
+      "lat": 32.6245327,
+      "lng": -83.6853676,
+      "location": "Centerville, GA",
+      "links": [
+        {
+          "title": "LeMario Brown for State Senate Phone Bank - Houston County",
+          "href": "https://www.mobilize.us/georgiademocrats/event/686041/"
         }
       ],
       "_src": "mobilize"
@@ -4001,7 +4037,7 @@
       "mobilize_id": 742785,
       "canonical_mobilize_url": "https://www.mobilize.us/event/742785/",
       "title": "ZOOM Link attached 4 \"5CT Happy/Unhappy/Happy Hour\" SHARE Holiday Stories & Wear Something FESTIVE!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 42.0660499,
       "lng": -88.0167406,
@@ -4163,7 +4199,7 @@
       "mobilize_id": 743257,
       "canonical_mobilize_url": "https://www.mobilize.us/event/743257/",
       "title": "DONATE LOCAL To Help The Resistance 2.0 Contain The Damage",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-08-01",
       "lat": 33.2028363,
       "lng": -111.642224,
@@ -4343,7 +4379,7 @@
       "mobilize_id": 744890,
       "canonical_mobilize_url": "https://www.mobilize.us/event/744890/",
       "title": "Every Call Counts",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-01-31",
       "lat": 0,
       "lng": 0,
@@ -4946,24 +4982,6 @@
         {
           "title": "Volunteer Interest Meetings",
           "href": "https://www.mobilize.us/tappactioncouncils/event/748396/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 748509,
-      "mobilize_id": 748509,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/748509/",
-      "title": "AADC Coffee and Conversation",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 38.9083855,
-      "lng": -121.0777888,
-      "location": "161 Palm Ave, Auburn, CA",
-      "links": [
-        {
-          "title": "AADC Coffee and Conversation",
-          "href": "https://www.mobilize.us/cadems/event/748509/"
         }
       ],
       "_src": "mobilize"
@@ -7223,7 +7241,7 @@
       "mobilize_id": 756136,
       "canonical_mobilize_url": "https://www.mobilize.us/event/756136/",
       "title": "Clement Street Happy Hour Cleanup",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-18",
       "lat": 37.7830943,
       "lng": -122.4662435,
@@ -8141,7 +8159,7 @@
       "mobilize_id": 760255,
       "canonical_mobilize_url": "https://www.mobilize.us/event/760255/",
       "title": "Letter to the Editor Campaign to Stop the Cuts!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -8339,7 +8357,7 @@
       "mobilize_id": 762419,
       "canonical_mobilize_url": "https://www.mobilize.us/event/762419/",
       "title": "Sonoma Plaza Vigil to Resist Trump Administration! Ongoing-",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 38.2900642,
       "lng": -122.4385121,
@@ -8357,7 +8375,7 @@
       "mobilize_id": 762716,
       "canonical_mobilize_url": "https://www.mobilize.us/event/762716/",
       "title": "Save Our Democracy",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-16",
       "lat": 34.1071478,
       "lng": -117.720234,
@@ -8429,7 +8447,7 @@
       "mobilize_id": 763096,
       "canonical_mobilize_url": "https://www.mobilize.us/event/763096/",
       "title": "Yuma County Democrats Building Fund",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -8713,24 +8731,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 765661,
-      "mobilize_id": 765661,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/765661/",
-      "title": "Access the Vote Florida",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 0,
-      "lng": 0,
-      "location": "",
-      "links": [
-        {
-          "title": "Access the Vote Florida",
-          "href": "https://www.mobilize.us/rev-up-aapd/event/765661/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 765804,
       "mobilize_id": 765804,
       "canonical_mobilize_url": "https://www.mobilize.us/event/765804/",
@@ -8861,7 +8861,7 @@
       "mobilize_id": 766505,
       "canonical_mobilize_url": "https://www.mobilize.us/event/766505/",
       "title": "Protest at Gabe Evans' Northglenn Office",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-16",
       "lat": 39.8918331,
       "lng": -104.9942617,
@@ -8924,24 +8924,6 @@
         {
           "title": "Columbia-Montour Coffee Hour: But first, coffee ...",
           "href": "https://www.mobilize.us/atnepa/event/767428/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 767445,
-      "mobilize_id": 767445,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/767445/",
-      "title": "Good Trouble Democracy Brigade",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 42.4672393,
-      "lng": -72.5947024,
-      "location": "Rte.116 & Sugarloaf Street, South Deerfield, MA",
-      "links": [
-        {
-          "title": "Good Trouble Democracy Brigade",
-          "href": "https://www.mobilize.us/indivisible/event/767445/"
         }
       ],
       "_src": "mobilize"
@@ -9131,7 +9113,7 @@
       "mobilize_id": 771739,
       "canonical_mobilize_url": "https://www.mobilize.us/event/771739/",
       "title": "Contact your Federal Representative!!!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 33.9873389,
       "lng": -81.0368211,
@@ -9437,7 +9419,7 @@
       "mobilize_id": 774947,
       "canonical_mobilize_url": "https://www.mobilize.us/event/774947/",
       "title": "Weekly Napa Rally to Resist the Trump/Musk/GOP Regime!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 38.2985271,
       "lng": -122.2823408,
@@ -9464,24 +9446,6 @@
         {
           "title": "Dayton-Area Labor Monthly Happy Hour",
           "href": "https://www.mobilize.us/ohioaflcio/event/775078/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 775328,
-      "mobilize_id": 775328,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/775328/",
-      "title": "Stand for Democracy Cambria",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 35.562525,
-      "lng": -121.094756,
-      "location": "1050 Main St, Cambria, CA",
-      "links": [
-        {
-          "title": "Stand for Democracy Cambria",
-          "href": "https://www.mobilize.us/indivisible/event/775328/"
         }
       ],
       "_src": "mobilize"
@@ -9563,7 +9527,7 @@
       "mobilize_id": 776124,
       "canonical_mobilize_url": "https://www.mobilize.us/event/776124/",
       "title": "Overpass RESISTANCE - Make good trouble with us Fridays",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-02-27",
       "lat": 38.5810606,
       "lng": -121.493895,
@@ -10139,7 +10103,7 @@
       "mobilize_id": 781857,
       "canonical_mobilize_url": "https://www.mobilize.us/event/781857/",
       "title": "Enough is Enough!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-02-20",
       "lat": 39.0041504,
       "lng": -77.0391754,
@@ -10481,7 +10445,7 @@
       "mobilize_id": 784176,
       "canonical_mobilize_url": "https://www.mobilize.us/event/784176/",
       "title": "Port Orford Friday Rally",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 42.751643,
       "lng": -124.4970003,
@@ -10729,29 +10693,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 785722,
-      "mobilize_id": 785722,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/785722/",
-      "title": "FOURTH-FRIDAY FIGHT BACKS",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 39.8994064,
-      "lng": -104.9401896,
-      "location": "East 112th Avenue & Colorado Boulevard, Thornton, CO",
-      "links": [
-        {
-          "title": "FOURTH-FRIDAY FIGHT BACKS",
-          "href": "https://www.mobilize.us/indivisible/event/785722/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 785779,
       "mobilize_id": 785779,
       "canonical_mobilize_url": "https://www.mobilize.us/event/785779/",
       "title": "Join the Fight for Reparations & Justice in California",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -11561,7 +11507,7 @@
       "mobilize_id": 791504,
       "canonical_mobilize_url": "https://www.mobilize.us/event/791504/",
       "title": "TAKE ACTION: Contact your Representatives about Trump's Agenda!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-10-30",
       "lat": 0,
       "lng": 0,
@@ -11611,29 +11557,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 791633,
-      "mobilize_id": 791633,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/791633/",
-      "title": "Hands off Everything!",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 29.7370091,
-      "lng": -95.6248526,
-      "location": "13302 Westheimer Rd, Houston, TX",
-      "links": [
-        {
-          "title": "Hands off Everything!",
-          "href": "https://www.mobilize.us/indivisiblekatyhuddle/event/791633/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 791901,
       "mobilize_id": 791901,
       "canonical_mobilize_url": "https://www.mobilize.us/event/791901/",
       "title": "Highway Signs: I-71",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 40.0752002,
       "lng": -82.9902201,
@@ -11706,7 +11634,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/792605/",
       "title": "Tuesdays with Tillis",
       "begin": "2025-12-30",
-      "end": "2025-12-30",
+      "end": "2026-06-30",
       "lat": 36.088471,
       "lng": -79.833789,
       "location": "3200 Northline Ave, Greensboro, NC",
@@ -11921,7 +11849,7 @@
       "mobilize_id": 794558,
       "canonical_mobilize_url": "https://www.mobilize.us/event/794558/",
       "title": "Peace Corner Castro Valley Friday Demonstrations",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-06-26",
       "lat": 37.6955762,
       "lng": -122.0738315,
@@ -12029,7 +11957,7 @@
       "mobilize_id": 795173,
       "canonical_mobilize_url": "https://www.mobilize.us/event/795173/",
       "title": "Friday Blue Forum Conversation",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2027-02-05",
       "lat": 29.5484162,
       "lng": -81.2281406,
@@ -12137,7 +12065,7 @@
       "mobilize_id": 795684,
       "canonical_mobilize_url": "https://www.mobilize.us/event/795684/",
       "title": "Rensselaer Honk, Wave & Protest",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-16",
       "lat": 42.6590168,
       "lng": -73.7163287,
@@ -12583,24 +12511,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 798100,
-      "mobilize_id": 798100,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/798100/",
-      "title": "FRIDAY Escondido Democracy Defenders!",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 33.1457629,
-      "lng": -117.0902028,
-      "location": "Broadway and Interstate 78, Escondido, CA",
-      "links": [
-        {
-          "title": "FRIDAY Escondido Democracy Defenders!",
-          "href": "https://www.mobilize.us/indivisiblenorthcountysandiego/event/798100/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 798711,
       "mobilize_id": 798711,
       "canonical_mobilize_url": "https://www.mobilize.us/event/798711/",
@@ -12695,7 +12605,7 @@
       "mobilize_id": 799571,
       "canonical_mobilize_url": "https://www.mobilize.us/event/799571/",
       "title": "Rush Hour Resistance Fremont",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-03-06",
       "lat": 37.5486383,
       "lng": -121.9882396,
@@ -12722,6 +12632,24 @@
         {
           "title": "Indivisible Regent Square - Monthly Meeting",
           "href": "https://www.mobilize.us/indivisible/event/799751/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 799992,
+      "mobilize_id": 799992,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/799992/",
+      "title": "Sorting Soup: Turning Ideas Into Action - Join every Thursday, Zoom @5pm central",
+      "begin": "2025-12-28",
+      "end": "2026-03-05",
+      "lat": 42.0660499,
+      "lng": -88.0167406,
+      "location": "Rolling Meadows, IL",
+      "links": [
+        {
+          "title": "Sorting Soup: Turning Ideas Into Action - Join every Thursday, Zoom @5pm central",
+          "href": "https://www.mobilize.us/indivisible/event/799992/"
         }
       ],
       "_src": "mobilize"
@@ -12889,24 +12817,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 800899,
-      "mobilize_id": 800899,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/800899/",
-      "title": "NO NUKES VIGIL - Every Friday",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 35.6864836,
-      "lng": -105.9426146,
-      "location": "Sandoval Street & West Alameda Street, Santa Fe, NM",
-      "links": [
-        {
-          "title": "NO NUKES VIGIL - Every Friday",
-          "href": "https://www.mobilize.us/landofdissent/event/800899/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 800921,
       "mobilize_id": 800921,
       "canonical_mobilize_url": "https://www.mobilize.us/event/800921/",
@@ -13037,7 +12947,7 @@
       "mobilize_id": 801806,
       "canonical_mobilize_url": "https://www.mobilize.us/event/801806/",
       "title": "Vigil at Main gate of Camp Pendleton",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 33.2145161,
       "lng": -117.3874272,
@@ -13055,7 +12965,7 @@
       "mobilize_id": 801838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/801838/",
       "title": "Volunteer with the DuPage Dems",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2028-12-31",
       "lat": 41.8396885,
       "lng": -88.1144943,
@@ -13128,7 +13038,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/803896/",
       "title": "Write Postcards to Voters in SE Vancouver",
       "begin": "2025-12-27",
-      "end": "2025-12-27",
+      "end": "2026-01-31",
       "lat": 45.6057891,
       "lng": -122.505249,
       "location": "2100B SE 164th Ave 101, Vancouver, WA",
@@ -13244,6 +13154,24 @@
         {
           "title": "Stevenson Lane Sign Wave",
           "href": "https://www.mobilize.us/baltimoresignwaves/event/804632/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 804909,
+      "mobilize_id": 804909,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/804909/",
+      "title": "CCDC Hype Crew",
+      "begin": "2026-01-22",
+      "end": "2026-08-27",
+      "lat": 41.0032147,
+      "lng": -76.4561297,
+      "location": "10 E Main St, Bloomsburg, PA",
+      "links": [
+        {
+          "title": "CCDC Hype Crew",
+          "href": "https://www.mobilize.us/columbiacountydemocraticparty/event/804909/"
         }
       ],
       "_src": "mobilize"
@@ -13397,7 +13325,7 @@
       "mobilize_id": 805694,
       "canonical_mobilize_url": "https://www.mobilize.us/event/805694/",
       "title": "Ask CEOs to publicly stand up for democracy",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2028-06-19",
       "lat": 0,
       "lng": 0,
@@ -13451,7 +13379,7 @@
       "mobilize_id": 806018,
       "canonical_mobilize_url": "https://www.mobilize.us/event/806018/",
       "title": "Visibility CLT Pop-up Protest - I-485 S Overpass",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 35.2272086,
       "lng": -80.8430827,
@@ -13649,7 +13577,7 @@
       "mobilize_id": 807326,
       "canonical_mobilize_url": "https://www.mobilize.us/event/807326/",
       "title": "Rally for Democracy",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 39.0155796,
       "lng": -77.042764,
@@ -13739,7 +13667,7 @@
       "mobilize_id": 807915,
       "canonical_mobilize_url": "https://www.mobilize.us/event/807915/",
       "title": "The Right to Be Safe, A Call to Faith Leaders: Access the Toolkit. Sign the Petition.",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -13901,7 +13829,7 @@
       "mobilize_id": 808495,
       "canonical_mobilize_url": "https://www.mobilize.us/event/808495/",
       "title": "East Side Banners Over Austin",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 30.2718727,
       "lng": -97.732813,
@@ -13982,6 +13910,60 @@
         {
           "title": "Chalk Pro-Democracy Messages on the Streets",
           "href": "https://www.mobilize.us/itsblueturn/event/808743/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 808744,
+      "mobilize_id": 808744,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/808744/",
+      "title": "Activate and Caffeinate: Local Love Biz and Food Drive",
+      "begin": "2026-01-09",
+      "end": "2026-01-09",
+      "lat": 33.4255117,
+      "lng": -111.940016,
+      "location": "Tempe, AZ",
+      "links": [
+        {
+          "title": "Activate and Caffeinate: Local Love Biz and Food Drive",
+          "href": "https://www.mobilize.us/temperisingindivisible/event/808744/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 808869,
+      "mobilize_id": 808869,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/808869/",
+      "title": "Activate and Caffeinate: Local Love Biz and Food Drive",
+      "begin": "2026-01-02",
+      "end": "2026-01-02",
+      "lat": 33.4255117,
+      "lng": -111.940016,
+      "location": "Tempe, AZ",
+      "links": [
+        {
+          "title": "Activate and Caffeinate: Local Love Biz and Food Drive",
+          "href": "https://www.mobilize.us/temperisingindivisible/event/808869/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 808979,
+      "mobilize_id": 808979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/808979/",
+      "title": "Rush Hour \"We the People\" Artbeat Festival Food Drive",
+      "begin": "2025-12-30",
+      "end": "2025-12-30",
+      "lat": 33.3848687,
+      "lng": -111.9012047,
+      "location": "2000 E Carson Dr, Tempe, AZ",
+      "links": [
+        {
+          "title": "Rush Hour \"We the People\" Artbeat Festival Food Drive",
+          "href": "https://www.mobilize.us/temperisingindivisible/event/808979/"
         }
       ],
       "_src": "mobilize"
@@ -14216,24 +14198,6 @@
         {
           "title": "Stand Up For Our Rights: Democracy for ALL - Lake Forest",
           "href": "https://www.mobilize.us/indivisibleca40/event/810330/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 810364,
-      "mobilize_id": 810364,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/810364/",
-      "title": "No Hate, No Fear! Immigrants Are Welcome Here - Orange/Villa Park",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 33.8104646,
-      "lng": -117.8219873,
-      "location": "East Katella Avenue & North Wanda Road, Orange, CA",
-      "links": [
-        {
-          "title": "No Hate, No Fear! Immigrants Are Welcome Here - Orange/Villa Park",
-          "href": "https://www.mobilize.us/indivisibleca40/event/810364/"
         }
       ],
       "_src": "mobilize"
@@ -14549,8 +14513,8 @@
       "mobilize_id": 811861,
       "canonical_mobilize_url": "https://www.mobilize.us/event/811861/",
       "title": "Southeast CT Visibility Brigade",
-      "begin": "2025-12-27",
-      "end": "2025-12-27",
+      "begin": "2026-01-03",
+      "end": "2026-01-03",
       "lat": 41.3707345,
       "lng": -72.1638997,
       "location": "Cross Rd, Waterford, CT",
@@ -14873,7 +14837,7 @@
       "mobilize_id": 813775,
       "canonical_mobilize_url": "https://www.mobilize.us/event/813775/",
       "title": "📣 Revolutionize Our Politics with Digital Democracy Project 📣",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -15179,8 +15143,8 @@
       "mobilize_id": 815618,
       "canonical_mobilize_url": "https://www.mobilize.us/event/815618/",
       "title": "Keep the Pressure on Huizenga!!",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
+      "begin": "2026-01-02",
+      "end": "2026-01-02",
       "lat": 41.1496775,
       "lng": -81.2082,
       "location": "Portage, MI",
@@ -15251,7 +15215,7 @@
       "mobilize_id": 816167,
       "canonical_mobilize_url": "https://www.mobilize.us/event/816167/",
       "title": "John Lewis \"Good Trouble\" Teach-In: The Racial Injustice of Gun Violence",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -15917,7 +15881,7 @@
       "mobilize_id": 819262,
       "canonical_mobilize_url": "https://www.mobilize.us/event/819262/",
       "title": "Freeport Rush Hour Brigade",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 43.8228268,
       "lng": -70.11204,
@@ -16565,7 +16529,7 @@
       "mobilize_id": 823545,
       "canonical_mobilize_url": "https://www.mobilize.us/event/823545/",
       "title": "Postcard Writing with Women's Think Tank of Tacoma",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-10-30",
       "lat": 47.2903074,
       "lng": -122.5167252,
@@ -16921,29 +16885,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 825145,
-      "mobilize_id": 825145,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/825145/",
-      "title": "Sidewalk Protest & Visit - Mitch McConnell's Louisville Office",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 38.2434348,
-      "lng": -85.7618555,
-      "location": "831 S 6th St (at 10:30) or 601 W. Broadway (at 11), Louisville, KY",
-      "links": [
-        {
-          "title": "Sidewalk Protest & Visit - Mitch McConnell's Louisville Office",
-          "href": "https://www.mobilize.us/louisvilledemocrats/event/825145/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 825582,
       "mobilize_id": 825582,
       "canonical_mobilize_url": "https://www.mobilize.us/event/825582/",
       "title": "Demand Your Representative Support the We the People Amendment (H.J.Res.54)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2027-01-01",
       "lat": 0,
       "lng": 0,
@@ -16961,7 +16907,7 @@
       "mobilize_id": 825590,
       "canonical_mobilize_url": "https://www.mobilize.us/event/825590/",
       "title": "Demand Your Representative Supports the Abolish Super PACs Act (H.R.2352)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2027-01-01",
       "lat": 0,
       "lng": 0,
@@ -16979,7 +16925,7 @@
       "mobilize_id": 825889,
       "canonical_mobilize_url": "https://www.mobilize.us/event/825889/",
       "title": "The Black Possibilities App",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -17209,6 +17155,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 827367,
+      "mobilize_id": 827367,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/827367/",
+      "title": "Walker Street Big Beautiful Bridge Protest",
+      "begin": "2025-12-31",
+      "end": "2026-06-24",
+      "lat": 36.0692995,
+      "lng": -79.8427248,
+      "location": "3800 Walker Ave, Greensboro, NC",
+      "links": [
+        {
+          "title": "Walker Street Big Beautiful Bridge Protest",
+          "href": "https://www.mobilize.us/indivisibleguilford/event/827367/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 827547,
       "mobilize_id": 827547,
       "canonical_mobilize_url": "https://www.mobilize.us/event/827547/",
@@ -17231,7 +17195,7 @@
       "mobilize_id": 827631,
       "canonical_mobilize_url": "https://www.mobilize.us/event/827631/",
       "title": "Rally to Protect Democracy--Congressman Joyce, How Bad Are You Going to Let This Get?",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 41.665107,
       "lng": -81.356569,
@@ -17285,7 +17249,7 @@
       "mobilize_id": 827911,
       "canonical_mobilize_url": "https://www.mobilize.us/event/827911/",
       "title": "*🎶 Seniors for Peace: Sunday Organizing & Music Hour",
-      "begin": "2025-12-26",
+      "begin": "2025-12-28",
       "end": "2026-10-02",
       "lat": 37.9033347,
       "lng": -122.5129313,
@@ -17339,7 +17303,7 @@
       "mobilize_id": 828747,
       "canonical_mobilize_url": "https://www.mobilize.us/event/828747/",
       "title": "Women in Black",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-08-14",
       "lat": 43.6604879,
       "lng": -70.2544282,
@@ -17970,7 +17934,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/832550/",
       "title": "Rage Against The Regime - Wendover Edition",
       "begin": "2025-12-27",
-      "end": "2026-05-30",
+      "end": "2026-06-27",
       "lat": 36.0584121,
       "lng": -79.8859011,
       "location": "4203 W Wendover Ave, Greensboro, NC",
@@ -18613,6 +18577,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 835330,
+      "mobilize_id": 835330,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/835330/",
+      "title": "Colma indivisible: raise your voices and signs for democracy!",
+      "begin": "2025-12-28",
+      "end": "2026-02-22",
+      "lat": 37.670658,
+      "lng": -122.4630836,
+      "location": "1500 Collins Ave, Colma, CA",
+      "links": [
+        {
+          "title": "Colma indivisible: raise your voices and signs for democracy!",
+          "href": "https://www.mobilize.us/indivisible/event/835330/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 835378,
       "mobilize_id": 835378,
       "canonical_mobilize_url": "https://www.mobilize.us/event/835378/",
@@ -18743,7 +18725,7 @@
       "mobilize_id": 836342,
       "canonical_mobilize_url": "https://www.mobilize.us/event/836342/",
       "title": "Senior Center Pop-Up Good Trouble Assembly",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 44.7649956,
       "lng": -85.6047869,
@@ -18815,7 +18797,7 @@
       "mobilize_id": 836494,
       "canonical_mobilize_url": "https://www.mobilize.us/event/836494/",
       "title": "Sellwood Bridge Protest",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-11-06",
       "lat": 45.464324,
       "lng": -122.6450715,
@@ -19913,7 +19895,7 @@
       "mobilize_id": 841321,
       "canonical_mobilize_url": "https://www.mobilize.us/event/841321/",
       "title": "Freedom Fridays:  Durham",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-06-26",
       "lat": 35.9480275,
       "lng": -78.9239145,
@@ -19931,7 +19913,7 @@
       "mobilize_id": 841368,
       "canonical_mobilize_url": "https://www.mobilize.us/event/841368/",
       "title": "Freedom Fridays: Cary",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-06-26",
       "lat": 35.7833583,
       "lng": -78.780858,
@@ -19949,7 +19931,7 @@
       "mobilize_id": 841392,
       "canonical_mobilize_url": "https://www.mobilize.us/event/841392/",
       "title": "Freedom Fridays: Raleigh Brier Creek",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-06-26",
       "lat": 35.9127482,
       "lng": -78.7806687,
@@ -20021,8 +20003,8 @@
       "mobilize_id": 841876,
       "canonical_mobilize_url": "https://www.mobilize.us/event/841876/",
       "title": "MAKE GOOD TROUBLE WITH NSP's GREEN LAKE TEAM!",
-      "begin": "2025-12-28",
-      "end": "2025-12-28",
+      "begin": "2026-01-04",
+      "end": "2026-01-25",
       "lat": 47.6903609,
       "lng": -122.3176286,
       "location": "8500 Roosevelt Way NE, Seattle, WA",
@@ -20129,7 +20111,7 @@
       "mobilize_id": 842336,
       "canonical_mobilize_url": "https://www.mobilize.us/event/842336/",
       "title": "Phone Bank to recruit Precinct Committeepersons in LD23!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 32.2708701,
       "lng": -111.0698858,
@@ -20184,7 +20166,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/842512/",
       "title": "Rage Against The Regime Battleground Edition!",
       "begin": "2026-01-03",
-      "end": "2026-02-28",
+      "end": "2026-06-20",
       "lat": 36.1150873,
       "lng": -79.8374751,
       "location": "3001 Battleground Ave, Greensboro, NC",
@@ -20291,7 +20273,7 @@
       "mobilize_id": 842805,
       "canonical_mobilize_url": "https://www.mobilize.us/event/842805/",
       "title": "Oppose Oligarchy Demonstration: Durham",
-      "begin": "2025-12-26",
+      "begin": "2025-12-31",
       "end": "2026-05-28",
       "lat": 36.0059801,
       "lng": -78.9198287,
@@ -20580,7 +20562,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/843814/",
       "title": "\"We the People\" Artbeat Rally on the Tempe Pedestrian Bridge! Food Drive",
       "begin": "2025-12-27",
-      "end": "2025-12-27",
+      "end": "2026-01-10",
       "lat": 33.3848687,
       "lng": -111.9012047,
       "location": "2000 E Carson Dr, Tempe, AZ",
@@ -20588,24 +20570,6 @@
         {
           "title": "\"We the People\" Artbeat Rally on the Tempe Pedestrian Bridge! Food Drive",
           "href": "https://www.mobilize.us/temperisingindivisible/event/843814/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 844019,
-      "mobilize_id": 844019,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/844019/",
-      "title": "Gill/Montague Bridge/Route 2 Standout",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 42.6129806,
-      "lng": -72.5489049,
-      "location": "Massachusetts 2 & Main Road, Gill, MA",
-      "links": [
-        {
-          "title": "Gill/Montague Bridge/Route 2 Standout",
-          "href": "https://www.mobilize.us/indivisible/event/844019/"
         }
       ],
       "_src": "mobilize"
@@ -20705,7 +20669,7 @@
       "mobilize_id": 844232,
       "canonical_mobilize_url": "https://www.mobilize.us/event/844232/",
       "title": "Call Charlotte County Democrats from home",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -21025,24 +20989,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 845866,
-      "mobilize_id": 845866,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/845866/",
-      "title": "Activate and Caffeinate at a Local Love Biz and Food Drive",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 33.4255117,
-      "lng": -111.940016,
-      "location": "Tempe, AZ",
-      "links": [
-        {
-          "title": "Activate and Caffeinate at a Local Love Biz and Food Drive",
-          "href": "https://www.mobilize.us/temperisingindivisible/event/845866/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 845880,
       "mobilize_id": 845880,
       "canonical_mobilize_url": "https://www.mobilize.us/event/845880/",
@@ -21223,24 +21169,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 846408,
-      "mobilize_id": 846408,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/846408/",
-      "title": "IRCC Visibility Brigade FRIDAY Overpass Action - MARTINEZ",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 37.9917547,
-      "lng": -122.0865002,
-      "location": "Arnold Drive & Glacier Drive, Martinez, CA",
-      "links": [
-        {
-          "title": "IRCC Visibility Brigade FRIDAY Overpass Action - MARTINEZ",
-          "href": "https://www.mobilize.us/indivisibleresisterscontracosta/event/846408/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 846450,
       "mobilize_id": 846450,
       "canonical_mobilize_url": "https://www.mobilize.us/event/846450/",
@@ -21299,7 +21227,7 @@
       "mobilize_id": 846502,
       "canonical_mobilize_url": "https://www.mobilize.us/event/846502/",
       "title": "Phone bank to recruit Precinct Committeepersons in LD 19!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -21318,7 +21246,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/846533/",
       "title": "Stand Up on Salisbury",
       "begin": "2025-12-30",
-      "end": "2025-12-30",
+      "end": "2026-06-30",
       "lat": 35.7076365,
       "lng": -79.8112934,
       "location": "202 N Cox St, Asheboro, NC",
@@ -21407,7 +21335,7 @@
       "mobilize_id": 847065,
       "canonical_mobilize_url": "https://www.mobilize.us/event/847065/",
       "title": "Sign Up for the Email Newsletter",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -21426,7 +21354,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/847152/",
       "title": "Honk and Wave",
       "begin": "2025-12-31",
-      "end": "2026-01-07",
+      "end": "2026-06-24",
       "lat": 36.0904348,
       "lng": -79.8897189,
       "location": "801 New Garden Rd, Greensboro, NC",
@@ -21821,7 +21749,7 @@
       "mobilize_id": 848728,
       "canonical_mobilize_url": "https://www.mobilize.us/event/848728/",
       "title": "Wayne State",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-11",
       "lat": 42.3591388,
       "lng": -83.0665462,
@@ -21997,24 +21925,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 849456,
-      "mobilize_id": 849456,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/849456/",
-      "title": "Honk and Wave at The Wall",
-      "begin": "2025-12-27",
-      "end": "2025-12-27",
-      "lat": 40.4977479,
-      "lng": -74.4363545,
-      "location": "River Road & Raritan Avenue, Highland Park, NJ",
-      "links": [
-        {
-          "title": "Honk and Wave at The Wall",
-          "href": "https://www.mobilize.us/indivisible/event/849456/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 849543,
       "mobilize_id": 849543,
       "canonical_mobilize_url": "https://www.mobilize.us/event/849543/",
@@ -22037,7 +21947,7 @@
       "mobilize_id": 849582,
       "canonical_mobilize_url": "https://www.mobilize.us/event/849582/",
       "title": "The Road to Social Democracy today - Defining who we are",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -22145,7 +22055,7 @@
       "mobilize_id": 849983,
       "canonical_mobilize_url": "https://www.mobilize.us/event/849983/",
       "title": "Tolland Good Trouble Overpass Protest",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 41.8541883,
       "lng": -72.3393386,
@@ -22739,7 +22649,7 @@
       "mobilize_id": 852504,
       "canonical_mobilize_url": "https://www.mobilize.us/event/852504/",
       "title": "Alaska Statewide Calendar",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-01-01",
       "lat": 0,
       "lng": 0,
@@ -22937,7 +22847,7 @@
       "mobilize_id": 853172,
       "canonical_mobilize_url": "https://www.mobilize.us/event/853172/",
       "title": "Gaithersburg, MD - Bad Ass Bridge Brigade Overpass Wave",
-      "begin": "2025-12-26",
+      "begin": "2025-12-30",
       "end": "2026-01-20",
       "lat": 39.1399187,
       "lng": -77.1929215,
@@ -23405,7 +23315,7 @@
       "mobilize_id": 855402,
       "canonical_mobilize_url": "https://www.mobilize.us/event/855402/",
       "title": "Freedom Friday: Durham at American Tobacco Trail and I-40",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 35.9051632,
       "lng": -78.9432217,
@@ -23531,8 +23441,8 @@
       "mobilize_id": 855760,
       "canonical_mobilize_url": "https://www.mobilize.us/event/855760/",
       "title": "WSAC Friday Afternoon Visibility Brigade",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
+      "begin": "2026-01-02",
+      "end": "2026-02-27",
       "lat": 38.5804609,
       "lng": -121.530234,
       "location": "West Sacramento, CA",
@@ -23819,7 +23729,7 @@
       "mobilize_id": 856551,
       "canonical_mobilize_url": "https://www.mobilize.us/event/856551/",
       "title": "Weekly Mid-Town Friday Protest",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-25",
       "lat": 37.5906296,
       "lng": -77.4937676,
@@ -24017,7 +23927,7 @@
       "mobilize_id": 857025,
       "canonical_mobilize_url": "https://www.mobilize.us/event/857025/",
       "title": "Rally for Democracy",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-16",
       "lat": 44.8529475,
       "lng": -93.3146712,
@@ -24359,7 +24269,7 @@
       "mobilize_id": 857868,
       "canonical_mobilize_url": "https://www.mobilize.us/event/857868/",
       "title": "Stand Up For Our Country",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 43.7921121,
       "lng": -89.3271302,
@@ -24503,7 +24413,7 @@
       "mobilize_id": 858374,
       "canonical_mobilize_url": "https://www.mobilize.us/event/858374/",
       "title": "Ongoing weekly anti-Trump protest at College & Ashby",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 37.8570476,
       "lng": -122.2530875,
@@ -25493,7 +25403,7 @@
       "mobilize_id": 861575,
       "canonical_mobilize_url": "https://www.mobilize.us/event/861575/",
       "title": "Share Your Story Virtually!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-30",
       "lat": 33.9962144,
       "lng": -118.4688776,
@@ -25655,7 +25565,7 @@
       "mobilize_id": 862115,
       "canonical_mobilize_url": "https://www.mobilize.us/event/862115/",
       "title": "Neighbors Without Borders",
-      "begin": "2025-12-26",
+      "begin": "2026-01-30",
       "end": "2026-02-27",
       "lat": 41.1368375,
       "lng": -77.4423747,
@@ -25817,7 +25727,7 @@
       "mobilize_id": 862385,
       "canonical_mobilize_url": "https://www.mobilize.us/event/862385/",
       "title": "The Future of Firearm Safety Research Teach-In: CDC & NIH Funding Under Threat",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -26078,6 +25988,24 @@
         {
           "title": "Weekly Wednesday Protest",
           "href": "https://www.mobilize.us/indivisiblebentoncounty/event/862815/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 862867,
+      "mobilize_id": 862867,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/862867/",
+      "title": "Emmer's Office Rally Otsego - Saturday's",
+      "begin": "2026-01-03",
+      "end": "2026-01-31",
+      "lat": 45.2818475,
+      "lng": -93.5646395,
+      "location": "9025 Quaday Ave NE, Otsego, MN",
+      "links": [
+        {
+          "title": "Emmer's Office Rally Otsego - Saturday's",
+          "href": "https://www.mobilize.us/wright-county-indivisible/event/862867/"
         }
       ],
       "_src": "mobilize"
@@ -27023,7 +26951,7 @@
       "mobilize_id": 864878,
       "canonical_mobilize_url": "https://www.mobilize.us/event/864878/",
       "title": "Phone Banking for EQUALITY",
-      "begin": "2025-12-29",
+      "begin": "2026-01-05",
       "end": "2026-03-09",
       "lat": 44.7606481,
       "lng": -85.6165976,
@@ -27184,7 +27112,7 @@
       "_id": 865237,
       "mobilize_id": 865237,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865237/",
-      "title": "ICE out of Home Depot Action",
+      "title": "Home Depot Boycott and Protest – Abolish ICE",
       "begin": "2025-12-28",
       "end": "2026-01-04",
       "lat": 34.0831063,
@@ -27192,7 +27120,7 @@
       "location": "2055 N Figueroa St, Los Angeles, CA",
       "links": [
         {
-          "title": "ICE out of Home Depot Action",
+          "title": "Home Depot Boycott and Protest – Abolish ICE",
           "href": "https://www.mobilize.us/nelaalliancefordemocracy/event/865237/"
         }
       ],
@@ -27274,15 +27202,15 @@
       "_id": 865279,
       "mobilize_id": 865279,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865279/",
-      "title": "POSTPONED TO JANUARY: State of the State",
-      "begin": "2026-01-08",
-      "end": "2026-01-08",
+      "title": "POSTPONED TO JANUARY 20: State of the State",
+      "begin": "2026-01-20",
+      "end": "2026-01-20",
       "lat": 35.2952535,
       "lng": -81.5270125,
       "location": "713 E Marion St, Shelby, NC",
       "links": [
         {
-          "title": "POSTPONED TO JANUARY: State of the State",
+          "title": "POSTPONED TO JANUARY 20: State of the State",
           "href": "https://www.mobilize.us/clevelandcountydemocrats/event/865279/"
         }
       ],
@@ -27329,7 +27257,7 @@
       "mobilize_id": 865573,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865573/",
       "title": "Kroger (Whittaker)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-14",
       "lat": 42.2117684,
       "lng": -83.6209559,
@@ -27347,7 +27275,7 @@
       "mobilize_id": 865584,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865584/",
       "title": "Kroger (Carpenter)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-14",
       "lat": 42.2421642,
       "lng": -83.6808292,
@@ -27365,7 +27293,7 @@
       "mobilize_id": 865586,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865586/",
       "title": "Kroger (Plymouth)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-14",
       "lat": 42.3044215,
       "lng": -83.709216,
@@ -27383,7 +27311,7 @@
       "mobilize_id": 865589,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865589/",
       "title": "Plum Market (Plymouth Ann Arbor)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-14",
       "lat": 42.3059865,
       "lng": -83.6911496,
@@ -27401,7 +27329,7 @@
       "mobilize_id": 865591,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865591/",
       "title": "Whole Foods (Ann Arbor)",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-14",
       "lat": 42.2579883,
       "lng": -83.6981808,
@@ -27563,7 +27491,7 @@
       "mobilize_id": 865847,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865847/",
       "title": "Ark Road Resistance Group protests/rallies",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-05-08",
       "lat": 39.9709437,
       "lng": -74.8719983,
@@ -27797,7 +27725,7 @@
       "mobilize_id": 866014,
       "canonical_mobilize_url": "https://www.mobilize.us/event/866014/",
       "title": "Shady and 5th Outrage Hour",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-03-21",
       "lat": 40.4528968,
       "lng": -79.9207183,
@@ -27815,7 +27743,7 @@
       "mobilize_id": 866035,
       "canonical_mobilize_url": "https://www.mobilize.us/event/866035/",
       "title": "Donation Drive to Stock the LCCL Food Pantry!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 40.1573169,
       "lng": -76.3069014,
@@ -28013,7 +27941,7 @@
       "mobilize_id": 866123,
       "canonical_mobilize_url": "https://www.mobilize.us/event/866123/",
       "title": "Cancel Spotify",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 47.2019421,
       "lng": -122.4780243,
@@ -28427,7 +28355,7 @@
       "mobilize_id": 866775,
       "canonical_mobilize_url": "https://www.mobilize.us/event/866775/",
       "title": "Hatfield Mountain Drive Overpass--Friday Standouts",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-03-27",
       "lat": 42.3732087,
       "lng": -72.596091,
@@ -28805,7 +28733,7 @@
       "mobilize_id": 867337,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867337/",
       "title": "Write Postcards for Dr. Matt Klein for Congress!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-04-01",
       "lat": 0,
       "lng": 0,
@@ -28895,7 +28823,7 @@
       "mobilize_id": 867498,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867498/",
       "title": "MMOP Signature Gathering @ Blue Llama Jazz Club and Restaurant",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-28",
       "lat": 42.2790551,
       "lng": -83.7490053,
@@ -28913,7 +28841,7 @@
       "mobilize_id": 867503,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867503/",
       "title": "MMOP Signature Gathering @ North Star Lounge",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-27",
       "lat": 42.2832939,
       "lng": -83.7460765,
@@ -28949,7 +28877,7 @@
       "mobilize_id": 867523,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867523/",
       "title": "MMOP Signature Gathering @ Ann Arbor Comedy Showcase",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-27",
       "lat": 42.2799393,
       "lng": -83.7475978,
@@ -29273,7 +29201,7 @@
       "mobilize_id": 867783,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867783/",
       "title": "On-Demand Collier Vote-by-Mail Re-Enrollment Phonebanks",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -29291,7 +29219,7 @@
       "mobilize_id": 867787,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867787/",
       "title": "Firearm Safety & Dementia: Protecting Loved Ones Through Planning and Awareness",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-12-31",
       "lat": 0,
       "lng": 0,
@@ -29309,7 +29237,7 @@
       "mobilize_id": 867813,
       "canonical_mobilize_url": "https://www.mobilize.us/event/867813/",
       "title": "Keys (Monroe) On-Demand Vote-by-Mail Re-Enrollment Phonebanks",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -29575,24 +29503,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 868271,
-      "mobilize_id": 868271,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/868271/",
-      "title": "WE'RE ALL IN THIS TOGETHER",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 45.5871099,
-      "lng": -122.7378815,
-      "location": "6869 N Lombard St, Portland, OR",
-      "links": [
-        {
-          "title": "WE'RE ALL IN THIS TOGETHER",
-          "href": "https://www.mobilize.us/portlanddistrict2indivisible/event/868271/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 868275,
       "mobilize_id": 868275,
       "canonical_mobilize_url": "https://www.mobilize.us/event/868275/",
@@ -29776,7 +29686,7 @@
       "_id": 868528,
       "mobilize_id": 868528,
       "canonical_mobilize_url": "https://www.mobilize.us/event/868528/",
-      "title": "MUSK- RAT RESISTORS",
+      "title": "MUSK- RAT RESISTERS",
       "begin": "2025-12-27",
       "end": "2026-02-28",
       "lat": 38.9420881,
@@ -29784,7 +29694,7 @@
       "location": "103rd and State Line Rd, Kansas City, MO",
       "links": [
         {
-          "title": "MUSK- RAT RESISTORS",
+          "title": "MUSK- RAT RESISTERS",
           "href": "https://www.mobilize.us/indivisiblekansascity/event/868528/"
         }
       ],
@@ -30694,15 +30604,15 @@
       "_id": 869411,
       "mobilize_id": 869411,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869411/",
-      "title": "Volunteer with Team Gill",
-      "begin": "2025-12-26",
+      "title": "Volunteer with Team Brendan Gill for Congress",
+      "begin": "2025-12-27",
       "end": "2026-11-03",
       "lat": 0,
       "lng": 0,
       "location": "",
       "links": [
         {
-          "title": "Volunteer with Team Gill",
+          "title": "Volunteer with Team Brendan Gill for Congress",
           "href": "https://www.mobilize.us/gillfornewjersey/event/869411/"
         }
       ],
@@ -31253,7 +31163,7 @@
       "mobilize_id": 869949,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869949/",
       "title": "Feet on the Streets against all things trump - Friday morning Edition",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-16",
       "lat": 32.6307949,
       "lng": -117.0889989,
@@ -31379,7 +31289,7 @@
       "mobilize_id": 870191,
       "canonical_mobilize_url": "https://www.mobilize.us/event/870191/",
       "title": "Protect people, protect the safety net",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-03-20",
       "lat": 45.4852824,
       "lng": -122.7999968,
@@ -31681,24 +31591,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 870403,
-      "mobilize_id": 870403,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/870403/",
-      "title": "Democratic Women of Comal County (DWCC) January 2026 Meeting",
-      "begin": "2026-01-22",
-      "end": "2026-01-22",
-      "lat": 29.6797545,
-      "lng": -98.1474904,
-      "location": "2932 S I-35 South Frontage Rd, New Braunfels, TX",
-      "links": [
-        {
-          "title": "Democratic Women of Comal County (DWCC) January 2026 Meeting",
-          "href": "https://www.mobilize.us/comalcountytxdems/event/870403/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 870429,
       "mobilize_id": 870429,
       "canonical_mobilize_url": "https://www.mobilize.us/event/870429/",
@@ -31964,24 +31856,6 @@
         {
           "title": "Easthampton House Party",
           "href": "https://www.mobilize.us/whalenforcongress/event/870722/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 870739,
-      "mobilize_id": 870739,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/870739/",
-      "title": "Truxel & Del Paso Road - Corner Resistance",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 38.6561374,
-      "lng": -121.5119506,
-      "location": "Truxel Road & Del Paso Road, Sacramento, CA",
-      "links": [
-        {
-          "title": "Truxel & Del Paso Road - Corner Resistance",
-          "href": "https://www.mobilize.us/cap25/event/870739/"
         }
       ],
       "_src": "mobilize"
@@ -32476,15 +32350,15 @@
       "_id": 870954,
       "mobilize_id": 870954,
       "canonical_mobilize_url": "https://www.mobilize.us/event/870954/",
-      "title": "MUSK RAT- RESISTORS",
+      "title": "MUSK RAT- RESISTERS",
       "begin": "2025-12-27",
-      "end": "2025-12-27",
+      "end": "2026-02-28",
       "lat": 38.9420881,
       "lng": -94.6082976,
       "location": "State Line Road & 103rd Street, Kansas City, MO",
       "links": [
         {
-          "title": "MUSK RAT- RESISTORS",
+          "title": "MUSK RAT- RESISTERS",
           "href": "https://www.mobilize.us/indivisible/event/870954/"
         }
       ],
@@ -32549,7 +32423,7 @@
       "mobilize_id": 870967,
       "canonical_mobilize_url": "https://www.mobilize.us/event/870967/",
       "title": "TESLA TAKEDOWN M-W-F 3-4:30 PM",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-03-30",
       "lat": 38.9420873,
       "lng": -94.608457,
@@ -32729,7 +32603,7 @@
       "mobilize_id": 871167,
       "canonical_mobilize_url": "https://www.mobilize.us/event/871167/",
       "title": "🍓⭐️ Strawberry Coffeehouse Collective",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-11-13",
       "lat": 0,
       "lng": 0,
@@ -32747,7 +32621,7 @@
       "mobilize_id": 871168,
       "canonical_mobilize_url": "https://www.mobilize.us/event/871168/",
       "title": "🍓⭐️ Strawberry Coffeehouse Collective (Work",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-11-13",
       "lat": 0,
       "lng": 0,
@@ -32792,24 +32666,6 @@
         {
           "title": "Westminster Overpass Visibility Brigade",
           "href": "https://www.mobilize.us/indivisible/event/871187/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 871196,
-      "mobilize_id": 871196,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/871196/",
-      "title": "Oregon City Indivisible Sunday Coffee Chat",
-      "begin": "2025-12-28",
-      "end": "2026-02-22",
-      "lat": 45.3548391,
-      "lng": -122.6045967,
-      "location": "710 6th St, Oregon City, OR",
-      "links": [
-        {
-          "title": "Oregon City Indivisible Sunday Coffee Chat",
-          "href": "https://www.mobilize.us/oregoncityindivisible/event/871196/"
         }
       ],
       "_src": "mobilize"
@@ -33989,7 +33845,7 @@
       "mobilize_id": 871685,
       "canonical_mobilize_url": "https://www.mobilize.us/event/871685/",
       "title": "MMOP Signature Gathering @ Taylor Town Marketplace",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-28",
       "lat": 42.2549739,
       "lng": -83.2557331,
@@ -34493,7 +34349,7 @@
       "mobilize_id": 872041,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872041/",
       "title": "Weekly (Fri) Mass Pike Overpass Standout in Westfield - Southampton Rd (Routes 10/202)",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2029-01-19",
       "lat": 42.1454853,
       "lng": -72.7320364,
@@ -34871,7 +34727,7 @@
       "mobilize_id": 872222,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872222/",
       "title": "Weekly VCU Area Protest AM & PM",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-25",
       "lat": 37.548841,
       "lng": -77.448039,
@@ -35429,7 +35285,7 @@
       "mobilize_id": 872478,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872478/",
       "title": "Lunchtime Love: Friday!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-02-27",
       "lat": 45.4423332,
       "lng": -122.6419552,
@@ -36109,6 +35965,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 872773,
+      "mobilize_id": 872773,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/872773/",
+      "title": "SARASOTA COUNTY DEMOCRATIC PARTY MONTHLY DEC MEETING - In Person & on ZOOM",
+      "begin": "2026-01-14",
+      "end": "2026-01-14",
+      "lat": 27.256122,
+      "lng": -82.4984949,
+      "location": "6908 S Beneva Rd, Sarasota, FL",
+      "links": [
+        {
+          "title": "SARASOTA COUNTY DEMOCRATIC PARTY MONTHLY DEC MEETING - In Person & on ZOOM",
+          "href": "https://www.mobilize.us/sarasotacountydec/event/872773/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 872775,
       "mobilize_id": 872775,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872775/",
@@ -36563,7 +36437,7 @@
       "mobilize_id": 872928,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872928/",
       "title": "Take Action in Pinellas! Phonebank FROM HOME",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-03-31",
       "lat": 27.7700475,
       "lng": -82.6359078,
@@ -37121,7 +36995,7 @@
       "mobilize_id": 873095,
       "canonical_mobilize_url": "https://www.mobilize.us/event/873095/",
       "title": "Become a MFOL Member💙",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -37661,7 +37535,7 @@
       "mobilize_id": 873284,
       "canonical_mobilize_url": "https://www.mobilize.us/event/873284/",
       "title": "Freedom Fridays:  Durham at Croasdaile",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-08-28",
       "lat": 36.0466844,
       "lng": -78.9386778,
@@ -38633,7 +38507,7 @@
       "mobilize_id": 873691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/873691/",
       "title": "Natomas Resists!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 38.6575431,
       "lng": -121.5100572,
@@ -38759,7 +38633,7 @@
       "mobilize_id": 873712,
       "canonical_mobilize_url": "https://www.mobilize.us/event/873712/",
       "title": "Feet on the Streets - with a twist - tell Home Depot to get I C E out",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 32.6369293,
       "lng": -117.0307899,
@@ -38884,15 +38758,15 @@
       "_id": 873803,
       "mobilize_id": 873803,
       "canonical_mobilize_url": "https://www.mobilize.us/event/873803/",
-      "title": "✊RELEASE ALL FILES - We Ain't Buying It, Visibility Event— Weekly Saturdays Santa Clarita iCA27",
+      "title": "✊ALL OF IT  - We Ain't Buying It, Visibility Event— Weekly Saturdays Santa Clarita iCA27",
       "begin": "2025-12-27",
-      "end": "2026-01-03",
+      "end": "2026-01-24",
       "lat": 34.4128574,
       "lng": -118.5593878,
       "location": "24292 Valencia Blvd, Corner of McBean Pkwy. and Valencia Blvd., Santa Clarita, CA",
       "links": [
         {
-          "title": "✊RELEASE ALL FILES - We Ain't Buying It, Visibility Event— Weekly Saturdays Santa Clarita iCA27",
+          "title": "✊ALL OF IT  - We Ain't Buying It, Visibility Event— Weekly Saturdays Santa Clarita iCA27",
           "href": "https://www.mobilize.us/indivisibleca27/event/873803/"
         }
       ],
@@ -41243,7 +41117,7 @@
       "mobilize_id": 874482,
       "canonical_mobilize_url": "https://www.mobilize.us/event/874482/",
       "title": "Students: Do You Vote?",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-31",
       "lat": 0,
       "lng": 0,
@@ -41801,7 +41675,7 @@
       "mobilize_id": 874643,
       "canonical_mobilize_url": "https://www.mobilize.us/event/874643/",
       "title": "Cover a public event (farmers' market, etc) for Brit!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-11-01",
       "lat": 30.3321838,
       "lng": -81.655651,
@@ -43489,24 +43363,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 874930,
-      "mobilize_id": 874930,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/874930/",
-      "title": "Florida NOW Field Trip: Moore Museum Tour",
-      "begin": "2026-03-28",
-      "end": "2026-03-28",
-      "lat": 0,
-      "lng": 0,
-      "location": "",
-      "links": [
-        {
-          "title": "Florida NOW Field Trip: Moore Museum Tour",
-          "href": "https://www.mobilize.us/flcet/event/874930/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 874934,
       "mobilize_id": 874934,
       "canonical_mobilize_url": "https://www.mobilize.us/event/874934/",
@@ -43646,24 +43502,6 @@
         {
           "title": "Speak Up for Florida's Students at the State Board of Education Meeting",
           "href": "https://www.mobilize.us/strongflschools/event/874967/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 874968,
-      "mobilize_id": 874968,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/874968/",
-      "title": "MUSK/TRUMP PROTEST",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 34.0909056,
-      "lng": -118.341873,
-      "location": "7003 Santa Monica Blvd, Los Angeles, CA",
-      "links": [
-        {
-          "title": "MUSK/TRUMP PROTEST",
-          "href": "https://www.mobilize.us/indivisible/event/874968/"
         }
       ],
       "_src": "mobilize"
@@ -44717,7 +44555,7 @@
       "mobilize_id": 875211,
       "canonical_mobilize_url": "https://www.mobilize.us/event/875211/",
       "title": "Rush-hour Resistance Rally @ 35th Ave & Bethany Home",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-30",
       "lat": 33.5269438,
       "lng": -112.1324027,
@@ -46351,6 +46189,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 875540,
+      "mobilize_id": 875540,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/875540/",
+      "title": "Couples for Donna Glover for Harris County",
+      "begin": "2026-02-14",
+      "end": "2026-02-14",
+      "lat": 29.7418783,
+      "lng": -95.3587456,
+      "location": "2003 Emancipation Ave, Houston, TX",
+      "links": [
+        {
+          "title": "Couples for Donna Glover for Harris County",
+          "href": "https://www.mobilize.us/donnaglover4hcdc/event/875540/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 875541,
       "mobilize_id": 875541,
       "canonical_mobilize_url": "https://www.mobilize.us/event/875541/",
@@ -46931,7 +46787,7 @@
       "mobilize_id": 875650,
       "canonical_mobilize_url": "https://www.mobilize.us/event/875650/",
       "title": "Mariposa/Merritt Overpass Visibility",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 32.7586877,
       "lng": -117.0039185,
@@ -50585,7 +50441,7 @@
       "mobilize_id": 876194,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876194/",
       "title": "Invest in MI Kids @ Drifter Coffee",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-28",
       "lat": 42.4683233,
       "lng": -83.1286903,
@@ -50621,7 +50477,7 @@
       "mobilize_id": 876198,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876198/",
       "title": "Invest in MI Kids @ The Red Hook Coffee Shops",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-28",
       "lat": 42.3503499,
       "lng": -83.0603441,
@@ -53303,7 +53159,7 @@
       "mobilize_id": 876527,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876527/",
       "title": "MAS SI Weekly Food Distribution!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-11",
       "lat": 40.592364,
       "lng": -74.0919467,
@@ -53321,7 +53177,7 @@
       "mobilize_id": 876528,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876528/",
       "title": "Voter Registration Drive Volunteering!",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-12-11",
       "lat": 40.592364,
       "lng": -74.0919467,
@@ -53357,7 +53213,7 @@
       "mobilize_id": 876533,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876533/",
       "title": "Volunteering for SEE's Winter Supplies Drive Distribution",
-      "begin": "2025-12-26",
+      "begin": "2026-01-09",
       "end": "2026-01-30",
       "lat": 27.3311301,
       "lng": -82.5384772,
@@ -53591,7 +53447,7 @@
       "mobilize_id": 876581,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876581/",
       "title": "Unhappy Hour weekly nonviolent protest",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 45.4758541,
       "lng": -122.6236654,
@@ -53735,7 +53591,7 @@
       "mobilize_id": 876596,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876596/",
       "title": "Door Knocking for Dylan Blaha in CU: 12/22-12/28",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-28",
       "lat": 40.1117174,
       "lng": -88.207301,
@@ -53825,7 +53681,7 @@
       "mobilize_id": 876602,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876602/",
       "title": "MY US WISHLIST",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-02",
       "lat": 40.7519846,
       "lng": -73.9697795,
@@ -54707,7 +54563,7 @@
       "mobilize_id": 876720,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876720/",
       "title": "NYC Rent Guidelines Board Rent Increases",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54743,7 +54599,7 @@
       "mobilize_id": 876723,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876723/",
       "title": "Hunters for Regulation & Environmental Protection's plan to deepen our outlook",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54761,7 +54617,7 @@
       "mobilize_id": 876725,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876725/",
       "title": "Destroy the Ad-Revenue Driven Algorithm",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54779,7 +54635,7 @@
       "mobilize_id": 876726,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876726/",
       "title": "The Bill of Digital Rights",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54797,7 +54653,7 @@
       "mobilize_id": 876727,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876727/",
       "title": "Restoring Justice: A Comprehensive Submission",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54815,7 +54671,7 @@
       "mobilize_id": 876729,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876729/",
       "title": "Restraining Government Surveillance Powers",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54851,7 +54707,7 @@
       "mobilize_id": 876736,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876736/",
       "title": "Blueprint of Unity",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54887,7 +54743,7 @@
       "mobilize_id": 876738,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876738/",
       "title": "NFTA Metro Rail Extension",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54905,7 +54761,7 @@
       "mobilize_id": 876739,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876739/",
       "title": "A Bitcoin-Based Dividend for New York City Residents",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54923,7 +54779,7 @@
       "mobilize_id": 876741,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876741/",
       "title": "Death if under 40! Anorexia ...",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54937,29 +54793,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 876742,
-      "mobilize_id": 876742,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/876742/",
-      "title": "Collect at Queer Connections Monthly Social - HREI",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 47.6755597,
-      "lng": -116.7887302,
-      "location": "414 W Fort Grounds Dr, Coeur d'Alene, ID",
-      "links": [
-        {
-          "title": "Collect at Queer Connections Monthly Social - HREI",
-          "href": "https://www.mobilize.us/idahoansunited/event/876742/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 876743,
       "mobilize_id": 876743,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876743/",
       "title": "Social Democrats of America - The Problem",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54977,7 +54815,7 @@
       "mobilize_id": 876744,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876744/",
       "title": "Draft Position on the Israeli-Palestinian Conflict",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -54995,7 +54833,7 @@
       "mobilize_id": 876745,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876745/",
       "title": "Draft Position on the Israeli-Palestinian Conflict",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55013,7 +54851,7 @@
       "mobilize_id": 876746,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876746/",
       "title": "Transformative Justice",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55031,7 +54869,7 @@
       "mobilize_id": 876747,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876747/",
       "title": "How Chickens Aided Trump",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55049,7 +54887,7 @@
       "mobilize_id": 876748,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876748/",
       "title": "Resolution to calling for greater transparency in PLP Contracts",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55067,7 +54905,7 @@
       "mobilize_id": 876749,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876749/",
       "title": "Statement on Ahoo Daryaei, Victim of Iranian Represssion",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55085,7 +54923,7 @@
       "mobilize_id": 876750,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876750/",
       "title": "Implementing Nonpartisan Elections in New York State",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55103,7 +54941,7 @@
       "mobilize_id": 876751,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876751/",
       "title": "AOC 2028",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55121,7 +54959,7 @@
       "mobilize_id": 876752,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876752/",
       "title": "Change of Stated Goal",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55139,7 +54977,7 @@
       "mobilize_id": 876754,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876754/",
       "title": "Ship Of Theseus",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55175,7 +55013,7 @@
       "mobilize_id": 876756,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876756/",
       "title": "Racial Justice",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55211,7 +55049,7 @@
       "mobilize_id": 876759,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876759/",
       "title": "Statement on Social Democrats of America",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55247,7 +55085,7 @@
       "mobilize_id": 876761,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876761/",
       "title": "Trade Tariff Accountability Act",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55283,7 +55121,7 @@
       "mobilize_id": 876763,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876763/",
       "title": "Black Maternal Justice",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2029-12-31",
       "lat": 0,
       "lng": 0,
@@ -55963,24 +55801,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 876840,
-      "mobilize_id": 876840,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/876840/",
-      "title": "Invest in MI Kids @ Motor City Kwanzaa Celebration",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 42.3319145,
-      "lng": -83.0465866,
-      "location": "800 Woodward Ave, Detroit, MI",
-      "links": [
-        {
-          "title": "Invest in MI Kids @ Motor City Kwanzaa Celebration",
-          "href": "https://www.mobilize.us/investinmikids/event/876840/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 876843,
       "mobilize_id": 876843,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876843/",
@@ -56093,7 +55913,7 @@
       "mobilize_id": 876852,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876852/",
       "title": "Democracy at the curb",
-      "begin": "2025-12-26",
+      "begin": "2026-01-02",
       "end": "2026-01-09",
       "lat": 41.7347708,
       "lng": -111.8356841,
@@ -57173,7 +56993,7 @@
       "mobilize_id": 876977,
       "canonical_mobilize_url": "https://www.mobilize.us/event/876977/",
       "title": "Door Knocking for Dylan Blaha in Edwardsville: 12/26 & 12/28",
-      "begin": "2025-12-26",
+      "begin": "2025-12-28",
       "end": "2025-12-28",
       "lat": 38.8114364,
       "lng": -89.953157,
@@ -59036,6 +58856,24 @@
         {
           "title": "Rapid Response for Day Labor Corners",
           "href": "https://www.mobilize.us/ndlon/event/877177/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877179,
+      "mobilize_id": 877179,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877179/",
+      "title": "VENICE AREA DEMOCRATIC CLUB MONTHLY MEETING with MATT MONTAVON, In Person and Zoom",
+      "begin": "2026-01-17",
+      "end": "2026-01-17",
+      "lat": 27.0735564,
+      "lng": -82.4016487,
+      "location": "620 Shamrock Blvd, Venice, FL",
+      "links": [
+        {
+          "title": "VENICE AREA DEMOCRATIC CLUB MONTHLY MEETING with MATT MONTAVON, In Person and Zoom",
+          "href": "https://www.mobilize.us/sarasotacountydec/event/877179/"
         }
       ],
       "_src": "mobilize"
@@ -62287,9 +62125,9 @@
       "title": "Community Event Host Training (In Person)",
       "begin": "2026-01-03",
       "end": "2026-01-31",
-      "lat": 26.2419036,
-      "lng": -98.2422026,
-      "location": "4001 N 23rd St, McAllen, TX",
+      "lat": 26.2510993,
+      "lng": -98.2257411,
+      "location": "1300 Zinnia Ave, McAllen, TX",
       "links": [
         {
           "title": "Community Event Host Training (In Person)",
@@ -63410,24 +63248,6 @@
         {
           "title": "GEN-Z Voter Registration Phone Bank Party",
           "href": "https://www.mobilize.us/sosarizona/event/877643/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 877644,
-      "mobilize_id": 877644,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877644/",
-      "title": "Motor City Kwanzaa Celebration Community Canvass for Abdul El-Sayed",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 42.3319145,
-      "lng": -83.0465866,
-      "location": "800 Woodward Ave, Detroit, MI",
-      "links": [
-        {
-          "title": "Motor City Kwanzaa Celebration Community Canvass for Abdul El-Sayed",
-          "href": "https://www.mobilize.us/abdulforsenate/event/877644/"
         }
       ],
       "_src": "mobilize"
@@ -64751,7 +64571,7 @@
       "mobilize_id": 877780,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877780/",
       "title": "Phonebanking w/ Richard Ojeda",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-01-31",
       "lat": 0,
       "lng": 0,
@@ -65300,6 +65120,24 @@
         {
           "title": "Extreme Weather People's Hearing - Tampa",
           "href": "https://www.mobilize.us/climateactioncampaign/event/877825/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877826,
+      "mobilize_id": 877826,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877826/",
+      "title": "WCDP Women's Group",
+      "begin": "2026-01-06",
+      "end": "2026-06-02",
+      "lat": 39.4526474,
+      "lng": -84.1835899,
+      "location": "1231 Columbus Ave, Lebanon, OH",
+      "links": [
+        {
+          "title": "WCDP Women's Group",
+          "href": "https://www.mobilize.us/warrencountydemocraticparty/event/877826/"
         }
       ],
       "_src": "mobilize"
@@ -66398,24 +66236,6 @@
         {
           "title": "Utah Delegate Training",
           "href": "https://www.mobilize.us/saltlakeindivisible/event/877929/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 877930,
-      "mobilize_id": 877930,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877930/",
-      "title": "12/26, Amarillo, RR Karaoke - Voter Registration Event INDOOR",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 35.210054,
-      "lng": -101.8658173,
-      "location": "701 S Georgia St, Amarillo, TX",
-      "links": [
-        {
-          "title": "12/26, Amarillo, RR Karaoke - Voter Registration Event INDOOR",
-          "href": "https://www.mobilize.us/poweredxpeople/event/877930/"
         }
       ],
       "_src": "mobilize"
@@ -67685,7 +67505,7 @@
       "mobilize_id": 878074,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878074/",
       "title": "Knock doors with us in Evanston! (recurring)",
-      "begin": "2025-12-28",
+      "begin": "2026-01-03",
       "end": "2026-01-11",
       "lat": 42.060011,
       "lng": -87.6926257,
@@ -68279,7 +68099,7 @@
       "mobilize_id": 878142,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878142/",
       "title": "Phone Bank for Dylan-On Your Own Time",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-02-28",
       "lat": 0,
       "lng": 0,
@@ -69232,7 +69052,7 @@
       "_id": 878232,
       "mobilize_id": 878232,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878232/",
-      "title": "Act Local NWCT's Weekly Rally with Food/Diaper Drive",
+      "title": "WE'RE ON! Act Local NWCT's Weekly Rally with Food/Diaper Drive",
       "begin": "2025-12-27",
       "end": "2025-12-27",
       "lat": 41.5778467,
@@ -69240,7 +69060,7 @@
       "location": "10 Main St, New Milford, CT",
       "links": [
         {
-          "title": "Act Local NWCT's Weekly Rally with Food/Diaper Drive",
+          "title": "WE'RE ON! Act Local NWCT's Weekly Rally with Food/Diaper Drive",
           "href": "https://www.mobilize.us/actlocalnwct_/event/878232/"
         }
       ],
@@ -70475,7 +70295,7 @@
       "mobilize_id": 878328,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878328/",
       "title": "Canvass YOUR precinct for Nida!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2026-03-03",
       "lat": 0,
       "lng": 0,
@@ -70484,24 +70304,6 @@
         {
           "title": "Canvass YOUR precinct for Nida!",
           "href": "https://www.mobilize.us/nidafornc04/event/878328/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878330,
-      "mobilize_id": 878330,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878330/",
-      "title": "Invest in MI Kids @ Run G.R.I.T Kwanzaa 5K",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 42.3814274,
-      "lng": -83.1256778,
-      "location": "12041 Dexter Ave, Detroit, MI",
-      "links": [
-        {
-          "title": "Invest in MI Kids @ Run G.R.I.T Kwanzaa 5K",
-          "href": "https://www.mobilize.us/investinmikids/event/878330/"
         }
       ],
       "_src": "mobilize"
@@ -72239,7 +72041,7 @@
       "mobilize_id": 878485,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878485/",
       "title": "DAWSON COUNTY DEMOCRATS DONATION DRIVE!  Lexington Nebraska, Cozad Nebraska, and Gothenburg Nebraska",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-30",
       "lat": 40.7823188,
       "lng": -99.7419109,
@@ -72284,24 +72086,6 @@
         {
           "title": "Voter Registration Team Meeting",
           "href": "https://www.mobilize.us/semdems/event/878493/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878494,
-      "mobilize_id": 878494,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878494/",
-      "title": "Honk & Wave - No State TV!",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 44.6348996,
-      "lng": -123.1056622,
-      "location": "Southwest 4th Avenue & Southwest Ellsworth Street, Albany, OR",
-      "links": [
-        {
-          "title": "Honk & Wave - No State TV!",
-          "href": "https://www.mobilize.us/indivisible/event/878494/"
         }
       ],
       "_src": "mobilize"
@@ -72392,24 +72176,6 @@
         {
           "title": "Member Meeting",
           "href": "https://www.mobilize.us/indivisiblesantamaria/event/878505/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878506,
-      "mobilize_id": 878506,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878506/",
-      "title": "Team Talarico: Volunteer Shift at The Samaritan Inn Food Pantry",
-      "begin": "2025-12-26",
-      "end": "2025-12-26",
-      "lat": 33.2125149,
-      "lng": -96.6260773,
-      "location": "1601 N Waddill St ste 102, McKinney, TX",
-      "links": [
-        {
-          "title": "Team Talarico: Volunteer Shift at The Samaritan Inn Food Pantry",
-          "href": "https://www.mobilize.us/talaricofortexas/event/878506/"
         }
       ],
       "_src": "mobilize"
@@ -73049,7 +72815,7 @@
       "mobilize_id": 878568,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878568/",
       "title": "No War ON Venezuela",
-      "begin": "2025-12-26",
+      "begin": "2025-12-29",
       "end": "2026-01-30",
       "lat": 39.9554383,
       "lng": -75.1487754,
@@ -73267,9 +73033,9 @@
       "title": "South County January 6th Vigil--28 Minutes of Silence (Hosted by South County Resistance)",
       "begin": "2026-01-06",
       "end": "2026-01-06",
-      "lat": 41.4385688,
-      "lng": -71.4991454,
-      "location": "Main Street, Wakefield, RI",
+      "lat": 41.440595,
+      "lng": -71.494676,
+      "location": "Main Street, From Wakefield Music to Navigant Bank. One side only., Wakefield, RI",
       "links": [
         {
           "title": "South County January 6th Vigil--28 Minutes of Silence (Hosted by South County Resistance)",
@@ -73909,6 +73675,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 878644,
+      "mobilize_id": 878644,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878644/",
+      "title": "Fair Deal Meet & Greet",
+      "begin": "2026-01-04",
+      "end": "2026-01-04",
+      "lat": 40.8948212,
+      "lng": -74.4329314,
+      "location": "Mountain Lakes, NJ",
+      "links": [
+        {
+          "title": "Fair Deal Meet & Greet",
+          "href": "https://www.mobilize.us/annaleewilliamsforcongress/event/878644/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 878645,
       "mobilize_id": 878645,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878645/",
@@ -74395,42 +74179,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 878695,
-      "mobilize_id": 878695,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878695/",
-      "title": "Meet the Candidates for CD 6",
-      "begin": "2026-02-10",
-      "end": "2026-02-10",
-      "lat": 0,
-      "lng": 0,
-      "location": "",
-      "links": [
-        {
-          "title": "Meet the Candidates for CD 6",
-          "href": "https://www.mobilize.us/ncseniordemocrat/event/878695/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878696,
-      "mobilize_id": 878696,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878696/",
-      "title": "Meet Your Candidates for CD 8",
-      "begin": "2026-02-12",
-      "end": "2026-02-12",
-      "lat": 0,
-      "lng": 0,
-      "location": "",
-      "links": [
-        {
-          "title": "Meet Your Candidates for CD 8",
-          "href": "https://www.mobilize.us/ncseniordemocrat/event/878696/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 878697,
       "mobilize_id": 878697,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878697/",
@@ -74633,7 +74381,7 @@
       "mobilize_id": 878721,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878721/",
       "title": "Canvass for Russell Brooks for Delegate!",
-      "begin": "2025-12-26",
+      "begin": "2025-12-27",
       "end": "2025-12-27",
       "lat": 38.8051095,
       "lng": -77.0470229,
@@ -74795,7 +74543,7 @@
       "mobilize_id": 878733,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878733/",
       "title": "Postcarding with Indivisible Akron & Friends",
-      "begin": "2026-01-06",
+      "begin": "2026-01-13",
       "end": "2026-01-27",
       "lat": 41.0974728,
       "lng": -81.5450234,
@@ -75316,7 +75064,7 @@
       "_id": 878778,
       "mobilize_id": 878778,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878778/",
-      "title": "Copy of: Saturday with the Democratic Party",
+      "title": "Saturday with the Democratic Party",
       "begin": "2026-01-03",
       "end": "2026-01-03",
       "lat": 41.6655269,
@@ -75324,7 +75072,7 @@
       "location": "2410 E Mishawaka Ave, South Bend, IN",
       "links": [
         {
-          "title": "Copy of: Saturday with the Democratic Party",
+          "title": "Saturday with the Democratic Party",
           "href": "https://www.mobilize.us/instjosephcountydemocraticparty/event/878778/"
         }
       ],
@@ -75398,6 +75146,906 @@
         {
           "title": "Indivisible Lakeview Lincoln Park Old Town January Meeting",
           "href": "https://www.mobilize.us/indivisiblechicago/event/878784/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878786,
+      "mobilize_id": 878786,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878786/",
+      "title": "Tuesday Honk & Wave",
+      "begin": "2026-01-06",
+      "end": "2026-01-27",
+      "lat": 44.5044015,
+      "lng": -72.3668175,
+      "location": "34 S Main St, Hardwick Peace Park, Hardwick, VT",
+      "links": [
+        {
+          "title": "Tuesday Honk & Wave",
+          "href": "https://www.mobilize.us/indivisible/event/878786/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878787,
+      "mobilize_id": 878787,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878787/",
+      "title": "Tewksbury CD-7 Candidate Event",
+      "begin": "2026-01-25",
+      "end": "2026-01-25",
+      "lat": 40.68446,
+      "lng": -74.77873,
+      "location": "Tewksbury, NJ",
+      "links": [
+        {
+          "title": "Tewksbury CD-7 Candidate Event",
+          "href": "https://www.mobilize.us/democraticpartyoftewksbury/event/878787/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878790,
+      "mobilize_id": 878790,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878790/",
+      "title": "Invest in MI Kids @ MLK Day Rally (Detroit)",
+      "begin": "2026-01-19",
+      "end": "2026-01-19",
+      "lat": 42.3810187,
+      "lng": -83.0797263,
+      "location": "8850 Woodward Ave, Detroit, MI",
+      "links": [
+        {
+          "title": "Invest in MI Kids @ MLK Day Rally (Detroit)",
+          "href": "https://www.mobilize.us/investinmikids/event/878790/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878791,
+      "mobilize_id": 878791,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878791/",
+      "title": "Virtual Phonebank",
+      "begin": "2025-12-30",
+      "end": "2026-02-03",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "Virtual Phonebank",
+          "href": "https://www.mobilize.us/johnbartlettforcongress/event/878791/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878792,
+      "mobilize_id": 878792,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878792/",
+      "title": "50th Birthday Culmination: Politicians and Pros",
+      "begin": "2026-01-18",
+      "end": "2026-01-18",
+      "lat": 29.7155532,
+      "lng": -95.3809424,
+      "location": "5925 Almeda Rd A, Houston, TX",
+      "links": [
+        {
+          "title": "50th Birthday Culmination: Politicians and Pros",
+          "href": "https://www.mobilize.us/donnaglover4hcdc/event/878792/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878793,
+      "mobilize_id": 878793,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878793/",
+      "title": "Home protection training & firearm recertification",
+      "begin": "2025-12-27",
+      "end": "2025-12-27",
+      "lat": 43.001079,
+      "lng": -83.693685,
+      "location": "1910 Fenton Rd, Flint, MI",
+      "links": [
+        {
+          "title": "Home protection training & firearm recertification",
+          "href": "https://www.mobilize.us/mipeoplecampaign/event/878793/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878794,
+      "mobilize_id": 878794,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878794/",
+      "title": "Queens Chapter  AD-36 Debrief",
+      "begin": "2026-01-05",
+      "end": "2026-01-05",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "Queens Chapter  AD-36 Debrief",
+          "href": "https://www.mobilize.us/ny-wfp/event/878794/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878795,
+      "mobilize_id": 878795,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878795/",
+      "title": "Women for Donna Glover for Harris County District Clerk",
+      "begin": "2026-03-01",
+      "end": "2026-03-01",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "Women for Donna Glover for Harris County District Clerk",
+          "href": "https://www.mobilize.us/donnaglover4hcdc/event/878795/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878797,
+      "mobilize_id": 878797,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878797/",
+      "title": "Cherokee Democrats GA | Political Chats",
+      "begin": "2026-01-18",
+      "end": "2026-01-18",
+      "lat": 34.237974,
+      "lng": -84.468936,
+      "location": "116 Brown Industrial Pkwy, Canton, GA",
+      "links": [
+        {
+          "title": "Cherokee Democrats GA | Political Chats",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878797/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878798,
+      "mobilize_id": 878798,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878798/",
+      "title": "AD-34 Virtual Interviwes",
+      "begin": "2026-01-12",
+      "end": "2026-01-12",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "AD-34 Virtual Interviwes",
+          "href": "https://www.mobilize.us/ny-wfp/event/878798/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878799,
+      "mobilize_id": 878799,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878799/",
+      "title": "Invest in MI Kids @ MLK Day Service Project (Ypsi)",
+      "begin": "2026-01-19",
+      "end": "2026-01-19",
+      "lat": 42.2407575,
+      "lng": -83.6156664,
+      "location": "229 W Michigan Ave, Ypsilanti, MI",
+      "links": [
+        {
+          "title": "Invest in MI Kids @ MLK Day Service Project (Ypsi)",
+          "href": "https://www.mobilize.us/investinmikids/event/878799/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878800,
+      "mobilize_id": 878800,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878800/",
+      "title": "Gen Z for Brendan Gill Meet and Greet",
+      "begin": "2026-01-10",
+      "end": "2026-01-10",
+      "lat": 40.8161983,
+      "lng": -74.2176412,
+      "location": "35 Park St, Montclair, NJ",
+      "links": [
+        {
+          "title": "Gen Z for Brendan Gill Meet and Greet",
+          "href": "https://www.mobilize.us/gillfornewjersey/event/878800/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878803,
+      "mobilize_id": 878803,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878803/",
+      "title": "EVERYDAY PEOPLE Food for Thought",
+      "begin": "2026-01-09",
+      "end": "2026-01-09",
+      "lat": 32.7941108,
+      "lng": -79.9462959,
+      "location": "106 Line St, Charleston, SC",
+      "links": [
+        {
+          "title": "EVERYDAY PEOPLE Food for Thought",
+          "href": "https://www.mobilize.us/everydaypeople/event/878803/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878804,
+      "mobilize_id": 878804,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878804/",
+      "title": "Cherokee Democrats GA | Huddle with the Chair",
+      "begin": "2026-01-13",
+      "end": "2026-12-08",
+      "lat": 34.1280759,
+      "lng": -84.448772,
+      "location": "Woodstock, GA",
+      "links": [
+        {
+          "title": "Cherokee Democrats GA | Huddle with the Chair",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878804/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878805,
+      "mobilize_id": 878805,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878805/",
+      "title": "Oakley 9.1 Canvassing",
+      "begin": "2026-01-18",
+      "end": "2026-01-18",
+      "lat": 35.5664826,
+      "lng": -82.5373806,
+      "location": "101 Fairview Rd D, Asheville, NC",
+      "links": [
+        {
+          "title": "Oakley 9.1 Canvassing",
+          "href": "https://www.mobilize.us/buncombedems/event/878805/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878806,
+      "mobilize_id": 878806,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878806/",
+      "title": "Oakley 9.1 Canvassing",
+      "begin": "2026-01-17",
+      "end": "2026-01-17",
+      "lat": 35.566762,
+      "lng": -82.535917,
+      "location": "100 District Dr 216, Asheville, NC",
+      "links": [
+        {
+          "title": "Oakley 9.1 Canvassing",
+          "href": "https://www.mobilize.us/buncombedems/event/878806/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878807,
+      "mobilize_id": 878807,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878807/",
+      "title": "Invest in MI Kids @ Hope United Peace Walk",
+      "begin": "2026-01-19",
+      "end": "2026-01-19",
+      "lat": 42.4811219,
+      "lng": -83.2581517,
+      "location": "26275 Northwestern Hwy, Southfield, MI",
+      "links": [
+        {
+          "title": "Invest in MI Kids @ Hope United Peace Walk",
+          "href": "https://www.mobilize.us/investinmikids/event/878807/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878808,
+      "mobilize_id": 878808,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878808/",
+      "title": "Stand Up for Democracy!",
+      "begin": "2026-01-25",
+      "end": "2026-03-22",
+      "lat": 42.0322413,
+      "lng": -71.2193915,
+      "location": "360 N Main St, Mansfield, MA",
+      "links": [
+        {
+          "title": "Stand Up for Democracy!",
+          "href": "https://www.mobilize.us/indivisiblemansfieldandbeyond/event/878808/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878809,
+      "mobilize_id": 878809,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878809/",
+      "title": "Boycott Citizens Bank Event",
+      "begin": "2026-01-24",
+      "end": "2026-01-24",
+      "lat": 42.0652429,
+      "lng": -71.2496931,
+      "location": "4 Cocasset St, Foxborough, MA",
+      "links": [
+        {
+          "title": "Boycott Citizens Bank Event",
+          "href": "https://www.mobilize.us/indivisiblemansfieldandbeyond/event/878809/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878810,
+      "mobilize_id": 878810,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878810/",
+      "title": "Americans for Democracy",
+      "begin": "2026-01-10",
+      "end": "2026-01-10",
+      "lat": 29.9052328,
+      "lng": -96.8785908,
+      "location": "151 N Washington St, La Grange, TX 78945, La Grange, TX",
+      "links": [
+        {
+          "title": "Americans for Democracy",
+          "href": "https://www.mobilize.us/fayettecountydems/event/878810/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878812,
+      "mobilize_id": 878812,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878812/",
+      "title": "Indivisible Wilton Manors - Taking back our country, one street corner at a time.",
+      "begin": "2025-12-28",
+      "end": "2026-01-25",
+      "lat": 26.168954,
+      "lng": -80.1161671,
+      "location": "3200 N Federal Hwy, Freedom Corner. Coral Ridge Mall, corner in front of Target., Fort Lauderdale, FL",
+      "links": [
+        {
+          "title": "Indivisible Wilton Manors - Taking back our country, one street corner at a time.",
+          "href": "https://www.mobilize.us/indivisible/event/878812/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878814,
+      "mobilize_id": 878814,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878814/",
+      "title": "Indivisible Wilton Manors Resist Wilton Manors",
+      "begin": "2026-01-03",
+      "end": "2026-01-24",
+      "lat": 26.1604951,
+      "lng": -80.1322161,
+      "location": "2663 N Dixie Hwy, 2663 N Dixie Hwy, Wilton Manors, FL 33334, Wilton Manors, FL",
+      "links": [
+        {
+          "title": "Indivisible Wilton Manors Resist Wilton Manors",
+          "href": "https://www.mobilize.us/indivisible/event/878814/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878817,
+      "mobilize_id": 878817,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878817/",
+      "title": "ICTX Candidate Speed Meet",
+      "begin": "2026-02-01",
+      "end": "2026-02-01",
+      "lat": 31.0983747,
+      "lng": -97.3429563,
+      "location": "Temple, TX",
+      "links": [
+        {
+          "title": "ICTX Candidate Speed Meet",
+          "href": "https://www.mobilize.us/indivisiblecentex/event/878817/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878818,
+      "mobilize_id": 878818,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878818/",
+      "title": "Stand Up for Democracy!",
+      "begin": "2026-01-31",
+      "end": "2026-01-31",
+      "lat": 42.1236705,
+      "lng": -71.1789517,
+      "location": "Post Office Square, Sharon, MA",
+      "links": [
+        {
+          "title": "Stand Up for Democracy!",
+          "href": "https://www.mobilize.us/indivisiblemansfieldandbeyond/event/878818/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878822,
+      "mobilize_id": 878822,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878822/",
+      "title": "Team Brendan All Hands Volunteer Meeting",
+      "begin": "2026-01-03",
+      "end": "2026-01-03",
+      "lat": 40.8161983,
+      "lng": -74.2176412,
+      "location": "35 Park St, Montclair, NJ",
+      "links": [
+        {
+          "title": "Team Brendan All Hands Volunteer Meeting",
+          "href": "https://www.mobilize.us/gillfornewjersey/event/878822/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878823,
+      "mobilize_id": 878823,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878823/",
+      "title": "Canvas Launch with Charlie and Mike",
+      "begin": "2025-12-28",
+      "end": "2025-12-28",
+      "lat": 37.4760411,
+      "lng": -77.4790205,
+      "location": "4615 Ferguson Ln, Richmond, VA",
+      "links": [
+        {
+          "title": "Canvas Launch with Charlie and Mike",
+          "href": "https://www.mobilize.us/charlie4va/event/878823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878824,
+      "mobilize_id": 878824,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878824/",
+      "title": "Put the Pedos in Prison Protest - Deland - 1/3/2026 - 10a-12p",
+      "begin": "2026-01-03",
+      "end": "2026-01-03",
+      "lat": 29.0278772,
+      "lng": -81.3036649,
+      "location": "100 S Woodland Blvd, DeLand, FL",
+      "links": [
+        {
+          "title": "Put the Pedos in Prison Protest - Deland - 1/3/2026 - 10a-12p",
+          "href": "https://www.mobilize.us/50501volusia/event/878824/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878828,
+      "mobilize_id": 878828,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878828/",
+      "title": "Join SJC Black Caucus   in Support of  Martin Luther King Jr Day Silent Walk!",
+      "begin": "2026-01-19",
+      "end": "2026-01-19",
+      "lat": 29.8869944,
+      "lng": -81.3154226,
+      "location": "86 M L King Ave, St. Augustine, FL",
+      "links": [
+        {
+          "title": "Join SJC Black Caucus   in Support of  Martin Luther King Jr Day Silent Walk!",
+          "href": "https://www.mobilize.us/stjohnsdems/event/878828/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878829,
+      "mobilize_id": 878829,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878829/",
+      "title": "A Night In Havana",
+      "begin": "2026-01-27",
+      "end": "2026-01-27",
+      "lat": 28.0174349,
+      "lng": -81.9081034,
+      "location": "2215 S Combee Rd, Lakeland, FL",
+      "links": [
+        {
+          "title": "A Night In Havana",
+          "href": "https://www.mobilize.us/polkcountydec/event/878829/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878831,
+      "mobilize_id": 878831,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878831/",
+      "title": "Join Society of St. Andrew for a STRAWBERRY Glean in PLANT CITY, FL 🍓",
+      "begin": "2025-12-31",
+      "end": "2026-01-03",
+      "lat": 28.01633,
+      "lng": -82.1234803,
+      "location": "Plant City, FL",
+      "links": [
+        {
+          "title": "Join Society of St. Andrew for a STRAWBERRY Glean in PLANT CITY, FL 🍓",
+          "href": "https://www.mobilize.us/endhunger/event/878831/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878832,
+      "mobilize_id": 878832,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878832/",
+      "title": "Safety at Rallies Training",
+      "begin": "2026-02-03",
+      "end": "2026-02-03",
+      "lat": 36.0726355,
+      "lng": -79.7919754,
+      "location": "Greensboro, NC",
+      "links": [
+        {
+          "title": "Safety at Rallies Training",
+          "href": "https://www.mobilize.us/indivisibleguilford/event/878832/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878834,
+      "mobilize_id": 878834,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878834/",
+      "title": "Springfield Town Hall - The Library Center",
+      "begin": "2026-01-08",
+      "end": "2026-01-08",
+      "lat": 37.1302545,
+      "lng": -93.298375,
+      "location": "4653 S Campbell Ave, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - The Library Center",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878834/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878837,
+      "mobilize_id": 878837,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878837/",
+      "title": "Springfield Town Hall - The Library Center",
+      "begin": "2026-01-08",
+      "end": "2026-01-08",
+      "lat": 37.1302545,
+      "lng": -93.298375,
+      "location": "4653 S Campbell Ave, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - The Library Center",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878837/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878838,
+      "mobilize_id": 878838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878838/",
+      "title": "Candidate Training and Meet and Greet",
+      "begin": "2026-01-15",
+      "end": "2026-01-15",
+      "lat": 31.1599916,
+      "lng": -81.4788128,
+      "location": "1919 Glynn Ave suite 7, Brunswick, GA",
+      "links": [
+        {
+          "title": "Candidate Training and Meet and Greet",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878838/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878839,
+      "mobilize_id": 878839,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878839/",
+      "title": "Springfield Town Hall - Schweitzer Brentwood Branch Library",
+      "begin": "2026-01-10",
+      "end": "2026-01-10",
+      "lat": 37.1736176,
+      "lng": -93.2602393,
+      "location": "2214 S Brentwood Blvd, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - Schweitzer Brentwood Branch Library",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878839/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878840,
+      "mobilize_id": 878840,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878840/",
+      "title": "Macon-Bibb Democrats: Events Subcommittee",
+      "begin": "2026-01-12",
+      "end": "2026-01-12",
+      "lat": 32.8402824,
+      "lng": -83.640419,
+      "location": "1305 Hardeman Ave 100, Macon, GA",
+      "links": [
+        {
+          "title": "Macon-Bibb Democrats: Events Subcommittee",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878840/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878841,
+      "mobilize_id": 878841,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878841/",
+      "title": "Springfield Town Hall - Schweitzer Brentwood Branch Library",
+      "begin": "2026-01-10",
+      "end": "2026-01-10",
+      "lat": 37.1736176,
+      "lng": -93.2602393,
+      "location": "2214 S Brentwood Blvd, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - Schweitzer Brentwood Branch Library",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878841/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878842,
+      "mobilize_id": 878842,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878842/",
+      "title": "MN Congressional District 8 Candidate Forum",
+      "begin": "2026-01-15",
+      "end": "2026-01-15",
+      "lat": 46.7481251,
+      "lng": -92.1596606,
+      "location": "401 N 44th Ave W, Duluth, MN",
+      "links": [
+        {
+          "title": "MN Congressional District 8 Candidate Forum",
+          "href": "https://www.mobilize.us/zenithcityindivisible/event/878842/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878843,
+      "mobilize_id": 878843,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878843/",
+      "title": "Never Forget, Never Again: Vigil for Democracy (protest)",
+      "begin": "2026-01-06",
+      "end": "2026-01-06",
+      "lat": 35.6290834,
+      "lng": -82.1814703,
+      "location": "Old Fort, NC",
+      "links": [
+        {
+          "title": "Never Forget, Never Again: Vigil for Democracy (protest)",
+          "href": "https://www.mobilize.us/mcdowellcountydemocrats/event/878843/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878846,
+      "mobilize_id": 878846,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878846/",
+      "title": "Postcard Writing with Indivisible Akron and Friends",
+      "begin": "2026-01-06",
+      "end": "2026-01-06",
+      "lat": 41.1025845,
+      "lng": -81.5349581,
+      "location": "",
+      "links": [
+        {
+          "title": "Postcard Writing with Indivisible Akron and Friends",
+          "href": "https://www.mobilize.us/indivisibleakron/event/878846/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878847,
+      "mobilize_id": 878847,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878847/",
+      "title": "Springfield Town Hall - The Library Station",
+      "begin": "2026-01-13",
+      "end": "2026-01-13",
+      "lat": 37.243605,
+      "lng": -93.3121248,
+      "location": "2535 N Kansas Expy, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - The Library Station",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878847/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878848,
+      "mobilize_id": 878848,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878848/",
+      "title": "Springfield Town Hall - The Library Station",
+      "begin": "2026-01-13",
+      "end": "2026-01-13",
+      "lat": 37.243605,
+      "lng": -93.3121248,
+      "location": "2535 N Kansas Expy, Springfield, MO",
+      "links": [
+        {
+          "title": "Springfield Town Hall - The Library Station",
+          "href": "https://www.mobilize.us/respect mo voters campaign/event/878848/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878851,
+      "mobilize_id": 878851,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878851/",
+      "title": "New Year's Resolution Canvass for Tom Dannan!",
+      "begin": "2026-01-03",
+      "end": "2026-01-03",
+      "lat": 38.8462236,
+      "lng": -77.3063733,
+      "location": "Fairfax, VA",
+      "links": [
+        {
+          "title": "New Year's Resolution Canvass for Tom Dannan!",
+          "href": "https://www.mobilize.us/friendsoftomdannan/event/878851/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878858,
+      "mobilize_id": 878858,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878858/",
+      "title": "LeMario Brown for State Senate Phone Bank - Peach County",
+      "begin": "2025-12-29",
+      "end": "2026-01-19",
+      "lat": 32.5537585,
+      "lng": -83.8874084,
+      "location": "Fort Valley, GA",
+      "links": [
+        {
+          "title": "LeMario Brown for State Senate Phone Bank - Peach County",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878858/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878860,
+      "mobilize_id": 878860,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878860/",
+      "title": "January 2026 Norfolk DTC Meeting",
+      "begin": "2026-01-29",
+      "end": "2026-01-29",
+      "lat": 0,
+      "lng": 0,
+      "location": "",
+      "links": [
+        {
+          "title": "January 2026 Norfolk DTC Meeting",
+          "href": "https://www.mobilize.us/massdems/event/878860/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878863,
+      "mobilize_id": 878863,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878863/",
+      "title": "DelCo Visibility Brigade",
+      "begin": "2025-12-30",
+      "end": "2025-12-30",
+      "lat": 39.8593291,
+      "lng": -75.3571764,
+      "location": "1300 Walnut St, Chester, PA",
+      "links": [
+        {
+          "title": "DelCo Visibility Brigade",
+          "href": "https://www.mobilize.us/delcovisibilitycampaign/event/878863/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878866,
+      "mobilize_id": 878866,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878866/",
+      "title": "Weekly Protest at Tesla Lyndhurst",
+      "begin": "2026-01-03",
+      "end": "2026-01-03",
+      "lat": 41.5191376,
+      "lng": -81.4931566,
+      "location": "5180 Mayfield Rd, Lyndhurst, OH",
+      "links": [
+        {
+          "title": "Weekly Protest at Tesla Lyndhurst",
+          "href": "https://www.mobilize.us/indivisibleneo/event/878866/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878867,
+      "mobilize_id": 878867,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878867/",
+      "title": "LeMario Brown for State Senate Phone Bank - Monroe County",
+      "begin": "2025-12-29",
+      "end": "2026-01-19",
+      "lat": 33.0685419,
+      "lng": -83.9744262,
+      "location": "Forsyth, GA",
+      "links": [
+        {
+          "title": "LeMario Brown for State Senate Phone Bank - Monroe County",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878867/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878869,
+      "mobilize_id": 878869,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878869/",
+      "title": "LeMario Brown for State Senate Phone Bank - Upson County",
+      "begin": "2025-12-29",
+      "end": "2026-01-19",
+      "lat": 32.9047684,
+      "lng": -84.3121264,
+      "location": "Thomaston, GA",
+      "links": [
+        {
+          "title": "LeMario Brown for State Senate Phone Bank - Upson County",
+          "href": "https://www.mobilize.us/georgiademocrats/event/878869/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 878873,
+      "mobilize_id": 878873,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878873/",
+      "title": "\"The Last Republican\" - MOCI Movie Night on Zoom",
+      "begin": "2026-01-06",
+      "end": "2026-01-06",
+      "lat": 38.4948194,
+      "lng": -107.71625,
+      "location": "Montrose, CO",
+      "links": [
+        {
+          "title": "\"The Last Republican\" - MOCI Movie Night on Zoom",
+          "href": "https://www.mobilize.us/montroseandouraycountiesindivisible/event/878873/"
         }
       ],
       "_src": "mobilize"
