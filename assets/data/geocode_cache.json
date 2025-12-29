@@ -5119,10 +5119,6 @@
     "lat": 41.139981,
     "lng": -104.820246
   },
-  "Mundelein, IL": {
-    "lat": 42.263079,
-    "lng": -88.0039653
-  },
   "Hamilton, MA": {
     "lat": 42.6362052,
     "lng": -70.8431049
@@ -5202,6 +5198,26 @@
   "Tewksbury, NJ": {
     "lat": 40.68446,
     "lng": -74.77873
+  },
+  "Fernandina Beach, FL": {
+    "lat": 30.6712285,
+    "lng": -81.4630025
+  },
+  "Hutchinson, MN": {
+    "lat": 44.8877401,
+    "lng": -94.3697057
+  },
+  "Moorhead, MN": {
+    "lat": 46.8739081,
+    "lng": -96.7538674
+  },
+  "Breckenridge, MN": {
+    "lat": 46.265205,
+    "lng": -96.581626
+  },
+  "Elbow Lake, MN": {
+    "lat": 45.994127,
+    "lng": -95.976721
   },
   "Paul, Zillah, WA": {
     "lat": null,
