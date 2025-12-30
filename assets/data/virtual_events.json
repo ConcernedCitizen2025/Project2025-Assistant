@@ -34,6 +34,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 796380,
+      "mobilize_id": 796380,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
+      "title": "District59 Virtual Office Hours / Training",
+      "begin": "2026-01-07",
+      "end": "2026-02-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "District59 Virtual Office Hours / Training",
+          "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 557062,
       "mobilize_id": 557062,
       "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
@@ -65,6 +83,24 @@
         {
           "title": "Virtual Meet & Greet with Eileen Laubacher",
           "href": "https://www.mobilize.us/eileenforcolorado/event/878634/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 879082,
+      "mobilize_id": 879082,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/879082/",
+      "title": "Special Election for Senate District 14 (Brian Nathan!) Virtual Phone Bank",
+      "begin": "2026-01-14",
+      "end": "2026-01-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Special Election for Senate District 14 (Brian Nathan!) Virtual Phone Bank",
+          "href": "https://www.mobilize.us/hillsboroughcountydec/event/879082/"
         }
       ],
       "_src": "mobilize"
