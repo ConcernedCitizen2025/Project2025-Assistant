@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-29",
+  "cutoffStr": "2025-12-30",
   "lookbackDays": 1,
   "totals": {
-    "all": 4381,
-    "geoKept": 4359,
+    "all": 4498,
+    "geoKept": 4479,
     "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 4351,
-      "recent": 4348,
-      "withCoords": 3722,
-      "keptGeo": 3719,
-      "keptVirt": 629,
+      "total": 4469,
+      "recent": 4467,
+      "withCoords": 3820,
+      "keptGeo": 3818,
+      "keptVirt": 649,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,41 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 24,
-      "recent": 22,
-      "withCoords": 23,
-      "keptGeo": 21,
+      "total": 23,
+      "recent": 23,
+      "withCoords": 22,
+      "keptGeo": 22,
       "keptVirt": 1,
-      "sampleDroppedByDate": [
-        {
-          "title": "New Years Revolution Rally",
-          "begin": "2025-12-28",
-          "end": "2025-12-28",
-          "lat": 47.602429,
-          "lng": -122.337361,
-          "location": "801 Alaskan Way, Seattle, WA 98104, United States of America, Seattle",
-          "links": [
-            {
-              "title": "New Years Revolution Rally",
-              "href": "https://events.pol-rev.com/events/d5bfc2a4-2fb0-4cfb-aa0b-163f321b7dd8"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidary Action",
-          "begin": "2025-12-28",
-          "end": "2025-12-28",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidary Action",
-              "href": "https://events.pol-rev.com/events/e8ed81d5-16d7-4948-9107-e89651a97dcd"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "January 6 Defense of The Constitution",
