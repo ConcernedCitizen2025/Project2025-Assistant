@@ -5055,10 +5055,6 @@
     "lat": 41.6005435,
     "lng": -72.8782941
   },
-  "Pinetop-Lakeside, AZ": {
-    "lat": 34.1448702,
-    "lng": -109.9584743
-  },
   "Park Forest, IL": {
     "lat": 41.4825788,
     "lng": -87.6802344
@@ -5106,10 +5102,6 @@
   "Murphy, TX": {
     "lat": 33.0151208,
     "lng": -96.6130478
-  },
-  "Cheyenne, WY": {
-    "lat": 41.139981,
-    "lng": -104.820246
   },
   "Hamilton, MA": {
     "lat": 42.6362052,
@@ -5191,6 +5183,10 @@
     "lat": 30.6712285,
     "lng": -81.4630025
   },
+  "Riverdale, GA": {
+    "lat": 33.5726113,
+    "lng": -84.4132594
+  },
   "Hutchinson, MN": {
     "lat": 44.8877401,
     "lng": -94.3697057
@@ -5230,6 +5226,46 @@
   "Sunset Valley, TX": {
     "lat": 30.2258039,
     "lng": -97.8149651
+  },
+  "Tarboro, NC": {
+    "lat": 35.8968236,
+    "lng": -77.5358049
+  },
+  "Gladstone, OR": {
+    "lat": 45.3803261,
+    "lng": -122.5945507
+  },
+  "Brookside Village, TX": {
+    "lat": 29.5868996,
+    "lng": -95.3252152
+  },
+  "Kankakee, IL": {
+    "lat": 41.1253903,
+    "lng": -87.848682
+  },
+  "Florence, SC": {
+    "lat": 34.1984435,
+    "lng": -79.7671658
+  },
+  "Maywood, IL": {
+    "lat": 41.8789942,
+    "lng": -87.8436412
+  },
+  "Oak Park, IL": {
+    "lat": 41.8878145,
+    "lng": -87.7887615
+  },
+  "Coeur d'Alene, ID": {
+    "lat": 47.6742994,
+    "lng": -116.7811531
+  },
+  "Sugar Land, TX": {
+    "lat": 29.6196787,
+    "lng": -95.6349463
+  },
+  "Humboldt County Courthouse, Eureka California": {
+    "lat": 40.8029348,
+    "lng": -124.1623953
   },
   "Paul, Zillah, WA": {
     "lat": null,
