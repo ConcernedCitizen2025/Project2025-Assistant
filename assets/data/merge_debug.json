@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2025-12-31",
+  "cutoffStr": "2026-01-01",
   "lookbackDays": 1,
   "totals": {
-    "all": 4576,
-    "geoKept": 4553,
+    "all": 4631,
+    "geoKept": 4610,
     "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 4545,
-      "recent": 4543,
-      "withCoords": 3875,
-      "keptGeo": 3873,
-      "keptVirt": 670,
+      "total": 4604,
+      "recent": 4602,
+      "withCoords": 3922,
+      "keptGeo": 3920,
+      "keptVirt": 682,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,51 +109,37 @@
       ]
     },
     "mobilizon": {
-      "total": 25,
-      "recent": 21,
-      "withCoords": 23,
-      "keptGeo": 19,
+      "total": 21,
+      "recent": 19,
+      "withCoords": 19,
+      "keptGeo": 17,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "Demonstrate to Support Artists at the Kennedy Center",
-          "begin": "2025-12-30",
-          "end": "2025-12-30",
-          "lat": 38.8957359,
-          "lng": -77.0557586,
-          "location": "John F. Kennedy Center for the Performing Arts, 2700 F Street Northwest, Washington, DC 20566, United States of America, Washington",
+          "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+          "begin": "2025-12-31",
+          "end": "2025-12-31",
+          "lat": 33.4974465,
+          "lng": -112.0838942,
+          "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
           "links": [
             {
-              "title": "Demonstrate to Support Artists at the Kennedy Center",
-              "href": "https://events.pol-rev.com/events/a646c3b2-688e-4b67-8f8b-00d12d9837fe"
+              "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+              "href": "https://events.pol-rev.com/events/c5e9d284-44c5-4ea3-bfb6-381c2d2ad218"
             }
           ]
         },
         {
-          "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-          "begin": "2025-12-30",
-          "end": "2025-12-30",
-          "lat": 33.4508244,
-          "lng": -112.0830871,
-          "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+          "title": "RhRR @ Moon Valley in North Central Phoenix",
+          "begin": "2025-12-31",
+          "end": "2025-12-31",
+          "lat": 33.6261453,
+          "lng": -112.0663766,
+          "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
           "links": [
             {
-              "title": "RhRR @ ICE/Social Security Admin Building in Phoenix",
-              "href": "https://events.pol-rev.com/events/83895491-5faf-4528-8c85-d93e75578989"
-            }
-          ]
-        },
-        {
-          "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-          "begin": "2025-12-30",
-          "end": "2025-12-30",
-          "lat": 33.2196363,
-          "lng": -111.5631059,
-          "location": "37480 North Gantzel Road, Pinal County, AZ 85140, United States of America, Pinal County",
-          "links": [
-            {
-              "title": "RhRR @ Combs & N. Gantzel in San Tan Valley/Queen Creek",
-              "href": "https://events.pol-rev.com/events/bb4762e2-5cd6-42c1-8098-616729e0d652"
+              "title": "RhRR @ Moon Valley in North Central Phoenix",
+              "href": "https://events.pol-rev.com/events/1adbc958-996a-4f71-80a9-ec6a36626228"
             }
           ]
         }
