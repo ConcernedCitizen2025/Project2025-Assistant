@@ -4979,10 +4979,6 @@
     "lat": 40.6409555,
     "lng": -74.383846
   },
-  "Page County, VA": {
-    "lat": 38.6002354,
-    "lng": -78.5016516
-  },
   "Libertyville, IL": {
     "lat": 42.2830786,
     "lng": -87.9531303
@@ -5123,6 +5119,10 @@
     "lat": 35.595363,
     "lng": -82.5508407
   },
+  "Muscatine, IA": {
+    "lat": 41.4776121,
+    "lng": -91.1210053
+  },
   "Maplewood, MO": {
     "lat": 38.6125521,
     "lng": -90.3245599
@@ -5138,10 +5138,6 @@
   "Olympia, WA": {
     "lat": 47.0451022,
     "lng": -122.8950075
-  },
-  "Springfield, IL": {
-    "lat": 39.7990175,
-    "lng": -89.6439575
   },
   "Edwardsville, IL": {
     "lat": 38.8114364,
@@ -5231,6 +5227,14 @@
     "lat": 30.2258039,
     "lng": -97.8149651
   },
+  "Springfield, IL": {
+    "lat": 39.7990175,
+    "lng": -89.6439575
+  },
+  "Bradenton, FL": {
+    "lat": 27.4989278,
+    "lng": -82.5748194
+  },
   "Tarboro, NC": {
     "lat": 35.8968236,
     "lng": -77.5358049
@@ -5238,6 +5242,10 @@
   "Gladstone, OR": {
     "lat": 45.3803261,
     "lng": -122.5945507
+  },
+  "South Orange Village, NJ": {
+    "lat": 40.7451082,
+    "lng": -74.2614099
   },
   "Brookside Village, TX": {
     "lat": 29.5868996,
@@ -5250,6 +5258,10 @@
   "Florence, SC": {
     "lat": 34.1984435,
     "lng": -79.7671658
+  },
+  "Hanson, MA": {
+    "lat": 42.0753081,
+    "lng": -70.8800559
   },
   "Maywood, IL": {
     "lat": 41.8789942,
@@ -5318,6 +5330,34 @@
   "Plymouth, MI": {
     "lat": 42.3712,
     "lng": -83.4675021
+  },
+  "Gardner, MA": {
+    "lat": 42.5763523,
+    "lng": -71.9952737
+  },
+  "Boonton, NJ": {
+    "lat": 40.9025989,
+    "lng": -74.4070971
+  },
+  "Norwood, OH": {
+    "lat": 39.1556149,
+    "lng": -84.4596641
+  },
+  "Anamosa, IA": {
+    "lat": 42.1083371,
+    "lng": -91.2851594
+  },
+  "Maquoketa, IA": {
+    "lat": 42.0690915,
+    "lng": -90.6654748
+  },
+  "Pleasantville, IA": {
+    "lat": 41.3867741,
+    "lng": -93.2694768
+  },
+  "Knoxville, IA": {
+    "lat": 41.3183891,
+    "lng": -93.0971358
   },
   "Humboldt County Courthouse, Eureka California": {
     "lat": 40.8029348,
