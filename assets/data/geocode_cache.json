@@ -4855,10 +4855,6 @@
     "lat": 35.7974807,
     "lng": -82.6839313
   },
-  "Hampden, MA": {
-    "lat": 42.1285315,
-    "lng": -72.6063441
-  },
   "Bloomington, IN": {
     "lat": 39.1670396,
     "lng": -86.5342881
@@ -4966,10 +4962,6 @@
   "Triangle, VA": {
     "lat": 38.547356,
     "lng": -77.3215757
-  },
-  "Salkum, WA": {
-    "lat": 46.5320515,
-    "lng": -122.625947
   },
   "Neptune Beach, FL": {
     "lat": 30.311908,
@@ -5127,10 +5119,6 @@
     "lat": 38.6125521,
     "lng": -90.3245599
   },
-  "San Clemente, CA": {
-    "lat": 33.4270275,
-    "lng": -117.6124179
-  },
   "Palm Beach Gardens, FL": {
     "lat": 26.8233946,
     "lng": -80.1386547
@@ -5142,6 +5130,10 @@
   "Edwardsville, IL": {
     "lat": 38.8114364,
     "lng": -89.953157
+  },
+  "Croton-on-Hudson, NY": {
+    "lat": 41.2088215,
+    "lng": -73.8905175
   },
   "Newton, NC": {
     "lat": 35.6630887,
@@ -5202,10 +5194,6 @@
   "West Hartford, CT": {
     "lat": 41.7620447,
     "lng": -72.7420399
-  },
-  "Nutley, NJ": {
-    "lat": 40.8223223,
-    "lng": -74.1598663
   },
   "Crookston, MN": {
     "lat": 47.7739988,
@@ -5358,6 +5346,30 @@
   "Knoxville, IA": {
     "lat": 41.3183891,
     "lng": -93.0971358
+  },
+  "Huntington Beach, CA": {
+    "lat": 33.6783336,
+    "lng": -118.000016
+  },
+  "Lebanon, TN": {
+    "lat": 36.2079779,
+    "lng": -86.2910945
+  },
+  "Sebastian, FL": {
+    "lat": 27.817357,
+    "lng": -80.4694039
+  },
+  "River Falls, WI": {
+    "lat": 44.8596498,
+    "lng": -92.6255048
+  },
+  "Tyler, TX": {
+    "lat": 32.3512601,
+    "lng": -95.3010624
+  },
+  "Saugerties, NY": {
+    "lat": 42.0775906,
+    "lng": -73.9529126
   },
   "Humboldt County Courthouse, Eureka California": {
     "lat": 40.8029348,

@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-03",
+  "cutoffStr": "2026-01-04",
   "lookbackDays": 1,
   "totals": {
-    "all": 5098,
-    "geoKept": 5078,
+    "all": 5163,
+    "geoKept": 5141,
     "virtKept": 11
   },
   "perSource": {
     "mobilize": {
-      "total": 5053,
-      "recent": 5050,
-      "withCoords": 4295,
-      "keptGeo": 4292,
-      "keptVirt": 758,
+      "total": 5117,
+      "recent": 5114,
+      "withCoords": 4340,
+      "keptGeo": 4337,
+      "keptVirt": 777,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -94,7 +94,7 @@
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
           "begin": "2026-01-04",
-          "end": "2026-02-22",
+          "end": "2026-03-08",
           "lat": null,
           "lng": null,
           "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
@@ -127,12 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 39,
-      "recent": 39,
-      "withCoords": 37,
-      "keptGeo": 37,
+      "total": 40,
+      "recent": 38,
+      "withCoords": 38,
+      "keptGeo": 36,
       "keptVirt": 2,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Trump Takedown",
+          "begin": "2026-01-03",
+          "end": "2026-01-03",
+          "lat": 42.3480424,
+          "lng": -71.082783,
+          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "links": [
+            {
+              "title": "Trump Takedown",
+              "href": "https://events.pol-rev.com/events/8eeb0797-3f8b-4d07-9967-504ab59bd3c7"
+            }
+          ]
+        },
+        {
+          "title": "Still NO KINGS Saturday - Dedham Tesla",
+          "begin": "2026-01-03",
+          "end": "2026-01-03",
+          "lat": 42.2359433,
+          "lng": -71.1782556,
+          "location": "Tesla, 840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "Still NO KINGS Saturday - Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/35afcf1a-52d4-4dde-ae28-eee5267e2bb9"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Women's March \"Free America\"",
