@@ -142,6 +142,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU HCIIMK: Weekly Phonebanks",
+      "begin": "2026-01-20",
+      "end": "2026-02-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU HCIIMK: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 880765,
+      "mobilize_id": 880765,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880765/",
+      "title": "Washington State Adopt a Day Labor Corner Virtual Check-In",
+      "begin": "2026-01-22",
+      "end": "2026-01-22",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WA",
+      "links": [
+        {
+          "title": "Washington State Adopt a Day Labor Corner Virtual Check-In",
+          "href": "https://www.mobilize.us/ndlon/event/880765/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",

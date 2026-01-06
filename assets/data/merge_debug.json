@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-04",
+  "cutoffStr": "2026-01-05",
   "lookbackDays": 1,
   "totals": {
-    "all": 5163,
-    "geoKept": 5141,
-    "virtKept": 11
+    "all": 5484,
+    "geoKept": 5457,
+    "virtKept": 13
   },
   "perSource": {
     "mobilize": {
-      "total": 5117,
-      "recent": 5114,
-      "withCoords": 4340,
-      "keptGeo": 4337,
-      "keptVirt": 777,
+      "total": 5438,
+      "recent": 5436,
+      "withCoords": 4630,
+      "keptGeo": 4628,
+      "keptVirt": 808,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -49,24 +49,6 @@
             }
           ],
           "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
-            }
-          ],
-          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -93,7 +75,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-01-04",
+          "begin": "2026-01-11",
           "end": "2026-03-08",
           "lat": null,
           "lng": null,
@@ -128,36 +110,50 @@
     },
     "mobilizon": {
       "total": 40,
-      "recent": 38,
+      "recent": 34,
       "withCoords": 38,
-      "keptGeo": 36,
+      "keptGeo": 32,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "Trump Takedown",
-          "begin": "2026-01-03",
-          "end": "2026-01-03",
-          "lat": 42.3480424,
-          "lng": -71.082783,
-          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "title": "No War Rally at Columbia Center Blvd",
+          "begin": "2026-01-04",
+          "end": "2026-01-04",
+          "lat": 46.2261332,
+          "lng": -119.2239161,
+          "location": "Columbia Center Boulevard, Kennewick, WA 99338, United States of America, Kennewick",
           "links": [
             {
-              "title": "Trump Takedown",
-              "href": "https://events.pol-rev.com/events/8eeb0797-3f8b-4d07-9967-504ab59bd3c7"
+              "title": "No War Rally at Columbia Center Blvd",
+              "href": "https://events.pol-rev.com/events/9444bb0a-f31a-4675-be35-b4e1f855a961"
             }
           ]
         },
         {
-          "title": "Still NO KINGS Saturday - Dedham Tesla",
-          "begin": "2026-01-03",
-          "end": "2026-01-03",
-          "lat": 42.2359433,
-          "lng": -71.1782556,
-          "location": "Tesla, 840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "title": "No War on Venezuela - Minot, ND",
+          "begin": "2026-01-04",
+          "end": "2026-01-04",
+          "lat": 48.23251,
+          "lng": -101.29627,
+          "location": "Minot, North Dakota, United States of America, Minot",
           "links": [
             {
-              "title": "Still NO KINGS Saturday - Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/35afcf1a-52d4-4dde-ae28-eee5267e2bb9"
+              "title": "No War on Venezuela - Minot, ND",
+              "href": "https://events.pol-rev.com/events/4cf6a2d0-5dd3-46d4-b936-c99a4452e40b"
+            }
+          ]
+        },
+        {
+          "title": "West Seattle Resist: Sunday Solidary Action",
+          "begin": "2026-01-04",
+          "end": "2026-01-04",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
+          "links": [
+            {
+              "title": "West Seattle Resist: Sunday Solidary Action",
+              "href": "https://events.pol-rev.com/events/021e264a-501f-4519-9bcd-b5e85f4d2d37"
             }
           ]
         }
