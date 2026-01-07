@@ -34,6 +34,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 878833,
+      "mobilize_id": 878833,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/878833/",
+      "title": "VIRTUAL LINK: San Francisco Congressional Candidate Forum",
+      "begin": "2026-01-07",
+      "end": "2026-01-07",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "VIRTUAL LINK: San Francisco Congressional Candidate Forum",
+          "href": "https://www.mobilize.us/ca-wfp/event/878833/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 879796,
+      "mobilize_id": 879796,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/879796/",
+      "title": "Foothills Democracy Defenders - Meet the Candidates - Jerry DiTullio - Candidate for State Treasurer",
+      "begin": "2026-01-08",
+      "end": "2026-01-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Foothills Democracy Defenders - Meet the Candidates - Jerry DiTullio - Candidate for State Treasurer",
+          "href": "https://www.mobilize.us/foothillsdd/event/879796/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -155,6 +191,24 @@
         {
           "title": "SEIU HCIIMK: Weekly Phonebanks",
           "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 749182,
+      "mobilize_id": 749182,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/749182/",
+      "title": "Communications Meeting",
+      "begin": "2026-01-21",
+      "end": "2026-01-21",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Communications Meeting",
+          "href": "https://www.mobilize.us/semdems/event/749182/"
         }
       ],
       "_src": "mobilize"

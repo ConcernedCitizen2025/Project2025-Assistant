@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-05",
+  "cutoffStr": "2026-01-06",
   "lookbackDays": 1,
   "totals": {
-    "all": 5484,
-    "geoKept": 5457,
-    "virtKept": 13
+    "all": 5780,
+    "geoKept": 5754,
+    "virtKept": 16
   },
   "perSource": {
     "mobilize": {
-      "total": 5438,
-      "recent": 5436,
-      "withCoords": 4630,
-      "keptGeo": 4628,
-      "keptVirt": 808,
+      "total": 5737,
+      "recent": 5734,
+      "withCoords": 4883,
+      "keptGeo": 4880,
+      "keptVirt": 854,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,51 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 40,
-      "recent": 34,
-      "withCoords": 38,
-      "keptGeo": 32,
+      "total": 37,
+      "recent": 36,
+      "withCoords": 35,
+      "keptGeo": 34,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "No War Rally at Columbia Center Blvd",
-          "begin": "2026-01-04",
-          "end": "2026-01-04",
-          "lat": 46.2261332,
-          "lng": -119.2239161,
-          "location": "Columbia Center Boulevard, Kennewick, WA 99338, United States of America, Kennewick",
+          "title": "JAN6 - Impeach. Convict. Evict.",
+          "begin": "2026-01-05",
+          "end": "2026-01-05",
+          "lat": 38.8976387,
+          "lng": -77.0365528,
+          "location": "White House, 1600 Pennsylvania Avenue Northwest, Washington, DC 20500, United States of America, Washington",
           "links": [
             {
-              "title": "No War Rally at Columbia Center Blvd",
-              "href": "https://events.pol-rev.com/events/9444bb0a-f31a-4675-be35-b4e1f855a961"
-            }
-          ]
-        },
-        {
-          "title": "No War on Venezuela - Minot, ND",
-          "begin": "2026-01-04",
-          "end": "2026-01-04",
-          "lat": 48.23251,
-          "lng": -101.29627,
-          "location": "Minot, North Dakota, United States of America, Minot",
-          "links": [
-            {
-              "title": "No War on Venezuela - Minot, ND",
-              "href": "https://events.pol-rev.com/events/4cf6a2d0-5dd3-46d4-b936-c99a4452e40b"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidary Action",
-          "begin": "2026-01-04",
-          "end": "2026-01-04",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidary Action",
-              "href": "https://events.pol-rev.com/events/021e264a-501f-4519-9bcd-b5e85f4d2d37"
+              "title": "JAN6 - Impeach. Convict. Evict.",
+              "href": "https://events.pol-rev.com/events/a841f51e-9ddb-456a-b545-25ab91fc34c4"
             }
           ]
         }
