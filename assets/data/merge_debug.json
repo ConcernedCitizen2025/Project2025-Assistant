@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-07",
+  "cutoffStr": "2026-01-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 5985,
-    "geoKept": 5954,
-    "virtKept": 15
+    "all": 6556,
+    "geoKept": 6531,
+    "virtKept": 16
   },
   "perSource": {
     "mobilize": {
-      "total": 5943,
-      "recent": 5940,
-      "withCoords": 5066,
-      "keptGeo": 5063,
-      "keptVirt": 877,
+      "total": 6514,
+      "recent": 6512,
+      "withCoords": 5596,
+      "keptGeo": 5594,
+      "keptVirt": 918,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -28,24 +28,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
               "href": "https://www.mobilize.us/nokings/event/867978/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869819,
-          "mobilize_id": 869819,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869819/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
-          "begin": "2025-11-15",
-          "end": "2025-11-15",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
-              "href": "https://www.mobilize.us/nokings/event/869819/"
             }
           ],
           "_src": "mobilize"
@@ -128,50 +110,22 @@
     },
     "mobilizon": {
       "total": 36,
-      "recent": 29,
+      "recent": 35,
       "withCoords": 34,
-      "keptGeo": 28,
-      "keptVirt": 1,
+      "keptGeo": 33,
+      "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "ESTES PARK Takes Back January 6th for the Nation",
-          "begin": "2026-01-06",
-          "end": "2026-01-06",
-          "lat": 40.3775598,
-          "lng": -105.5203746,
-          "location": "170 Macgregor Avenue, Estes Park, CO 80517, United States of America, Estes Park",
+          "title": "Resistance Readers 50501 Book Club: When No is Not Enough by Naomi Klein",
+          "begin": "2026-01-07",
+          "end": "2026-01-07",
+          "lat": 40.4765409,
+          "lng": -88.9914247,
+          "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
           "links": [
             {
-              "title": "ESTES PARK Takes Back January 6th for the Nation",
-              "href": "https://events.pol-rev.com/events/4cdb75c0-094f-4826-bb14-3e35e0d73f82"
-            }
-          ]
-        },
-        {
-          "title": "Coffee Coalition Jan 6th Protest Rally",
-          "begin": "2026-01-06",
-          "end": "2026-01-06",
-          "lat": 28.83582,
-          "lng": -82.33037,
-          "location": "Inverness, Florida, United States of America, Inverness",
-          "links": [
-            {
-              "title": "Coffee Coalition Jan 6th Protest Rally",
-              "href": "https://events.pol-rev.com/events/1ebb19f5-b668-4269-90ec-7f861ca04205"
-            }
-          ]
-        },
-        {
-          "title": "RECLAIM January 6th: OUR DAY, OUR DEMOCRACY",
-          "begin": "2026-01-06",
-          "end": "2026-01-06",
-          "lat": 47.4068513,
-          "lng": -122.3249503,
-          "location": "21815 Marine View Drive South, Des Moines, WA 98198, United States of America, Des Moines",
-          "links": [
-            {
-              "title": "RECLAIM January 6th: OUR DAY, OUR DEMOCRACY",
-              "href": "https://events.pol-rev.com/events/31fbb2cf-394e-44e9-974c-b66f6b3d0678"
+              "title": "Resistance Readers 50501 Book Club: When No is Not Enough by Naomi Klein",
+              "href": "https://events.pol-rev.com/events/988e10e1-60cf-4323-afef-f61dd56e1ba4"
             }
           ]
         }
@@ -188,6 +142,20 @@
             {
               "title": "Women's March \"Free America\"",
               "href": "https://events.pol-rev.com/events/8f7f820f-31d7-47f7-97a2-e2713fbf80a4"
+            }
+          ]
+        },
+        {
+          "title": "The Future of Lee County Schools",
+          "begin": "2026-01-15",
+          "end": "2026-01-15",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "The Future of Lee County Schools",
+              "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
             }
           ]
         }
