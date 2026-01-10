@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 879796,
-      "mobilize_id": 879796,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/879796/",
-      "title": "Foothills Democracy Defenders - Meet the Candidates - Jerry DiTullio - Candidate for State Treasurer",
-      "begin": "2026-01-08",
-      "end": "2026-01-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Foothills Democracy Defenders - Meet the Candidates - Jerry DiTullio - Candidate for State Treasurer",
-          "href": "https://www.mobilize.us/foothillsdd/event/879796/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -155,6 +137,24 @@
         {
           "title": "Zoom Workshop: Writing public comments",
           "href": "https://www.mobilize.us/wallingfordindivisible /event/878058/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 881105,
+      "mobilize_id": 881105,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/881105/",
+      "title": "Webinar: 2026 Future Voters Network Ambassador Training",
+      "begin": "2026-01-18",
+      "end": "2026-01-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Webinar: 2026 Future Voters Network Ambassador Training",
+          "href": "https://www.mobilize.us/ncvp/event/881105/"
         }
       ],
       "_src": "mobilize"
