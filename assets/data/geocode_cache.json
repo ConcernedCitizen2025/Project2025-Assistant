@@ -4987,6 +4987,10 @@
     "lat": 40.2663107,
     "lng": -76.8861122
   },
+  "Spring Lake, NC": {
+    "lat": 35.1679396,
+    "lng": -78.9728056
+  },
   "Artesia, CA": {
     "lat": 33.8653563,
     "lng": -118.0806221
@@ -5126,10 +5130,6 @@
   "Fernandina Beach, FL": {
     "lat": 30.6712285,
     "lng": -81.4630025
-  },
-  "Hutchinson, MN": {
-    "lat": 44.8877401,
-    "lng": -94.3697057
   },
   "Moorhead, MN": {
     "lat": 46.8739081,
@@ -5439,17 +5439,9 @@
     "lat": 36.0959715,
     "lng": -79.2669619
   },
-  "Port Jefferson, NY": {
-    "lat": 40.9465118,
-    "lng": -73.0691257
-  },
   "Pleasant Garden, NC": {
     "lat": 35.9621197,
     "lng": -79.762131
-  },
-  "Short Hills, NJ": {
-    "lat": 40.7381585,
-    "lng": -74.3377392
   },
   "Glen Carbon, IL": {
     "lat": 38.7483814,
@@ -5458,10 +5450,6 @@
   "Sedona, AZ": {
     "lat": 34.8688613,
     "lng": -111.7614394
-  },
-  "Reston, VA": {
-    "lat": 38.953282,
-    "lng": -77.3464516
   },
   "Kansas City, KS": {
     "lat": 39.1134562,
@@ -5539,9 +5527,9 @@
     "lat": 45.6835405,
     "lng": -121.398518
   },
-  "Amherst, MA": {
-    "lat": 42.3731948,
-    "lng": -72.5198761
+  "Lansing, MI": {
+    "lat": 42.7338254,
+    "lng": -84.5546295
   },
   "Eastham, MA": {
     "lat": 41.8305937,
@@ -5554,14 +5542,6 @@
   "Monroe, NC": {
     "lat": 34.9854275,
     "lng": -80.5495112
-  },
-  "St. Joseph, MI": {
-    "lat": 41.9031963,
-    "lng": -85.5356726
-  },
-  "Prince William County, VA": {
-    "lat": 38.7389846,
-    "lng": -77.5536743
   },
   "Big Bear Lake, CA": {
     "lat": 34.2440587,
@@ -5691,6 +5671,10 @@
     "lat": 38.5492801,
     "lng": -75.2457443
   },
+  "Montville, NJ": {
+    "lat": 40.9148209,
+    "lng": -74.383763
+  },
   "Rockwall, TX": {
     "lat": 32.8923464,
     "lng": -96.4066987
@@ -5698,10 +5682,6 @@
   "Verona, WI": {
     "lat": 42.9905492,
     "lng": -89.5335575
-  },
-  "Batavia, OH": {
-    "lat": 39.0770072,
-    "lng": -84.1768795
   },
   "East Lyme, CT": {
     "lat": 41.3482141,
@@ -5723,6 +5703,10 @@
     "lat": 37.0065078,
     "lng": -121.5631723
   },
+  "Leonia, NJ": {
+    "lat": 40.8617353,
+    "lng": -73.9880495
+  },
   "Lufkin, TX": {
     "lat": 31.3386242,
     "lng": -94.7288558
@@ -5739,16 +5723,76 @@
     "lat": 40.8174216,
     "lng": -74.3954057
   },
+  "Howell, MI": {
+    "lat": 42.6072552,
+    "lng": -83.9293952
+  },
   "Centreville, VA": {
     "lat": 38.837613,
     "lng": -77.4347283
+  },
+  "Brevard, NC": {
+    "lat": 35.2334472,
+    "lng": -82.7342919
   },
   "Jonesboro, GA": {
     "lat": 33.5215013,
     "lng": -84.3538128
   },
-  "Humboldt County Courthouse, Eureka California": {
-    "lat": 40.8029348,
-    "lng": -124.1623953
+  "Dickson, TN": {
+    "lat": 36.1459327,
+    "lng": -87.3480592
+  },
+  "Westfield, NJ": {
+    "lat": 40.651726,
+    "lng": -74.3483059
+  },
+  "Greenville, NY": {
+    "lat": 41.3606496,
+    "lng": -74.6165503
+  },
+  "Whitmore Lake, MI": {
+    "lat": 42.439479,
+    "lng": -83.7438303
+  },
+  "Hercules, CA": {
+    "lat": 38.0171441,
+    "lng": -122.2885808
+  },
+  "Kenton, OH": {
+    "lat": 40.6478171,
+    "lng": -83.6089968
+  },
+  "Hampton Falls, NH": {
+    "lat": 42.9164147,
+    "lng": -70.8646837
+  },
+  "Willow Grove, PA": {
+    "lat": 40.1507046,
+    "lng": -75.1162306
+  },
+  "Minden, NV": {
+    "lat": 38.9533009,
+    "lng": -119.7636621
+  },
+  "Dover, DE": {
+    "lat": 39.158168,
+    "lng": -75.5243682
+  },
+  "Carson City, NV": {
+    "lat": 39.1663259,
+    "lng": -119.7670374
+  },
+  "Yerington, NV": {
+    "lat": 38.9855429,
+    "lng": -119.162989
+  },
+  "Sharon, MA": {
+    "lat": 42.1237328,
+    "lng": -71.1787282
+  },
+  "Poulsbo Waterfront Park, Poulsbo, WA": {
+    "lat": null,
+    "lng": null
   }
 }

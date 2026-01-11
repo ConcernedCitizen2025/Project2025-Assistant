@@ -1,22 +1,19 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-01-09",
-      "end": "2026-01-31",
+      "title": "Weekly Sunday Rally and March",
+      "begin": "2026-01-11",
+      "end": "2026-01-11",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "Poulsbo Waterfront Park, Poulsbo, WA",
       "links": [
         {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+          "title": "Weekly Sunday Rally and March",
+          "href": "https://events.pol-rev.com/events/ab0e2f8c-cf54-47b1-a8a2-aefba0a53d80"
         }
       ],
-      "_src": "mobilize"
+      "_src": "mobilizon"
     },
     {
       "_id": 557062,
@@ -137,6 +134,24 @@
         {
           "title": "Zoom Workshop: Writing public comments",
           "href": "https://www.mobilize.us/wallingfordindivisible /event/878058/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-01-17",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"

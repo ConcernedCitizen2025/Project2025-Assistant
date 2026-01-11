@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-09",
+  "cutoffStr": "2026-01-10",
   "lookbackDays": 1,
   "totals": {
-    "all": 7589,
-    "geoKept": 7565,
-    "virtKept": 16
+    "all": 7810,
+    "geoKept": 7781,
+    "virtKept": 17
   },
   "perSource": {
     "mobilize": {
-      "total": 7538,
-      "recent": 7536,
-      "withCoords": 6515,
-      "keptGeo": 6513,
-      "keptVirt": 1023,
+      "total": 7755,
+      "recent": 7753,
+      "withCoords": 6718,
+      "keptGeo": 6716,
+      "keptVirt": 1037,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,27 +109,56 @@
       ]
     },
     "mobilizon": {
-      "total": 45,
+      "total": 49,
       "recent": 45,
-      "withCoords": 43,
+      "withCoords": 47,
       "keptGeo": 43,
       "keptVirt": 2,
-      "sampleDroppedByDate": [],
-      "sampleDroppedByCoords": [
+      "sampleDroppedByDate": [
         {
-          "title": "Women's March \"Free America\"",
-          "begin": "2026-01-17",
-          "end": "2026-01-17",
-          "lat": null,
-          "lng": null,
-          "location": "Humboldt County Courthouse, Eureka California",
+          "title": "We are all Renee",
+          "begin": "2026-01-09",
+          "end": "2026-01-09",
+          "lat": 44.310825,
+          "lng": -69.7791664,
+          "location": "Memorial Circle, Augusta, ME 04330, United States of America, Augusta",
           "links": [
             {
-              "title": "Women's March \"Free America\"",
-              "href": "https://events.pol-rev.com/events/8f7f820f-31d7-47f7-97a2-e2713fbf80a4"
+              "title": "We are all Renee",
+              "href": "https://events.pol-rev.com/events/4a421424-2059-4a17-a49c-49caee4a43d4"
             }
           ]
         },
+        {
+          "title": "KILLER ICE OUT OF PORTLAND NOW!",
+          "begin": "2026-01-09",
+          "end": "2026-01-09",
+          "lat": 45.4976836,
+          "lng": -122.671725,
+          "location": "3508 South Moody Avenue, Portland, OR 97239, United States of America, Portland",
+          "links": [
+            {
+              "title": "KILLER ICE OUT OF PORTLAND NOW!",
+              "href": "https://events.pol-rev.com/events/68875538-d456-4b95-b154-e8a375650978"
+            }
+          ]
+        },
+        {
+          "title": "Candlelight Vigil for Renee Nicole Good",
+          "begin": "2026-01-09",
+          "end": "2026-01-09",
+          "lat": 42.8912883,
+          "lng": -78.8768694,
+          "location": "250 Delaware Avenue, Buffalo, NY 14202, United States of America, Buffalo",
+          "links": [
+            {
+              "title": "Candlelight Vigil for Renee Nicole Good",
+              "href": "https://events.pol-rev.com/events/6e48b6f7-a5fe-48b6-9701-4695dedec6ad"
+            }
+          ]
+        }
+      ],
+      "sampleDroppedByCoords": [
         {
           "title": "The Future of Lee County Schools",
           "begin": "2026-01-15",
@@ -141,6 +170,20 @@
             {
               "title": "The Future of Lee County Schools",
               "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
+            }
+          ]
+        },
+        {
+          "title": "Weekly Sunday Rally and March",
+          "begin": "2026-01-11",
+          "end": "2026-01-11",
+          "lat": null,
+          "lng": null,
+          "location": "Poulsbo Waterfront Park, Poulsbo, WA",
+          "links": [
+            {
+              "title": "Weekly Sunday Rally and March",
+              "href": "https://events.pol-rev.com/events/ab0e2f8c-cf54-47b1-a8a2-aefba0a53d80"
             }
           ]
         }
