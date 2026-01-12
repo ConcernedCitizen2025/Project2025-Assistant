@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "title": "Trump Takedown",
+      "date": "2026-05-02",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/6e4505bc-15a2-49c0-83fe-ca149cb558b3"
+    },
+    {
       "title": "West Seattle Resist: Sunday Solidarity Action",
       "date": "2026-04-26",
       "location": "West Seattle, Seattle",
@@ -33,6 +41,14 @@
       "link": "https://events.pol-rev.com/events/42cca5b5-e8c1-446f-a28b-52748e8cb281"
     },
     {
+      "title": "Trump Takedown",
+      "date": "2026-04-04",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/398dbd21-6539-4115-91d0-c5709edac519"
+    },
+    {
       "title": "West Seattle Resist: Sunday Solidarity Action",
       "date": "2026-03-29",
       "location": "West Seattle, Seattle",
@@ -63,6 +79,14 @@
       "lat": 47.5609682,
       "lng": -122.3871315,
       "link": "https://events.pol-rev.com/events/64a631f0-e39a-4006-a889-eefd095c3610"
+    },
+    {
+      "title": "Trump Takedown",
+      "date": "2026-03-07",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/a24c12d9-a344-4e30-a3f4-dd4cdb44e619"
     },
     {
       "title": "West Seattle Resist: Sunday Solidarity Action",
@@ -111,6 +135,14 @@
       "lat": 42.3480424,
       "lng": -71.082783,
       "link": "https://events.pol-rev.com/events/ac5c0026-0e97-4608-a310-3fba4c62d653"
+    },
+    {
+      "title": "Resistance Readers 50501 Book Club: Democracy Awakening by Heather Cox Richardson",
+      "date": "2026-02-04",
+      "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
+      "lat": 40.4765409,
+      "lng": -88.9914247,
+      "link": "https://events.pol-rev.com/events/eab406ef-0ec6-4666-90ca-72d94cb7833c"
     },
     {
       "title": "West Seattle Resist: Sunday Solidarity Action",
@@ -231,6 +263,14 @@
       "lat": 40.80213450553323,
       "lng": 235.83775873303333,
       "link": "https://events.pol-rev.com/events/b00ca627-34e6-454a-81e3-184884232322"
+    },
+    {
+      "title": "Protest One Year of Trump!  ICE out of Portland!",
+      "date": "2026-01-17",
+      "location": "Terry Schrunk Plaza, Downtown, Portland, Oregon, United States of America, Portland",
+      "lat": 45.5147932,
+      "lng": -122.6780149,
+      "link": "https://events.pol-rev.com/events/b6f00309-08e3-4a64-b7dc-7208ba649684"
     },
     {
       "title": "Justice For Good",
@@ -359,38 +399,6 @@
       "lat": 42.0772785,
       "lng": -78.4288518,
       "link": "https://events.pol-rev.com/events/035a543e-2a19-4ff6-88fb-76700c77ad3e"
-    },
-    {
-      "title": "We are all Renee",
-      "date": "2026-01-09",
-      "location": "Memorial Circle, Augusta, ME 04330, United States of America, Augusta",
-      "lat": 44.310825,
-      "lng": -69.7791664,
-      "link": "https://events.pol-rev.com/events/4a421424-2059-4a17-a49c-49caee4a43d4"
-    },
-    {
-      "title": "KILLER ICE OUT OF PORTLAND NOW!",
-      "date": "2026-01-09",
-      "location": "3508 South Moody Avenue, Portland, OR 97239, United States of America, Portland",
-      "lat": 45.4976836,
-      "lng": -122.671725,
-      "link": "https://events.pol-rev.com/events/68875538-d456-4b95-b154-e8a375650978"
-    },
-    {
-      "title": "Candlelight Vigil for Renee Nicole Good",
-      "date": "2026-01-09",
-      "location": "250 Delaware Avenue, Buffalo, NY 14202, United States of America, Buffalo",
-      "lat": 42.8912883,
-      "lng": -78.8768694,
-      "link": "https://events.pol-rev.com/events/6e48b6f7-a5fe-48b6-9701-4695dedec6ad"
-    },
-    {
-      "title": "ICE OUT For GOOD Protest",
-      "date": "2026-01-09",
-      "location": "Monroe County Courthouse, 100 West Kirkwood Avenue, Bloomington, IN 47404, United States of America, Bloomington",
-      "lat": 39.1670606,
-      "lng": -86.5342344,
-      "link": "https://events.pol-rev.com/events/4cfce63a-39ff-4246-a231-989beeff3d8d"
     }
   ]
 }
