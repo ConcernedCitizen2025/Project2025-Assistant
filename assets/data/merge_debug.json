@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-11",
+  "cutoffStr": "2026-01-12",
   "lookbackDays": 1,
   "totals": {
-    "all": 6876,
-    "geoKept": 6841,
+    "all": 6527,
+    "geoKept": 6497,
     "virtKept": 18
   },
   "perSource": {
     "mobilize": {
-      "total": 6820,
-      "recent": 6818,
-      "withCoords": 5894,
-      "keptGeo": 5892,
-      "keptVirt": 926,
+      "total": 6478,
+      "recent": 6476,
+      "withCoords": 5610,
+      "keptGeo": 5608,
+      "keptVirt": 868,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -75,7 +75,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-01-11",
+          "begin": "2026-01-18",
           "end": "2026-03-08",
           "lat": null,
           "lng": null,
@@ -109,51 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 50,
-      "recent": 41,
-      "withCoords": 48,
-      "keptGeo": 39,
-      "keptVirt": 2,
+      "total": 43,
+      "recent": 39,
+      "withCoords": 41,
+      "keptGeo": 38,
+      "keptVirt": 1,
       "sampleDroppedByDate": [
         {
-          "title": "ICE Out for Good - Bend",
-          "begin": "2026-01-10",
-          "end": "2026-01-10",
-          "lat": 44.05817,
-          "lng": -121.31531,
-          "location": "Bend, Oregon, United States of America, Bend",
+          "title": "General Meeting - West Seattle Indivisible",
+          "begin": "2026-01-11",
+          "end": "2026-01-11",
+          "lat": 47.5626534,
+          "lng": -122.386272,
+          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
           "links": [
             {
-              "title": "ICE Out for Good - Bend",
-              "href": "https://events.pol-rev.com/events/be77a1b3-3ae7-4679-bbfc-dce45b17ce93"
+              "title": "General Meeting - West Seattle Indivisible",
+              "href": "https://events.pol-rev.com/events/be8c7cb3-9e6d-4e14-92bc-1f3c5aea197a"
             }
           ]
         },
         {
-          "title": "ICE Out for Good - Redmond",
-          "begin": "2026-01-10",
-          "end": "2026-01-10",
-          "lat": 44.2726203,
-          "lng": -121.173921,
-          "location": "Redmond, Oregon, United States of America, Redmond",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-01-11",
+          "end": "2026-01-11",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "ICE Out for Good - Redmond",
-              "href": "https://events.pol-rev.com/events/ba08e80d-c353-4819-9177-4c5a90c7d199"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/64b714c0-1706-4498-b5f1-339c24ddd510"
             }
           ]
         },
         {
-          "title": "Rally against War, ICE Out of SLO County!",
-          "begin": "2026-01-10",
-          "end": "2026-01-10",
-          "lat": 35.278785,
-          "lng": -120.658543,
-          "location": "1400 Osos Street, San Luis Obispo, CA 93401, United States of America, San Luis Obispo",
+          "title": "ICE Out for Good Day of Action",
+          "begin": "2026-01-11",
+          "end": "2026-01-11",
+          "lat": 40.4977564,
+          "lng": -88.9522923,
+          "location": "Hy-Vee Gas, North Veterans Parkway, Bloomington, IL 61702, United States of America, Bloomington",
           "links": [
             {
-              "title": "Rally against War, ICE Out of SLO County!",
-              "href": "https://events.pol-rev.com/events/688c5dcb-4b16-454e-aee8-35dde8c7b63d"
+              "title": "ICE Out for Good Day of Action",
+              "href": "https://events.pol-rev.com/events/04f35ea6-dde2-4182-b83f-d79f7cee012e"
             }
           ]
         }
@@ -170,20 +170,6 @@
             {
               "title": "The Future of Lee County Schools",
               "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
-            }
-          ]
-        },
-        {
-          "title": "Weekly Sunday Rally and March",
-          "begin": "2026-01-11",
-          "end": "2026-01-11",
-          "lat": null,
-          "lng": null,
-          "location": "Poulsbo Waterfront Park, Poulsbo, WA",
-          "links": [
-            {
-              "title": "Weekly Sunday Rally and March",
-              "href": "https://events.pol-rev.com/events/ab0e2f8c-cf54-47b1-a8a2-aefba0a53d80"
             }
           ]
         }
