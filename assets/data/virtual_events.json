@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 557062,
-      "mobilize_id": 557062,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
-      "title": "Pasco County Democratic Executive Committee",
-      "begin": "2026-01-12",
-      "end": "2026-03-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Pasco County Democratic Executive Committee",
-          "href": "https://www.mobilize.us/pascocountydec/event/557062/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 796380,
       "mobilize_id": 796380,
       "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
@@ -304,6 +286,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 557062,
+      "mobilize_id": 557062,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/557062/",
+      "title": "Pasco County Democratic Executive Committee",
+      "begin": "2026-02-09",
+      "end": "2026-03-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Pasco County Democratic Executive Committee",
+          "href": "https://www.mobilize.us/pascocountydec/event/557062/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877745,
       "mobilize_id": 877745,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877745/",
@@ -317,6 +317,24 @@
         {
           "title": "Data Center Reform Lobby Day",
           "href": "https://www.mobilize.us/indivisible-nova-west/event/877745/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 884910,
+      "mobilize_id": 884910,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/884910/",
+      "title": "Workshop: Creating a Winning Voters' Pamphlet Statement",
+      "begin": "2026-02-21",
+      "end": "2026-02-21",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Workshop: Creating a Winning Voters' Pamphlet Statement",
+          "href": "https://www.mobilize.us/multnomahdemocrats/event/884910/"
         }
       ],
       "_src": "mobilize"

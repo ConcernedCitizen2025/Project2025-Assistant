@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-12",
+  "cutoffStr": "2026-01-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 6527,
-    "geoKept": 6497,
-    "virtKept": 18
+    "all": 6894,
+    "geoKept": 6865,
+    "virtKept": 19
   },
   "perSource": {
     "mobilize": {
-      "total": 6478,
-      "recent": 6476,
-      "withCoords": 5610,
-      "keptGeo": 5608,
-      "keptVirt": 868,
+      "total": 6848,
+      "recent": 6845,
+      "withCoords": 5929,
+      "keptGeo": 5926,
+      "keptVirt": 919,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,51 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 43,
+      "total": 40,
       "recent": 39,
-      "withCoords": 41,
+      "withCoords": 39,
       "keptGeo": 38,
       "keptVirt": 1,
       "sampleDroppedByDate": [
         {
-          "title": "General Meeting - West Seattle Indivisible",
-          "begin": "2026-01-11",
-          "end": "2026-01-11",
-          "lat": 47.5626534,
-          "lng": -122.386272,
-          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "title": "Ice Out Now",
+          "begin": "2026-01-12",
+          "end": "2026-01-12",
+          "lat": 42.8912883,
+          "lng": -78.8768694,
+          "location": "250 Delaware Avenue, Buffalo, NY 14202, United States of America, Buffalo",
           "links": [
             {
-              "title": "General Meeting - West Seattle Indivisible",
-              "href": "https://events.pol-rev.com/events/be8c7cb3-9e6d-4e14-92bc-1f3c5aea197a"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-01-11",
-          "end": "2026-01-11",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/64b714c0-1706-4498-b5f1-339c24ddd510"
-            }
-          ]
-        },
-        {
-          "title": "ICE Out for Good Day of Action",
-          "begin": "2026-01-11",
-          "end": "2026-01-11",
-          "lat": 40.4977564,
-          "lng": -88.9522923,
-          "location": "Hy-Vee Gas, North Veterans Parkway, Bloomington, IL 61702, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "ICE Out for Good Day of Action",
-              "href": "https://events.pol-rev.com/events/04f35ea6-dde2-4182-b83f-d79f7cee012e"
+              "title": "Ice Out Now",
+              "href": "https://events.pol-rev.com/events/4c8e9e42-21cc-4c47-a25f-6856b320bba5"
             }
           ]
         }
