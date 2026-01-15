@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-13",
+  "cutoffStr": "2026-01-14",
   "lookbackDays": 1,
   "totals": {
-    "all": 6894,
-    "geoKept": 6865,
-    "virtKept": 19
+    "all": 7287,
+    "geoKept": 7257,
+    "virtKept": 20
   },
   "perSource": {
     "mobilize": {
-      "total": 6848,
-      "recent": 6845,
-      "withCoords": 5929,
-      "keptGeo": 5926,
-      "keptVirt": 919,
+      "total": 7241,
+      "recent": 7238,
+      "withCoords": 6268,
+      "keptGeo": 6265,
+      "keptVirt": 973,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -75,7 +75,7 @@
           "mobilize_id": 437109,
           "canonical_mobilize_url": "https://www.mobilize.us/event/437109/",
           "title": "Baytown Area Democrats Club Meeting",
-          "begin": "2026-01-13",
+          "begin": "2026-02-10",
           "end": "2026-11-10",
           "lat": null,
           "lng": null,
@@ -134,16 +134,16 @@
       "keptVirt": 1,
       "sampleDroppedByDate": [
         {
-          "title": "Ice Out Now",
-          "begin": "2026-01-12",
-          "end": "2026-01-12",
-          "lat": 42.8912883,
-          "lng": -78.8768694,
-          "location": "250 Delaware Avenue, Buffalo, NY 14202, United States of America, Buffalo",
+          "title": "Toms River, NJ - Hold CD04 Congressman Chris Smith Accountable - Protect Democracy",
+          "begin": "2026-01-13",
+          "end": "2026-01-13",
+          "lat": 39.952803,
+          "lng": -74.195756,
+          "location": "Washington St, Toms River, Toms River",
           "links": [
             {
-              "title": "Ice Out Now",
-              "href": "https://events.pol-rev.com/events/4c8e9e42-21cc-4c47-a25f-6856b320bba5"
+              "title": "Toms River, NJ - Hold CD04 Congressman Chris Smith Accountable - Protect Democracy",
+              "href": "https://events.pol-rev.com/events/1226d6c4-30a2-439c-a496-8809062ca0ff"
             }
           ]
         }
