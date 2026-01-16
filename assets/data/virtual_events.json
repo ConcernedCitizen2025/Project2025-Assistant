@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 796380,
-      "mobilize_id": 796380,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
-      "title": "District59 Virtual Office Hours / Training",
-      "begin": "2026-01-14",
-      "end": "2026-02-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "District59 Virtual Office Hours / Training",
-          "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878634,
-      "mobilize_id": 878634,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878634/",
-      "title": "Virtual Meet & Greet with Eileen Laubacher",
-      "begin": "2026-01-14",
-      "end": "2026-01-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Meet & Greet with Eileen Laubacher",
-          "href": "https://www.mobilize.us/eileenforcolorado/event/878634/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 879082,
-      "mobilize_id": 879082,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/879082/",
-      "title": "Phone Bank with Sheree on Wednesdays! Special Election District 14 (Brian Nathan).",
-      "begin": "2026-01-14",
-      "end": "2026-01-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank with Sheree on Wednesdays! Special Election District 14 (Brian Nathan).",
-          "href": "https://www.mobilize.us/hillsboroughcountydec/event/879082/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -124,6 +70,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU HCIIMK: Weekly Phonebanks",
+      "begin": "2026-01-17",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU HCIIMK: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 881105,
       "mobilize_id": 881105,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881105/",
@@ -142,19 +106,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU HCIIMK: Weekly Phonebanks",
+      "_id": 792466,
+      "mobilize_id": 792466,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
+      "title": "Register Voters to Defend CA-45!",
       "begin": "2026-01-20",
-      "end": "2026-02-12",
+      "end": "2026-02-18",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "SEIU HCIIMK: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+          "title": "Register Voters to Defend CA-45!",
+          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
         }
       ],
       "_src": "mobilize"
@@ -191,6 +155,24 @@
         {
           "title": "Communications Meeting",
           "href": "https://www.mobilize.us/semdems/event/749182/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 879082,
+      "mobilize_id": 879082,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/879082/",
+      "title": "Phone Bank with Sheree on Wednesdays! Special Election District 14 (Brian Nathan).",
+      "begin": "2026-01-21",
+      "end": "2026-01-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank with Sheree on Wednesdays! Special Election District 14 (Brian Nathan).",
+          "href": "https://www.mobilize.us/hillsboroughcountydec/event/879082/"
         }
       ],
       "_src": "mobilize"
@@ -263,6 +245,24 @@
         {
           "title": "Voter Action 2026 Kickoff -- Seminole",
           "href": "https://www.mobilize.us/voteractionpinellas/event/820221/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 796380,
+      "mobilize_id": 796380,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
+      "title": "District59 Virtual Office Hours / Training",
+      "begin": "2026-02-04",
+      "end": "2026-02-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "District59 Virtual Office Hours / Training",
+          "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
         }
       ],
       "_src": "mobilize"

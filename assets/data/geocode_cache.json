@@ -4819,9 +4819,13 @@
     "lat": 44.8560029,
     "lng": -123.191303
   },
-  "Greendale, WI": {
-    "lat": 42.9406083,
-    "lng": -87.995993
+  "Hebron, KY": {
+    "lat": 39.065813,
+    "lng": -84.7027575
+  },
+  "Franklin, WI": {
+    "lat": 42.888627,
+    "lng": -88.0384183
   },
   "Kalamazoo, MI": {
     "lat": 42.291707,
@@ -4886,6 +4890,10 @@
   "South Windsor, CT": {
     "lat": 41.8352395,
     "lng": -72.5562712
+  },
+  "Cross Plains, WI": {
+    "lat": 43.1116968,
+    "lng": -89.6452197
   },
   "Yorkville, IL": {
     "lat": 41.6411409,
@@ -5011,6 +5019,14 @@
     "lat": 42.5867203,
     "lng": -85.8861492
   },
+  "Royal Oak, MI": {
+    "lat": 42.4894801,
+    "lng": -83.1446485
+  },
+  "Plymouth, MI": {
+    "lat": 42.3712,
+    "lng": -83.4675021
+  },
   "Harrison Township, NJ": {
     "lat": 39.7225865,
     "lng": -75.2016135
@@ -5030,6 +5046,10 @@
   "Lone Tree, CO": {
     "lat": 39.5364152,
     "lng": -104.9041528
+  },
+  "Washington, NJ": {
+    "lat": 40.7584793,
+    "lng": -74.9794987
   },
   "edinburg, TX": {
     "lat": 26.3013982,
@@ -5082,6 +5102,10 @@
   "Elbow Lake, MN": {
     "lat": 45.994127,
     "lng": -95.976721
+  },
+  "Woodside, NY": {
+    "lat": 40.7453798,
+    "lng": -73.9054145
   },
   "West Hartford, CT": {
     "lat": 41.7620447,
@@ -5147,10 +5171,6 @@
     "lat": 40.805378,
     "lng": -74.2037566
   },
-  "Plymouth, MI": {
-    "lat": 42.3712,
-    "lng": -83.4675021
-  },
   "Gardner, MA": {
     "lat": 42.5763523,
     "lng": -71.9952737
@@ -5211,10 +5231,6 @@
     "lat": 40.7303534,
     "lng": -80.3100513
   },
-  "Moorhead, MN": {
-    "lat": 46.8739081,
-    "lng": -96.7538674
-  },
   "This event's address is private. Sign up for more details, NC": {
     "lat": null,
     "lng": null
@@ -5235,13 +5251,13 @@
     "lat": 36.0712466,
     "lng": -79.5644686
   },
+  "Redford Township, MI": {
+    "lat": 42.3945469,
+    "lng": -83.2953927
+  },
   "Fitchburg, MA": {
     "lat": 42.5838984,
     "lng": -71.8038268
-  },
-  "Lake Montezuma, AZ": {
-    "lat": 34.6426115,
-    "lng": -111.7913068
   },
   "Oshkosh, WI": {
     "lat": 44.0206919,
@@ -5258,10 +5274,6 @@
   "Andover, MA": {
     "lat": 42.65717,
     "lng": -71.1408776
-  },
-  "Wylie, TX": {
-    "lat": 33.0151561,
-    "lng": -96.5388038
   },
   "City of Orange, NJ": {
     "lat": 40.7709499,
@@ -5350,10 +5362,6 @@
   "Mount Sinai, NY": {
     "lat": 40.941066,
     "lng": -73.0194555
-  },
-  "Royal Oak, MI": {
-    "lat": 42.4894801,
-    "lng": -83.1446485
   },
   "Granville, OH": {
     "lat": 40.0681192,
@@ -5611,6 +5619,10 @@
     "lat": 36.0319602,
     "lng": -114.9822716
   },
+  "Cerritos, CA": {
+    "lat": 33.8644291,
+    "lng": -118.0539323
+  },
   "Bay City, MI": {
     "lat": 43.5962107,
     "lng": -83.8881711
@@ -5670,5 +5682,77 @@
   "Cedartown, GA": {
     "lat": 34.0124425,
     "lng": -85.2559398
+  },
+  "Lake of the Woods, AZ": {
+    "lat": 34.1488415,
+    "lng": -109.9968463
+  },
+  "Odenton, MD": {
+    "lat": 39.0897199,
+    "lng": -76.7073534
+  },
+  "Eloy, AZ": {
+    "lat": 32.7551703,
+    "lng": -111.553493
+  },
+  "Waterford Township, MI": {
+    "lat": 42.6706391,
+    "lng": -83.3896241
+  },
+  "Allen Park, MI": {
+    "lat": 42.2595071,
+    "lng": -83.2107671
+  },
+  "Monroe, MI": {
+    "lat": 41.9153358,
+    "lng": -83.5135665
+  },
+  "Mount Washington, KY": {
+    "lat": 38.0500627,
+    "lng": -85.5457877
+  },
+  "Slayton, MN": {
+    "lat": 43.987742,
+    "lng": -95.755846
+  },
+  "Springfield, MN": {
+    "lat": 44.2385706,
+    "lng": -94.9758156
+  },
+  "Macclenny, FL": {
+    "lat": 30.2821807,
+    "lng": -82.1220569
+  },
+  "Reedsburg, WI": {
+    "lat": 43.5325234,
+    "lng": -90.0080595
+  },
+  "Apalachicola, FL": {
+    "lat": 29.7255084,
+    "lng": -84.9827725
+  },
+  "Black River Falls, WI": {
+    "lat": 44.2952152,
+    "lng": -90.8484137
+  },
+  "Kaukauna, WI": {
+    "lat": 44.2780432,
+    "lng": -88.2720503
+  },
+  "St. Paul, MN": {
+    "lat": 44.9497487,
+    "lng": -93.0931028
+  },
+  "Roseville, MN": {
+    "lat": 45.0060767,
+    "lng": -93.1566107
+  },
+  "Rexburg, ID": {
+    "lat": 43.8235163,
+    "lng": -111.787022
+  },
+  "Edina, MN": {
+    "lat": 44.8897027,
+    "lng": -93.3501222
   }
 }

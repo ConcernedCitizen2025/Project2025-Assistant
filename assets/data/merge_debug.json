@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-14",
+  "cutoffStr": "2026-01-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 7287,
-    "geoKept": 7257,
+    "all": 7496,
+    "geoKept": 7468,
     "virtKept": 20
   },
   "perSource": {
     "mobilize": {
-      "total": 7241,
-      "recent": 7238,
-      "withCoords": 6268,
-      "keptGeo": 6265,
-      "keptVirt": 973,
+      "total": 7449,
+      "recent": 7447,
+      "withCoords": 6436,
+      "keptGeo": 6434,
+      "keptVirt": 1013,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,27 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 40,
-      "recent": 39,
-      "withCoords": 39,
-      "keptGeo": 38,
+      "total": 41,
+      "recent": 41,
+      "withCoords": 40,
+      "keptGeo": 40,
       "keptVirt": 1,
-      "sampleDroppedByDate": [
-        {
-          "title": "Toms River, NJ - Hold CD04 Congressman Chris Smith Accountable - Protect Democracy",
-          "begin": "2026-01-13",
-          "end": "2026-01-13",
-          "lat": 39.952803,
-          "lng": -74.195756,
-          "location": "Washington St, Toms River, Toms River",
-          "links": [
-            {
-              "title": "Toms River, NJ - Hold CD04 Congressman Chris Smith Accountable - Protect Democracy",
-              "href": "https://events.pol-rev.com/events/1226d6c4-30a2-439c-a496-8809062ca0ff"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "The Future of Lee County Schools",
