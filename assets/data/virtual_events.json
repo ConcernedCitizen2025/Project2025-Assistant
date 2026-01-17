@@ -1,39 +1,6 @@
 {
   "data": [
     {
-      "_id": 877691,
-      "mobilize_id": 877691,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
-      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-      "begin": "2026-01-15",
-      "end": "2026-12-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "The Future of Lee County Schools",
-      "begin": "2026-01-15",
-      "end": "2026-01-15",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "The Future of Lee County Schools",
-          "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 878058,
       "mobilize_id": 878058,
       "canonical_mobilize_url": "https://www.mobilize.us/event/878058/",
@@ -83,6 +50,24 @@
         {
           "title": "SEIU HCIIMK: Weekly Phonebanks",
           "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 881447,
+      "mobilize_id": 881447,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
+      "title": "Durham Canvass for Nida",
+      "begin": "2026-01-17",
+      "end": "2026-02-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Durham",
+      "links": [
+        {
+          "title": "Durham Canvass for Nida",
+          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
         }
       ],
       "_src": "mobilize"
@@ -335,6 +320,24 @@
         {
           "title": "Data Center Reform Lobby Day",
           "href": "https://www.mobilize.us/indivisible-nova-west/event/877745/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877691,
+      "mobilize_id": 877691,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
+      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+      "begin": "2026-02-19",
+      "end": "2026-12-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
         }
       ],
       "_src": "mobilize"

@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-15",
+  "cutoffStr": "2026-01-16",
   "lookbackDays": 1,
   "totals": {
-    "all": 7496,
-    "geoKept": 7468,
+    "all": 7625,
+    "geoKept": 7595,
     "virtKept": 20
   },
   "perSource": {
     "mobilize": {
-      "total": 7449,
-      "recent": 7447,
-      "withCoords": 6436,
-      "keptGeo": 6434,
-      "keptVirt": 1013,
+      "total": 7573,
+      "recent": 7570,
+      "withCoords": 6544,
+      "keptGeo": 6541,
+      "keptVirt": 1029,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,13 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 41,
-      "recent": 41,
-      "withCoords": 40,
-      "keptGeo": 40,
+      "total": 46,
+      "recent": 45,
+      "withCoords": 44,
+      "keptGeo": 44,
       "keptVirt": 1,
-      "sampleDroppedByDate": [],
-      "sampleDroppedByCoords": [
+      "sampleDroppedByDate": [
         {
           "title": "The Future of Lee County Schools",
           "begin": "2026-01-15",
@@ -127,6 +144,22 @@
             {
               "title": "The Future of Lee County Schools",
               "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
+            }
+          ]
+        }
+      ],
+      "sampleDroppedByCoords": [
+        {
+          "title": "Joplin Free America Walkout",
+          "begin": "2026-01-20",
+          "end": "2026-01-20",
+          "lat": null,
+          "lng": null,
+          "location": "Joplin, MO",
+          "links": [
+            {
+              "title": "Joplin Free America Walkout",
+              "href": "https://events.pol-rev.com/events/9dbfa7e9-c253-4203-8455-b5c0f2eb05a9"
             }
           ]
         }
