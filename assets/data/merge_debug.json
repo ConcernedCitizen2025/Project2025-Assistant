@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-16",
+  "cutoffStr": "2026-01-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 7625,
-    "geoKept": 7595,
-    "virtKept": 20
+    "all": 7732,
+    "geoKept": 7702,
+    "virtKept": 22
   },
   "perSource": {
     "mobilize": {
-      "total": 7573,
-      "recent": 7570,
-      "withCoords": 6544,
-      "keptGeo": 6541,
-      "keptVirt": 1029,
+      "total": 7678,
+      "recent": 7676,
+      "withCoords": 6636,
+      "keptGeo": 6634,
+      "keptVirt": 1042,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,28 +109,27 @@
       ]
     },
     "mobilizon": {
-      "total": 46,
-      "recent": 45,
-      "withCoords": 44,
-      "keptGeo": 44,
-      "keptVirt": 1,
-      "sampleDroppedByDate": [
+      "total": 48,
+      "recent": 48,
+      "withCoords": 46,
+      "keptGeo": 46,
+      "keptVirt": 2,
+      "sampleDroppedByDate": [],
+      "sampleDroppedByCoords": [
         {
-          "title": "The Future of Lee County Schools",
-          "begin": "2026-01-15",
-          "end": "2026-01-15",
+          "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
+          "begin": "2026-01-24",
+          "end": "2026-01-24",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "The Future of Lee County Schools",
-              "href": "https://events.pol-rev.com/events/97ddf0dd-8dec-4a82-848d-8b90da26463e"
+              "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
+              "href": "https://events.pol-rev.com/events/12ec22bb-6ca7-401a-a869-780ab9b2c02b"
             }
           ]
-        }
-      ],
-      "sampleDroppedByCoords": [
+        },
         {
           "title": "Joplin Free America Walkout",
           "begin": "2026-01-20",
