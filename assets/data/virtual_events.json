@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-01-17",
-      "end": "2026-01-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU HCIIMK: Weekly Phonebanks",
-      "begin": "2026-01-17",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU HCIIMK: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 881447,
-      "mobilize_id": 881447,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
-      "title": "Durham Canvass for Nida",
-      "begin": "2026-01-17",
-      "end": "2026-02-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Durham",
-      "links": [
-        {
-          "title": "Durham Canvass for Nida",
-          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 881105,
       "mobilize_id": 881105,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881105/",
@@ -86,6 +32,24 @@
         {
           "title": "Register Voters to Defend CA-45!",
           "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU HCIIMK: Weekly Phonebanks",
+      "begin": "2026-01-20",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU HCIIMK: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
         }
       ],
       "_src": "mobilize"
@@ -199,6 +163,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-01-23",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 881447,
+      "mobilize_id": 881447,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
+      "title": "Durham Canvass for Nida",
+      "begin": "2026-01-24",
+      "end": "2026-02-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Durham",
+      "links": [
+        {
+          "title": "Durham Canvass for Nida",
+          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
       "begin": "2026-01-24",
       "end": "2026-01-24",
@@ -273,7 +273,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
       "title": "Monthly All Member Meeting",
       "begin": "2026-02-05",
-      "end": "2026-02-05",
+      "end": "2026-03-05",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
