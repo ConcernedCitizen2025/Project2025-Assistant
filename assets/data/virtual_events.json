@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 881105,
-      "mobilize_id": 881105,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881105/",
-      "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-      "begin": "2026-01-18",
-      "end": "2026-01-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NC",
-      "links": [
-        {
-          "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-          "href": "https://www.mobilize.us/ncvp/event/881105/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 792466,
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
@@ -237,7 +219,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/820221/",
       "title": "Voter Action 2026 Kickoff -- Seminole",
       "begin": "2026-02-01",
-      "end": "2026-12-02",
+      "end": "2026-02-01",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -263,6 +245,24 @@
         {
           "title": "Virtual Meet & Greet with Eileen Laubacher",
           "href": "https://www.mobilize.us/eileenforcolorado/event/887591/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 889224,
+      "mobilize_id": 889224,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
+      "title": "Monthly Voter Action Gathering - North County",
+      "begin": "2026-02-04",
+      "end": "2026-12-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - North County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/889224/"
         }
       ],
       "_src": "mobilize"
@@ -379,15 +379,15 @@
       "_id": 888472,
       "mobilize_id": 888472,
       "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
-      "title": "Monthly Voter Action Gathering - North County",
-      "begin": "2026-03-04",
+      "title": "Monthly Voter Action Gathering - South County",
+      "begin": "2026-02-24",
       "end": "2026-12-02",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Monthly Voter Action Gathering - North County",
+          "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
         }
       ],
