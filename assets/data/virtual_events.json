@@ -163,6 +163,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 889781,
+      "mobilize_id": 889781,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/889781/",
+      "title": "Target ICE Enablers in Voorhees/CherryHill NJ",
+      "begin": "2026-01-23",
+      "end": "2026-01-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NJ",
+      "links": [
+        {
+          "title": "Target ICE Enablers in Voorhees/CherryHill NJ",
+          "href": "https://www.mobilize.us/njvoterswantmoresay/event/889781/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 881447,
       "mobilize_id": 881447,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
@@ -299,6 +317,24 @@
         {
           "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
           "href": "https://www.mobilize.us/livefreeusa/event/758303/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 889343,
+      "mobilize_id": 889343,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/889343/",
+      "title": "Virtual Memphis Educator Training",
+      "begin": "2026-02-05",
+      "end": "2026-02-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, TN",
+      "links": [
+        {
+          "title": "Virtual Memphis Educator Training",
+          "href": "https://www.mobilize.us/tirrc/event/889343/"
         }
       ],
       "_src": "mobilize"

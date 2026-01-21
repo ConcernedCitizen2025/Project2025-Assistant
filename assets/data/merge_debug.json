@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-19",
+  "cutoffStr": "2026-01-20",
   "lookbackDays": 1,
   "totals": {
-    "all": 7426,
-    "geoKept": 7394,
-    "virtKept": 22
+    "all": 7413,
+    "geoKept": 7379,
+    "virtKept": 24
   },
   "perSource": {
     "mobilize": {
-      "total": 7376,
-      "recent": 7374,
-      "withCoords": 6397,
-      "keptGeo": 6395,
-      "keptVirt": 979,
+      "total": 7365,
+      "recent": 7362,
+      "withCoords": 6384,
+      "keptGeo": 6381,
+      "keptVirt": 981,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 44,
-      "recent": 42,
-      "withCoords": 42,
-      "keptGeo": 40,
+      "total": 42,
+      "recent": 41,
+      "withCoords": 40,
+      "keptGeo": 39,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "West Seattle Resist: Sunday Solidary Action",
-          "begin": "2026-01-18",
-          "end": "2026-01-18",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
+          "title": "Abolish ICE protest",
+          "begin": "2026-01-19",
+          "end": "2026-01-19",
+          "lat": 43.7146353,
+          "lng": -98.025462,
+          "location": "604 North Main Street, Mitchell, SD 57301, United States of America, Mitchell",
           "links": [
             {
-              "title": "West Seattle Resist: Sunday Solidary Action",
-              "href": "https://events.pol-rev.com/events/17dd2942-33e4-4337-9b8e-512b8b2b9991"
-            }
-          ]
-        },
-        {
-          "title": "I Have A Dream - Honoring Dr King Celebration",
-          "begin": "2026-01-18",
-          "end": "2026-01-18",
-          "lat": 41.3494113,
-          "lng": -88.841933,
-          "location": "Washington Square Park, Ottawa, Illinois, United States of America NW corner and beyond, Ottawa",
-          "links": [
-            {
-              "title": "I Have A Dream - Honoring Dr King Celebration",
-              "href": "https://events.pol-rev.com/events/4b33d9e7-74e8-4a77-8141-6024499fae0f"
+              "title": "Abolish ICE protest",
+              "href": "https://events.pol-rev.com/events/7b818f2d-03f6-466d-86bf-77ed2323c07e"
             }
           ]
         }
