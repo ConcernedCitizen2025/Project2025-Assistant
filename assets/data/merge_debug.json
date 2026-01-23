@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-21",
+  "cutoffStr": "2026-01-22",
   "lookbackDays": 1,
   "totals": {
-    "all": 7432,
-    "geoKept": 7391,
-    "virtKept": 25
+    "all": 7683,
+    "geoKept": 7647,
+    "virtKept": 26
   },
   "perSource": {
     "mobilize": {
-      "total": 7383,
-      "recent": 7381,
-      "withCoords": 6367,
-      "keptGeo": 6365,
-      "keptVirt": 1016,
+      "total": 7636,
+      "recent": 7634,
+      "withCoords": 6582,
+      "keptGeo": 6580,
+      "keptVirt": 1054,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,51 +109,37 @@
       ]
     },
     "mobilizon": {
-      "total": 43,
-      "recent": 35,
-      "withCoords": 40,
-      "keptGeo": 33,
+      "total": 41,
+      "recent": 39,
+      "withCoords": 39,
+      "keptGeo": 37,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "We Are Worth Fighting For!",
-          "begin": "2026-01-20",
-          "end": "2026-01-20",
-          "lat": 39.939234,
-          "lng": -77.6605871,
-          "location": "Coyle Free Library, Chambersburg",
+          "title": "ICE out of Portland! Revoke the ICE Permit!",
+          "begin": "2026-01-21",
+          "end": "2026-01-21",
+          "lat": 45.5149861,
+          "lng": -122.6789598,
+          "location": "Happy Cup Coffee, 1221 Southwest 4th Avenue, Portland, OR 97204, United States of America, Portland",
           "links": [
             {
-              "title": "We Are Worth Fighting For!",
-              "href": "https://events.pol-rev.com/events/f1466f04-7ea4-4420-afdc-c596143cbab8"
+              "title": "ICE out of Portland! Revoke the ICE Permit!",
+              "href": "https://events.pol-rev.com/events/ea0fa708-4a2e-4ba4-a032-1a6642cab01f"
             }
           ]
         },
         {
-          "title": "Joplin Free America Walkout",
-          "begin": "2026-01-20",
-          "end": "2026-01-20",
-          "lat": null,
-          "lng": null,
-          "location": "Joplin, MO",
+          "title": "Shut the FLOCK Off 2nd meeting",
+          "begin": "2026-01-21",
+          "end": "2026-01-21",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "Joplin Free America Walkout",
-              "href": "https://events.pol-rev.com/events/9dbfa7e9-c253-4203-8455-b5c0f2eb05a9"
-            }
-          ]
-        },
-        {
-          "title": "Pasco Resists' \"IMPEACH! CONVICT! REMOVE!\"",
-          "begin": "2026-01-20",
-          "end": "2026-01-20",
-          "lat": 28.1861817,
-          "lng": -82.4389996,
-          "location": "22829 State Road 54, Pasco County, FL 34639, United States of America, Pasco County",
-          "links": [
-            {
-              "title": "Pasco Resists' \"IMPEACH! CONVICT! REMOVE!\"",
-              "href": "https://events.pol-rev.com/events/87f14632-fa9f-40b9-9986-cd52ee716b4f"
+              "title": "Shut the FLOCK Off 2nd meeting",
+              "href": "https://events.pol-rev.com/events/c6951917-2742-40c3-a42a-fcb38250ba4d"
             }
           ]
         }

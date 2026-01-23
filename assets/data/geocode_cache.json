@@ -4847,10 +4847,6 @@
     "lat": 39.3600586,
     "lng": -84.309939
   },
-  "Yonkers, NY": {
-    "lat": 40.9312099,
-    "lng": -73.8987469
-  },
   "Bloomington, IN": {
     "lat": 39.1670396,
     "lng": -86.5342881
@@ -5127,13 +5123,13 @@
     "lat": 40.7709499,
     "lng": -74.2264601
   },
+  "Westborough, MA": {
+    "lat": 42.2694308,
+    "lng": -71.6129907
+  },
   "Indian Head, MD": {
     "lat": 38.5997628,
     "lng": -77.1647714
-  },
-  "Griffith, IN": {
-    "lat": 41.534507,
-    "lng": -87.4255305
   },
   "Siler City, NC": {
     "lat": 35.7234734,
@@ -5243,10 +5239,6 @@
     "lat": 47.1870191,
     "lng": -122.1702293
   },
-  "Adams, MA": {
-    "lat": 42.6209431,
-    "lng": -73.1204129
-  },
   "Charlton, MA": {
     "lat": 42.1340806,
     "lng": -71.9698085
@@ -5258,10 +5250,6 @@
   "Franklin, NC": {
     "lat": 36.1028596,
     "lng": -78.2787229
-  },
-  "Springfield, IL": {
-    "lat": 39.7990175,
-    "lng": -89.6439575
   },
   "Champaign, IL": {
     "lat": 40.1164841,
@@ -5294,10 +5282,6 @@
   "Gulfport, FL": {
     "lat": 27.7483613,
     "lng": -82.7034334
-  },
-  "Jerome, ID": {
-    "lat": 42.702266,
-    "lng": -114.286704
   },
   "Horizon City, TX": {
     "lat": 31.6926121,
@@ -5350,10 +5334,6 @@
   "Wenatchee, WA": {
     "lat": 47.4234599,
     "lng": -120.310349
-  },
-  "Wood River, IL": {
-    "lat": 38.861159,
-    "lng": -90.0976069
   },
   "West Wendover, NV": {
     "lat": 40.7409656,
@@ -5607,10 +5587,6 @@
     "lat": 43.1860869,
     "lng": -87.904897
   },
-  "Alamo, TX": {
-    "lat": 26.1836854,
-    "lng": -98.1230638
-  },
   "Dacula, GA": {
     "lat": 33.9887165,
     "lng": -83.8979573
@@ -5618,10 +5594,6 @@
   "Farmington, ME": {
     "lat": 44.670628,
     "lng": -70.1514536
-  },
-  "Boulder City, NV": {
-    "lat": 35.9787649,
-    "lng": -114.8337574
   },
   "This event's address is private. Sign up for more details, NJ": {
     "lat": null,
@@ -5651,10 +5623,6 @@
     "lat": 47.5766324,
     "lng": -122.2276378
   },
-  "Massena, NY": {
-    "lat": 44.9300823,
-    "lng": -74.8922422
-  },
   "Walsenburg, CO": {
     "lat": 37.6235234,
     "lng": -104.780995
@@ -5678,6 +5646,10 @@
   "Delray Beach, FL": {
     "lat": 26.4614625,
     "lng": -80.0728201
+  },
+  "Carlisle, PA": {
+    "lat": 40.201499,
+    "lng": -77.1890783
   },
   "Thief River Falls, MN": {
     "lat": 48.1172301,
@@ -5711,12 +5683,108 @@
     "lat": 34.6850749,
     "lng": -82.8364111
   },
+  "Lawrence Township, NJ": {
+    "lat": 40.2877475,
+    "lng": -74.7123373
+  },
   "Twin Falls, ID": {
     "lat": 42.5558542,
     "lng": -114.4700684
   },
-  "Joplin, MO": {
-    "lat": 37.0841838,
-    "lng": -94.5133385
+  "Nipomo, CA": {
+    "lat": 35.0358216,
+    "lng": -120.4964189
+  },
+  "Laredo, TX": {
+    "lat": 27.5079211,
+    "lng": -99.5069834
+  },
+  "McAllen, TX": {
+    "lat": 26.204114,
+    "lng": -98.2300605
+  },
+  "Newnan, GA": {
+    "lat": 33.3806716,
+    "lng": -84.7996573
+  },
+  "Fort Walton Beach, FL": {
+    "lat": 30.4057552,
+    "lng": -86.618842
+  },
+  "Mount Vernon, OH": {
+    "lat": 40.3933956,
+    "lng": -82.4857181
+  },
+  "Clayton, MO": {
+    "lat": 38.6504352,
+    "lng": -90.3362473
+  },
+  "Destin, FL": {
+    "lat": 30.3935337,
+    "lng": -86.4957834
+  },
+  "This event's address is private. Sign up for more details, NC": {
+    "lat": null,
+    "lng": null
+  },
+  "Sudbury, MA": {
+    "lat": 42.3834278,
+    "lng": -71.4161725
+  },
+  "Shawano, WI": {
+    "lat": 44.7817214,
+    "lng": -88.7118868
+  },
+  "Wallace Township, PA": {
+    "lat": 40.090617,
+    "lng": -75.7741385
+  },
+  "Decatur, GA": {
+    "lat": 30.8736613,
+    "lng": -84.5740953
+  },
+  "Short Hills, NJ": {
+    "lat": 40.7381585,
+    "lng": -74.3377392
+  },
+  "Ashland City, TN": {
+    "lat": 36.2742207,
+    "lng": -87.0641699
+  },
+  "Talent, OR": {
+    "lat": 42.243808,
+    "lng": -122.788924
+  },
+  "Peyton, CO": {
+    "lat": 39.0288809,
+    "lng": -104.4830238
+  },
+  "Brunswick, GA": {
+    "lat": 31.1499528,
+    "lng": -81.4914894
+  },
+  "Apache Junction, AZ": {
+    "lat": 33.4150485,
+    "lng": -111.549577
+  },
+  "River Falls, WI": {
+    "lat": 44.8596498,
+    "lng": -92.6255048
+  },
+  "Springfield, IL": {
+    "lat": 39.7990175,
+    "lng": -89.6439575
+  },
+  "Collinsville, IL": {
+    "lat": 38.6703267,
+    "lng": -89.9845476
+  },
+  "DeForest, WI": {
+    "lat": 43.2477691,
+    "lng": -89.3437277
+  },
+  "Conyers, GA": {
+    "lat": 33.6676103,
+    "lng": -84.0176904
   }
 }
