@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-01-22",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -88,6 +70,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 888103,
+      "mobilize_id": 888103,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/888103/",
+      "title": "VIRTUAL Meet & Greet with Brendan Gill in South Orange!",
+      "begin": "2026-01-25",
+      "end": "2026-01-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "VIRTUAL Meet & Greet with Brendan Gill in South Orange!",
+          "href": "https://www.mobilize.us/gillfornewjersey/event/888103/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 880765,
       "mobilize_id": 880765,
       "canonical_mobilize_url": "https://www.mobilize.us/event/880765/",
@@ -119,6 +119,24 @@
         {
           "title": "PPT Organizing Committee",
           "href": "https://www.mobilize.us/ppt/event/878569/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-01-27",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
         }
       ],
       "_src": "mobilize"
@@ -183,7 +201,7 @@
       "end": "2026-02-01",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, Seminole",
       "links": [
         {
           "title": "Voter Action 2026 Kickoff -- Seminole",
@@ -350,6 +368,24 @@
         {
           "title": "Virtual Memphis Educator Training",
           "href": "https://www.mobilize.us/tirrc/event/889343/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 891115,
+      "mobilize_id": 891115,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/891115/",
+      "title": "Congresswoman Madeleine Dean's Campaign Kickoff and Volunteer Appreciation Event",
+      "begin": "2026-02-08",
+      "end": "2026-02-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Congresswoman Madeleine Dean's Campaign Kickoff and Volunteer Appreciation Event",
+          "href": "https://www.mobilize.us/montgomerycountydemocraticcommittee/event/891115/"
         }
       ],
       "_src": "mobilize"

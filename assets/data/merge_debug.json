@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-22",
+  "cutoffStr": "2026-01-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 7683,
-    "geoKept": 7647,
-    "virtKept": 26
+    "all": 7703,
+    "geoKept": 7666,
+    "virtKept": 28
   },
   "perSource": {
     "mobilize": {
-      "total": 7636,
-      "recent": 7634,
-      "withCoords": 6582,
-      "keptGeo": 6580,
-      "keptVirt": 1054,
+      "total": 7656,
+      "recent": 7654,
+      "withCoords": 6605,
+      "keptGeo": 6603,
+      "keptVirt": 1051,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -110,36 +110,22 @@
     },
     "mobilizon": {
       "total": 41,
-      "recent": 39,
+      "recent": 40,
       "withCoords": 39,
-      "keptGeo": 37,
+      "keptGeo": 38,
       "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "ICE out of Portland! Revoke the ICE Permit!",
-          "begin": "2026-01-21",
-          "end": "2026-01-21",
-          "lat": 45.5149861,
-          "lng": -122.6789598,
-          "location": "Happy Cup Coffee, 1221 Southwest 4th Avenue, Portland, OR 97204, United States of America, Portland",
-          "links": [
-            {
-              "title": "ICE out of Portland! Revoke the ICE Permit!",
-              "href": "https://events.pol-rev.com/events/ea0fa708-4a2e-4ba4-a032-1a6642cab01f"
-            }
-          ]
-        },
-        {
-          "title": "Shut the FLOCK Off 2nd meeting",
-          "begin": "2026-01-21",
-          "end": "2026-01-21",
+          "title": "Know Your Rights Training - Bloomington Normal 50501",
+          "begin": "2026-01-22",
+          "end": "2026-01-22",
           "lat": 40.4929988,
           "lng": -88.9684006,
           "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "Shut the FLOCK Off 2nd meeting",
-              "href": "https://events.pol-rev.com/events/c6951917-2742-40c3-a42a-fcb38250ba4d"
+              "title": "Know Your Rights Training - Bloomington Normal 50501",
+              "href": "https://events.pol-rev.com/events/0bac8e1c-b615-46dc-bee2-9440e8cc699c"
             }
           ]
         }
