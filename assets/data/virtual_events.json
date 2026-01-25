@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-01-23",
-      "end": "2026-01-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 889781,
-      "mobilize_id": 889781,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/889781/",
-      "title": "Target ICE Enablers in Voorhees/CherryHill NJ",
-      "begin": "2026-01-23",
-      "end": "2026-01-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NJ",
-      "links": [
-        {
-          "title": "Target ICE Enablers in Voorhees/CherryHill NJ",
-          "href": "https://www.mobilize.us/njvoterswantmoresay/event/889781/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 881447,
-      "mobilize_id": 881447,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
-      "title": "Durham Canvass for Nida",
-      "begin": "2026-01-24",
-      "end": "2026-02-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Durham",
-      "links": [
-        {
-          "title": "Durham Canvass for Nida",
-          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
       "begin": "2026-01-24",
       "end": "2026-01-24",
@@ -193,6 +139,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-01-31",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 881447,
+      "mobilize_id": 881447,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
+      "title": "Durham Canvass for Nida",
+      "begin": "2026-01-31",
+      "end": "2026-02-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Durham",
+      "links": [
+        {
+          "title": "Durham Canvass for Nida",
+          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 820221,
       "mobilize_id": 820221,
       "canonical_mobilize_url": "https://www.mobilize.us/event/820221/",
@@ -296,24 +278,6 @@
         {
           "title": "District59 Virtual Office Hours / Training",
           "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 889224,
-      "mobilize_id": 889224,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
-      "title": "Monthly Voter Action Gathering - North County",
-      "begin": "2026-02-04",
-      "end": "2026-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Voter Action Gathering - North County",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/889224/"
         }
       ],
       "_src": "mobilize"
@@ -494,6 +458,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 889224,
+      "mobilize_id": 889224,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
+      "title": "Monthly Voter Action Gathering - North County",
+      "begin": "2026-03-04",
+      "end": "2026-12-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - North County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/889224/"
         }
       ],
       "_src": "mobilize"
