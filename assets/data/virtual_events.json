@@ -1,21 +1,6 @@
 {
   "data": [
     {
-      "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
-      "begin": "2026-01-24",
-      "end": "2026-01-24",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Weekly protest, Saturdays, 1/24/26 to 10/31/26, from 12 to 1 pm, on Vervalen St., in front of Closter Plaza",
-          "href": "https://events.pol-rev.com/events/12ec22bb-6ca7-401a-a869-780ab9b2c02b"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 888103,
       "mobilize_id": 888103,
       "canonical_mobilize_url": "https://www.mobilize.us/event/888103/",
@@ -47,6 +32,24 @@
         {
           "title": "Washington State Adopt a Day Labor Corner Virtual Check-In",
           "href": "https://www.mobilize.us/ndlon/event/880765/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 805561,
+      "mobilize_id": 805561,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
+      "title": "Franconia In PERSON Chair Chat & Orientation",
+      "begin": "2026-01-27",
+      "end": "2026-03-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Franconia In PERSON Chair Chat & Orientation",
+          "href": "https://www.mobilize.us/fairfaxdems/event/805561/"
         }
       ],
       "_src": "mobilize"
@@ -134,6 +137,24 @@
         {
           "title": "Weekend of Action: Ojeda for NC",
           "href": "https://www.mobilize.us/ojedafornc/event/882132/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 891907,
+      "mobilize_id": 891907,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/891907/",
+      "title": "IWQ Virtual Training: Know Your Rights Business Canvassing",
+      "begin": "2026-01-30",
+      "end": "2026-01-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "IWQ Virtual Training: Know Your Rights Business Canvassing",
+          "href": "https://www.mobilize.us/indivisiblewesternqueens/event/891907/"
         }
       ],
       "_src": "mobilize"
@@ -389,6 +410,21 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "Anti-fascism",
+      "begin": "2026-02-15",
+      "end": "2026-02-15",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Anti-fascism",
+          "href": "https://events.pol-rev.com/events/00a944d6-95fd-42a6-a610-0ab6aa46e5a9"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 877691,
