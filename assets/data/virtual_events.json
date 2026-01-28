@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 880765,
-      "mobilize_id": 880765,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880765/",
-      "title": "Washington State Adopt a Day Labor Corner Virtual Check-In",
-      "begin": "2026-01-26",
-      "end": "2026-01-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WA",
-      "links": [
-        {
-          "title": "Washington State Adopt a Day Labor Corner Virtual Check-In",
-          "href": "https://www.mobilize.us/ndlon/event/880765/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 805561,
       "mobilize_id": 805561,
       "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
@@ -373,6 +355,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 892950,
+      "mobilize_id": 892950,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892950/",
+      "title": "SPECIAL ELECTION: Phone Bank with Sheree NOW on Thursdays!",
+      "begin": "2026-02-05",
+      "end": "2026-02-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SPECIAL ELECTION: Phone Bank with Sheree NOW on Thursdays!",
+          "href": "https://www.mobilize.us/hillsboroughcountydec/event/892950/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 891115,
       "mobilize_id": 891115,
       "canonical_mobilize_url": "https://www.mobilize.us/event/891115/",
@@ -509,6 +509,114 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892898,
+      "mobilize_id": 892898,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892898/",
+      "title": "Paint the Polls: Team Ojeda Yard Sign Distribution",
+      "begin": "2026-03-02",
+      "end": "2026-03-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Paint the Polls: Team Ojeda Yard Sign Distribution",
+          "href": "https://www.mobilize.us/ojedafornc/event/892898/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892914,
+      "mobilize_id": 892914,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892914/",
+      "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Guilford Co.",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Guilford Co.",
+          "href": "https://www.mobilize.us/ojedafornc/event/892914/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892922,
+      "mobilize_id": 892922,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892922/",
+      "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Moore Co.",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Moore Co.",
+          "href": "https://www.mobilize.us/ojedafornc/event/892922/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892924,
+      "mobilize_id": 892924,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892924/",
+      "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Alamance Co.",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Alamance Co.",
+          "href": "https://www.mobilize.us/ojedafornc/event/892924/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892928,
+      "mobilize_id": 892928,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892928/",
+      "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Randolph Co.",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Randolph Co.",
+          "href": "https://www.mobilize.us/ojedafornc/event/892928/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892932,
+      "mobilize_id": 892932,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892932/",
+      "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Chatham Co.",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Chatham Co.",
+          "href": "https://www.mobilize.us/ojedafornc/event/892932/"
         }
       ],
       "_src": "mobilize"
