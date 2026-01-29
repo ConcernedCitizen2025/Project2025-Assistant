@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-27",
+  "cutoffStr": "2026-01-28",
   "lookbackDays": 1,
   "totals": {
-    "all": 7897,
-    "geoKept": 7854,
-    "virtKept": 35
+    "all": 8113,
+    "geoKept": 8069,
+    "virtKept": 34
   },
   "perSource": {
     "mobilize": {
-      "total": 7843,
-      "recent": 7841,
-      "withCoords": 6774,
-      "keptGeo": 6772,
-      "keptVirt": 1069,
+      "total": 8054,
+      "recent": 8051,
+      "withCoords": 6948,
+      "keptGeo": 6945,
+      "keptVirt": 1106,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -28,6 +28,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in Ridgecrest",
               "href": "https://www.mobilize.us/nokings/event/867978/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869819,
+          "mobilize_id": 869819,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869819/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+          "begin": "2025-11-15",
+          "end": "2025-11-15",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
+              "href": "https://www.mobilize.us/nokings/event/869819/"
             }
           ],
           "_src": "mobilize"
@@ -109,27 +127,28 @@
       ]
     },
     "mobilizon": {
-      "total": 48,
-      "recent": 48,
-      "withCoords": 45,
-      "keptGeo": 45,
-      "keptVirt": 3,
-      "sampleDroppedByDate": [],
-      "sampleDroppedByCoords": [
+      "total": 53,
+      "recent": 52,
+      "withCoords": 51,
+      "keptGeo": 50,
+      "keptVirt": 2,
+      "sampleDroppedByDate": [
         {
-          "title": "Anti-fascism",
-          "begin": "2026-02-15",
-          "end": "2026-02-15",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "CANCELLED - Toms River, NJ \"Hold Congressman Chris Smith Accountable\" CD-04 \"Defend Democracy\"",
+          "begin": "2026-01-27",
+          "end": "2026-01-27",
+          "lat": 39.952803,
+          "lng": -74.195756,
+          "location": "33 Washington Street, Toms River, NJ 08753, United States of America, Toms River",
           "links": [
             {
-              "title": "Anti-fascism",
-              "href": "https://events.pol-rev.com/events/00a944d6-95fd-42a6-a610-0ab6aa46e5a9"
+              "title": "CANCELLED - Toms River, NJ \"Hold Congressman Chris Smith Accountable\" CD-04 \"Defend Democracy\"",
+              "href": "https://events.pol-rev.com/events/b2bed93c-a030-4438-9aea-263bbb059c36"
             }
           ]
-        },
+        }
+      ],
+      "sampleDroppedByCoords": [
         {
           "title": "Pretti Good Reason for a Rally",
           "begin": "2026-02-01",

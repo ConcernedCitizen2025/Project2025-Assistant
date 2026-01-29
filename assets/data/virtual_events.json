@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 805561,
-      "mobilize_id": 805561,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
-      "title": "Franconia In PERSON Chair Chat & Orientation",
-      "begin": "2026-01-27",
-      "end": "2026-03-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Franconia In PERSON Chair Chat & Orientation",
-          "href": "https://www.mobilize.us/fairfaxdems/event/805561/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 878569,
-      "mobilize_id": 878569,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/878569/",
-      "title": "PPT Organizing Committee",
-      "begin": "2026-01-27",
-      "end": "2026-01-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "PPT Organizing Committee",
-          "href": "https://www.mobilize.us/ppt/event/878569/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-01-27",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 879082,
       "mobilize_id": 879082,
       "canonical_mobilize_url": "https://www.mobilize.us/event/879082/",
@@ -86,6 +32,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-01-29",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 882132,
@@ -155,6 +119,24 @@
         {
           "title": "Durham Canvass for Nida",
           "href": "https://www.mobilize.us/nidafornc04/event/881447/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 893878,
+      "mobilize_id": 893878,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/893878/",
+      "title": "Target SALT ICE in MARLTON, NJ",
+      "begin": "2026-01-31",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NJ",
+      "links": [
+        {
+          "title": "Target SALT ICE in MARLTON, NJ",
+          "href": "https://www.mobilize.us/njvoterswantmoresay/event/893878/"
         }
       ],
       "_src": "mobilize"
@@ -427,21 +409,6 @@
       "_src": "mobilize"
     },
     {
-      "title": "Anti-fascism",
-      "begin": "2026-02-15",
-      "end": "2026-02-15",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Anti-fascism",
-          "href": "https://events.pol-rev.com/events/00a944d6-95fd-42a6-a610-0ab6aa46e5a9"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -500,7 +467,7 @@
       "mobilize_id": 888472,
       "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
       "title": "Monthly Voter Action Gathering - South County",
-      "begin": "2026-02-24",
+      "begin": "2026-02-23",
       "end": "2026-12-02",
       "lat": null,
       "lng": null,
@@ -617,6 +584,24 @@
         {
           "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Chatham Co.",
           "href": "https://www.mobilize.us/ojedafornc/event/892932/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 805561,
+      "mobilize_id": 805561,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
+      "title": "Franconia In PERSON Chair Chat & Orientation",
+      "begin": "2026-03-17",
+      "end": "2026-03-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Franconia In PERSON Chair Chat & Orientation",
+          "href": "https://www.mobilize.us/fairfaxdems/event/805561/"
         }
       ],
       "_src": "mobilize"
