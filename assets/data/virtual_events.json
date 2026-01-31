@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-01-29",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 882132,
       "mobilize_id": 882132,
       "canonical_mobilize_url": "https://www.mobilize.us/event/882132/",
@@ -91,19 +73,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 881447,
-      "mobilize_id": 881447,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881447/",
-      "title": "Durham Canvass for Nida",
+      "_id": 876291,
+      "mobilize_id": 876291,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/876291/",
+      "title": "Precinct Committee Person Information Session",
       "begin": "2026-01-31",
-      "end": "2026-02-28",
+      "end": "2026-01-31",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, Durham",
+      "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Durham Canvass for Nida",
-          "href": "https://www.mobilize.us/nidafornc04/event/881447/"
+          "title": "Precinct Committee Person Information Session",
+          "href": "https://www.mobilize.us/yorkcountydemocraticcommittee/event/876291/"
         }
       ],
       "_src": "mobilize"
@@ -209,6 +191,24 @@
         {
           "title": "Register Voters to Defend CA-45!",
           "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-02-03",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
         }
       ],
       "_src": "mobilize"

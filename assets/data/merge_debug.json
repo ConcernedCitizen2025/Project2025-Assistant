@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-01-29",
+  "cutoffStr": "2026-01-30",
   "lookbackDays": 1,
   "totals": {
-    "all": 8227,
-    "geoKept": 8184,
+    "all": 8509,
+    "geoKept": 8465,
     "virtKept": 33
   },
   "perSource": {
     "mobilize": {
-      "total": 8168,
-      "recent": 8166,
-      "withCoords": 7053,
-      "keptGeo": 7051,
-      "keptVirt": 1115,
+      "total": 8443,
+      "recent": 8440,
+      "withCoords": 7292,
+      "keptGeo": 7289,
+      "keptVirt": 1151,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,37 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 53,
-      "recent": 51,
-      "withCoords": 51,
-      "keptGeo": 50,
+      "total": 60,
+      "recent": 58,
+      "withCoords": 59,
+      "keptGeo": 57,
       "keptVirt": 1,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo 50501 New Member Meeting",
-          "begin": "2026-01-28",
-          "end": "2026-01-28",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "Community Defense and ICE Watch Training - Bloomington Normal 50501",
+          "begin": "2026-01-29",
+          "end": "2026-01-29",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "BloNo 50501 New Member Meeting",
-              "href": "https://events.pol-rev.com/events/3e1a116f-e905-4d97-a939-56eb96355ba2"
+              "title": "Community Defense and ICE Watch Training - Bloomington Normal 50501",
+              "href": "https://events.pol-rev.com/events/1953b642-1161-4da0-9881-9148878c0866"
             }
           ]
         },
         {
-          "title": "Candle light vigil for those murdered by ICE",
-          "begin": "2026-01-28",
-          "end": "2026-01-28",
-          "lat": 41.3501337,
-          "lng": -88.8411074,
-          "location": "1004 Columbus Street, Ottawa, IL 61350, United States of America, Ottawa",
+          "title": "FORT SMITH -NO MORE ICE",
+          "begin": "2026-01-29",
+          "end": "2026-01-29",
+          "lat": 35.4036624,
+          "lng": -94.3801235,
+          "location": "4624 Kelley Highway, Fort Smith, AR 72904, United States of America, Fort Smith",
           "links": [
             {
-              "title": "Candle light vigil for those murdered by ICE",
-              "href": "https://events.pol-rev.com/events/f7982279-91f8-4e28-b55a-eb86141b1bb8"
+              "title": "FORT SMITH -NO MORE ICE",
+              "href": "https://events.pol-rev.com/events/5c74c175-14a7-4ae2-9e7f-5f3216a98748"
             }
           ]
         }
