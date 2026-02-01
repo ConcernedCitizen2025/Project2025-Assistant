@@ -5083,17 +5083,9 @@
     "lat": 42.4894801,
     "lng": -83.1446485
   },
-  "Granville, OH": {
-    "lat": 40.0681192,
-    "lng": -82.5196037
-  },
   "Newark, OH": {
     "lat": 40.0581205,
     "lng": -82.4012643
-  },
-  "Williamsburg, MA": {
-    "lat": 42.3926274,
-    "lng": -72.7302473
   },
   "Isanti, MN": {
     "lat": 45.5693224,
@@ -5102,10 +5094,6 @@
   "Scandia, MN": {
     "lat": 45.2533659,
     "lng": -92.8062958
-  },
-  "Verona, WI": {
-    "lat": 42.9905492,
-    "lng": -89.5335575
   },
   "Littleton, CO": {
     "lat": 39.613321,
@@ -5219,6 +5207,10 @@
     "lat": 25.9024289,
     "lng": -97.4981698
   },
+  "This event's address is private. Sign up for more details, NC": {
+    "lat": null,
+    "lng": null
+  },
   "Eloy, AZ": {
     "lat": 32.7551703,
     "lng": -111.553493
@@ -5230,10 +5222,6 @@
   "Bisbee, AZ": {
     "lat": 31.4417165,
     "lng": -109.9159946
-  },
-  "Elgin, IL": {
-    "lat": 42.03726,
-    "lng": -88.2810994
   },
   "Reedsburg, WI": {
     "lat": 43.5325234,
@@ -5375,6 +5363,10 @@
     "lat": 33.9887165,
     "lng": -83.8979573
   },
+  "Berkeley Heights, NJ": {
+    "lat": 40.6834349,
+    "lng": -74.442653
+  },
   "Forsyth, GA": {
     "lat": 34.235309,
     "lng": -84.1335644
@@ -5414,10 +5406,6 @@
   "Newnan, GA": {
     "lat": 33.3806716,
     "lng": -84.7996573
-  },
-  "This event's address is private. Sign up for more details, NC": {
-    "lat": null,
-    "lng": null
   },
   "Shawano, WI": {
     "lat": 44.7817214,
@@ -5559,17 +5547,9 @@
     "lat": 43.1250236,
     "lng": -87.9285922
   },
-  "Bradenton, FL": {
-    "lat": 27.4989278,
-    "lng": -82.5748194
-  },
   "Atascadero, CA": {
     "lat": 35.4894169,
     "lng": -120.6707255
-  },
-  "Staten Island, NY": {
-    "lat": 40.5834557,
-    "lng": -74.1496048
   },
   "Pewee Valley, KY": {
     "lat": 38.3106248,
@@ -5586,10 +5566,6 @@
   "Adrian, MI": {
     "lat": 41.8975152,
     "lng": -84.0373054
-  },
-  "East Hampton, NY": {
-    "lat": 40.9633868,
-    "lng": -72.1847598
   },
   "Bastrop, TX": {
     "lat": 30.0541116,
@@ -5618,6 +5594,10 @@
   "Beaver Dam, WI": {
     "lat": 43.4577692,
     "lng": -88.837329
+  },
+  "South Orange Village, NJ": {
+    "lat": 40.7489914,
+    "lng": -74.2655884
   },
   "Andover, MA": {
     "lat": 42.65717,
@@ -5683,6 +5663,10 @@
     "lat": 38.8368777,
     "lng": -107.8568294
   },
+  "East Los Angeles, CA": {
+    "lat": 34.0239015,
+    "lng": -118.172015
+  },
   "Norman, OK": {
     "lat": 35.2225717,
     "lng": -97.4394816
@@ -5735,13 +5719,13 @@
     "lat": 34.6922205,
     "lng": -83.6866338
   },
-  "South Orange Village, NJ": {
-    "lat": 40.7489914,
-    "lng": -74.2655884
-  },
   "Great Barrington, MA": {
     "lat": 42.1939364,
     "lng": -73.362773
+  },
+  "Stone Mountain, GA": {
+    "lat": 33.8062166,
+    "lng": -84.1457505
   },
   "Westport, MA": {
     "lat": 41.6220399,
@@ -5766,10 +5750,6 @@
   "This event's address is private. Sign up for more details, NJ": {
     "lat": null,
     "lng": null
-  },
-  "Citrus Heights, CA": {
-    "lat": 38.7071247,
-    "lng": -121.2810611
   },
   "Livonia, MI": {
     "lat": 42.36837,
@@ -5858,5 +5838,41 @@
   "Bloomfield Hills, MI": {
     "lat": 42.583645,
     "lng": -83.2454883
+  },
+  "Sunset Valley, TX": {
+    "lat": 30.2258039,
+    "lng": -97.8149651
+  },
+  "Rollingwood, TX": {
+    "lat": 30.2742428,
+    "lng": -97.7855814
+  },
+  "VILLAGE OF THE HILLS, TX": {
+    "lat": 30.3471352,
+    "lng": -97.9795879
+  },
+  "The Hills, TX": {
+    "lat": 30.3469126,
+    "lng": -97.9864509
+  },
+  "Lakeway, TX": {
+    "lat": 30.3644888,
+    "lng": -97.9875325
+  },
+  "This event's address is private. Sign up for more details, TX": {
+    "lat": null,
+    "lng": null
+  },
+  "Buda, TX": {
+    "lat": 30.082475,
+    "lng": -97.8417144
+  },
+  "Washington Park, Ottawa": {
+    "lat": 41.3494113,
+    "lng": -88.841933
+  },
+  "In inclement weather, we will be protesting on the steps and sidewalks in front of Town Hall. All other days, we'll be in front of the White Hart Inn., Salisbury, Ct": {
+    "lat": null,
+    "lng": null
   }
 }

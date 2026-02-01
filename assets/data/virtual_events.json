@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 882132,
-      "mobilize_id": 882132,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/882132/",
-      "title": "Weekend of Action: Ojeda for NC",
-      "begin": "2026-01-30",
-      "end": "2026-01-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend of Action: Ojeda for NC",
-          "href": "https://www.mobilize.us/ojedafornc/event/882132/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 891907,
-      "mobilize_id": 891907,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/891907/",
-      "title": "IWQ Virtual Training: Know Your Rights Business Canvassing",
-      "begin": "2026-01-30",
-      "end": "2026-01-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "IWQ Virtual Training: Know Your Rights Business Canvassing",
-          "href": "https://www.mobilize.us/indivisiblewesternqueens/event/891907/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -91,6 +55,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 882132,
+      "mobilize_id": 882132,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/882132/",
+      "title": "Weekend of Action: Ojeda for NC",
+      "begin": "2026-01-31",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Weekend of Action: Ojeda for NC",
+          "href": "https://www.mobilize.us/ojedafornc/event/882132/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 887371,
+      "mobilize_id": 887371,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/887371/",
+      "title": "Put the People First: Poll Organizing Program Launch for Rev. Rodney Sadler!",
+      "begin": "2026-01-31",
+      "end": "2026-02-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Put the People First: Poll Organizing Program Launch for Rev. Rodney Sadler!",
+          "href": "https://www.mobilize.us/rodneysadler/event/887371/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 893878,
       "mobilize_id": 893878,
       "canonical_mobilize_url": "https://www.mobilize.us/event/893878/",
@@ -107,6 +107,21 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "Weekly Protest",
+      "begin": "2026-01-31",
+      "end": "2026-01-31",
+      "lat": null,
+      "lng": null,
+      "location": "In inclement weather, we will be protesting on the steps and sidewalks in front of Town Hall. All other days, we'll be in front of the White Hart Inn., Salisbury, Ct",
+      "links": [
+        {
+          "title": "Weekly Protest",
+          "href": "https://events.pol-rev.com/events/55fb5576-fa4d-4aa4-b4e2-a1e6ee888325"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 820221,
@@ -389,6 +404,24 @@
         {
           "title": "Data Center Reform Lobby Day - Registration NOW CLOSED",
           "href": "https://www.mobilize.us/indivisible-nova-west/event/877745/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 895338,
+      "mobilize_id": 895338,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/895338/",
+      "title": "Help! Not Handcuffs : Civic Education Panel (ZOOM)",
+      "begin": "2026-02-15",
+      "end": "2026-02-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, TX",
+      "links": [
+        {
+          "title": "Help! Not Handcuffs : Civic Education Panel (ZOOM)",
+          "href": "https://www.mobilize.us/aliciaperezcampaign/event/895338/"
         }
       ],
       "_src": "mobilize"
