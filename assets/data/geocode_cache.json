@@ -4819,10 +4819,6 @@
     "lat": 44.8560029,
     "lng": -123.191303
   },
-  "This event's address is private. Sign up for more details, Seminole": {
-    "lat": null,
-    "lng": null
-  },
   "Hebron, KY": {
     "lat": 39.065813,
     "lng": -84.7027575
@@ -4842,10 +4838,6 @@
   "Hillsborough, NC": {
     "lat": 36.075382,
     "lng": -79.0993958
-  },
-  "Mason, OH": {
-    "lat": 39.3600586,
-    "lng": -84.309939
   },
   "Kernersville, NC": {
     "lat": 36.1198589,
@@ -4923,10 +4915,6 @@
     "lat": 42.5867203,
     "lng": -85.8861492
   },
-  "Plymouth, MI": {
-    "lat": 42.3712,
-    "lng": -83.4675021
-  },
   "Harrison Township, NJ": {
     "lat": 39.7225865,
     "lng": -75.2016135
@@ -4935,17 +4923,9 @@
     "lat": 40.7584793,
     "lng": -74.9794987
   },
-  "Lake Forest, CA": {
-    "lat": 33.6469261,
-    "lng": -117.6859213
-  },
   "Maplewood, MO": {
     "lat": 38.6125521,
     "lng": -90.3245599
-  },
-  "Bloomfield, NJ": {
-    "lat": 40.7934789,
-    "lng": -74.1979277
   },
   "Westfield, MA": {
     "lat": 42.1205411,
@@ -5063,10 +5043,6 @@
     "lat": 40.6478171,
     "lng": -83.6089968
   },
-  "Spokane, WA": {
-    "lat": 47.6571934,
-    "lng": -117.42351
-  },
   "Ottawa, IL": {
     "lat": 41.3516628,
     "lng": -88.845436
@@ -5082,10 +5058,6 @@
   "Asheville, NC": {
     "lat": 35.595363,
     "lng": -82.5508407
-  },
-  "Bonney Lake, WA": {
-    "lat": 47.1870191,
-    "lng": -122.1702293
   },
   "Langhorne, PA": {
     "lat": 40.1761812,
@@ -5107,10 +5079,6 @@
     "lat": 31.2161476,
     "lng": -99.8454772
   },
-  "Hanover, MN": {
-    "lat": 45.155797,
-    "lng": -93.6663524
-  },
   "Midland, MI": {
     "lat": 43.6155825,
     "lng": -84.2472117
@@ -5118,10 +5086,6 @@
   "Henderson, NV": {
     "lat": 36.0319602,
     "lng": -114.9822716
-  },
-  "Cerritos, CA": {
-    "lat": 33.8644291,
-    "lng": -118.0539323
   },
   "Bay City, MI": {
     "lat": 43.5962107,
@@ -5151,10 +5115,6 @@
     "lat": 47.4234599,
     "lng": -120.310349
   },
-  "Belleville, NJ": {
-    "lat": 40.7937116,
-    "lng": -74.1501438
-  },
   "Elizabethtown, PA": {
     "lat": 40.153364,
     "lng": -76.6042521
@@ -5162,10 +5122,6 @@
   "Brownsville, TX": {
     "lat": 25.9024289,
     "lng": -97.4981698
-  },
-  "This event's address is private. Sign up for more details, NC": {
-    "lat": null,
-    "lng": null
   },
   "Mount Washington, KY": {
     "lat": 38.0500627,
@@ -5195,14 +5151,6 @@
     "lat": 32.4078632,
     "lng": -87.0207473
   },
-  "Briarcliff, TX": {
-    "lat": 30.407421,
-    "lng": -98.0444588
-  },
-  "Farmersville, TX": {
-    "lat": 33.1632162,
-    "lng": -96.3603548
-  },
   "Garden Grove, CA": {
     "lat": 33.7746292,
     "lng": -117.9463717
@@ -5210,10 +5158,6 @@
   "McDonough, GA": {
     "lat": 33.4473361,
     "lng": -84.1468616
-  },
-  "Merrimack, NH": {
-    "lat": 43.3260376,
-    "lng": -71.6854725
   },
   "Lewes, DE": {
     "lat": 38.7733961,
@@ -5322,6 +5266,10 @@
   "Newnan, GA": {
     "lat": 33.3806716,
     "lng": -84.7996573
+  },
+  "This event's address is private. Sign up for more details, NC": {
+    "lat": null,
+    "lng": null
   },
   "Wallace Township, PA": {
     "lat": 40.090617,
@@ -5471,10 +5419,6 @@
     "lat": 46.93003,
     "lng": -94.5204074
   },
-  "South Orange Village, NJ": {
-    "lat": 40.7489914,
-    "lng": -74.2655884
-  },
   "Andover, MA": {
     "lat": 42.65717,
     "lng": -71.1408776
@@ -5511,41 +5455,13 @@
     "lat": 38.8368777,
     "lng": -107.8568294
   },
-  "East Los Angeles, CA": {
-    "lat": 34.0239015,
-    "lng": -118.172015
-  },
   "Norman, OK": {
     "lat": 35.2225717,
     "lng": -97.4394816
   },
-  "Peabody, MA": {
-    "lat": 42.5278731,
-    "lng": -70.9286609
-  },
   "Rockledge, FL": {
     "lat": 28.330831,
     "lng": -80.7349162
-  },
-  "Waukegan, IL": {
-    "lat": 42.3602273,
-    "lng": -87.8318164
-  },
-  "Highland Park, IL": {
-    "lat": 42.1836719,
-    "lng": -87.7993245
-  },
-  "McHenry, IL": {
-    "lat": 42.3294391,
-    "lng": -88.4605713
-  },
-  "Deerfield, IL": {
-    "lat": 42.1711365,
-    "lng": -87.8445119
-  },
-  "Round Lake, IL": {
-    "lat": 42.353355,
-    "lng": -88.0934145
   },
   "Keyser, WV": {
     "lat": 39.4409277,
@@ -5566,6 +5482,10 @@
   "Sautee Nacoochee, GA": {
     "lat": 34.6922205,
     "lng": -83.6866338
+  },
+  "South Orange Village, NJ": {
+    "lat": 40.7489914,
+    "lng": -74.2655884
   },
   "Great Barrington, MA": {
     "lat": 42.1939364,
@@ -5599,6 +5519,10 @@
     "lat": 42.8144683,
     "lng": -89.6339362
   },
+  "Perry, NY": {
+    "lat": 42.7156175,
+    "lng": -78.0055618
+  },
   "Mason, TN": {
     "lat": 35.4114328,
     "lng": -89.5327689
@@ -5611,10 +5535,6 @@
     "lat": 41.8095774,
     "lng": -71.3279584
   },
-  "Newton, MA": {
-    "lat": 42.3370414,
-    "lng": -71.2092214
-  },
   "Sun City West, AZ": {
     "lat": 33.6657535,
     "lng": -112.3550522
@@ -5623,17 +5543,9 @@
     "lat": 42.9905492,
     "lng": -89.5335575
   },
-  "Costa Mesa, CA": {
-    "lat": 33.6633386,
-    "lng": -117.903317
-  },
   "Grandville, MI": {
     "lat": 42.909598,
     "lng": -85.7630956
-  },
-  "Parsippany-Troy Hills, NJ": {
-    "lat": 40.8646542,
-    "lng": -74.4157768
   },
   "Cohasset, MA": {
     "lat": 42.2410158,
@@ -5651,9 +5563,21 @@
     "lat": 42.7803486,
     "lng": -89.2992249
   },
+  "Tewksbury, NJ": {
+    "lat": 40.68446,
+    "lng": -74.77873
+  },
   "Barre, MA": {
     "lat": 42.4228006,
     "lng": -72.1051592
+  },
+  "Watchung, NJ": {
+    "lat": 40.6378801,
+    "lng": -74.4509863
+  },
+  "Bernardsville, NJ": {
+    "lat": 40.7186805,
+    "lng": -74.5692273
   },
   "Chippewa Falls, WI": {
     "lat": 44.9371325,
@@ -5662,10 +5586,6 @@
   "Wisconsin Rapids, WI": {
     "lat": 44.3917589,
     "lng": -89.8228767
-  },
-  "Ridgeland, SC": {
-    "lat": 32.4807435,
-    "lng": -80.980386
   },
   "Bloomfield Hills, MI": {
     "lat": 42.583645,
@@ -5695,6 +5615,10 @@
     "lat": 30.3644888,
     "lng": -97.9875325
   },
+  "Mason, OH": {
+    "lat": 39.3600586,
+    "lng": -84.309939
+  },
   "This event's address is private. Sign up for more details, TX": {
     "lat": null,
     "lng": null
@@ -5702,6 +5626,10 @@
   "Buda, TX": {
     "lat": 30.082475,
     "lng": -97.8417144
+  },
+  "Carlton, OR": {
+    "lat": 45.2942822,
+    "lng": -123.176494
   },
   "Copell, TX": {
     "lat": null,
@@ -5715,6 +5643,10 @@
     "lat": 41.7010642,
     "lng": -71.1546367
   },
+  "Pinole, CA": {
+    "lat": 38.0043667,
+    "lng": -122.2988587
+  },
   "Croton-on-Hudson, NY": {
     "lat": 41.2088215,
     "lng": -73.8905175
@@ -5723,12 +5655,80 @@
     "lat": 48.7544012,
     "lng": -122.478836
   },
+  "Bridgewater, NJ": {
+    "lat": 40.5598127,
+    "lng": -74.5517146
+  },
+  "Apache Junction, AZ": {
+    "lat": 33.4150485,
+    "lng": -111.549577
+  },
+  "Germanton, NC": {
+    "lat": 36.262771,
+    "lng": -80.2309735
+  },
+  "Little Falls, MN": {
+    "lat": 45.9763545,
+    "lng": -94.3625024
+  },
+  "Gaylord, MN": {
+    "lat": 44.5530251,
+    "lng": -94.2205889
+  },
+  "Woodburn, OR": {
+    "lat": 45.143731,
+    "lng": -122.8553725
+  },
+  "Lamar, CO": {
+    "lat": 38.0872306,
+    "lng": -102.620749
+  },
+  "Kit Carson, CO": {
+    "lat": 39.3080613,
+    "lng": -102.62075
+  },
+  "Falmouth, MA": {
+    "lat": 41.5514979,
+    "lng": -70.6147519
+  },
+  "Brunswick, GA": {
+    "lat": 31.1499528,
+    "lng": -81.4914894
+  },
+  "Bee Cave, TX": {
+    "lat": 30.3085373,
+    "lng": -97.94501
+  },
+  "Whitefish, MT": {
+    "lat": 48.4108018,
+    "lng": -114.334624
+  },
+  "Titusville, FL": {
+    "lat": 28.6126236,
+    "lng": -80.8079545
+  },
+  "Hopatcong, NJ": {
+    "lat": 40.9332051,
+    "lng": -74.6600975
+  },
+  "Jefferson City, MO": {
+    "lat": 38.577359,
+    "lng": -92.1724265
+  },
+  "Largo, FL": {
+    "lat": 27.9094665,
+    "lng": -82.7873244
+  },
+  "Farmersville, TX": {
+    "lat": 33.1632162,
+    "lng": -96.3603548
+  },
+  "Murphy, TX": {
+    "lat": 33.0151208,
+    "lng": -96.6130478
+  },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,
     "lng": -88.841933
-  },
-  "In inclement weather, we will be protesting on the steps and sidewalks in front of Town Hall. All other days, we'll be in front of the White Hart Inn., Salisbury, Ct": {
-    "lat": null,
-    "lng": null
   }
 }
