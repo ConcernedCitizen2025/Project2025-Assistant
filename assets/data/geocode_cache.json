@@ -4903,6 +4903,10 @@
     "lat": 41.4825788,
     "lng": -87.6802344
   },
+  "Indianola, IA": {
+    "lat": 41.3604966,
+    "lng": -93.5613292
+  },
   "St. Peters, MO": {
     "lat": 38.791612,
     "lng": -90.5958468
@@ -4979,13 +4983,13 @@
     "lat": 36.1563122,
     "lng": -95.9927516
   },
+  "Florence, MA": {
+    "lat": 42.3355692,
+    "lng": -72.6719518
+  },
   "New Brighton, PA": {
     "lat": 40.7303534,
     "lng": -80.3100513
-  },
-  "Chelsea, MI": {
-    "lat": 42.3180163,
-    "lng": -84.020224
   },
   "Pickerington, OH": {
     "lat": 39.8842304,
@@ -5131,6 +5135,10 @@
     "lat": 31.4417165,
     "lng": -109.9159946
   },
+  "Elgin, IL": {
+    "lat": 42.03726,
+    "lng": -88.2810994
+  },
   "Kaukauna, WI": {
     "lat": 44.2780432,
     "lng": -88.2720503
@@ -5171,10 +5179,6 @@
     "lat": 39.0501083,
     "lng": -77.4008201
   },
-  "Dighton, MA": {
-    "lat": 41.8144903,
-    "lng": -71.1196148
-  },
   "Gulfport, FL": {
     "lat": 27.7483613,
     "lng": -82.7034334
@@ -5190,10 +5194,6 @@
   "Waynesville, NC": {
     "lat": 35.4887476,
     "lng": -82.9888725
-  },
-  "Charles City, IA": {
-    "lat": 43.0662177,
-    "lng": -92.6794258
   },
   "Wylie, TX": {
     "lat": 33.0151561,
@@ -5231,6 +5231,10 @@
     "lat": 40.6834349,
     "lng": -74.442653
   },
+  "Winona, MN": {
+    "lat": 43.9582272,
+    "lng": -91.7807784
+  },
   "West Hartford, CT": {
     "lat": 41.7620447,
     "lng": -72.7420399
@@ -5267,10 +5271,6 @@
     "lat": 33.3806716,
     "lng": -84.7996573
   },
-  "This event's address is private. Sign up for more details, NC": {
-    "lat": null,
-    "lng": null
-  },
   "Wallace Township, PA": {
     "lat": 40.090617,
     "lng": -75.7741385
@@ -5283,9 +5283,9 @@
     "lat": 36.2742207,
     "lng": -87.0641699
   },
-  "Peyton, CO": {
-    "lat": 39.0288809,
-    "lng": -104.4830238
+  "Port Hadlock-Irondale, WA": {
+    "lat": 48.03324,
+    "lng": -122.776478
   },
   "Conyers, GA": {
     "lat": 33.6676103,
@@ -5371,6 +5371,10 @@
     "lat": 43.1250236,
     "lng": -87.9285922
   },
+  "Beaumont, CA": {
+    "lat": 33.9299925,
+    "lng": -116.9763092
+  },
   "Atascadero, CA": {
     "lat": 35.4894169,
     "lng": -120.6707255
@@ -5415,6 +5419,10 @@
     "lat": 32.3944908,
     "lng": -96.8439365
   },
+  "Orangevale, CA": {
+    "lat": 38.6785145,
+    "lng": -121.2257818
+  },
   "Hackensack, MN": {
     "lat": 46.93003,
     "lng": -94.5204074
@@ -5447,9 +5455,13 @@
     "lat": 31.124062,
     "lng": -97.9030785
   },
-  "Silver Springs, NV": {
-    "lat": 39.4156828,
-    "lng": -119.223988
+  "This event's address is private. Sign up for more details, NC": {
+    "lat": null,
+    "lng": null
+  },
+  "Stagecoach, NV": {
+    "lat": 39.3619882,
+    "lng": -119.3748609
   },
   "Delta, CO": {
     "lat": 38.8368777,
@@ -5482,10 +5494,6 @@
   "Sautee Nacoochee, GA": {
     "lat": 34.6922205,
     "lng": -83.6866338
-  },
-  "South Orange Village, NJ": {
-    "lat": 40.7489914,
-    "lng": -74.2655884
   },
   "Great Barrington, MA": {
     "lat": 42.1939364,
@@ -5595,6 +5603,10 @@
     "lat": 34.0028569,
     "lng": -84.1441046
   },
+  "Edom, TX": {
+    "lat": 32.3723676,
+    "lng": -95.6088495
+  },
   "Sunset Valley, TX": {
     "lat": 30.2258039,
     "lng": -97.8149651
@@ -5619,10 +5631,6 @@
     "lat": 39.3600586,
     "lng": -84.309939
   },
-  "This event's address is private. Sign up for more details, TX": {
-    "lat": null,
-    "lng": null
-  },
   "Buda, TX": {
     "lat": 30.082475,
     "lng": -97.8417144
@@ -5630,6 +5638,14 @@
   "Carlton, OR": {
     "lat": 45.2942822,
     "lng": -123.176494
+  },
+  "Wheeling, WV": {
+    "lat": 40.0639616,
+    "lng": -80.7209149
+  },
+  "Saint Clairsville, OH": {
+    "lat": 40.0806266,
+    "lng": -80.9000916
   },
   "Copell, TX": {
     "lat": null,
@@ -5715,6 +5731,10 @@
     "lat": 38.577359,
     "lng": -92.1724265
   },
+  "South Orange Village, NJ": {
+    "lat": 40.7489914,
+    "lng": -74.2655884
+  },
   "Largo, FL": {
     "lat": 27.9094665,
     "lng": -82.7873244
@@ -5726,6 +5746,86 @@
   "Murphy, TX": {
     "lat": 33.0151208,
     "lng": -96.6130478
+  },
+  "Waukegan, IL": {
+    "lat": 42.3602273,
+    "lng": -87.8318164
+  },
+  "Mundelein, IL": {
+    "lat": 42.263079,
+    "lng": -88.0039653
+  },
+  "Hackettstown, NJ": {
+    "lat": 40.8538589,
+    "lng": -74.8292553
+  },
+  "Bloomfield, NJ": {
+    "lat": 40.7934789,
+    "lng": -74.1979277
+  },
+  "Malden, MA": {
+    "lat": 42.4268484,
+    "lng": -71.0683741
+  },
+  "Gresham, OR": {
+    "lat": 45.4978623,
+    "lng": -122.4329883
+  },
+  "Troy, MI": {
+    "lat": 42.6055893,
+    "lng": -83.1499304
+  },
+  "Caldwell, ID": {
+    "lat": 43.6678736,
+    "lng": -116.689415
+  },
+  "Spokane, WA": {
+    "lat": 47.6571934,
+    "lng": -117.42351
+  },
+  "Byram Township, NJ": {
+    "lat": 40.960174,
+    "lng": -74.7182956
+  },
+  "Whitefish Bay, WI": {
+    "lat": 43.1185591,
+    "lng": -87.906804
+  },
+  "Hudson, OH": {
+    "lat": 41.240056,
+    "lng": -81.440667
+  },
+  "Falkland, NC": {
+    "lat": 35.6983006,
+    "lng": -77.5135397
+  },
+  "Edgewater, CO": {
+    "lat": 39.7457238,
+    "lng": -105.0621833
+  },
+  "Oak Ridge, TN": {
+    "lat": 36.0103562,
+    "lng": -84.2696449
+  },
+  "Kissimmee, FL": {
+    "lat": 28.2918995,
+    "lng": -81.4075838
+  },
+  "Oconto, WI": {
+    "lat": 44.9988053,
+    "lng": -88.2480072
+  },
+  "Berlin, CT": {
+    "lat": 41.621488,
+    "lng": -72.7456519
+  },
+  "Fort Valley, GA": {
+    "lat": 32.5537585,
+    "lng": -83.8874084
+  },
+  "Kellogg, ID": {
+    "lat": 47.5382349,
+    "lng": -116.118887
   },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,

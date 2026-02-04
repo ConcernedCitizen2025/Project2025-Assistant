@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-02",
+  "cutoffStr": "2026-02-03",
   "lookbackDays": 1,
   "totals": {
-    "all": 8338,
-    "geoKept": 8289,
-    "virtKept": 35
+    "all": 8729,
+    "geoKept": 8685,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 8270,
-      "recent": 8268,
-      "withCoords": 7196,
-      "keptGeo": 7194,
-      "keptVirt": 1074,
+      "total": 8663,
+      "recent": 8661,
+      "withCoords": 7529,
+      "keptGeo": 7527,
+      "keptVirt": 1134,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,55 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 62,
-      "recent": 56,
-      "withCoords": 57,
-      "keptGeo": 52,
-      "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "ICE out! Justice for Alex Pretti, Renee Good, and all those murdered by ICE.",
-          "begin": "2026-02-01",
-          "end": "2026-02-01",
-          "lat": 45.514865858530655,
-          "lng": -122.67855405807497,
-          "location": "Portland City Hall, Portland",
-          "links": [
-            {
-              "title": "ICE out! Justice for Alex Pretti, Renee Good, and all those murdered by ICE.",
-              "href": "https://events.pol-rev.com/events/527793c8-7070-4b96-8194-08e8bb1d53f5"
-            }
-          ]
-        },
-        {
-          "title": "Enough is Enough: The People's Protest",
-          "begin": "2026-02-01",
-          "end": "2026-02-01",
-          "lat": 37.9676066,
-          "lng": -87.5738929,
-          "location": "201 Southeast Riverside Drive, Evansville, IN 47713, United States of America, Evansville",
-          "links": [
-            {
-              "title": "Enough is Enough: The People's Protest",
-              "href": "https://events.pol-rev.com/events/6b7749af-b4b2-45ef-a520-8d2838b2def7"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-02-01",
-          "end": "2026-02-01",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/d2491c5f-7600-4702-aaa0-28873b04efc9"
-            }
-          ]
-        }
-      ],
+      "total": 60,
+      "recent": 60,
+      "withCoords": 55,
+      "keptGeo": 55,
+      "keptVirt": 5,
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings!",
