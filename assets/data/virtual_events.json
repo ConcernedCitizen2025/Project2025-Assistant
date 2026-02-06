@@ -1,48 +1,12 @@
 {
   "data": [
     {
-      "_id": 792466,
-      "mobilize_id": 792466,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
-      "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-02-04",
-      "end": "2026-02-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Register Voters to Defend CA-45!",
-          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 796380,
-      "mobilize_id": 796380,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
-      "title": "District59 Virtual Office Hours / Training",
-      "begin": "2026-02-04",
-      "end": "2026-03-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "District59 Virtual Office Hours / Training",
-          "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
       "title": "Monthly All Member Meeting",
       "begin": "2026-02-05",
-      "end": "2026-03-05",
+      "end": "2026-11-05",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -50,24 +14,6 @@
         {
           "title": "Monthly All Member Meeting",
           "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 758303,
-      "mobilize_id": 758303,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
-      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-      "begin": "2026-02-05",
-      "end": "2026-12-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"
@@ -316,6 +262,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 898041,
+      "mobilize_id": 898041,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/898041/",
+      "title": "Rodney Sadler Precinct Team Orientation",
+      "begin": "2026-02-09",
+      "end": "2026-02-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Rodney Sadler Precinct Team Orientation",
+          "href": "https://www.mobilize.us/rodneysadler/event/898041/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 796380,
+      "mobilize_id": 796380,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/796380/",
+      "title": "District59 Virtual Office Hours / Training",
+      "begin": "2026-02-11",
+      "end": "2026-03-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "District59 Virtual Office Hours / Training",
+          "href": "https://www.mobilize.us/pinellascountydec/event/796380/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "BloNo 50501 Intro Meeting",
       "begin": "2026-02-11",
       "end": "2026-02-11",
@@ -329,6 +311,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 792466,
+      "mobilize_id": 792466,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
+      "title": "Register Voters to Defend CA-45!",
+      "begin": "2026-02-17",
+      "end": "2026-02-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Register Voters to Defend CA-45!",
+          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 896859,
@@ -362,6 +362,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 758303,
+      "mobilize_id": 758303,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
+      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+      "begin": "2026-02-19",
+      "end": "2026-12-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 877691,

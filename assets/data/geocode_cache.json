@@ -4827,6 +4827,10 @@
     "lat": 39.065813,
     "lng": -84.7027575
   },
+  "Rockville, MD": {
+    "lat": 39.0817985,
+    "lng": -77.1516844
+  },
   "South Deerfield, MA": {
     "lat": 42.4773046,
     "lng": -72.6079039
@@ -5043,10 +5047,6 @@
     "lat": 41.3516628,
     "lng": -88.845436
   },
-  "Atlantic City, NJ": {
-    "lat": 39.3642852,
-    "lng": -74.4229351
-  },
   "Norwich, NY": {
     "lat": 42.5311809,
     "lng": -75.5235149
@@ -5111,9 +5111,9 @@
     "lat": 40.153364,
     "lng": -76.6042521
   },
-  "Brownsville, TX": {
-    "lat": 25.9024289,
-    "lng": -97.4981698
+  "Edinburg, TX": {
+    "lat": 26.3013982,
+    "lng": -98.1624501
   },
   "Mount Washington, KY": {
     "lat": 38.0500627,
@@ -5199,10 +5199,6 @@
     "lat": 38.9191272,
     "lng": -77.2229636
   },
-  "Golden, CO": {
-    "lat": 39.7546349,
-    "lng": -105.22058
-  },
   "Glen Allen, VA": {
     "lat": 37.6659781,
     "lng": -77.506374
@@ -5210,6 +5206,10 @@
   "Parker, TX": {
     "lat": 32.7772597,
     "lng": -97.8045599
+  },
+  "Golden, CO": {
+    "lat": 39.7546349,
+    "lng": -105.22058
   },
   "Dacula, GA": {
     "lat": 33.9887165,
@@ -5262,6 +5262,10 @@
   "Newnan, GA": {
     "lat": 33.3806716,
     "lng": -84.7996573
+  },
+  "Mount Bethel, PA": {
+    "lat": 40.9048188,
+    "lng": -75.1115654
   },
   "Wallace Township, PA": {
     "lat": 40.090617,
@@ -5435,6 +5439,10 @@
     "lat": 42.0841936,
     "lng": -88.0131275
   },
+  "Murray, NE": {
+    "lat": 40.915278,
+    "lng": -95.930286
+  },
   "Plymouth, MN": {
     "lat": 45.0065149,
     "lng": -93.46651
@@ -5454,6 +5462,10 @@
   "This event's address is private. Sign up for more details, NC": {
     "lat": null,
     "lng": null
+  },
+  "Lino Lakes, MN": {
+    "lat": 45.1602442,
+    "lng": -93.0888324
   },
   "Delta, CO": {
     "lat": 38.8368777,
@@ -5503,10 +5515,6 @@
     "lat": 40.1148787,
     "lng": -75.3433705
   },
-  "Glen Carbon, IL": {
-    "lat": 38.7483814,
-    "lng": -89.983158
-  },
   "Champaign, IL": {
     "lat": 40.1164841,
     "lng": -88.2430932
@@ -5547,6 +5555,10 @@
     "lat": 42.909598,
     "lng": -85.7630956
   },
+  "Royal Palm Beach, FL": {
+    "lat": 26.7050822,
+    "lng": -80.2279519
+  },
   "Cohasset, MA": {
     "lat": 42.2410158,
     "lng": -70.8035571
@@ -5582,6 +5594,10 @@
   "Chippewa Falls, WI": {
     "lat": 44.9371325,
     "lng": -91.3932118
+  },
+  "Hurdle Mills, NC": {
+    "lat": 36.2729159,
+    "lng": -79.050813
   },
   "Wisconsin Rapids, WI": {
     "lat": 44.3917589,
@@ -5651,10 +5667,6 @@
     "lat": 38.0043667,
     "lng": -122.2988587
   },
-  "Croton-on-Hudson, NY": {
-    "lat": 41.2088215,
-    "lng": -73.8905175
-  },
   "Bellingham, WA": {
     "lat": 48.7544012,
     "lng": -122.478836
@@ -5662,6 +5674,10 @@
   "Bridgewater, NJ": {
     "lat": 40.5598127,
     "lng": -74.5517146
+  },
+  "Gorham, ME": {
+    "lat": 43.6797334,
+    "lng": -70.4429592
   },
   "Germanton, NC": {
     "lat": 36.262771,
@@ -5711,6 +5727,10 @@
     "lat": 38.577359,
     "lng": -92.1724265
   },
+  "Glen Carbon, IL": {
+    "lat": 38.7483814,
+    "lng": -89.983158
+  },
   "South Orange Village, NJ": {
     "lat": 40.7489914,
     "lng": -74.2655884
@@ -5751,10 +5771,6 @@
     "lat": 42.4268484,
     "lng": -71.0683741
   },
-  "Gresham, OR": {
-    "lat": 45.4978623,
-    "lng": -122.4329883
-  },
   "Troy, MI": {
     "lat": 42.6055893,
     "lng": -83.1499304
@@ -5782,10 +5798,6 @@
   "Edgewater, CO": {
     "lat": 39.7457238,
     "lng": -105.0621833
-  },
-  "Oak Ridge, TN": {
-    "lat": 36.0103562,
-    "lng": -84.2696449
   },
   "Kissimmee, FL": {
     "lat": 28.2918995,
@@ -5839,6 +5851,10 @@
     "lat": 44.5956163,
     "lng": -75.1690942
   },
+  "Brownsville, TX": {
+    "lat": 25.9024289,
+    "lng": -97.4981698
+  },
   "DeForest, WI": {
     "lat": 43.2477691,
     "lng": -89.3437277
@@ -5847,9 +5863,9 @@
     "lat": 35.8493135,
     "lng": -111.4153876
   },
-  "Margate, FL": {
-    "lat": 26.2445263,
-    "lng": -80.206436
+  "Lakewood, NJ": {
+    "lat": 40.0978929,
+    "lng": -74.2176435
   },
   "New Ulm, MN": {
     "lat": 44.3140261,
@@ -5862,6 +5878,138 @@
   "Wadena, MN": {
     "lat": 46.5850936,
     "lng": -94.9606684
+  },
+  "Hotchkiss, CO": {
+    "lat": 38.799707,
+    "lng": -107.719503
+  },
+  "Justin, TX": {
+    "lat": 33.0848442,
+    "lng": -97.2961286
+  },
+  "Cuba, NM": {
+    "lat": 36.0219333,
+    "lng": -106.958428
+  },
+  "Waterford Township, MI": {
+    "lat": 42.6706391,
+    "lng": -83.3896241
+  },
+  "Livonia, MI": {
+    "lat": 42.36837,
+    "lng": -83.3527097
+  },
+  "Hereford, TX": {
+    "lat": 34.8245521,
+    "lng": -102.398778
+  },
+  "Lillington, NC": {
+    "lat": 35.399121,
+    "lng": -78.8156001
+  },
+  "Youngstown, OH": {
+    "lat": 41.1035786,
+    "lng": -80.6520161
+  },
+  "Gilbertsville, NY": {
+    "lat": 42.4714657,
+    "lng": -75.325729
+  },
+  "Nevada City, CA": {
+    "lat": 39.2625993,
+    "lng": -121.0187304
+  },
+  "Geneseo, NY": {
+    "lat": 42.795896,
+    "lng": -77.816947
+  },
+  "kaukauna, WI": {
+    "lat": 44.2780432,
+    "lng": -88.2720503
+  },
+  "Huntsville, TX": {
+    "lat": 30.7235263,
+    "lng": -95.5507771
+  },
+  "Nueces County, TX": {
+    "lat": 27.7153774,
+    "lng": -97.6199942
+  },
+  "El Paso County, TX": {
+    "lat": 31.8072184,
+    "lng": -106.2230394
+  },
+  "Dallas County, TX": {
+    "lat": 32.7620405,
+    "lng": -96.7790069
+  },
+  "Williamson County, TX": {
+    "lat": 30.6580927,
+    "lng": -97.6041649
+  },
+  "Harris County, TX": {
+    "lat": 29.8119769,
+    "lng": -95.3741247
+  },
+  "Tarrant County, TX": {
+    "lat": 32.7513658,
+    "lng": -97.335696
+  },
+  "Hidalgo County, TX": {
+    "lat": 26.3530256,
+    "lng": -98.216445
+  },
+  "Bexar County, TX": {
+    "lat": 29.4263987,
+    "lng": -98.5104781
+  },
+  "Bell County, TX": {
+    "lat": 31.0081659,
+    "lng": -97.4314413
+  },
+  "Jefferson County, TX": {
+    "lat": 29.834772,
+    "lng": -94.1704496
+  },
+  "Cameron County, TX": {
+    "lat": 26.1291189,
+    "lng": -97.4134281
+  },
+  "Collin County, TX": {
+    "lat": 33.1609629,
+    "lng": -96.6060984
+  },
+  "Denton County, TX": {
+    "lat": 33.1838787,
+    "lng": -97.1413417
+  },
+  "Fort Bend County, TX": {
+    "lat": 29.511218,
+    "lng": -95.7807348
+  },
+  "McLennan County, TX": {
+    "lat": 31.5487691,
+    "lng": -97.2189254
+  },
+  "Galveston County, TX": {
+    "lat": 29.3872254,
+    "lng": -94.992736
+  },
+  "Montgomery County, TX": {
+    "lat": 30.301949,
+    "lng": -95.5065944
+  },
+  "Lubbock County, TX": {
+    "lat": 33.5831241,
+    "lng": -101.818598
+  },
+  "Brazoria County, TX": {
+    "lat": 29.18161,
+    "lng": -95.4993375
+  },
+  "Easton, MA": {
+    "lat": 42.0245442,
+    "lng": -71.1286594
   },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,
