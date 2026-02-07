@@ -4847,6 +4847,10 @@
     "lat": 36.1198589,
     "lng": -80.0736533
   },
+  "Chula Vista, CA": {
+    "lat": 32.6400541,
+    "lng": -117.084195
+  },
   "Spring Grove, PA": {
     "lat": 39.8745437,
     "lng": -76.8658078
@@ -4919,6 +4923,10 @@
     "lat": 42.850682,
     "lng": -77.3191454
   },
+  "Fresno, CA": {
+    "lat": 36.7394421,
+    "lng": -119.78483
+  },
   "Allegan, MI": {
     "lat": 42.5867203,
     "lng": -85.8861492
@@ -4954,10 +4962,6 @@
   "Oak Park, IL": {
     "lat": 41.8878145,
     "lng": -87.7887615
-  },
-  "Glen Ridge, NJ": {
-    "lat": 40.805378,
-    "lng": -74.2037566
   },
   "Huntington Beach, CA": {
     "lat": 33.6783336,
@@ -5135,13 +5139,13 @@
     "lat": 37.9577016,
     "lng": -121.290779
   },
-  "Salida, CO": {
-    "lat": 38.5371195,
-    "lng": -105.990968
-  },
   "Selma, AL": {
     "lat": 32.4078632,
     "lng": -87.0207473
+  },
+  "Los Banos, CA": {
+    "lat": 37.0592253,
+    "lng": -120.8505342
   },
   "This event's address is private. Sign up for more details, Treasure Island": {
     "lat": null,
@@ -5387,10 +5391,6 @@
     "lat": 40.125222,
     "lng": -87.6304614
   },
-  "Adrian, MI": {
-    "lat": 41.8975152,
-    "lng": -84.0373054
-  },
   "Bastrop, TX": {
     "lat": 30.0541116,
     "lng": -97.3887764
@@ -5418,10 +5418,6 @@
   "Spokane, WA": {
     "lat": 47.6571934,
     "lng": -117.42351
-  },
-  "Hackensack, MN": {
-    "lat": 46.93003,
-    "lng": -94.5204074
   },
   "Andover, MA": {
     "lat": 42.65717,
@@ -5478,6 +5474,10 @@
   "Rockledge, FL": {
     "lat": 28.330831,
     "lng": -80.7349162
+  },
+  "Galveston, TX": {
+    "lat": 29.3872254,
+    "lng": -94.992736
   },
   "Keyser, WV": {
     "lat": 39.4409277,
@@ -5575,10 +5575,6 @@
     "lat": 42.7803486,
     "lng": -89.2992249
   },
-  "Tewksbury, NJ": {
-    "lat": 40.68446,
-    "lng": -74.77873
-  },
   "Barre, MA": {
     "lat": 42.4228006,
     "lng": -72.1051592
@@ -5667,6 +5663,10 @@
     "lat": 38.0043667,
     "lng": -122.2988587
   },
+  "Porter Ranch, CA": {
+    "lat": 34.2818164,
+    "lng": -118.5612714
+  },
   "Bellingham, WA": {
     "lat": 48.7544012,
     "lng": -122.478836
@@ -5675,21 +5675,9 @@
     "lat": 40.5598127,
     "lng": -74.5517146
   },
-  "Gorham, ME": {
-    "lat": 43.6797334,
-    "lng": -70.4429592
-  },
   "Germanton, NC": {
     "lat": 36.262771,
     "lng": -80.2309735
-  },
-  "Little Falls, MN": {
-    "lat": 45.9763545,
-    "lng": -94.3625024
-  },
-  "Gaylord, MN": {
-    "lat": 44.5530251,
-    "lng": -94.2205889
   },
   "Woodburn, OR": {
     "lat": 45.143731,
@@ -5719,6 +5707,10 @@
     "lat": 39.5364152,
     "lng": -104.9041528
   },
+  "Adrian, MI": {
+    "lat": 41.8975152,
+    "lng": -84.0373054
+  },
   "Hopatcong, NJ": {
     "lat": 40.9332051,
     "lng": -74.6600975
@@ -5730,10 +5722,6 @@
   "Glen Carbon, IL": {
     "lat": 38.7483814,
     "lng": -89.983158
-  },
-  "South Orange Village, NJ": {
-    "lat": 40.7489914,
-    "lng": -74.2655884
   },
   "Largo, FL": {
     "lat": 27.9094665,
@@ -5762,10 +5750,6 @@
   "Louisville, CO": {
     "lat": 39.977763,
     "lng": -105.1319296
-  },
-  "Bloomfield, NJ": {
-    "lat": 40.7934789,
-    "lng": -74.1979277
   },
   "Malden, MA": {
     "lat": 42.4268484,
@@ -5826,14 +5810,6 @@
   "Tinley Park, IL": {
     "lat": 41.5733669,
     "lng": -87.7844944
-  },
-  "Texas City, TX": {
-    "lat": 29.396013,
-    "lng": -94.9175485
-  },
-  "Galveston, TX": {
-    "lat": 29.3872254,
-    "lng": -94.992736
   },
   "Oak Grove, OR": {
     "lat": 45.4159444,
@@ -6010,6 +5986,70 @@
   "Easton, MA": {
     "lat": 42.0245442,
     "lng": -71.1286594
+  },
+  "Hopkinton, RI": {
+    "lat": 41.4594366,
+    "lng": -71.7803046
+  },
+  "Wood River, IL": {
+    "lat": 38.861159,
+    "lng": -90.0976069
+  },
+  "Muskegon, MI": {
+    "lat": 43.2341813,
+    "lng": -86.2483921
+  },
+  "Newaygo, MI": {
+    "lat": 43.5121225,
+    "lng": -85.7944976
+  },
+  "Wauwatosa, WI": {
+    "lat": 43.0494122,
+    "lng": -88.0079271
+  },
+  "Forest Park, IL": {
+    "lat": 41.8794989,
+    "lng": -87.8136997
+  },
+  "Gainesville, GA": {
+    "lat": 34.2978794,
+    "lng": -83.8240663
+  },
+  "Marshall, IL": {
+    "lat": 41.0324537,
+    "lng": -89.2998456
+  },
+  "Annapolis, MD": {
+    "lat": 38.9786401,
+    "lng": -76.492786
+  },
+  "River Falls, WI": {
+    "lat": 44.8596498,
+    "lng": -92.6255048
+  },
+  "Palm Harbor, FL": {
+    "lat": 28.0856815,
+    "lng": -82.756907
+  },
+  "Ferryville, WI": {
+    "lat": 43.3505324,
+    "lng": -91.1020739
+  },
+  "Gays Mills, WI": {
+    "lat": 43.3177072,
+    "lng": -90.8457698
+  },
+  "Ridgeland, SC": {
+    "lat": 32.4807435,
+    "lng": -80.980386
+  },
+  "Evergreen, CO": {
+    "lat": 39.632845,
+    "lng": -105.323299
+  },
+  "This event's address is private. Sign up for more details, IN": {
+    "lat": null,
+    "lng": null
   },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,
