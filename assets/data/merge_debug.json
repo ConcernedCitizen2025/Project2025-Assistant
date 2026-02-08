@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-06",
+  "cutoffStr": "2026-02-07",
   "lookbackDays": 1,
   "totals": {
-    "all": 9330,
-    "geoKept": 9284,
+    "all": 9343,
+    "geoKept": 9294,
     "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 9253,
-      "recent": 9251,
-      "withCoords": 8002,
+      "total": 9268,
+      "recent": 9265,
+      "withCoords": 8003,
       "keptGeo": 8000,
-      "keptVirt": 1251,
+      "keptVirt": 1265,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,37 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 71,
-      "recent": 69,
+      "total": 69,
+      "recent": 65,
       "withCoords": 64,
-      "keptGeo": 64,
-      "keptVirt": 5,
+      "keptGeo": 61,
+      "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Eyes on ICE: Document and Record",
-          "begin": "2026-02-05",
-          "end": "2026-02-05",
+          "title": "Weekly Saturday Morning Protest 11 AM",
+          "begin": "2026-02-06",
+          "end": "2026-02-06",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Eyes on ICE: Document and Record",
-              "href": "https://events.pol-rev.com/events/a32e0616-2972-4f97-9e6e-a937f2be64f7"
+              "title": "Weekly Saturday Morning Protest 11 AM",
+              "href": "https://events.pol-rev.com/events/d1664ca4-449a-47f3-a5cf-4cc7e773ccbe"
             }
           ]
         },
         {
-          "title": "Creative Action Call",
-          "begin": "2026-02-05",
-          "end": "2026-02-05",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "ICE OUT - WE KEEP PROTESTING - 2/6/25",
+          "begin": "2026-02-06",
+          "end": "2026-02-06",
+          "lat": 44.9773133,
+          "lng": -93.2650683,
+          "location": "Minneapolis City Hall, 350 South 5th Street, Minneapolis, MN 55415, United States of America, Minneapolis",
           "links": [
             {
-              "title": "Creative Action Call",
-              "href": "https://events.pol-rev.com/events/22e6825c-c91f-4cec-8fbb-ef2d5035f676"
+              "title": "ICE OUT - WE KEEP PROTESTING - 2/6/25",
+              "href": "https://events.pol-rev.com/events/def8ba06-fca5-4c66-8a45-ca6e7edecbcc"
+            }
+          ]
+        },
+        {
+          "title": "Protest ICE every Friday in February, 10AM-noon, Courthouse Square, Tyler",
+          "begin": "2026-02-06",
+          "end": "2026-02-06",
+          "lat": 32.35126,
+          "lng": -95.30106,
+          "location": "Tyler, Texas, United States of America, Tyler",
+          "links": [
+            {
+              "title": "Protest ICE every Friday in February, 10AM-noon, Courthouse Square, Tyler",
+              "href": "https://events.pol-rev.com/events/3658f3a8-3897-4fae-a81b-4f1583e853e6"
             }
           ]
         }

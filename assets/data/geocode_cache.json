@@ -4943,10 +4943,6 @@
     "lat": 38.6125521,
     "lng": -90.3245599
   },
-  "Westfield, MA": {
-    "lat": 42.1205411,
-    "lng": -72.7489158
-  },
   "Snellville, GA": {
     "lat": 33.857328,
     "lng": -84.0199108
@@ -4958,10 +4954,6 @@
   "Coeur d'Alene, ID": {
     "lat": 47.6742994,
     "lng": -116.7811531
-  },
-  "Oak Park, IL": {
-    "lat": 41.8878145,
-    "lng": -87.7887615
   },
   "Huntington Beach, CA": {
     "lat": 33.6783336,
@@ -5010,14 +5002,6 @@
   "Westborough, MA": {
     "lat": 42.2694308,
     "lng": -71.6129907
-  },
-  "Siler City, NC": {
-    "lat": 35.7234734,
-    "lng": -79.4622431
-  },
-  "Sedona, AZ": {
-    "lat": 34.8688613,
-    "lng": -111.7614394
   },
   "Kansas City, KS": {
     "lat": 39.1134562,
@@ -5138,6 +5122,10 @@
   "Stockton, CA": {
     "lat": 37.9577016,
     "lng": -121.290779
+  },
+  "Tomball, TX": {
+    "lat": 30.0971621,
+    "lng": -95.6160549
   },
   "Selma, AL": {
     "lat": 32.4078632,
@@ -5383,10 +5371,6 @@
     "lat": 29.6196787,
     "lng": -95.6349463
   },
-  "Eloy, AZ": {
-    "lat": 32.7551703,
-    "lng": -111.553493
-  },
   "Danville, IL": {
     "lat": 40.125222,
     "lng": -87.6304614
@@ -5503,10 +5487,6 @@
     "lat": 42.1939364,
     "lng": -73.362773
   },
-  "Stone Mountain, GA": {
-    "lat": 33.8062166,
-    "lng": -84.1457505
-  },
   "Westport, MA": {
     "lat": 41.6220399,
     "lng": -71.0780195
@@ -5558,10 +5538,6 @@
   "Royal Palm Beach, FL": {
     "lat": 26.7050822,
     "lng": -80.2279519
-  },
-  "Cohasset, MA": {
-    "lat": 42.2410158,
-    "lng": -70.8035571
   },
   "Canfield, OH": {
     "lat": 41.025059,
@@ -5794,10 +5770,6 @@
   "Berlin, CT": {
     "lat": 41.621488,
     "lng": -72.7456519
-  },
-  "Fort Valley, GA": {
-    "lat": 32.5537585,
-    "lng": -83.8874084
   },
   "Kellogg, ID": {
     "lat": 47.5382349,
@@ -6050,6 +6022,26 @@
   "This event's address is private. Sign up for more details, IN": {
     "lat": null,
     "lng": null
+  },
+  "Huntington Woods, MI": {
+    "lat": 42.4805913,
+    "lng": -83.1668713
+  },
+  "Madison, AL": {
+    "lat": 34.7736807,
+    "lng": -86.5675095
+  },
+  "Croton-on-Hudson, NY": {
+    "lat": 41.2088215,
+    "lng": -73.8905175
+  },
+  "Glen Burnie, MD": {
+    "lat": 39.1648,
+    "lng": -76.6249437
+  },
+  "Chester, PA": {
+    "lat": 39.9829308,
+    "lng": -75.7652424
   },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,
