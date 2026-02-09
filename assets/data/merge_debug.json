@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-07",
+  "cutoffStr": "2026-02-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 9343,
-    "geoKept": 9294,
+    "all": 9014,
+    "geoKept": 8958,
     "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 9268,
-      "recent": 9265,
-      "withCoords": 8003,
-      "keptGeo": 8000,
-      "keptVirt": 1265,
+      "total": 8943,
+      "recent": 8940,
+      "withCoords": 7763,
+      "keptGeo": 7760,
+      "keptVirt": 1180,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -94,7 +94,7 @@
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
           "begin": "2026-02-08",
-          "end": "2026-03-08",
+          "end": "2026-04-26",
           "lat": null,
           "lng": null,
           "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
@@ -127,51 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 69,
-      "recent": 65,
-      "withCoords": 64,
-      "keptGeo": 61,
+      "total": 65,
+      "recent": 54,
+      "withCoords": 61,
+      "keptGeo": 50,
       "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Weekly Saturday Morning Protest 11 AM",
-          "begin": "2026-02-06",
-          "end": "2026-02-06",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "One year  anniversary of Anti Trump regime protests",
+          "begin": "2026-02-07",
+          "end": "2026-02-07",
+          "lat": 40.9460536,
+          "lng": -73.7332712,
+          "location": "Harbor Island Park, Village of Mamaroneck, NY 10543, United States of America, Village of Mamaroneck",
           "links": [
             {
-              "title": "Weekly Saturday Morning Protest 11 AM",
-              "href": "https://events.pol-rev.com/events/d1664ca4-449a-47f3-a5cf-4cc7e773ccbe"
+              "title": "One year  anniversary of Anti Trump regime protests",
+              "href": "https://events.pol-rev.com/events/6352c2ad-d309-42cc-b174-37f764f365e7"
             }
           ]
         },
         {
-          "title": "ICE OUT - WE KEEP PROTESTING - 2/6/25",
-          "begin": "2026-02-06",
-          "end": "2026-02-06",
+          "title": "ICE OUT - WE KEEP PROTESTING - 2/7/25",
+          "begin": "2026-02-07",
+          "end": "2026-02-07",
           "lat": 44.9773133,
           "lng": -93.2650683,
           "location": "Minneapolis City Hall, 350 South 5th Street, Minneapolis, MN 55415, United States of America, Minneapolis",
           "links": [
             {
-              "title": "ICE OUT - WE KEEP PROTESTING - 2/6/25",
-              "href": "https://events.pol-rev.com/events/def8ba06-fca5-4c66-8a45-ca6e7edecbcc"
+              "title": "ICE OUT - WE KEEP PROTESTING - 2/7/25",
+              "href": "https://events.pol-rev.com/events/a6c5073a-6cbb-4945-b06d-59135564a01d"
             }
           ]
         },
         {
-          "title": "Protest ICE every Friday in February, 10AM-noon, Courthouse Square, Tyler",
-          "begin": "2026-02-06",
-          "end": "2026-02-06",
-          "lat": 32.35126,
-          "lng": -95.30106,
-          "location": "Tyler, Texas, United States of America, Tyler",
+          "title": "1/7/26 Protest",
+          "begin": "2026-02-07",
+          "end": "2026-02-07",
+          "lat": 32.752055,
+          "lng": -117.15815,
+          "location": "San Diego, California, United States of America, San Diego",
           "links": [
             {
-              "title": "Protest ICE every Friday in February, 10AM-noon, Courthouse Square, Tyler",
-              "href": "https://events.pol-rev.com/events/3658f3a8-3897-4fae-a81b-4f1583e853e6"
+              "title": "1/7/26 Protest",
+              "href": "https://events.pol-rev.com/events/a6eb654c-0f8c-4821-9173-4b70e9c7c57c"
             }
           ]
         }

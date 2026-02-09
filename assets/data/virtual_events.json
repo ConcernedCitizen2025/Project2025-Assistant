@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 895579,
-      "mobilize_id": 895579,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/895579/",
-      "title": "Coppell Blockwalk w/ Kevin Burge!",
-      "begin": "2026-02-07",
-      "end": "2026-02-08",
-      "lat": null,
-      "lng": null,
-      "location": "Copell, TX",
-      "links": [
-        {
-          "title": "Coppell Blockwalk w/ Kevin Burge!",
-          "href": "https://www.mobilize.us/cd24/event/895579/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 891115,
       "mobilize_id": 891115,
       "canonical_mobilize_url": "https://www.mobilize.us/event/891115/",
@@ -32,6 +14,24 @@
         {
           "title": "Congresswoman Madeleine Dean's Campaign Kickoff and Volunteer Appreciation Event",
           "href": "https://www.mobilize.us/montgomerycountydemocraticcommittee/event/891115/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 895579,
+      "mobilize_id": 895579,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/895579/",
+      "title": "Coppell Blockwalk w/ Kevin Burge!",
+      "begin": "2026-02-08",
+      "end": "2026-02-08",
+      "lat": null,
+      "lng": null,
+      "location": "Copell, TX",
+      "links": [
+        {
+          "title": "Coppell Blockwalk w/ Kevin Burge!",
+          "href": "https://www.mobilize.us/cd24/event/895579/"
         }
       ],
       "_src": "mobilize"
@@ -199,7 +199,7 @@
       "_id": 892950,
       "mobilize_id": 892950,
       "canonical_mobilize_url": "https://www.mobilize.us/event/892950/",
-      "title": "SPECIAL ELECTION: Phone Bank with Sheree NOW on Thursdays!",
+      "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
       "begin": "2026-02-12",
       "end": "2026-02-26",
       "lat": null,
@@ -207,7 +207,7 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "SPECIAL ELECTION: Phone Bank with Sheree NOW on Thursdays!",
+          "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
           "href": "https://www.mobilize.us/hillsboroughcountydec/event/892950/"
         }
       ],
