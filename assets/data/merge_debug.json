@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-08",
+  "cutoffStr": "2026-02-09",
   "lookbackDays": 1,
   "totals": {
-    "all": 9014,
-    "geoKept": 8958,
-    "virtKept": 36
+    "all": 9044,
+    "geoKept": 8993,
+    "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 8943,
-      "recent": 8940,
-      "withCoords": 7763,
-      "keptGeo": 7760,
-      "keptVirt": 1180,
+      "total": 8978,
+      "recent": 8975,
+      "withCoords": 7781,
+      "keptGeo": 7778,
+      "keptVirt": 1197,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-02-08",
+          "begin": "2026-02-15",
           "end": "2026-04-26",
           "lat": null,
           "lng": null,
@@ -127,51 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 65,
-      "recent": 54,
-      "withCoords": 61,
-      "keptGeo": 50,
-      "keptVirt": 4,
+      "total": 60,
+      "recent": 55,
+      "withCoords": 54,
+      "keptGeo": 49,
+      "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "One year  anniversary of Anti Trump regime protests",
-          "begin": "2026-02-07",
-          "end": "2026-02-07",
-          "lat": 40.9460536,
-          "lng": -73.7332712,
-          "location": "Harbor Island Park, Village of Mamaroneck, NY 10543, United States of America, Village of Mamaroneck",
+          "title": "Tell Mayor Keith Wilson: ICE out!",
+          "begin": "2026-02-08",
+          "end": "2026-02-08",
+          "lat": 45.5525859,
+          "lng": -122.6305613,
+          "location": "4116 Northeast 33rd Avenue, Portland, OR 97212, United States of America, Portland",
           "links": [
             {
-              "title": "One year  anniversary of Anti Trump regime protests",
-              "href": "https://events.pol-rev.com/events/6352c2ad-d309-42cc-b174-37f764f365e7"
+              "title": "Tell Mayor Keith Wilson: ICE out!",
+              "href": "https://events.pol-rev.com/events/27e10857-c3ef-40b5-8b9f-662dcefcba04"
             }
           ]
         },
         {
-          "title": "ICE OUT - WE KEEP PROTESTING - 2/7/25",
-          "begin": "2026-02-07",
-          "end": "2026-02-07",
-          "lat": 44.9773133,
-          "lng": -93.2650683,
-          "location": "Minneapolis City Hall, 350 South 5th Street, Minneapolis, MN 55415, United States of America, Minneapolis",
+          "title": "Enough is Enough: The People's Protest",
+          "begin": "2026-02-08",
+          "end": "2026-02-08",
+          "lat": 37.9676066,
+          "lng": -87.5738929,
+          "location": "201 Southeast Riverside Drive, Evansville, IN 47713, United States of America, Evansville",
           "links": [
             {
-              "title": "ICE OUT - WE KEEP PROTESTING - 2/7/25",
-              "href": "https://events.pol-rev.com/events/a6c5073a-6cbb-4945-b06d-59135564a01d"
+              "title": "Enough is Enough: The People's Protest",
+              "href": "https://events.pol-rev.com/events/c90b8604-b8db-4b90-9b7e-dec08a7a0953"
             }
           ]
         },
         {
-          "title": "1/7/26 Protest",
-          "begin": "2026-02-07",
-          "end": "2026-02-07",
-          "lat": 32.752055,
-          "lng": -117.15815,
-          "location": "San Diego, California, United States of America, San Diego",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-02-08",
+          "end": "2026-02-08",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "1/7/26 Protest",
-              "href": "https://events.pol-rev.com/events/a6eb654c-0f8c-4821-9173-4b70e9c7c57c"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/668842f5-8265-422d-956d-c45ce8ea8850"
             }
           ]
         }
@@ -206,16 +206,16 @@
           ]
         },
         {
-          "title": "Banner Workshop",
-          "begin": "2026-02-17",
-          "end": "2026-02-17",
+          "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+          "begin": "2026-03-19",
+          "end": "2026-03-19",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Banner Workshop",
-              "href": "https://events.pol-rev.com/events/ac348f50-cd1d-410f-b1c0-7342083cc9d3"
+              "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+              "href": "https://events.pol-rev.com/events/48db0db7-4450-41f5-89b1-93a42730292a"
             }
           ]
         }
