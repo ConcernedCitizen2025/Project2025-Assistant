@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-10",
+  "cutoffStr": "2026-02-11",
   "lookbackDays": 1,
   "totals": {
-    "all": 9401,
-    "geoKept": 9355,
-    "virtKept": 37
+    "all": 9685,
+    "geoKept": 9634,
+    "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 9335,
-      "recent": 9332,
-      "withCoords": 8084,
-      "keptGeo": 8081,
-      "keptVirt": 1251,
+      "total": 9614,
+      "recent": 9611,
+      "withCoords": 8298,
+      "keptGeo": 8295,
+      "keptVirt": 1316,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -75,7 +75,7 @@
           "mobilize_id": 437109,
           "canonical_mobilize_url": "https://www.mobilize.us/event/437109/",
           "title": "Baytown Area Democrats Club Meeting",
-          "begin": "2026-02-10",
+          "begin": "2026-03-10",
           "end": "2026-11-10",
           "lat": null,
           "lng": null,
@@ -127,12 +127,55 @@
       ]
     },
     "mobilizon": {
-      "total": 60,
-      "recent": 60,
-      "withCoords": 53,
-      "keptGeo": 53,
-      "keptVirt": 7,
-      "sampleDroppedByDate": [],
+      "total": 65,
+      "recent": 61,
+      "withCoords": 58,
+      "keptGeo": 55,
+      "keptVirt": 6,
+      "sampleDroppedByDate": [
+        {
+          "title": "Not My Presidents Day",
+          "begin": "2026-02-10",
+          "end": "2026-02-10",
+          "lat": 43.2077595,
+          "lng": -71.5368801,
+          "location": "State House, North Main Street, Concord, NH 03306, United States of America, Concord",
+          "links": [
+            {
+              "title": "Not My Presidents Day",
+              "href": "https://events.pol-rev.com/events/f04947e2-fed4-40fc-a3e1-190011513212"
+            }
+          ]
+        },
+        {
+          "title": "Toms River \"Hold NJ-CD04 Congressman Chris Smith Accountable\" - Protect Democracy",
+          "begin": "2026-02-10",
+          "end": "2026-02-10",
+          "lat": 39.952803,
+          "lng": -74.195756,
+          "location": "33 Washington Street, Toms River, NJ 08753, United States of America, Toms River",
+          "links": [
+            {
+              "title": "Toms River \"Hold NJ-CD04 Congressman Chris Smith Accountable\" - Protect Democracy",
+              "href": "https://events.pol-rev.com/events/bf17ef31-6932-4406-a4e1-571e383cab88"
+            }
+          ]
+        },
+        {
+          "title": "45th Straight Weekly Sarasota Rally Against Fascism",
+          "begin": "2026-02-10",
+          "end": "2026-02-10",
+          "lat": 27.3029295,
+          "lng": -82.5296757,
+          "location": "2001 Siesta Drive, South Trail, Sarasota, FL 34239, United States of America, Sarasota",
+          "links": [
+            {
+              "title": "45th Straight Weekly Sarasota Rally Against Fascism",
+              "href": "https://events.pol-rev.com/events/55519594-0677-400e-877d-f80003cbf4ad"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings!",
