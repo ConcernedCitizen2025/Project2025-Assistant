@@ -4975,10 +4975,6 @@
     "lat": 36.0712466,
     "lng": -79.5644686
   },
-  "Fitchburg, MA": {
-    "lat": 42.5838984,
-    "lng": -71.8038268
-  },
   "Westborough, MA": {
     "lat": 42.2694308,
     "lng": -71.6129907
@@ -5018,10 +5014,6 @@
   "Asheville, NC": {
     "lat": 35.595363,
     "lng": -82.5508407
-  },
-  "Langhorne, PA": {
-    "lat": 40.1761812,
-    "lng": -74.9202481
   },
   "Cicero, IL": {
     "lat": 41.8455398,
@@ -5115,13 +5107,17 @@
     "lat": 27.7483613,
     "lng": -82.7034334
   },
-  "Lake Worth Beach, FL": {
-    "lat": 26.6159698,
-    "lng": -80.0569927
-  },
   "Palm Beach Gardens, FL": {
     "lat": 26.8233946,
     "lng": -80.1386547
+  },
+  "Lantana, FL": {
+    "lat": 26.5865308,
+    "lng": -80.052166
+  },
+  "Lake Worth Beach, FL": {
+    "lat": 26.6159698,
+    "lng": -80.0569927
   },
   "Waynesville, NC": {
     "lat": 35.4887476,
@@ -5202,10 +5198,6 @@
   "Laredo, TX": {
     "lat": 27.5079211,
     "lng": -99.5069834
-  },
-  "Wallace Township, PA": {
-    "lat": 40.090617,
-    "lng": -75.7741385
   },
   "Decatur, GA": {
     "lat": 30.8736613,
@@ -5347,10 +5339,6 @@
     "lat": null,
     "lng": null
   },
-  "Lino Lakes, MN": {
-    "lat": 45.1602442,
-    "lng": -93.0888324
-  },
   "Norman, OK": {
     "lat": 35.2225717,
     "lng": -97.4394816
@@ -5383,10 +5371,6 @@
     "lat": 34.6922205,
     "lng": -83.6866338
   },
-  "Great Barrington, MA": {
-    "lat": 42.1939364,
-    "lng": -73.362773
-  },
   "Westport, MA": {
     "lat": 41.6220399,
     "lng": -71.0780195
@@ -5399,9 +5383,9 @@
     "lat": 38.7733961,
     "lng": -75.1379574
   },
-  "New Glarus, WI": {
-    "lat": 42.8144683,
-    "lng": -89.6339362
+  "Monroe, WI": {
+    "lat": 43.9416755,
+    "lng": -90.6397264
   },
   "Mason, TN": {
     "lat": 35.4114328,
@@ -5507,6 +5491,10 @@
     "lat": 40.0639616,
     "lng": -80.7209149
   },
+  "Greenfield, WI": {
+    "lat": 42.9596903,
+    "lng": -87.98132
+  },
   "Willard, OH": {
     "lat": 41.0531134,
     "lng": -82.7262958
@@ -5534,10 +5522,6 @@
   "Woodburn, OR": {
     "lat": 45.143731,
     "lng": -122.8553725
-  },
-  "Brunswick, GA": {
-    "lat": 31.1499528,
-    "lng": -81.4914894
   },
   "Rollingwood, TX": {
     "lat": 30.2742428,
@@ -5623,9 +5607,9 @@
     "lat": 43.1185591,
     "lng": -87.906804
   },
-  "Hudson, OH": {
-    "lat": 41.240056,
-    "lng": -81.440667
+  "Durango, CO": {
+    "lat": 37.2769484,
+    "lng": -107.8766
   },
   "Edgewater, CO": {
     "lat": 39.7457238,
@@ -5662,6 +5646,14 @@
   "Camp Hill, PA": {
     "lat": 40.2398118,
     "lng": -76.9199742
+  },
+  "Wausau, WI": {
+    "lat": 44.9597858,
+    "lng": -89.6272791
+  },
+  "Chesterbrook, PA": {
+    "lat": 40.0726449,
+    "lng": -75.45625
   },
   "La Marque, TX": {
     "lat": 29.3685674,
@@ -5879,10 +5871,6 @@
     "lat": 31.0081659,
     "lng": -97.4314413
   },
-  "Jefferson County, TX": {
-    "lat": 29.834772,
-    "lng": -94.1704496
-  },
   "Cameron County, TX": {
     "lat": 26.1291189,
     "lng": -97.4134281
@@ -5922,10 +5910,6 @@
   "Easton, MA": {
     "lat": 42.0245442,
     "lng": -71.1286594
-  },
-  "Hopkinton, RI": {
-    "lat": 41.4594366,
-    "lng": -71.7803046
   },
   "Muskegon, MI": {
     "lat": 43.2341813,
@@ -5999,10 +5983,6 @@
     "lat": 34.7736807,
     "lng": -86.5675095
   },
-  "Croton-on-Hudson, NY": {
-    "lat": 41.2088215,
-    "lng": -73.8905175
-  },
   "WI. 53545, WI": {
     "lat": 42.6878688,
     "lng": -89.0213721
@@ -6015,10 +5995,6 @@
     "lat": 42.0848616,
     "lng": -83.6830279
   },
-  "Chester, PA": {
-    "lat": 39.9829308,
-    "lng": -75.7652424
-  },
   "Avery Creek, NC": {
     "lat": 35.4663555,
     "lng": -82.5681725
@@ -6030,6 +6006,10 @@
   "Princeton, TX": {
     "lat": 33.1801161,
     "lng": -96.4980424
+  },
+  "Miles City, MT": {
+    "lat": 46.4070219,
+    "lng": -105.847843
   },
   "Beaver Falls (Patterson), PA": {
     "lat": 40.8464107,
@@ -6159,13 +6139,25 @@
     "lat": 29.5074538,
     "lng": -95.0949303
   },
+  "South Orange Village, NJ": {
+    "lat": 40.7489914,
+    "lng": -74.2655884
+  },
   "Staunton, IL": {
     "lat": 39.0121862,
     "lng": -89.7884869
   },
+  "Reston, VA": {
+    "lat": 38.953282,
+    "lng": -77.3464516
+  },
   "Friendswood, TX": {
     "lat": 29.5293998,
     "lng": -95.2010447
+  },
+  "Independence, MO": {
+    "lat": 39.0924792,
+    "lng": -94.4137923
   },
   "Shorewood, WI": {
     "lat": 43.0883957,
@@ -6187,21 +6179,113 @@
     "lat": 42.7320307,
     "lng": -84.4721678
   },
+  "Lock Haven, PA": {
+    "lat": 41.1369077,
+    "lng": -77.4471641
+  },
   "Brevard, NC": {
     "lat": 35.2334472,
     "lng": -82.7342919
+  },
+  "UPR MONTCLAIR, NJ": {
+    "lat": 40.8447225,
+    "lng": -74.1999165
+  },
+  "Brunswick, GA": {
+    "lat": 31.1499528,
+    "lng": -81.4914894
+  },
+  "Poulsbo, WA": {
+    "lat": 47.7391366,
+    "lng": -122.63928
   },
   "Covington, GA": {
     "lat": 33.5966005,
     "lng": -83.8598742
   },
+  "West Bloomfield Township, MI": {
+    "lat": 42.5684073,
+    "lng": -83.3740333
+  },
   "Vienna, VA": {
     "lat": 38.9013729,
     "lng": -77.2651762
   },
+  "Big Bear Lake, CA": {
+    "lat": 34.2440587,
+    "lng": -116.91018
+  },
   "Longmont, CO": {
     "lat": 40.1672117,
     "lng": -105.101928
+  },
+  "Washington Court House, OH": {
+    "lat": 39.5364511,
+    "lng": -83.4390843
+  },
+  "East Tawas, MI": {
+    "lat": 44.279461,
+    "lng": -83.490252
+  },
+  "Mount Vernon, OH": {
+    "lat": 40.3933956,
+    "lng": -82.4857181
+  },
+  "Enumclaw, WA": {
+    "lat": 47.2047793,
+    "lng": -121.9916371
+  },
+  "Gallatin, TN": {
+    "lat": 36.3883031,
+    "lng": -86.4475898
+  },
+  "Newbury, MA": {
+    "lat": 42.7664975,
+    "lng": -70.8458022
+  },
+  "New Cumberland, PA": {
+    "lat": 40.2284433,
+    "lng": -76.8673781
+  },
+  "Berwyn, PA": {
+    "lat": 40.0448306,
+    "lng": -75.4388053
+  },
+  "Buffalo Grove, IL": {
+    "lat": 42.1544205,
+    "lng": -87.9589621
+  },
+  "Cortez, CO": {
+    "lat": 37.3494528,
+    "lng": -108.584073
+  },
+  "Bridgeport, CT": {
+    "lat": 41.1792695,
+    "lng": -73.1887863
+  },
+  "Cedarville, MI": {
+    "lat": 45.9983836,
+    "lng": -84.3630297
+  },
+  "Granton, WI": {
+    "lat": 44.5872517,
+    "lng": -90.4624637
+  },
+  "Statesville, NC": {
+    "lat": 35.7827676,
+    "lng": -80.8873574
+  },
+  "New Brunswick, NJ": {
+    "lat": 40.4951365,
+    "lng": -74.4439254
+  },
+  "Richmond, TX": {
+    "lat": 29.5821811,
+    "lng": -95.7607832
+  },
+  "Lakeview Commons Beach, South Lake Tahoe": {
+    "lat": null,
+    "lng": null
   },
   "Washington Park, Ottawa": {
     "lat": 41.3494113,
