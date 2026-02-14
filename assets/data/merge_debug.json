@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-12",
+  "cutoffStr": "2026-02-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 10173,
-    "geoKept": 10125,
+    "all": 10508,
+    "geoKept": 10461,
     "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 10101,
-      "recent": 10098,
-      "withCoords": 8741,
-      "keptGeo": 8738,
-      "keptVirt": 1360,
+      "total": 10434,
+      "recent": 10431,
+      "withCoords": 9039,
+      "keptGeo": 9036,
+      "keptVirt": 1395,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 66,
-      "recent": 65,
-      "withCoords": 58,
-      "keptGeo": 58,
+      "total": 68,
+      "recent": 68,
+      "withCoords": 61,
+      "keptGeo": 61,
       "keptVirt": 7,
-      "sampleDroppedByDate": [
-        {
-          "title": "BloNo 50501 Intro Meeting",
-          "begin": "2026-02-11",
-          "end": "2026-02-11",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "BloNo 50501 Intro Meeting",
-              "href": "https://events.pol-rev.com/events/ce2e7e0e-2de8-4b0c-95cc-685fdb41eaa4"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "NO KINGS III",

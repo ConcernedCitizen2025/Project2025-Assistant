@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-02-12",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 892950,
-      "mobilize_id": 892950,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/892950/",
-      "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
-      "begin": "2026-02-12",
-      "end": "2026-02-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
-          "href": "https://www.mobilize.us/hillsboroughcountydec/event/892950/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -109,6 +73,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-02-17",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 896859,
       "mobilize_id": 896859,
       "canonical_mobilize_url": "https://www.mobilize.us/event/896859/",
@@ -170,6 +152,24 @@
         {
           "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
           "href": "https://www.mobilize.us/livefreeusa/event/758303/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 892950,
+      "mobilize_id": 892950,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/892950/",
+      "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
+      "begin": "2026-02-19",
+      "end": "2026-02-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
+          "href": "https://www.mobilize.us/hillsboroughcountydec/event/892950/"
         }
       ],
       "_src": "mobilize"
