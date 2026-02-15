@@ -4835,6 +4835,10 @@
     "lat": 45.3735757,
     "lng": -92.8899376
   },
+  "Cupertino, CA": {
+    "lat": 37.3228934,
+    "lng": -122.0322895
+  },
   "Hillsborough, NC": {
     "lat": 36.075382,
     "lng": -79.0993958
@@ -4850,6 +4854,10 @@
   "Spring Grove, PA": {
     "lat": 39.8745437,
     "lng": -76.8658078
+  },
+  "Dartmouth, MA": {
+    "lat": 41.6386894,
+    "lng": -70.9933545
   },
   "South Windsor, CT": {
     "lat": 41.8352395,
@@ -5087,10 +5095,6 @@
     "lat": null,
     "lng": null
   },
-  "Garden Grove, CA": {
-    "lat": 33.7746292,
-    "lng": -117.9463717
-  },
   "McDonough, GA": {
     "lat": 33.4473361,
     "lng": -84.1468616
@@ -5118,10 +5122,6 @@
   "Waynesville, NC": {
     "lat": 35.4887476,
     "lng": -82.9888725
-  },
-  "Wylie, TX": {
-    "lat": 33.0151561,
-    "lng": -96.5388038
   },
   "Tysons, VA": {
     "lat": 38.9191272,
@@ -5203,10 +5203,6 @@
     "lat": 27.2939333,
     "lng": -80.3503283
   },
-  "Sandpoint, ID": {
-    "lat": 48.2765903,
-    "lng": -116.553247
-  },
   "Truth or Consequences, NM": {
     "lat": 33.1283485,
     "lng": -107.2529059
@@ -5262,10 +5258,6 @@
   "Pewee Valley, KY": {
     "lat": 38.3106248,
     "lng": -85.4874595
-  },
-  "Sugar Land, TX": {
-    "lat": 29.6196787,
-    "lng": -95.6349463
   },
   "Danville, IL": {
     "lat": 40.125222,
@@ -5439,6 +5431,10 @@
     "lat": 42.583645,
     "lng": -83.2454883
   },
+  "Sandpoint, ID": {
+    "lat": 48.2765903,
+    "lng": -116.553247
+  },
   "Duluth, GA": {
     "lat": 34.0028569,
     "lng": -84.1441046
@@ -5543,6 +5539,10 @@
     "lat": 27.9094665,
     "lng": -82.7873244
   },
+  "Sugar Land, TX": {
+    "lat": 29.6196787,
+    "lng": -95.6349463
+  },
   "Allen, TX": {
     "lat": 33.1031744,
     "lng": -96.6705503
@@ -5562,6 +5562,10 @@
   "Malden, MA": {
     "lat": 42.4268484,
     "lng": -71.0683741
+  },
+  "Farmington, ME": {
+    "lat": 44.670628,
+    "lng": -70.1514536
   },
   "Troy, MI": {
     "lat": 42.6055893,
@@ -5819,10 +5823,6 @@
     "lat": 30.6580927,
     "lng": -97.6041649
   },
-  "Tarrant County, TX": {
-    "lat": 32.7513658,
-    "lng": -97.335696
-  },
   "Hidalgo County, TX": {
     "lat": 26.3530256,
     "lng": -98.216445
@@ -5935,10 +5935,6 @@
     "lat": 39.632845,
     "lng": -105.323299
   },
-  "This event's address is private. Sign up for more details, IN": {
-    "lat": null,
-    "lng": null
-  },
   "Huntington Woods, MI": {
     "lat": 42.4805913,
     "lng": -83.1668713
@@ -6050,10 +6046,6 @@
   "Jacksonville, NC": {
     "lat": 34.7509962,
     "lng": -77.4309829
-  },
-  "Mableton, GA": {
-    "lat": 33.8188333,
-    "lng": -84.5822632
   },
   "Pickford, MI": {
     "lat": 46.1581395,
@@ -6211,10 +6203,6 @@
     "lat": 40.0448306,
     "lng": -75.4388053
   },
-  "Buffalo Grove, IL": {
-    "lat": 42.1544205,
-    "lng": -87.9589621
-  },
   "Cortez, CO": {
     "lat": 37.3494528,
     "lng": -108.584073
@@ -6310,6 +6298,54 @@
   "Lawton, OK": {
     "lat": 34.6051975,
     "lng": -98.3952279
+  },
+  "Buffalo Grove, IL": {
+    "lat": 42.1544205,
+    "lng": -87.9589621
+  },
+  "Tucker, GA": {
+    "lat": 33.8532701,
+    "lng": -84.2200729
+  },
+  "South Kingstown, RI": {
+    "lat": 41.454944,
+    "lng": -71.5394738
+  },
+  "Grand Forks, ND": {
+    "lat": 47.9252104,
+    "lng": -97.0306325
+  },
+  "Taylor, TX": {
+    "lat": 32.2793121,
+    "lng": -99.8812612
+  },
+  "Forked River, NJ": {
+    "lat": 39.8246756,
+    "lng": -74.1479701
+  },
+  "Wichita, KS": {
+    "lat": 37.6922361,
+    "lng": -97.3375448
+  },
+  "Harvard, MA": {
+    "lat": 42.3657432,
+    "lng": -71.1222139
+  },
+  "Mt. Juliet, TN": {
+    "lat": 36.200055,
+    "lng": -86.5186054
+  },
+  "Chester, PA": {
+    "lat": 39.9829308,
+    "lng": -75.7652424
+  },
+  "Fresno, CA": {
+    "lat": 36.7394421,
+    "lng": -119.78483
+  },
+  "Buffalo, MN": {
+    "lat": 45.1719084,
+    "lng": -93.8746941
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,
