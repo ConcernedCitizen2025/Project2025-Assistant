@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-15",
+  "cutoffStr": "2026-02-16",
   "lookbackDays": 1,
   "totals": {
-    "all": 10369,
-    "geoKept": 10317,
-    "virtKept": 39
+    "all": 10321,
+    "geoKept": 10268,
+    "virtKept": 43
   },
   "perSource": {
     "mobilize": {
-      "total": 10295,
-      "recent": 10292,
-      "withCoords": 8903,
-      "keptGeo": 8900,
-      "keptVirt": 1392,
+      "total": 10249,
+      "recent": 10247,
+      "withCoords": 8865,
+      "keptGeo": 8863,
+      "keptVirt": 1384,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -49,24 +49,6 @@
             }
           ],
           "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
-            }
-          ],
-          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -93,7 +75,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-02-15",
+          "begin": "2026-02-22",
           "end": "2026-04-26",
           "lat": null,
           "lng": null,
@@ -127,51 +109,37 @@
       ]
     },
     "mobilizon": {
-      "total": 68,
+      "total": 66,
       "recent": 64,
-      "withCoords": 61,
-      "keptGeo": 57,
-      "keptVirt": 7,
+      "withCoords": 58,
+      "keptGeo": 56,
+      "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "❤️LOVE THY NEIGHBOR PROTEST & FOOD DRIVE❤️",
-          "begin": "2026-02-14",
-          "end": "2026-02-14",
-          "lat": 45.082725,
-          "lng": -93.0118972,
-          "location": "4752 North Highway 61, White Bear Lake, MN 55110, United States of America, White Bear Lake",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-02-15",
+          "end": "2026-02-15",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "❤️LOVE THY NEIGHBOR PROTEST & FOOD DRIVE❤️",
-              "href": "https://events.pol-rev.com/events/e9d67c93-5f7a-41d7-b056-add482c9d9ad"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/c6e5d673-ade7-43a9-ab10-4d21cbaf1029"
             }
           ]
         },
         {
-          "title": "ICE Out!",
-          "begin": "2026-02-14",
-          "end": "2026-02-14",
-          "lat": 38.4905403,
-          "lng": -89.7976227,
-          "location": "Mascoutah Police Department, 3 West Main Street, Mascoutah, Saint Clair County, IL 62258, United States of America, Mascoutah",
+          "title": "Presidents Day March and Rally",
+          "begin": "2026-02-15",
+          "end": "2026-02-15",
+          "lat": 41.349895,
+          "lng": -88.841052,
+          "location": "101 East Lafayette Street, Ottawa, IL 61350, United States of America, Ottawa",
           "links": [
             {
-              "title": "ICE Out!",
-              "href": "https://events.pol-rev.com/events/afe03ae6-292c-4e4c-aed0-a49f3a8d0faa"
-            }
-          ]
-        },
-        {
-          "title": "Northtowns Rise Up Weekly Protest",
-          "begin": "2026-02-14",
-          "end": "2026-02-14",
-          "lat": 42.9910451668341,
-          "lng": -78.82282197475435,
-          "location": "Corner of Niagara Falls Blvd. and Brighton, Tonawanda",
-          "links": [
-            {
-              "title": "Northtowns Rise Up Weekly Protest",
-              "href": "https://events.pol-rev.com/events/d27fabc6-4edb-401c-b31b-e77bd3a3a42c"
+              "title": "Presidents Day March and Rally",
+              "href": "https://events.pol-rev.com/events/bcc1ab29-fd2c-4ae2-a713-e58c032794c2"
             }
           ]
         }

@@ -4831,10 +4831,6 @@
     "lat": 42.888627,
     "lng": -88.0384183
   },
-  "Chisago City, MN": {
-    "lat": 45.3735757,
-    "lng": -92.8899376
-  },
   "Cupertino, CA": {
     "lat": 37.3228934,
     "lng": -122.0322895
@@ -4842,10 +4838,6 @@
   "Hillsborough, NC": {
     "lat": 36.075382,
     "lng": -79.0993958
-  },
-  "Kernersville, NC": {
-    "lat": 36.1198589,
-    "lng": -80.0736533
   },
   "Hampden, MA": {
     "lat": 42.1285315,
@@ -5015,17 +5007,9 @@
     "lat": 41.8455398,
     "lng": -87.7540199
   },
-  "Sun Lakes, AZ": {
-    "lat": 33.2178895,
-    "lng": -111.8671751
-  },
   "North Branch, MN": {
     "lat": 45.5113515,
     "lng": -92.9802176
-  },
-  "Henderson, NV": {
-    "lat": 36.0319602,
-    "lng": -114.9822716
   },
   "Statesville, NC": {
     "lat": 35.7827676,
@@ -5058,10 +5042,6 @@
   "Edinburg, TX": {
     "lat": 26.3013982,
     "lng": -98.1624501
-  },
-  "Mount Washington, KY": {
-    "lat": 38.0500627,
-    "lng": -85.5457877
   },
   "Elgin, IL": {
     "lat": 42.03726,
@@ -5291,10 +5271,6 @@
     "lat": 42.0841936,
     "lng": -88.0131275
   },
-  "Murray, NE": {
-    "lat": 40.915278,
-    "lng": -95.930286
-  },
   "Plymouth, MN": {
     "lat": 45.0065149,
     "lng": -93.46651
@@ -5355,10 +5331,6 @@
     "lat": 35.4114328,
     "lng": -89.5327689
   },
-  "MA 02771, MA": {
-    "lat": 41.8095774,
-    "lng": -71.3279584
-  },
   "Sun City West, AZ": {
     "lat": 33.6691873,
     "lng": -112.3498066
@@ -5379,21 +5351,9 @@
     "lat": 39.4353373,
     "lng": -84.2029922
   },
-  "Evansville, WI": {
-    "lat": 42.7803486,
-    "lng": -89.2992249
-  },
   "Tewksbury, NJ": {
     "lat": 40.68446,
     "lng": -74.77873
-  },
-  "Barre, MA": {
-    "lat": 42.4228006,
-    "lng": -72.1051592
-  },
-  "Chippewa Falls, WI": {
-    "lat": 44.9371325,
-    "lng": -91.3932118
   },
   "Hurdle Mills, NC": {
     "lat": 36.2729159,
@@ -5414,18 +5374,6 @@
   "Maynard, MA": {
     "lat": 42.4321064,
     "lng": -71.4539683
-  },
-  "Sunset Valley, TX": {
-    "lat": 30.2258039,
-    "lng": -97.8149651
-  },
-  "The Hills, TX": {
-    "lat": 30.3469126,
-    "lng": -97.9864509
-  },
-  "Lakeway, TX": {
-    "lat": 30.3644888,
-    "lng": -97.9875325
   },
   "Mason, OH": {
     "lat": 39.3600586,
@@ -5455,17 +5403,9 @@
     "lat": 40.5598127,
     "lng": -74.5517146
   },
-  "Germanton, NC": {
-    "lat": 36.262771,
-    "lng": -80.2309735
-  },
   "Woodburn, OR": {
     "lat": 45.143731,
     "lng": -122.8553725
-  },
-  "Rollingwood, TX": {
-    "lat": 30.2742428,
-    "lng": -97.7855814
   },
   "Bee Cave, TX": {
     "lat": 30.3085373,
@@ -5487,14 +5427,6 @@
     "lat": 38.577359,
     "lng": -92.1724265
   },
-  "Glen Carbon, IL": {
-    "lat": 38.7483814,
-    "lng": -89.983158
-  },
-  "Champaign, IL": {
-    "lat": 40.1164841,
-    "lng": -88.2430932
-  },
   "Largo, FL": {
     "lat": 27.9094665,
     "lng": -82.7873244
@@ -5503,13 +5435,13 @@
     "lat": 29.6196787,
     "lng": -95.6349463
   },
-  "Allen, TX": {
-    "lat": 33.1031744,
-    "lng": -96.6705503
-  },
   "Farmersville, TX": {
     "lat": 33.1632162,
     "lng": -96.3603548
+  },
+  "Sun Lakes, AZ": {
+    "lat": 33.2178895,
+    "lng": -111.8671751
   },
   "Hackettstown, NJ": {
     "lat": 40.8538589,
@@ -5555,10 +5487,6 @@
     "lat": 43.1185591,
     "lng": -87.906804
   },
-  "Durango, CO": {
-    "lat": 37.2769484,
-    "lng": -107.8766
-  },
   "Edgewater, CO": {
     "lat": 39.7457238,
     "lng": -105.0621833
@@ -5603,21 +5531,9 @@
     "lat": 29.3685674,
     "lng": -94.9713134
   },
-  "Brownsville, TX": {
-    "lat": 25.9024289,
-    "lng": -97.4981698
-  },
   "DeForest, WI": {
     "lat": 43.2477691,
     "lng": -89.3437277
-  },
-  "Cameron, AZ": {
-    "lat": 35.8493135,
-    "lng": -111.4153876
-  },
-  "Wadena, MN": {
-    "lat": 46.5850936,
-    "lng": -94.9606684
   },
   "Moorhead, MN": {
     "lat": 46.8739081,
@@ -5722,10 +5638,6 @@
   "Hotchkiss, CO": {
     "lat": 38.799707,
     "lng": -107.719503
-  },
-  "Justin, TX": {
-    "lat": 33.0848442,
-    "lng": -97.2961286
   },
   "Waterford Township, MI": {
     "lat": 42.6706391,
@@ -5903,10 +5815,6 @@
     "lat": 40.8464107,
     "lng": -80.322998
   },
-  "Las Cruces, NM": {
-    "lat": 32.3140354,
-    "lng": -106.779807
-  },
   "Columbus, NC": {
     "lat": 34.2814497,
     "lng": -78.666593
@@ -5919,9 +5827,17 @@
     "lat": 40.5576045,
     "lng": -74.2845911
   },
+  "Champaign, IL": {
+    "lat": 40.1164841,
+    "lng": -88.2430932
+  },
   "Jackson, MI": {
     "lat": 42.2416466,
     "lng": -84.425589
+  },
+  "Glen Carbon, IL": {
+    "lat": 38.7483814,
+    "lng": -89.983158
   },
   "Grand Prairie, TX": {
     "lat": 32.7459645,
@@ -6023,10 +5939,6 @@
     "lat": 44.2273919,
     "lng": -71.7478468
   },
-  "Lacey, WA": {
-    "lat": 47.0263876,
-    "lng": -122.8072257
-  },
   "Swarthmore, PA": {
     "lat": 39.9020565,
     "lng": -75.3499124
@@ -6088,8 +6000,8 @@
     "lng": -75.7386948
   },
   "South Brunswick Township, NJ": {
-    "lat": 40.430842,
-    "lng": -74.5529507
+    "lat": 40.4386442,
+    "lng": -74.5357327
   },
   "Gallatin, TN": {
     "lat": 36.3883031,
@@ -6111,9 +6023,17 @@
     "lat": 41.1792695,
     "lng": -73.1887863
   },
+  "Ames, IA": {
+    "lat": 42.0267567,
+    "lng": -93.6170448
+  },
   "Lawrenceville, GA": {
     "lat": 33.9566391,
     "lng": -83.9890066
+  },
+  "Chippewa Falls, WI": {
+    "lat": 44.9371325,
+    "lng": -91.3932118
   },
   "Cedarville, MI": {
     "lat": 45.9983836,
@@ -6163,10 +6083,6 @@
     "lat": 41.1326644,
     "lng": -81.6262051
   },
-  "La Joya, TX": {
-    "lat": 26.2470165,
-    "lng": -98.4814092
-  },
   "San Juan, TX": {
     "lat": 26.1892409,
     "lng": -98.1552872
@@ -6182,10 +6098,6 @@
   "Lubbock, TX": {
     "lat": 33.5855677,
     "lng": -101.8470215
-  },
-  "Waterville, ME": {
-    "lat": 44.5505773,
-    "lng": -69.6303174
   },
   "Merrill, WI": {
     "lat": 45.180522,
@@ -6206,6 +6118,10 @@
   "Tucker, GA": {
     "lat": 33.8532701,
     "lng": -84.2200729
+  },
+  "Russellville, AR": {
+    "lat": 35.2784173,
+    "lng": -93.1337856
   },
   "South Kingstown, RI": {
     "lat": 41.454944,
@@ -6271,6 +6187,10 @@
     "lat": 32.8342952,
     "lng": -97.2289029
   },
+  "Ortonville, MN": {
+    "lat": 45.304687,
+    "lng": -96.444779
+  },
   "East Bridgewater, MA": {
     "lat": 42.0332957,
     "lng": -70.9588099
@@ -6286,6 +6206,54 @@
   "McMinnville, OR": {
     "lat": 45.2100367,
     "lng": -123.194463
+  },
+  "Poughkeepsie, NY": {
+    "lat": 41.7065539,
+    "lng": -73.9283672
+  },
+  "Saint Croix Falls, WI": {
+    "lat": 45.4104918,
+    "lng": -92.6445824
+  },
+  "Eagleville, PA": {
+    "lat": 40.160085,
+    "lng": -75.4106722
+  },
+  "Merrimack, NH": {
+    "lat": 43.3260376,
+    "lng": -71.6854725
+  },
+  "This event's address is private. Sign up for more details, WA": {
+    "lat": null,
+    "lng": null
+  },
+  "Southington, CT": {
+    "lat": 41.6005435,
+    "lng": -72.8782941
+  },
+  "Saratoga Springs, NY": {
+    "lat": 43.0821793,
+    "lng": -73.7853915
+  },
+  "This event's address is private. Sign up for more details, Seminole": {
+    "lat": null,
+    "lng": null
+  },
+  "Spring, TX": {
+    "lat": 30.070979,
+    "lng": -95.401342
+  },
+  "Humble, TX": {
+    "lat": 29.9988312,
+    "lng": -95.2621553
+  },
+  "Bellingham, WA": {
+    "lat": 48.7544012,
+    "lng": -122.478836
+  },
+  "Collinsville, IL": {
+    "lat": 38.6703267,
+    "lng": -89.9845476
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,
