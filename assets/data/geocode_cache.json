@@ -4823,6 +4823,10 @@
     "lat": 44.8560029,
     "lng": -123.191303
   },
+  "Salado, TX": {
+    "lat": 30.9468791,
+    "lng": -97.5371631
+  },
   "Hebron, KY": {
     "lat": 39.065813,
     "lng": -84.7027575
@@ -5027,10 +5031,6 @@
     "lat": 35.2438272,
     "lng": -81.0377322
   },
-  "Coconut Creek, FL": {
-    "lat": 26.2517482,
-    "lng": -80.1789351
-  },
   "Wenatchee, WA": {
     "lat": 47.4234599,
     "lng": -120.310349
@@ -5110,10 +5110,6 @@
   "Brockport, NY": {
     "lat": 43.213671,
     "lng": -77.93918
-  },
-  "Golden, CO": {
-    "lat": 39.7546349,
-    "lng": -105.22058
   },
   "Bayside, WI": {
     "lat": 43.1860869,
@@ -5222,6 +5218,10 @@
   "Beaumont, CA": {
     "lat": 33.9299925,
     "lng": -116.9763092
+  },
+  "Schaumburg, IL": {
+    "lat": 42.0333608,
+    "lng": -88.083406
   },
   "Atascadero, CA": {
     "lat": 35.4894169,
@@ -5418,10 +5418,6 @@
   "lone tree, CO": {
     "lat": 39.5364152,
     "lng": -104.9041528
-  },
-  "Adrian, MI": {
-    "lat": 41.8975152,
-    "lng": -84.0373054
   },
   "Jefferson City, MO": {
     "lat": 38.577359,
@@ -5655,10 +5651,6 @@
     "lat": 34.1976308,
     "lng": -119.180381
   },
-  "Manitou Springs, CO": {
-    "lat": 38.8585777,
-    "lng": -104.917873
-  },
   "Liberty, ME": {
     "lat": 44.3927438,
     "lng": -69.3074579
@@ -5679,50 +5671,6 @@
     "lat": 30.7235263,
     "lng": -95.5507771
   },
-  "Dallas County, TX": {
-    "lat": 32.7620405,
-    "lng": -96.7790069
-  },
-  ", TX": {
-    "lat": 31.2638905,
-    "lng": -98.5456116
-  },
-  "Hidalgo County, TX": {
-    "lat": 26.3530256,
-    "lng": -98.216445
-  },
-  "Bell County, TX": {
-    "lat": 31.0081659,
-    "lng": -97.4314413
-  },
-  "Cameron County, TX": {
-    "lat": 26.1291189,
-    "lng": -97.4134281
-  },
-  "Collin County, TX": {
-    "lat": 33.1609629,
-    "lng": -96.6060984
-  },
-  "Denton County, TX": {
-    "lat": 33.1838787,
-    "lng": -97.1413417
-  },
-  "McLennan County, TX": {
-    "lat": 31.5487691,
-    "lng": -97.2189254
-  },
-  "Galveston County, TX": {
-    "lat": 29.3872254,
-    "lng": -94.992736
-  },
-  "Montgomery County, TX": {
-    "lat": 30.301949,
-    "lng": -95.5065944
-  },
-  "Lubbock County, TX": {
-    "lat": 33.5831241,
-    "lng": -101.818598
-  },
   "Easton, MA": {
     "lat": 42.0245442,
     "lng": -71.1286594
@@ -5734,10 +5682,6 @@
   "Newaygo, MI": {
     "lat": 43.5121225,
     "lng": -85.7944976
-  },
-  "Westfield, NJ": {
-    "lat": 40.651726,
-    "lng": -74.3483059
   },
   "Wauwatosa, WI": {
     "lat": 43.0494122,
@@ -5767,10 +5711,6 @@
     "lat": 43.3177072,
     "lng": -90.8457698
   },
-  "Ridgeland, SC": {
-    "lat": 32.4807435,
-    "lng": -80.980386
-  },
   "Highland Village, TX": {
     "lat": 33.091788,
     "lng": -97.0466759
@@ -5778,6 +5718,10 @@
   "Evergreen, CO": {
     "lat": 39.632845,
     "lng": -105.323299
+  },
+  "Golden, CO": {
+    "lat": 39.7546349,
+    "lng": -105.22058
   },
   "Huntington Woods, MI": {
     "lat": 42.4805913,
@@ -5842,10 +5786,6 @@
   "Grand Prairie, TX": {
     "lat": 32.7459645,
     "lng": -96.9977846
-  },
-  "Missouri City, TX": {
-    "lat": 29.6185669,
-    "lng": -95.5377215
   },
   "Escondido, CA": {
     "lat": 33.1216751,
@@ -5915,6 +5855,10 @@
     "lat": 40.7489914,
     "lng": -74.2655884
   },
+  "La Plata, MD": {
+    "lat": 38.5260311,
+    "lng": -76.9766569
+  },
   "ST. Charles, MN": {
     "lat": 43.9693607,
     "lng": -92.0659824
@@ -5935,10 +5879,6 @@
     "lat": 43.0883957,
     "lng": -87.8881302
   },
-  "Franconia, NH": {
-    "lat": 44.2273919,
-    "lng": -71.7478468
-  },
   "Swarthmore, PA": {
     "lat": 39.9020565,
     "lng": -75.3499124
@@ -5951,6 +5891,10 @@
     "lat": 35.2334472,
     "lng": -82.7342919
   },
+  "Marshfield, MA": {
+    "lat": 42.091769,
+    "lng": -70.7055941
+  },
   "UPR MONTCLAIR, NJ": {
     "lat": 40.8447225,
     "lng": -74.1999165
@@ -5958,10 +5902,6 @@
   "Brunswick, GA": {
     "lat": 31.1499528,
     "lng": -81.4914894
-  },
-  "Poulsbo, WA": {
-    "lat": 47.7391366,
-    "lng": -122.63928
   },
   "Covington, GA": {
     "lat": 33.5966005,
@@ -6000,8 +5940,8 @@
     "lng": -75.7386948
   },
   "South Brunswick Township, NJ": {
-    "lat": 40.4386442,
-    "lng": -74.5357327
+    "lat": 40.430842,
+    "lng": -74.5529507
   },
   "Gallatin, TN": {
     "lat": 36.3883031,
@@ -6014,10 +5954,6 @@
   "Berwyn, PA": {
     "lat": 40.0448306,
     "lng": -75.4388053
-  },
-  "Cortez, CO": {
-    "lat": 37.3494528,
-    "lng": -108.584073
   },
   "Bridgeport, CT": {
     "lat": 41.1792695,
@@ -6123,6 +6059,10 @@
     "lat": 35.2784173,
     "lng": -93.1337856
   },
+  "Thornton, CO": {
+    "lat": 39.8695516,
+    "lng": -104.985181
+  },
   "South Kingstown, RI": {
     "lat": 41.454944,
     "lng": -71.5394738
@@ -6179,9 +6119,9 @@
     "lat": 40.0460881,
     "lng": -86.0139854
   },
-  "Rocky Mount, NC": {
-    "lat": 35.9423833,
-    "lng": -77.7956949
+  "Pikeville, TN": {
+    "lat": 35.6054921,
+    "lng": -85.1892276
   },
   "North Richland Hills, TX": {
     "lat": 32.8342952,
@@ -6190,6 +6130,10 @@
   "Ortonville, MN": {
     "lat": 45.304687,
     "lng": -96.444779
+  },
+  "Vail, AZ": {
+    "lat": 32.0100705,
+    "lng": -110.6975281
   },
   "East Bridgewater, MA": {
     "lat": 42.0332957,
@@ -6207,6 +6151,10 @@
     "lat": 45.2100367,
     "lng": -123.194463
   },
+  "Amityville, NY": {
+    "lat": 40.6789893,
+    "lng": -73.4170673
+  },
   "Poughkeepsie, NY": {
     "lat": 41.7065539,
     "lng": -73.9283672
@@ -6222,6 +6170,14 @@
   "Merrimack, NH": {
     "lat": 43.3260376,
     "lng": -71.6854725
+  },
+  "Monroe, NC": {
+    "lat": 34.9854275,
+    "lng": -80.5495112
+  },
+  "Williston, VT": {
+    "lat": 44.4376099,
+    "lng": -73.0682659
   },
   "This event's address is private. Sign up for more details, WA": {
     "lat": null,
@@ -6239,6 +6195,10 @@
     "lat": null,
     "lng": null
   },
+  "Kanab, UT": {
+    "lat": 37.0481715,
+    "lng": -112.5285237
+  },
   "Spring, TX": {
     "lat": 30.070979,
     "lng": -95.401342
@@ -6254,6 +6214,62 @@
   "Collinsville, IL": {
     "lat": 38.6703267,
     "lng": -89.9845476
+  },
+  "Seward, NE": {
+    "lat": 40.8695533,
+    "lng": -97.1706676
+  },
+  "La Vista, NE": {
+    "lat": 41.1832679,
+    "lng": -96.0324044
+  },
+  "Louisville, NE": {
+    "lat": 40.9977765,
+    "lng": -96.1622352
+  },
+  "Pueblo, CO": {
+    "lat": 38.263995,
+    "lng": -104.6141867
+  },
+  "Muskogee, OK": {
+    "lat": 35.6630196,
+    "lng": -95.3927706
+  },
+  "Stillwater, OK": {
+    "lat": 36.1156306,
+    "lng": -97.0585717
+  },
+  "South Portland, ME": {
+    "lat": 43.6382443,
+    "lng": -70.2529189
+  },
+  "Oswego, IL": {
+    "lat": 41.6834778,
+    "lng": -88.3525714
+  },
+  "Royal Oak, MI": {
+    "lat": 42.4894801,
+    "lng": -83.1446485
+  },
+  "Independence, MO": {
+    "lat": 39.0924792,
+    "lng": -94.4137923
+  },
+  "Bisbee, AZ": {
+    "lat": 31.4417165,
+    "lng": -109.9159946
+  },
+  "Greendale, WI": {
+    "lat": 42.9406083,
+    "lng": -87.995993
+  },
+  "Greenfield, WI": {
+    "lat": 42.9596903,
+    "lng": -87.98132
+  },
+  "Murray, UT": {
+    "lat": 40.6667841,
+    "lng": -111.888417
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,

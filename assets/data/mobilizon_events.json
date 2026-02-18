@@ -137,6 +137,14 @@
       "link": "https://events.pol-rev.com/events/7fc0676c-8cb3-4398-886c-ae09800a5dfe"
     },
     {
+      "title": "No King in Charleston!",
+      "date": "2026-03-28",
+      "location": "West Virginia State Capitol, 1900 Kanawha Boulevard East, Charleston, WV 25305, United States of America, Charleston",
+      "lat": 38.3363062,
+      "lng": -81.6122744,
+      "link": "https://events.pol-rev.com/events/4975afaf-d9e0-4ee3-9ef2-27b8e2edad2d"
+    },
+    {
       "title": "No Kings 3 Galax, Virginia, March 28th, 2026, Crossroad Center 11 am to 1 pm",
       "date": "2026-03-28",
       "location": "1117 East Stuart Drive, Galax, VA 24333, United States of America, Galax",
@@ -271,6 +279,14 @@
       "lat": 42.9910451668341,
       "lng": -78.82282197475435,
       "link": "https://events.pol-rev.com/events/d1ec4ca6-94b6-48ec-8dfd-23ed4bd186b1"
+    },
+    {
+      "title": "Creative Action Call",
+      "date": "2026-03-03",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/2134bf84-5a07-4ac7-a754-43963f5ec78a"
     },
     {
       "title": "West Seattle Resist: Sunday Solidarity Action",
@@ -511,22 +527,6 @@
       "lat": 40.80225795102066,
       "lng": -124.16237251065108,
       "link": "https://events.pol-rev.com/events/7affffe7-a336-4cb3-ab6c-0a55c3ecd7af"
-    },
-    {
-      "title": "West Seattle Resist: Sunday Solidarity Action",
-      "date": "2026-02-15",
-      "location": "West Seattle, Seattle",
-      "lat": 47.5609682,
-      "lng": -122.3871315,
-      "link": "https://events.pol-rev.com/events/c6e5d673-ade7-43a9-ab10-4d21cbaf1029"
-    },
-    {
-      "title": "Presidents Day March and Rally",
-      "date": "2026-02-15",
-      "location": "101 East Lafayette Street, Ottawa, IL 61350, United States of America, Ottawa",
-      "lat": 41.349895,
-      "lng": -88.841052,
-      "link": "https://events.pol-rev.com/events/bcc1ab29-fd2c-4ae2-a713-e58c032794c2"
     }
   ]
 }

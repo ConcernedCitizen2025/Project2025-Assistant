@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-16",
+  "cutoffStr": "2026-02-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 10321,
-    "geoKept": 10268,
+    "all": 10578,
+    "geoKept": 10522,
     "virtKept": 43
   },
   "perSource": {
     "mobilize": {
-      "total": 10249,
-      "recent": 10247,
-      "withCoords": 8865,
-      "keptGeo": 8863,
-      "keptVirt": 1384,
+      "total": 10506,
+      "recent": 10504,
+      "withCoords": 9085,
+      "keptGeo": 9083,
+      "keptVirt": 1421,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -110,36 +110,50 @@
     },
     "mobilizon": {
       "total": 66,
-      "recent": 64,
-      "withCoords": 58,
-      "keptGeo": 56,
-      "keptVirt": 8,
+      "recent": 61,
+      "withCoords": 57,
+      "keptGeo": 52,
+      "keptVirt": 9,
       "sampleDroppedByDate": [
         {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-02-15",
-          "end": "2026-02-15",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
+          "title": "CALL TO ACTION - National Day of Lobbying: Impeach Trump & Abolish ICE",
+          "begin": "2026-02-16",
+          "end": "2026-02-16",
+          "lat": 44.6471761,
+          "lng": -100.348761,
+          "location": "South Dakota, United States of America",
           "links": [
             {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/c6e5d673-ade7-43a9-ab10-4d21cbaf1029"
+              "title": "CALL TO ACTION - National Day of Lobbying: Impeach Trump & Abolish ICE",
+              "href": "https://events.pol-rev.com/events/036f81d6-c59f-4201-a1ae-b9b16b8c36c9"
             }
           ]
         },
         {
-          "title": "Presidents Day March and Rally",
-          "begin": "2026-02-15",
-          "end": "2026-02-15",
-          "lat": 41.349895,
-          "lng": -88.841052,
-          "location": "101 East Lafayette Street, Ottawa, IL 61350, United States of America, Ottawa",
+          "title": "Citizens' Impeachment",
+          "begin": "2026-02-16",
+          "end": "2026-02-16",
+          "lat": 42.8747406,
+          "lng": -78.849655,
+          "location": "726 Exchange Street, Buffalo, NY 14210, United States of America, Buffalo",
           "links": [
             {
-              "title": "Presidents Day March and Rally",
-              "href": "https://events.pol-rev.com/events/bcc1ab29-fd2c-4ae2-a713-e58c032794c2"
+              "title": "Citizens' Impeachment",
+              "href": "https://events.pol-rev.com/events/257219c5-8a6d-4b7d-9c6c-7ec659d09496"
+            }
+          ]
+        },
+        {
+          "title": "Not My President - KS50501 Topeka Capitol Protest",
+          "begin": "2026-02-16",
+          "end": "2026-02-16",
+          "lat": 39.048124,
+          "lng": -95.6780165,
+          "location": "Kansas State Capitol, 300 Southwest 10th Avenue, Topeka, KS 66612, United States of America, Topeka",
+          "links": [
+            {
+              "title": "Not My President - KS50501 Topeka Capitol Protest",
+              "href": "https://events.pol-rev.com/events/d3d6e0b0-a785-4dfc-886d-465ae99c1c3b"
             }
           ]
         }
