@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-17",
+  "cutoffStr": "2026-02-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 10578,
-    "geoKept": 10522,
-    "virtKept": 43
+    "all": 10653,
+    "geoKept": 10591,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 10506,
-      "recent": 10504,
-      "withCoords": 9085,
-      "keptGeo": 9083,
-      "keptVirt": 1421,
+      "total": 10579,
+      "recent": 10576,
+      "withCoords": 9130,
+      "keptGeo": 9127,
+      "keptVirt": 1449,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,56 +127,70 @@
       ]
     },
     "mobilizon": {
-      "total": 66,
-      "recent": 61,
-      "withCoords": 57,
-      "keptGeo": 52,
-      "keptVirt": 9,
+      "total": 68,
+      "recent": 59,
+      "withCoords": 58,
+      "keptGeo": 51,
+      "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "CALL TO ACTION - National Day of Lobbying: Impeach Trump & Abolish ICE",
-          "begin": "2026-02-16",
-          "end": "2026-02-16",
-          "lat": 44.6471761,
-          "lng": -100.348761,
-          "location": "South Dakota, United States of America",
+          "title": "Banner Workshop",
+          "begin": "2026-02-17",
+          "end": "2026-02-17",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "CALL TO ACTION - National Day of Lobbying: Impeach Trump & Abolish ICE",
-              "href": "https://events.pol-rev.com/events/036f81d6-c59f-4201-a1ae-b9b16b8c36c9"
+              "title": "Banner Workshop",
+              "href": "https://events.pol-rev.com/events/ac348f50-cd1d-410f-b1c0-7342083cc9d3"
             }
           ]
         },
         {
-          "title": "Citizens' Impeachment",
-          "begin": "2026-02-16",
-          "end": "2026-02-16",
-          "lat": 42.8747406,
-          "lng": -78.849655,
-          "location": "726 Exchange Street, Buffalo, NY 14210, United States of America, Buffalo",
+          "title": "We Are Worth Fighting For",
+          "begin": "2026-02-17",
+          "end": "2026-02-17",
+          "lat": 39.939234,
+          "lng": -77.6605871,
+          "location": "Coyle Free Library, Conservatory, Chambersburg",
           "links": [
             {
-              "title": "Citizens' Impeachment",
-              "href": "https://events.pol-rev.com/events/257219c5-8a6d-4b7d-9c6c-7ec659d09496"
+              "title": "We Are Worth Fighting For",
+              "href": "https://events.pol-rev.com/events/f37cd9d7-c84e-4b00-9dc4-8de783337236"
             }
           ]
         },
         {
-          "title": "Not My President - KS50501 Topeka Capitol Protest",
-          "begin": "2026-02-16",
-          "end": "2026-02-16",
-          "lat": 39.048124,
-          "lng": -95.6780165,
-          "location": "Kansas State Capitol, 300 Southwest 10th Avenue, Topeka, KS 66612, United States of America, Topeka",
+          "title": "MAKE HAGEMAN HEAR",
+          "begin": "2026-02-17",
+          "end": "2026-02-17",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Not My President - KS50501 Topeka Capitol Protest",
-              "href": "https://events.pol-rev.com/events/d3d6e0b0-a785-4dfc-886d-465ae99c1c3b"
+              "title": "MAKE HAGEMAN HEAR",
+              "href": "https://events.pol-rev.com/events/cf199b6c-9cf8-4b9b-ba1a-51c6912d00a6"
             }
           ]
         }
       ],
       "sampleDroppedByCoords": [
+        {
+          "title": "No Kings Rally",
+          "begin": "2026-03-28",
+          "end": "2026-03-28",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "No Kings Rally",
+              "href": "https://events.pol-rev.com/events/e90f7a1a-e930-4b67-9301-58696e567b2c"
+            }
+          ]
+        },
         {
           "title": "NO KINGS III",
           "begin": "2026-03-28",
@@ -184,20 +216,6 @@
             {
               "title": "No Kings!",
               "href": "https://events.pol-rev.com/events/f96553fc-bbf8-4f9c-a8bc-685194d49279"
-            }
-          ]
-        },
-        {
-          "title": "CALL TO ACTION - No Kings South Dakota!",
-          "begin": "2026-03-27",
-          "end": "2026-03-27",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "CALL TO ACTION - No Kings South Dakota!",
-              "href": "https://events.pol-rev.com/events/f8e31d56-32a6-4eaf-9467-7e4d7220f609"
             }
           ]
         }

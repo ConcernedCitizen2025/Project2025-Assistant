@@ -5,8 +5,8 @@
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
       "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-02-17",
-      "end": "2026-03-05",
+      "begin": "2026-02-18",
+      "end": "2026-03-23",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -17,90 +17,6 @@
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "_id": 877335,
-      "mobilize_id": 877335,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877335/",
-      "title": "Biweekly Meeting | Reunión quincenal (East Valley ACE / LUCHA)",
-      "begin": "2026-02-17",
-      "end": "2026-04-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Biweekly Meeting | Reunión quincenal (East Valley ACE / LUCHA)",
-          "href": "https://www.mobilize.us/luchaace/event/877335/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-02-17",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 896859,
-      "mobilize_id": 896859,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/896859/",
-      "title": "Online Training Session - Caucus Night & Delegates",
-      "begin": "2026-02-17",
-      "end": "2026-02-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Online Training Session - Caucus Night & Delegates",
-          "href": "https://www.mobilize.us/benmcadamsforcongressut01/event/896859/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Banner Workshop",
-      "begin": "2026-02-17",
-      "end": "2026-02-17",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Banner Workshop",
-          "href": "https://events.pol-rev.com/events/ac348f50-cd1d-410f-b1c0-7342083cc9d3"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
-      "title": "MAKE HAGEMAN HEAR",
-      "begin": "2026-02-17",
-      "end": "2026-02-17",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "MAKE HAGEMAN HEAR",
-          "href": "https://events.pol-rev.com/events/cf199b6c-9cf8-4b9b-ba1a-51c6912d00a6"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 896690,
@@ -152,6 +68,24 @@
         {
           "title": "We the People: Listening Tour 2/19/26 Online",
           "href": "https://www.mobilize.us/thecommitteetoelectjherihardaway/event/878613/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-02-19",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
         }
       ],
       "_src": "mobilize"
@@ -349,6 +283,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 749552,
+      "mobilize_id": 749552,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/749552/",
+      "title": "Tallahassee Action Team Meeting",
+      "begin": "2026-02-24",
+      "end": "2026-02-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tallahassee Action Team Meeting",
+          "href": "https://www.mobilize.us/aclufl/event/749552/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -457,6 +409,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 900668,
+      "mobilize_id": 900668,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/900668/",
+      "title": "2026 Gubernatorial Candidate Forum - Livestream",
+      "begin": "2026-03-02",
+      "end": "2026-03-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "2026 Gubernatorial Candidate Forum - Livestream",
+          "href": "https://www.mobilize.us/equalitycalifornia/event/900668/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 901391,
       "mobilize_id": 901391,
       "canonical_mobilize_url": "https://www.mobilize.us/event/901391/",
@@ -470,6 +440,24 @@
         {
           "title": "Virtual Meet & Greet with Eileen Laubacher",
           "href": "https://www.mobilize.us/eileenforcolorado/event/901391/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877335,
+      "mobilize_id": 877335,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877335/",
+      "title": "Biweekly Meeting | Reunión quincenal (East Valley ACE / LUCHA)",
+      "begin": "2026-03-03",
+      "end": "2026-04-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Biweekly Meeting | Reunión quincenal (East Valley ACE / LUCHA)",
+          "href": "https://www.mobilize.us/luchaace/event/877335/"
         }
       ],
       "_src": "mobilize"
@@ -731,6 +719,39 @@
         {
           "title": "CALL TO ACTION - No Kings South Dakota!",
           "href": "https://events.pol-rev.com/events/f8e31d56-32a6-4eaf-9467-7e4d7220f609"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
+      "_id": 906400,
+      "mobilize_id": 906400,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/906400/",
+      "title": "NO KINGS Tubac, AZ",
+      "begin": "2026-03-28",
+      "end": "2026-03-28",
+      "lat": null,
+      "lng": null,
+      "location": "Tubacubacacori-Carmen, AZ",
+      "links": [
+        {
+          "title": "NO KINGS Tubac, AZ",
+          "href": "https://www.mobilize.us/nokings/event/906400/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "title": "No Kings Rally",
+      "begin": "2026-03-28",
+      "end": "2026-03-28",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "No Kings Rally",
+          "href": "https://events.pol-rev.com/events/e90f7a1a-e930-4b67-9301-58696e567b2c"
         }
       ],
       "_src": "mobilizon"
