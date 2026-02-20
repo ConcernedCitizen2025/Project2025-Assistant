@@ -4915,6 +4915,14 @@
     "lat": 42.850682,
     "lng": -77.3191454
   },
+  "Anamosa, IA": {
+    "lat": 42.1083371,
+    "lng": -91.2851594
+  },
+  "Maquoketa, IA": {
+    "lat": 42.0690915,
+    "lng": -90.6654748
+  },
   "Allegan, MI": {
     "lat": 42.5867203,
     "lng": -85.8861492
@@ -4995,10 +5003,6 @@
     "lat": 45.2533659,
     "lng": -92.8062958
   },
-  "Littleton, CO": {
-    "lat": 39.613321,
-    "lng": -105.016649
-  },
   "Kenton, OH": {
     "lat": 40.6478171,
     "lng": -83.6089968
@@ -5058,10 +5062,6 @@
   "Stockton, CA": {
     "lat": 37.9577016,
     "lng": -121.290779
-  },
-  "Tomball, TX": {
-    "lat": 30.0971621,
-    "lng": -95.6160549
   },
   "Selma, AL": {
     "lat": 32.4078632,
@@ -5171,6 +5171,10 @@
     "lat": 36.2742207,
     "lng": -87.0641699
   },
+  "Port Hadlock-Irondale, WA": {
+    "lat": 48.03324,
+    "lng": -122.776478
+  },
   "Conyers, GA": {
     "lat": 33.6676103,
     "lng": -84.0176904
@@ -5194,10 +5198,6 @@
   "Cary, NC": {
     "lat": 35.7882893,
     "lng": -78.7812081
-  },
-  "Ruidoso, NM": {
-    "lat": 33.3315804,
-    "lng": -105.673099
   },
   "Las Vegas, NM": {
     "lat": 35.5939325,
@@ -5242,10 +5242,6 @@
   "Culver City, CA": {
     "lat": 34.0211224,
     "lng": -118.396466
-  },
-  "Waxahachie, TX": {
-    "lat": 32.3944908,
-    "lng": -96.8439365
   },
   "Orangevale, CA": {
     "lat": 38.6785145,
@@ -5358,10 +5354,6 @@
   "Mason, OH": {
     "lat": 39.3600586,
     "lng": -84.309939
-  },
-  "Saint Clairsville, OH": {
-    "lat": 40.0806266,
-    "lng": -80.9000916
   },
   "Wheeling, WV": {
     "lat": 40.0639616,
@@ -5631,10 +5623,6 @@
     "lat": 44.2780432,
     "lng": -88.2720503
   },
-  "Huntsville, TX": {
-    "lat": 30.7235263,
-    "lng": -95.5507771
-  },
   "Easton, MA": {
     "lat": 42.0245442,
     "lng": -71.1286594
@@ -5731,10 +5719,6 @@
     "lat": 38.7483814,
     "lng": -89.983158
   },
-  "Grand Prairie, TX": {
-    "lat": 32.7459645,
-    "lng": -96.9977846
-  },
   "Escondido, CA": {
     "lat": 33.1216751,
     "lng": -117.0814849
@@ -5795,10 +5779,6 @@
     "lat": 30.3105666,
     "lng": -89.3275482
   },
-  "Farmington, MN": {
-    "lat": 44.6402434,
-    "lng": -93.1435497
-  },
   "Sugar Land, TX": {
     "lat": 29.6196787,
     "lng": -95.6349463
@@ -5839,9 +5819,9 @@
     "lat": 35.2334472,
     "lng": -82.7342919
   },
-  "Marshfield, MA": {
-    "lat": 42.091769,
-    "lng": -70.7055941
+  "Oak Ridge, TN": {
+    "lat": 36.0103562,
+    "lng": -84.2696449
   },
   "UPR MONTCLAIR, NJ": {
     "lat": 40.8447225,
@@ -5867,13 +5847,17 @@
     "lat": 38.9013729,
     "lng": -77.2651762
   },
+  "Prescott, AZ": {
+    "lat": 34.539984,
+    "lng": -112.468812
+  },
+  "Fort Myers / Cape Coral, FL": {
+    "lat": 26.7107375,
+    "lng": -81.8130065
+  },
   "Big Bear Lake, CA": {
     "lat": 34.2440587,
     "lng": -116.91018
-  },
-  "Longmont, CO": {
-    "lat": 40.1672117,
-    "lng": -105.101928
   },
   "Washington Court House, OH": {
     "lat": 39.5364511,
@@ -5902,10 +5886,6 @@
   "Berwyn, PA": {
     "lat": 40.0448306,
     "lng": -75.4388053
-  },
-  "Bridgeport, CT": {
-    "lat": 41.1792695,
-    "lng": -73.1887863
   },
   "Ames, IA": {
     "lat": 42.0267567,
@@ -6131,6 +6111,10 @@
     "lat": 33.2862455,
     "lng": -96.5722411
   },
+  "Carbondale, IL": {
+    "lat": 37.7274692,
+    "lng": -89.216655
+  },
   "This event's address is private. Sign up for more details, WA": {
     "lat": null,
     "lng": null
@@ -6243,9 +6227,9 @@
     "lat": 41.0531134,
     "lng": -82.7262958
   },
-  "Tubacubacacori-Carmen, AZ": {
-    "lat": null,
-    "lng": null
+  "Tubac, AZ": {
+    "lat": 31.61259,
+    "lng": -111.0459238
   },
   "Fort Kent, ME": {
     "lat": 47.2559046,
@@ -6294,6 +6278,46 @@
   "Peoria, AZ": {
     "lat": 33.5806115,
     "lng": -112.237294
+  },
+  "Pearland, TX": {
+    "lat": 29.5639758,
+    "lng": -95.2864299
+  },
+  "MA 02771, MA": {
+    "lat": 41.8095774,
+    "lng": -71.3279584
+  },
+  "Mount Bethel, PA": {
+    "lat": 40.9048188,
+    "lng": -75.1115654
+  },
+  "Santa Maria, CA": {
+    "lat": 34.9531295,
+    "lng": -120.435857
+  },
+  "North Wales, PA": {
+    "lat": 40.2109404,
+    "lng": -75.2782317
+  },
+  "Palm Valley, FL": {
+    "lat": 30.1774649,
+    "lng": -81.3875817
+  },
+  "Costa Mesa, CA": {
+    "lat": 33.6633386,
+    "lng": -117.903317
+  },
+  "Edina, MN": {
+    "lat": 44.8897027,
+    "lng": -93.3501222
+  },
+  "Southfield, MI": {
+    "lat": 42.4733689,
+    "lng": -83.2218731
+  },
+  "Westland, MI": {
+    "lat": 42.3238056,
+    "lng": -83.4005321
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,

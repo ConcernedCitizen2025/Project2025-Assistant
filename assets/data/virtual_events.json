@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 792466,
-      "mobilize_id": 792466,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
-      "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-02-18",
-      "end": "2026-03-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Register Voters to Defend CA-45!",
-          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 896690,
-      "mobilize_id": 896690,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/896690/",
-      "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-      "begin": "2026-02-18",
-      "end": "2026-03-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NC",
-      "links": [
-        {
-          "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-          "href": "https://www.mobilize.us/ncvp/event/896690/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 758303,
       "mobilize_id": 758303,
       "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
@@ -142,24 +106,6 @@
       "_src": "mobilizon"
     },
     {
-      "_id": 749182,
-      "mobilize_id": 749182,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/749182/",
-      "title": "Communications Meeting",
-      "begin": "2026-02-20",
-      "end": "2026-04-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Communications Meeting",
-          "href": "https://www.mobilize.us/semdems/event/749182/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -232,6 +178,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 896690,
+      "mobilize_id": 896690,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/896690/",
+      "title": "Webinar: 2026 Future Voters Network Ambassador Training",
+      "begin": "2026-02-22",
+      "end": "2026-03-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Webinar: 2026 Future Voters Network Ambassador Training",
+          "href": "https://www.mobilize.us/ncvp/event/896690/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 809234,
       "mobilize_id": 809234,
       "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
@@ -288,7 +252,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/749552/",
       "title": "Tallahassee Action Team Meeting",
       "begin": "2026-02-24",
-      "end": "2026-02-24",
+      "end": "2026-03-24",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -622,6 +586,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 792466,
+      "mobilize_id": 792466,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
+      "title": "Register Voters to Defend CA-45!",
+      "begin": "2026-03-05",
+      "end": "2026-03-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Register Voters to Defend CA-45!",
+          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 904962,
       "mobilize_id": 904962,
       "canonical_mobilize_url": "https://www.mobilize.us/event/904962/",
@@ -722,24 +704,6 @@
         }
       ],
       "_src": "mobilizon"
-    },
-    {
-      "_id": 906400,
-      "mobilize_id": 906400,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/906400/",
-      "title": "NO KINGS Tubac, AZ",
-      "begin": "2026-03-28",
-      "end": "2026-03-28",
-      "lat": null,
-      "lng": null,
-      "location": "Tubacubacacori-Carmen, AZ",
-      "links": [
-        {
-          "title": "NO KINGS Tubac, AZ",
-          "href": "https://www.mobilize.us/nokings/event/906400/"
-        }
-      ],
-      "_src": "mobilize"
     },
     {
       "title": "No Kings Rally",
