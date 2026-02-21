@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-19",
+  "cutoffStr": "2026-02-20",
   "lookbackDays": 1,
   "totals": {
-    "all": 10959,
-    "geoKept": 10907,
-    "virtKept": 42
+    "all": 11150,
+    "geoKept": 11101,
+    "virtKept": 40
   },
   "perSource": {
     "mobilize": {
-      "total": 10888,
-      "recent": 10885,
-      "withCoords": 9372,
-      "keptGeo": 9369,
-      "keptVirt": 1516,
+      "total": 11077,
+      "recent": 11075,
+      "withCoords": 9518,
+      "keptGeo": 9516,
+      "keptVirt": 1559,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,23 +109,23 @@
       ]
     },
     "mobilizon": {
-      "total": 65,
-      "recent": 64,
-      "withCoords": 57,
-      "keptGeo": 56,
+      "total": 67,
+      "recent": 66,
+      "withCoords": 58,
+      "keptGeo": 58,
       "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "Shut the FLOCK Off 3rd meeting",
-          "begin": "2026-02-18",
-          "end": "2026-02-18",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+          "begin": "2026-02-19",
+          "end": "2026-02-19",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Shut the FLOCK Off 3rd meeting",
-              "href": "https://events.pol-rev.com/events/ccfea7fd-0fa3-429b-95d3-d9c672c42ae9"
+              "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+              "href": "https://events.pol-rev.com/events/0810a347-bfc9-459b-b2e8-597ddd04660e"
             }
           ]
         }
