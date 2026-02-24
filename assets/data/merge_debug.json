@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-22",
+  "cutoffStr": "2026-02-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 10616,
-    "geoKept": 10560,
-    "virtKept": 41
+    "all": 10827,
+    "geoKept": 10773,
+    "virtKept": 43
   },
   "perSource": {
     "mobilize": {
-      "total": 10545,
-      "recent": 10542,
-      "withCoords": 9088,
-      "keptGeo": 9085,
-      "keptVirt": 1457,
+      "total": 10756,
+      "recent": 10753,
+      "withCoords": 9274,
+      "keptGeo": 9271,
+      "keptVirt": 1482,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-02-22",
+          "begin": "2026-03-01",
           "end": "2026-04-26",
           "lat": null,
           "lng": null,
@@ -128,50 +128,36 @@
     },
     "mobilizon": {
       "total": 65,
-      "recent": 59,
+      "recent": 63,
       "withCoords": 57,
-      "keptGeo": 51,
+      "keptGeo": 55,
       "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "Protest",
-          "begin": "2026-02-21",
-          "end": "2026-02-21",
-          "lat": 61.133371,
-          "lng": -146.3500897,
-          "location": "Meals Avenue, Valdez, AK 99686, United States of America, Valdez",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-02-22",
+          "end": "2026-02-22",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "Protest",
-              "href": "https://events.pol-rev.com/events/d8b0afba-7beb-47f9-8677-3549256c17c8"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/3a19ae02-1e55-426c-b709-ea3b0a51fef0"
             }
           ]
         },
         {
-          "title": "Outraged",
-          "begin": "2026-02-21",
-          "end": "2026-02-21",
-          "lat": 32.7316771,
-          "lng": -117.1465253,
-          "location": "Balboa Park, San Diego, California, United States of America, San Diego",
+          "title": "Tell Ingram - STOP HELPING ICE",
+          "begin": "2026-02-22",
+          "end": "2026-02-22",
+          "lat": 30.073012,
+          "lng": -99.2409101,
+          "location": "107 Old Ingram Loop, Ingram, Kerr County, TX 78025, United States of America, Ingram",
           "links": [
             {
-              "title": "Outraged",
-              "href": "https://events.pol-rev.com/events/38863dac-60c7-420b-b87b-8c04371efd5e"
-            }
-          ]
-        },
-        {
-          "title": "ICE Out Visibility Event Mesquite NV",
-          "begin": "2026-02-21",
-          "end": "2026-02-21",
-          "lat": 36.8036346,
-          "lng": -114.0851912,
-          "location": "610 West Mesquite Boulevard, Mesquite, NV 89027, United States of America, Mesquite",
-          "links": [
-            {
-              "title": "ICE Out Visibility Event Mesquite NV",
-              "href": "https://events.pol-rev.com/events/fd37ac78-ad21-4c91-aaf8-a3e2455a0a95"
+              "title": "Tell Ingram - STOP HELPING ICE",
+              "href": "https://events.pol-rev.com/events/9195b2a5-6d45-4c55-9438-c8c9d0e4b0fc"
             }
           ]
         }
