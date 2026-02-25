@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-23",
+  "cutoffStr": "2026-02-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 10827,
-    "geoKept": 10773,
-    "virtKept": 43
+    "all": 11054,
+    "geoKept": 10996,
+    "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 10756,
-      "recent": 10753,
-      "withCoords": 9274,
-      "keptGeo": 9271,
-      "keptVirt": 1482,
+      "total": 10982,
+      "recent": 10979,
+      "withCoords": 9456,
+      "keptGeo": 9453,
+      "keptVirt": 1526,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 65,
+      "total": 66,
       "recent": 63,
-      "withCoords": 57,
-      "keptGeo": 55,
-      "keptVirt": 8,
+      "withCoords": 56,
+      "keptGeo": 54,
+      "keptVirt": 9,
       "sampleDroppedByDate": [
         {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-02-22",
-          "end": "2026-02-22",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
+          "title": "LaHood Out! Phonebanking",
+          "begin": "2026-02-23",
+          "end": "2026-02-23",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/3a19ae02-1e55-426c-b709-ea3b0a51fef0"
+              "title": "LaHood Out! Phonebanking",
+              "href": "https://events.pol-rev.com/events/5eed678a-61c9-45d5-8306-fe796a8cfb44"
             }
           ]
         },
         {
-          "title": "Tell Ingram - STOP HELPING ICE",
-          "begin": "2026-02-22",
-          "end": "2026-02-22",
-          "lat": 30.073012,
-          "lng": -99.2409101,
-          "location": "107 Old Ingram Loop, Ingram, Kerr County, TX 78025, United States of America, Ingram",
+          "title": "ICE OUT",
+          "begin": "2026-02-23",
+          "end": "2026-02-23",
+          "lat": 43.5155634,
+          "lng": -96.7720299,
+          "location": "Barnes & Noble, 3700 West 41st Street, Sioux Falls, SD 57106, United States of America, Sioux Falls",
           "links": [
             {
-              "title": "Tell Ingram - STOP HELPING ICE",
-              "href": "https://events.pol-rev.com/events/9195b2a5-6d45-4c55-9438-c8c9d0e4b0fc"
+              "title": "ICE OUT",
+              "href": "https://events.pol-rev.com/events/361f83ea-7c13-4d47-9188-c51468f6a7c0"
+            }
+          ]
+        },
+        {
+          "title": "ICE OUT PROTEST: Sioux Falls",
+          "begin": "2026-02-23",
+          "end": "2026-02-23",
+          "lat": 43.5155634,
+          "lng": -96.7720299,
+          "location": "Barnes & Noble, 3700 West 41st Street, Sioux Falls, SD 57106, United States of America, Sioux Falls",
+          "links": [
+            {
+              "title": "ICE OUT PROTEST: Sioux Falls",
+              "href": "https://events.pol-rev.com/events/c92784a3-4c90-4781-8c5d-68ca8b26ebac"
             }
           ]
         }
@@ -192,16 +206,16 @@
           ]
         },
         {
-          "title": "No Kings!",
+          "title": "No Kings",
           "begin": "2026-03-28",
           "end": "2026-03-28",
           "lat": null,
           "lng": null,
-          "location": "Washington Park, Ottawa",
+          "location": "",
           "links": [
             {
-              "title": "No Kings!",
-              "href": "https://events.pol-rev.com/events/f96553fc-bbf8-4f9c-a8bc-685194d49279"
+              "title": "No Kings",
+              "href": "https://events.pol-rev.com/events/634cbeea-adcb-41ff-b921-d377a8eeb82c"
             }
           ]
         }

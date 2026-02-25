@@ -139,6 +139,14 @@
     {
       "title": "No Kings",
       "date": "2026-03-28",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/634cbeea-adcb-41ff-b921-d377a8eeb82c"
+    },
+    {
+      "title": "No Kings",
+      "date": "2026-03-28",
       "location": "Livonia Civic Center Library, 32777 5 Mile Road, Livonia, MI 48154, United States of America, Livonia",
       "lat": 42.396337,
       "lng": -83.3682215,
@@ -409,6 +417,14 @@
       "link": "https://events.pol-rev.com/events/2d8c3c94-4e02-43b0-b842-c5e14d6b8298"
     },
     {
+      "title": "March for Democracy",
+      "date": "2026-02-28",
+      "location": "717 Del Monte Avenue, Monterey, CA 93940, United States of America, Monterey",
+      "lat": 36.6001095,
+      "lng": -121.8879385,
+      "link": "https://events.pol-rev.com/events/c29b2c1d-1e02-4f8d-b0bc-bdad134baaa7"
+    },
+    {
       "title": "March 4 Democracy",
       "date": "2026-02-28",
       "location": "Courthouse, Portales",
@@ -465,6 +481,14 @@
       "link": "https://events.pol-rev.com/events/9ecf4360-95d6-4536-8701-680cfe5e6351"
     },
     {
+      "title": "No Kings Rally: Defend Democracy in San Jose",
+      "date": "2026-02-24",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/42b139e4-ba7a-40c2-91fe-d3ec91c179e1"
+    },
+    {
       "title": "Toms River \"Hold NJ-CD04 Congressman Chris Smith Accountable\" - Protect Democracy",
       "date": "2026-02-24",
       "location": "33 Washington Street, Toms River, NJ 08753, United States of America, Toms River",
@@ -503,22 +527,6 @@
       "lat": 43.5155634,
       "lng": -96.7720299,
       "link": "https://events.pol-rev.com/events/c92784a3-4c90-4781-8c5d-68ca8b26ebac"
-    },
-    {
-      "title": "West Seattle Resist: Sunday Solidarity Action",
-      "date": "2026-02-22",
-      "location": "West Seattle, Seattle",
-      "lat": 47.5609682,
-      "lng": -122.3871315,
-      "link": "https://events.pol-rev.com/events/3a19ae02-1e55-426c-b709-ea3b0a51fef0"
-    },
-    {
-      "title": "Tell Ingram - STOP HELPING ICE",
-      "date": "2026-02-22",
-      "location": "107 Old Ingram Loop, Ingram, Kerr County, TX 78025, United States of America, Ingram",
-      "lat": 30.073012,
-      "lng": -99.2409101,
-      "link": "https://events.pol-rev.com/events/9195b2a5-6d45-4c55-9438-c8c9d0e4b0fc"
     }
   ]
 }
