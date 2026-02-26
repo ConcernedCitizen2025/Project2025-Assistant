@@ -4955,6 +4955,10 @@
     "lat": 42.2694308,
     "lng": -71.6129907
   },
+  "Chesterton, IN": {
+    "lat": 41.6107243,
+    "lng": -87.0522661
+  },
   "Kansas City, KS": {
     "lat": 39.1134562,
     "lng": -94.626497
@@ -5019,7 +5023,7 @@
     "lat": 32.4078632,
     "lng": -87.0207473
   },
-  "This event's address is private. Sign up for more details, Treasure Island": {
+  "This event's address is private. Sign up for more details, St. Petersburg": {
     "lat": null,
     "lng": null
   },
@@ -5062,10 +5066,6 @@
   "Bayside, WI": {
     "lat": 43.1860869,
     "lng": -87.904897
-  },
-  "Winona, MN": {
-    "lat": 43.9582272,
-    "lng": -91.7807784
   },
   "Flossmoor, IL": {
     "lat": 41.5428123,
@@ -5211,10 +5211,6 @@
     "lat": 42.583645,
     "lng": -83.2454883
   },
-  "Sandpoint, ID": {
-    "lat": 48.2761306,
-    "lng": -116.5487835
-  },
   "Duluth, GA": {
     "lat": 34.0028569,
     "lng": -84.1441046
@@ -5279,10 +5275,6 @@
     "lat": 38.5806948,
     "lng": -90.6314374
   },
-  "Washington, NJ": {
-    "lat": 40.7584793,
-    "lng": -74.9794987
-  },
   "Byram Township, NJ": {
     "lat": 40.960174,
     "lng": -74.7182956
@@ -5326,10 +5318,6 @@
   "DeForest, WI": {
     "lat": 43.2477691,
     "lng": -89.3437277
-  },
-  "Ivanhoe, MN": {
-    "lat": 44.463229,
-    "lng": -96.247372
   },
   "Greenbush, MN": {
     "lat": 48.7001218,
@@ -5463,10 +5451,6 @@
     "lat": 44.8596498,
     "lng": -92.6255048
   },
-  "Palm Harbor, FL": {
-    "lat": 28.0856815,
-    "lng": -82.756907
-  },
   "Highland Village, TX": {
     "lat": 33.091788,
     "lng": -97.0466759
@@ -5555,13 +5539,13 @@
     "lat": 40.5819343,
     "lng": -80.0378692
   },
-  "Shorewood, WI": {
-    "lat": 43.0883957,
-    "lng": -87.8881302
-  },
   "Lock Haven, PA": {
     "lat": 41.1369077,
     "lng": -77.4471641
+  },
+  "Shorewood, WI": {
+    "lat": 43.0883957,
+    "lng": -87.8881302
   },
   "Oak Ridge, TN": {
     "lat": 36.0103562,
@@ -5599,10 +5583,6 @@
     "lat": 34.539984,
     "lng": -112.468812
   },
-  "Cornwall, NY": {
-    "lat": 41.434444,
-    "lng": -74.035833
-  },
   "Fort Myers / Cape Coral, FL": {
     "lat": 26.7107375,
     "lng": -81.8130065
@@ -5619,6 +5599,10 @@
     "lat": 42.868519,
     "lng": -72.871024
   },
+  "Newbury, VT": {
+    "lat": 44.0792316,
+    "lng": -72.0584234
+  },
   "Enumclaw, WA": {
     "lat": 47.2047793,
     "lng": -121.9916371
@@ -5628,16 +5612,24 @@
     "lng": -75.7386948
   },
   "South Brunswick Township, NJ": {
-    "lat": 40.430842,
-    "lng": -74.5529507
+    "lat": 40.4386442,
+    "lng": -74.5357327
   },
   "Gallatin, TN": {
     "lat": 36.3883031,
     "lng": -86.4475898
   },
+  "London, DC": {
+    "lat": 41.5573837,
+    "lng": -72.1169431
+  },
   "Chippewa Falls, WI": {
     "lat": 44.9371325,
     "lng": -91.3932118
+  },
+  "San Diego County, CA": {
+    "lat": 32.9637838,
+    "lng": -116.7706277
   },
   "Village of Pelham, NY": {
     "lat": 40.9098215,
@@ -5678,10 +5670,6 @@
   "Johnston, IA": {
     "lat": 41.6731523,
     "lng": -93.6973395
-  },
-  "Thornton, CO": {
-    "lat": 39.8695516,
-    "lng": -104.985181
   },
   "South Kingstown, RI": {
     "lat": 41.454944,
@@ -5755,6 +5743,10 @@
     "lat": 45.304687,
     "lng": -96.444779
   },
+  "Sandpoint, ID": {
+    "lat": 48.2761306,
+    "lng": -116.5487835
+  },
   "East Bridgewater, MA": {
     "lat": 42.0332957,
     "lng": -70.9588099
@@ -5771,6 +5763,10 @@
     "lat": 40.6789893,
     "lng": -73.4170673
   },
+  "Council Bluffs, IA": {
+    "lat": 41.258841,
+    "lng": -95.8519484
+  },
   "Davenport, IA": {
     "lat": 41.5235808,
     "lng": -90.5770967
@@ -5786,6 +5782,10 @@
   "Williston, VT": {
     "lat": 44.4376099,
     "lng": -73.0682659
+  },
+  "Washington, NJ": {
+    "lat": 40.7584793,
+    "lng": -74.9794987
   },
   "Carbondale, IL": {
     "lat": 37.7274692,
@@ -5871,6 +5871,10 @@
     "lat": 34.4480495,
     "lng": -119.242889
   },
+  "Dubuque, IA": {
+    "lat": 42.5006243,
+    "lng": -90.6647985
+  },
   "Chantilly, VA": {
     "lat": 38.885219,
     "lng": -77.4486772
@@ -5910,6 +5914,10 @@
   "Pella, IA": {
     "lat": 41.4073138,
     "lng": -92.9174074
+  },
+  "Orange, CA": {
+    "lat": 33.750631,
+    "lng": -117.8722311
   },
   "Willard, OH": {
     "lat": 41.0531134,
@@ -5972,8 +5980,8 @@
     "lng": -84.2200729
   },
   "MA 02771, MA": {
-    "lat": 41.8095774,
-    "lng": -71.3279584
+    "lat": 41.8115359,
+    "lng": -71.3279166
   },
   "Mount Bethel, PA": {
     "lat": 40.9048188,
@@ -5986,10 +5994,6 @@
   "Santa Maria, CA": {
     "lat": 34.9531295,
     "lng": -120.435857
-  },
-  "La Crosse, WI": {
-    "lat": 43.8122836,
-    "lng": -91.2514355
   },
   "Palm Valley, FL": {
     "lat": 30.1774649,
@@ -6035,17 +6039,9 @@
     "lat": 40.0238245,
     "lng": -75.3173407
   },
-  "Red Lion, PA": {
-    "lat": 39.9009334,
-    "lng": -76.6058001
-  },
   "Franklin, PA": {
     "lat": 39.9259345,
     "lng": -77.7485516
-  },
-  "Lawrenceville, GA": {
-    "lat": 33.9566391,
-    "lng": -83.9890066
   },
   "Salem Lakes, WI": {
     "lat": 42.5313995,
@@ -6139,10 +6135,6 @@
     "lat": 39.9036359,
     "lng": -75.3716623
   },
-  "Northfield, IL": {
-    "lat": 42.09975,
-    "lng": -87.7808967
-  },
   "Lincolnwood, IL": {
     "lat": 42.0055985,
     "lng": -87.735572
@@ -6235,13 +6227,57 @@
     "lat": 33.0186699,
     "lng": -80.1762704
   },
+  "Emmaus, PA": {
+    "lat": 40.5350165,
+    "lng": -75.4918701
+  },
   "Burlington, WI": {
     "lat": 42.6801053,
     "lng": -88.276413
   },
-  "Eagle River, AK": {
-    "lat": 61.2700284,
-    "lng": -149.3863924
+  "Round Lake, IL": {
+    "lat": 42.353355,
+    "lng": -88.0934145
+  },
+  "Sharon, PA": {
+    "lat": 41.232947,
+    "lng": -80.5078056
+  },
+  "Farrell, PA": {
+    "lat": 41.2119979,
+    "lng": -80.5015821
+  },
+  "Grapevine, TX": {
+    "lat": 32.9337381,
+    "lng": -97.0788754
+  },
+  "Hopkins, MN": {
+    "lat": 44.9243986,
+    "lng": -93.4114487
+  },
+  "Adelanto, CA": {
+    "lat": 34.5838077,
+    "lng": -117.4082453
+  },
+  "Henderson, NV": {
+    "lat": 36.0319602,
+    "lng": -114.9822716
+  },
+  "Oceanside, CA": {
+    "lat": 33.1958696,
+    "lng": -117.379483
+  },
+  "Swampscott, MA": {
+    "lat": 42.4699241,
+    "lng": -70.9171507
+  },
+  "Brentwood, TN": {
+    "lat": 36.0325687,
+    "lng": -86.7825235
+  },
+  "Rancho Santa Margarita, CA": {
+    "lat": 33.6408845,
+    "lng": -117.6029341
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,
