@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-26",
+  "cutoffStr": "2026-02-27",
   "lookbackDays": 1,
   "totals": {
-    "all": 11291,
-    "geoKept": 11235,
+    "all": 11425,
+    "geoKept": 11371,
     "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 11220,
-      "recent": 11217,
-      "withCoords": 9626,
-      "keptGeo": 9623,
-      "keptVirt": 1594,
+      "total": 11351,
+      "recent": 11349,
+      "withCoords": 9732,
+      "keptGeo": 9730,
+      "keptVirt": 1619,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,27 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 65,
-      "recent": 64,
-      "withCoords": 56,
-      "keptGeo": 55,
+      "total": 68,
+      "recent": 68,
+      "withCoords": 59,
+      "keptGeo": 59,
       "keptVirt": 9,
-      "sampleDroppedByDate": [
-        {
-          "title": "BloNo IL - Intro to Community Organizing with Illinois People's Action",
-          "begin": "2026-02-25",
-          "end": "2026-02-25",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Intro to Community Organizing with Illinois People's Action",
-              "href": "https://events.pol-rev.com/events/9ecf4360-95d6-4536-8701-680cfe5e6351"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings Rally",

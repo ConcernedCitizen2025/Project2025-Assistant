@@ -185,6 +185,14 @@
       "link": "https://events.pol-rev.com/events/15f2c3cd-5d0c-48bb-a675-ceb2ea5595a8"
     },
     {
+      "title": "No Kings III",
+      "date": "2026-03-28",
+      "location": "John F. Kennedy Library, 505 Santa Clara Street, Vallejo, CA 94590, United States of America, Vallejo",
+      "lat": 38.1016906,
+      "lng": -122.2608353,
+      "link": "https://events.pol-rev.com/events/96258987-163e-40ee-baf6-a49a2e9cbac9"
+    },
+    {
       "title": "No Thrones. No Crowns. No Kings",
       "date": "2026-03-28",
       "location": "Thousand Oaks, California, United States of America, Thousand Oaks",
@@ -207,6 +215,14 @@
       "lat": 38.3363062,
       "lng": -81.6122744,
       "link": "https://events.pol-rev.com/events/4975afaf-d9e0-4ee3-9ef2-27b8e2edad2d"
+    },
+    {
+      "title": "NO KINGS 3 Winston Salem",
+      "date": "2026-03-28",
+      "location": "S Martin Luther King Jr Dr, Winston-Salem, NC, United States of America, Winston-Salem",
+      "lat": 36.093751,
+      "lng": -80.227798,
+      "link": "https://events.pol-rev.com/events/ee4d430a-a7f2-45f4-9db6-35ed35349904"
     },
     {
       "title": "No Kings 3 Galax, Virginia, March 28th, 2026, Crossroad Center 11 am to 1 pm",
@@ -345,12 +361,28 @@
       "link": "https://events.pol-rev.com/events/0f0ddffc-ae01-4235-bae0-c9551677a0a1"
     },
     {
+      "title": "Hands Off Europe: A Peaceful Rally for European Sovereignty",
+      "date": "2026-03-14",
+      "location": "Place du Luxembourg - Luxemburgplein, 1050 Ixelles - Elsene, Belgium, Ixelles - Elsene",
+      "lat": 50.8391637,
+      "lng": 4.3728234,
+      "link": "https://events.pol-rev.com/events/d6424c13-759d-45a8-a075-e4960fde4a06"
+    },
+    {
       "title": "Northtowns Rise Up Weekly Protest",
       "date": "2026-03-14",
       "location": "Corner of Niagara Falls Blvd. and Brighton, Tonawanda",
       "lat": 42.9910451668341,
       "lng": -78.82282197475435,
       "link": "https://events.pol-rev.com/events/bc877f96-f3c4-4189-82a8-0434a872d073"
+    },
+    {
+      "title": "March for Justice",
+      "date": "2026-03-08",
+      "location": "Broadway Bridge, Little Rock, AR 72201, United States of America, Little Rock",
+      "lat": 34.7504777,
+      "lng": -92.2747942,
+      "link": "https://events.pol-rev.com/events/cc20a445-e21f-4b39-ba1f-ab05a6d35b00"
     },
     {
       "title": "West Seattle Resist: Sunday Solidarity Action",
@@ -511,14 +543,6 @@
       "lat": 33.7123921,
       "lng": -112.1112565,
       "link": "https://events.pol-rev.com/events/86be295e-52d9-4450-9794-416d85c10273"
-    },
-    {
-      "title": "BloNo IL - Intro to Community Organizing with Illinois People's Action",
-      "date": "2026-02-25",
-      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4929988,
-      "lng": -88.9684006,
-      "link": "https://events.pol-rev.com/events/9ecf4360-95d6-4536-8701-680cfe5e6351"
     }
   ]
 }
