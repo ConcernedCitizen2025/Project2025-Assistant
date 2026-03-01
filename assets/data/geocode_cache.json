@@ -4843,10 +4843,6 @@
     "lat": 44.8906694,
     "lng": -93.0372808
   },
-  "Hampden, MA": {
-    "lat": 42.1285315,
-    "lng": -72.6063441
-  },
   "Chula Vista, CA": {
     "lat": 32.6400541,
     "lng": -117.084195
@@ -4987,9 +4983,9 @@
     "lat": 47.4234599,
     "lng": -120.310349
   },
-  "Sugar Land, TX": {
-    "lat": 29.6196787,
-    "lng": -95.6349463
+  "Brookshire, TX": {
+    "lat": 29.7860643,
+    "lng": -95.9510661
   },
   "Elizabethtown, PA": {
     "lat": 40.153364,
@@ -5075,6 +5071,10 @@
     "lat": 27.5079211,
     "lng": -99.5069834
   },
+  "Sugar Land, TX": {
+    "lat": 29.6196787,
+    "lng": -95.6349463
+  },
   "Decatur, GA": {
     "lat": 30.8736613,
     "lng": -84.5740953
@@ -5082,10 +5082,6 @@
   "Port Hadlock-Irondale, WA": {
     "lat": 48.03324,
     "lng": -122.776478
-  },
-  "Conyers, GA": {
-    "lat": 33.6676103,
-    "lng": -84.0176904
   },
   "Truth or Consequences, NM": {
     "lat": 33.1283485,
@@ -5111,10 +5107,6 @@
     "lat": 33.9299925,
     "lng": -116.9763092
   },
-  "Atascadero, CA": {
-    "lat": 35.4894169,
-    "lng": -120.6707255
-  },
   "Pewee Valley, KY": {
     "lat": 38.3106248,
     "lng": -85.4874595
@@ -5134,10 +5126,6 @@
   "Orangevale, CA": {
     "lat": 38.6785145,
     "lng": -121.2257818
-  },
-  "Tyler, TX": {
-    "lat": 32.3512601,
-    "lng": -95.3010624
   },
   "Rolling Meadows, IL": {
     "lat": 42.0841936,
@@ -5455,10 +5443,6 @@
     "lat": 35.9556924,
     "lng": -80.0053176
   },
-  "Beaufort, NC": {
-    "lat": 35.469331,
-    "lng": -76.8927522
-  },
   "Bay St. Louis, MS": {
     "lat": 30.3105666,
     "lng": -89.3275482
@@ -5558,6 +5542,10 @@
   "London, DC": {
     "lat": 41.5573837,
     "lng": -72.1169431
+  },
+  "Beaufort, NC": {
+    "lat": 35.469331,
+    "lng": -76.8927522
   },
   "Chippewa Falls, WI": {
     "lat": 44.9371325,
@@ -5723,10 +5711,6 @@
     "lat": 34.9854275,
     "lng": -80.5495112
   },
-  "Williston, VT": {
-    "lat": 44.4376099,
-    "lng": -73.0682659
-  },
   "Washington, NJ": {
     "lat": 40.7584793,
     "lng": -74.9794987
@@ -5763,10 +5747,6 @@
     "lat": 38.7483814,
     "lng": -89.983158
   },
-  "Collinsville, IL": {
-    "lat": 38.6703267,
-    "lng": -89.9845476
-  },
   "La Vista, NE": {
     "lat": 41.1832679,
     "lng": -96.0324044
@@ -5798,6 +5778,18 @@
   "Oswego, IL": {
     "lat": 41.6834778,
     "lng": -88.3525714
+  },
+  "Evansville, WI": {
+    "lat": 42.7803486,
+    "lng": -89.2992249
+  },
+  "Manawa, WI": {
+    "lat": 44.4644255,
+    "lng": -88.919829
+  },
+  "Munising, MI": {
+    "lat": 46.4100035,
+    "lng": -86.6494698
   },
   "Royal Oak, MI": {
     "lat": 42.4894801,
@@ -5864,24 +5856,20 @@
     "lng": -82.7262958
   },
   "Tubac, AZ": {
-    "lat": 31.61259,
-    "lng": -111.0459238
-  },
-  "Fort Kent, ME": {
-    "lat": 47.2559046,
-    "lng": -68.5904597
+    "lat": 31.629527,
+    "lng": -111.0540692
   },
   "Danville, IL": {
     "lat": 40.125222,
     "lng": -87.6304614
   },
+  "Lake Shore, MD": {
+    "lat": 39.1070543,
+    "lng": -76.4849613
+  },
   "Bristol, PA": {
     "lat": 40.1229002,
     "lng": -74.8644706
-  },
-  "Chanute, KS": {
-    "lat": 37.6816841,
-    "lng": -95.4517985
   },
   "Hopewell Township, NJ": {
     "lat": 40.3435303,
@@ -5890,6 +5878,10 @@
   "Clinton, IA": {
     "lat": 41.9054695,
     "lng": -90.5599971
+  },
+  "Ogdensburg, NY": {
+    "lat": 44.6975256,
+    "lng": -75.4924943
   },
   "Rossmoor, CA": {
     "lat": 33.7882498,
@@ -5975,6 +5967,14 @@
     "lat": 29.5074538,
     "lng": -95.0949303
   },
+  "Lake Wales, FL": {
+    "lat": 27.9014133,
+    "lng": -81.5859099
+  },
+  "Shawnee, OK": {
+    "lat": 35.3272928,
+    "lng": -96.9253004
+  },
   "Franklin, PA": {
     "lat": 39.9259345,
     "lng": -77.7485516
@@ -6047,18 +6047,6 @@
     "lat": 39.6267975,
     "lng": -78.2279514
   },
-  "Lubbock, TX": {
-    "lat": 33.5855677,
-    "lng": -101.8470215
-  },
-  "Monaca, PA": {
-    "lat": 40.6872885,
-    "lng": -80.2714505
-  },
-  "Lincolnwood, IL": {
-    "lat": 42.0055985,
-    "lng": -87.735572
-  },
   "East Lyme, CT": {
     "lat": 41.3482141,
     "lng": -72.2092951
@@ -6078,6 +6066,10 @@
   "North Fort Myers, FL": {
     "lat": 26.6728666,
     "lng": -81.8840848
+  },
+  "N MARTINSVLLE, WV": {
+    "lat": null,
+    "lng": null
   },
   "Dolgeville, NY": {
     "lat": 43.1030455,
@@ -6114,10 +6106,6 @@
   "Grant, MI": {
     "lat": 43.336132,
     "lng": -85.810882
-  },
-  "East Melbourne, NY": {
-    "lat": null,
-    "lng": null
   },
   "McAllen, TX": {
     "lat": 26.204114,
@@ -6167,6 +6155,10 @@
     "lat": 32.9337381,
     "lng": -97.0788754
   },
+  "Eastham, MA": {
+    "lat": 41.8305937,
+    "lng": -69.9740491
+  },
   "Hopkins, MN": {
     "lat": 44.9243986,
     "lng": -93.4114487
@@ -6174,10 +6166,6 @@
   "Adelanto, CA": {
     "lat": 34.5838077,
     "lng": -117.4082453
-  },
-  "Henderson, NV": {
-    "lat": 36.0319602,
-    "lng": -114.9822716
   },
   "Oceanside, CA": {
     "lat": 33.1958696,
@@ -6194,6 +6182,10 @@
   "Rancho Santa Margarita, CA": {
     "lat": 33.6408845,
     "lng": -117.6029341
+  },
+  "Hopewell, NJ": {
+    "lat": 40.3892726,
+    "lng": -74.7618285
   },
   "Becker, MN": {
     "lat": 46.9298236,
@@ -6311,6 +6303,10 @@
     "lat": 42.2091163,
     "lng": -88.240021
   },
+  "Louisville, CO": {
+    "lat": 39.977763,
+    "lng": -105.1319296
+  },
   "Sunnyside, NY": {
     "lat": 40.6162152,
     "lng": -74.1037531
@@ -6322,6 +6318,30 @@
   "Mount Dora, FL": {
     "lat": 28.8004955,
     "lng": -81.6446961
+  },
+  "Croton, NY": {
+    "lat": 41.2088215,
+    "lng": -73.8905175
+  },
+  "Dover, NH": {
+    "lat": 43.1981117,
+    "lng": -70.8739761
+  },
+  "This event's address is private. Sign up for more details, TX": {
+    "lat": null,
+    "lng": null
+  },
+  "Harris Hill, NY": {
+    "lat": 42.9730862,
+    "lng": -78.6782748
+  },
+  "West Lake Hills, TX": {
+    "lat": 30.2877039,
+    "lng": -97.8068157
+  },
+  "Columbus, GA": {
+    "lat": 32.4610708,
+    "lng": -84.9880449
   },
   "Lakeview Commons Beach, South Lake Tahoe": {
     "lat": null,
