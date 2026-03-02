@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-02-28",
+  "cutoffStr": "2026-03-01",
   "lookbackDays": 1,
   "totals": {
-    "all": 11510,
-    "geoKept": 11452,
-    "virtKept": 47
+    "all": 10874,
+    "geoKept": 10813,
+    "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 11433,
-      "recent": 11430,
-      "withCoords": 9776,
-      "keptGeo": 9773,
-      "keptVirt": 1657,
+      "total": 10798,
+      "recent": 10795,
+      "withCoords": 9219,
+      "keptGeo": 9216,
+      "keptVirt": 1579,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 71,
-      "recent": 69,
-      "withCoords": 62,
-      "keptGeo": 60,
-      "keptVirt": 9,
+      "total": 70,
+      "recent": 64,
+      "withCoords": 60,
+      "keptGeo": 54,
+      "keptVirt": 10,
       "sampleDroppedByDate": [
         {
-          "title": "I HAVE A DREAM!",
-          "begin": "2026-02-27",
-          "end": "2026-02-27",
-          "lat": 44.561724,
-          "lng": -72.597882,
-          "location": "Intersection of Portland & Main Sts. Morrisville,, Morrisville",
+          "title": "March for Democracy",
+          "begin": "2026-02-28",
+          "end": "2026-02-28",
+          "lat": 36.6001095,
+          "lng": -121.8879385,
+          "location": "717 Del Monte Avenue, Monterey, CA 93940, United States of America, Monterey",
           "links": [
             {
-              "title": "I HAVE A DREAM!",
-              "href": "https://events.pol-rev.com/events/899e80d0-5ef5-40c1-9a7b-087a1f51e890"
+              "title": "March for Democracy",
+              "href": "https://events.pol-rev.com/events/c29b2c1d-1e02-4f8d-b0bc-bdad134baaa7"
             }
           ]
         },
         {
-          "title": "Rush-hour Resistance Rally @ 25th Ave & Happy Valley in North Phoenix",
-          "begin": "2026-02-27",
-          "end": "2026-02-27",
-          "lat": 33.7123921,
-          "lng": -112.1112565,
-          "location": "2501 West Happy Valley Road, Phoenix, AZ 85085, United States of America, Phoenix",
+          "title": "March 4 Democracy",
+          "begin": "2026-02-28",
+          "end": "2026-02-28",
+          "lat": 34.185467809559256,
+          "lng": -103.33717703819276,
+          "location": "Courthouse, Portales",
           "links": [
             {
-              "title": "Rush-hour Resistance Rally @ 25th Ave & Happy Valley in North Phoenix",
-              "href": "https://events.pol-rev.com/events/86be295e-52d9-4450-9794-416d85c10273"
+              "title": "March 4 Democracy",
+              "href": "https://events.pol-rev.com/events/0e7a899d-8127-4ea0-8db9-b67f5d3cf68e"
+            }
+          ]
+        },
+        {
+          "title": "Art Build for Queens Mass March",
+          "begin": "2026-02-28",
+          "end": "2026-02-28",
+          "lat": 40.7233409,
+          "lng": -73.8391653,
+          "location": "First Presbyterian Church, 70-35 112th Street, New York, NY 11375, United States of America, New York",
+          "links": [
+            {
+              "title": "Art Build for Queens Mass March",
+              "href": "https://events.pol-rev.com/events/c551bb6e-4fe5-4812-99eb-1c8a7506a09c"
             }
           ]
         }

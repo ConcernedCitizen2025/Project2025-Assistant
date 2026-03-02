@@ -385,6 +385,14 @@
       "link": "https://events.pol-rev.com/events/bc877f96-f3c4-4189-82a8-0434a872d073"
     },
     {
+      "title": "Ultimate ICE Breaker",
+      "date": "2026-03-14",
+      "location": "Los Fresnos City Hall sidewalk, Los Fresnos",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/a12c713e-1619-4e2b-a9f2-86b6d3ebb044"
+    },
+    {
       "title": "March for Justice",
       "date": "2026-03-08",
       "location": "Broadway Bridge, Little Rock, AR 72201, United States of America, Little Rock",
@@ -551,22 +559,6 @@
       "lat": 42.2048114,
       "lng": -71.1530977,
       "link": "https://events.pol-rev.com/events/e2565ef5-44b3-43ac-984d-fba960600a36"
-    },
-    {
-      "title": "I HAVE A DREAM!",
-      "date": "2026-02-27",
-      "location": "Intersection of Portland & Main Sts. Morrisville,, Morrisville",
-      "lat": 44.561724,
-      "lng": -72.597882,
-      "link": "https://events.pol-rev.com/events/899e80d0-5ef5-40c1-9a7b-087a1f51e890"
-    },
-    {
-      "title": "Rush-hour Resistance Rally @ 25th Ave & Happy Valley in North Phoenix",
-      "date": "2026-02-27",
-      "location": "2501 West Happy Valley Road, Phoenix, AZ 85085, United States of America, Phoenix",
-      "lat": 33.7123921,
-      "lng": -112.1112565,
-      "link": "https://events.pol-rev.com/events/86be295e-52d9-4450-9794-416d85c10273"
     }
   ]
 }
