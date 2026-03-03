@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 896690,
-      "mobilize_id": 896690,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/896690/",
-      "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-      "begin": "2026-03-01",
-      "end": "2026-03-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NC",
-      "links": [
-        {
-          "title": "Webinar: 2026 Future Voters Network Ambassador Training",
-          "href": "https://www.mobilize.us/ncvp/event/896690/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 872724,
       "mobilize_id": 872724,
       "canonical_mobilize_url": "https://www.mobilize.us/event/872724/",
@@ -194,6 +176,24 @@
         {
           "title": "Boots On the Ground: Team Ojeda Volunteer Poll Greeters in Chatham Co.",
           "href": "https://www.mobilize.us/ojedafornc/event/892932/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 912291,
+      "mobilize_id": 912291,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/912291/",
+      "title": "Virtual Endorsement Interviews: GA State House",
+      "begin": "2026-03-03",
+      "end": "2026-03-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Endorsement Interviews: GA State House",
+          "href": "https://www.mobilize.us/ga-wfp/event/912291/"
         }
       ],
       "_src": "mobilize"
@@ -640,7 +640,7 @@
       "_id": 910960,
       "mobilize_id": 910960,
       "canonical_mobilize_url": "https://www.mobilize.us/event/910960/",
-      "title": "Pathway to Power Contra Costa",
+      "title": "Pathway to Power Richmond",
       "begin": "2026-03-26",
       "end": "2026-03-26",
       "lat": null,
@@ -648,7 +648,7 @@
       "location": "This event's address is private. Sign up for more details, CA",
       "links": [
         {
-          "title": "Pathway to Power Contra Costa",
+          "title": "Pathway to Power Richmond",
           "href": "https://www.mobilize.us/ca-wfp/event/910960/"
         }
       ],

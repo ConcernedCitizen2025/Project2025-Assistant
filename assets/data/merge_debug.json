@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-01",
+  "cutoffStr": "2026-03-02",
   "lookbackDays": 1,
   "totals": {
-    "all": 10874,
-    "geoKept": 10813,
+    "all": 10995,
+    "geoKept": 10937,
     "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 10798,
-      "recent": 10795,
-      "withCoords": 9219,
-      "keptGeo": 9216,
-      "keptVirt": 1579,
+      "total": 10925,
+      "recent": 10922,
+      "withCoords": 9391,
+      "keptGeo": 9388,
+      "keptVirt": 1534,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-03-01",
+          "begin": "2026-03-08",
           "end": "2026-04-26",
           "lat": null,
           "lng": null,
@@ -127,51 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 70,
-      "recent": 64,
-      "withCoords": 60,
-      "keptGeo": 54,
+      "total": 64,
+      "recent": 61,
+      "withCoords": 54,
+      "keptGeo": 51,
       "keptVirt": 10,
       "sampleDroppedByDate": [
         {
-          "title": "March for Democracy",
-          "begin": "2026-02-28",
-          "end": "2026-02-28",
-          "lat": 36.6001095,
-          "lng": -121.8879385,
-          "location": "717 Del Monte Avenue, Monterey, CA 93940, United States of America, Monterey",
+          "title": "River City Rising Rally for Peace",
+          "begin": "2026-03-01",
+          "end": "2026-03-01",
+          "lat": 37.973335,
+          "lng": -87.567884,
+          "location": "1 Northwest Martin Luther King Jr Boulevard, Evansville, IN 47708, United States of America, Evansville",
           "links": [
             {
-              "title": "March for Democracy",
-              "href": "https://events.pol-rev.com/events/c29b2c1d-1e02-4f8d-b0bc-bdad134baaa7"
+              "title": "River City Rising Rally for Peace",
+              "href": "https://events.pol-rev.com/events/4bedf57b-2903-4d8a-b5ad-e0bbc28634a0"
             }
           ]
         },
         {
-          "title": "March 4 Democracy",
-          "begin": "2026-02-28",
-          "end": "2026-02-28",
-          "lat": 34.185467809559256,
-          "lng": -103.33717703819276,
-          "location": "Courthouse, Portales",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-03-01",
+          "end": "2026-03-01",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "March 4 Democracy",
-              "href": "https://events.pol-rev.com/events/0e7a899d-8127-4ea0-8db9-b67f5d3cf68e"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/5d886e2c-3898-4590-945b-b6dc595e9fa6"
             }
           ]
         },
         {
-          "title": "Art Build for Queens Mass March",
-          "begin": "2026-02-28",
-          "end": "2026-02-28",
-          "lat": 40.7233409,
-          "lng": -73.8391653,
-          "location": "First Presbyterian Church, 70-35 112th Street, New York, NY 11375, United States of America, New York",
+          "title": "SIGNS OF FASCISM – Greenmarket Visibility Action",
+          "begin": "2026-03-01",
+          "end": "2026-03-01",
+          "lat": 40.7251781,
+          "lng": -73.8502321,
+          "location": "Queens Boulevard, New York, NY 11375, United States of America, New York",
           "links": [
             {
-              "title": "Art Build for Queens Mass March",
-              "href": "https://events.pol-rev.com/events/c551bb6e-4fe5-4812-99eb-1c8a7506a09c"
+              "title": "SIGNS OF FASCISM – Greenmarket Visibility Action",
+              "href": "https://events.pol-rev.com/events/2d8c3c94-4e02-43b0-b842-c5e14d6b8298"
             }
           ]
         }
