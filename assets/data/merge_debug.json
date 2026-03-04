@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-02",
+  "cutoffStr": "2026-03-03",
   "lookbackDays": 1,
   "totals": {
-    "all": 10995,
-    "geoKept": 10937,
-    "virtKept": 46
+    "all": 11146,
+    "geoKept": 11093,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 10925,
-      "recent": 10922,
-      "withCoords": 9391,
-      "keptGeo": 9388,
-      "keptVirt": 1534,
+      "total": 11078,
+      "recent": 11075,
+      "withCoords": 9514,
+      "keptGeo": 9511,
+      "keptVirt": 1564,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,55 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 64,
-      "recent": 61,
-      "withCoords": 54,
+      "total": 62,
+      "recent": 62,
+      "withCoords": 51,
       "keptGeo": 51,
-      "keptVirt": 10,
-      "sampleDroppedByDate": [
-        {
-          "title": "River City Rising Rally for Peace",
-          "begin": "2026-03-01",
-          "end": "2026-03-01",
-          "lat": 37.973335,
-          "lng": -87.567884,
-          "location": "1 Northwest Martin Luther King Jr Boulevard, Evansville, IN 47708, United States of America, Evansville",
-          "links": [
-            {
-              "title": "River City Rising Rally for Peace",
-              "href": "https://events.pol-rev.com/events/4bedf57b-2903-4d8a-b5ad-e0bbc28634a0"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-03-01",
-          "end": "2026-03-01",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/5d886e2c-3898-4590-945b-b6dc595e9fa6"
-            }
-          ]
-        },
-        {
-          "title": "SIGNS OF FASCISM – Greenmarket Visibility Action",
-          "begin": "2026-03-01",
-          "end": "2026-03-01",
-          "lat": 40.7251781,
-          "lng": -73.8502321,
-          "location": "Queens Boulevard, New York, NY 11375, United States of America, New York",
-          "links": [
-            {
-              "title": "SIGNS OF FASCISM – Greenmarket Visibility Action",
-              "href": "https://events.pol-rev.com/events/2d8c3c94-4e02-43b0-b842-c5e14d6b8298"
-            }
-          ]
-        }
-      ],
+      "keptVirt": 11,
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings Rally",
@@ -206,16 +163,16 @@
           ]
         },
         {
-          "title": "No Kings",
+          "title": "Friends on Fremont standing together and to say NO KINGS!  NO ICE!  NO WAR!",
           "begin": "2026-03-28",
           "end": "2026-03-28",
           "lat": null,
           "lng": null,
-          "location": "",
+          "location": "Friends On Fremont, All along the sidewalk and both sides if you like",
           "links": [
             {
-              "title": "No Kings",
-              "href": "https://events.pol-rev.com/events/634cbeea-adcb-41ff-b921-d377a8eeb82c"
+              "title": "Friends on Fremont standing together and to say NO KINGS!  NO ICE!  NO WAR!",
+              "href": "https://events.pol-rev.com/events/35c4dce6-3fc2-47cd-81e6-4fd5ac9b1bc3"
             }
           ]
         }
