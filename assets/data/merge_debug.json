@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-03",
+  "cutoffStr": "2026-03-04",
   "lookbackDays": 1,
   "totals": {
-    "all": 11146,
-    "geoKept": 11093,
-    "virtKept": 44
+    "all": 11304,
+    "geoKept": 11252,
+    "virtKept": 41
   },
   "perSource": {
     "mobilize": {
-      "total": 11078,
-      "recent": 11075,
-      "withCoords": 9514,
-      "keptGeo": 9511,
-      "keptVirt": 1564,
+      "total": 11225,
+      "recent": 11222,
+      "withCoords": 9635,
+      "keptGeo": 9632,
+      "keptVirt": 1590,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 62,
-      "recent": 62,
-      "withCoords": 51,
-      "keptGeo": 51,
+      "total": 73,
+      "recent": 71,
+      "withCoords": 62,
+      "keptGeo": 60,
       "keptVirt": 11,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "NO ICE FACILITY IN SURPRISE!",
+          "begin": "2026-03-03",
+          "end": "2026-03-03",
+          "lat": 33.6295717,
+          "lng": -112.3683097,
+          "location": "Surprise City Hall, 16000 North Civic Center Plaza, Surprise, AZ 85374, United States of America, Surprise",
+          "links": [
+            {
+              "title": "NO ICE FACILITY IN SURPRISE!",
+              "href": "https://events.pol-rev.com/events/becc1209-45ca-42de-906e-2ea34119f785"
+            }
+          ]
+        },
+        {
+          "title": "Resist Fascism Sarasota - Our 48th Weekly Rally",
+          "begin": "2026-03-03",
+          "end": "2026-03-03",
+          "lat": 27.3029295,
+          "lng": -82.5296757,
+          "location": "2001 Siesta Drive, South Trail, Sarasota, FL 34239, United States of America, Sarasota",
+          "links": [
+            {
+              "title": "Resist Fascism Sarasota - Our 48th Weekly Rally",
+              "href": "https://events.pol-rev.com/events/4f8851d4-c3e0-48ad-8c10-de93883bd4f6"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings Rally",
