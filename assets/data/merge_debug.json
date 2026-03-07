@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-05",
+  "cutoffStr": "2026-03-06",
   "lookbackDays": 1,
   "totals": {
-    "all": 11470,
-    "geoKept": 11416,
-    "virtKept": 43
+    "all": 11670,
+    "geoKept": 11618,
+    "virtKept": 42
   },
   "perSource": {
     "mobilize": {
-      "total": 11389,
-      "recent": 11386,
-      "withCoords": 9741,
-      "keptGeo": 9738,
-      "keptVirt": 1648,
+      "total": 11586,
+      "recent": 11583,
+      "withCoords": 9918,
+      "keptGeo": 9915,
+      "keptVirt": 1668,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -94,7 +94,7 @@
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
           "begin": "2026-03-08",
-          "end": "2026-04-26",
+          "end": "2026-06-28",
           "lat": null,
           "lng": null,
           "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
@@ -111,7 +111,7 @@
           "mobilize_id": 547245,
           "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
           "title": "Monthly All Member Meeting",
-          "begin": "2026-03-05",
+          "begin": "2026-04-02",
           "end": "2026-11-05",
           "lat": null,
           "lng": null,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 75,
-      "recent": 73,
-      "withCoords": 62,
-      "keptGeo": 61,
-      "keptVirt": 12,
+      "total": 78,
+      "recent": 77,
+      "withCoords": 66,
+      "keptGeo": 66,
+      "keptVirt": 11,
       "sampleDroppedByDate": [
         {
-          "title": "Stop the war on Iran",
-          "begin": "2026-03-04",
-          "end": "2026-03-04",
-          "lat": 36.1722585,
-          "lng": -115.1458795,
-          "location": "100 North Main Street, Las Vegas, NV 89101, United States of America, Las Vegas",
-          "links": [
-            {
-              "title": "Stop the war on Iran",
-              "href": "https://events.pol-rev.com/events/e9fd9f18-70a7-47d8-8dcd-b73633ab9fad"
-            }
-          ]
-        },
-        {
-          "title": "Thrive: United for Democracy and Global Action",
-          "begin": "2026-03-04",
-          "end": "2026-03-04",
+          "title": "Creative Action Call",
+          "begin": "2026-03-05",
+          "end": "2026-03-05",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Thrive: United for Democracy and Global Action",
-              "href": "https://events.pol-rev.com/events/9bedd757-859a-4c68-9625-43b9d91ffce5"
+              "title": "Creative Action Call",
+              "href": "https://events.pol-rev.com/events/2134bf84-5a07-4ac7-a754-43963f5ec78a"
             }
           ]
         }
