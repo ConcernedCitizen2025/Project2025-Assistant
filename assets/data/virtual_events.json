@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-03-06",
-      "end": "2026-04-25",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 899729,
-      "mobilize_id": 899729,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/899729/",
-      "title": "Online Training Session - Caucus Night & Delegates",
-      "begin": "2026-03-06",
-      "end": "2026-03-13",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Online Training Session - Caucus Night & Delegates",
-          "href": "https://www.mobilize.us/benmcadamsforcongressut01/event/899729/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 912304,
-      "mobilize_id": 912304,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/912304/",
-      "title": "Virtual Endorsement Interviews: Friday, 3/6",
-      "begin": "2026-03-06",
-      "end": "2026-03-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Endorsement Interviews: Friday, 3/6",
-          "href": "https://www.mobilize.us/ga-wfp/event/912304/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 881215,
       "mobilize_id": 881215,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881215/",
@@ -250,6 +196,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-03-13",
+      "end": "2026-04-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 899729,
+      "mobilize_id": 899729,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/899729/",
+      "title": "Online Training Session - Caucus Night & Delegates",
+      "begin": "2026-03-13",
+      "end": "2026-03-13",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Online Training Session - Caucus Night & Delegates",
+          "href": "https://www.mobilize.us/benmcadamsforcongressut01/event/899729/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Ultimate ICE Breaker",
       "begin": "2026-03-14",
       "end": "2026-03-14",
@@ -270,7 +252,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
       "title": "Franconia In PERSON Chair Chat & Orientation",
       "begin": "2026-03-17",
-      "end": "2026-03-17",
+      "end": "2026-04-28",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -524,24 +506,6 @@
         }
       ],
       "_src": "mobilizon"
-    },
-    {
-      "_id": 906445,
-      "mobilize_id": 906445,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/906445/",
-      "title": "NO KINGS STOCKHOM SWEDEN",
-      "begin": "2026-03-28",
-      "end": "2026-03-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "NO KINGS STOCKHOM SWEDEN",
-          "href": "https://www.mobilize.us/nokings/event/906445/"
-        }
-      ],
-      "_src": "mobilize"
     },
     {
       "_id": 909482,
