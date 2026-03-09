@@ -5,7 +5,7 @@
       "mobilize_id": 881215,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881215/",
       "title": "Driver for Change Weekend Phone Banking- Virtual",
-      "begin": "2026-03-07",
+      "begin": "2026-03-08",
       "end": "2026-03-16",
       "lat": null,
       "lng": null,
@@ -19,37 +19,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 898230,
-      "mobilize_id": 898230,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/898230/",
-      "title": "[PHONE BANK] Saturdays",
-      "begin": "2026-03-07",
-      "end": "2026-04-25",
+      "_id": 904675,
+      "mobilize_id": 904675,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904675/",
+      "title": "Door knock for Krista",
+      "begin": "2026-03-08",
+      "end": "2026-04-26",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "Greenvile, DE",
       "links": [
         {
-          "title": "[PHONE BANK] Saturdays",
-          "href": "https://www.mobilize.us/matlowformayor/event/898230/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 911385,
-      "mobilize_id": 911385,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/911385/",
-      "title": "Canvas with Ukeme",
-      "begin": "2026-03-07",
-      "end": "2026-05-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Canvas with Ukeme",
-          "href": "https://www.mobilize.us/friendstoelectukemeawakessienjeter/event/911385/"
+          "title": "Door knock for Krista",
+          "href": "https://www.mobilize.us/kristagriffithfordelaware/event/904675/"
         }
       ],
       "_src": "mobilize"
@@ -107,6 +89,21 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "When Simplicity Makes Everything Better",
+      "begin": "2026-03-08",
+      "end": "2026-03-08",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "When Simplicity Makes Everything Better",
+          "href": "https://events.pol-rev.com/events/f2a8297e-db44-419f-8c21-1019c1bd25e7"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 557062,
@@ -227,6 +224,42 @@
         {
           "title": "Online Training Session - Caucus Night & Delegates",
           "href": "https://www.mobilize.us/benmcadamsforcongressut01/event/899729/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 898230,
+      "mobilize_id": 898230,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/898230/",
+      "title": "[PHONE BANK] Saturdays",
+      "begin": "2026-03-14",
+      "end": "2026-04-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "[PHONE BANK] Saturdays",
+          "href": "https://www.mobilize.us/matlowformayor/event/898230/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 911385,
+      "mobilize_id": 911385,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/911385/",
+      "title": "Canvas with Ukeme",
+      "begin": "2026-03-14",
+      "end": "2026-05-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Canvas with Ukeme",
+          "href": "https://www.mobilize.us/friendstoelectukemeawakessienjeter/event/911385/"
         }
       ],
       "_src": "mobilize"

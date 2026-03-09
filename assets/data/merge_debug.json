@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-07",
+  "cutoffStr": "2026-03-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 11769,
-    "geoKept": 11720,
-    "virtKept": 40
+    "all": 11344,
+    "geoKept": 11289,
+    "virtKept": 42
   },
   "perSource": {
     "mobilize": {
-      "total": 11686,
-      "recent": 11683,
-      "withCoords": 10010,
-      "keptGeo": 10007,
-      "keptVirt": 1676,
+      "total": 11261,
+      "recent": 11258,
+      "withCoords": 9664,
+      "keptGeo": 9661,
+      "keptVirt": 1597,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,54 @@
     },
     "mobilizon": {
       "total": 77,
-      "recent": 77,
-      "withCoords": 66,
-      "keptGeo": 66,
-      "keptVirt": 11,
-      "sampleDroppedByDate": [],
+      "recent": 73,
+      "withCoords": 65,
+      "keptGeo": 61,
+      "keptVirt": 12,
+      "sampleDroppedByDate": [
+        {
+          "title": "Trump Takedown",
+          "begin": "2026-03-07",
+          "end": "2026-03-07",
+          "lat": 42.3480424,
+          "lng": -71.082783,
+          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "links": [
+            {
+              "title": "Trump Takedown",
+              "href": "https://events.pol-rev.com/events/a24c12d9-a344-4e30-a3f4-dd4cdb44e619"
+            }
+          ]
+        },
+        {
+          "title": "Northtowns Rise Up Weekly Protest",
+          "begin": "2026-03-07",
+          "end": "2026-03-07",
+          "lat": 42.9910451668341,
+          "lng": -78.82282197475435,
+          "location": "Corner of Niagara Falls Blvd. and Brighton, Tonawanda",
+          "links": [
+            {
+              "title": "Northtowns Rise Up Weekly Protest",
+              "href": "https://events.pol-rev.com/events/d1ec4ca6-94b6-48ec-8dfd-23ed4bd186b1"
+            }
+          ]
+        },
+        {
+          "title": "Hands Off Beverly Weekly Saturday Protest",
+          "begin": "2026-03-07",
+          "end": "2026-03-07",
+          "lat": 42.5471373,
+          "lng": -70.8846872,
+          "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
+          "links": [
+            {
+              "title": "Hands Off Beverly Weekly Saturday Protest",
+              "href": "https://events.pol-rev.com/events/0d8628a1-4b36-4b53-a4df-21fcfaaf4337"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings Rally",
