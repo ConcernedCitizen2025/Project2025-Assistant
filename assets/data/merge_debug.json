@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-08",
+  "cutoffStr": "2026-03-09",
   "lookbackDays": 1,
   "totals": {
-    "all": 11344,
-    "geoKept": 11289,
+    "all": 11606,
+    "geoKept": 11547,
     "virtKept": 42
   },
   "perSource": {
     "mobilize": {
-      "total": 11261,
-      "recent": 11258,
-      "withCoords": 9664,
-      "keptGeo": 9661,
-      "keptVirt": 1597,
+      "total": 11524,
+      "recent": 11521,
+      "withCoords": 9909,
+      "keptGeo": 9906,
+      "keptVirt": 1615,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-03-08",
+          "begin": "2026-03-15",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -127,56 +127,70 @@
       ]
     },
     "mobilizon": {
-      "total": 77,
-      "recent": 73,
-      "withCoords": 65,
-      "keptGeo": 61,
-      "keptVirt": 12,
+      "total": 76,
+      "recent": 68,
+      "withCoords": 62,
+      "keptGeo": 55,
+      "keptVirt": 13,
       "sampleDroppedByDate": [
         {
-          "title": "Trump Takedown",
-          "begin": "2026-03-07",
-          "end": "2026-03-07",
-          "lat": 42.3480424,
-          "lng": -71.082783,
-          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "title": "March for Justice",
+          "begin": "2026-03-08",
+          "end": "2026-03-08",
+          "lat": 34.7504777,
+          "lng": -92.2747942,
+          "location": "Broadway Bridge, Little Rock, AR 72201, United States of America, Little Rock",
           "links": [
             {
-              "title": "Trump Takedown",
-              "href": "https://events.pol-rev.com/events/a24c12d9-a344-4e30-a3f4-dd4cdb44e619"
+              "title": "March for Justice",
+              "href": "https://events.pol-rev.com/events/cc20a445-e21f-4b39-ba1f-ab05a6d35b00"
             }
           ]
         },
         {
-          "title": "Northtowns Rise Up Weekly Protest",
-          "begin": "2026-03-07",
-          "end": "2026-03-07",
-          "lat": 42.9910451668341,
-          "lng": -78.82282197475435,
-          "location": "Corner of Niagara Falls Blvd. and Brighton, Tonawanda",
+          "title": "Women's March BRAVE WOMEN FREE AMERICA in solidarity with INTERNATIONAL WOMEN'S DAY/MONTH",
+          "begin": "2026-03-08",
+          "end": "2026-03-08",
+          "lat": 40.802582806704194,
+          "lng": 595.8375316737564,
+          "location": "Humboldt Superior Courthouse, Eureka",
           "links": [
             {
-              "title": "Northtowns Rise Up Weekly Protest",
-              "href": "https://events.pol-rev.com/events/d1ec4ca6-94b6-48ec-8dfd-23ed4bd186b1"
+              "title": "Women's March BRAVE WOMEN FREE AMERICA in solidarity with INTERNATIONAL WOMEN'S DAY/MONTH",
+              "href": "https://events.pol-rev.com/events/d1d0f9b3-2daa-46f7-a267-287e8b8b52a2"
             }
           ]
         },
         {
-          "title": "Hands Off Beverly Weekly Saturday Protest",
-          "begin": "2026-03-07",
-          "end": "2026-03-07",
-          "lat": 42.5471373,
-          "lng": -70.8846872,
-          "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
+          "title": "River City Rising Women's March",
+          "begin": "2026-03-08",
+          "end": "2026-03-08",
+          "lat": 37.973335,
+          "lng": -87.567884,
+          "location": "1 Northwest Martin Luther King Jr Boulevard, Evansville, IN 47708, United States of America, Evansville",
           "links": [
             {
-              "title": "Hands Off Beverly Weekly Saturday Protest",
-              "href": "https://events.pol-rev.com/events/0d8628a1-4b36-4b53-a4df-21fcfaaf4337"
+              "title": "River City Rising Women's March",
+              "href": "https://events.pol-rev.com/events/98255a49-75d7-4fd6-9087-692c1f5bfde4"
             }
           ]
         }
       ],
       "sampleDroppedByCoords": [
+        {
+          "title": "No Kings 3.0",
+          "begin": "2026-03-28",
+          "end": "2026-03-28",
+          "lat": null,
+          "lng": null,
+          "location": "Harlingen City Hall, Harlingen",
+          "links": [
+            {
+              "title": "No Kings 3.0",
+              "href": "https://events.pol-rev.com/events/1fced08c-8a33-410c-a995-7fa9d4081264"
+            }
+          ]
+        },
         {
           "title": "No Kings Rally",
           "begin": "2026-03-28",
@@ -202,20 +216,6 @@
             {
               "title": "NO KINGS III",
               "href": "https://events.pol-rev.com/events/5ff3b583-8777-433b-9c89-1929ec9f52f1"
-            }
-          ]
-        },
-        {
-          "title": "Friends on Fremont standing together and to say NO KINGS!  NO ICE!  NO WAR!",
-          "begin": "2026-03-28",
-          "end": "2026-03-28",
-          "lat": null,
-          "lng": null,
-          "location": "Friends On Fremont, All along the sidewalk and both sides if you like",
-          "links": [
-            {
-              "title": "Friends on Fremont standing together and to say NO KINGS!  NO ICE!  NO WAR!",
-              "href": "https://events.pol-rev.com/events/35c4dce6-3fc2-47cd-81e6-4fd5ac9b1bc3"
             }
           ]
         }
