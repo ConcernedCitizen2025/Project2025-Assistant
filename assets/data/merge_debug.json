@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-09",
+  "cutoffStr": "2026-03-10",
   "lookbackDays": 1,
   "totals": {
-    "all": 11606,
-    "geoKept": 11547,
-    "virtKept": 42
+    "all": 11874,
+    "geoKept": 11824,
+    "virtKept": 41
   },
   "perSource": {
     "mobilize": {
-      "total": 11524,
-      "recent": 11521,
-      "withCoords": 9909,
-      "keptGeo": 9906,
-      "keptVirt": 1615,
+      "total": 11799,
+      "recent": 11797,
+      "withCoords": 10130,
+      "keptGeo": 10128,
+      "keptVirt": 1669,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,51 +109,23 @@
       ]
     },
     "mobilizon": {
-      "total": 76,
+      "total": 69,
       "recent": 68,
-      "withCoords": 62,
-      "keptGeo": 55,
-      "keptVirt": 13,
+      "withCoords": 56,
+      "keptGeo": 56,
+      "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "March for Justice",
-          "begin": "2026-03-08",
-          "end": "2026-03-08",
-          "lat": 34.7504777,
-          "lng": -92.2747942,
-          "location": "Broadway Bridge, Little Rock, AR 72201, United States of America, Little Rock",
+          "title": "This Time We Blow The Whistle",
+          "begin": "2026-03-09",
+          "end": "2026-03-09",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "March for Justice",
-              "href": "https://events.pol-rev.com/events/cc20a445-e21f-4b39-ba1f-ab05a6d35b00"
-            }
-          ]
-        },
-        {
-          "title": "Women's March BRAVE WOMEN FREE AMERICA in solidarity with INTERNATIONAL WOMEN'S DAY/MONTH",
-          "begin": "2026-03-08",
-          "end": "2026-03-08",
-          "lat": 40.802582806704194,
-          "lng": 595.8375316737564,
-          "location": "Humboldt Superior Courthouse, Eureka",
-          "links": [
-            {
-              "title": "Women's March BRAVE WOMEN FREE AMERICA in solidarity with INTERNATIONAL WOMEN'S DAY/MONTH",
-              "href": "https://events.pol-rev.com/events/d1d0f9b3-2daa-46f7-a267-287e8b8b52a2"
-            }
-          ]
-        },
-        {
-          "title": "River City Rising Women's March",
-          "begin": "2026-03-08",
-          "end": "2026-03-08",
-          "lat": 37.973335,
-          "lng": -87.567884,
-          "location": "1 Northwest Martin Luther King Jr Boulevard, Evansville, IN 47708, United States of America, Evansville",
-          "links": [
-            {
-              "title": "River City Rising Women's March",
-              "href": "https://events.pol-rev.com/events/98255a49-75d7-4fd6-9087-692c1f5bfde4"
+              "title": "This Time We Blow The Whistle",
+              "href": "https://events.pol-rev.com/events/437ec93a-36dd-4151-b007-8b285cd8c649"
             }
           ]
         }
