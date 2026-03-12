@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 880535,
-      "mobilize_id": 880535,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
-      "title": "SEIU-IL: Weekly Phonebanks",
-      "begin": "2026-03-10",
-      "end": "2026-03-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SEIU-IL: Weekly Phonebanks",
-          "href": "https://www.mobilize.us/seiu-il/event/880535/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 881205,
       "mobilize_id": 881205,
       "canonical_mobilize_url": "https://www.mobilize.us/event/881205/",
       "title": "Driver for Change Weekday Phone Banking- Virtual",
-      "begin": "2026-03-10",
+      "begin": "2026-03-11",
       "end": "2026-03-16",
       "lat": null,
       "lng": null,
@@ -41,7 +23,7 @@
       "mobilize_id": 918097,
       "canonical_mobilize_url": "https://www.mobilize.us/event/918097/",
       "title": "Kumar for Congress: PM Canvassing in Queens",
-      "begin": "2026-03-10",
+      "begin": "2026-03-11",
       "end": "2026-03-12",
       "lat": null,
       "lng": null,
@@ -68,6 +50,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 880535,
+      "mobilize_id": 880535,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/880535/",
+      "title": "SEIU-IL: Weekly Phonebanks",
+      "begin": "2026-03-12",
+      "end": "2026-03-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "SEIU-IL: Weekly Phonebanks",
+          "href": "https://www.mobilize.us/seiu-il/event/880535/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 892950,
@@ -503,24 +503,6 @@
         {
           "title": "NO KINGS New Martinsville, WV 26155",
           "href": "https://www.mobilize.us/nokings/event/910305/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 913201,
-      "mobilize_id": 913201,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/913201/",
-      "title": "NO KINGS Basel, Switzerland",
-      "begin": "2026-03-28",
-      "end": "2026-03-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Basel",
-      "links": [
-        {
-          "title": "NO KINGS Basel, Switzerland",
-          "href": "https://www.mobilize.us/nokings/event/913201/"
         }
       ],
       "_src": "mobilize"
