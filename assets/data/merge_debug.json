@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-11",
+  "cutoffStr": "2026-03-12",
   "lookbackDays": 1,
   "totals": {
-    "all": 12150,
-    "geoKept": 12100,
-    "virtKept": 40
+    "all": 12277,
+    "geoKept": 12227,
+    "virtKept": 39
   },
   "perSource": {
     "mobilize": {
-      "total": 12072,
-      "recent": 12069,
-      "withCoords": 10394,
-      "keptGeo": 10391,
-      "keptVirt": 1678,
+      "total": 12195,
+      "recent": 12192,
+      "withCoords": 10473,
+      "keptGeo": 10470,
+      "keptVirt": 1722,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 72,
-      "recent": 71,
-      "withCoords": 60,
-      "keptGeo": 59,
-      "keptVirt": 12,
+      "total": 76,
+      "recent": 74,
+      "withCoords": 64,
+      "keptGeo": 63,
+      "keptVirt": 11,
       "sampleDroppedByDate": [
         {
-          "title": "Resist Fascism - Sarasota Weekly Rally #49",
-          "begin": "2026-03-10",
-          "end": "2026-03-10",
-          "lat": 27.3029295,
-          "lng": -82.5296757,
-          "location": "2001 Siesta Drive, South Trail, Sarasota, FL 34239, United States of America, Sarasota",
+          "title": "Media Training, for No Kings Day and Beyond",
+          "begin": "2026-03-11",
+          "end": "2026-03-11",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Resist Fascism - Sarasota Weekly Rally #49",
-              "href": "https://events.pol-rev.com/events/87e1acf8-8f5c-4b9b-931a-b059e7b46918"
+              "title": "Media Training, for No Kings Day and Beyond",
+              "href": "https://events.pol-rev.com/events/7711eb5c-5344-44d6-a9a5-4836e6848b09"
+            }
+          ]
+        },
+        {
+          "title": "Hands Off Beverly Weekly Wednesday Protest",
+          "begin": "2026-03-11",
+          "end": "2026-03-11",
+          "lat": 42.5488363,
+          "lng": -70.8778836,
+          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+          "links": [
+            {
+              "title": "Hands Off Beverly Weekly Wednesday Protest",
+              "href": "https://events.pol-rev.com/events/e2f43853-26d8-4c02-aa9d-c03ab4cb2dfd"
             }
           ]
         }
