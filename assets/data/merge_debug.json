@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-12",
+  "cutoffStr": "2026-03-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 12277,
-    "geoKept": 12227,
-    "virtKept": 39
+    "all": 12438,
+    "geoKept": 12392,
+    "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 12195,
-      "recent": 12192,
-      "withCoords": 10473,
-      "keptGeo": 10470,
-      "keptVirt": 1722,
+      "total": 12354,
+      "recent": 12351,
+      "withCoords": 10609,
+      "keptGeo": 10606,
+      "keptVirt": 1745,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 76,
-      "recent": 74,
-      "withCoords": 64,
-      "keptGeo": 63,
+      "total": 78,
+      "recent": 78,
+      "withCoords": 67,
+      "keptGeo": 67,
       "keptVirt": 11,
-      "sampleDroppedByDate": [
-        {
-          "title": "Media Training, for No Kings Day and Beyond",
-          "begin": "2026-03-11",
-          "end": "2026-03-11",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Media Training, for No Kings Day and Beyond",
-              "href": "https://events.pol-rev.com/events/7711eb5c-5344-44d6-a9a5-4836e6848b09"
-            }
-          ]
-        },
-        {
-          "title": "Hands Off Beverly Weekly Wednesday Protest",
-          "begin": "2026-03-11",
-          "end": "2026-03-11",
-          "lat": 42.5488363,
-          "lng": -70.8778836,
-          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
-          "links": [
-            {
-              "title": "Hands Off Beverly Weekly Wednesday Protest",
-              "href": "https://events.pol-rev.com/events/e2f43853-26d8-4c02-aa9d-c03ab4cb2dfd"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings 3.0",
