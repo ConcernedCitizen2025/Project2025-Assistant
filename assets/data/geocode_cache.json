@@ -4919,6 +4919,10 @@
     "lat": 39.1134562,
     "lng": -94.626497
   },
+  "Sandpoint, ID": {
+    "lat": 48.2761306,
+    "lng": -116.5487835
+  },
   "Isanti, MN": {
     "lat": 45.5693224,
     "lng": -93.326521
@@ -4964,8 +4968,8 @@
     "lng": -88.2810994
   },
   "Rexburg, ID": {
-    "lat": 43.8235163,
-    "lng": -111.787022
+    "lat": 43.826079,
+    "lng": -111.7837279
   },
   "Stockton, CA": {
     "lat": 37.9577016,
@@ -5186,10 +5190,6 @@
   "Battle Lake, MN": {
     "lat": 46.281056,
     "lng": -95.7139599
-  },
-  "Sandpoint, ID": {
-    "lat": 48.2761306,
-    "lng": -116.5487835
   },
   "Waterford Township, MI": {
     "lat": 42.6706391,
@@ -5467,6 +5467,10 @@
     "lat": 37.7274692,
     "lng": -89.216655
   },
+  "This event's address is private. Sign up for more details, Seminole": {
+    "lat": null,
+    "lng": null
+  },
   "Kanab, UT": {
     "lat": 37.0481715,
     "lng": -112.5285237
@@ -5659,10 +5663,6 @@
     "lat": 34.9531295,
     "lng": -120.435857
   },
-  "Babcock Ranch, FL": {
-    "lat": 26.7831701,
-    "lng": -81.7484136
-  },
   "Trout Lake, WA": {
     "lat": 45.9964905,
     "lng": -121.5290028
@@ -5779,9 +5779,9 @@
     "lat": 40.4432331,
     "lng": -74.814333
   },
-  "Newport Beach, CA": {
-    "lat": 33.6170092,
-    "lng": -117.9294401
+  "Laguna Hills, CA": {
+    "lat": 33.5948758,
+    "lng": -117.6882067
   },
   "North Fort Myers, FL": {
     "lat": 26.6728666,
@@ -5790,14 +5790,6 @@
   "N MARTINSVLLE, WV": {
     "lat": null,
     "lng": null
-  },
-  "Dolgeville, NY": {
-    "lat": 43.1030455,
-    "lng": -74.7747591
-  },
-  "Birmingham, MI": {
-    "lat": 42.5467012,
-    "lng": -83.2113192
   },
   "Lovelock, NV": {
     "lat": 40.1801273,
@@ -6099,10 +6091,6 @@
     "lat": 43.2870009,
     "lng": -76.1463601
   },
-  "Sparta, NJ": {
-    "lat": 41.0401567,
-    "lng": -74.6310081
-  },
   "Ames, IA": {
     "lat": 42.0267567,
     "lng": -93.6170448
@@ -6130,10 +6118,6 @@
   "Spring Hill, FL": {
     "lat": 28.4635266,
     "lng": -82.5363557
-  },
-  "Lochearn, MD": {
-    "lat": 39.3406619,
-    "lng": -76.7221944
   },
   "Kenansville, NC": {
     "lat": 34.9623883,
@@ -6227,9 +6211,9 @@
     "lat": 45.4432761,
     "lng": -93.5899663
   },
-  "Saluda, NC": {
-    "lat": 35.2362264,
-    "lng": -82.3492839
+  "Secaucus, NJ": {
+    "lat": 40.7899291,
+    "lng": -74.0566735
   },
   "Roseland, VA": {
     "lat": 37.7476406,
@@ -6262,10 +6246,6 @@
   "Covington, GA": {
     "lat": 33.5966005,
     "lng": -83.8598742
-  },
-  "Wall Township, NJ": {
-    "lat": 40.1743052,
-    "lng": -74.0902219
   },
   "Berkeley Heights, NJ": {
     "lat": 40.6834349,
@@ -6327,17 +6307,13 @@
     "lat": 36.821987,
     "lng": -118.2051294
   },
-  "Baden, PA": {
-    "lat": 40.6350668,
-    "lng": -80.2281159
+  "Newport, TN": {
+    "lat": 35.9670412,
+    "lng": -83.1876578
   },
   "Atlantic City, NJ": {
     "lat": 39.3642852,
     "lng": -74.4229351
-  },
-  "Sayreville, NJ": {
-    "lat": 40.4635362,
-    "lng": -74.3618499
   },
   "Normandy, MO": {
     "lat": 38.7054848,
@@ -6447,6 +6423,10 @@
     "lat": 40.1575561,
     "lng": -74.8321288
   },
+  "Milo, ME": {
+    "lat": 45.2534421,
+    "lng": -68.9861238
+  },
   "Mineola, TX": {
     "lat": 32.6633387,
     "lng": -95.4880308
@@ -6478,6 +6458,10 @@
   "Wichita Falls, TX": {
     "lat": 33.9004572,
     "lng": -98.5020777
+  },
+  "Brandywine, MD": {
+    "lat": 38.6967833,
+    "lng": -76.8477485
   },
   "Hopkins, MN": {
     "lat": 44.9243986,
@@ -6578,6 +6562,18 @@
   "Pelham, AL": {
     "lat": 33.285669,
     "lng": -86.8099884
+  },
+  "Barre, VT": {
+    "lat": 44.1969042,
+    "lng": -72.5007458
+  },
+  "Fairhope, AL": {
+    "lat": 30.5231647,
+    "lng": -87.9028458
+  },
+  "Harrisburg, NC": {
+    "lat": 35.3258295,
+    "lng": -80.6454979
   },
   "Harlingen City Hall, Harlingen": {
     "lat": 26.1893031,
