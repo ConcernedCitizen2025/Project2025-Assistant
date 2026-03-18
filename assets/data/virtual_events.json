@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 881205,
-      "mobilize_id": 881205,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881205/",
-      "title": "Driver for Change Weekday Phone Banking- Virtual",
-      "begin": "2026-03-16",
-      "end": "2026-03-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IL",
-      "links": [
-        {
-          "title": "Driver for Change Weekday Phone Banking- Virtual",
-          "href": "https://www.mobilize.us/driverforchange/event/881205/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 881215,
-      "mobilize_id": 881215,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/881215/",
-      "title": "Driver for Change Phone Banking- Virtual",
-      "begin": "2026-03-16",
-      "end": "2026-03-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IL",
-      "links": [
-        {
-          "title": "Driver for Change Phone Banking- Virtual",
-          "href": "https://www.mobilize.us/driverforchange/event/881215/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 805561,
       "mobilize_id": 805561,
       "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
@@ -464,7 +428,7 @@
       "mobilize_id": 889224,
       "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
       "title": "Monthly Voter Action Gathering - North County",
-      "begin": "2026-04-01",
+      "begin": "2026-03-31",
       "end": "2026-12-02",
       "lat": null,
       "lng": null,

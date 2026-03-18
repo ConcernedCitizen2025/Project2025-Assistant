@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-16",
+  "cutoffStr": "2026-03-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 12228,
-    "geoKept": 12180,
-    "virtKept": 37
+    "all": 12474,
+    "geoKept": 12430,
+    "virtKept": 35
   },
   "perSource": {
     "mobilize": {
-      "total": 12145,
-      "recent": 12142,
-      "withCoords": 10506,
-      "keptGeo": 10503,
-      "keptVirt": 1639,
+      "total": 12388,
+      "recent": 12385,
+      "withCoords": 10711,
+      "keptGeo": 10708,
+      "keptVirt": 1677,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 77,
-      "recent": 75,
-      "withCoords": 64,
-      "keptGeo": 62,
+      "total": 80,
+      "recent": 80,
+      "withCoords": 67,
+      "keptGeo": 67,
       "keptVirt": 13,
-      "sampleDroppedByDate": [
-        {
-          "title": "REJECT TRUMP'S WAR ON IRAN PROTEST",
-          "begin": "2026-03-15",
-          "end": "2026-03-15",
-          "lat": 45.5097054,
-          "lng": -122.6329062,
-          "location": "Sewallcrest Park, Richmond, Portland, Oregon, United States of America, Portland",
-          "links": [
-            {
-              "title": "REJECT TRUMP'S WAR ON IRAN PROTEST",
-              "href": "https://events.pol-rev.com/events/d55056fe-fb5d-4f9b-9b60-772cc6f1198f"
-            }
-          ]
-        },
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-03-15",
-          "end": "2026-03-15",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/0f0ddffc-ae01-4235-bae0-c9551677a0a1"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
