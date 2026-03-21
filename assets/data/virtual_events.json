@@ -1,75 +1,6 @@
 {
   "data": [
     {
-      "_id": 792466,
-      "mobilize_id": 792466,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
-      "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-03-19",
-      "end": "2026-03-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Register Voters to Defend CA-45!",
-          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 877691,
-      "mobilize_id": 877691,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
-      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-      "begin": "2026-03-19",
-      "end": "2026-12-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 892950,
-      "mobilize_id": 892950,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/892950/",
-      "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
-      "begin": "2026-03-19",
-      "end": "2026-03-19",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SPECIAL ELECTION: Zoom Phone Bank with Sheree, now on Thursdays!",
-          "href": "https://www.mobilize.us/hillsboroughcountydec/event/892950/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
-      "begin": "2026-03-19",
-      "end": "2026-03-19",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
-          "href": "https://events.pol-rev.com/events/48db0db7-4450-41f5-89b1-93a42730292a"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -127,7 +58,7 @@
       "_id": 923897,
       "mobilize_id": 923897,
       "canonical_mobilize_url": "https://www.mobilize.us/event/923897/",
-      "title": "Copy of: Kumar for Congress: Weekend of Action in Brooklyn",
+      "title": "Kumar for Congress: Weekend of Action in Brooklyn",
       "begin": "2026-03-21",
       "end": "2026-03-22",
       "lat": null,
@@ -135,7 +66,7 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Copy of: Kumar for Congress: Weekend of Action in Brooklyn",
+          "title": "Kumar for Congress: Weekend of Action in Brooklyn",
           "href": "https://www.mobilize.us/kumarfornewyork/event/923897/"
         }
       ],
@@ -178,10 +109,10 @@
       "_src": "mobilize"
     },
     {
-      "_id": 749552,
-      "mobilize_id": 749552,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/749552/",
-      "title": "Tallahassee Action Team Meeting",
+      "_id": 792466,
+      "mobilize_id": 792466,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
+      "title": "Register Voters to Defend CA-45!",
       "begin": "2026-03-24",
       "end": "2026-03-24",
       "lat": null,
@@ -189,8 +120,8 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Tallahassee Action Team Meeting",
-          "href": "https://www.mobilize.us/aclufl/event/749552/"
+          "title": "Register Voters to Defend CA-45!",
+          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
         }
       ],
       "_src": "mobilize"
@@ -245,24 +176,6 @@
         {
           "title": "March 26th - Meet the Candidate at Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 910960,
-      "mobilize_id": 910960,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/910960/",
-      "title": "Pathway to Power Richmond",
-      "begin": "2026-03-26",
-      "end": "2026-03-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "Pathway to Power Richmond",
-          "href": "https://www.mobilize.us/ca-wfp/event/910960/"
         }
       ],
       "_src": "mobilize"
@@ -601,6 +514,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 877691,
+      "mobilize_id": 877691,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
+      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+      "begin": "2026-04-16",
+      "end": "2026-12-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 890176,
       "mobilize_id": 890176,
       "canonical_mobilize_url": "https://www.mobilize.us/event/890176/",
@@ -650,6 +581,24 @@
         {
           "title": "Having Effective Conversations with Voters",
           "href": "https://www.mobilize.us/iowa/event/920043/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 924949,
+      "mobilize_id": 924949,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/924949/",
+      "title": "Westminster & Garden Grove Democratic Club General Meeting",
+      "begin": "2026-04-30",
+      "end": "2026-04-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "Westminster & Garden Grove Democratic Club General Meeting",
+          "href": "https://www.mobilize.us/dpoc/event/924949/"
         }
       ],
       "_src": "mobilize"

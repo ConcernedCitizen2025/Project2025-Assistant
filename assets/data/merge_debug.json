@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-19",
+  "cutoffStr": "2026-03-20",
   "lookbackDays": 1,
   "totals": {
-    "all": 12584,
-    "geoKept": 12535,
-    "virtKept": 39
+    "all": 12749,
+    "geoKept": 12702,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 12496,
-      "recent": 12493,
-      "withCoords": 10750,
-      "keptGeo": 10747,
-      "keptVirt": 1746,
+      "total": 12661,
+      "recent": 12658,
+      "withCoords": 10905,
+      "keptGeo": 10902,
+      "keptVirt": 1756,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,22 +128,36 @@
     },
     "mobilizon": {
       "total": 82,
-      "recent": 81,
+      "recent": 80,
       "withCoords": 69,
       "keptGeo": 68,
-      "keptVirt": 13,
+      "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "Hands Off Beverly Weekly Wednesday Protest",
-          "begin": "2026-03-18",
-          "end": "2026-03-18",
-          "lat": 42.5488363,
-          "lng": -70.8778836,
-          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+          "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+          "begin": "2026-03-19",
+          "end": "2026-03-19",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Hands Off Beverly Weekly Wednesday Protest",
-              "href": "https://events.pol-rev.com/events/bd9d15bc-b0ab-457d-b519-7e708a0991dc"
+              "title": "Scenarios for Safety & Preparedness w/ Solidarity Brigades",
+              "href": "https://events.pol-rev.com/events/48db0db7-4450-41f5-89b1-93a42730292a"
+            }
+          ]
+        },
+        {
+          "title": "DROP CORE CIVICS",
+          "begin": "2026-03-19",
+          "end": "2026-03-19",
+          "lat": 28.8512842,
+          "lng": -82.4887844,
+          "location": "RaceTrac, Gulf to Lake Highway, Lecanto, Citrus County, FL 34461, United States of America, Lecanto",
+          "links": [
+            {
+              "title": "DROP CORE CIVICS",
+              "href": "https://events.pol-rev.com/events/aaddfd0e-61f9-4744-acaa-4771a699f9f4"
             }
           ]
         }
