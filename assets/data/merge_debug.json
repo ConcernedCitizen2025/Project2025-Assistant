@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-22",
+  "cutoffStr": "2026-03-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 12169,
-    "geoKept": 12114,
-    "virtKept": 37
+    "all": 12238,
+    "geoKept": 12190,
+    "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 12081,
-      "recent": 12079,
-      "withCoords": 10461,
-      "keptGeo": 10459,
-      "keptVirt": 1620,
+      "total": 12159,
+      "recent": 12156,
+      "withCoords": 10522,
+      "keptGeo": 10519,
+      "keptVirt": 1637,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -49,6 +49,24 @@
             }
           ],
           "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
+            }
+          ],
+          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -75,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-03-22",
+          "begin": "2026-03-29",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -109,51 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 82,
+      "total": 73,
       "recent": 72,
-      "withCoords": 70,
+      "withCoords": 61,
       "keptGeo": 60,
       "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo IL - Shut The Flock Off - Zines, Posters, and PIZZA with UUBN Social Justice Team",
-          "begin": "2026-03-21",
-          "end": "2026-03-21",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-03-22",
+          "end": "2026-03-22",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "BloNo IL - Shut The Flock Off - Zines, Posters, and PIZZA with UUBN Social Justice Team",
-              "href": "https://events.pol-rev.com/events/bcc1d4c0-f8c7-41ce-8864-639d1d916624"
-            }
-          ]
-        },
-        {
-          "title": "The Beautiful Movement Inaugural Event",
-          "begin": "2026-03-21",
-          "end": "2026-03-21",
-          "lat": 35.278785,
-          "lng": -120.658543,
-          "location": "1400 Osos Street, San Luis Obispo, CA 93401, United States of America, San Luis Obispo",
-          "links": [
-            {
-              "title": "The Beautiful Movement Inaugural Event",
-              "href": "https://events.pol-rev.com/events/23adad39-9a98-483f-8165-81533d122c51"
-            }
-          ]
-        },
-        {
-          "title": "Queens Says No Kings 3 – Marshal Training, Chant School & Protest Signs Workshop",
-          "begin": "2026-03-21",
-          "end": "2026-03-21",
-          "lat": 40.7233409,
-          "lng": -73.8391653,
-          "location": "First Presbyterian Church, 70-35 112th Street, New York, NY 11375, United States of America, New York",
-          "links": [
-            {
-              "title": "Queens Says No Kings 3 – Marshal Training, Chant School & Protest Signs Workshop",
-              "href": "https://events.pol-rev.com/events/90fba870-fbda-42bd-8475-166e0c9bbb9a"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/a60faee5-3ee7-4b9b-89e5-9a371f96d8e3"
             }
           ]
         }
@@ -175,8 +165,8 @@
         },
         {
           "title": "Creative Activism Call",
-          "begin": "2026-04-07",
-          "end": "2026-04-07",
+          "begin": "2026-04-02",
+          "end": "2026-04-02",
           "lat": null,
           "lng": null,
           "location": "",
