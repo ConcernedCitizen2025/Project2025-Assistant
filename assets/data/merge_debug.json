@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-23",
+  "cutoffStr": "2026-03-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 12238,
-    "geoKept": 12190,
+    "all": 12572,
+    "geoKept": 12525,
     "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 12159,
-      "recent": 12156,
-      "withCoords": 10522,
-      "keptGeo": 10519,
-      "keptVirt": 1637,
+      "total": 12494,
+      "recent": 12491,
+      "withCoords": 10800,
+      "keptGeo": 10797,
+      "keptVirt": 1694,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 73,
+      "total": 72,
       "recent": 72,
-      "withCoords": 61,
+      "withCoords": 60,
       "keptGeo": 60,
       "keptVirt": 12,
-      "sampleDroppedByDate": [
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-03-22",
-          "end": "2026-03-22",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/a60faee5-3ee7-4b9b-89e5-9a371f96d8e3"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",

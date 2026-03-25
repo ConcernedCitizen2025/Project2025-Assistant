@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 757536,
-      "mobilize_id": 757536,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
-      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-      "begin": "2026-03-23",
-      "end": "2026-11-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 809234,
-      "mobilize_id": 809234,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
-      "title": "Monthly Linn-Benton Wolf Pack Meeting",
-      "begin": "2026-03-23",
-      "end": "2026-10-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Linn-Benton Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 792466,
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
@@ -581,6 +545,42 @@
         {
           "title": "IEB's 2026 All-Member Meetings on Zoom!",
           "href": "https://www.mobilize.us/indivisible-east-bay/event/890176/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 757536,
+      "mobilize_id": 757536,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
+      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+      "begin": "2026-04-27",
+      "end": "2026-11-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 809234,
+      "mobilize_id": 809234,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
+      "title": "Monthly Linn-Benton Wolf Pack Meeting",
+      "begin": "2026-04-27",
+      "end": "2026-10-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Linn-Benton Wolf Pack Meeting",
+          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
         }
       ],
       "_src": "mobilize"

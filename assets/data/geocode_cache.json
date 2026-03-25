@@ -5099,10 +5099,6 @@
     "lat": 43.1116968,
     "lng": -89.6452197
   },
-  "Ada, MN": {
-    "lat": 47.299689,
-    "lng": -96.5153463
-  },
   "Clinton, MN": {
     "lat": 45.460242,
     "lng": -96.43367
@@ -5122,10 +5118,6 @@
   "Battle Lake, MN": {
     "lat": 46.281056,
     "lng": -95.7139599
-  },
-  "Waterford Township, MI": {
-    "lat": 42.6706391,
-    "lng": -83.3896241
   },
   "kaukauna, WI": {
     "lat": 44.2780432,
@@ -5190,6 +5182,10 @@
   "Bellingham, WA": {
     "lat": 48.7544012,
     "lng": -122.478836
+  },
+  "Waterford Township, MI": {
+    "lat": 42.6706391,
+    "lng": -83.3896241
   },
   "West Bloomfield Township, MI": {
     "lat": 42.5684073,
@@ -5335,10 +5331,6 @@
     "lat": 37.7274692,
     "lng": -89.216655
   },
-  "Davenport, IA": {
-    "lat": 41.5235808,
-    "lng": -90.5770967
-  },
   "This event's address is private. Sign up for more details, Seminole": {
     "lat": null,
     "lng": null
@@ -5387,10 +5379,6 @@
     "lat": 34.4480495,
     "lng": -119.242889
   },
-  "Brattleboro, VT": {
-    "lat": 42.8507588,
-    "lng": -72.5572913
-  },
   "La Pine, OR": {
     "lat": 43.6703995,
     "lng": -121.503636
@@ -5402,10 +5390,6 @@
   "Independence, MO": {
     "lat": 39.0924792,
     "lng": -94.4137923
-  },
-  "Morris, CT": {
-    "lat": 41.6836621,
-    "lng": -73.1996654
   },
   "Bisbee, AZ": {
     "lat": 31.4417165,
@@ -5458,10 +5442,6 @@
   "Dickson, TN": {
     "lat": 36.1459327,
     "lng": -87.3480592
-  },
-  "Greenville, NC": {
-    "lat": 35.613224,
-    "lng": -77.3724593
   },
   "Bloomington, MN": {
     "lat": 44.8322405,
@@ -5859,6 +5839,10 @@
     "lat": 42.7338254,
     "lng": -84.5546295
   },
+  "Lincolnton, GA": {
+    "lat": 33.7924993,
+    "lng": -82.4793806
+  },
   "Monaca, PA": {
     "lat": 40.6872885,
     "lng": -80.2714505
@@ -6031,6 +6015,10 @@
     "lat": 42.5006243,
     "lng": -90.6647985
   },
+  "Sparta, NJ": {
+    "lat": 41.0401567,
+    "lng": -74.6310081
+  },
   "Williston, FL": {
     "lat": 29.3880028,
     "lng": -82.4481694
@@ -6071,9 +6059,17 @@
     "lat": 33.5855677,
     "lng": -101.8470215
   },
+  "Goldendale, WA": {
+    "lat": 45.8206794,
+    "lng": -120.821731
+  },
   "Upper Marlboro, MD": {
     "lat": 38.8162451,
     "lng": -76.751708
+  },
+  "East Lansing, MI": {
+    "lat": 42.7320307,
+    "lng": -84.4721678
   },
   "North Liberty, IA": {
     "lat": 41.7478297,
@@ -6143,10 +6139,6 @@
     "lat": 33.9549152,
     "lng": -86.0414098
   },
-  "East Lansing, MI": {
-    "lat": 42.7320307,
-    "lng": -84.4721678
-  },
   "Manitou Springs, CO": {
     "lat": 38.8585777,
     "lng": -104.917873
@@ -6175,10 +6167,6 @@
     "lat": 32.2201387,
     "lng": -98.2045388
   },
-  "Barre, VT": {
-    "lat": 44.1969042,
-    "lng": -72.5007458
-  },
   "Keosauqua, IA": {
     "lat": 40.7301997,
     "lng": -91.9621393
@@ -6198,10 +6186,6 @@
   "Hollis, NH": {
     "lat": 42.7431621,
     "lng": -71.591333
-  },
-  "Gilbertsville, NY": {
-    "lat": 42.4714657,
-    "lng": -75.325729
   },
   "Sierra Vista, AZ": {
     "lat": 31.5647691,
@@ -6299,13 +6283,9 @@
     "lat": 41.6731523,
     "lng": -93.6973395
   },
-  "Altamont, NY": {
-    "lat": 42.7006324,
-    "lng": -74.0337382
-  },
-  "Garden City, NY": {
-    "lat": 40.7266477,
-    "lng": -73.6343052
+  "Cary, NC": {
+    "lat": 35.7882893,
+    "lng": -78.7812081
   },
   "Woodside, NY": {
     "lat": 40.7453798,
@@ -6359,10 +6339,6 @@
     "lat": 42.6153595,
     "lng": -70.6624608
   },
-  "Lanham, MD": {
-    "lat": 38.965365,
-    "lng": -76.8417927
-  },
   "Indio, CA": {
     "lat": 33.7192808,
     "lng": -116.2188054
@@ -6378,10 +6354,6 @@
   "Slatington, PA": {
     "lat": 40.7484285,
     "lng": -75.6118529
-  },
-  "Astoria, NY": {
-    "lat": 40.7720145,
-    "lng": -73.9302673
   },
   "Washington, NJ": {
     "lat": 40.7584793,
@@ -6434,10 +6406,6 @@
   "Springfield, OR": {
     "lat": 44.0462362,
     "lng": -123.0220289
-  },
-  "Junction City, OR": {
-    "lat": 44.2191935,
-    "lng": -123.204785
   },
   "Santa Cruz, CA": {
     "lat": 36.9743626,
@@ -6511,6 +6479,10 @@
     "lat": 42.3731948,
     "lng": -72.5198761
   },
+  "Kayenta, AZ": {
+    "lat": 36.7218463,
+    "lng": -110.253872
+  },
   "Batesburg-Leesville, SC": {
     "lat": 33.9101425,
     "lng": -81.5373261
@@ -6562,6 +6534,10 @@
   "East Tawas, MI": {
     "lat": 44.279461,
     "lng": -83.490252
+  },
+  "Beloit, WI": {
+    "lat": 42.5083272,
+    "lng": -89.031784
   },
   "Oscoda, MI": {
     "lat": 44.6789109,
@@ -6646,6 +6622,118 @@
   "Sedona, AZ": {
     "lat": 34.8688613,
     "lng": -111.7614394
+  },
+  "Waterville, ME": {
+    "lat": 44.5505773,
+    "lng": -69.6303174
+  },
+  "Iron Mountain, MI": {
+    "lat": 45.820233,
+    "lng": -88.06596
+  },
+  "Escanaba, MI": {
+    "lat": 45.7455707,
+    "lng": -87.0647434
+  },
+  "Sault Ste. Marie, MI": {
+    "lat": 46.4976734,
+    "lng": -84.3476583
+  },
+  "Cheboygan, MI": {
+    "lat": 45.4417481,
+    "lng": -84.4768486
+  },
+  "Charlevoix, MI": {
+    "lat": 45.202075,
+    "lng": -84.9676387
+  },
+  "Petoskey, MI": {
+    "lat": 45.373343,
+    "lng": -84.95533
+  },
+  "Cassopolis, MI": {
+    "lat": 41.9117134,
+    "lng": -86.0100069
+  },
+  "Niles, MI": {
+    "lat": 41.8297694,
+    "lng": -86.2541768
+  },
+  "Benzonia, MI": {
+    "lat": 44.621389,
+    "lng": -86.099258
+  },
+  "Standish, MI": {
+    "lat": 43.983076,
+    "lng": -83.95888
+  },
+  "Bellaire, MI": {
+    "lat": 44.9754211,
+    "lng": -85.2099992
+  },
+  "Elk Rapids, MI": {
+    "lat": 44.8981582,
+    "lng": -85.4133788
+  },
+  "Douglas, MI": {
+    "lat": 42.6433584,
+    "lng": -86.2005933
+  },
+  "Harrisville, MI": {
+    "lat": 44.656402,
+    "lng": -83.294689
+  },
+  "Mahtomedi, MN": {
+    "lat": 45.0696886,
+    "lng": -92.9516037
+  },
+  "Columbia Heights, MN": {
+    "lat": 45.0460458,
+    "lng": -93.2517802
+  },
+  "Plainview, NY": {
+    "lat": 40.7834607,
+    "lng": -73.4738844
+  },
+  "Glen Allen, VA": {
+    "lat": 37.6659781,
+    "lng": -77.506374
+  },
+  "Kittrell, NC": {
+    "lat": 36.2220919,
+    "lng": -78.4377758
+  },
+  "Lawrenceville, GA": {
+    "lat": 33.9566391,
+    "lng": -83.9890066
+  },
+  "Hokendauqua, PA": {
+    "lat": 40.658685,
+    "lng": -75.4960827
+  },
+  "Boonton Township, NJ": {
+    "lat": 40.9314543,
+    "lng": -74.4291549
+  },
+  "Romulus, MI": {
+    "lat": 42.2222614,
+    "lng": -83.3965995
+  },
+  "Second Mesa, AZ": {
+    "lat": 35.8342381,
+    "lng": -110.5014254
+  },
+  "Whiteriver, AZ": {
+    "lat": 33.836535,
+    "lng": -109.956575
+  },
+  "Window Rock, AZ": {
+    "lat": 35.667165,
+    "lng": -109.0634165
+  },
+  "West Jordan, UT": {
+    "lat": 40.6061337,
+    "lng": -111.9395211
   },
   "Harlingen City Hall, Harlingen": {
     "lat": 26.1893031,
