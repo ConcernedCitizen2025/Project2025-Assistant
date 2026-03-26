@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-24",
+  "cutoffStr": "2026-03-25",
   "lookbackDays": 1,
   "totals": {
-    "all": 12572,
-    "geoKept": 12525,
-    "virtKept": 38
+    "all": 12826,
+    "geoKept": 12775,
+    "virtKept": 41
   },
   "perSource": {
     "mobilize": {
-      "total": 12494,
-      "recent": 12491,
-      "withCoords": 10800,
-      "keptGeo": 10797,
-      "keptVirt": 1694,
+      "total": 12746,
+      "recent": 12744,
+      "withCoords": 11010,
+      "keptGeo": 11008,
+      "keptVirt": 1736,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,12 +109,41 @@
       ]
     },
     "mobilizon": {
-      "total": 72,
+      "total": 74,
       "recent": 72,
-      "withCoords": 60,
+      "withCoords": 62,
       "keptGeo": 60,
       "keptVirt": 12,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "BloNo IL - 50501 Safety Marshal Training, open to all!",
+          "begin": "2026-03-24",
+          "end": "2026-03-24",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo IL - 50501 Safety Marshal Training, open to all!",
+              "href": "https://events.pol-rev.com/events/a254820b-5d97-4c6e-aad4-9991a3034f33"
+            }
+          ]
+        },
+        {
+          "title": "TIE-DYE with CITRUS SOLIDARITY",
+          "begin": "2026-03-24",
+          "end": "2026-03-24",
+          "lat": 28.4767735,
+          "lng": -82.6591729,
+          "location": "Hernando Beach, Hernando County, Florida, United States of America, Hernando County",
+          "links": [
+            {
+              "title": "TIE-DYE with CITRUS SOLIDARITY",
+              "href": "https://events.pol-rev.com/events/a5b93d83-cdba-49c6-911b-8c903a6ac509"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",

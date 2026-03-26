@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 792466,
-      "mobilize_id": 792466,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
-      "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-03-24",
-      "end": "2026-03-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Register Voters to Defend CA-45!",
-          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/792466/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 888472,
-      "mobilize_id": 888472,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
-      "title": "Monthly Voter Action Gathering - South County",
-      "begin": "2026-03-24",
-      "end": "2026-12-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, St. Petersburg",
-      "links": [
-        {
-          "title": "Monthly Voter Action Gathering - South County",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 783402,
       "mobilize_id": 783402,
       "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
@@ -68,6 +32,60 @@
         {
           "title": "March 26th - Meet the Candidate at Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 927922,
+      "mobilize_id": 927922,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/927922/",
+      "title": "Canvassing in Queens",
+      "begin": "2026-03-26",
+      "end": "2026-03-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Canvassing in Queens",
+          "href": "https://www.mobilize.us/kumarfornewyork/event/927922/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 927924,
+      "mobilize_id": 927924,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/927924/",
+      "title": "Canvassing in Brooklyn",
+      "begin": "2026-03-26",
+      "end": "2026-03-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Canvassing in Brooklyn",
+          "href": "https://www.mobilize.us/kumarfornewyork/event/927924/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-03-26",
+      "end": "2026-03-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -532,6 +550,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928146,
+      "mobilize_id": 928146,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928146/",
+      "title": "4/16 PLANO Meet Your Leader: STATE HOUSE REPRESENTATIVE: MIHAELA PLESA (SAAVETX EF)",
+      "begin": "2026-04-16",
+      "end": "2026-04-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "4/16 PLANO Meet Your Leader: STATE HOUSE REPRESENTATIVE: MIHAELA PLESA (SAAVETX EF)",
+          "href": "https://www.mobilize.us/saavetxef/event/928146/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 890176,
       "mobilize_id": 890176,
       "canonical_mobilize_url": "https://www.mobilize.us/event/890176/",
@@ -599,6 +635,24 @@
         {
           "title": "Franconia In PERSON Chair Chat & Orientation",
           "href": "https://www.mobilize.us/fairfaxdems/event/805561/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 888472,
+      "mobilize_id": 888472,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
+      "title": "Monthly Voter Action Gathering - South County",
+      "begin": "2026-04-28",
+      "end": "2026-12-22",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, St. Petersburg",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - South County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
         }
       ],
       "_src": "mobilize"
