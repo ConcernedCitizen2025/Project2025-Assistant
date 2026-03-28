@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-26",
+  "cutoffStr": "2026-03-27",
   "lookbackDays": 1,
   "totals": {
-    "all": 12946,
-    "geoKept": 12894,
-    "virtKept": 42
+    "all": 12878,
+    "geoKept": 12819,
+    "virtKept": 49
   },
   "perSource": {
     "mobilize": {
-      "total": 12868,
-      "recent": 12866,
-      "withCoords": 11119,
-      "keptGeo": 11117,
-      "keptVirt": 1749,
+      "total": 12795,
+      "recent": 12792,
+      "withCoords": 11051,
+      "keptGeo": 11048,
+      "keptVirt": 1744,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 72,
-      "recent": 70,
-      "withCoords": 60,
-      "keptGeo": 58,
-      "keptVirt": 12,
+      "total": 77,
+      "recent": 76,
+      "withCoords": 63,
+      "keptGeo": 62,
+      "keptVirt": 14,
       "sampleDroppedByDate": [
         {
-          "title": "Data Centers and the environment",
-          "begin": "2026-03-25",
-          "end": "2026-03-25",
-          "lat": 42.0035588,
-          "lng": -88.0037711,
-          "location": "Elk Grove Village Public Library, Elk Grove Village",
+          "title": "No Kings Neighborhood Protest (Eagleville)",
+          "begin": "2026-03-26",
+          "end": "2026-03-26",
+          "lat": 40.147851,
+          "lng": -75.3950178,
+          "location": "Walgreens, 2803 Ridge Pike, Eagleville, Norristown, PA 19403, United States of America, Norristown",
           "links": [
             {
-              "title": "Data Centers and the environment",
-              "href": "https://events.pol-rev.com/events/9f47e05b-8fc4-4d12-89af-2bbd35aee458"
-            }
-          ]
-        },
-        {
-          "title": "Hands Off Beverly Weekly Wednesday Protest",
-          "begin": "2026-03-25",
-          "end": "2026-03-25",
-          "lat": 42.5488363,
-          "lng": -70.8778836,
-          "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
-          "links": [
-            {
-              "title": "Hands Off Beverly Weekly Wednesday Protest",
-              "href": "https://events.pol-rev.com/events/26cb009e-6021-4e14-8e1f-0a17080298b4"
+              "title": "No Kings Neighborhood Protest (Eagleville)",
+              "href": "https://events.pol-rev.com/events/205172df-9e26-464b-a384-c545a436f642"
             }
           ]
         }
@@ -174,16 +178,16 @@
           ]
         },
         {
-          "title": "No Kings 3.0",
+          "title": "Sweet Home No Kings",
           "begin": "2026-03-28",
           "end": "2026-03-28",
           "lat": null,
           "lng": null,
-          "location": "Harlingen City Hall, Harlingen",
+          "location": "",
           "links": [
             {
-              "title": "No Kings 3.0",
-              "href": "https://events.pol-rev.com/events/1fced08c-8a33-410c-a995-7fa9d4081264"
+              "title": "Sweet Home No Kings",
+              "href": "https://events.pol-rev.com/events/0afecb33-c3e2-4c1b-aa50-89d8f80cd6d5"
             }
           ]
         }
