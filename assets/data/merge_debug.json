@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-03-27",
+  "cutoffStr": "2026-03-28",
   "lookbackDays": 1,
   "totals": {
-    "all": 12878,
-    "geoKept": 12819,
-    "virtKept": 49
+    "all": 12768,
+    "geoKept": 12712,
+    "virtKept": 42
   },
   "perSource": {
     "mobilize": {
-      "total": 12795,
-      "recent": 12792,
-      "withCoords": 11051,
-      "keptGeo": 11048,
-      "keptVirt": 1744,
+      "total": 12686,
+      "recent": 12684,
+      "withCoords": 10963,
+      "keptGeo": 10961,
+      "keptVirt": 1723,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,23 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 77,
-      "recent": 76,
-      "withCoords": 63,
-      "keptGeo": 62,
-      "keptVirt": 14,
+      "total": 76,
+      "recent": 70,
+      "withCoords": 62,
+      "keptGeo": 58,
+      "keptVirt": 12,
       "sampleDroppedByDate": [
         {
-          "title": "No Kings Neighborhood Protest (Eagleville)",
-          "begin": "2026-03-26",
-          "end": "2026-03-26",
-          "lat": 40.147851,
-          "lng": -75.3950178,
-          "location": "Walgreens, 2803 Ridge Pike, Eagleville, Norristown, PA 19403, United States of America, Norristown",
+          "title": "No Kings with Indivisible Tri-Cities WA",
+          "begin": "2026-03-27",
+          "end": "2026-03-27",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "No Kings Neighborhood Protest (Eagleville)",
-              "href": "https://events.pol-rev.com/events/205172df-9e26-464b-a384-c545a436f642"
+              "title": "No Kings with Indivisible Tri-Cities WA",
+              "href": "https://events.pol-rev.com/events/ca2f7785-fc55-4b80-925a-58ebf4511195"
+            }
+          ]
+        },
+        {
+          "title": "CALL TO ACTION - No Kings South Dakota!",
+          "begin": "2026-03-27",
+          "end": "2026-03-27",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "CALL TO ACTION - No Kings South Dakota!",
+              "href": "https://events.pol-rev.com/events/f8e31d56-32a6-4eaf-9467-7e4d7220f609"
+            }
+          ]
+        },
+        {
+          "title": "NO KINGS 2026",
+          "begin": "2026-03-27",
+          "end": "2026-03-27",
+          "lat": 39.9356016,
+          "lng": -91.4098727,
+          "location": "Quincy, Illinois, United States of America, Quincy",
+          "links": [
+            {
+              "title": "NO KINGS 2026",
+              "href": "https://events.pol-rev.com/events/1e4f7092-647b-4a50-acbe-8ca607effd0b"
             }
           ]
         }
