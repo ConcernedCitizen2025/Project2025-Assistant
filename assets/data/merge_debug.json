@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-01",
+  "cutoffStr": "2026-04-02",
   "lookbackDays": 1,
   "totals": {
-    "all": 8715,
-    "geoKept": 8675,
-    "virtKept": 32
+    "all": 8839,
+    "geoKept": 8798,
+    "virtKept": 31
   },
   "perSource": {
     "mobilize": {
-      "total": 8682,
-      "recent": 8680,
-      "withCoords": 7341,
-      "keptGeo": 7339,
-      "keptVirt": 1341,
+      "total": 8803,
+      "recent": 8801,
+      "withCoords": 7435,
+      "keptGeo": 7433,
+      "keptVirt": 1368,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,12 +109,41 @@
       ]
     },
     "mobilizon": {
-      "total": 27,
-      "recent": 27,
-      "withCoords": 24,
-      "keptGeo": 24,
+      "total": 30,
+      "recent": 28,
+      "withCoords": 27,
+      "keptGeo": 25,
       "keptVirt": 3,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Day Without An Immigrant Solidarity Rally",
+          "begin": "2026-04-01",
+          "end": "2026-04-01",
+          "lat": 45.5425764,
+          "lng": -122.6507464,
+          "location": "Augustana Lutheran Church, 2710 Northeast 14th Avenue, Portland, OR 97212, United States of America, Portland",
+          "links": [
+            {
+              "title": "Day Without An Immigrant Solidarity Rally",
+              "href": "https://events.pol-rev.com/events/dc1fdbf5-7a2e-4305-bccb-b6f1271279bc"
+            }
+          ]
+        },
+        {
+          "title": "BloNo 50501 Intro Meeting",
+          "begin": "2026-04-01",
+          "end": "2026-04-01",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo 50501 Intro Meeting",
+              "href": "https://events.pol-rev.com/events/0e371971-0ee3-4b39-bdc8-e7215f7c7c86"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
