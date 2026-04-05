@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-03",
+  "cutoffStr": "2026-04-04",
   "lookbackDays": 1,
   "totals": {
-    "all": 9016,
-    "geoKept": 8979,
+    "all": 9077,
+    "geoKept": 9042,
     "virtKept": 27
   },
   "perSource": {
     "mobilize": {
-      "total": 8980,
-      "recent": 8977,
-      "withCoords": 7597,
-      "keptGeo": 7594,
-      "keptVirt": 1383,
+      "total": 9042,
+      "recent": 9040,
+      "withCoords": 7632,
+      "keptGeo": 7630,
+      "keptVirt": 1410,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,27 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 30,
+      "total": 29,
       "recent": 29,
       "withCoords": 27,
       "keptGeo": 27,
       "keptVirt": 2,
-      "sampleDroppedByDate": [
-        {
-          "title": "Creative Activism Call",
-          "begin": "2026-04-02",
-          "end": "2026-04-02",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Creative Activism Call",
-              "href": "https://events.pol-rev.com/events/f10f86cb-2cbc-48a9-b424-e20cf244083f"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
