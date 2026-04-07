@@ -145,6 +145,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 929550,
+      "mobilize_id": 929550,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/929550/",
+      "title": "Canvass with Myrna for Oregon Senate",
+      "begin": "2026-04-11",
+      "end": "2026-05-19",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, OR",
+      "links": [
+        {
+          "title": "Canvass with Myrna for Oregon Senate",
+          "href": "https://www.mobilize.us/myrnamunoz/event/929550/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 933733,
       "mobilize_id": 933733,
       "canonical_mobilize_url": "https://www.mobilize.us/event/933733/",
@@ -230,6 +248,24 @@
         {
           "title": "Kori Rodley Canvass!",
           "href": "https://www.mobilize.us/korirodley/event/932894/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 933924,
+      "mobilize_id": 933924,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/933924/",
+      "title": "Get Out the Vote: Phone Bank for the June Primary",
+      "begin": "2026-04-18",
+      "end": "2026-04-19",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Get Out the Vote: Phone Bank for the June Primary",
+          "href": "https://www.mobilize.us/indivisibleupstatesc/event/933924/"
         }
       ],
       "_src": "mobilize"
