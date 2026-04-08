@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-06",
+  "cutoffStr": "2026-04-07",
   "lookbackDays": 1,
   "totals": {
-    "all": 9309,
-    "geoKept": 9268,
+    "all": 9600,
+    "geoKept": 9561,
     "virtKept": 30
   },
   "perSource": {
     "mobilize": {
-      "total": 9277,
-      "recent": 9274,
-      "withCoords": 7867,
-      "keptGeo": 7864,
-      "keptVirt": 1410,
+      "total": 9568,
+      "recent": 9565,
+      "withCoords": 8106,
+      "keptGeo": 8103,
+      "keptVirt": 1462,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,40 +128,11 @@
     },
     "mobilizon": {
       "total": 26,
-      "recent": 24,
-      "withCoords": 24,
-      "keptGeo": 22,
-      "keptVirt": 2,
-      "sampleDroppedByDate": [
-        {
-          "title": "West Seattle Resist: Sunday Solidarity Action",
-          "begin": "2026-04-05",
-          "end": "2026-04-05",
-          "lat": 47.5609682,
-          "lng": -122.3871315,
-          "location": "West Seattle, Seattle",
-          "links": [
-            {
-              "title": "West Seattle Resist: Sunday Solidarity Action",
-              "href": "https://events.pol-rev.com/events/42cca5b5-e8c1-446f-a28b-52748e8cb281"
-            }
-          ]
-        },
-        {
-          "title": "The Way to Moshannon: A Public Pilgrimmage for Dignity Across Southwestern Pennsylvania",
-          "begin": "2026-04-05",
-          "end": "2026-04-05",
-          "lat": 40.4237648,
-          "lng": -79.9610437,
-          "location": "ICE Pittsburgh, 3000 Sidney Street, Pittsburgh, PA 15203, United States of America, Pittsburgh",
-          "links": [
-            {
-              "title": "The Way to Moshannon: A Public Pilgrimmage for Dignity Across Southwestern Pennsylvania",
-              "href": "https://events.pol-rev.com/events/672597d0-3156-4a1b-98b4-670c716774a6"
-            }
-          ]
-        }
-      ],
+      "recent": 26,
+      "withCoords": 23,
+      "keptGeo": 23,
+      "keptVirt": 3,
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
@@ -188,6 +159,20 @@
             {
               "title": "Come with us to the Obama Presidential Library Grand Opening!",
               "href": "https://events.pol-rev.com/events/7035a51f-0315-48c3-baa5-1b3de92888bc"
+            }
+          ]
+        },
+        {
+          "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
+          "begin": "2026-04-23",
+          "end": "2026-04-23",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
+              "href": "https://events.pol-rev.com/events/dd799e5d-6f11-43ba-ad09-5dd45c2bb049"
             }
           ]
         }
