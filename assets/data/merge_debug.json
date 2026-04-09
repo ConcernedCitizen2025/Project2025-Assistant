@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-07",
+  "cutoffStr": "2026-04-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 9600,
-    "geoKept": 9561,
-    "virtKept": 30
+    "all": 9717,
+    "geoKept": 9673,
+    "virtKept": 34
   },
   "perSource": {
     "mobilize": {
-      "total": 9568,
-      "recent": 9565,
-      "withCoords": 8106,
-      "keptGeo": 8103,
-      "keptVirt": 1462,
+      "total": 9684,
+      "recent": 9681,
+      "withCoords": 8217,
+      "keptGeo": 8214,
+      "keptVirt": 1467,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 26,
+      "total": 27,
       "recent": 26,
-      "withCoords": 23,
+      "withCoords": 24,
       "keptGeo": 23,
       "keptVirt": 3,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Enough Is Enough - 25th Amendment Now",
+          "begin": "2026-04-07",
+          "end": "2026-04-07",
+          "lat": 33.2149954,
+          "lng": -97.1330673,
+          "location": "Courthouse-on-the-Square Museum, 110 West Hickory Street, Denton, TX 76201, United States of America, Denton",
+          "links": [
+            {
+              "title": "Enough Is Enough - 25th Amendment Now",
+              "href": "https://events.pol-rev.com/events/9b38b5fd-ddec-4ac0-aa60-a211c6708161"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
