@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-04-10",
-      "end": "2026-04-25",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-04-10",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 898230,
       "mobilize_id": 898230,
       "canonical_mobilize_url": "https://www.mobilize.us/event/898230/",
@@ -265,6 +229,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-04-17",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-04-18",
+      "end": "2026-04-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 932894,
       "mobilize_id": 932894,
       "canonical_mobilize_url": "https://www.mobilize.us/event/932894/",
@@ -331,24 +331,6 @@
       "_src": "mobilizon"
     },
     {
-      "_id": 937099,
-      "mobilize_id": 937099,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/937099/",
-      "title": "WisDems Disability Caucus Governor Candidate Forum",
-      "begin": "2026-04-20",
-      "end": "2026-04-20",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "WisDems Disability Caucus Governor Candidate Forum",
-          "href": "https://www.mobilize.us/wisdems/event/937099/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "title": "Pre - May Day Bridge Rally",
       "begin": "2026-04-22",
       "end": "2026-04-22",
@@ -403,7 +385,7 @@
       "_id": 904459,
       "mobilize_id": 904459,
       "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "March 26th - Meet the Candidate at Blue Magnolia Monthly Breakfast Social",
+      "title": "Blue Magnolia Monthly Breakfast Social",
       "begin": "2026-04-23",
       "end": "2026-09-24",
       "lat": null,
@@ -411,7 +393,7 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "March 26th - Meet the Candidate at Blue Magnolia Monthly Breakfast Social",
+          "title": "Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
         }
       ],

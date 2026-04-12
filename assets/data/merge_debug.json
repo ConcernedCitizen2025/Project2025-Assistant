@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-10",
+  "cutoffStr": "2026-04-11",
   "lookbackDays": 1,
   "totals": {
-    "all": 10016,
-    "geoKept": 9969,
-    "virtKept": 38
+    "all": 10039,
+    "geoKept": 9992,
+    "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 9976,
-      "recent": 9973,
-      "withCoords": 8438,
-      "keptGeo": 8435,
-      "keptVirt": 1538,
+      "total": 9999,
+      "recent": 9996,
+      "withCoords": 8457,
+      "keptGeo": 8454,
+      "keptVirt": 1542,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,26 @@
     },
     "mobilizon": {
       "total": 34,
-      "recent": 34,
+      "recent": 33,
       "withCoords": 26,
-      "keptGeo": 26,
+      "keptGeo": 25,
       "keptVirt": 8,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Fuck I.C.E.",
+          "begin": "2026-04-10",
+          "end": "2026-04-10",
+          "lat": 43.0203466,
+          "lng": -78.2025602,
+          "location": "4250 Federal Drive, City of Batavia, NY 14020, United States of America, City of Batavia",
+          "links": [
+            {
+              "title": "Fuck I.C.E.",
+              "href": "https://events.pol-rev.com/events/ef5b246f-4bb0-4fd8-b588-e9f6b494f3a8"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
