@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-11",
+  "cutoffStr": "2026-04-12",
   "lookbackDays": 1,
   "totals": {
-    "all": 10039,
-    "geoKept": 9992,
-    "virtKept": 37
+    "all": 9649,
+    "geoKept": 9601,
+    "virtKept": 34
   },
   "perSource": {
     "mobilize": {
-      "total": 9999,
-      "recent": 9996,
-      "withCoords": 8457,
-      "keptGeo": 8454,
-      "keptVirt": 1542,
+      "total": 9610,
+      "recent": 9607,
+      "withCoords": 8146,
+      "keptGeo": 8143,
+      "keptVirt": 1464,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 34,
-      "recent": 33,
-      "withCoords": 26,
-      "keptGeo": 25,
-      "keptVirt": 8,
+      "total": 33,
+      "recent": 28,
+      "withCoords": 25,
+      "keptGeo": 22,
+      "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "Fuck I.C.E.",
-          "begin": "2026-04-10",
-          "end": "2026-04-10",
-          "lat": 43.0203466,
-          "lng": -78.2025602,
-          "location": "4250 Federal Drive, City of Batavia, NY 14020, United States of America, City of Batavia",
+          "title": "BloNo IL - Zines and Pizza! - Craft and Social Collaborative",
+          "begin": "2026-04-11",
+          "end": "2026-04-11",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "Fuck I.C.E.",
-              "href": "https://events.pol-rev.com/events/ef5b246f-4bb0-4fd8-b588-e9f6b494f3a8"
+              "title": "BloNo IL - Zines and Pizza! - Craft and Social Collaborative",
+              "href": "https://events.pol-rev.com/events/ce8b7daa-c0ed-4fb7-aecf-599504b8ae2e"
+            }
+          ]
+        },
+        {
+          "title": "BloNo IL - Rally to Stop the War!",
+          "begin": "2026-04-11",
+          "end": "2026-04-11",
+          "lat": 40.4840901,
+          "lng": -88.9928214,
+          "location": "Bloomington Center for the Performing Arts, 600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo IL - Rally to Stop the War!",
+              "href": "https://events.pol-rev.com/events/1e24a501-62bc-44f6-b577-ff2d4b9e1e33"
+            }
+          ]
+        },
+        {
+          "title": "Closterpatriots Weekly Protest",
+          "begin": "2026-04-11",
+          "end": "2026-04-11",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Closterpatriots Weekly Protest",
+              "href": "https://events.pol-rev.com/events/c9d8563f-a71b-4584-85bd-9318ad1bdf3a"
             }
           ]
         }
