@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 929674,
-      "mobilize_id": 929674,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/929674/",
-      "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
-      "begin": "2026-04-14",
-      "end": "2026-05-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
-          "href": "https://www.mobilize.us/nickalexforcongress2026ga9thdistrict/event/929674/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 923550,
       "mobilize_id": 923550,
       "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
@@ -83,6 +65,24 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 929674,
+      "mobilize_id": 929674,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/929674/",
+      "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
+      "begin": "2026-04-16",
+      "end": "2026-05-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
+          "href": "https://www.mobilize.us/nickalexforcongress2026ga9thdistrict/event/929674/"
         }
       ],
       "_src": "mobilize"
