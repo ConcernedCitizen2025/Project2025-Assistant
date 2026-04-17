@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-15",
+  "cutoffStr": "2026-04-16",
   "lookbackDays": 1,
   "totals": {
-    "all": 10648,
-    "geoKept": 10602,
+    "all": 10893,
+    "geoKept": 10846,
     "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 10613,
-      "recent": 10610,
-      "withCoords": 9003,
-      "keptGeo": 9000,
-      "keptVirt": 1610,
+      "total": 10856,
+      "recent": 10853,
+      "withCoords": 9200,
+      "keptGeo": 9197,
+      "keptVirt": 1656,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 29,
-      "recent": 29,
-      "withCoords": 22,
-      "keptGeo": 22,
+      "total": 31,
+      "recent": 30,
+      "withCoords": 23,
+      "keptGeo": 23,
       "keptVirt": 7,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
+          "begin": "2026-04-15",
+          "end": "2026-04-15",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
+              "href": "https://events.pol-rev.com/events/2e0f5a88-986a-49a4-a8ab-59ba45cd66b2"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
