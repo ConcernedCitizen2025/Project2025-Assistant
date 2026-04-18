@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-16",
+  "cutoffStr": "2026-04-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 10893,
-    "geoKept": 10846,
+    "all": 10992,
+    "geoKept": 10936,
     "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 10856,
-      "recent": 10853,
-      "withCoords": 9200,
-      "keptGeo": 9197,
-      "keptVirt": 1656,
+      "total": 10954,
+      "recent": 10951,
+      "withCoords": 9264,
+      "keptGeo": 9261,
+      "keptVirt": 1690,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 31,
-      "recent": 30,
-      "withCoords": 23,
-      "keptGeo": 23,
-      "keptVirt": 7,
+      "total": 32,
+      "recent": 22,
+      "withCoords": 24,
+      "keptGeo": 14,
+      "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-          "begin": "2026-04-15",
-          "end": "2026-04-15",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "Vernon - Hands on Democracy",
+          "begin": "2026-04-16",
+          "end": "2026-04-16",
+          "lat": 41.1762896,
+          "lng": -74.5430889,
+          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
           "links": [
             {
-              "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-              "href": "https://events.pol-rev.com/events/2e0f5a88-986a-49a4-a8ab-59ba45cd66b2"
+              "title": "Vernon - Hands on Democracy",
+              "href": "https://events.pol-rev.com/events/367e49ca-8871-412d-b666-606a77e9daea"
+            }
+          ]
+        },
+        {
+          "title": "Vernon - Hands on Democracy",
+          "begin": "2026-04-16",
+          "end": "2026-04-16",
+          "lat": 41.1762896,
+          "lng": -74.5430889,
+          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
+          "links": [
+            {
+              "title": "Vernon - Hands on Democracy",
+              "href": "https://events.pol-rev.com/events/d9abe3f4-10ee-4c7b-aaf4-34c677766fcf"
+            }
+          ]
+        },
+        {
+          "title": "Vernon - Hands on Democracy",
+          "begin": "2026-04-16",
+          "end": "2026-04-16",
+          "lat": 41.1762896,
+          "lng": -74.5430889,
+          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
+          "links": [
+            {
+              "title": "Vernon - Hands on Democracy",
+              "href": "https://events.pol-rev.com/events/6755e4dd-4b46-4930-af50-cc2200f29968"
             }
           ]
         }
@@ -178,16 +206,16 @@
           ]
         },
         {
-          "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-          "begin": "2026-04-23",
-          "end": "2026-04-23",
+          "title": "Creative Activism Monthly Call",
+          "begin": "2026-05-07",
+          "end": "2026-05-07",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-              "href": "https://events.pol-rev.com/events/dd799e5d-6f11-43ba-ad09-5dd45c2bb049"
+              "title": "Creative Activism Monthly Call",
+              "href": "https://events.pol-rev.com/events/fb1fedfc-733d-486e-9649-dab19544fc39"
             }
           ]
         }
