@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-04-17",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -107,36 +89,6 @@
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
-      "begin": "2026-04-18",
-      "end": "2026-04-18",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
-          "href": "https://events.pol-rev.com/events/312aff91-7c93-4aa5-9104-d4ccab3f4912"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
-      "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
-      "begin": "2026-04-18",
-      "end": "2026-04-18",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
-          "href": "https://events.pol-rev.com/events/9c5868c8-7101-4bd3-8fd5-488ad5913904"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 936264,
@@ -346,6 +298,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-04-24",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 932895,
       "mobilize_id": 932895,
       "canonical_mobilize_url": "https://www.mobilize.us/event/932895/",
@@ -413,24 +383,6 @@
         {
           "title": "Monthly Linn-Benton Wolf Pack Meeting",
           "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 805561,
-      "mobilize_id": 805561,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/805561/",
-      "title": "Franconia In PERSON Chair Chat & Orientation",
-      "begin": "2026-04-28",
-      "end": "2026-04-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Franconia In PERSON Chair Chat & Orientation",
-          "href": "https://www.mobilize.us/fairfaxdems/event/805561/"
         }
       ],
       "_src": "mobilize"
@@ -575,6 +527,36 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
+      "begin": "2026-05-16",
+      "end": "2026-05-16",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
+          "href": "https://events.pol-rev.com/events/312aff91-7c93-4aa5-9104-d4ccab3f4912"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
+      "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
+      "begin": "2026-05-16",
+      "end": "2026-05-16",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
+          "href": "https://events.pol-rev.com/events/9c5868c8-7101-4bd3-8fd5-488ad5913904"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 934239,

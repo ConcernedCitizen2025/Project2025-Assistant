@@ -1,17 +1,17 @@
 {
-  "cutoffStr": "2026-04-17",
+  "cutoffStr": "2026-04-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 10992,
-    "geoKept": 10936,
-    "virtKept": 37
+    "all": 10950,
+    "geoKept": 10904,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 10954,
-      "recent": 10951,
-      "withCoords": 9264,
-      "keptGeo": 9261,
+      "total": 10921,
+      "recent": 10918,
+      "withCoords": 9231,
+      "keptGeo": 9228,
       "keptVirt": 1690,
       "sampleDroppedByDate": [
         {
@@ -127,51 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 32,
+      "total": 23,
       "recent": 22,
-      "withCoords": 24,
+      "withCoords": 15,
       "keptGeo": 14,
       "keptVirt": 8,
       "sampleDroppedByDate": [
         {
-          "title": "Vernon - Hands on Democracy",
-          "begin": "2026-04-16",
-          "end": "2026-04-16",
-          "lat": 41.1762896,
-          "lng": -74.5430889,
-          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
+          "title": "SINGING THE RESISTANCE, RANDOM SATURDAY PROTEST & FOOD DRIVE",
+          "begin": "2026-04-17",
+          "end": "2026-04-17",
+          "lat": 0.006015747883661023,
+          "lng": -0.0106386988497742,
+          "location": "Railroad Park, WHITE BEAR LAKE",
           "links": [
             {
-              "title": "Vernon - Hands on Democracy",
-              "href": "https://events.pol-rev.com/events/367e49ca-8871-412d-b666-606a77e9daea"
-            }
-          ]
-        },
-        {
-          "title": "Vernon - Hands on Democracy",
-          "begin": "2026-04-16",
-          "end": "2026-04-16",
-          "lat": 41.1762896,
-          "lng": -74.5430889,
-          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
-          "links": [
-            {
-              "title": "Vernon - Hands on Democracy",
-              "href": "https://events.pol-rev.com/events/d9abe3f4-10ee-4c7b-aaf4-34c677766fcf"
-            }
-          ]
-        },
-        {
-          "title": "Vernon - Hands on Democracy",
-          "begin": "2026-04-16",
-          "end": "2026-04-16",
-          "lat": 41.1762896,
-          "lng": -74.5430889,
-          "location": "Sussex County Library - Dorothy E. Henry Branch, NJ 94, Vernon Township, NJ 07419, United States of America, Vernon Township",
-          "links": [
-            {
-              "title": "Vernon - Hands on Democracy",
-              "href": "https://events.pol-rev.com/events/6755e4dd-4b46-4930-af50-cc2200f29968"
+              "title": "SINGING THE RESISTANCE, RANDOM SATURDAY PROTEST & FOOD DRIVE",
+              "href": "https://events.pol-rev.com/events/40070729-2972-42e5-8e61-4eb23dcb1825"
             }
           ]
         }
@@ -206,16 +178,16 @@
           ]
         },
         {
-          "title": "Creative Activism Monthly Call",
-          "begin": "2026-05-07",
-          "end": "2026-05-07",
+          "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
+          "begin": "2026-05-16",
+          "end": "2026-05-16",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Creative Activism Monthly Call",
-              "href": "https://events.pol-rev.com/events/fb1fedfc-733d-486e-9649-dab19544fc39"
+              "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
+              "href": "https://events.pol-rev.com/events/312aff91-7c93-4aa5-9104-d4ccab3f4912"
             }
           ]
         }
