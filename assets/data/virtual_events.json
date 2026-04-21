@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 933924,
-      "mobilize_id": 933924,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/933924/",
-      "title": "Get Out the Vote: Phone Bank for the June Primary",
-      "begin": "2026-04-19",
-      "end": "2026-04-19",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Get Out the Vote: Phone Bank for the June Primary",
-          "href": "https://www.mobilize.us/indivisibleupstatesc/event/933924/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 936264,
-      "mobilize_id": 936264,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/936264/",
-      "title": "Super Sundays w/ Team Kyle Lamont for Georgia",
-      "begin": "2026-04-19",
-      "end": "2026-05-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Super Sundays w/ Team Kyle Lamont for Georgia",
-          "href": "https://www.mobilize.us/kylelamontforga/event/936264/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 939145,
       "mobilize_id": 939145,
       "canonical_mobilize_url": "https://www.mobilize.us/event/939145/",
@@ -380,6 +344,24 @@
         {
           "title": "IEB's 2026 All-Member Meetings on Zoom!",
           "href": "https://www.mobilize.us/indivisible-east-bay/event/890176/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 936264,
+      "mobilize_id": 936264,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/936264/",
+      "title": "Super Sundays w/ Team Kyle Lamont for Georgia",
+      "begin": "2026-04-26",
+      "end": "2026-05-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Super Sundays w/ Team Kyle Lamont for Georgia",
+          "href": "https://www.mobilize.us/kylelamontforga/event/936264/"
         }
       ],
       "_src": "mobilize"
