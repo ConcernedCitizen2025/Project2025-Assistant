@@ -1,39 +1,6 @@
 {
   "data": [
     {
-      "_id": 939145,
-      "mobilize_id": 939145,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/939145/",
-      "title": "Runoff Phonebank (Online)",
-      "begin": "2026-04-20",
-      "end": "2026-04-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Runoff Phonebank (Online)",
-          "href": "https://www.mobilize.us/drletitiaplummerforharriscountyjudge/event/939145/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-      "begin": "2026-04-20",
-      "end": "2026-04-20",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-          "href": "https://events.pol-rev.com/events/b3bc8211-747f-4a24-8a1d-f642fc588798"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 929674,
       "mobilize_id": 929674,
       "canonical_mobilize_url": "https://www.mobilize.us/event/929674/",
@@ -65,24 +32,6 @@
         {
           "title": "Runoff Phonebank (Online)",
           "href": "https://www.mobilize.us/drletitiaplummerforharriscountyjudge/event/939147/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 939195,
-      "mobilize_id": 939195,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/939195/",
-      "title": "Garfield Canvass for Summer Lee!",
-      "begin": "2026-04-22",
-      "end": "2026-04-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Garfield Canvass for Summer Lee!",
-          "href": "https://www.mobilize.us/summerleeforcongress/event/939195/"
         }
       ],
       "_src": "mobilize"
@@ -228,7 +177,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
       "title": "Tropical Meme Society bridge drop",
       "begin": "2026-04-25",
-      "end": "2026-04-25",
+      "end": "2026-06-06",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -457,6 +406,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 942960,
+      "mobilize_id": 942960,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942960/",
+      "title": "Virtual Strategy Session -- Learn How We're Committed To Winning this November!",
+      "begin": "2026-04-29",
+      "end": "2026-04-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Strategy Session -- Learn How We're Committed To Winning this November!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/942960/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 920043,
       "mobilize_id": 920043,
       "canonical_mobilize_url": "https://www.mobilize.us/event/920043/",
@@ -509,6 +476,21 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "MAY DAY STRONG...WORKERS OVER BILLIONAIRES",
+      "begin": "2026-05-01",
+      "end": "2026-05-01",
+      "lat": null,
+      "lng": null,
+      "location": "Humboldt Superior Courthouse, Eureka",
+      "links": [
+        {
+          "title": "MAY DAY STRONG...WORKERS OVER BILLIONAIRES",
+          "href": "https://events.pol-rev.com/events/35e6b8d8-c8dc-42e0-98c4-046cc5f53901"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 547245,
