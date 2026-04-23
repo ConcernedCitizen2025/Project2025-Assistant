@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-21",
+  "cutoffStr": "2026-04-22",
   "lookbackDays": 1,
   "totals": {
-    "all": 11154,
-    "geoKept": 11107,
-    "virtKept": 37
+    "all": 11437,
+    "geoKept": 11389,
+    "virtKept": 39
   },
   "perSource": {
     "mobilize": {
-      "total": 11123,
-      "recent": 11121,
-      "withCoords": 9433,
-      "keptGeo": 9431,
-      "keptVirt": 1690,
+      "total": 11408,
+      "recent": 11405,
+      "withCoords": 9651,
+      "keptGeo": 9648,
+      "keptVirt": 1757,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 25,
+      "total": 23,
       "recent": 23,
-      "withCoords": 15,
+      "withCoords": 14,
       "keptGeo": 14,
       "keptVirt": 9,
-      "sampleDroppedByDate": [
-        {
-          "title": "One if by Land, Two if by Trump",
-          "begin": "2026-04-20",
-          "end": "2026-04-20",
-          "lat": 42.3603713,
-          "lng": -71.0579762,
-          "location": "Boston City Hall, 1 Congress Street, Boston, MA 02201, United States of America, Boston",
-          "links": [
-            {
-              "title": "One if by Land, Two if by Trump",
-              "href": "https://events.pol-rev.com/events/5a69b227-ab39-4897-b6cf-4b41578c1520"
-            }
-          ]
-        },
-        {
-          "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-          "begin": "2026-04-20",
-          "end": "2026-04-20",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Trang Vào Vegas79 Mới Nhất không bị chặn",
-              "href": "https://events.pol-rev.com/events/b3bc8211-747f-4a24-8a1d-f642fc588798"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
