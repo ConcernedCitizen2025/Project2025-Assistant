@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-23",
+  "cutoffStr": "2026-04-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 11589,
-    "geoKept": 11539,
-    "virtKept": 38
+    "all": 11656,
+    "geoKept": 11610,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 11558,
-      "recent": 11555,
-      "withCoords": 9779,
-      "keptGeo": 9776,
-      "keptVirt": 1779,
+      "total": 11628,
+      "recent": 11625,
+      "withCoords": 9803,
+      "keptGeo": 9800,
+      "keptVirt": 1825,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,51 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 25,
-      "recent": 22,
-      "withCoords": 16,
+      "total": 22,
+      "recent": 21,
+      "withCoords": 15,
       "keptGeo": 15,
-      "keptVirt": 7,
+      "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "Solutionary Circle for Earth Day: EJ and Labor Allies on the Transition of US Rail from Private Profit to Public Purpose",
-          "begin": "2026-04-22",
-          "end": "2026-04-22",
+          "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
+          "begin": "2026-04-23",
+          "end": "2026-04-23",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Solutionary Circle for Earth Day: EJ and Labor Allies on the Transition of US Rail from Private Profit to Public Purpose",
-              "href": "https://events.pol-rev.com/events/1e2629d3-2d0d-4cb2-8273-7c5c8feed5b1"
-            }
-          ]
-        },
-        {
-          "title": "BloNo IL - Shut the Flock Off in person meeting",
-          "begin": "2026-04-22",
-          "end": "2026-04-22",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Shut the Flock Off in person meeting",
-              "href": "https://events.pol-rev.com/events/bbc3bcc7-fff2-4adb-92ec-4da3a768aabc"
-            }
-          ]
-        },
-        {
-          "title": "Pre - May Day Bridge Rally",
-          "begin": "2026-04-22",
-          "end": "2026-04-22",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Pre - May Day Bridge Rally",
-              "href": "https://events.pol-rev.com/events/e2eceba6-4e0c-4449-a7ff-d6bdd3fe301c"
+              "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
+              "href": "https://events.pol-rev.com/events/dd799e5d-6f11-43ba-ad09-5dd45c2bb049"
             }
           ]
         }

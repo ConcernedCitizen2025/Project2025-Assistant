@@ -1,111 +1,6 @@
 {
   "data": [
     {
-      "_id": 758303,
-      "mobilize_id": 758303,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
-      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-      "begin": "2026-04-23",
-      "end": "2026-12-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 783402,
-      "mobilize_id": 783402,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
-      "title": "TA Brooklyn Monthly Meeting",
-      "begin": "2026-04-23",
-      "end": "2026-11-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "TA Brooklyn Monthly Meeting",
-          "href": "https://www.mobilize.us/transalt/event/783402/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 904459,
-      "mobilize_id": 904459,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "Blue Magnolia Monthly Breakfast Social",
-      "begin": "2026-04-23",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Blue Magnolia Monthly Breakfast Social",
-          "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 929674,
-      "mobilize_id": 929674,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/929674/",
-      "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
-      "begin": "2026-04-23",
-      "end": "2026-05-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
-          "href": "https://www.mobilize.us/nickalexforcongress2026ga9thdistrict/event/929674/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 940382,
-      "mobilize_id": 940382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/940382/",
-      "title": "Canvass Training -- Learn how to Talk to Voters!",
-      "begin": "2026-04-23",
-      "end": "2026-04-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Canvass Training -- Learn how to Talk to Voters!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/940382/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-      "begin": "2026-04-23",
-      "end": "2026-04-23",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-          "href": "https://events.pol-rev.com/events/dd799e5d-6f11-43ba-ad09-5dd45c2bb049"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -353,6 +248,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 929674,
+      "mobilize_id": 929674,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/929674/",
+      "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
+      "begin": "2026-04-28",
+      "end": "2026-05-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "📣 Nick Alex for Congress: Phone Bank Trainings 📞",
+          "href": "https://www.mobilize.us/nickalexforcongress2026ga9thdistrict/event/929674/"
         }
       ],
       "_src": "mobilize"
@@ -629,6 +542,60 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 783402,
+      "mobilize_id": 783402,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
+      "title": "TA Brooklyn Monthly Meeting",
+      "begin": "2026-05-28",
+      "end": "2026-11-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "TA Brooklyn Monthly Meeting",
+          "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 904459,
+      "mobilize_id": 904459,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
+      "title": "Blue Magnolia Monthly Breakfast Social",
+      "begin": "2026-05-28",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Blue Magnolia Monthly Breakfast Social",
+          "href": "https://www.mobilize.us/mcdptx/event/904459/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 758303,
+      "mobilize_id": 758303,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
+      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+      "begin": "2026-06-04",
+      "end": "2026-12-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"
