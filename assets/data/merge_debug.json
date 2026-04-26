@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-24",
+  "cutoffStr": "2026-04-25",
   "lookbackDays": 1,
   "totals": {
-    "all": 11656,
-    "geoKept": 11610,
-    "virtKept": 36
+    "all": 11631,
+    "geoKept": 11584,
+    "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 11628,
-      "recent": 11625,
-      "withCoords": 9803,
-      "keptGeo": 9800,
-      "keptVirt": 1825,
+      "total": 11603,
+      "recent": 11600,
+      "withCoords": 9773,
+      "keptGeo": 9770,
+      "keptVirt": 1830,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,26 +128,11 @@
     },
     "mobilizon": {
       "total": 22,
-      "recent": 21,
-      "withCoords": 15,
-      "keptGeo": 15,
+      "recent": 22,
+      "withCoords": 16,
+      "keptGeo": 16,
       "keptVirt": 6,
-      "sampleDroppedByDate": [
-        {
-          "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-          "begin": "2026-04-23",
-          "end": "2026-04-23",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "SSG Business KYR Training - NE Denver, CO - Near City Park",
-              "href": "https://events.pol-rev.com/events/dd799e5d-6f11-43ba-ad09-5dd45c2bb049"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
