@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-04-26",
+  "cutoffStr": "2026-04-27",
   "lookbackDays": 1,
   "totals": {
-    "all": 10782,
-    "geoKept": 10736,
-    "virtKept": 35
+    "all": 10924,
+    "geoKept": 10878,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 10753,
-      "recent": 10750,
-      "withCoords": 9050,
-      "keptGeo": 9047,
-      "keptVirt": 1703,
+      "total": 10897,
+      "recent": 10894,
+      "withCoords": 9211,
+      "keptGeo": 9208,
+      "keptVirt": 1686,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-04-26",
+          "begin": "2026-05-03",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -107,19 +107,19 @@
           "_src": "mobilize"
         },
         {
-          "_id": 547245,
-          "mobilize_id": 547245,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
-          "title": "Monthly All Member Meeting",
-          "begin": "2026-05-07",
-          "end": "2026-11-05",
+          "_id": 470990,
+          "mobilize_id": 470990,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/470990/",
+          "title": "Swing Left West Valley Pop Up HQ!",
+          "begin": "2026-05-01",
+          "end": "2026-05-01",
           "lat": null,
           "lng": null,
-          "location": "This event's address is private. Sign up for more details",
+          "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
           "links": [
             {
-              "title": "Monthly All Member Meeting",
-              "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
+              "title": "Swing Left West Valley Pop Up HQ!",
+              "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/470990/"
             }
           ],
           "_src": "mobilize"
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 23,
-      "recent": 21,
-      "withCoords": 17,
-      "keptGeo": 15,
+      "total": 21,
+      "recent": 20,
+      "withCoords": 15,
+      "keptGeo": 14,
       "keptVirt": 6,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo IL - Identifying Hate Groups in Central Illinois",
-          "begin": "2026-04-25",
-          "end": "2026-04-25",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "title": "West Seattle Resist: Sunday Solidarity Action",
+          "begin": "2026-04-26",
+          "end": "2026-04-26",
+          "lat": 47.5609682,
+          "lng": -122.3871315,
+          "location": "West Seattle, Seattle",
           "links": [
             {
-              "title": "BloNo IL - Identifying Hate Groups in Central Illinois",
-              "href": "https://events.pol-rev.com/events/80947f2d-4656-4b77-8745-71432ac4f42d"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-04-25",
-          "end": "2026-04-25",
-          "lat": 42.23567,
-          "lng": -71.178862,
-          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/32140aaf-6e2c-4053-a341-7d276f284587"
+              "title": "West Seattle Resist: Sunday Solidarity Action",
+              "href": "https://events.pol-rev.com/events/97314a61-c2e0-4a66-9d61-f0cd0e0db293"
             }
           ]
         }
