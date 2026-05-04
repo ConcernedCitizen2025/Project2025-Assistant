@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 911385,
-      "mobilize_id": 911385,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/911385/",
-      "title": "Canvas with Ukeme",
-      "begin": "2026-05-02",
-      "end": "2026-05-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Canvas with Ukeme",
-          "href": "https://www.mobilize.us/friendstoelectukemeawakessienjeter/event/911385/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 941752,
-      "mobilize_id": 941752,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/941752/",
-      "title": "Saturday Canvass Launches | Michael Roth for NJ-07",
-      "begin": "2026-05-02",
-      "end": "2026-05-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NJ",
-      "links": [
-        {
-          "title": "Saturday Canvass Launches | Michael Roth for NJ-07",
-          "href": "https://www.mobilize.us/michaelrothfornj07/event/941752/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 945550,
-      "mobilize_id": 945550,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/945550/",
-      "title": "Minnetonka SD45 Doorknock",
-      "begin": "2026-05-02",
-      "end": "2026-05-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Minnetonka SD45 Doorknock",
-          "href": "https://www.mobilize.us/dflcc/event/945550/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 936264,
       "mobilize_id": 936264,
       "canonical_mobilize_url": "https://www.mobilize.us/event/936264/",
@@ -96,7 +42,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/941789/",
       "title": "Sunday Canvass Launches | Michael Roth for NJ-07",
       "begin": "2026-05-03",
-      "end": "2026-05-03",
+      "end": "2026-05-10",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, NJ",
@@ -335,6 +281,42 @@
         {
           "title": "(Virtual) Democratic Voter Registration Training",
           "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 941752,
+      "mobilize_id": 941752,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/941752/",
+      "title": "Saturday Canvass Launches | Michael Roth for NJ-07",
+      "begin": "2026-05-09",
+      "end": "2026-05-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NJ",
+      "links": [
+        {
+          "title": "Saturday Canvass Launches | Michael Roth for NJ-07",
+          "href": "https://www.mobilize.us/michaelrothfornj07/event/941752/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 945550,
+      "mobilize_id": 945550,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/945550/",
+      "title": "Minnetonka SD45 Doorknock",
+      "begin": "2026-05-09",
+      "end": "2026-05-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Minnetonka SD45 Doorknock",
+          "href": "https://www.mobilize.us/dflcc/event/945550/"
         }
       ],
       "_src": "mobilize"
