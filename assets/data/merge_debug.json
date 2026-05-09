@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-07",
+  "cutoffStr": "2026-05-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 10147,
-    "geoKept": 10089,
-    "virtKept": 48
+    "all": 10231,
+    "geoKept": 10177,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 10123,
-      "recent": 10120,
-      "withCoords": 8306,
-      "keptGeo": 8303,
-      "keptVirt": 1817,
+      "total": 10207,
+      "recent": 10204,
+      "withCoords": 8374,
+      "keptGeo": 8371,
+      "keptVirt": 1833,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 547245,
           "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
           "title": "Monthly All Member Meeting",
-          "begin": "2026-05-07",
+          "begin": "2026-06-04",
           "end": "2026-11-05",
           "lat": null,
           "lng": null,
@@ -129,21 +129,21 @@
     "mobilizon": {
       "total": 18,
       "recent": 17,
-      "withCoords": 13,
+      "withCoords": 12,
       "keptGeo": 12,
       "keptVirt": 5,
       "sampleDroppedByDate": [
         {
-          "title": "Speak up with the Park Board to save Detweiller Playground & Marina",
-          "begin": "2026-05-06",
-          "end": "2026-05-06",
-          "lat": 40.7416337,
-          "lng": -89.6107988,
-          "location": "Noble Center, 1125 West Lake Avenue, Peoria, IL 61614, United States of America, Peoria",
+          "title": "Creative Activism Monthly Call",
+          "begin": "2026-05-07",
+          "end": "2026-05-07",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Speak up with the Park Board to save Detweiller Playground & Marina",
-              "href": "https://events.pol-rev.com/events/c5f52d80-12ca-46a9-95ec-890a04a25583"
+              "title": "Creative Activism Monthly Call",
+              "href": "https://events.pol-rev.com/events/fb1fedfc-733d-486e-9649-dab19544fc39"
             }
           ]
         }
