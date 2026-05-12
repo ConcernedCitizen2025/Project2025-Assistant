@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-10",
+  "cutoffStr": "2026-05-11",
   "lookbackDays": 1,
   "totals": {
-    "all": 9733,
-    "geoKept": 9676,
-    "virtKept": 46
+    "all": 10163,
+    "geoKept": 10107,
+    "virtKept": 48
   },
   "perSource": {
     "mobilize": {
-      "total": 9706,
-      "recent": 9703,
-      "withCoords": 7939,
-      "keptGeo": 7936,
-      "keptVirt": 1767,
+      "total": 10137,
+      "recent": 10135,
+      "withCoords": 8304,
+      "keptGeo": 8302,
+      "keptVirt": 1833,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -49,24 +49,6 @@
             }
           ],
           "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
-            }
-          ],
-          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -93,7 +75,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-05-10",
+          "begin": "2026-05-17",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -127,41 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 21,
-      "recent": 19,
-      "withCoords": 15,
+      "total": 20,
+      "recent": 20,
+      "withCoords": 13,
       "keptGeo": 13,
-      "keptVirt": 6,
-      "sampleDroppedByDate": [
-        {
-          "title": "BloNo IL - Pretrial Fairness Under Threat - Teach-In with the Illinois Network for Pretrial Justice",
-          "begin": "2026-05-09",
-          "end": "2026-05-09",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Pretrial Fairness Under Threat - Teach-In with the Illinois Network for Pretrial Justice",
-              "href": "https://events.pol-rev.com/events/d09cd4de-c540-4338-9c38-3db4cc3d57f4"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-05-09",
-          "end": "2026-05-09",
-          "lat": 42.2371631,
-          "lng": -71.1786432,
-          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/94d0683c-ce62-49dc-9830-df4fa98ec3a0"
-            }
-          ]
-        }
-      ],
+      "keptVirt": 7,
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
@@ -178,6 +131,20 @@
           ]
         },
         {
+          "title": "All of Us. Truth, Equity & Freedom",
+          "begin": "2026-06-27",
+          "end": "2026-06-27",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "All of Us. Truth, Equity & Freedom",
+              "href": "https://events.pol-rev.com/events/86259947-f554-4996-b9be-a06628aafd35"
+            }
+          ]
+        },
+        {
           "title": "Come with us to the Obama Presidential Library Grand Opening!",
           "begin": "2026-06-18",
           "end": "2026-06-18",
@@ -188,20 +155,6 @@
             {
               "title": "Come with us to the Obama Presidential Library Grand Opening!",
               "href": "https://events.pol-rev.com/events/7035a51f-0315-48c3-baa5-1b3de92888bc"
-            }
-          ]
-        },
-        {
-          "title": "Online - Public Antifascist Documentary Screening and Discussion with Central Illinois Iron Front",
-          "begin": "2026-06-11",
-          "end": "2026-06-11",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Online - Public Antifascist Documentary Screening and Discussion with Central Illinois Iron Front",
-              "href": "https://events.pol-rev.com/events/510d1179-ae8b-4d50-884e-4dc7597efd41"
             }
           ]
         }
