@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-14",
+  "cutoffStr": "2026-05-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 10812,
-    "geoKept": 10757,
-    "virtKept": 45
+    "all": 10827,
+    "geoKept": 10772,
+    "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 10785,
-      "recent": 10782,
-      "withCoords": 8872,
-      "keptGeo": 8869,
-      "keptVirt": 1913,
+      "total": 10801,
+      "recent": 10798,
+      "withCoords": 8881,
+      "keptGeo": 8878,
+      "keptVirt": 1920,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 21,
+      "total": 20,
       "recent": 20,
-      "withCoords": 14,
+      "withCoords": 13,
       "keptGeo": 13,
       "keptVirt": 7,
-      "sampleDroppedByDate": [
-        {
-          "title": "Park Board meeting - Oppose the private sale of Detweiller Playground & Marina",
-          "begin": "2026-05-13",
-          "end": "2026-05-13",
-          "lat": 40.7416337,
-          "lng": -89.6107988,
-          "location": "Noble Center, 1125 West Lake Avenue, Peoria, IL 61614, United States of America, Peoria",
-          "links": [
-            {
-              "title": "Park Board meeting - Oppose the private sale of Detweiller Playground & Marina",
-              "href": "https://events.pol-rev.com/events/de285be1-b447-4fcc-a44d-631cf21570fa"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
