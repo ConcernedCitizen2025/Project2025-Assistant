@@ -1,75 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-05-15",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943367,
-      "mobilize_id": 943367,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
-      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-      "begin": "2026-05-15",
-      "end": "2026-06-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-15",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Storytelling—characters who model kindness, community, and democracy…and inspire action.",
-      "begin": "2026-05-15",
-      "end": "2026-05-15",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Storytelling—characters who model kindness, community, and democracy…and inspire action.",
-          "href": "https://events.pol-rev.com/events/d0df1814-ceb8-4d04-aee3-37f4a394f9ae"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -124,34 +55,22 @@
       "_src": "mobilize"
     },
     {
-      "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
       "begin": "2026-05-16",
-      "end": "2026-05-16",
+      "end": "2026-06-23",
       "lat": null,
       "lng": null,
-      "location": "",
+      "location": "This event's address is private. Sign up for more details, NY",
       "links": [
         {
-          "title": "50501 JOPLIN / CitIzens Against Tyranny Monthly Meeting",
-          "href": "https://events.pol-rev.com/events/312aff91-7c93-4aa5-9104-d4ccab3f4912"
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
-      "_src": "mobilizon"
-    },
-    {
-      "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
-      "begin": "2026-05-16",
-      "end": "2026-05-16",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "50501 JOPLIN | Citizens Against Tyranny Monthly Meeting",
-          "href": "https://events.pol-rev.com/events/9c5868c8-7101-4bd3-8fd5-488ad5913904"
-        }
-      ],
-      "_src": "mobilizon"
+      "_src": "mobilize"
     },
     {
       "_id": 936264,
@@ -203,24 +122,6 @@
         {
           "title": "\"Fight for the T in Team\" Local Activation in Puerto Rico",
           "href": "https://www.mobilize.us/lambdalegal/event/946928/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 953289,
-      "mobilize_id": 953289,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/953289/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-05-17",
-      "end": "2026-05-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/953289/"
         }
       ],
       "_src": "mobilize"
@@ -293,6 +194,24 @@
         {
           "title": "Southern End Poll Greeting Interest Form",
           "href": "https://www.mobilize.us/lancastercountydems/event/934239/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943367,
+      "mobilize_id": 943367,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
+      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+      "begin": "2026-05-19",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
         }
       ],
       "_src": "mobilize"
@@ -419,6 +338,24 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/953295/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-05-22",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
