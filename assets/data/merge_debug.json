@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-16",
+  "cutoffStr": "2026-05-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 10802,
-    "geoKept": 10749,
-    "virtKept": 42
+    "all": 10088,
+    "geoKept": 10038,
+    "virtKept": 41
   },
   "perSource": {
     "mobilize": {
-      "total": 10778,
-      "recent": 10775,
-      "withCoords": 8882,
-      "keptGeo": 8879,
-      "keptVirt": 1896,
+      "total": 10066,
+      "recent": 10064,
+      "withCoords": 8311,
+      "keptGeo": 8309,
+      "keptVirt": 1755,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,37 +109,23 @@
       ]
     },
     "mobilizon": {
-      "total": 18,
-      "recent": 16,
-      "withCoords": 13,
-      "keptGeo": 12,
+      "total": 16,
+      "recent": 15,
+      "withCoords": 12,
+      "keptGeo": 11,
       "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Storytelling—characters who model kindness, community, and democracy…and inspire action.",
-          "begin": "2026-05-15",
-          "end": "2026-05-15",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-05-16",
+          "end": "2026-05-16",
+          "lat": 42.23567,
+          "lng": -71.178862,
+          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
           "links": [
             {
-              "title": "Storytelling—characters who model kindness, community, and democracy…and inspire action.",
-              "href": "https://events.pol-rev.com/events/d0df1814-ceb8-4d04-aee3-37f4a394f9ae"
-            }
-          ]
-        },
-        {
-          "title": "Friday Mornings in Mentor",
-          "begin": "2026-05-15",
-          "end": "2026-05-15",
-          "lat": 41.66151179340321,
-          "lng": -81.36228275292524,
-          "location": "7967 Mentor Avenue, Mentor, OH 44060, United States of America, Mentor",
-          "links": [
-            {
-              "title": "Friday Mornings in Mentor",
-              "href": "https://events.pol-rev.com/events/ab6d0f9c-1091-4848-8c2c-b5544320c1b0"
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/7537fd67-d9de-4190-8e5f-0663e2c06cf5"
             }
           ]
         }
