@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-18",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 950571,
-      "mobilize_id": 950571,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/950571/",
-      "title": "Election Day Poll Canvassing Training - Virtual",
-      "begin": "2026-05-18",
-      "end": "2026-05-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Election Day Poll Canvassing Training - Virtual",
-          "href": "https://www.mobilize.us/summerleeforcongress/event/950571/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 950654,
-      "mobilize_id": 950654,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/950654/",
-      "title": "Phonebank with Equality California for Juan Camacho for Senate (SD-26)",
-      "begin": "2026-05-18",
-      "end": "2026-05-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "Phonebank with Equality California for Juan Camacho for Senate (SD-26)",
-          "href": "https://www.mobilize.us/equalitycalifornia/event/950654/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 934239,
       "mobilize_id": 934239,
       "canonical_mobilize_url": "https://www.mobilize.us/event/934239/",
@@ -86,6 +32,24 @@
         {
           "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
           "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-05-19",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -140,24 +104,6 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 948902,
-      "mobilize_id": 948902,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/948902/",
-      "title": "Virtual Phonebank with V.I.D.A",
-      "begin": "2026-05-21",
-      "end": "2026-05-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Phonebank with V.I.D.A",
-          "href": "https://www.mobilize.us/committeetoelectmarlonrice/event/948902/"
         }
       ],
       "_src": "mobilize"
@@ -325,6 +271,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 957968,
+      "mobilize_id": 957968,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957968/",
+      "title": "Door knock with Lynette!",
+      "begin": "2026-05-24",
+      "end": "2026-05-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door knock with Lynette!",
+          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957968/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -374,6 +338,42 @@
         {
           "title": "Digital Organizing: How to Engage and Activate Your Audience",
           "href": "https://www.mobilize.us/ndtc/event/950904/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957895,
+      "mobilize_id": 957895,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957895/",
+      "title": "Door knock with Lynette!",
+      "begin": "2026-05-26",
+      "end": "2026-05-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door knock with Lynette!",
+          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957895/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 950654,
+      "mobilize_id": 950654,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/950654/",
+      "title": "Phonebank with Equality California for Juan Camacho for Senate (SD-26)",
+      "begin": "2026-05-27",
+      "end": "2026-05-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "Phonebank with Equality California for Juan Camacho for Senate (SD-26)",
+          "href": "https://www.mobilize.us/equalitycalifornia/event/950654/"
         }
       ],
       "_src": "mobilize"
@@ -438,7 +438,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/943498/",
       "title": "Learn How to Talk to Voters Training in Minnetonka!",
       "begin": "2026-05-28",
-      "end": "2026-05-28",
+      "end": "2026-06-04",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, Minnetonka",
@@ -446,6 +446,42 @@
         {
           "title": "Learn How to Talk to Voters Training in Minnetonka!",
           "href": "https://www.mobilize.us/dflcc/event/943498/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957970,
+      "mobilize_id": 957970,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957970/",
+      "title": "Door knock with Lynette!",
+      "begin": "2026-05-28",
+      "end": "2026-05-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door knock with Lynette!",
+          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957970/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957974,
+      "mobilize_id": 957974,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957974/",
+      "title": "Door knock with Lynette!",
+      "begin": "2026-05-30",
+      "end": "2026-05-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door knock with Lynette!",
+          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957974/"
         }
       ],
       "_src": "mobilize"
@@ -469,19 +505,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 957646,
-      "mobilize_id": 957646,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957646/",
-      "title": "Canvass with Tammy Caputi!",
+      "_id": 957977,
+      "mobilize_id": 957977,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957977/",
+      "title": "Door knock with Lynette!",
       "begin": "2026-05-31",
-      "end": "2026-07-01",
+      "end": "2026-05-31",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Canvass with Tammy Caputi!",
-          "href": "https://www.mobilize.us/ld4democrats/event/957646/"
+          "title": "Door knock with Lynette!",
+          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957977/"
         }
       ],
       "_src": "mobilize"
@@ -725,6 +761,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 958108,
+      "mobilize_id": 958108,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/958108/",
+      "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
+      "begin": "2026-07-18",
+      "end": "2026-07-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
+          "href": "https://www.mobilize.us/acluin/event/958108/"
+        }
+      ],
+      "_src": "mobilize"
     }
   ]
 }

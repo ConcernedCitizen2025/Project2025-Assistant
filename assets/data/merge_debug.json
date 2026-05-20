@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-18",
+  "cutoffStr": "2026-05-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 10061,
-    "geoKept": 10008,
-    "virtKept": 41
+    "all": 10293,
+    "geoKept": 10240,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 10038,
-      "recent": 10035,
-      "withCoords": 8325,
-      "keptGeo": 8322,
-      "keptVirt": 1713,
+      "total": 10272,
+      "recent": 10269,
+      "withCoords": 8472,
+      "keptGeo": 8469,
+      "keptVirt": 1800,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,55 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 17,
-      "recent": 14,
-      "withCoords": 13,
-      "keptGeo": 10,
+      "total": 15,
+      "recent": 15,
+      "withCoords": 11,
+      "keptGeo": 11,
       "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "Trans Peoria Community Potluck",
-          "begin": "2026-05-17",
-          "end": "2026-05-17",
-          "lat": 40.7243158,
-          "lng": -89.560523,
-          "location": "Central Illinois Friends LGBTQ+ Community Center, 2112 East War Memorial Drive, Peoria, IL 61614, United States of America, Peoria",
-          "links": [
-            {
-              "title": "Trans Peoria Community Potluck",
-              "href": "https://events.pol-rev.com/events/d5a2a0e4-add8-4cbe-905e-471fe94e9949"
-            }
-          ]
-        },
-        {
-          "title": "BloNo IL - Community Meeting and Cookout",
-          "begin": "2026-05-17",
-          "end": "2026-05-17",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Community Meeting and Cookout",
-              "href": "https://events.pol-rev.com/events/ec685104-d2ea-4d88-b99a-e98fdd9527bc"
-            }
-          ]
-        },
-        {
-          "title": "We The People of Ohio - Constitution in Mentor OH",
-          "begin": "2026-05-17",
-          "end": "2026-05-17",
-          "lat": 41.66151179340321,
-          "lng": -81.36228275292524,
-          "location": "7967 Mentor Avenue, Mentor, OH 44060, United States of America, Mentor",
-          "links": [
-            {
-              "title": "We The People of Ohio - Constitution in Mentor OH",
-              "href": "https://events.pol-rev.com/events/126d26b9-71f4-47e1-8c17-dc11a17fb937"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
