@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 934239,
-      "mobilize_id": 934239,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/934239/",
-      "title": "Southern End Poll Greeting Interest Form",
-      "begin": "2026-05-19",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Southern End Poll Greeting Interest Form",
-          "href": "https://www.mobilize.us/lancastercountydems/event/934239/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943367,
-      "mobilize_id": 943367,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
-      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-      "begin": "2026-05-19",
-      "end": "2026-06-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-19",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 944764,
       "mobilize_id": 944764,
       "canonical_mobilize_url": "https://www.mobilize.us/event/944764/",
@@ -68,6 +14,24 @@
         {
           "title": "Virtual Phone Banking",
           "href": "https://www.mobilize.us/jjgalvez forassemblydistrict71/event/944764/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-05-20",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -109,6 +73,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 943367,
+      "mobilize_id": 943367,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
+      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+      "begin": "2026-05-21",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 950651,
       "mobilize_id": 950651,
       "canonical_mobilize_url": "https://www.mobilize.us/event/950651/",
@@ -122,24 +104,6 @@
         {
           "title": "Phonebank with Equality California for Marni von Wilpert for Congress (CA-48)",
           "href": "https://www.mobilize.us/equalitycalifornia/event/950651/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 953295,
-      "mobilize_id": 953295,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/953295/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-05-21",
-      "end": "2026-05-21",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/953295/"
         }
       ],
       "_src": "mobilize"
@@ -776,6 +740,24 @@
         {
           "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
           "href": "https://www.mobilize.us/acluin/event/958108/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 934239,
+      "mobilize_id": 934239,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/934239/",
+      "title": "Southern End Poll Greeting Interest Form",
+      "begin": "2026-11-03",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Southern End Poll Greeting Interest Form",
+          "href": "https://www.mobilize.us/lancastercountydems/event/934239/"
         }
       ],
       "_src": "mobilize"
