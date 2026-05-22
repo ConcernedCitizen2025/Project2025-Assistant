@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-20",
+  "cutoffStr": "2026-05-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 10330,
-    "geoKept": 10277,
-    "virtKept": 43
+    "all": 10320,
+    "geoKept": 10262,
+    "virtKept": 49
   },
   "perSource": {
     "mobilize": {
-      "total": 10307,
-      "recent": 10304,
-      "withCoords": 8524,
+      "total": 10298,
+      "recent": 10296,
+      "withCoords": 8523,
       "keptGeo": 8521,
-      "keptVirt": 1783,
+      "keptVirt": 1775,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -127,23 +109,23 @@
       ]
     },
     "mobilizon": {
-      "total": 17,
-      "recent": 16,
-      "withCoords": 13,
-      "keptGeo": 12,
+      "total": 16,
+      "recent": 15,
+      "withCoords": 12,
+      "keptGeo": 11,
       "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Share Your SNAP Story",
-          "begin": "2026-05-19",
-          "end": "2026-05-19",
-          "lat": 40.7137687,
-          "lng": -89.6030117,
-          "location": "Peoria City/County Health Department, 2116 North Sheridan Road, Peoria, IL 61604, United States of America, Peoria",
+          "title": "BloNo IL - Shut the Flock Off in person meeting",
+          "begin": "2026-05-20",
+          "end": "2026-05-20",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "Share Your SNAP Story",
-              "href": "https://events.pol-rev.com/events/cee93aa0-875e-4ae0-81f3-7dde8e6848c3"
+              "title": "BloNo IL - Shut the Flock Off in person meeting",
+              "href": "https://events.pol-rev.com/events/27ee3fa0-8949-4a2d-9a45-2731c04a24f5"
             }
           ]
         }
