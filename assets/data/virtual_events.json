@@ -1,19 +1,19 @@
 {
   "data": [
     {
-      "_id": 877691,
-      "mobilize_id": 877691,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
-      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-      "begin": "2026-05-21",
-      "end": "2026-12-17",
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-05-22",
+      "end": "2026-10-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -23,7 +23,7 @@
       "mobilize_id": 943367,
       "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
       "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-      "begin": "2026-05-21",
+      "begin": "2026-05-22",
       "end": "2026-06-02",
       "lat": null,
       "lng": null,
@@ -41,7 +41,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-21",
+      "begin": "2026-05-22",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -50,60 +50,6 @@
         {
           "title": "Team Meeks Phonebanking",
           "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 950651,
-      "mobilize_id": 950651,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/950651/",
-      "title": "Phonebank with Equality California for Marni von Wilpert for Congress (CA-48)",
-      "begin": "2026-05-21",
-      "end": "2026-05-21",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "Phonebank with Equality California for Marni von Wilpert for Congress (CA-48)",
-          "href": "https://www.mobilize.us/equalitycalifornia/event/950651/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957720,
-      "mobilize_id": 957720,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957720/",
-      "title": "GOTV Phone Bank and Text Bank",
-      "begin": "2026-05-21",
-      "end": "2026-06-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "GOTV Phone Bank and Text Bank",
-          "href": "https://www.mobilize.us/jakelevineforcongress/event/957720/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-05-22",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -163,24 +109,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 953297,
-      "mobilize_id": 953297,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/953297/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-05-23",
-      "end": "2026-05-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/953297/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 956524,
       "mobilize_id": 956524,
       "canonical_mobilize_url": "https://www.mobilize.us/event/956524/",
@@ -194,24 +122,6 @@
         {
           "title": "Simi Valley: Get out the Vote with Jake Levine for Congress!",
           "href": "https://www.mobilize.us/jakelevineforcongress/event/956524/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957968,
-      "mobilize_id": 957968,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957968/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-05-24",
-      "end": "2026-05-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957968/"
         }
       ],
       "_src": "mobilize"
@@ -266,6 +176,24 @@
         {
           "title": "Digital Organizing: How to Engage and Activate Your Audience",
           "href": "https://www.mobilize.us/ndtc/event/950904/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957720,
+      "mobilize_id": 957720,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957720/",
+      "title": "GOTV Phone Bank and Text Bank",
+      "begin": "2026-05-26",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "GOTV Phone Bank and Text Bank",
+          "href": "https://www.mobilize.us/jakelevineforcongress/event/957720/"
         }
       ],
       "_src": "mobilize"
@@ -356,6 +284,24 @@
         {
           "title": "Pearland Democrats Book Club",
           "href": "https://www.mobilize.us/bcdp/event/955979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 959079,
+      "mobilize_id": 959079,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/959079/",
+      "title": "Virtual Rally with James Talarico and Gina Hinojosa!",
+      "begin": "2026-05-27",
+      "end": "2026-05-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Rally with James Talarico and Gina Hinojosa!",
+          "href": "https://www.mobilize.us/texasdemocrats/event/959079/"
         }
       ],
       "_src": "mobilize"
@@ -659,6 +605,24 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959549/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877691,
+      "mobilize_id": 877691,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
+      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+      "begin": "2026-06-18",
+      "end": "2026-12-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
         }
       ],
       "_src": "mobilize"

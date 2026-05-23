@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-21",
+  "cutoffStr": "2026-05-22",
   "lookbackDays": 1,
   "totals": {
-    "all": 10320,
-    "geoKept": 10262,
-    "virtKept": 49
+    "all": 10402,
+    "geoKept": 10347,
+    "virtKept": 47
   },
   "perSource": {
     "mobilize": {
-      "total": 10298,
-      "recent": 10296,
-      "withCoords": 8523,
-      "keptGeo": 8521,
-      "keptVirt": 1775,
+      "total": 10381,
+      "recent": 10379,
+      "withCoords": 8601,
+      "keptGeo": 8599,
+      "keptVirt": 1780,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,27 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 16,
+      "total": 15,
       "recent": 15,
-      "withCoords": 12,
+      "withCoords": 11,
       "keptGeo": 11,
       "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "BloNo IL - Shut the Flock Off in person meeting",
-          "begin": "2026-05-20",
-          "end": "2026-05-20",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Shut the Flock Off in person meeting",
-              "href": "https://events.pol-rev.com/events/27ee3fa0-8949-4a2d-9a45-2731c04a24f5"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
