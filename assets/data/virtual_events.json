@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-05-22",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943367,
-      "mobilize_id": 943367,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
-      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-      "begin": "2026-05-22",
-      "end": "2026-06-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-22",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957486,
-      "mobilize_id": 957486,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
-      "title": "\"Knock With Wanika\" Canvass",
-      "begin": "2026-05-22",
-      "end": "2026-06-21",
-      "lat": null,
-      "lng": null,
-      "location": "UPPR MARLBORO, MD",
-      "links": [
-        {
-          "title": "\"Knock With Wanika\" Canvass",
-          "href": "https://www.mobilize.us/friendsofwanikafisher/event/957486/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 937346,
       "mobilize_id": 937346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
@@ -104,6 +32,42 @@
         {
           "title": "Weekend Door Knocking w/ Brink for Congress",
           "href": "https://www.mobilize.us/brinkforcongress/event/948400/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-05-23",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957486,
+      "mobilize_id": 957486,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
+      "title": "\"Knock With Wanika\" Canvass",
+      "begin": "2026-05-23",
+      "end": "2026-06-21",
+      "lat": null,
+      "lng": null,
+      "location": "UPPR MARLBORO, MD",
+      "links": [
+        {
+          "title": "\"Knock With Wanika\" Canvass",
+          "href": "https://www.mobilize.us/friendsofwanikafisher/event/957486/"
         }
       ],
       "_src": "mobilize"
@@ -158,6 +122,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943367,
+      "mobilize_id": 943367,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
+      "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+      "begin": "2026-05-26",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
+          "href": "https://www.mobilize.us/lisadramirezforcongress/event/943367/"
         }
       ],
       "_src": "mobilize"
@@ -374,6 +356,24 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957970/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-05-29",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"

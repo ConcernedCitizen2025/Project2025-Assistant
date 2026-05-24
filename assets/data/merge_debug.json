@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-22",
+  "cutoffStr": "2026-05-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 10402,
-    "geoKept": 10347,
+    "all": 10423,
+    "geoKept": 10366,
     "virtKept": 47
   },
   "perSource": {
     "mobilize": {
-      "total": 10381,
-      "recent": 10379,
-      "withCoords": 8601,
-      "keptGeo": 8599,
-      "keptVirt": 1780,
+      "total": 10402,
+      "recent": 10399,
+      "withCoords": 8624,
+      "keptGeo": 8621,
+      "keptVirt": 1778,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -110,11 +128,26 @@
     },
     "mobilizon": {
       "total": 15,
-      "recent": 15,
+      "recent": 14,
       "withCoords": 11,
-      "keptGeo": 11,
+      "keptGeo": 10,
       "keptVirt": 4,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Fridays Mornings in Mentor Protest",
+          "begin": "2026-05-22",
+          "end": "2026-05-22",
+          "lat": 41.66151179340321,
+          "lng": -81.36228275292524,
+          "location": "7967 Mentor Avenue, Mentor, OH 44060, United States of America, Mentor",
+          "links": [
+            {
+              "title": "Fridays Mornings in Mentor Protest",
+              "href": "https://events.pol-rev.com/events/1f5e569c-386e-42d8-a008-f3fe2646c875"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
