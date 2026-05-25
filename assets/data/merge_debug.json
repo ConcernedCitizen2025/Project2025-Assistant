@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-23",
+  "cutoffStr": "2026-05-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 10423,
-    "geoKept": 10366,
+    "all": 10149,
+    "geoKept": 10092,
     "virtKept": 47
   },
   "perSource": {
     "mobilize": {
-      "total": 10402,
-      "recent": 10399,
-      "withCoords": 8624,
-      "keptGeo": 8621,
-      "keptVirt": 1778,
+      "total": 10128,
+      "recent": 10125,
+      "withCoords": 8388,
+      "keptGeo": 8385,
+      "keptVirt": 1740,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -134,16 +134,16 @@
       "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "Fridays Mornings in Mentor Protest",
-          "begin": "2026-05-22",
-          "end": "2026-05-22",
-          "lat": 41.66151179340321,
-          "lng": -81.36228275292524,
-          "location": "7967 Mentor Avenue, Mentor, OH 44060, United States of America, Mentor",
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-05-23",
+          "end": "2026-05-23",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
           "links": [
             {
-              "title": "Fridays Mornings in Mentor Protest",
-              "href": "https://events.pol-rev.com/events/1f5e569c-386e-42d8-a008-f3fe2646c875"
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/e651b72b-cc91-445b-8e09-1aff0f1e7a26"
             }
           ]
         }
