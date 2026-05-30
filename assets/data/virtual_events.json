@@ -1,37 +1,19 @@
 {
   "data": [
     {
-      "_id": 783402,
-      "mobilize_id": 783402,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
-      "title": "TA Brooklyn Monthly Meeting",
-      "begin": "2026-05-28",
-      "end": "2026-11-26",
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-05-29",
+      "end": "2026-10-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "TA Brooklyn Monthly Meeting",
-          "href": "https://www.mobilize.us/transalt/event/783402/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 904459,
-      "mobilize_id": 904459,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "Blue Magnolia Monthly Breakfast Social",
-      "begin": "2026-05-28",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Blue Magnolia Monthly Breakfast Social",
-          "href": "https://www.mobilize.us/mcdptx/event/904459/"
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -41,7 +23,7 @@
       "mobilize_id": 937346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
       "title": "David Penaloza for State Assembly AD 68: Weekly",
-      "begin": "2026-05-28",
+      "begin": "2026-05-29",
       "end": "2026-05-31",
       "lat": null,
       "lng": null,
@@ -59,7 +41,7 @@
       "mobilize_id": 943367,
       "canonical_mobilize_url": "https://www.mobilize.us/event/943367/",
       "title": "Phone Bank with LISA RAMIREZ FOR CONGRESS",
-      "begin": "2026-05-28",
+      "begin": "2026-05-29",
       "end": "2026-06-02",
       "lat": null,
       "lng": null,
@@ -77,7 +59,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-05-28",
+      "begin": "2026-05-29",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -91,29 +73,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 952446,
-      "mobilize_id": 952446,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/952446/",
-      "title": "Region 8 Volunteer Recruitment Meeting!",
-      "begin": "2026-05-28",
-      "end": "2026-05-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Region 8 Volunteer Recruitment Meeting!",
-          "href": "https://www.mobilize.us/wisdems/event/952446/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 953754,
       "mobilize_id": 953754,
       "canonical_mobilize_url": "https://www.mobilize.us/event/953754/",
       "title": "VOLUNTEER FOR YES ON MEASURE A!",
-      "begin": "2026-05-28",
+      "begin": "2026-05-29",
       "end": "2026-06-02",
       "lat": null,
       "lng": null,
@@ -122,42 +86,6 @@
         {
           "title": "VOLUNTEER FOR YES ON MEASURE A!",
           "href": "https://www.mobilize.us/millionvotersproject/event/953754/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957720,
-      "mobilize_id": 957720,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957720/",
-      "title": "GOTV Phone Bank and Text Bank",
-      "begin": "2026-05-28",
-      "end": "2026-06-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "GOTV Phone Bank and Text Bank",
-          "href": "https://www.mobilize.us/jakelevineforcongress/event/957720/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-05-29",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -181,6 +109,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 957720,
+      "mobilize_id": 957720,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957720/",
+      "title": "GOTV Phone Bank and Text Bank for Jake Levine for Congress!",
+      "begin": "2026-05-29",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "GOTV Phone Bank and Text Bank for Jake Levine for Congress!",
+          "href": "https://www.mobilize.us/jakelevineforcongress/event/957720/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 922827,
+      "mobilize_id": 922827,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/922827/",
+      "title": "Get Out to Vote with Andrae Gonzales for State Assembly",
+      "begin": "2026-05-30",
+      "end": "2026-06-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "Get Out to Vote with Andrae Gonzales for State Assembly",
+          "href": "https://www.mobilize.us/cadems/event/922827/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 948400,
       "mobilize_id": 948400,
       "canonical_mobilize_url": "https://www.mobilize.us/event/948400/",
@@ -194,42 +158,6 @@
         {
           "title": "Weekend Door Knocking w/ Brink for Congress",
           "href": "https://www.mobilize.us/brinkforcongress/event/948400/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957974,
-      "mobilize_id": 957974,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957974/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-05-30",
-      "end": "2026-05-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/957974/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 936678,
-      "mobilize_id": 936678,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/936678/",
-      "title": "Howdy Neighbor! East Travis Block Walk",
-      "begin": "2026-05-31",
-      "end": "2026-05-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Howdy Neighbor! East Travis Block Walk",
-          "href": "https://www.mobilize.us/traviscountydems/event/936678/"
         }
       ],
       "_src": "mobilize"
@@ -266,24 +194,6 @@
         {
           "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
           "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 956524,
-      "mobilize_id": 956524,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/956524/",
-      "title": "Simi Valley: Get out the Vote with Jake Levine for Congress!",
-      "begin": "2026-06-01",
-      "end": "2026-06-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "Simi Valley: Get out the Vote with Jake Levine for Congress!",
-          "href": "https://www.mobilize.us/jakelevineforcongress/event/956524/"
         }
       ],
       "_src": "mobilize"
@@ -679,6 +589,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 783402,
+      "mobilize_id": 783402,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
+      "title": "TA Brooklyn Monthly Meeting",
+      "begin": "2026-06-25",
+      "end": "2026-11-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "TA Brooklyn Monthly Meeting",
+          "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 904459,
+      "mobilize_id": 904459,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
+      "title": "Blue Magnolia Monthly Breakfast Social",
+      "begin": "2026-06-25",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Blue Magnolia Monthly Breakfast Social",
+          "href": "https://www.mobilize.us/mcdptx/event/904459/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 959551,
       "mobilize_id": 959551,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959551/",
@@ -692,6 +638,24 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959551/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 963730,
+      "mobilize_id": 963730,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/963730/",
+      "title": "Neighborhood Conversations with the Outagamie Dems in Grand Chute + Greenville!",
+      "begin": "2026-06-27",
+      "end": "2026-06-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Neighborhood Conversations with the Outagamie Dems in Grand Chute + Greenville!",
+          "href": "https://www.mobilize.us/wisdems/event/963730/"
         }
       ],
       "_src": "mobilize"
