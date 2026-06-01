@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-30",
+  "cutoffStr": "2026-05-31",
   "lookbackDays": 1,
   "totals": {
-    "all": 11088,
-    "geoKept": 11036,
-    "virtKept": 44
+    "all": 10578,
+    "geoKept": 10516,
+    "virtKept": 51
   },
   "perSource": {
     "mobilize": {
-      "total": 11067,
-      "recent": 11065,
-      "withCoords": 9180,
-      "keptGeo": 9178,
-      "keptVirt": 1887,
+      "total": 10551,
+      "recent": 10548,
+      "withCoords": 8795,
+      "keptGeo": 8792,
+      "keptVirt": 1756,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,12 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 15,
-      "recent": 15,
+      "total": 21,
+      "recent": 19,
       "withCoords": 11,
-      "keptGeo": 11,
-      "keptVirt": 4,
-      "sampleDroppedByDate": [],
+      "keptGeo": 9,
+      "keptVirt": 10,
+      "sampleDroppedByDate": [
+        {
+          "title": "Care Fair",
+          "begin": "2026-05-30",
+          "end": "2026-05-30",
+          "lat": 40.730706,
+          "lng": -89.612813,
+          "location": "3525 North University Street, Peoria, IL 61604, United States of America, Peoria",
+          "links": [
+            {
+              "title": "Care Fair",
+              "href": "https://events.pol-rev.com/events/d6a7b9d7-395c-49bf-a196-38d008f4a592"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-05-30",
+          "end": "2026-05-30",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/2369b5e2-3bed-4e0c-aa1f-7866d8c58fae"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
