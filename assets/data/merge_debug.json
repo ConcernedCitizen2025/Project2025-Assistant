@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-05-31",
+  "cutoffStr": "2026-06-01",
   "lookbackDays": 1,
   "totals": {
-    "all": 10578,
-    "geoKept": 10516,
+    "all": 10732,
+    "geoKept": 10671,
     "virtKept": 51
   },
   "perSource": {
     "mobilize": {
-      "total": 10551,
-      "recent": 10548,
-      "withCoords": 8795,
-      "keptGeo": 8792,
-      "keptVirt": 1756,
+      "total": 10707,
+      "recent": 10704,
+      "withCoords": 8927,
+      "keptGeo": 8924,
+      "keptVirt": 1780,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-05-31",
+          "begin": "2026-06-07",
           "end": "2026-08-30",
           "lat": null,
           "lng": null,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 21,
-      "recent": 19,
-      "withCoords": 11,
-      "keptGeo": 9,
+      "total": 19,
+      "recent": 18,
+      "withCoords": 9,
+      "keptGeo": 8,
       "keptVirt": 10,
       "sampleDroppedByDate": [
         {
-          "title": "Care Fair",
-          "begin": "2026-05-30",
-          "end": "2026-05-30",
-          "lat": 40.730706,
-          "lng": -89.612813,
-          "location": "3525 North University Street, Peoria, IL 61604, United States of America, Peoria",
+          "title": "Liberty and Justice for All",
+          "begin": "2026-05-31",
+          "end": "2026-05-31",
+          "lat": 43.2068627,
+          "lng": -71.5381542,
+          "location": "New Hampshire State House, 107 North Main Street, Concord, NH 03301, United States of America, Concord",
           "links": [
             {
-              "title": "Care Fair",
-              "href": "https://events.pol-rev.com/events/d6a7b9d7-395c-49bf-a196-38d008f4a592"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-05-30",
-          "end": "2026-05-30",
-          "lat": 42.2371631,
-          "lng": -71.1786432,
-          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/2369b5e2-3bed-4e0c-aa1f-7866d8c58fae"
+              "title": "Liberty and Justice for All",
+              "href": "https://events.pol-rev.com/events/bbd30f5e-42e3-406d-9662-c4fc42d75506"
             }
           ]
         }
