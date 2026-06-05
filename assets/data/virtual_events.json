@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-03",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
@@ -68,6 +50,24 @@
         {
           "title": "LAD Summer Candidate Post Card Events",
           "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-06-04",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -307,6 +307,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 967341,
+      "mobilize_id": 967341,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/967341/",
+      "title": "Meet Your New Field Organizers from the Coordinated! Durham, NC",
+      "begin": "2026-06-11",
+      "end": "2026-06-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Meet Your New Field Organizers from the Coordinated! Durham, NC",
+          "href": "https://www.mobilize.us/nc-coordinated/event/967341/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Online - CIIF Renegade Film Club: Public Antifascist Documentary Screening and Discussion",
       "begin": "2026-06-11",
       "end": "2026-06-11",
@@ -353,6 +371,24 @@
         {
           "title": "Downriver Door Knocking",
           "href": "https://www.mobilize.us/teammichigan/event/966499/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 967412,
+      "mobilize_id": 967412,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/967412/",
+      "title": "Indivisible Rise Up, Sing Out Watch Party",
+      "begin": "2026-06-14",
+      "end": "2026-06-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Mia",
+      "links": [
+        {
+          "title": "Indivisible Rise Up, Sing Out Watch Party",
+          "href": "https://www.mobilize.us/indivisiblesimivalley/event/967412/"
         }
       ],
       "_src": "mobilize"
