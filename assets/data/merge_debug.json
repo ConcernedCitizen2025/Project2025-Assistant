@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-04",
+  "cutoffStr": "2026-06-05",
   "lookbackDays": 1,
   "totals": {
-    "all": 11523,
-    "geoKept": 11473,
-    "virtKept": 42
+    "all": 11737,
+    "geoKept": 11688,
+    "virtKept": 39
   },
   "perSource": {
     "mobilize": {
-      "total": 11498,
-      "recent": 11496,
-      "withCoords": 9478,
-      "keptGeo": 9476,
-      "keptVirt": 2020,
+      "total": 11709,
+      "recent": 11706,
+      "withCoords": 9643,
+      "keptGeo": 9640,
+      "keptVirt": 2066,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -109,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 19,
-      "recent": 19,
-      "withCoords": 15,
-      "keptGeo": 15,
+      "total": 22,
+      "recent": 21,
+      "withCoords": 18,
+      "keptGeo": 17,
       "keptVirt": 4,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "ACLU Illinois Peoria Chapter's 65th Annual Meeting and Awards Dinner",
+          "begin": "2026-06-04",
+          "end": "2026-06-04",
+          "lat": 40.7488531,
+          "lng": -89.558808,
+          "location": "5102 North Galena Road, Peoria Heights, Peoria, IL 61616, United States of America, Peoria",
+          "links": [
+            {
+              "title": "ACLU Illinois Peoria Chapter's 65th Annual Meeting and Awards Dinner",
+              "href": "https://events.pol-rev.com/events/ff3b8e50-d777-4deb-9ba2-f73f4e7b03ae"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",

@@ -1,65 +1,11 @@
 {
   "data": [
     {
-      "_id": 547245,
-      "mobilize_id": 547245,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
-      "title": "Monthly All Member Meeting",
-      "begin": "2026-06-04",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly All Member Meeting",
-          "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 865658,
-      "mobilize_id": 865658,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
-      "title": "Indivisible LAB Evening Action Hours (Bedford 6/4, Arlington 6/25)",
-      "begin": "2026-06-04",
-      "end": "2026-06-25",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Indivisible LAB Evening Action Hours (Bedford 6/4, Arlington 6/25)",
-          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943355,
-      "mobilize_id": 943355,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
-      "title": "LAD Summer Candidate Post Card Events",
-      "begin": "2026-06-04",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LAD Summer Candidate Post Card Events",
-          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 949838,
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-04",
+      "begin": "2026-06-05",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -68,60 +14,6 @@
         {
           "title": "Team Meeks Phonebanking",
           "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 955304,
-      "mobilize_id": 955304,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/955304/",
-      "title": "Virtual Voter Outreach Workshop",
-      "begin": "2026-06-04",
-      "end": "2026-06-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "Virtual Voter Outreach Workshop",
-          "href": "https://www.mobilize.us/equalityflorida/event/955304/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961068,
-      "mobilize_id": 961068,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961068/",
-      "title": "Greater Charlotte -- NC Judicial Candidate Strategy Session!!!",
-      "begin": "2026-06-04",
-      "end": "2026-06-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Greater Charlotte -- NC Judicial Candidate Strategy Session!!!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/961068/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-06-05",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -202,15 +94,15 @@
       "_id": 959548,
       "mobilize_id": 959548,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959548/",
-      "title": "Door knock with Lynette!",
+      "title": "Door knock with Lynette! SLP W4 P11",
       "begin": "2026-06-06",
       "end": "2026-06-06",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, St. Louis Park",
       "links": [
         {
-          "title": "Door knock with Lynette!",
+          "title": "Door knock with Lynette! SLP W4 P11",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959548/"
         }
       ],
@@ -248,24 +140,6 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 956441,
-      "mobilize_id": 956441,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/956441/",
-      "title": "Eastern Jackson County Volunteer Recruitment Phonebank",
-      "begin": "2026-06-09",
-      "end": "2026-08-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Eastern Jackson County Volunteer Recruitment Phonebank",
-          "href": "https://www.mobilize.us/promomissouri/event/956441/"
         }
       ],
       "_src": "mobilize"
@@ -340,6 +214,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-06-12",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 959549,
       "mobilize_id": 959549,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959549/",
@@ -394,6 +286,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 968210,
+      "mobilize_id": 968210,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/968210/",
+      "title": "Phone Bank for Evonne Hopkins",
+      "begin": "2026-06-17",
+      "end": "2026-06-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Evonne Hopkins",
+          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/968210/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -412,6 +322,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 943355,
+      "mobilize_id": 943355,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
+      "title": "LAD Summer Candidate Post Card Events",
+      "begin": "2026-06-18",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LAD Summer Candidate Post Card Events",
+          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Come with us to the Obama Presidential Library Grand Opening!",
       "begin": "2026-06-18",
       "end": "2026-06-18",
@@ -425,24 +353,6 @@
         }
       ],
       "_src": "mobilizon"
-    },
-    {
-      "_id": 956445,
-      "mobilize_id": 956445,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/956445/",
-      "title": "Eastern Jackson County Canvass Power Weekend",
-      "begin": "2026-06-20",
-      "end": "2026-08-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MO",
-      "links": [
-        {
-          "title": "Eastern Jackson County Canvass Power Weekend",
-          "href": "https://www.mobilize.us/promomissouri/event/956445/"
-        }
-      ],
-      "_src": "mobilize"
     },
     {
       "_id": 959555,
@@ -548,6 +458,24 @@
         {
           "title": "TA Brooklyn Monthly Meeting",
           "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 865658,
+      "mobilize_id": 865658,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
+      "title": "Indivisible LAB Evening Action Hours (Bedford 6/4, Arlington 6/25)",
+      "begin": "2026-06-25",
+      "end": "2026-06-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Indivisible LAB Evening Action Hours (Bedford 6/4, Arlington 6/25)",
+          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
         }
       ],
       "_src": "mobilize"
@@ -671,6 +599,24 @@
         {
           "title": "Ciscomani VOTE HIM OUT Lit Drop",
           "href": "https://www.mobilize.us/indivisibleazcd6/event/947260/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 547245,
+      "mobilize_id": 547245,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
+      "title": "Monthly All Member Meeting",
+      "begin": "2026-07-02",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly All Member Meeting",
+          "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
         }
       ],
       "_src": "mobilize"
