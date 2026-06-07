@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-05",
+  "cutoffStr": "2026-06-06",
   "lookbackDays": 1,
   "totals": {
-    "all": 11737,
-    "geoKept": 11688,
-    "virtKept": 39
+    "all": 11699,
+    "geoKept": 11652,
+    "virtKept": 38
   },
   "perSource": {
     "mobilize": {
-      "total": 11709,
-      "recent": 11706,
-      "withCoords": 9643,
-      "keptGeo": 9640,
-      "keptVirt": 2066,
+      "total": 11672,
+      "recent": 11669,
+      "withCoords": 9624,
+      "keptGeo": 9621,
+      "keptVirt": 2048,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 22,
+      "total": 21,
       "recent": 21,
-      "withCoords": 18,
+      "withCoords": 17,
       "keptGeo": 17,
       "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "ACLU Illinois Peoria Chapter's 65th Annual Meeting and Awards Dinner",
-          "begin": "2026-06-04",
-          "end": "2026-06-04",
-          "lat": 40.7488531,
-          "lng": -89.558808,
-          "location": "5102 North Galena Road, Peoria Heights, Peoria, IL 61616, United States of America, Peoria",
-          "links": [
-            {
-              "title": "ACLU Illinois Peoria Chapter's 65th Annual Meeting and Awards Dinner",
-              "href": "https://events.pol-rev.com/events/ff3b8e50-d777-4deb-9ba2-f73f4e7b03ae"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
