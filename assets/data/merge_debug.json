@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-06",
+  "cutoffStr": "2026-06-07",
   "lookbackDays": 1,
   "totals": {
-    "all": 11699,
-    "geoKept": 11652,
-    "virtKept": 38
+    "all": 11131,
+    "geoKept": 11082,
+    "virtKept": 39
   },
   "perSource": {
     "mobilize": {
-      "total": 11672,
-      "recent": 11669,
-      "withCoords": 9624,
-      "keptGeo": 9621,
-      "keptVirt": 2048,
+      "total": 11101,
+      "recent": 11098,
+      "withCoords": 9150,
+      "keptGeo": 9147,
+      "keptVirt": 1951,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 445825,
           "canonical_mobilize_url": "https://www.mobilize.us/event/445825/",
           "title": "Canvass for Elaine Luria - Virginia Beach",
-          "begin": "2026-06-06",
+          "begin": "2026-06-07",
           "end": "2026-06-07",
           "lat": null,
           "lng": null,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 21,
-      "recent": 21,
-      "withCoords": 17,
-      "keptGeo": 17,
-      "keptVirt": 4,
-      "sampleDroppedByDate": [],
+      "total": 24,
+      "recent": 23,
+      "withCoords": 19,
+      "keptGeo": 18,
+      "keptVirt": 5,
+      "sampleDroppedByDate": [
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-06-06",
+          "end": "2026-06-06",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/48a82d0b-0da8-4669-a960-0c0fb54fc937"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
