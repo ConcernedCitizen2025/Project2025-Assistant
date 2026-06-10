@@ -4979,6 +4979,10 @@
     "lat": 36.1003358,
     "lng": -86.1319341
   },
+  "Akron, OH": {
+    "lat": 41.083064,
+    "lng": -81.518485
+  },
   "Rainbow City, AL": {
     "lat": 33.9549152,
     "lng": -86.0414098
@@ -5135,10 +5139,6 @@
     "lat": 35.595363,
     "lng": -82.5508407
   },
-  "Kalamazoo, MI": {
-    "lat": 42.291707,
-    "lng": -85.5872286
-  },
   "Mayer, MN": {
     "lat": 44.8849625,
     "lng": -93.8877453
@@ -5150,6 +5150,10 @@
   "Henderson, NC": {
     "lat": 35.3389062,
     "lng": -82.4663918
+  },
+  "Kalamazoo, MI": {
+    "lat": 42.291707,
+    "lng": -85.5872286
   },
   "Maple Grove, MN": {
     "lat": 45.0984983,
@@ -5195,6 +5199,10 @@
     "lat": 35.9556924,
     "lng": -80.0053176
   },
+  "Upper Southampton, PA": {
+    "lat": 40.1716312,
+    "lng": -75.0386796
+  },
   "Lee's Summit, MO": {
     "lat": 38.9107156,
     "lng": -94.3821295
@@ -5230,6 +5238,10 @@
   "This event's address is private. Sign up for more details, AZ": {
     "lat": null,
     "lng": null
+  },
+  "Kent Narrows, MD": {
+    "lat": 38.9735512,
+    "lng": -76.2398396
   },
   "Columbia Heights, MN": {
     "lat": 45.0460458,
@@ -5355,6 +5367,10 @@
     "lat": 36.3937519,
     "lng": -78.9827881
   },
+  "Washington, IA": {
+    "lat": 41.3160082,
+    "lng": -91.7340327
+  },
   "Woodbury, MN": {
     "lat": 44.919896,
     "lng": -92.9339449
@@ -5462,6 +5478,10 @@
   "Dearborn Heights, MI": {
     "lat": 42.3369816,
     "lng": -83.2732627
+  },
+  "Ankeny, IA": {
+    "lat": 41.7320796,
+    "lng": -93.605092
   },
   "Savage, MD": {
     "lat": 39.1497389,
@@ -5663,6 +5683,10 @@
     "lat": 38.9719137,
     "lng": -95.2359403
   },
+  "Goodlettsville, TN": {
+    "lat": 36.3231067,
+    "lng": -86.7133302
+  },
   "Hendersonville, TN": {
     "lat": 36.3049177,
     "lng": -86.621443
@@ -5714,10 +5738,6 @@
   "New Berlin, WI": {
     "lat": 42.9762181,
     "lng": -88.1084968
-  },
-  "Nolensville, TN": {
-    "lat": 35.9522852,
-    "lng": -86.6694413
   },
   "Edina, MN": {
     "lat": 44.8897027,
@@ -5811,10 +5831,6 @@
     "lat": 45.5645229,
     "lng": -94.3180516
   },
-  "Orangeburg, SC": {
-    "lat": 33.4918203,
-    "lng": -80.8556476
-  },
   "Cortlandt Manor, NY": {
     "lat": 41.2815783,
     "lng": -73.7131153
@@ -5862,10 +5878,6 @@
   "This event's address is private. Sign up for more details, WI": {
     "lat": null,
     "lng": null
-  },
-  "Leicester, NC": {
-    "lat": 35.6551074,
-    "lng": -82.6962438
   },
   "Glen Allen, VA": {
     "lat": 37.664879,
@@ -5938,18 +5950,6 @@
   "Flint, TX": {
     "lat": 32.2031228,
     "lng": -95.3489561
-  },
-  "Somerville, MA": {
-    "lat": 42.3875968,
-    "lng": -71.0994968
-  },
-  "Medford, MA": {
-    "lat": 42.4184296,
-    "lng": -71.1061639
-  },
-  "Mamaroneck, NY": {
-    "lat": 40.9487314,
-    "lng": -73.7331416
   },
   "Sigourney, IA": {
     "lat": 41.3330944,
@@ -6259,10 +6259,6 @@
     "lat": 42.0177718,
     "lng": -95.3553286
   },
-  "St. Louis Park, MN": {
-    "lat": 44.9475726,
-    "lng": -93.3569023
-  },
   "Audubon, IA": {
     "lat": 41.670205,
     "lng": -94.9106526
@@ -6294,10 +6290,6 @@
   "Clinton, IA": {
     "lat": 41.9054695,
     "lng": -90.5599971
-  },
-  "Washington, IA": {
-    "lat": 41.3160082,
-    "lng": -91.7340327
   },
   "Fort Madison, IA": {
     "lat": 40.6311415,
@@ -6504,8 +6496,8 @@
     "lng": -82.453152
   },
   "Englewood, FL": {
-    "lat": 26.9620053,
-    "lng": -82.3525952
+    "lat": 26.9606125,
+    "lng": -82.3576324
   },
   "Palmetto, FL": {
     "lat": 27.5214269,
@@ -6546,6 +6538,10 @@
   "Grosse Pointe Farms, MI": {
     "lat": 42.4092038,
     "lng": -82.8918587
+  },
+  "Salado, TX": {
+    "lat": 30.9468791,
+    "lng": -97.5371631
   },
   "Corning, IA": {
     "lat": 40.9901625,
@@ -6643,6 +6639,10 @@
     "lat": 45.4642517,
     "lng": -91.1008637
   },
+  "St. Louis Park, MN": {
+    "lat": 44.9475726,
+    "lng": -93.3569023
+  },
   "Nanuet, NY": {
     "lat": 41.1004345,
     "lng": -74.0155138
@@ -6695,9 +6695,9 @@
     "lat": 37.3859982,
     "lng": -77.578509
   },
-  "This event's address is private. Sign up for more details, MI": {
-    "lat": null,
-    "lng": null
+  "Southgate, MI": {
+    "lat": 42.2037103,
+    "lng": -83.2067556
   },
   "Fredonia, NY": {
     "lat": 42.4400476,
@@ -6791,6 +6791,10 @@
     "lat": 36.0884253,
     "lng": -93.7375258
   },
+  "West Hartford, CT": {
+    "lat": 41.7620447,
+    "lng": -72.7420399
+  },
   "Salunga, PA": {
     "lat": 40.1004534,
     "lng": -76.4259727
@@ -6855,10 +6859,6 @@
     "lat": 28.8004955,
     "lng": -81.6446961
   },
-  "Ankeny, IA": {
-    "lat": 41.7320796,
-    "lng": -93.605092
-  },
   "Peachtree City, GA": {
     "lat": 33.3975472,
     "lng": -84.5898256
@@ -6882,6 +6882,10 @@
   "Norfolk, MA": {
     "lat": 42.1538607,
     "lng": -71.1828015
+  },
+  "Galesburg, IL": {
+    "lat": 40.9475652,
+    "lng": -90.3712169
   },
   "Dubois, WY": {
     "lat": 43.5336369,
@@ -6939,10 +6943,6 @@
     "lat": 43.9824577,
     "lng": -94.6269181
   },
-  "Marion, IL": {
-    "lat": 38.6477381,
-    "lng": -88.9232112
-  },
   "Southfield, MI": {
     "lat": 42.4733689,
     "lng": -83.2218731
@@ -6975,10 +6975,6 @@
     "lat": 38.8114364,
     "lng": -89.953157
   },
-  "Catawba, NC": {
-    "lat": 35.6740563,
-    "lng": -81.2107215
-  },
   "Freeland, WA": {
     "lat": 48.018148,
     "lng": -122.5154662
@@ -6994,10 +6990,6 @@
   "Browning, MT": {
     "lat": 48.557743,
     "lng": -113.017258
-  },
-  "Southgate, MI": {
-    "lat": 42.2037103,
-    "lng": -83.2067556
   },
   "Wellesley, MA": {
     "lat": 42.2964859,
@@ -7087,6 +7079,14 @@
     "lat": 38.5800713,
     "lng": -90.4069177
   },
+  "Marshfield, MA": {
+    "lat": 42.091769,
+    "lng": -70.7055941
+  },
+  "Nolensville, TN": {
+    "lat": 35.9522852,
+    "lng": -86.6694413
+  },
   "Billings, MT": {
     "lat": 45.7874957,
     "lng": -108.49607
@@ -7131,13 +7131,13 @@
     "lat": 37.4481394,
     "lng": -76.331696
   },
+  "Newton, MA": {
+    "lat": 42.3300435,
+    "lng": -71.194862
+  },
   "Hingham, MA": {
     "lat": 42.2417669,
     "lng": -70.8897676
-  },
-  "Marshfield, MA": {
-    "lat": 42.091769,
-    "lng": -70.7055941
   },
   "Beverly, MA": {
     "lat": 42.5489744,
@@ -7175,6 +7175,10 @@
     "lat": 33.9566391,
     "lng": -83.9890066
   },
+  "Somerville, MA": {
+    "lat": 42.3875968,
+    "lng": -71.0994968
+  },
   "Paducah, KY": {
     "lat": 37.0833893,
     "lng": -88.6000478
@@ -7194,6 +7198,146 @@
   "Spring Valley, NY": {
     "lat": 41.1130231,
     "lng": -74.0437839
+  },
+  "Washington, NC": {
+    "lat": 35.8725573,
+    "lng": -76.6215245
+  },
+  "Rocky Mount, NC": {
+    "lat": 35.9423833,
+    "lng": -77.7956949
+  },
+  "Bailey, NC": {
+    "lat": 35.7789584,
+    "lng": -78.1151037
+  },
+  "Nashville, NC": {
+    "lat": 35.974598,
+    "lng": -77.9655406
+  },
+  "Spring Hope, NC": {
+    "lat": 35.9451536,
+    "lng": -78.1119345
+  },
+  "Pinetop-Lakeside, AZ": {
+    "lat": 34.1448702,
+    "lng": -109.9584743
+  },
+  "Vernon, CT": {
+    "lat": 41.8382921,
+    "lng": -72.4663331
+  },
+  "Henrico, VA": {
+    "lat": 37.5131191,
+    "lng": -77.3465081
+  },
+  "Hurley, NY": {
+    "lat": 41.910209,
+    "lng": -74.062247
+  },
+  "Hyannis, MA": {
+    "lat": 41.6535345,
+    "lng": -70.2823287
+  },
+  "Colts Neck, NJ": {
+    "lat": 40.2876108,
+    "lng": -74.1723652
+  },
+  "Paterson, NJ": {
+    "lat": 40.9167654,
+    "lng": -74.171811
+  },
+  "Russellville, AR": {
+    "lat": 35.2784173,
+    "lng": -93.1337856
+  },
+  "Airmont, NY": {
+    "lat": 41.1009293,
+    "lng": -74.1162544
+  },
+  "Thiells, NY": {
+    "lat": 41.2067635,
+    "lng": -74.01262
+  },
+  "Bala Cynwyd, PA": {
+    "lat": 40.0086075,
+    "lng": -75.235568
+  },
+  "Elon, NC": {
+    "lat": 36.1029132,
+    "lng": -79.5066895
+  },
+  "Southington, CT": {
+    "lat": 41.6005435,
+    "lng": -72.8782941
+  },
+  "Torrington, CT": {
+    "lat": 41.8006523,
+    "lng": -73.1212214
+  },
+  "Ansonia, CT": {
+    "lat": 41.3434295,
+    "lng": -73.0441144
+  },
+  "New Milford, CT": {
+    "lat": 41.5770993,
+    "lng": -73.4105803
+  },
+  "Bensalem Township, PA": {
+    "lat": 40.1045549,
+    "lng": -74.951279
+  },
+  "North Liberty, IA": {
+    "lat": 41.7478297,
+    "lng": -91.6064397
+  },
+  "Missoula, MT": {
+    "lat": 46.8701049,
+    "lng": -113.995267
+  },
+  "Keota, IA": {
+    "lat": 41.3637245,
+    "lng": -91.9522898
+  },
+  "Kalona, IA": {
+    "lat": 41.483118,
+    "lng": -91.7061856
+  },
+  "Hedrick, IA": {
+    "lat": 41.1724609,
+    "lng": -92.3089125
+  },
+  "Willimantic, CT": {
+    "lat": 41.7155216,
+    "lng": -72.2177238
+  },
+  "Camanche, IA": {
+    "lat": 41.7880862,
+    "lng": -90.2562398
+  },
+  "Norwalk, IA": {
+    "lat": 41.4755492,
+    "lng": -93.6788876
+  },
+  "Hopkinton, RI": {
+    "lat": 41.4594366,
+    "lng": -71.7803046
+  },
+  "Wilton, IA": {
+    "lat": 41.5889154,
+    "lng": -91.0168179
+  },
+  "Monroe, MI": {
+    "lat": 41.9153358,
+    "lng": -83.5135665
+  },
+  "Carbondale, IL": {
+    "lat": 37.7274692,
+    "lng": -89.216655
+  },
+  "Whitefish, MT": {
+    "lat": 48.4108018,
+    "lng": -114.334624
   },
   "Humboldt County Superior Courthouse, Eureka": {
     "lat": null,

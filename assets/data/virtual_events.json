@@ -5,7 +5,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-08",
+      "begin": "2026-06-09",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -32,6 +32,24 @@
         {
           "title": "Meet Your New Field Organizers from the Coordinated in Greater Charlotte!",
           "href": "https://www.mobilize.us/nc-coordinated/event/961473/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-06-11",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
         }
       ],
       "_src": "mobilize"
@@ -155,24 +173,6 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959549/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 966499,
-      "mobilize_id": 966499,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/966499/",
-      "title": "Downriver Door Knocking",
-      "begin": "2026-06-13",
-      "end": "2026-06-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Downriver Door Knocking",
-          "href": "https://www.mobilize.us/teammichigan/event/966499/"
         }
       ],
       "_src": "mobilize"
