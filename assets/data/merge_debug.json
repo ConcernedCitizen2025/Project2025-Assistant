@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-09",
+  "cutoffStr": "2026-06-10",
   "lookbackDays": 1,
   "totals": {
-    "all": 11638,
-    "geoKept": 11592,
-    "virtKept": 38
+    "all": 11895,
+    "geoKept": 11847,
+    "virtKept": 39
   },
   "perSource": {
     "mobilize": {
-      "total": 11607,
-      "recent": 11605,
-      "withCoords": 9530,
-      "keptGeo": 9528,
-      "keptVirt": 2077,
+      "total": 11864,
+      "recent": 11861,
+      "withCoords": 9769,
+      "keptGeo": 9766,
+      "keptVirt": 2095,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -49,6 +49,24 @@
             }
           ],
           "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
+            }
+          ],
+          "_src": "mobilize"
         }
       ],
       "sampleDroppedByCoords": [
@@ -57,7 +75,7 @@
           "mobilize_id": 437109,
           "canonical_mobilize_url": "https://www.mobilize.us/event/437109/",
           "title": "Baytown Area Democrats Club Meeting",
-          "begin": "2026-06-09",
+          "begin": "2026-07-14",
           "end": "2026-11-10",
           "lat": null,
           "lng": null,

@@ -5,7 +5,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-09",
+      "begin": "2026-06-10",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -173,6 +173,24 @@
         {
           "title": "Door knock with Lynette!",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959549/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-06-13",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
