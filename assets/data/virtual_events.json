@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-10",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961473,
-      "mobilize_id": 961473,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961473/",
-      "title": "Meet Your New Field Organizers from the Coordinated in Greater Charlotte!",
-      "begin": "2026-06-10",
-      "end": "2026-06-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Meet Your New Field Organizers from the Coordinated in Greater Charlotte!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/961473/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 942572,
       "mobilize_id": 942572,
       "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
@@ -50,6 +14,24 @@
         {
           "title": "Phonebank for Sean McCann for Congress!",
           "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-06-11",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -163,15 +145,15 @@
       "_id": 959549,
       "mobilize_id": 959549,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959549/",
-      "title": "Door knock with Lynette!",
+      "title": "Door knock with Lynette! SLP W4 P11",
       "begin": "2026-06-13",
       "end": "2026-06-13",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, St. Louis Park",
       "links": [
         {
-          "title": "Door knock with Lynette!",
+          "title": "Door knock with Lynette! SLP W4 P11",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959549/"
         }
       ],
@@ -229,10 +211,25 @@
       "_src": "mobilizon"
     },
     {
-      "_id": 963973,
-      "mobilize_id": 963973,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/963973/",
-      "title": "America's Democratic Crisis",
+      "title": "NO KINGS -NO BIRTHDAY - EVER",
+      "begin": "2026-06-14",
+      "end": "2026-06-14",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "NO KINGS -NO BIRTHDAY - EVER",
+          "href": "https://events.pol-rev.com/events/69722c19-1fa8-4dbb-b1ae-1ea7cb8381db"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
+      "_id": 961473,
+      "mobilize_id": 961473,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961473/",
+      "title": "Meet Your New Field Organizers from the Coordinated in Greater Charlotte!",
       "begin": "2026-06-17",
       "end": "2026-06-17",
       "lat": null,
@@ -240,8 +237,8 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "America's Democratic Crisis",
-          "href": "https://www.mobilize.us/indivisiblebooneindiana/event/963973/"
+          "title": "Meet Your New Field Organizers from the Coordinated in Greater Charlotte!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/961473/"
         }
       ],
       "_src": "mobilize"
