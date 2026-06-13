@@ -1,93 +1,6 @@
 {
   "data": [
     {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-06-11",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-11",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961199,
-      "mobilize_id": 961199,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961199/",
-      "title": "Virtual Training -- Learn How to Canvass with MiniVAN!!!",
-      "begin": "2026-06-11",
-      "end": "2026-06-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Training -- Learn How to Canvass with MiniVAN!!!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/961199/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 967341,
-      "mobilize_id": 967341,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/967341/",
-      "title": "Meet Your New Field Organizers from the Coordinated! Durham, NC",
-      "begin": "2026-06-11",
-      "end": "2026-06-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Meet Your New Field Organizers from the Coordinated! Durham, NC",
-          "href": "https://www.mobilize.us/nc-coordinated/event/967341/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Online - CIIF Renegade Film Club: Public Antifascist Documentary Screening and Discussion",
-      "begin": "2026-06-11",
-      "end": "2026-06-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Online - CIIF Renegade Film Club: Public Antifascist Documentary Screening and Discussion",
-          "href": "https://events.pol-rev.com/events/510d1179-ae8b-4d50-884e-4dc7597efd41"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -101,6 +14,24 @@
         {
           "title": "(Virtual) Democratic Voter Registration Training",
           "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-06-12",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -275,6 +206,24 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-06-18",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
         }
       ],
       "_src": "mobilize"
@@ -516,7 +465,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/963730/",
       "title": "Neighborhood Conversations with the Outagamie Dems in Grand Chute + Greenville!",
       "begin": "2026-06-27",
-      "end": "2026-06-28",
+      "end": "2026-06-27",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
