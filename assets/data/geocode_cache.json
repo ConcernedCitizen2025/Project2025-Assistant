@@ -5547,10 +5547,6 @@
     "lat": 41.1328736,
     "lng": -73.7926335
   },
-  "Bondurant, IA": {
-    "lat": 41.7005441,
-    "lng": -93.462157
-  },
   "Commerce City, CO": {
     "lat": 39.8083196,
     "lng": -104.9338675
@@ -5743,10 +5739,6 @@
     "lat": 38.6703267,
     "lng": -89.9845476
   },
-  "Waldorf, MD": {
-    "lat": 38.6023935,
-    "lng": -76.9274072
-  },
   "McDonough, GA": {
     "lat": 33.4473361,
     "lng": -84.1468616
@@ -5774,10 +5766,6 @@
   "Saint Joseph, MN": {
     "lat": 45.5645229,
     "lng": -94.3180516
-  },
-  "Cortlandt Manor, NY": {
-    "lat": 41.2815783,
-    "lng": -73.7131153
   },
   "Norton, MA": {
     "lat": 41.9670616,
@@ -6400,8 +6388,8 @@
     "lng": -117.045179
   },
   "Idaho Falls, ID": {
-    "lat": 43.4909018,
-    "lng": -112.0391744
+    "lat": 43.4887907,
+    "lng": -112.03628
   },
   "Moorhead, MN": {
     "lat": 46.8739081,
@@ -6603,10 +6591,6 @@
     "lat": 27.4957453,
     "lng": -81.4410425
   },
-  "La Vergne, TN": {
-    "lat": 36.0201984,
-    "lng": -86.5779196
-  },
   "Stagecoach, NV": {
     "lat": 39.3619882,
     "lng": -119.3748609
@@ -6638,10 +6622,6 @@
   "Saint Pauls, NC": {
     "lat": 34.8070226,
     "lng": -78.9707787
-  },
-  "Warminster Township, PA": {
-    "lat": 40.2067751,
-    "lng": -75.0996159
   },
   "Barboursville, VA": {
     "lat": 38.170403,
@@ -6935,17 +6915,41 @@
     "lat": 43.7918612,
     "lng": -89.3288187
   },
+  "State College, PA": {
+    "lat": 40.7944504,
+    "lng": -77.8616386
+  },
   "Nolensville, TN": {
     "lat": 35.9522852,
     "lng": -86.6694413
+  },
+  "Indiana, PA": {
+    "lat": 40.6424116,
+    "lng": -79.1262839
+  },
+  "Lewisburg, PA": {
+    "lat": 40.9645337,
+    "lng": -76.8847639
   },
   "Billings, MT": {
     "lat": 45.7874957,
     "lng": -108.49607
   },
-  "Grovetown, GA": {
-    "lat": 33.4504157,
-    "lng": -82.1981764
+  "Butler, PA": {
+    "lat": 40.8604672,
+    "lng": -79.8970522
+  },
+  "McKees Rocks, PA": {
+    "lat": 40.4656244,
+    "lng": -80.0656106
+  },
+  "Penn Hills Township, PA": {
+    "lat": 40.4450333,
+    "lng": -79.8282001
+  },
+  "Shiloh, PA": {
+    "lat": 39.9738455,
+    "lng": -76.7908501
   },
   "Covina, CA": {
     "lat": 34.0877926,
@@ -7022,14 +7026,6 @@
   "Selden, NY": {
     "lat": 40.871241,
     "lng": -73.0454164
-  },
-  "West Springfield, VA": {
-    "lat": 38.775844,
-    "lng": -77.2253673
-  },
-  "Spring Valley, NY": {
-    "lat": 41.1130231,
-    "lng": -74.0437839
   },
   "Wrightwood, CA": {
     "lat": 34.3556399,
@@ -7178,10 +7174,6 @@
   "Whitefish, MT": {
     "lat": 48.4108018,
     "lng": -114.334624
-  },
-  "Redondo Beach, CA": {
-    "lat": 33.8398289,
-    "lng": -118.3845942
   },
   "Lake City, MN": {
     "lat": 44.4478474,
@@ -7375,6 +7367,10 @@
     "lat": 34.1215947,
     "lng": -118.105739
   },
+  "Spring Valley, NY": {
+    "lat": 41.1130231,
+    "lng": -74.0437839
+  },
   "Haverstraw, NY": {
     "lat": 41.1976502,
     "lng": -73.9640541
@@ -7382,6 +7378,42 @@
   "Nanuet, NY": {
     "lat": 41.1004345,
     "lng": -74.0155138
+  },
+  "Hayfield, MN": {
+    "lat": 43.8906201,
+    "lng": -92.8479006
+  },
+  "Dodge Center, MN": {
+    "lat": 44.0280202,
+    "lng": -92.8547287
+  },
+  "Pueblo West, CO": {
+    "lat": 38.3558615,
+    "lng": -104.711211
+  },
+  "Horsham, PA": {
+    "lat": 40.1842455,
+    "lng": -75.1390524
+  },
+  "Quakertown, PA": {
+    "lat": 40.4417682,
+    "lng": -75.3415667
+  },
+  "Grovetown, GA": {
+    "lat": 33.4504157,
+    "lng": -82.1981764
+  },
+  "Wyandotte, MI": {
+    "lat": 42.200409,
+    "lng": -83.1506436
+  },
+  "Croton, NY": {
+    "lat": 41.2088215,
+    "lng": -73.8905175
+  },
+  "Payson, AZ": {
+    "lat": 34.2406479,
+    "lng": -111.323026
   },
   "Humboldt County Superior Courthouse, Eureka": {
     "lat": null,

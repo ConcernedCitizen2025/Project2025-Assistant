@@ -1,19 +1,19 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-06-12",
-      "end": "2026-10-30",
+      "_id": 948400,
+      "mobilize_id": 948400,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/948400/",
+      "title": "Weekend Door Knocking w/ Brink for Congress",
+      "begin": "2026-06-13",
+      "end": "2026-08-02",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
+          "title": "Weekend Door Knocking w/ Brink for Congress",
+          "href": "https://www.mobilize.us/brinkforcongress/event/948400/"
         }
       ],
       "_src": "mobilize"
@@ -23,7 +23,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-12",
+      "begin": "2026-06-13",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -41,7 +41,7 @@
       "mobilize_id": 957486,
       "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
       "title": "\"Knock With Wanika\" Canvass",
-      "begin": "2026-06-12",
+      "begin": "2026-06-13",
       "end": "2026-06-21",
       "lat": null,
       "lng": null,
@@ -50,24 +50,6 @@
         {
           "title": "\"Knock With Wanika\" Canvass",
           "href": "https://www.mobilize.us/friendsofwanikafisher/event/957486/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 948400,
-      "mobilize_id": 948400,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/948400/",
-      "title": "Weekend Door Knocking w/ Brink for Congress",
-      "begin": "2026-06-13",
-      "end": "2026-08-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend Door Knocking w/ Brink for Congress",
-          "href": "https://www.mobilize.us/brinkforcongress/event/948400/"
         }
       ],
       "_src": "mobilize"
@@ -280,6 +262,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-06-19",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 961886,
       "mobilize_id": 961886,
       "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
@@ -383,6 +383,24 @@
         {
           "title": "Tampa Bay Action Team Meeting",
           "href": "https://www.mobilize.us/aclufl/event/877799/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 972823,
+      "mobilize_id": 972823,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
+      "title": "Phonebanking with the PA Dems in Hollidaysburg!",
+      "begin": "2026-06-24",
+      "end": "2026-07-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebanking with the PA Dems in Hollidaysburg!",
+          "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
         }
       ],
       "_src": "mobilize"

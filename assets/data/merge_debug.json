@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-12",
+  "cutoffStr": "2026-06-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 12253,
-    "geoKept": 12208,
-    "virtKept": 36
+    "all": 12225,
+    "geoKept": 12180,
+    "virtKept": 37
   },
   "perSource": {
     "mobilize": {
-      "total": 12220,
-      "recent": 12218,
-      "withCoords": 10044,
-      "keptGeo": 10042,
-      "keptVirt": 2176,
+      "total": 12191,
+      "recent": 12189,
+      "withCoords": 10011,
+      "keptGeo": 10009,
+      "keptVirt": 2180,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -109,27 +109,12 @@
       ]
     },
     "mobilizon": {
-      "total": 27,
-      "recent": 26,
-      "withCoords": 21,
-      "keptGeo": 21,
+      "total": 28,
+      "recent": 28,
+      "withCoords": 23,
+      "keptGeo": 23,
       "keptVirt": 5,
-      "sampleDroppedByDate": [
-        {
-          "title": "Online - CIIF Renegade Film Club: Public Antifascist Documentary Screening and Discussion",
-          "begin": "2026-06-11",
-          "end": "2026-06-11",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Online - CIIF Renegade Film Club: Public Antifascist Documentary Screening and Discussion",
-              "href": "https://events.pol-rev.com/events/510d1179-ae8b-4d50-884e-4dc7597efd41"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
