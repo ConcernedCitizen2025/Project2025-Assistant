@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-13",
+  "cutoffStr": "2026-06-14",
   "lookbackDays": 1,
   "totals": {
-    "all": 12225,
-    "geoKept": 12180,
-    "virtKept": 37
+    "all": 11712,
+    "geoKept": 11664,
+    "virtKept": 36
   },
   "perSource": {
     "mobilize": {
-      "total": 12191,
-      "recent": 12189,
-      "withCoords": 10011,
-      "keptGeo": 10009,
-      "keptVirt": 2180,
+      "total": 11678,
+      "recent": 11675,
+      "withCoords": 9605,
+      "keptGeo": 9602,
+      "keptVirt": 2073,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,6 +46,24 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
+            }
+          ],
+          "_src": "mobilize"
+        },
+        {
+          "_id": 869820,
+          "mobilize_id": 869820,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
+          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+          "begin": "2025-11-22",
+          "end": "2025-11-22",
+          "lat": 33.9642626,
+          "lng": -118.0215203,
+          "location": "8228 Michigan Ave, Whittier, CA",
+          "links": [
+            {
+              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
+              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -93,7 +111,7 @@
           "mobilize_id": 445825,
           "canonical_mobilize_url": "https://www.mobilize.us/event/445825/",
           "title": "Canvass for Elaine Luria - Virginia Beach",
-          "begin": "2026-06-13",
+          "begin": "2026-06-14",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -110,11 +128,54 @@
     },
     "mobilizon": {
       "total": 28,
-      "recent": 28,
+      "recent": 25,
       "withCoords": 23,
-      "keptGeo": 23,
+      "keptGeo": 20,
       "keptVirt": 5,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "East Bluff Daylight Vigil",
+          "begin": "2026-06-13",
+          "end": "2026-06-13",
+          "lat": 40.712264,
+          "lng": -89.593737,
+          "location": "100 East Frye Avenue, Peoria, IL 61603, United States of America, Peoria",
+          "links": [
+            {
+              "title": "East Bluff Daylight Vigil",
+              "href": "https://events.pol-rev.com/events/abf744f0-7b34-46b7-9e66-349db01fa1b3"
+            }
+          ]
+        },
+        {
+          "title": "Trump Takedown",
+          "begin": "2026-06-13",
+          "end": "2026-06-13",
+          "lat": 42.3480424,
+          "lng": -71.082783,
+          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "links": [
+            {
+              "title": "Trump Takedown",
+              "href": "https://events.pol-rev.com/events/7fa8eece-013c-4d77-a25f-3f2a87f27e99"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-06-13",
+          "end": "2026-06-13",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/71904455-0540-4baf-9d43-1123039a359e"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
