@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-14",
+  "cutoffStr": "2026-06-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 11712,
-    "geoKept": 11664,
-    "virtKept": 36
+    "all": 10954,
+    "geoKept": 10901,
+    "virtKept": 32
   },
   "perSource": {
     "mobilize": {
-      "total": 11678,
-      "recent": 11675,
-      "withCoords": 9605,
-      "keptGeo": 9602,
-      "keptVirt": 2073,
+      "total": 10921,
+      "recent": 10918,
+      "withCoords": 9018,
+      "keptGeo": 9015,
+      "keptVirt": 1903,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-06-14",
+          "begin": "2026-06-21",
           "end": "2026-08-30",
           "lat": null,
           "lng": null,
@@ -111,7 +111,7 @@
           "mobilize_id": 445825,
           "canonical_mobilize_url": "https://www.mobilize.us/event/445825/",
           "title": "Canvass for Elaine Luria - Virginia Beach",
-          "begin": "2026-06-14",
+          "begin": "2026-06-20",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -127,51 +127,51 @@
       ]
     },
     "mobilizon": {
-      "total": 28,
-      "recent": 25,
-      "withCoords": 23,
-      "keptGeo": 20,
-      "keptVirt": 5,
+      "total": 27,
+      "recent": 15,
+      "withCoords": 22,
+      "keptGeo": 12,
+      "keptVirt": 3,
       "sampleDroppedByDate": [
         {
-          "title": "East Bluff Daylight Vigil",
-          "begin": "2026-06-13",
-          "end": "2026-06-13",
-          "lat": 40.712264,
-          "lng": -89.593737,
-          "location": "100 East Frye Avenue, Peoria, IL 61603, United States of America, Peoria",
+          "title": "BloNo IL - Concert for the First Amendment Watch Party hosted by Bloomington Normal 50501",
+          "begin": "2026-06-14",
+          "end": "2026-06-14",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "East Bluff Daylight Vigil",
-              "href": "https://events.pol-rev.com/events/abf744f0-7b34-46b7-9e66-349db01fa1b3"
+              "title": "BloNo IL - Concert for the First Amendment Watch Party hosted by Bloomington Normal 50501",
+              "href": "https://events.pol-rev.com/events/7601eca4-f425-461e-9724-88cae688dabf"
             }
           ]
         },
         {
-          "title": "Trump Takedown",
-          "begin": "2026-06-13",
-          "end": "2026-06-13",
-          "lat": 42.3480424,
-          "lng": -71.082783,
-          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "title": "Concert Watch Party & Community Gathering",
+          "begin": "2026-06-14",
+          "end": "2026-06-14",
+          "lat": 40.7028919,
+          "lng": -89.625394,
+          "location": "1314 North Park Road, Peoria, IL 61604, United States of America, Peoria",
           "links": [
             {
-              "title": "Trump Takedown",
-              "href": "https://events.pol-rev.com/events/7fa8eece-013c-4d77-a25f-3f2a87f27e99"
+              "title": "Concert Watch Party & Community Gathering",
+              "href": "https://events.pol-rev.com/events/772005ea-559c-4ff3-88cb-23d5d7432bdf"
             }
           ]
         },
         {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-06-13",
-          "end": "2026-06-13",
-          "lat": 42.2371631,
-          "lng": -71.1786432,
-          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "title": "No Kings Day Gilroy",
+          "begin": "2026-06-14",
+          "end": "2026-06-14",
+          "lat": 37.0121568,
+          "lng": -121.5583709,
+          "location": "7500 Arroyo Circle, Gilroy, CA 95021, United States of America, Gilroy",
           "links": [
             {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/71904455-0540-4baf-9d43-1123039a359e"
+              "title": "No Kings Day Gilroy",
+              "href": "https://events.pol-rev.com/events/a98fad7a-7da9-4b52-a093-53587e068fca"
             }
           ]
         }

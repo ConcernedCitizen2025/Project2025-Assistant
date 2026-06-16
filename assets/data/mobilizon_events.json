@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "title": "No Kings Forever/America 250 Rally",
+      "date": "2026-07-04",
+      "location": "E Lafayette St, Ottawa, IL, United States of America, Ottawa",
+      "lat": 41.349902,
+      "lng": -88.841081,
+      "link": "https://events.pol-rev.com/events/8f3a2d56-476b-4f7f-bb71-60e9ba31c526"
+    },
+    {
       "title": "NO KINGS, STOP WAR WITH IRAN [4th Of July Standout]",
       "date": "2026-07-04",
       "location": "Odell Veterans Memorial Park, Beverly",
@@ -55,6 +63,14 @@
       "lat": 44.3055519,
       "lng": -69.7789123,
       "link": "https://events.pol-rev.com/events/85f92028-0190-4ab0-bfbd-e2f8c57c8d1c"
+    },
+    {
+      "title": "Honorary street naming of Thomas H. Detweiller Way",
+      "date": "2026-06-23",
+      "location": "299 Caroline Street, Peoria, IL 61603, United States of America, Peoria",
+      "lat": 40.702345,
+      "lng": -89.572707,
+      "link": "https://events.pol-rev.com/events/2ce94261-3e2a-4a51-917d-229100aa594b"
     },
     {
       "title": "BloNo IL - Craftivism Collaborative - Zines, Pizza and more!",
@@ -199,30 +215,6 @@
       "lat": 43.6339782,
       "lng": -70.2545427,
       "link": "https://events.pol-rev.com/events/c6b5f07a-8040-4048-a1ee-ee8398171e46"
-    },
-    {
-      "title": "East Bluff Daylight Vigil",
-      "date": "2026-06-13",
-      "location": "100 East Frye Avenue, Peoria, IL 61603, United States of America, Peoria",
-      "lat": 40.712264,
-      "lng": -89.593737,
-      "link": "https://events.pol-rev.com/events/abf744f0-7b34-46b7-9e66-349db01fa1b3"
-    },
-    {
-      "title": "Trump Takedown",
-      "date": "2026-06-13",
-      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
-      "lat": 42.3480424,
-      "lng": -71.082783,
-      "link": "https://events.pol-rev.com/events/7fa8eece-013c-4d77-a25f-3f2a87f27e99"
-    },
-    {
-      "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-      "date": "2026-06-13",
-      "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-      "lat": 42.2371631,
-      "lng": -71.1786432,
-      "link": "https://events.pol-rev.com/events/71904455-0540-4baf-9d43-1123039a359e"
     }
   ]
 }
