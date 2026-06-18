@@ -5,7 +5,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-16",
+      "begin": "2026-06-17",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -227,6 +227,24 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 975026,
+      "mobilize_id": 975026,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975026/",
+      "title": "Canvass in Quincy with Team Markey!",
+      "begin": "2026-06-20",
+      "end": "2026-06-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Canvass in Quincy with Team Markey!",
+          "href": "https://www.mobilize.us/edmarkey/event/975026/"
         }
       ],
       "_src": "mobilize"
@@ -463,6 +481,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
+      "begin": "2026-06-28",
+      "end": "2026-06-28",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 947260,
       "mobilize_id": 947260,
       "canonical_mobilize_url": "https://www.mobilize.us/event/947260/",
@@ -512,6 +548,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 975081,
+      "mobilize_id": 975081,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975081/",
+      "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
+      "begin": "2026-07-16",
+      "end": "2026-07-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
+          "href": "https://www.mobilize.us/peoplepower/event/975081/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 958108,
