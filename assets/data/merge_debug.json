@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-18",
+  "cutoffStr": "2026-06-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 11487,
-    "geoKept": 11441,
+    "all": 11266,
+    "geoKept": 11220,
     "virtKept": 35
   },
   "perSource": {
     "mobilize": {
-      "total": 11466,
-      "recent": 11463,
-      "withCoords": 9335,
-      "keptGeo": 9332,
-      "keptVirt": 2131,
+      "total": 11247,
+      "recent": 11244,
+      "withCoords": 9124,
+      "keptGeo": 9121,
+      "keptVirt": 2123,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 15,
-      "recent": 13,
-      "withCoords": 11,
-      "keptGeo": 9,
-      "keptVirt": 4,
+      "total": 13,
+      "recent": 11,
+      "withCoords": 9,
+      "keptGeo": 8,
+      "keptVirt": 3,
       "sampleDroppedByDate": [
         {
-          "title": "ICE OUT NOW! City Council Protest",
-          "begin": "2026-06-17",
-          "end": "2026-06-17",
-          "lat": 45.5150147,
-          "lng": -122.6791133,
-          "location": "Portland City Hall, 1220 Southwest 5th Avenue, Portland, OR 97204, United States of America, Portland",
+          "title": "Come with us to the Obama Presidential Library Grand Opening!",
+          "begin": "2026-06-18",
+          "end": "2026-06-18",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "ICE OUT NOW! City Council Protest",
-              "href": "https://events.pol-rev.com/events/727f361f-baf3-494f-8549-bf2fcd563bbf"
+              "title": "Come with us to the Obama Presidential Library Grand Opening!",
+              "href": "https://events.pol-rev.com/events/7035a51f-0315-48c3-baa5-1b3de92888bc"
             }
           ]
         },
         {
-          "title": "CANCELED DUE TO WEATHER BloNo IL - Naloxone (Narcan) Training with McLean County Recovery Oriented Systems of Care",
-          "begin": "2026-06-17",
-          "end": "2026-06-17",
+          "title": "BloNo IL - Shut the Flock Off in person meeting",
+          "begin": "2026-06-18",
+          "end": "2026-06-18",
           "lat": 40.4929988,
           "lng": -88.9684006,
           "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "CANCELED DUE TO WEATHER BloNo IL - Naloxone (Narcan) Training with McLean County Recovery Oriented Systems of Care",
-              "href": "https://events.pol-rev.com/events/46c22e98-7dd2-4981-99e3-bf9eabaef73f"
+              "title": "BloNo IL - Shut the Flock Off in person meeting",
+              "href": "https://events.pol-rev.com/events/d870f306-be8f-4e2b-88c7-f14fe7b6c94c"
             }
           ]
         }
