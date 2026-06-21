@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-06-19",
-      "end": "2026-06-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-19",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 957486,
-      "mobilize_id": 957486,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
-      "title": "\"Knock With Wanika\" Canvass",
-      "begin": "2026-06-19",
-      "end": "2026-06-21",
-      "lat": null,
-      "lng": null,
-      "location": "UPPR MARLBORO, MD",
-      "links": [
-        {
-          "title": "\"Knock With Wanika\" Canvass",
-          "href": "https://www.mobilize.us/friendsofwanikafisher/event/957486/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 969146,
-      "mobilize_id": 969146,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/969146/",
-      "title": "GOTV for Kumar! Poll Site Visibility",
-      "begin": "2026-06-19",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "GOTV for Kumar! Poll Site Visibility",
-          "href": "https://www.mobilize.us/kumarfornewyork/event/969146/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 948400,
       "mobilize_id": 948400,
       "canonical_mobilize_url": "https://www.mobilize.us/event/948400/",
@@ -91,6 +19,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-06-20",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 957486,
+      "mobilize_id": 957486,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
+      "title": "\"Knock With Wanika\" Canvass",
+      "begin": "2026-06-20",
+      "end": "2026-06-21",
+      "lat": null,
+      "lng": null,
+      "location": "UPPR MARLBORO, MD",
+      "links": [
+        {
+          "title": "\"Knock With Wanika\" Canvass",
+          "href": "https://www.mobilize.us/friendsofwanikafisher/event/957486/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 961886,
       "mobilize_id": 961886,
       "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
@@ -104,6 +68,24 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 969146,
+      "mobilize_id": 969146,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/969146/",
+      "title": "GOTV for Kumar! Poll Site Visibility",
+      "begin": "2026-06-20",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "GOTV for Kumar! Poll Site Visibility",
+          "href": "https://www.mobilize.us/kumarfornewyork/event/969146/"
         }
       ],
       "_src": "mobilize"
@@ -358,6 +340,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-06-27",
+      "end": "2026-06-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 959551,
       "mobilize_id": 959551,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959551/",
@@ -468,7 +468,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
       "title": "West Des Moines Canvass for Sarah Trone Garriott",
       "begin": "2026-06-28",
-      "end": "2026-06-28",
+      "end": "2026-07-12",
       "lat": null,
       "lng": null,
       "location": "WDM, IA",

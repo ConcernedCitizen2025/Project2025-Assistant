@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-19",
+  "cutoffStr": "2026-06-20",
   "lookbackDays": 1,
   "totals": {
-    "all": 11266,
-    "geoKept": 11220,
+    "all": 11213,
+    "geoKept": 11169,
     "virtKept": 35
   },
   "perSource": {
     "mobilize": {
-      "total": 11247,
-      "recent": 11244,
-      "withCoords": 9124,
-      "keptGeo": 9121,
-      "keptVirt": 2123,
+      "total": 11195,
+      "recent": 11192,
+      "withCoords": 9085,
+      "keptGeo": 9082,
+      "keptVirt": 2110,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 13,
-      "recent": 11,
+      "total": 12,
+      "recent": 12,
       "withCoords": 9,
-      "keptGeo": 8,
+      "keptGeo": 9,
       "keptVirt": 3,
-      "sampleDroppedByDate": [
-        {
-          "title": "Come with us to the Obama Presidential Library Grand Opening!",
-          "begin": "2026-06-18",
-          "end": "2026-06-18",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Come with us to the Obama Presidential Library Grand Opening!",
-              "href": "https://events.pol-rev.com/events/7035a51f-0315-48c3-baa5-1b3de92888bc"
-            }
-          ]
-        },
-        {
-          "title": "BloNo IL - Shut the Flock Off in person meeting",
-          "begin": "2026-06-18",
-          "end": "2026-06-18",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Shut the Flock Off in person meeting",
-              "href": "https://events.pol-rev.com/events/d870f306-be8f-4e2b-88c7-f14fe7b6c94c"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
