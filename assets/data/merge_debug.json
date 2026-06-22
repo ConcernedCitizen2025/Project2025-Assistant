@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-20",
+  "cutoffStr": "2026-06-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 11213,
-    "geoKept": 11169,
-    "virtKept": 35
+    "all": 10760,
+    "geoKept": 10714,
+    "virtKept": 34
   },
   "perSource": {
     "mobilize": {
-      "total": 11195,
-      "recent": 11192,
-      "withCoords": 9085,
-      "keptGeo": 9082,
-      "keptVirt": 2110,
+      "total": 10742,
+      "recent": 10739,
+      "withCoords": 8712,
+      "keptGeo": 8709,
+      "keptVirt": 2030,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 445825,
           "canonical_mobilize_url": "https://www.mobilize.us/event/445825/",
           "title": "Canvass for Elaine Luria - Virginia Beach",
-          "begin": "2026-06-20",
+          "begin": "2026-06-21",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -128,11 +128,54 @@
     },
     "mobilizon": {
       "total": 12,
-      "recent": 12,
+      "recent": 9,
       "withCoords": 9,
-      "keptGeo": 9,
-      "keptVirt": 3,
-      "sampleDroppedByDate": [],
+      "keptGeo": 7,
+      "keptVirt": 2,
+      "sampleDroppedByDate": [
+        {
+          "title": "Juneteenth Freedom Fest",
+          "begin": "2026-06-20",
+          "end": "2026-06-20",
+          "lat": 40.6621224,
+          "lng": -89.641259,
+          "location": "Trewyn Park, 2219, Peoria, IL 61605, United States of America, Peoria",
+          "links": [
+            {
+              "title": "Juneteenth Freedom Fest",
+              "href": "https://events.pol-rev.com/events/cb7b641b-9ec5-43a5-b1e5-670e073207fb"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-06-20",
+          "end": "2026-06-20",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/a17fcf17-810c-4a90-a3c1-4f771025c07b"
+            }
+          ]
+        },
+        {
+          "title": "Juneteenth Protect the Vote Rally",
+          "begin": "2026-06-20",
+          "end": "2026-06-20",
+          "lat": null,
+          "lng": null,
+          "location": "Zephyr Park Alice Hall, Zephyrhills",
+          "links": [
+            {
+              "title": "Juneteenth Protect the Vote Rally",
+              "href": "https://events.pol-rev.com/events/f67495c9-5a27-4b37-9a69-147aa490d6f8"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Peaceful Protest of DARPA BRAIN Initiative",
@@ -159,20 +202,6 @@
             {
               "title": "All of Us. Truth, Equity & Freedom",
               "href": "https://events.pol-rev.com/events/86259947-f554-4996-b9be-a06628aafd35"
-            }
-          ]
-        },
-        {
-          "title": "Juneteenth Protect the Vote Rally",
-          "begin": "2026-06-20",
-          "end": "2026-06-20",
-          "lat": null,
-          "lng": null,
-          "location": "Zephyr Park Alice Hall, Zephyrhills",
-          "links": [
-            {
-              "title": "Juneteenth Protect the Vote Rally",
-              "href": "https://events.pol-rev.com/events/f67495c9-5a27-4b37-9a69-147aa490d6f8"
             }
           ]
         }

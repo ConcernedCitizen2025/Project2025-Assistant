@@ -5,7 +5,7 @@
       "mobilize_id": 948400,
       "canonical_mobilize_url": "https://www.mobilize.us/event/948400/",
       "title": "Weekend Door Knocking w/ Brink for Congress",
-      "begin": "2026-06-20",
+      "begin": "2026-06-21",
       "end": "2026-08-02",
       "lat": null,
       "lng": null,
@@ -23,7 +23,7 @@
       "mobilize_id": 949838,
       "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
       "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-20",
+      "begin": "2026-06-21",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -41,7 +41,7 @@
       "mobilize_id": 957486,
       "canonical_mobilize_url": "https://www.mobilize.us/event/957486/",
       "title": "\"Knock With Wanika\" Canvass",
-      "begin": "2026-06-20",
+      "begin": "2026-06-21",
       "end": "2026-06-21",
       "lat": null,
       "lng": null,
@@ -55,29 +55,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-06-20",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 969146,
       "mobilize_id": 969146,
       "canonical_mobilize_url": "https://www.mobilize.us/event/969146/",
       "title": "GOTV for Kumar! Poll Site Visibility",
-      "begin": "2026-06-20",
+      "begin": "2026-06-21",
       "end": "2026-06-23",
       "lat": null,
       "lng": null,
@@ -95,7 +77,7 @@
       "mobilize_id": 975757,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
       "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-06-20",
+      "begin": "2026-06-21",
       "end": "2026-11-01",
       "lat": null,
       "lng": null,
@@ -107,21 +89,6 @@
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "title": "Juneteenth Protect the Vote Rally",
-      "begin": "2026-06-20",
-      "end": "2026-06-20",
-      "lat": null,
-      "lng": null,
-      "location": "Zephyr Park Alice Hall, Zephyrhills",
-      "links": [
-        {
-          "title": "Juneteenth Protect the Vote Rally",
-          "href": "https://events.pol-rev.com/events/f67495c9-5a27-4b37-9a69-147aa490d6f8"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 757536,
@@ -137,24 +104,6 @@
         {
           "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
           "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 809234,
-      "mobilize_id": 809234,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
-      "title": "Monthly Linn-Benton Wolf Pack Meeting",
-      "begin": "2026-06-22",
-      "end": "2026-10-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Linn-Benton Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
         }
       ],
       "_src": "mobilize"
@@ -532,6 +481,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+      "begin": "2026-07-11",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WI",
+      "links": [
+        {
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -581,6 +548,24 @@
         {
           "title": "Orientation to Indivisible Northampton",
           "href": "https://www.mobilize.us/indivisiblenorthamptonswingleftwesternma/event/910337/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 809234,
+      "mobilize_id": 809234,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
+      "title": "Monthly Linn-Benton Wolf Pack Meeting",
+      "begin": "2026-07-27",
+      "end": "2026-10-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Linn-Benton Wolf Pack Meeting",
+          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
         }
       ],
       "_src": "mobilize"
