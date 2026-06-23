@@ -1,6 +1,22 @@
 {
   "data": [
     {
+      "title": "Good Trouble Lives On Rally - National Day of Action",
+      "date": "2026-07-18",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/835fe390-eb61-405a-a8ca-20c719006eb8"
+    },
+    {
+      "title": "We the People 250",
+      "date": "2026-07-04",
+      "location": "George Gordon Meade Memorial, Pennsylvania Avenue Northwest, Washington, DC 20004, United States of America, Washington",
+      "lat": 38.8921559,
+      "lng": -77.016466,
+      "link": "https://events.pol-rev.com/events/bc609cc6-a332-4d58-a292-19567db6f4ea"
+    },
+    {
       "title": "No Kings Forever/America 250 Rally",
       "date": "2026-07-04",
       "location": "E Lafayette St, Ottawa, IL, United States of America, Ottawa",
@@ -57,6 +73,14 @@
       "link": "https://events.pol-rev.com/events/c9c45324-05f6-49fc-979c-d85343badc9e"
     },
     {
+      "title": "ALL OF U.S. Rally - National Day of Action",
+      "date": "2026-06-27",
+      "location": "Michael Biehl Park, Venice, Florida, United States of America, Venice",
+      "lat": 27.1011399,
+      "lng": -82.444648,
+      "link": "https://events.pol-rev.com/events/b4bf03a2-ea7e-4cf1-9910-d6d4b5a60f1e"
+    },
+    {
       "title": "All of Us Feeding it Forward",
       "date": "2026-06-26",
       "location": "Union Street, Augusta, ME 04330, United States of America, Augusta",
@@ -71,30 +95,6 @@
       "lat": 40.702345,
       "lng": -89.572707,
       "link": "https://events.pol-rev.com/events/2ce94261-3e2a-4a51-917d-229100aa594b"
-    },
-    {
-      "title": "Juneteenth Freedom Fest",
-      "date": "2026-06-20",
-      "location": "Trewyn Park, 2219, Peoria, IL 61605, United States of America, Peoria",
-      "lat": 40.6621224,
-      "lng": -89.641259,
-      "link": "https://events.pol-rev.com/events/cb7b641b-9ec5-43a5-b1e5-670e073207fb"
-    },
-    {
-      "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-      "date": "2026-06-20",
-      "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-      "lat": 42.2371631,
-      "lng": -71.1786432,
-      "link": "https://events.pol-rev.com/events/a17fcf17-810c-4a90-a3c1-4f771025c07b"
-    },
-    {
-      "title": "Juneteenth Protect the Vote Rally",
-      "date": "2026-06-20",
-      "location": "Zephyr Park Alice Hall, Zephyrhills",
-      "lat": null,
-      "lng": null,
-      "link": "https://events.pol-rev.com/events/f67495c9-5a27-4b37-9a69-147aa490d6f8"
     }
   ]
 }
