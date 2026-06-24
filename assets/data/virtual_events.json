@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 757536,
-      "mobilize_id": 757536,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
-      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-      "begin": "2026-06-22",
-      "end": "2026-11-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-22",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 965690,
-      "mobilize_id": 965690,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/965690/",
-      "title": "VIRTUAL Juneteenth Community Celebration",
-      "begin": "2026-06-22",
-      "end": "2026-06-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "VIRTUAL Juneteenth Community Celebration",
-          "href": "https://www.mobilize.us/njdsc/event/965690/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 888472,
       "mobilize_id": 888472,
       "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
@@ -68,6 +14,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 949838,
+      "mobilize_id": 949838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
+      "title": "Team Meeks Phonebanking",
+      "begin": "2026-06-23",
+      "end": "2026-06-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NY",
+      "links": [
+        {
+          "title": "Team Meeks Phonebanking",
+          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
         }
       ],
       "_src": "mobilize"
@@ -343,24 +307,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 976122,
-      "mobilize_id": 976122,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976122/",
-      "title": "GOTV Canvass with Team DeGette",
-      "begin": "2026-06-27",
-      "end": "2026-06-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "GOTV Canvass with Team DeGette",
-          "href": "https://www.mobilize.us/dccc/event/976122/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "title": "All of Us. Truth, Equity & Freedom",
       "begin": "2026-06-27",
       "end": "2026-06-27",
@@ -481,6 +427,21 @@
       "_src": "mobilizon"
     },
     {
+      "title": "Online - Shut the Flock Off BloNo/MC online meeting",
+      "begin": "2026-07-08",
+      "end": "2026-07-08",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Online - Shut the Flock Off BloNo/MC online meeting",
+          "href": "https://events.pol-rev.com/events/ba901cae-dcbb-4405-9901-edd83852a539"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
       "_id": 961886,
       "mobilize_id": 961886,
       "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
@@ -494,6 +455,24 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 975081,
+      "mobilize_id": 975081,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975081/",
+      "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
+      "begin": "2026-07-14",
+      "end": "2026-07-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
+          "href": "https://www.mobilize.us/peoplepower/event/975081/"
         }
       ],
       "_src": "mobilize"
@@ -563,6 +542,24 @@
         {
           "title": "Orientation to Indivisible Northampton (Virtual)",
           "href": "https://www.mobilize.us/indivisiblenorthamptonswingleftwesternma/event/910337/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 757536,
+      "mobilize_id": 757536,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
+      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+      "begin": "2026-07-27",
+      "end": "2026-11-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
         }
       ],
       "_src": "mobilize"
