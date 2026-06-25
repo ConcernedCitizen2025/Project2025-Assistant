@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 888472,
-      "mobilize_id": 888472,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
-      "title": "Monthly Voter Action Gathering - South County",
-      "begin": "2026-06-23",
-      "end": "2026-12-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, St. Petersburg",
-      "links": [
-        {
-          "title": "Monthly Voter Action Gathering - South County",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 949838,
-      "mobilize_id": 949838,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/949838/",
-      "title": "Team Meeks Phonebanking",
-      "begin": "2026-06-23",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NY",
-      "links": [
-        {
-          "title": "Team Meeks Phonebanking",
-          "href": "https://www.mobilize.us/friendsofdemondmeeks/event/949838/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 969146,
-      "mobilize_id": 969146,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/969146/",
-      "title": "GOTV for Kumar! Poll Site Visibility",
-      "begin": "2026-06-23",
-      "end": "2026-06-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "GOTV for Kumar! Poll Site Visibility",
-          "href": "https://www.mobilize.us/kumarfornewyork/event/969146/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 877799,
-      "mobilize_id": 877799,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877799/",
-      "title": "Tampa Bay Action Team Meeting",
-      "begin": "2026-06-24",
-      "end": "2026-12-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tampa Bay Action Team Meeting",
-          "href": "https://www.mobilize.us/aclufl/event/877799/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971394,
       "mobilize_id": 971394,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
@@ -547,6 +475,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 978048,
+      "mobilize_id": 978048,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978048/",
+      "title": "Knock and Roll With East Travis",
+      "begin": "2026-07-26",
+      "end": "2026-07-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock and Roll With East Travis",
+          "href": "https://www.mobilize.us/traviscountydems/event/978048/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 757536,
       "mobilize_id": 757536,
       "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
@@ -583,6 +529,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 888472,
+      "mobilize_id": 888472,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
+      "title": "Monthly Voter Action Gathering - South County",
+      "begin": "2026-07-28",
+      "end": "2026-12-22",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, St. Petersburg",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - South County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 758303,
       "mobilize_id": 758303,
       "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
@@ -596,6 +560,24 @@
         {
           "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
           "href": "https://www.mobilize.us/livefreeusa/event/758303/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877799,
+      "mobilize_id": 877799,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877799/",
+      "title": "Tampa Bay Action Team Meeting",
+      "begin": "2026-08-26",
+      "end": "2026-12-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tampa Bay Action Team Meeting",
+          "href": "https://www.mobilize.us/aclufl/event/877799/"
         }
       ],
       "_src": "mobilize"
