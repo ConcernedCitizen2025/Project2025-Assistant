@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-24",
+  "cutoffStr": "2026-06-25",
   "lookbackDays": 1,
   "totals": {
-    "all": 11392,
-    "geoKept": 11348,
-    "virtKept": 34
+    "all": 11435,
+    "geoKept": 11391,
+    "virtKept": 35
   },
   "perSource": {
     "mobilize": {
-      "total": 11373,
-      "recent": 11370,
-      "withCoords": 9173,
-      "keptGeo": 9170,
-      "keptVirt": 2200,
+      "total": 11415,
+      "recent": 11412,
+      "withCoords": 9214,
+      "keptGeo": 9211,
+      "keptVirt": 2201,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 13,
-      "recent": 12,
-      "withCoords": 9,
-      "keptGeo": 8,
+      "total": 14,
+      "recent": 14,
+      "withCoords": 10,
+      "keptGeo": 10,
       "keptVirt": 4,
-      "sampleDroppedByDate": [
-        {
-          "title": "Honorary street naming of Thomas H. Detweiller Way",
-          "begin": "2026-06-23",
-          "end": "2026-06-23",
-          "lat": 40.702345,
-          "lng": -89.572707,
-          "location": "299 Caroline Street, Peoria, IL 61603, United States of America, Peoria",
-          "links": [
-            {
-              "title": "Honorary street naming of Thomas H. Detweiller Way",
-              "href": "https://events.pol-rev.com/events/2ce94261-3e2a-4a51-917d-229100aa594b"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Good Trouble Lives On Rally - National Day of Action",
