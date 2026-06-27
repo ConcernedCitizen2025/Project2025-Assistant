@@ -1,132 +1,6 @@
 {
   "data": [
     {
-      "_id": 783402,
-      "mobilize_id": 783402,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
-      "title": "TA Brooklyn Monthly Meeting",
-      "begin": "2026-06-25",
-      "end": "2026-11-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "TA Brooklyn Monthly Meeting",
-          "href": "https://www.mobilize.us/transalt/event/783402/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 865658,
-      "mobilize_id": 865658,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
-      "title": "Indivisible LAB Evening Action Hour",
-      "begin": "2026-06-25",
-      "end": "2026-07-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Indivisible LAB Evening Action Hour",
-          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 904459,
-      "mobilize_id": 904459,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "Blue Magnolia Monthly Breakfast Social",
-      "begin": "2026-06-25",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Blue Magnolia Monthly Breakfast Social",
-          "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-06-25",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943355,
-      "mobilize_id": 943355,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
-      "title": "LAD Summer Candidate Post Card Events",
-      "begin": "2026-06-25",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LAD Summer Candidate Post Card Events",
-          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-06-25",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 972397,
-      "mobilize_id": 972397,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
-      "title": "Learn Campaign Basics With Durham Democrats",
-      "begin": "2026-06-25",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn Campaign Basics With Durham Democrats",
-          "href": "https://www.mobilize.us/nc-coordinated/event/972397/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -158,24 +32,6 @@
         {
           "title": "Tropical Meme Society bridge drop",
           "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 959551,
-      "mobilize_id": 959551,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/959551/",
-      "title": "Door knock with Lynette!",
-      "begin": "2026-06-27",
-      "end": "2026-06-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door knock with Lynette!",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959551/"
         }
       ],
       "_src": "mobilize"
@@ -322,6 +178,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-07-01",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 972823,
       "mobilize_id": 972823,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
@@ -358,6 +232,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-07-02",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 972397,
+      "mobilize_id": 972397,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
+      "title": "Learn Campaign Basics With Durham Democrats",
+      "begin": "2026-07-02",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn Campaign Basics With Durham Democrats",
+          "href": "https://www.mobilize.us/nc-coordinated/event/972397/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Peaceful Protest of DARPA BRAIN Initiative",
       "begin": "2026-07-03",
       "end": "2026-07-03",
@@ -373,6 +283,42 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 979586,
+      "mobilize_id": 979586,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/979586/",
+      "title": "March with Congresswoman Elfreth on the 4th of July!",
+      "begin": "2026-07-04",
+      "end": "2026-07-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MD",
+      "links": [
+        {
+          "title": "March with Congresswoman Elfreth on the 4th of July!",
+          "href": "https://www.mobilize.us/elfrethformaryland/event/979586/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943355,
+      "mobilize_id": 943355,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
+      "title": "LAD Summer Candidate Post Card Events",
+      "begin": "2026-07-08",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LAD Summer Candidate Post Card Events",
+          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Online - Shut the Flock Off BloNo/MC online meeting",
       "begin": "2026-07-08",
       "end": "2026-07-08",
@@ -386,6 +332,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 865658,
+      "mobilize_id": 865658,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
+      "title": "Indivisible LAB Evening Action Hour",
+      "begin": "2026-07-09",
+      "end": "2026-07-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Indivisible LAB Evening Action Hour",
+          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 961886,
@@ -488,6 +452,42 @@
         {
           "title": "Orientation to Indivisible Northampton (Virtual)",
           "href": "https://www.mobilize.us/indivisiblenorthamptonswingleftwesternma/event/910337/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 783402,
+      "mobilize_id": 783402,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
+      "title": "TA Brooklyn Monthly Meeting",
+      "begin": "2026-07-23",
+      "end": "2026-11-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "TA Brooklyn Monthly Meeting",
+          "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 904459,
+      "mobilize_id": 904459,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
+      "title": "Blue Magnolia Monthly Breakfast Social",
+      "begin": "2026-07-23",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Blue Magnolia Monthly Breakfast Social",
+          "href": "https://www.mobilize.us/mcdptx/event/904459/"
         }
       ],
       "_src": "mobilize"

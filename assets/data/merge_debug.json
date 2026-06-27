@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-25",
+  "cutoffStr": "2026-06-26",
   "lookbackDays": 1,
   "totals": {
-    "all": 11435,
-    "geoKept": 11391,
+    "all": 11437,
+    "geoKept": 11394,
     "virtKept": 35
   },
   "perSource": {
     "mobilize": {
-      "total": 11415,
-      "recent": 11412,
-      "withCoords": 9214,
-      "keptGeo": 9211,
-      "keptVirt": 2201,
+      "total": 11417,
+      "recent": 11415,
+      "withCoords": 9228,
+      "keptGeo": 9226,
+      "keptVirt": 2189,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
