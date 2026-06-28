@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-06-26",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -109,15 +91,15 @@
       "_id": 959557,
       "mobilize_id": 959557,
       "canonical_mobilize_url": "https://www.mobilize.us/event/959557/",
-      "title": "Door knock with Lynette!",
+      "title": "Door knock with Lynette and School Board Chair Virginia Mancini! SLP W1 & W2",
       "begin": "2026-06-28",
       "end": "2026-06-28",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, St. Louis Park",
       "links": [
         {
-          "title": "Door knock with Lynette!",
+          "title": "Door knock with Lynette and School Board Chair Virginia Mancini! SLP W1 & W2",
           "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959557/"
         }
       ],
@@ -268,6 +250,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-07-03",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Peaceful Protest of DARPA BRAIN Initiative",
       "begin": "2026-07-03",
       "end": "2026-07-03",
@@ -296,6 +296,24 @@
         {
           "title": "March with Congresswoman Elfreth on the 4th of July!",
           "href": "https://www.mobilize.us/elfrethformaryland/event/979586/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978258,
+      "mobilize_id": 978258,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978258/",
+      "title": "Westchester-Putnam WFP Chapter Meeting & Election Debrief",
+      "begin": "2026-07-06",
+      "end": "2026-07-06",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Westchester-Putnam WFP Chapter Meeting & Election Debrief",
+          "href": "https://www.mobilize.us/ny-wfp/event/978258/"
         }
       ],
       "_src": "mobilize"
