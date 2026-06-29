@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-06-27",
+  "cutoffStr": "2026-06-28",
   "lookbackDays": 1,
   "totals": {
-    "all": 11375,
-    "geoKept": 11329,
-    "virtKept": 36
+    "all": 10701,
+    "geoKept": 10654,
+    "virtKept": 33
   },
   "perSource": {
     "mobilize": {
-      "total": 11354,
-      "recent": 11351,
-      "withCoords": 9177,
-      "keptGeo": 9174,
-      "keptVirt": 2177,
+      "total": 10681,
+      "recent": 10679,
+      "withCoords": 8674,
+      "keptGeo": 8672,
+      "keptVirt": 2007,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -46,24 +46,6 @@
             {
               "title": "No Kings Alliance Mutual Aid Drive in WHITTIER,CA!",
               "href": "https://www.mobilize.us/nokings/event/869819/"
-            }
-          ],
-          "_src": "mobilize"
-        },
-        {
-          "_id": 869820,
-          "mobilize_id": 869820,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/869820/",
-          "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-          "begin": "2025-11-22",
-          "end": "2025-11-22",
-          "lat": 33.9642626,
-          "lng": -118.0215203,
-          "location": "8228 Michigan Ave, Whittier, CA",
-          "links": [
-            {
-              "title": "No Kings Alliance Mutual Aid Drive in WHITTIER, CA (Nov 22nd)",
-              "href": "https://www.mobilize.us/nokings/event/869820/"
             }
           ],
           "_src": "mobilize"
@@ -111,7 +93,7 @@
           "mobilize_id": 445825,
           "canonical_mobilize_url": "https://www.mobilize.us/event/445825/",
           "title": "Canvass for Elaine Luria - Virginia Beach",
-          "begin": "2026-06-27",
+          "begin": "2026-06-28",
           "end": "2026-06-28",
           "lat": null,
           "lng": null,
@@ -127,23 +109,51 @@
       ]
     },
     "mobilizon": {
-      "total": 15,
-      "recent": 14,
-      "withCoords": 11,
-      "keptGeo": 10,
-      "keptVirt": 4,
+      "total": 14,
+      "recent": 8,
+      "withCoords": 10,
+      "keptGeo": 5,
+      "keptVirt": 3,
       "sampleDroppedByDate": [
         {
-          "title": "All of Us Feeding it Forward",
-          "begin": "2026-06-26",
-          "end": "2026-06-26",
-          "lat": 44.3055519,
-          "lng": -69.7789123,
-          "location": "Union Street, Augusta, ME 04330, United States of America, Augusta",
+          "title": "All of Us. Truth, Equity & Freedom",
+          "begin": "2026-06-27",
+          "end": "2026-06-27",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "All of Us Feeding it Forward",
-              "href": "https://events.pol-rev.com/events/85f92028-0190-4ab0-bfbd-e2f8c57c8d1c"
+              "title": "All of Us. Truth, Equity & Freedom",
+              "href": "https://events.pol-rev.com/events/86259947-f554-4996-b9be-a06628aafd35"
+            }
+          ]
+        },
+        {
+          "title": "BloNo IL - Rally - All Of US 250",
+          "begin": "2026-06-27",
+          "end": "2026-06-27",
+          "lat": 40.4840901,
+          "lng": -88.9928214,
+          "location": "Bloomington Center for the Performing Arts, 600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo IL - Rally - All Of US 250",
+              "href": "https://events.pol-rev.com/events/ad0960f8-182b-4a36-aa39-2bef5b19b9d5"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-06-27",
+          "end": "2026-06-27",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/7fefdee4-66bb-49ae-9fc4-17ca9cad4701"
             }
           ]
         }

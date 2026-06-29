@@ -1,75 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-06-27",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 963730,
-      "mobilize_id": 963730,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/963730/",
-      "title": "Neighborhood Conversations with the Outagamie Dems in Grand Chute + Greenville!",
-      "begin": "2026-06-27",
-      "end": "2026-06-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Neighborhood Conversations with the Outagamie Dems in Grand Chute + Greenville!",
-          "href": "https://www.mobilize.us/wisdems/event/963730/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 975757,
-      "mobilize_id": 975757,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
-      "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-06-27",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Sarah Pounds!",
-          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "All of Us. Truth, Equity & Freedom",
-      "begin": "2026-06-27",
-      "end": "2026-06-27",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "All of Us. Truth, Equity & Freedom",
-          "href": "https://events.pol-rev.com/events/86259947-f554-4996-b9be-a06628aafd35"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 890176,
       "mobilize_id": 890176,
       "canonical_mobilize_url": "https://www.mobilize.us/event/890176/",
@@ -119,6 +50,24 @@
         {
           "title": "West Des Moines Canvass for Sarah Trone Garriott",
           "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 975757,
+      "mobilize_id": 975757,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
+      "title": "Canvass with Sarah Pounds!",
+      "begin": "2026-06-28",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Sarah Pounds!",
+          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
         }
       ],
       "_src": "mobilize"
@@ -245,6 +194,24 @@
         {
           "title": "Learn Campaign Basics With Durham Democrats",
           "href": "https://www.mobilize.us/nc-coordinated/event/972397/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-07-03",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"
@@ -506,24 +473,6 @@
         {
           "title": "Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978048,
-      "mobilize_id": 978048,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978048/",
-      "title": "Knock and Roll With East Travis",
-      "begin": "2026-07-26",
-      "end": "2026-07-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Knock and Roll With East Travis",
-          "href": "https://www.mobilize.us/traviscountydems/event/978048/"
         }
       ],
       "_src": "mobilize"
