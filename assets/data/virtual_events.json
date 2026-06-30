@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 890176,
-      "mobilize_id": 890176,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/890176/",
-      "title": "IEB's 2026 All-Member Meetings on Zoom!",
-      "begin": "2026-06-28",
-      "end": "2026-10-25",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "IEB's 2026 All-Member Meetings on Zoom!",
-          "href": "https://www.mobilize.us/indivisible-east-bay/event/890176/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 959557,
-      "mobilize_id": 959557,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/959557/",
-      "title": "Door knock with Lynette and School Board Chair Virginia Mancini! SLP W1 & W2",
-      "begin": "2026-06-28",
-      "end": "2026-06-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, St. Louis Park",
-      "links": [
-        {
-          "title": "Door knock with Lynette and School Board Chair Virginia Mancini! SLP W1 & W2",
-          "href": "https://www.mobilize.us/lynettedumalagforstatesenate46/event/959557/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-06-28",
-      "end": "2026-07-12",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 975757,
-      "mobilize_id": 975757,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
-      "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-06-28",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Sarah Pounds!",
-          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971615,
       "mobilize_id": 971615,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971615/",
@@ -250,6 +178,24 @@
       "_src": "mobilizon"
     },
     {
+      "_id": 975757,
+      "mobilize_id": 975757,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
+      "title": "Canvass with Sarah Pounds!",
+      "begin": "2026-07-04",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Sarah Pounds!",
+          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 979586,
       "mobilize_id": 979586,
       "canonical_mobilize_url": "https://www.mobilize.us/event/979586/",
@@ -350,6 +296,24 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
+      "begin": "2026-07-11",
+      "end": "2026-07-12",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
         }
       ],
       "_src": "mobilize"
@@ -563,6 +527,24 @@
         {
           "title": "Tampa Bay Action Team Meeting",
           "href": "https://www.mobilize.us/aclufl/event/877799/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 890176,
+      "mobilize_id": 890176,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/890176/",
+      "title": "IEB's 2026 All-Member Meetings on Zoom!",
+      "begin": "2026-08-30",
+      "end": "2026-10-25",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "IEB's 2026 All-Member Meetings on Zoom!",
+          "href": "https://www.mobilize.us/indivisible-east-bay/event/890176/"
         }
       ],
       "_src": "mobilize"
