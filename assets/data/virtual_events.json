@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 971615,
-      "mobilize_id": 971615,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971615/",
-      "title": "Legislative Recap",
-      "begin": "2026-06-29",
-      "end": "2026-06-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Legislative Recap",
-          "href": "https://www.mobilize.us/mnfreedomfund/event/971615/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 947260,
       "mobilize_id": 947260,
       "canonical_mobilize_url": "https://www.mobilize.us/event/947260/",
@@ -60,7 +42,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
       "title": "Phonebanking with the PA Dems in Hollidaysburg!",
       "begin": "2026-07-01",
-      "end": "2026-07-15",
+      "end": "2026-07-29",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -368,6 +350,24 @@
         {
           "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
           "href": "https://www.mobilize.us/acluin/event/958108/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 981760,
+      "mobilize_id": 981760,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/981760/",
+      "title": "Saugatuck Canvass Launch with Senator Mallory McMorrow & State Rep. Joey Andrews",
+      "begin": "2026-07-18",
+      "end": "2026-07-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Saugatuck Canvass Launch with Senator Mallory McMorrow & State Rep. Joey Andrews",
+          "href": "https://www.mobilize.us/mcmorrowformichigan/event/981760/"
         }
       ],
       "_src": "mobilize"
