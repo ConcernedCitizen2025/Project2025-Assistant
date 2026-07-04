@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-02",
+  "cutoffStr": "2026-07-03",
   "lookbackDays": 1,
   "totals": {
-    "all": 11611,
-    "geoKept": 11554,
-    "virtKept": 48
+    "all": 11759,
+    "geoKept": 11697,
+    "virtKept": 53
   },
   "perSource": {
     "mobilize": {
-      "total": 11594,
-      "recent": 11591,
-      "withCoords": 9430,
-      "keptGeo": 9427,
-      "keptVirt": 2164,
+      "total": 11742,
+      "recent": 11739,
+      "withCoords": 9545,
+      "keptGeo": 9542,
+      "keptVirt": 2197,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 547245,
           "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
           "title": "Monthly All Member Meeting",
-          "begin": "2026-07-02",
+          "begin": "2026-08-06",
           "end": "2026-11-05",
           "lat": null,
           "lng": null,
