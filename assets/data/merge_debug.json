@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-03",
+  "cutoffStr": "2026-07-04",
   "lookbackDays": 1,
   "totals": {
-    "all": 11759,
-    "geoKept": 11697,
-    "virtKept": 53
+    "all": 11693,
+    "geoKept": 11628,
+    "virtKept": 55
   },
   "perSource": {
     "mobilize": {
-      "total": 11742,
-      "recent": 11739,
-      "withCoords": 9545,
-      "keptGeo": 9542,
-      "keptVirt": 2197,
+      "total": 11674,
+      "recent": 11671,
+      "withCoords": 9480,
+      "keptGeo": 9477,
+      "keptVirt": 2194,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 11,
-      "recent": 11,
-      "withCoords": 8,
-      "keptGeo": 8,
+      "total": 13,
+      "recent": 12,
+      "withCoords": 9,
+      "keptGeo": 9,
       "keptVirt": 3,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Peaceful Protest of DARPA BRAIN Initiative",
+          "begin": "2026-07-03",
+          "end": "2026-07-03",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Peaceful Protest of DARPA BRAIN Initiative",
+              "href": "https://events.pol-rev.com/events/d42cd20a-bad7-4f0d-87a3-e0d314ed7e56"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Good Trouble Lives On Rally - National Day of Action",
@@ -149,6 +164,20 @@
           ]
         },
         {
+          "title": "Tuyển Dụng Bên Bất Động Sản: Những Yếu Tố Cốt Lõi Để Tìm Đúng Người",
+          "begin": "2026-07-11",
+          "end": "2026-07-11",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Tuyển Dụng Bên Bất Động Sản: Những Yếu Tố Cốt Lõi Để Tìm Đúng Người",
+              "href": "https://events.pol-rev.com/events/3d1a3b7a-3a24-4a76-9a01-78bc1409d4d2"
+            }
+          ]
+        },
+        {
           "title": "Online - Shut the Flock Off BloNo/MC online meeting",
           "begin": "2026-07-08",
           "end": "2026-07-08",
@@ -159,20 +188,6 @@
             {
               "title": "Online - Shut the Flock Off BloNo/MC online meeting",
               "href": "https://events.pol-rev.com/events/ba901cae-dcbb-4405-9901-edd83852a539"
-            }
-          ]
-        },
-        {
-          "title": "Peaceful Protest of DARPA BRAIN Initiative",
-          "begin": "2026-07-03",
-          "end": "2026-07-03",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Peaceful Protest of DARPA BRAIN Initiative",
-              "href": "https://events.pol-rev.com/events/d42cd20a-bad7-4f0d-87a3-e0d314ed7e56"
             }
           ]
         }
