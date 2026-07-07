@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 975757,
-      "mobilize_id": 975757,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
-      "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-07-05",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Sarah Pounds!",
-          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 978258,
       "mobilize_id": 978258,
       "canonical_mobilize_url": "https://www.mobilize.us/event/978258/",
@@ -268,6 +250,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 975757,
+      "mobilize_id": 975757,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
+      "title": "Canvass with Sarah Pounds!",
+      "begin": "2026-07-11",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Sarah Pounds!",
+          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 983028,
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
@@ -386,24 +386,6 @@
         {
           "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
           "href": "https://www.mobilize.us/acluin/event/958108/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 981760,
-      "mobilize_id": 981760,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/981760/",
-      "title": "Saugatuck Canvass Launch with Senator Mallory McMorrow & State Rep. Joey Andrews",
-      "begin": "2026-07-18",
-      "end": "2026-07-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Saugatuck Canvass Launch with Senator Mallory McMorrow & State Rep. Joey Andrews",
-          "href": "https://www.mobilize.us/mcmorrowformichigan/event/981760/"
         }
       ],
       "_src": "mobilize"
@@ -748,6 +730,21 @@
       "_src": "mobilize"
     },
     {
+      "title": "Citizens Against Tyranny",
+      "begin": "2026-07-25",
+      "end": "2026-07-25",
+      "lat": null,
+      "lng": null,
+      "location": "SW Corner Eldorado and 75",
+      "links": [
+        {
+          "title": "Citizens Against Tyranny",
+          "href": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
       "_id": 757536,
       "mobilize_id": 757536,
       "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
@@ -874,28 +871,10 @@
       "_src": "mobilize"
     },
     {
-      "_id": 983569,
-      "mobilize_id": 983569,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983569/",
-      "title": "100 Days Out Lino Lakes/SD36 Weekend of Action",
-      "begin": "2026-08-08",
-      "end": "2026-08-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MN",
-      "links": [
-        {
-          "title": "100 Days Out Lino Lakes/SD36 Weekend of Action",
-          "href": "https://www.mobilize.us/dflcc/event/983569/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 983570,
       "mobilize_id": 983570,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983570/",
-      "title": "100 Days Out Blaine/SD32 Weekend of Action",
+      "title": "Blaine/Lino Lakes Get Out The Vote!",
       "begin": "2026-08-08",
       "end": "2026-08-11",
       "lat": null,
@@ -903,7 +882,7 @@
       "location": "This event's address is private. Sign up for more details, MN",
       "links": [
         {
-          "title": "100 Days Out Blaine/SD32 Weekend of Action",
+          "title": "Blaine/Lino Lakes Get Out The Vote!",
           "href": "https://www.mobilize.us/dflcc/event/983570/"
         }
       ],
