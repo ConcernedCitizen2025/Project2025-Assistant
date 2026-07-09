@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 984060,
-      "mobilize_id": 984060,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/984060/",
-      "title": "Indivisible MontCo PA & Friends July 7th, 2026 ZOOM Meeting",
-      "begin": "2026-07-07",
-      "end": "2026-07-07",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Indivisible MontCo PA & Friends July 7th, 2026 ZOOM Meeting",
-          "href": "https://www.mobilize.us/indivisiblemontco/event/984060/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 943355,
       "mobilize_id": 943355,
       "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
@@ -319,6 +301,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-07-14",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986692,
+      "mobilize_id": 986692,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+      "begin": "2026-07-14",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986692/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -368,6 +386,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 986447,
+      "mobilize_id": 986447,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986447/",
+      "title": "Ned for CT Canvass Kick-off - Bridgeport!",
+      "begin": "2026-07-19",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Ned for CT Canvass Kick-off - Bridgeport!",
+          "href": "https://www.mobilize.us/nedforct/event/986447/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 910337,
@@ -481,7 +517,7 @@
       "_id": 983657,
       "mobilize_id": 983657,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983657/",
-      "title": "100 Days Out Champlin and Coon Rapids SD35 Weekend of Action",
+      "title": "100 Days Out Champlin and Coon Rapids SD34/35 Weekend of Action",
       "begin": "2026-07-25",
       "end": "2026-07-26",
       "lat": null,
@@ -489,7 +525,7 @@
       "location": "This event's address is private. Sign up for more details, Coon Rapids",
       "links": [
         {
-          "title": "100 Days Out Champlin and Coon Rapids SD35 Weekend of Action",
+          "title": "100 Days Out Champlin and Coon Rapids SD34/35 Weekend of Action",
           "href": "https://www.mobilize.us/dflcc/event/983657/"
         }
       ],
