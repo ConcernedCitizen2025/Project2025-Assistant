@@ -1,84 +1,1268 @@
 {
   "data": [
     {
-      "title": "mUUsic in the garden THREEE - UUBN's free family friendly music festival 2026",
-      "date": "2026-09-12",
-      "location": "East 900 North Road, McLean County, IL, United States of America, McLean County",
-      "lat": 40.414867,
-      "lng": -88.956278,
-      "link": "https://events.pol-rev.com/events/0766a857-2f88-4f64-bb18-e71c9f273302"
+      "title": "General Meeting - West Seattle Indivisible",
+      "date": "2026-01-11",
+      "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5626534,
+      "lng": -122.386272,
+      "link": "https://events.pol-rev.com/events/be8c7cb3-9e6d-4e14-92bc-1f3c5aea197a"
     },
     {
-      "title": "BloNo IL - Digital Security for Protesters",
-      "date": "2026-08-02",
-      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4929988,
-      "lng": -88.9684006,
-      "link": "https://events.pol-rev.com/events/b1859170-187b-4c7f-bb11-5df6f51fe461"
+      "title": "No Kings",
+      "date": "2025-12-27",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/1652d7e2-722b-4a15-9d6c-232e6001fdf0"
     },
     {
-      "title": "Citizens Against Tyranny",
-      "date": "2026-07-25",
-      "location": "SW Corner Eldorado and 75",
+      "title": "General Meeting - West Seattle Indivisible",
+      "date": "2025-12-14",
+      "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5626534,
+      "lng": -122.386272,
+      "link": "https://events.pol-rev.com/events/6b22b56d-cbfb-4c7b-b654-ab413ba1033c"
+    },
+    {
+      "title": "No Kings",
+      "date": "2025-12-13",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/dc4fc35e-d46a-4ea2-8343-acc94dde1f30"
+    },
+    {
+      "title": "The Future of Coastal LA: Senate District 24 Candidate Forum & Meet & Greet",
+      "date": "2025-12-07",
+      "location": "Pacific Unitarian Church, 5621, Rancho Palos Verdes, CA 90274, United States of America, Rancho Palos Verdes",
+      "lat": 33.788697,
+      "lng": -118.3776181,
+      "link": "https://events.pol-rev.com/events/590c18c4-132d-42b5-b5e0-71837f681042"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-12-05",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/86c2f784-f5c6-4078-ac1d-b7c83263c487"
+    },
+    {
+      "title": "No Kings",
+      "date": "2025-11-29",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/5b4066a7-e6e0-4dba-a49a-10bbe6595691"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-11-28",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/be4c563b-b989-430c-a409-a1479796706d"
+    },
+    {
+      "title": "Community Support Fair",
+      "date": "2025-11-22",
+      "location": "Rice Avenue, Lake City, Erie County, PA 16423, United States of America, Lake City",
+      "lat": 42.0118178,
+      "lng": -80.3345585,
+      "link": "https://events.pol-rev.com/events/e2281df3-fd08-4f37-8c64-03a96c179797"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-11-21",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/364cef33-9ff2-4b6a-a323-997e76a9c4b6"
+    },
+    {
+      "title": "No Kings",
+      "date": "2025-11-15",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/a977dcb5-89eb-44c0-9fcb-3e79b530c409"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-11-14",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/02534f74-af57-4cf9-b838-9120321fdf49"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-11-14",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/51a8c2aa-454f-4f93-93af-35e1b87a157c"
+    },
+    {
+      "title": "General Meeting - West Seattle Indivisible",
+      "date": "2025-11-09",
+      "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5626534,
+      "lng": -122.386272,
+      "link": "https://events.pol-rev.com/events/50f19d82-c07d-4ae4-a057-6494c862dab8"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-11-07",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/37958876-cec4-4872-bcac-99c01db87606"
+    },
+    {
+      "title": "Canvass for Prop 50 with ISBLA in The South Bay!",
+      "date": "2025-11-01",
+      "location": "Torrance City Hall, Torrance Boulevard, Torrance, CA 90503, United States of America, Torrance",
+      "lat": 33.8369603,
+      "lng": -118.3409067,
+      "link": "https://events.pol-rev.com/events/7b27f60d-547c-47f1-be16-f50975b2da44"
+    },
+    {
+      "title": "Trump + Tesla Takedown",
+      "date": "2025-11-01",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/e6f86f85-aa63-41ec-bc58-c32cc206c50d"
+    },
+    {
+      "title": "No Kings",
+      "date": "2025-11-01",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/43f241d7-1321-4205-b094-286dca166bd7"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-10-31",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/adb92f50-00c6-4ec7-b687-32a0d1be4453"
+    },
+    {
+      "title": "RhRR @ the ICE Field Office in central Phoenix",
+      "date": "2025-10-30",
+      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
+      "lat": 33.4708979,
+      "lng": -112.073198,
+      "link": "https://events.pol-rev.com/events/51fb9244-058b-4b30-abc6-86ea748a3dc3"
+    },
+    {
+      "title": "RhRR @ Moon Valley in North Central Phoenix",
+      "date": "2025-10-29",
+      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+      "lat": 33.6261453,
+      "lng": -112.0663766,
+      "link": "https://events.pol-rev.com/events/a785a58a-66a8-4b71-9312-0ddbd8b622b4"
+    },
+    {
+      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+      "date": "2025-10-29",
+      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+      "lat": 33.4974465,
+      "lng": -112.0838942,
+      "link": "https://events.pol-rev.com/events/dc47e008-45f0-4573-938f-e636a0e3b762"
+    },
+    {
+      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+      "date": "2025-10-28",
+      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+      "lat": 33.3841527,
+      "lng": -111.9011703,
+      "link": "https://events.pol-rev.com/events/94c8e1d6-f2e1-462c-a0ca-ee833aaba169"
+    },
+    {
+      "title": "Write Letters to Voters with Indivisible/Swing Left South Bay LA",
+      "date": "2025-10-26",
+      "location": "Zamperini Field, 3301 Airport Drive, Torrance, CA 90505, United States of America, Torrance",
+      "lat": 33.8027967,
+      "lng": -118.3400374,
+      "link": "https://events.pol-rev.com/events/f5994232-f635-4142-b5d4-7ee15f8368f5"
+    },
+    {
+      "title": "Canvass for Prop 50 with ISBLA in The South Bay!",
+      "date": "2025-10-25",
+      "location": "Torrance City Hall, Torrance Boulevard, Torrance, CA 90503, United States of America, Torrance",
+      "lat": 33.8369603,
+      "lng": -118.3409067,
+      "link": "https://events.pol-rev.com/events/14c5926c-08e7-4f98-859b-209afdf63d4d"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-10-24",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/be147a72-f38d-477f-816d-bca063eca6bc"
+    },
+    {
+      "title": "RhRR @ the ICE Field Office in central Phoenix",
+      "date": "2025-10-23",
+      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
+      "lat": 33.4708979,
+      "lng": -112.073198,
+      "link": "https://events.pol-rev.com/events/9a792f7d-991d-48a8-ad20-e38853ab49a9"
+    },
+    {
+      "title": "RhRR @ Moon Valley in North Central Phoenix",
+      "date": "2025-10-22",
+      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+      "lat": 33.6261453,
+      "lng": -112.0663766,
+      "link": "https://events.pol-rev.com/events/73a02d9a-8b74-4dba-94f8-bf1e5f5f9b37"
+    },
+    {
+      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+      "date": "2025-10-22",
+      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+      "lat": 33.4974465,
+      "lng": -112.0838942,
+      "link": "https://events.pol-rev.com/events/ed826036-5599-4ebe-aed7-5004bd3bafd0"
+    },
+    {
+      "title": "Pro Democracy Rally Weekly",
+      "date": "2025-10-21",
+      "location": "Bank of the West, 100 South Main Street, Sebastopol, CA 95472, United States of America, Sebastopol",
+      "lat": 38.4018631,
+      "lng": -122.8243343,
+      "link": "https://events.pol-rev.com/events/b20ebc7f-accc-4c39-846e-0e153b6ec2e1"
+    },
+    {
+      "title": "RhRR @ ICE/U.S. Immigration Court in Phoenix",
+      "date": "2025-10-21",
+      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+      "lat": 33.4508244,
+      "lng": -112.0830871,
+      "link": "https://events.pol-rev.com/events/68eac6b5-c235-4af3-8089-185829c37a26"
+    },
+    {
+      "title": "RhRR @ ICE/U.S. Immigration Court in Phoenix",
+      "date": "2025-10-21",
+      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+      "lat": 33.4508244,
+      "lng": -112.0830871,
+      "link": "https://events.pol-rev.com/events/634f3746-9b12-487d-b039-4c3d853e3af4"
+    },
+    {
+      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+      "date": "2025-10-21",
+      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+      "lat": 33.3841527,
+      "lng": -111.9011703,
+      "link": "https://events.pol-rev.com/events/a048255b-a279-48e3-a95f-eac1657a5b71"
+    },
+    {
+      "title": "Write Letters to Voters with Indivisible/Swing Left South Bay LA",
+      "date": "2025-10-19",
+      "location": "Zamperini Field, 3301 Airport Drive, Torrance, CA 90505, United States of America, Torrance",
+      "lat": 33.8027967,
+      "lng": -118.3400374,
+      "link": "https://events.pol-rev.com/events/b612baef-ef17-4fc7-96d2-0ce8989fed1c"
+    },
+    {
+      "title": "No Kings Rally & March: Spokane",
+      "date": "2025-10-18",
+      "location": "",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
+      "link": "https://events.pol-rev.com/events/2deaacb2-fd04-4194-9c8f-72f6d3ac64b8"
     },
     {
-      "title": "BloNo IL - Rally - Good Trouble Lives On",
-      "date": "2026-07-19",
-      "location": "Bloomington Center for the Performing Arts, 600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4840901,
-      "lng": -88.9928214,
-      "link": "https://events.pol-rev.com/events/bcafb0ba-56ae-4db9-9ee0-c0a415c9e8a7"
+      "title": "No Kings Panama City, FL",
+      "date": "2025-10-18",
+      "location": "Hathaway Bridge, Bay County, Florida, United States of America, Bay County",
+      "lat": 30.18742,
+      "lng": -85.74299,
+      "link": "https://events.pol-rev.com/events/8f630035-4fa1-44b9-9019-18600f4edea1"
     },
     {
-      "title": "Good Trouble Lives On [Beverly MA] Rally + Standout",
-      "date": "2026-07-18",
+      "title": "NO KINGS Sioux Falls",
+      "date": "2025-10-18",
+      "location": "Sioux Falls, South Dakota, United States of America, Sioux Falls",
+      "lat": 43.5476008,
+      "lng": -96.7293629,
+      "link": "https://events.pol-rev.com/events/685fde06-ffda-4a71-8342-62d988575267"
+    },
+    {
+      "title": "NO KINGS Monterey",
+      "date": "2025-10-18",
+      "location": "717 Del Monte Avenue, Monterey, CA 93940, United States of America, Monterey",
+      "lat": 36.6001095,
+      "lng": -121.8879385,
+      "link": "https://events.pol-rev.com/events/df926d13-ee05-4b68-89e3-b173286a0258"
+    },
+    {
+      "title": "No Kings! San Francisco",
+      "date": "2025-10-18",
+      "location": "Sue Bierman Park, San Francisco, California, United States of America, San Francisco",
+      "lat": 37.7960669,
+      "lng": -122.3959753,
+      "link": "https://events.pol-rev.com/events/1c0a2aa6-2ce4-4f87-bb0d-5299adaf3f08"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Harbor Island Entrance, Mamaroneck",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/79ff3df8-2ab0-447f-ba93-8ed9300b675f"
+    },
+    {
+      "title": "Spokane: No Kings Protest",
+      "date": "2025-10-18",
+      "location": "B.A. Clark Park, Spokane",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/359db3a7-af82-4fc9-a086-d4c3e463f210"
+    },
+    {
+      "title": "No Kings! Protest",
+      "date": "2025-10-18",
+      "location": "Rite Aid, 1496 North Shoop Avenue, Wauseon, OH 43567, United States of America, Wauseon",
+      "lat": 41.5729414,
+      "lng": -84.1335806,
+      "link": "https://events.pol-rev.com/events/29f4babd-958a-4fab-8a3d-90e4683dd028"
+    },
+    {
+      "title": "No Kings - Virginia, MN",
+      "date": "2025-10-18",
+      "location": "890 3rd Street South, Virginia, MN 55792, United States of America, Virginia",
+      "lat": 47.5202549,
+      "lng": -92.5463431,
+      "link": "https://events.pol-rev.com/events/ca215eae-8106-4d78-b20d-4bf25202f73d"
+    },
+    {
+      "title": "No Kings! STAND UP! SPEAK  OUT!  RESIST!",
+      "date": "2025-10-18",
+      "location": "North School Park, Arlington Heights, Illinois, United States of America, Arlington Heights",
+      "lat": 42.0860713,
+      "lng": -87.981078,
+      "link": "https://events.pol-rev.com/events/98acaf2c-5209-4465-b31a-3d8ba42eb7b6"
+    },
+    {
+      "title": "We Say No Kings!!",
+      "date": "2025-10-18",
+      "location": "The Defiant Goldfish, Tacoma, Washington",
+      "lat": 47.27523770999283,
+      "lng": -122.37487063804444,
+      "link": "https://events.pol-rev.com/events/993b3f32-9c45-4aca-9936-f6ce2cf5cc19"
+    },
+    {
+      "title": "NO KINGS: WE HAVE HAD ENOUGH",
+      "date": "2025-10-18",
+      "location": "Oregon State Capitol, 900 Court Street Northeast, Salem, OR 97301, United States of America, Salem",
+      "lat": 44.9382743,
+      "lng": -123.0307767,
+      "link": "https://events.pol-rev.com/events/c8fcfa9a-2a29-45f2-a616-507402f34716"
+    },
+    {
+      "title": "No Kings Protest Rally",
+      "date": "2025-10-18",
+      "location": "The Waypoint Park, Bainbridge Island, Washington, United States of America, Bainbridge Island",
+      "lat": 47.6246029,
+      "lng": -122.5144174,
+      "link": "https://events.pol-rev.com/events/1543d807-41c1-4392-9432-821668fb8fad"
+    },
+    {
+      "title": "No Kings",
+      "date": "2025-10-18",
+      "location": "George Washington Park, Centralia, Washington, United States of America, Centralia",
+      "lat": 46.7161373,
+      "lng": -122.9564203,
+      "link": "https://events.pol-rev.com/events/94c8a3f0-67d3-411f-8c53-766d721c4048"
+    },
+    {
+      "title": "Seattle No Kings 2.0 March & Rally",
+      "date": "2025-10-18",
+      "location": "1709 Broadway East, Seattle, WA 98102, United States of America, Seattle",
+      "lat": 47.6344575,
+      "lng": -122.3212758,
+      "link": "https://events.pol-rev.com/events/386dac95-724c-45b7-821c-895243985462"
+    },
+    {
+      "title": "No Kings in Park County",
+      "date": "2025-10-18",
+      "location": "Cody City Park, Cody, Wyoming, United States of America, Cody",
+      "lat": 44.5254898,
+      "lng": -109.0688009,
+      "link": "https://events.pol-rev.com/events/94fc195e-d6d0-4e20-bc64-389f8b7f0f55"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Humboldt County Law Library, I Street, Eureka, CA 95502, United States of America, Eureka",
+      "lat": 40.8027324,
+      "lng": -124.1624717,
+      "link": "https://events.pol-rev.com/events/d06d210e-1c69-4f20-8af3-2a15fc4cff99"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Humboldt County courthouse",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/a1979b4f-ee28-4a8b-bdf1-3b1329d8061d"
+    },
+    {
+      "title": "No Kings Two - Tillamook Coast Action",
+      "date": "2025-10-18",
+      "location": "Sue Elmore Kayak Park, Tillamook",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/ee8f71a3-e323-434c-be8d-2dcdf6a885cb"
+    },
+    {
+      "title": "Bottineau",
+      "date": "2025-10-18",
+      "location": "Carol Wendel, Bottineau",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/5bd50021-02f9-4fce-889a-b8ef5794a940"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/2d536b9c-9fac-4983-ba4e-5dc75c1a438c"
+    },
+    {
+      "title": "No Kings - Sheridan Wyoming",
+      "date": "2025-10-18",
+      "location": "298 West 8th Street, Sheridan, WY 82801, United States of America, Sheridan",
+      "lat": 44.809885,
+      "lng": -106.96023,
+      "link": "https://events.pol-rev.com/events/ac1ed962-88c1-4a94-a84c-c02d4410e0ab"
+    },
+    {
+      "title": "No Kings Around the Bay",
+      "date": "2025-10-18",
+      "location": "Bay Trail, Eureka, CA 95537, United States of America, Eureka",
+      "lat": 40.7505082,
+      "lng": -124.1986086,
+      "link": "https://events.pol-rev.com/events/c7d1be80-642a-40bb-b15c-c41b4266d65f"
+    },
+    {
+      "title": "No Kings March:  Co-op to the Courthouse!",
+      "date": "2025-10-18",
+      "location": "North Coast Co-op, 25 4th Street, Eureka, CA 95501, United States of America, Eureka",
+      "lat": 40.8025186,
+      "lng": -124.1713106,
+      "link": "https://events.pol-rev.com/events/40016f7c-3c50-48d4-93b0-f8c2b7121c43"
+    },
+    {
+      "title": "No Kings/Emmer Do Better, Chaska Protest",
+      "date": "2025-10-18",
+      "location": "1100 Hazeltine Boulevard, Hazeltine, Chaska, MN 55318, United States of America, Chaska",
+      "lat": 44.83441732341872,
+      "lng": -93.60179901123048,
+      "link": "https://events.pol-rev.com/events/3ecaef65-9dc0-456b-b75b-77d87b38ffc4"
+    },
+    {
+      "title": "NO KINGS Rapid City",
+      "date": "2025-10-18",
+      "location": "City/School Administration Center, 300 6th Street, Rapid City, SD 57701, United States of America, Rapid City",
+      "lat": 44.0827127,
+      "lng": -103.2256403,
+      "link": "https://events.pol-rev.com/events/1210f993-38ef-4f2e-8d77-3071f0a1f204"
+    },
+    {
+      "title": "No Kings Gilroy",
+      "date": "2025-10-18",
+      "location": "Corner of First St and Santa Teresa Blvd., Gilroy",
+      "lat": 37.0134162996423,
+      "lng": -121.59895420074464,
+      "link": "https://events.pol-rev.com/events/5562a40e-ffce-4943-9f72-330ff2cf41d4"
+    },
+    {
+      "title": "Human Banner, Ocean Beach, San Francisco",
+      "date": "2025-10-18",
+      "location": "Ocean Beach, Stairwell #7",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/cb9cd672-98d0-495a-ac75-e940ec0beef4"
+    },
+    {
+      "title": "NO KINGS Pierre",
+      "date": "2025-10-18",
+      "location": "225 South Pierre Street, Pierre, SD 57501, United States of America, Pierre",
+      "lat": 44.3672345,
+      "lng": -100.3530975,
+      "link": "https://events.pol-rev.com/events/56a9dc05-9e8e-4fd7-8398-0d5d2518063d"
+    },
+    {
+      "title": "No Kings Troy",
+      "date": "2025-10-18",
+      "location": "3044 Rochester Road, Big Beaver, Troy, MI 48098, United States of America, Troy",
+      "lat": 42.5636351,
+      "lng": -83.1284222,
+      "link": "https://events.pol-rev.com/events/1322f43a-ab4f-4d20-acb0-50021b9688b6"
+    },
+    {
+      "title": "Seneca Falls Won’t Fall For Fascism NO KINGS",
+      "date": "2025-10-18",
+      "location": "National Women's Rights Historical Park Visitor Center, 136 Fall Street, Seneca Falls, NY 13148, United States of America, Town of Seneca Falls",
+      "lat": 42.9108267,
+      "lng": -76.8001575,
+      "link": "https://events.pol-rev.com/events/41f89adf-35b1-4570-825b-6cbe6131080f"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Livonia, Michigan, United States of America, Livonia",
+      "lat": 42.396903715050115,
+      "lng": -83.37350606918336,
+      "link": "https://events.pol-rev.com/events/b1b8fe6a-d04e-43cd-9cbd-a3266a005628"
+    },
+    {
+      "title": "Defend Democracy ICT - NO Kings Day 2",
+      "date": "2025-10-18",
+      "location": "Douglas & Broadway, Wichita",
+      "lat": 37.686147,
+      "lng": -97.335465,
+      "link": "https://events.pol-rev.com/events/f3c7ff07-ad3a-42e0-b477-9dcf80a52513"
+    },
+    {
+      "title": "No Kings 2",
+      "date": "2025-10-18",
+      "location": "816 Royal Gorge Boulevard, Cañon City, CO 81212, United States of America, Cañon City",
+      "lat": 38.4416517,
+      "lng": -105.2358142,
+      "link": "https://events.pol-rev.com/events/29425182-b6fd-4dd4-8972-64d0d218707f"
+    },
+    {
+      "title": "No Kings Morgan Hill",
+      "date": "2025-10-18",
+      "location": "Morgan Hill, California, United States of America, Morgan Hill",
+      "lat": 37.12554284640836,
+      "lng": -121.64995640516284,
+      "link": "https://events.pol-rev.com/events/882126cd-44d0-4ec1-b992-d99f514eaa6e"
+    },
+    {
+      "title": "No Kings - South Carolina Unites (All South Carolina Indivisible Chapters + 50501SC + Others)",
+      "date": "2025-10-18",
+      "location": "South Carolina State House, 1100 Gervais Street, Columbia, SC 29201, United States of America, Columbia",
+      "lat": 34.0003435,
+      "lng": -81.0330519,
+      "link": "https://events.pol-rev.com/events/dbb20249-43af-4c3e-bcc9-65a2ab2602c7"
+    },
+    {
+      "title": "NO KINGS National Day of Mobilization 10/18",
+      "date": "2025-10-18",
+      "location": "18611 Dexter Avenue, Lake Elsinore, CA 92532, United States of America, Lake Elsinore",
+      "lat": 33.6906633,
+      "lng": -117.3342717,
+      "link": "https://events.pol-rev.com/events/df63f61a-a67f-44b4-a6dd-ad9b9e513e1f"
+    },
+    {
+      "title": "NO KINGS Bloomington Normal Protest rally",
+      "date": "2025-10-18",
+      "location": "600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
+      "lat": 40.483779,
+      "lng": -88.992526,
+      "link": "https://events.pol-rev.com/events/56fa35c6-1288-4728-a348-68e17c1623d9"
+    },
+    {
+      "title": "No Pumpkings Rally",
+      "date": "2025-10-18",
+      "location": "Public Square, City of Watertown, New York, United States of America, City of Watertown",
+      "lat": 43.9745959,
+      "lng": -75.9095581,
+      "link": "https://events.pol-rev.com/events/f62666a9-28e3-4bd1-9193-806ca91a119d"
+    },
+    {
+      "title": "Brookline Says:  No Trump",
+      "date": "2025-10-18",
+      "location": "Coolidge Corner, Harvard Street, Brookline, MA 02446, United States of America, Brookline",
+      "lat": 42.3421622,
+      "lng": -71.1213029,
+      "link": "https://events.pol-rev.com/events/f6fb92c9-fc37-4b1c-8fb7-d891c9308405"
+    },
+    {
+      "title": "NO KINGS",
+      "date": "2025-10-18",
+      "location": "Enfield Town Hall, 820 Enfield Street, North Thompsonville, Enfield, CT 06082, United States of America, Enfield",
+      "lat": 42.0002643,
+      "lng": -72.5947526,
+      "link": "https://events.pol-rev.com/events/58067e11-5cfd-467a-aceb-43119e4c4050"
+    },
+    {
+      "title": "Pasco Resists presents: \"NO KINGS II...THE FALL OF HE WHO WOULD BE KING!\"",
+      "date": "2025-10-18",
+      "location": "Chilis, Trinity",
+      "lat": 28.2049981,
+      "lng": -82.6658657,
+      "link": "https://events.pol-rev.com/events/1fb75eef-5683-4b4c-8b0b-2dcba9db9bf8"
+    },
+    {
+      "title": "Down With the King & the Billionaire Regime!",
+      "date": "2025-10-18",
+      "location": "Old Big Lots Parking Lot, Joplin",
+      "lat": 37.084351498663175,
+      "lng": -94.4777011871338,
+      "link": "https://events.pol-rev.com/events/ed8b71a4-f617-477d-81a9-937c394b0d01"
+    },
+    {
+      "title": "No Kings 2 Rally in Hyannis",
+      "date": "2025-10-18",
+      "location": "499 Barnstable Road, Hyannis, Barnstable, MA 02601, United States of America, Barnstable",
+      "lat": 41.663753,
+      "lng": -70.28678,
+      "link": "https://events.pol-rev.com/events/70cdbe41-fbce-4785-9387-3d43bf7120d4"
+    },
+    {
+      "title": "NO KINGS ~ Down With the King & the Billionaire Regime",
+      "date": "2025-10-18",
+      "location": "Old Big Lots Parking Lot, Joplin",
+      "lat": 37.0843857343132,
+      "lng": -94.47765827178955,
+      "link": "https://events.pol-rev.com/events/cb16697a-220a-4410-b31a-0976a30b25c8"
+    },
+    {
+      "title": "No Kings 2.0",
+      "date": "2025-10-18",
+      "location": "Haight Park, Rockford",
+      "lat": 42.2706631,
+      "lng": -89.0858277,
+      "link": "https://events.pol-rev.com/events/e8f624bc-042a-4fea-bda9-3975849a27f5"
+    },
+    {
+      "title": "No Kings Protest",
+      "date": "2025-10-18",
+      "location": "Rutherford County Courthouse, Rutherfordton",
+      "lat": 35.3694367,
+      "lng": -81.9568558,
+      "link": "https://events.pol-rev.com/events/cd228c5e-5d38-4fcd-bd6e-37b5c620ca95"
+    },
+    {
+      "title": "No Kings Rally Pottsville, PA",
+      "date": "2025-10-18",
+      "location": "400 West Market Street, Pottsville, PA 17901, United States of America, Pottsville",
+      "lat": 40.6829839,
+      "lng": -76.2024071,
+      "link": "https://events.pol-rev.com/events/7071b8e9-ccf6-42e1-8ea2-0875d2083c9a"
+    },
+    {
+      "title": "Duluth No Kings!",
+      "date": "2025-10-18",
+      "location": "Duluth City Hall, 411 West 1st Street, Duluth, MN 55802, United States of America, Duluth",
+      "lat": 46.7838565,
+      "lng": -92.1052761,
+      "link": "https://events.pol-rev.com/events/b5db7f7b-895f-498a-91c7-34ad6a1476f2"
+    },
+    {
+      "title": "No Kings - Dothan",
+      "date": "2025-10-18",
+      "location": "114 North Oates Street, Dothan, AL 36303, United States of America, Dothan",
+      "lat": 31.22446,
+      "lng": -85.3933781,
+      "link": "https://events.pol-rev.com/events/abb123bc-cdd9-4417-9dc0-7a28b01c27f4"
+    },
+    {
+      "title": "Chesapeake No Kings",
+      "date": "2025-10-18",
+      "location": "Chesapeake, Virginia, United States of America, Chesapeake",
+      "lat": 36.76433559563934,
+      "lng": -76.25133991241456,
+      "link": "https://events.pol-rev.com/events/fadc1e4e-cb7b-40e5-93ce-fa8c2f773a89"
+    },
+    {
+      "title": "No Kings Protest",
+      "date": "2025-10-18",
+      "location": "Main Street, Village of Massena, NY 13662, United States of America, Village of Massena",
+      "lat": 44.922188498621495,
+      "lng": -74.89018321037294,
+      "link": "https://events.pol-rev.com/events/fa80fdb2-42dc-4f03-be12-6280a0e7a944"
+    },
+    {
+      "title": "NO KINGS 2.0",
+      "date": "2025-10-18",
+      "location": "125 Northeast Chipman Road, Lee's Summit, MO 64063, United States of America, Lee's Summit",
+      "lat": 38.9249584,
+      "lng": -94.3807797,
+      "link": "https://events.pol-rev.com/events/6005b8df-0aee-4306-a579-8bc8738aa8dc"
+    },
+    {
+      "title": "No Kings March and Rally",
+      "date": "2025-10-18",
+      "location": "Bastrop County Courthouse, 804 Pecan Street, Bastrop, TX 78602, United States of America, Bastrop",
+      "lat": 30.1088969,
+      "lng": -97.31812,
+      "link": "https://events.pol-rev.com/events/fc666c24-4d66-4a94-81c3-75850e1cfa33"
+    },
+    {
+      "title": "No Kings-No Billionaires",
+      "date": "2025-10-18",
+      "location": "Salt Pond Visitor Center, 50 Nauset Road, Eastham, MA 02642, United States of America, Eastham",
+      "lat": 41.8382325,
+      "lng": -69.9723193,
+      "link": "https://events.pol-rev.com/events/635a78fa-db60-46dd-92c0-a7758344248a"
+    },
+    {
+      "title": "No Kings 2.0 Dothan, Al",
+      "date": "2025-10-18",
+      "location": "114 North Oates Street, Dothan, AL 36303, United States of America, Dothan",
+      "lat": 31.22446,
+      "lng": -85.3933781,
+      "link": "https://events.pol-rev.com/events/108f0c90-8302-4e04-a0bc-0204b3f73d86"
+    },
+    {
+      "title": "\"NO KINGS\" 2.0 Palm Beach County",
+      "date": "2025-10-18",
+      "location": "Palm Beach Lakes, West Palm Beach, FL 33401, United States of America, West Palm Beach",
+      "lat": 26.7253421,
+      "lng": -80.0705973,
+      "link": "https://events.pol-rev.com/events/ff3a0617-e820-43d2-b2b0-a2a8519e63a3"
+    },
+    {
+      "title": "No Kings 2.0: Unity March",
+      "date": "2025-10-18",
+      "location": "Federal Building, West Capitol Avenue, Little Rock, AR 72202, United States of America, Little Rock",
+      "lat": 34.745623,
+      "lng": -92.2787775,
+      "link": "https://events.pol-rev.com/events/c75fd9b2-8f50-44ac-b164-b2d02c901a4c"
+    },
+    {
+      "title": "No Kings Rally and March",
+      "date": "2025-10-18",
+      "location": "Niagara Square, Buffalo, New York, United States of America, Buffalo",
+      "lat": 42.8864213,
+      "lng": -78.8781479,
+      "link": "https://events.pol-rev.com/events/734fea57-8a5a-4faf-983b-3d9e85fae397"
+    },
+    {
+      "title": "Hands Off Beverly Weekly Saturday Protest",
+      "date": "2025-10-18",
       "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
       "lat": 42.5471373,
       "lng": -70.8846872,
-      "link": "https://events.pol-rev.com/events/cd3b3cb6-f7f7-41ae-9030-4733a6bdb7f2"
+      "link": "https://events.pol-rev.com/events/efa712d9-7c7d-4643-849b-788935c8be32"
     },
     {
-      "title": "Good Trouble Lives On Rally - National Day of Action",
-      "date": "2026-07-18",
+      "title": "No Kings 2",
+      "date": "2025-10-18",
+      "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
+      "lat": 30.311421,
+      "lng": -95.458213,
+      "link": "https://events.pol-rev.com/events/668fc518-6a3e-49be-abb9-ae1124410220"
+    },
+    {
+      "title": "NO KINGS McFarland, WI",
+      "date": "2025-10-18",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/54ed0761-ba9d-4f0a-8eaf-be22c1016237"
+    },
+    {
+      "title": "Citrus County, FL NO KINGS 2.0 Rally",
+      "date": "2025-10-18",
+      "location": "Old Courthouse Heritage Museum, 1 Courthouse Square, Inverness, Citrus County, FL 34450, United States of America, Inverness",
+      "lat": 28.8359751,
+      "lng": -82.330219,
+      "link": "https://events.pol-rev.com/events/93823a24-b6a3-4f45-aa04-a013113aebee"
+    },
+    {
+      "title": "NO KINGS 2 ENGLEWOOD RALLY",
+      "date": "2025-10-18",
+      "location": "Englewood, Florida, United States of America, Englewood",
+      "lat": 26.962089,
+      "lng": -82.353031,
+      "link": "https://events.pol-rev.com/events/c04a824f-62d8-4120-89dc-b18bfc36fc71"
+    },
+    {
+      "title": "No Kings Inverness, Citrus County, Florida",
+      "date": "2025-10-18",
+      "location": "Old Courthouse Heritage Museum, 1 Courthouse Square, Inverness, Citrus County, FL 34450, United States of America, Inverness",
+      "lat": 28.8359751,
+      "lng": -82.330219,
+      "link": "https://events.pol-rev.com/events/c1a9c68a-4cd6-446f-b0f7-9046be4ec465"
+    },
+    {
+      "title": "No Kings Day and Yes on Prop 50 All in One",
+      "date": "2025-10-18",
+      "location": "CA 99, Yuba City, CA 95933, United States of America, Yuba City",
+      "lat": 39.1409273,
+      "lng": -121.6340727,
+      "link": "https://events.pol-rev.com/events/6081c7d7-79d0-4d5c-807e-dc912d6ad882"
+    },
+    {
+      "title": "No Kings #2",
+      "date": "2025-10-17",
+      "location": "Mesa County Administrative Building, 544 Rood Avenue, Grand Junction, CO 81501, United States of America, Grand Junction",
+      "lat": 39.0690367,
+      "lng": -108.5631548,
+      "link": "https://events.pol-rev.com/events/c701ad05-e9ef-409f-82f9-f226c12a2eae"
+    },
+    {
+      "title": "National Day of Action",
+      "date": "2025-10-17",
       "location": "",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/835fe390-eb61-405a-a8ca-20c719006eb8"
+      "link": "https://events.pol-rev.com/events/ce597431-e896-43b4-8e87-f1a7cb4538c5"
     },
     {
-      "title": "Good Trouble Lives On",
-      "date": "2026-07-17",
-      "location": "Walmart Supercenter, 912 11th Street East, Bottineau, Bottineau County, ND 58318, United States of America, Bottineau",
-      "lat": 48.8187142,
-      "lng": -100.4325187,
-      "link": "https://events.pol-rev.com/events/f669877a-f304-494e-83de-294651812447"
+      "title": "NO KINGS 10-18-25",
+      "date": "2025-10-17",
+      "location": "Madison County Courthouse, 16 East 9th Street, Anderson, IN 46016, United States of America, Anderson",
+      "lat": 40.1074244,
+      "lng": -85.6787373,
+      "link": "https://events.pol-rev.com/events/96f086ac-b9bf-4f8e-a97f-957dbc7b997e"
     },
     {
-      "title": "Tuyển Dụng Bên Bất Động Sản: Những Yếu Tố Cốt Lõi Để Tìm Đúng Người",
-      "date": "2026-07-11",
+      "title": "No Kings solidarity protest",
+      "date": "2025-10-17",
+      "location": "Embassy of the United States of America, 42 Elgin Road, Pembroke West B Ward 1986, Dublin, D04 W996, Ireland, Dublin",
+      "lat": 53.3302683,
+      "lng": -6.2337289,
+      "link": "https://events.pol-rev.com/events/59ad7e06-b82c-46e0-9374-7d96644ff828"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-10-17",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/10651b80-0029-4feb-bfcc-ea104523edc2"
+    },
+    {
+      "title": "RhRR @ the ICE Field Office in central Phoenix",
+      "date": "2025-10-16",
+      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
+      "lat": 33.4708979,
+      "lng": -112.073198,
+      "link": "https://events.pol-rev.com/events/aeec83a2-8a2b-429f-af5d-c3fe7994577b"
+    },
+    {
+      "title": "NO KINGS 2 - Sign Making",
+      "date": "2025-10-15",
+      "location": "West Seattle Library, 2306 42nd Avenue Southwest, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5827314,
+      "lng": -122.3847038,
+      "link": "https://events.pol-rev.com/events/e8f14913-f2b9-4609-896c-12a28a069883"
+    },
+    {
+      "title": "Hands Off Beverly Weekly Wednesday Protest",
+      "date": "2025-10-15",
+      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+      "lat": 42.5488363,
+      "lng": -70.8778836,
+      "link": "https://events.pol-rev.com/events/0cbde403-5148-4f96-9444-431262c6ce22"
+    },
+    {
+      "title": "RhRR @ Moon Valley in North Central Phoenix",
+      "date": "2025-10-15",
+      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+      "lat": 33.6261453,
+      "lng": -112.0663766,
+      "link": "https://events.pol-rev.com/events/a084fbd8-4c63-40df-85f4-92c06b485c57"
+    },
+    {
+      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+      "date": "2025-10-15",
+      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+      "lat": 33.4974465,
+      "lng": -112.0838942,
+      "link": "https://events.pol-rev.com/events/d0e64e81-361c-43bf-993c-481cf84454e9"
+    },
+    {
+      "title": "NO KINGS 2 - Sign Making",
+      "date": "2025-10-14",
+      "location": "West Seattle Library, 2306 42nd Avenue Southwest, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5827314,
+      "lng": -122.3847038,
+      "link": "https://events.pol-rev.com/events/d65548f8-1dba-452b-98c2-d3190f63d245"
+    },
+    {
+      "title": "Pro Democracy Rally Weekly",
+      "date": "2025-10-14",
+      "location": "Bank of the West, 100 South Main Street, Sebastopol, CA 95472, United States of America, Sebastopol",
+      "lat": 38.4018631,
+      "lng": -122.8243343,
+      "link": "https://events.pol-rev.com/events/97d1f450-1643-4ab6-b82e-0a4c6916577c"
+    },
+    {
+      "title": "Stand up 4 Democracy Wolcott",
+      "date": "2025-10-14",
+      "location": "Wolcott, Lamoille County, VT 05680, United States of America, Wolcott Post Office parking lot extension",
+      "lat": 44.54711431303555,
+      "lng": -72.45999455451967,
+      "link": "https://events.pol-rev.com/events/a318ba34-2f02-4b20-b9d8-52a253fb814d"
+    },
+    {
+      "title": "RhRR @ ICE/U.S. Immigration Court in Phoenix",
+      "date": "2025-10-14",
+      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+      "lat": 33.4508244,
+      "lng": -112.0830871,
+      "link": "https://events.pol-rev.com/events/7375d611-9d88-4186-a63c-4ab2e31f1219"
+    },
+    {
+      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+      "date": "2025-10-14",
+      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+      "lat": 33.3841527,
+      "lng": -111.9011703,
+      "link": "https://events.pol-rev.com/events/eca0d638-8b59-4c2c-8219-3bc0091b6112"
+    },
+    {
+      "title": "General Meeting - West Seattle Indivisible",
+      "date": "2025-10-12",
+      "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+      "lat": 47.5626534,
+      "lng": -122.386272,
+      "link": "https://events.pol-rev.com/events/dcff476c-30cf-423f-af83-5b657d4e066c"
+    },
+    {
+      "title": "Write Letters to Voters with Indivisible/Swing Left South Bay LA",
+      "date": "2025-10-12",
+      "location": "Zamperini Field, 3301 Airport Drive, Torrance, CA 90505, United States of America, Torrance",
+      "lat": 33.8027967,
+      "lng": -118.3400374,
+      "link": "https://events.pol-rev.com/events/5da7fcf4-c618-4b5a-939f-6da4a684a3f5"
+    },
+    {
+      "title": "Emmer Do Better, Chaska Protest",
+      "date": "2025-10-11",
+      "location": "1100 Hazeltine Boulevard, Hazeltine, Chaska, MN 55318, United States of America, Chaska",
+      "lat": 44.83441732341872,
+      "lng": -93.60179901123048,
+      "link": "https://events.pol-rev.com/events/85816187-e4f3-48e4-b11e-1986b2478638"
+    },
+    {
+      "title": "Twin Peaks Solidarity Hill-bomb for Palestine",
+      "date": "2025-10-11",
+      "location": "Twin Peaks, San Francisco, CA 94131, United States of America, San Francisco",
+      "lat": 37.7524145,
+      "lng": -122.4475866,
+      "link": "https://events.pol-rev.com/events/b22b31cd-41a8-4848-9e29-2ba8d3a6638f"
+    },
+    {
+      "title": "Canvass for Prop 50 with ISBLA in The South Bay!",
+      "date": "2025-10-11",
+      "location": "Torrance City Hall, Torrance Boulevard, Torrance, CA 90503, United States of America, Torrance",
+      "lat": 33.8369603,
+      "lng": -118.3409067,
+      "link": "https://events.pol-rev.com/events/859ee7ec-1f02-4d1f-82a5-09e4ba40d50d"
+    },
+    {
+      "title": "Northtowns Rise Up - Every Saturday, 12pm-2pm",
+      "date": "2025-10-11",
+      "location": "Corner of Brighton Road and Maple Road, Tonawanda",
+      "lat": 42.99096221395211,
+      "lng": -78.82280588150026,
+      "link": "https://events.pol-rev.com/events/32a1d476-7e16-44de-83cd-dd253470b538"
+    },
+    {
+      "title": "Rally for Democracy",
+      "date": "2025-10-11",
       "location": "",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/3d1a3b7a-3a24-4a76-9a01-78bc1409d4d2"
+      "link": "https://events.pol-rev.com/events/5e633010-4768-4c57-9350-04ce3b612b50"
     },
     {
-      "title": "BloNo IL - Community Craftivism - Zines, Pizza.. Buttons?",
-      "date": "2026-07-11",
-      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4929988,
-      "lng": -88.9684006,
-      "link": "https://events.pol-rev.com/events/e757b33c-1a6f-4973-8bcc-cefcc027414f"
+      "title": "Democracy: Keep it Alive Protest & Rally",
+      "date": "2025-10-11",
+      "location": "2222 28th Street, Galveston, TX 77550, United States of America, Galveston",
+      "lat": 29.287498,
+      "lng": -94.793944,
+      "link": "https://events.pol-rev.com/events/366b85c8-6dc6-4ed3-8eeb-b0d9ff1ee66f"
     },
     {
-      "title": "Online - Shut the Flock Off BloNo/MC online meeting",
-      "date": "2026-07-08",
+      "title": "Hands Off Beverly Weekly Saturday Protest",
+      "date": "2025-10-11",
+      "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
+      "lat": 42.5471373,
+      "lng": -70.8846872,
+      "link": "https://events.pol-rev.com/events/9a7e2e21-bcb1-4222-8a61-594ef82adb0f"
+    },
+    {
+      "title": "Stand Up for the Constitution",
+      "date": "2025-10-11",
+      "location": "Coolidge Corner, Harvard Street, Brookline, MA 02446, United States of America, Brookline",
+      "lat": 42.3421622,
+      "lng": -71.1213029,
+      "link": "https://events.pol-rev.com/events/f9c9a7e0-de15-4a52-b5d5-c4ce9f2775c6"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-10-10",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/833f9a71-a358-4196-b6d0-67aba1eab154"
+    },
+    {
+      "title": "RhRR @ the ICE Field Office in central Phoenix",
+      "date": "2025-10-09",
+      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
+      "lat": 33.4708979,
+      "lng": -112.073198,
+      "link": "https://events.pol-rev.com/events/e03debfd-de9e-4309-a8e6-e8fe0f48c312"
+    },
+    {
+      "title": "Hands Off Beverly Weekly Wednesday Protest",
+      "date": "2025-10-08",
+      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+      "lat": 42.5488363,
+      "lng": -70.8778836,
+      "link": "https://events.pol-rev.com/events/3d2bb880-8ac5-454d-a519-dec2fa7fc2e1"
+    },
+    {
+      "title": "RhRR @ Moon Valley in North Central Phoenix",
+      "date": "2025-10-08",
+      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+      "lat": 33.6261453,
+      "lng": -112.0663766,
+      "link": "https://events.pol-rev.com/events/e6a6141a-2ff1-4b24-a1b7-cf5604eac46a"
+    },
+    {
+      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+      "date": "2025-10-08",
+      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+      "lat": 33.4974465,
+      "lng": -112.0838942,
+      "link": "https://events.pol-rev.com/events/875857b2-24ba-4f5d-a41a-ec91f5fa186a"
+    },
+    {
+      "title": "Pro Democracy Rally Weekly",
+      "date": "2025-10-07",
+      "location": "Bank of the West, 100 South Main Street, Sebastopol, CA 95472, United States of America, Sebastopol",
+      "lat": 38.4018631,
+      "lng": -122.8243343,
+      "link": "https://events.pol-rev.com/events/bd3873cf-c6ee-4da7-ad77-688d65af5db2"
+    },
+    {
+      "title": "RhRR @ ICE/U.S. Immigration Court in Phoenix",
+      "date": "2025-10-07",
+      "location": "Social Security, 250 North 7th Avenue, Phoenix, AZ 85003, United States of America, Phoenix",
+      "lat": 33.4508244,
+      "lng": -112.0830871,
+      "link": "https://events.pol-rev.com/events/9829e8a7-a5c7-4b7a-8e4e-80998c89f449"
+    },
+    {
+      "title": "RhRR @ Cole Park Flyover Bridge in East Tempe",
+      "date": "2025-10-07",
+      "location": "2000 East Carson Drive, Tempe, AZ 85282, United States of America, Tempe",
+      "lat": 33.3841527,
+      "lng": -111.9011703,
+      "link": "https://events.pol-rev.com/events/75ee329a-24fa-4ee2-acfc-e5e82fb87b5f"
+    },
+    {
+      "title": "Clergy Against ICE - Albequerque, NM - Exact Location TBD",
+      "date": "2025-10-05",
       "location": "",
       "lat": null,
       "lng": null,
-      "link": "https://events.pol-rev.com/events/ba901cae-dcbb-4405-9901-edd83852a539"
+      "link": "https://events.pol-rev.com/events/69442788-fa22-4eb2-9076-434b9fbac97d"
+    },
+    {
+      "title": "Write Letters to Voters with Indivisible/Swing Left South Bay LA",
+      "date": "2025-10-05",
+      "location": "Zamperini Field, 3301 Airport Drive, Torrance, CA 90505, United States of America, Torrance",
+      "lat": 33.8027967,
+      "lng": -118.3400374,
+      "link": "https://events.pol-rev.com/events/570befff-6d80-4707-8f88-a9fb9cf26e3b"
+    },
+    {
+      "title": "Stand Up! Fight Back! Protest Fascism!",
+      "date": "2025-10-05",
+      "location": "1290 Walton Boulevard, Rochester Hills, MI 48307, United States of America, Rochester Hills",
+      "lat": 42.6823167,
+      "lng": -83.1528057,
+      "link": "https://events.pol-rev.com/events/8f138c5c-a20a-4465-8635-b03b0c63d79a"
+    },
+    {
+      "title": "I.C.E. Scream for human rights!!",
+      "date": "2025-10-04",
+      "location": "Plymouth County Correctional Facility, at the corner across from alltown fresh 26 Long Pond Rd, Plymouth, MA 02360, Plymouth",
+      "lat": 41.93256612622353,
+      "lng": -70.65801143646242,
+      "link": "https://events.pol-rev.com/events/f18e5049-5693-4c76-b7d6-29cdd6cccd66"
+    },
+    {
+      "title": "No to the National Guard in Portland!",
+      "date": "2025-10-04",
+      "location": "3508 South Moody Avenue, Portland, OR 97239, United States of America, Portland",
+      "lat": 45.4976836,
+      "lng": -122.671725,
+      "link": "https://events.pol-rev.com/events/50d388db-1e5c-497c-8df3-53ef1f1c659c"
+    },
+    {
+      "title": "Emmer Do Better, Chaska Protest",
+      "date": "2025-10-04",
+      "location": "1100 Hazeltine Boulevard, Hazeltine, Chaska, MN 55318, United States of America, Chaska",
+      "lat": 44.83523,
+      "lng": -93.601869,
+      "link": "https://events.pol-rev.com/events/85b77551-5e62-473f-a3c4-209be3336a8a"
+    },
+    {
+      "title": "Canvass for Prop 50 with ISBLA in The South Bay!",
+      "date": "2025-10-04",
+      "location": "Torrance City Hall, Torrance Boulevard, Torrance, CA 90503, United States of America, Torrance",
+      "lat": 33.8369603,
+      "lng": -118.3409067,
+      "link": "https://events.pol-rev.com/events/69848485-9134-4c0b-9523-30a0a12fc16f"
+    },
+    {
+      "title": "Trump + Tesla Takedown",
+      "date": "2025-10-04",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/9a14a242-86b3-475a-b62a-b1e4225c12a2"
+    },
+    {
+      "title": "Northtowns Rise Up - Every Saturday, 12pm-2pm",
+      "date": "2025-10-04",
+      "location": "Corner of Brighton Road and Maple Road, Tonawanda",
+      "lat": 42.99096221395211,
+      "lng": -78.82280588150026,
+      "link": "https://events.pol-rev.com/events/8807e7c3-9404-4c4f-914a-4850e0e3d680"
+    },
+    {
+      "title": "Rally for Democracy",
+      "date": "2025-10-04",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/6b725e16-dac0-4e57-b0bc-967ae8d41c87"
+    },
+    {
+      "title": "Stand Up for the Constitution",
+      "date": "2025-10-04",
+      "location": "Coolidge Corner, Harvard Street, Brookline, MA 02446, United States of America, Brookline",
+      "lat": 42.3421622,
+      "lng": -71.1213029,
+      "link": "https://events.pol-rev.com/events/db4787a1-0f97-4dd5-af3f-f9fd016de57e"
+    },
+    {
+      "title": "Sign Holding at the Bridge",
+      "date": "2025-10-04",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/ed8892ad-d61d-44c2-85cb-809f3a8e0178"
+    },
+    {
+      "title": "Hands Off Beverly Weekly Saturday Rally",
+      "date": "2025-10-04",
+      "location": "Odell Park, Beverly, Massachusetts, United States of America, Beverly",
+      "lat": 42.5471373,
+      "lng": -70.8846872,
+      "link": "https://events.pol-rev.com/events/61257640-8de8-4520-9691-cd557a193663"
+    },
+    {
+      "title": "Rally for Democracy",
+      "date": "2025-10-04",
+      "location": "South Portland, Maine, United States of America, South Portland",
+      "lat": 43.64147,
+      "lng": -70.24088,
+      "link": "https://events.pol-rev.com/events/7b542adf-6bbc-482c-a9fe-6e91acc31dc6"
+    },
+    {
+      "title": "Watertown Tesla Takedown",
+      "date": "2025-10-04",
+      "location": "Pleasant St, Watertown, MA, United States of America, Watertown",
+      "lat": 42.366524,
+      "lng": -71.204673,
+      "link": "https://events.pol-rev.com/events/91f438af-ab46-41fb-8d3b-0321817e5766"
+    },
+    {
+      "title": "NO FASCISM Fridays McFarland, WI",
+      "date": "2025-10-03",
+      "location": "Arnold Larson Park, McFarland, Dane County, Wisconsin, United States of America, McFarland",
+      "lat": 43.0131401,
+      "lng": -89.2906864,
+      "link": "https://events.pol-rev.com/events/ecf18ba4-4974-47fc-a89a-e1ad0161f403"
+    },
+    {
+      "title": "50501 Chalk the Town: Swiftie-Style",
+      "date": "2025-10-02",
+      "location": "801 North Linden Street, Bloomington, IL 61701, United States of America, Bloomington",
+      "lat": 40.48492,
+      "lng": -88.981414,
+      "link": "https://events.pol-rev.com/events/15ae75e5-d97d-4f44-9aa8-1d935cf946e7"
+    },
+    {
+      "title": "RhRR @ the ICE Field Office in central Phoenix",
+      "date": "2025-10-02",
+      "location": "USCIS Immigration Office, 2035 North Central Avenue, Phoenix, AZ 85004, United States of America, Phoenix",
+      "lat": 33.4708979,
+      "lng": -112.073198,
+      "link": "https://events.pol-rev.com/events/20b91100-c742-4484-addc-00ed889c97a1"
+    },
+    {
+      "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
+      "date": "2025-10-01",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/b07aea89-0c45-4c7d-89b2-f252ce1e11a1"
+    },
+    {
+      "title": "Bloomington Normal 50501 Book Club",
+      "date": "2025-10-01",
+      "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
+      "lat": 40.4765409,
+      "lng": -88.9914247,
+      "link": "https://events.pol-rev.com/events/e0510c37-e7be-4855-8ede-60d7c963d95a"
+    },
+    {
+      "title": "Hands Off Beverly Weekly Wednesday Protest",
+      "date": "2025-10-01",
+      "location": "First Parish Church, 225 Cabot Street, Beverly, MA 01915, United States of America, Beverly",
+      "lat": 42.5488363,
+      "lng": -70.8778836,
+      "link": "https://events.pol-rev.com/events/fd8ee262-feed-4501-a107-e72471e9e882"
+    },
+    {
+      "title": "RhRR @ Moon Valley in North Central Phoenix",
+      "date": "2025-10-01",
+      "location": "Serafina Coffee Roasters, 15414 North 7th Street, Phoenix, AZ 85022, United States of America, Phoenix",
+      "lat": 33.6261453,
+      "lng": -112.0663766,
+      "link": "https://events.pol-rev.com/events/c5e90e49-8b55-474e-b8a6-49ab29a574b7"
+    },
+    {
+      "title": "RhRR @ the Melrose Curve in Midtown Phoenix",
+      "date": "2025-10-01",
+      "location": "Copper Star Coffee, 4220 North 7th Avenue, Phoenix, AZ 85013, United States of America, Phoenix",
+      "lat": 33.4974465,
+      "lng": -112.0838942,
+      "link": "https://events.pol-rev.com/events/6f50eb9d-b9b7-4c71-8a6f-e82ee7be6326"
+    },
+    {
+      "title": "Altoona Bridge Work",
+      "date": "2025-09-30",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/7da46ff8-515f-453c-ac6c-f773ac7aebff"
+    },
+    {
+      "title": "PBS's The Dictator's Playbook, 3 Day Viewing Event",
+      "date": "2025-09-30",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/26fb911d-18c8-4270-91fb-9db2b86864ca"
     }
   ]
 }

@@ -1,93 +1,6 @@
 {
   "data": [
     {
-      "_id": 943355,
-      "mobilize_id": 943355,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
-      "title": "LAD Summer Candidate Post Card Events",
-      "begin": "2026-07-08",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LAD Summer Candidate Post Card Events",
-          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-07-08",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 972397,
-      "mobilize_id": 972397,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
-      "title": "Learn Campaign Basics With Durham Democrats",
-      "begin": "2026-07-08",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn Campaign Basics With Durham Democrats",
-          "href": "https://www.mobilize.us/nc-coordinated/event/972397/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 972823,
-      "mobilize_id": 972823,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
-      "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
-      "begin": "2026-07-08",
-      "end": "2026-07-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
-          "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Online - Shut the Flock Off BloNo/MC online meeting",
-      "begin": "2026-07-08",
-      "end": "2026-07-08",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Online - Shut the Flock Off BloNo/MC online meeting",
-          "href": "https://events.pol-rev.com/events/ba901cae-dcbb-4405-9901-edd83852a539"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 865658,
       "mobilize_id": 865658,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
@@ -119,6 +32,24 @@
         {
           "title": "Phonebank for Sean McCann for Congress!",
           "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-07-09",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
@@ -173,24 +104,6 @@
         {
           "title": "(Virtual) Democratic Voter Registration Training",
           "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-07-11",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
         }
       ],
       "_src": "mobilize"
@@ -268,21 +181,6 @@
       "_src": "mobilize"
     },
     {
-      "title": "Tuyển Dụng Bên Bất Động Sản: Những Yếu Tố Cốt Lõi Để Tìm Đúng Người",
-      "begin": "2026-07-11",
-      "end": "2026-07-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Tuyển Dụng Bên Bất Động Sản: Những Yếu Tố Cốt Lõi Để Tìm Đúng Người",
-          "href": "https://events.pol-rev.com/events/3d1a3b7a-3a24-4a76-9a01-78bc1409d4d2"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 975081,
       "mobilize_id": 975081,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975081/",
@@ -337,6 +235,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 972397,
+      "mobilize_id": 972397,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
+      "title": "Learn Campaign Basics With Durham Democrats",
+      "begin": "2026-07-15",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn Campaign Basics With Durham Democrats",
+          "href": "https://www.mobilize.us/nc-coordinated/event/972397/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 972823,
+      "mobilize_id": 972823,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
+      "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
+      "begin": "2026-07-15",
+      "end": "2026-07-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
+          "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -350,6 +284,24 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943355,
+      "mobilize_id": 943355,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
+      "title": "LAD Summer Candidate Post Card Events",
+      "begin": "2026-07-16",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LAD Summer Candidate Post Card Events",
+          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
         }
       ],
       "_src": "mobilize"
@@ -373,19 +325,22 @@
       "_src": "mobilize"
     },
     {
-      "title": "Good Trouble Lives On Rally - National Day of Action",
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
       "begin": "2026-07-18",
-      "end": "2026-07-18",
+      "end": "2026-08-08",
       "lat": null,
       "lng": null,
-      "location": "",
+      "location": "This event's address is private. Sign up for more details, WI",
       "links": [
         {
-          "title": "Good Trouble Lives On Rally - National Day of Action",
-          "href": "https://events.pol-rev.com/events/835fe390-eb61-405a-a8ca-20c719006eb8"
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
         }
       ],
-      "_src": "mobilizon"
+      "_src": "mobilize"
     },
     {
       "_id": 986447,
@@ -548,21 +503,6 @@
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "title": "Citizens Against Tyranny",
-      "begin": "2026-07-25",
-      "end": "2026-07-25",
-      "lat": null,
-      "lng": null,
-      "location": "SW Corner Eldorado and 75",
-      "links": [
-        {
-          "title": "Citizens Against Tyranny",
-          "href": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 757536,
