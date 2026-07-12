@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-07-10",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-07-10",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 974979,
       "mobilize_id": 974979,
       "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
@@ -73,24 +37,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 983028,
-      "mobilize_id": 983028,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
-      "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
-      "begin": "2026-07-11",
-      "end": "2026-08-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
-          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 983296,
       "mobilize_id": 983296,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983296/",
@@ -104,6 +50,24 @@
         {
           "title": "Kamia Brown Day of Action!",
           "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/983296/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 983028,
+      "mobilize_id": 983028,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
+      "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
+      "begin": "2026-07-12",
+      "end": "2026-08-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, FL",
+      "links": [
+        {
+          "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
+          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
         }
       ],
       "_src": "mobilize"
@@ -289,6 +253,60 @@
       "_src": "mobilize"
     },
     {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-07-16",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-07-17",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-07-18",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 958108,
       "mobilize_id": 958108,
       "canonical_mobilize_url": "https://www.mobilize.us/event/958108/",
@@ -338,6 +356,24 @@
         {
           "title": "Ned for CT Canvass Kick-off - Bridgeport!",
           "href": "https://www.mobilize.us/nedforct/event/986447/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 988321,
+      "mobilize_id": 988321,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/988321/",
+      "title": "Asanteman Association Engagement Meeting",
+      "begin": "2026-07-19",
+      "end": "2026-07-19",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Asanteman Association Engagement Meeting",
+          "href": "https://www.mobilize.us/nc-coordinated/event/988321/"
         }
       ],
       "_src": "mobilize"
@@ -410,42 +446,6 @@
         {
           "title": "Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 982702,
-      "mobilize_id": 982702,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/982702/",
-      "title": "Weekend of Action - Paige for PA: 100 Days to Win - Canvassing in Pike",
-      "begin": "2026-07-25",
-      "end": "2026-07-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend of Action - Paige for PA: 100 Days to Win - Canvassing in Pike",
-          "href": "https://www.mobilize.us/paigecognettiforcongress/event/982702/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 983110,
-      "mobilize_id": 983110,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983110/",
-      "title": "Weekend of Action - Paige for PA: 100 Days to Win - Phonebanking in Pike",
-      "begin": "2026-07-25",
-      "end": "2026-07-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend of Action - Paige for PA: 100 Days to Win - Phonebanking in Pike",
-          "href": "https://www.mobilize.us/paigecognettiforcongress/event/983110/"
         }
       ],
       "_src": "mobilize"
