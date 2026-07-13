@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-07-11",
-      "end": "2026-07-11",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 975757,
       "mobilize_id": 975757,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
       "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-07-11",
+      "begin": "2026-07-12",
       "end": "2026-11-01",
       "lat": null,
       "lng": null,
@@ -32,24 +14,6 @@
         {
           "title": "Canvass with Sarah Pounds!",
           "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 983296,
-      "mobilize_id": 983296,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983296/",
-      "title": "Kamia Brown Day of Action!",
-      "begin": "2026-07-11",
-      "end": "2026-07-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "Kamia Brown Day of Action!",
-          "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/983296/"
         }
       ],
       "_src": "mobilize"
