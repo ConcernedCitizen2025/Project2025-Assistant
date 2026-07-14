@@ -1,42 +1,6 @@
 {
   "data": [
     {
-      "_id": 975757,
-      "mobilize_id": 975757,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
-      "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-07-12",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Sarah Pounds!",
-          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 983028,
-      "mobilize_id": 983028,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
-      "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
-      "begin": "2026-07-12",
-      "end": "2026-08-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
-          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 980382,
       "mobilize_id": 980382,
       "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
@@ -114,7 +78,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
       "title": "Door Knocking with Blaine For Indiana",
       "begin": "2026-07-15",
-      "end": "2026-10-29",
+      "end": "2026-10-28",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -158,6 +122,24 @@
         {
           "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989432,
+      "mobilize_id": 989432,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
+      "title": "Phone Bank for Latoya Gayle!",
+      "begin": "2026-07-15",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Latoya Gayle!",
+          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
         }
       ],
       "_src": "mobilize"
@@ -307,6 +289,60 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971767,
+      "mobilize_id": 971767,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
+      "title": "CD22 Canvassing: Co-Host Sign-Up",
+      "begin": "2026-07-18",
+      "end": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "CD22 Canvassing: Co-Host Sign-Up",
+          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 975757,
+      "mobilize_id": 975757,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
+      "title": "Canvass with Sarah Pounds!",
+      "begin": "2026-07-18",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Sarah Pounds!",
+          "href": "https://www.mobilize.us/electsarahpounds/event/975757/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 983028,
+      "mobilize_id": 983028,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
+      "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
+      "begin": "2026-07-18",
+      "end": "2026-08-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, FL",
+      "links": [
+        {
+          "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
+          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 986447,
       "mobilize_id": 986447,
       "canonical_mobilize_url": "https://www.mobilize.us/event/986447/",
@@ -410,6 +446,24 @@
         {
           "title": "Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 984837,
+      "mobilize_id": 984837,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/984837/",
+      "title": "Austin Book Club July 23rd   - Jungle Reads Book Club",
+      "begin": "2026-07-23",
+      "end": "2026-07-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Austin Book Club July 23rd   - Jungle Reads Book Club",
+          "href": "https://www.mobilize.us/saavetxef/event/984837/"
         }
       ],
       "_src": "mobilize"
