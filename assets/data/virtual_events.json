@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 980382,
-      "mobilize_id": 980382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
-      "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-13",
-      "end": "2026-08-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank in support of Donavan McKinney!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 975081,
       "mobilize_id": 975081,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975081/",
@@ -212,6 +194,24 @@
         {
           "title": "Learn How to Launch a Canvass!",
           "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 980382,
+      "mobilize_id": 980382,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
+      "title": "Phone bank in support of Donavan McKinney!",
+      "begin": "2026-07-16",
+      "end": "2026-08-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone bank in support of Donavan McKinney!",
+          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
         }
       ],
       "_src": "mobilize"
@@ -526,15 +526,15 @@
       "_id": 987819,
       "mobilize_id": 987819,
       "canonical_mobilize_url": "https://www.mobilize.us/event/987819/",
-      "title": "Dave Min for Congress - Day of Action Canvass",
+      "title": "Dave Min for Congress - Weekend of Action Canvass",
       "begin": "2026-07-25",
-      "end": "2026-07-25",
+      "end": "2026-07-26",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Dave Min for Congress - Day of Action Canvass",
+          "title": "Dave Min for Congress - Weekend of Action Canvass",
           "href": "https://www.mobilize.us/dpoc/event/987819/"
         }
       ],
@@ -595,6 +595,78 @@
       "_src": "mobilize"
     },
     {
+      "_id": 885926,
+      "mobilize_id": 885926,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/885926/",
+      "title": "LWVH Volunteer 101 Training",
+      "begin": "2026-07-29",
+      "end": "2026-09-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LWVH Volunteer 101 Training",
+          "href": "https://www.mobilize.us/lwvhouston/event/885926/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989838,
+      "mobilize_id": 989838,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989838/",
+      "title": "Knock Out the Vote Tour with Congressman Max Frost and Dr. Abdul El-Sayed!—Canton",
+      "begin": "2026-07-29",
+      "end": "2026-07-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Congressman Max Frost and Dr. Abdul El-Sayed!—Canton",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989838/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989842,
+      "mobilize_id": 989842,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989842/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Ann Arbor",
+      "begin": "2026-07-30",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Ann Arbor",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989842/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989846,
+      "mobilize_id": 989846,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989846/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Dearborn/Hamtramck",
+      "begin": "2026-07-31",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Dearborn/Hamtramck",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989846/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 983700,
       "mobilize_id": 983700,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983700/",
@@ -608,6 +680,60 @@
         {
           "title": "Kamia Brown Day of Action!",
           "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/983700/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989849,
+      "mobilize_id": 989849,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989849/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Kalamazoo",
+      "begin": "2026-08-01",
+      "end": "2026-08-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Kalamazoo",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989849/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989851,
+      "mobilize_id": 989851,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989851/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Grand Rapids",
+      "begin": "2026-08-01",
+      "end": "2026-08-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Grand Rapids",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989851/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989854,
+      "mobilize_id": 989854,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989854/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Warren",
+      "begin": "2026-08-02",
+      "end": "2026-08-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Warren",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989854/"
         }
       ],
       "_src": "mobilize"
@@ -631,6 +757,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 989856,
+      "mobilize_id": 989856,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989856/",
+      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Detroit",
+      "begin": "2026-08-03",
+      "end": "2026-08-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Detroit",
+          "href": "https://www.mobilize.us/abdulforsenate/event/989856/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 985273,
       "mobilize_id": 985273,
       "canonical_mobilize_url": "https://www.mobilize.us/event/985273/",
@@ -644,6 +788,24 @@
         {
           "title": "No Denying Climate Change Townhall with Special Guest Rep. McClellan",
           "href": "https://www.mobilize.us/climateactioncampaign/event/985273/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 889224,
+      "mobilize_id": 889224,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
+      "title": "Monthly Voter Action Gathering - North County",
+      "begin": "2026-08-05",
+      "end": "2026-12-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - North County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/889224/"
         }
       ],
       "_src": "mobilize"
@@ -698,6 +860,24 @@
         {
           "title": "Blaine/Lino Lakes Get Out The Vote!",
           "href": "https://www.mobilize.us/dflcc/event/983570/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989485,
+      "mobilize_id": 989485,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
+      "title": "Voter Action Gathering - Midwest County, August 2026",
+      "begin": "2026-08-15",
+      "end": "2026-08-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, g",
+      "links": [
+        {
+          "title": "Voter Action Gathering - Midwest County, August 2026",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
         }
       ],
       "_src": "mobilize"
