@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 975081,
-      "mobilize_id": 975081,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/975081/",
-      "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
-      "begin": "2026-07-14",
-      "end": "2026-07-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "People Power for Florida: 2026 GOTV Phonebanking Kickoff!",
-          "href": "https://www.mobilize.us/peoplepower/event/975081/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-07-14",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986692,
-      "mobilize_id": 986692,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-      "begin": "2026-07-14",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986692/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971394,
       "mobilize_id": 971394,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
@@ -104,6 +50,60 @@
         {
           "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-07-15",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986692,
+      "mobilize_id": 986692,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+      "begin": "2026-07-15",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986692/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 987837,
+      "mobilize_id": 987837,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/987837/",
+      "title": "Phonebank for Betty McCollum and Brion Curran",
+      "begin": "2026-07-15",
+      "end": "2026-07-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Betty McCollum and Brion Curran",
+          "href": "https://www.mobilize.us/bettymccollumforcongress/event/987837/"
         }
       ],
       "_src": "mobilize"
@@ -338,42 +338,6 @@
         {
           "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
           "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986447,
-      "mobilize_id": 986447,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986447/",
-      "title": "Ned for CT Canvass Kick-off - Bridgeport!",
-      "begin": "2026-07-19",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Ned for CT Canvass Kick-off - Bridgeport!",
-          "href": "https://www.mobilize.us/nedforct/event/986447/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 988321,
-      "mobilize_id": 988321,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/988321/",
-      "title": "Asanteman Association Engagement Meeting",
-      "begin": "2026-07-19",
-      "end": "2026-07-19",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Asanteman Association Engagement Meeting",
-          "href": "https://www.mobilize.us/nc-coordinated/event/988321/"
         }
       ],
       "_src": "mobilize"
@@ -788,24 +752,6 @@
         {
           "title": "No Denying Climate Change Townhall with Special Guest Rep. McClellan",
           "href": "https://www.mobilize.us/climateactioncampaign/event/985273/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 889224,
-      "mobilize_id": 889224,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/889224/",
-      "title": "Monthly Voter Action Gathering - North County",
-      "begin": "2026-08-05",
-      "end": "2026-12-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Voter Action Gathering - North County",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/889224/"
         }
       ],
       "_src": "mobilize"
