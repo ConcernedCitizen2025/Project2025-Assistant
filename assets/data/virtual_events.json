@@ -1,91 +1,19 @@
 {
   "data": [
     {
-      "_id": 877691,
-      "mobilize_id": 877691,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
-      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-      "begin": "2026-07-16",
-      "end": "2026-12-17",
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-07-17",
+      "end": "2026-10-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
-          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-07-16",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943355,
-      "mobilize_id": 943355,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
-      "title": "LAD Summer Candidate Post Card Events",
-      "begin": "2026-07-16",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LAD Summer Candidate Post Card Events",
-          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978501,
-      "mobilize_id": 978501,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
-      "title": "Learn How to Launch a Canvass!",
-      "begin": "2026-07-16",
-      "end": "2026-07-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn How to Launch a Canvass!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 980382,
-      "mobilize_id": 980382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
-      "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-16",
-      "end": "2026-08-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank in support of Donavan McKinney!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -95,7 +23,7 @@
       "mobilize_id": 986686,
       "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
       "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-07-16",
+      "begin": "2026-07-17",
       "end": "2026-07-31",
       "lat": null,
       "lng": null,
@@ -113,7 +41,7 @@
       "mobilize_id": 986692,
       "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
       "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-      "begin": "2026-07-16",
+      "begin": "2026-07-17",
       "end": "2026-07-31",
       "lat": null,
       "lng": null,
@@ -122,24 +50,6 @@
         {
           "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
           "href": "https://www.mobilize.us/iowaforward/event/986692/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-07-17",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -163,6 +73,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 937346,
+      "mobilize_id": 937346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
+      "title": "David Penaloza for State Assembly AD 68: Weekly",
+      "begin": "2026-07-18",
+      "end": "2026-07-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "David Penaloza for State Assembly AD 68: Weekly",
+          "href": "https://www.mobilize.us/dpoc/event/937346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 958108,
       "mobilize_id": 958108,
       "canonical_mobilize_url": "https://www.mobilize.us/event/958108/",
@@ -176,24 +104,6 @@
         {
           "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
           "href": "https://www.mobilize.us/acluin/event/958108/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-07-18",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
         }
       ],
       "_src": "mobilize"
@@ -235,6 +145,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 980382,
+      "mobilize_id": 980382,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
+      "title": "Phone bank in support of Donavan McKinney!",
+      "begin": "2026-07-18",
+      "end": "2026-08-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone bank in support of Donavan McKinney!",
+          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 983028,
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
@@ -248,6 +176,24 @@
         {
           "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
           "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 992404,
+      "mobilize_id": 992404,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/992404/",
+      "title": "Greater Cleveland And Eastern Suburbs Virtual Phonebank!",
+      "begin": "2026-07-18",
+      "end": "2026-07-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Greater Cleveland And Eastern Suburbs Virtual Phonebank!",
+          "href": "https://www.mobilize.us/ohiowins/event/992404/"
         }
       ],
       "_src": "mobilize"
@@ -302,6 +248,24 @@
         {
           "title": "Orientation to Indivisible Northampton (Virtual)",
           "href": "https://www.mobilize.us/indivisiblenorthamptonswingleftwesternma/event/910337/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943355,
+      "mobilize_id": 943355,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
+      "title": "LAD Summer Candidate Post Card Events",
+      "begin": "2026-07-22",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LAD Summer Candidate Post Card Events",
+          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
         }
       ],
       "_src": "mobilize"
@@ -397,6 +361,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-07-23",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-07-23",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 984837,
       "mobilize_id": 984837,
       "canonical_mobilize_url": "https://www.mobilize.us/event/984837/",
@@ -415,19 +415,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 983654,
-      "mobilize_id": 983654,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983654/",
-      "title": "100 Days Out Maple Grove SD37 Weekend of Action",
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
       "begin": "2026-07-25",
-      "end": "2026-07-26",
+      "end": "2026-08-08",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, Brooklyn Park",
+      "location": "This event's address is private. Sign up for more details, WI",
       "links": [
         {
-          "title": "100 Days Out Maple Grove SD37 Weekend of Action",
-          "href": "https://www.mobilize.us/dflcc/event/983654/"
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
         }
       ],
       "_src": "mobilize"
@@ -721,24 +721,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 983570,
-      "mobilize_id": 983570,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983570/",
-      "title": "Blaine/Lino Lakes Get Out The Vote!",
-      "begin": "2026-08-08",
-      "end": "2026-08-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MN",
-      "links": [
-        {
-          "title": "Blaine/Lino Lakes Get Out The Vote!",
-          "href": "https://www.mobilize.us/dflcc/event/983570/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 989485,
       "mobilize_id": 989485,
       "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
@@ -752,6 +734,24 @@
         {
           "title": "Voter Action Gathering - Midwest County, August 2026",
           "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 877691,
+      "mobilize_id": 877691,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
+      "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+      "begin": "2026-08-20",
+      "end": "2026-12-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
+          "href": "https://www.mobilize.us/ld9democrats/event/877691/"
         }
       ],
       "_src": "mobilize"
