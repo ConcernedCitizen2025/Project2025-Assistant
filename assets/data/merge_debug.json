@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-17",
+  "cutoffStr": "2026-07-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 13598,
-    "geoKept": 13385,
+    "all": 13455,
+    "geoKept": 13242,
     "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 13434,
-      "recent": 13431,
-      "withCoords": 10635,
-      "keptGeo": 10632,
-      "keptVirt": 2799,
+      "total": 13291,
+      "recent": 13288,
+      "withCoords": 10491,
+      "keptGeo": 10488,
+      "keptVirt": 2800,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
