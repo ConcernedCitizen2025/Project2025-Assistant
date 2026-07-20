@@ -1,65 +1,11 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-07-18",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 937346,
-      "mobilize_id": 937346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
-      "title": "David Penaloza for State Assembly AD 68: Weekly",
-      "begin": "2026-07-18",
-      "end": "2026-07-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "David Penaloza for State Assembly AD 68: Weekly",
-          "href": "https://www.mobilize.us/dpoc/event/937346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 958108,
-      "mobilize_id": 958108,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/958108/",
-      "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
-      "begin": "2026-07-18",
-      "end": "2026-07-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Sidewalks to the Ballot Box: Day of Chalk Sign-up",
-          "href": "https://www.mobilize.us/acluin/event/958108/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971767,
       "mobilize_id": 971767,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
       "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-07-18",
+      "begin": "2026-07-19",
       "end": "2026-08-30",
       "lat": null,
       "lng": null,
@@ -77,7 +23,7 @@
       "mobilize_id": 975757,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
       "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-07-18",
+      "begin": "2026-07-19",
       "end": "2026-11-01",
       "lat": null,
       "lng": null,
@@ -95,7 +41,7 @@
       "mobilize_id": 980382,
       "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
       "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-18",
+      "begin": "2026-07-19",
       "end": "2026-08-03",
       "lat": null,
       "lng": null,
@@ -113,7 +59,7 @@
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
       "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
-      "begin": "2026-07-18",
+      "begin": "2026-07-19",
       "end": "2026-08-16",
       "lat": null,
       "lng": null,
@@ -122,24 +68,6 @@
         {
           "title": "#TeamKelly Community Canvass - Let's Fix This - Together",
           "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 992404,
-      "mobilize_id": 992404,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/992404/",
-      "title": "Greater Cleveland And Eastern Suburbs Virtual Phonebank!",
-      "begin": "2026-07-18",
-      "end": "2026-07-18",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Greater Cleveland And Eastern Suburbs Virtual Phonebank!",
-          "href": "https://www.mobilize.us/ohiowins/event/992404/"
         }
       ],
       "_src": "mobilize"
@@ -410,6 +338,24 @@
         {
           "title": "(Virtual) Democratic Voter Registration Training",
           "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-07-25",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"
