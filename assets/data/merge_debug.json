@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-20",
+  "cutoffStr": "2026-07-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 12516,
-    "geoKept": 12305,
-    "virtKept": 44
+    "all": 12732,
+    "geoKept": 12674,
+    "virtKept": 49
   },
   "perSource": {
     "mobilize": {
-      "total": 12352,
-      "recent": 12349,
-      "withCoords": 9675,
-      "keptGeo": 9672,
-      "keptVirt": 2677,
+      "total": 12723,
+      "recent": 12720,
+      "withCoords": 9926,
+      "keptGeo": 9923,
+      "keptVirt": 2797,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,56 +127,28 @@
       ]
     },
     "mobilizon": {
-      "total": 158,
-      "recent": 0,
-      "withCoords": 142,
-      "keptGeo": 0,
-      "keptVirt": 0,
-      "sampleDroppedByDate": [
+      "total": 3,
+      "recent": 3,
+      "withCoords": 2,
+      "keptGeo": 2,
+      "keptVirt": 1,
+      "sampleDroppedByDate": [],
+      "sampleDroppedByCoords": [
         {
-          "title": "General Meeting - West Seattle Indivisible",
-          "begin": "2026-01-11",
-          "end": "2026-01-11",
-          "lat": 47.5626534,
-          "lng": -122.386272,
-          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
+          "title": "Citizens Against Tyranny",
+          "begin": "2026-07-25",
+          "end": "2026-07-25",
+          "lat": null,
+          "lng": null,
+          "location": "SW Corner Eldorado and 75",
           "links": [
             {
-              "title": "General Meeting - West Seattle Indivisible",
-              "href": "https://events.pol-rev.com/events/be8c7cb3-9e6d-4e14-92bc-1f3c5aea197a"
-            }
-          ]
-        },
-        {
-          "title": "No Kings",
-          "begin": "2025-12-27",
-          "end": "2025-12-27",
-          "lat": 30.311421,
-          "lng": -95.458213,
-          "location": "301 North Thompson Street, Conroe, TX 77301, United States of America, Conroe",
-          "links": [
-            {
-              "title": "No Kings",
-              "href": "https://events.pol-rev.com/events/1652d7e2-722b-4a15-9d6c-232e6001fdf0"
-            }
-          ]
-        },
-        {
-          "title": "General Meeting - West Seattle Indivisible",
-          "begin": "2025-12-14",
-          "end": "2025-12-14",
-          "lat": 47.5626534,
-          "lng": -122.386272,
-          "location": "Senior Center of West Seattle, 4217 Southwest Oregon Street, Seattle, WA 98116, United States of America, Seattle",
-          "links": [
-            {
-              "title": "General Meeting - West Seattle Indivisible",
-              "href": "https://events.pol-rev.com/events/6b22b56d-cbfb-4c7b-b654-ab413ba1033c"
+              "title": "Citizens Against Tyranny",
+              "href": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
             }
           ]
         }
-      ],
-      "sampleDroppedByCoords": []
+      ]
     },
     "protestapi": {
       "total": 6,

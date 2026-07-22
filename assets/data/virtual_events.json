@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-07-20",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 980382,
       "mobilize_id": 980382,
       "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
       "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-20",
+      "begin": "2026-07-21",
       "end": "2026-08-03",
       "lat": null,
       "lng": null,
@@ -127,6 +109,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-07-22",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 972397,
       "mobilize_id": 972397,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
@@ -204,7 +204,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
       "title": "Indivisible LAB Evening Action Hour",
       "begin": "2026-07-23",
-      "end": "2026-07-23",
+      "end": "2026-08-06",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, MA",
@@ -415,22 +415,37 @@
       "_src": "mobilize"
     },
     {
-      "_id": 983698,
-      "mobilize_id": 983698,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983698/",
-      "title": "Kamia Brown Day of Action!",
+      "_id": 994257,
+      "mobilize_id": 994257,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/994257/",
+      "title": "100 Days Out Champlin and Coon Rapids SD34/35 Weekend of Action with Richard Carlbom",
       "begin": "2026-07-25",
       "end": "2026-07-25",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
+      "location": "This event's address is private. Sign up for more details, Coon Rapids",
       "links": [
         {
-          "title": "Kamia Brown Day of Action!",
-          "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/983698/"
+          "title": "100 Days Out Champlin and Coon Rapids SD34/35 Weekend of Action with Richard Carlbom",
+          "href": "https://www.mobilize.us/dflcc/event/994257/"
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "title": "Citizens Against Tyranny",
+      "begin": "2026-07-25",
+      "end": "2026-07-25",
+      "lat": null,
+      "lng": null,
+      "location": "SW Corner Eldorado and 75",
+      "links": [
+        {
+          "title": "Citizens Against Tyranny",
+          "href": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "_id": 757536,
@@ -523,37 +538,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 989842,
-      "mobilize_id": 989842,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989842/",
-      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Washtenaw County",
-      "begin": "2026-07-30",
-      "end": "2026-07-30",
+      "_id": 993966,
+      "mobilize_id": 993966,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993966/",
+      "title": "Canvass for Burhan",
+      "begin": "2026-07-29",
+      "end": "2026-07-29",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, MA",
       "links": [
         {
-          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Washtenaw County",
-          "href": "https://www.mobilize.us/abdulforsenate/event/989842/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989846,
-      "mobilize_id": 989846,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989846/",
-      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Dearborn/Hamtramck",
-      "begin": "2026-07-31",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Dearborn/Hamtramck",
-          "href": "https://www.mobilize.us/abdulforsenate/event/989846/"
+          "title": "Canvass for Burhan",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993966/"
         }
       ],
       "_src": "mobilize"
@@ -577,37 +574,37 @@
       "_src": "mobilize"
     },
     {
-      "_id": 989851,
-      "mobilize_id": 989851,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989851/",
-      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Grand Rapids",
-      "begin": "2026-08-01",
-      "end": "2026-08-01",
+      "_id": 993970,
+      "mobilize_id": 993970,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993970/",
+      "title": "Sunday morning canvass",
+      "begin": "2026-08-02",
+      "end": "2026-08-02",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, MA",
       "links": [
         {
-          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Grand Rapids",
-          "href": "https://www.mobilize.us/abdulforsenate/event/989851/"
+          "title": "Sunday morning canvass",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993970/"
         }
       ],
       "_src": "mobilize"
     },
     {
-      "_id": 989854,
-      "mobilize_id": 989854,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989854/",
-      "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Warren",
+      "_id": 994552,
+      "mobilize_id": 994552,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/994552/",
+      "title": "Kamia Brown Day of Action!",
       "begin": "2026-08-02",
       "end": "2026-08-02",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, FL",
       "links": [
         {
-          "title": "Knock Out the Vote Tour with Dr. Abdul El-Sayed!—Warren",
-          "href": "https://www.mobilize.us/abdulforsenate/event/989854/"
+          "title": "Kamia Brown Day of Action!",
+          "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/994552/"
         }
       ],
       "_src": "mobilize"
@@ -649,6 +646,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 884910,
+      "mobilize_id": 884910,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/884910/",
+      "title": "Candidates Workshop: Create a Winning Voters' Pamphlet Statement",
+      "begin": "2026-08-05",
+      "end": "2026-08-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Candidates Workshop: Create a Winning Voters' Pamphlet Statement",
+          "href": "https://www.mobilize.us/multnomahdemocrats/event/884910/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 993967,
+      "mobilize_id": 993967,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993967/",
+      "title": "Canvass for Burhan",
+      "begin": "2026-08-05",
+      "end": "2026-08-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Canvass for Burhan",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993967/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
@@ -685,6 +718,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 993971,
+      "mobilize_id": 993971,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993971/",
+      "title": "Sunday morning canvass",
+      "begin": "2026-08-09",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Sunday morning canvass",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993971/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 993968,
+      "mobilize_id": 993968,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993968/",
+      "title": "Canvass for Burhan",
+      "begin": "2026-08-12",
+      "end": "2026-08-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Canvass for Burhan",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993968/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 989485,
       "mobilize_id": 989485,
       "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
@@ -698,6 +767,24 @@
         {
           "title": "Voter Action Gathering - Midwest County, August 2026",
           "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 993972,
+      "mobilize_id": 993972,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993972/",
+      "title": "Sunday morning canvass",
+      "begin": "2026-08-16",
+      "end": "2026-08-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Sunday morning canvass",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/993972/"
         }
       ],
       "_src": "mobilize"
