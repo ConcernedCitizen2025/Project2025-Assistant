@@ -17,12 +17,28 @@
       "link": "https://events.pol-rev.com/events/b1859170-187b-4c7f-bb11-5df6f51fe461"
     },
     {
+      "title": "Trump Takedown",
+      "date": "2026-08-01",
+      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+      "lat": 42.3480424,
+      "lng": -71.082783,
+      "link": "https://events.pol-rev.com/events/fd98b531-ef68-4629-9dab-1ebb33eaa0d5"
+    },
+    {
       "title": "Citizens Against Tyranny",
       "date": "2026-07-25",
       "location": "SW Corner Eldorado and 75",
       "lat": null,
       "lng": null,
       "link": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
+    },
+    {
+      "title": "Bryn Mawr Bridge Protest",
+      "date": "2026-07-22",
+      "location": "Bryn Mawr Bridge Protest, Minneapolis",
+      "lat": 44.97007159931057,
+      "lng": -93.31347327679396,
+      "link": "https://events.pol-rev.com/events/de938fb4-3fe1-45a8-9b75-5b9d2428143c"
     }
   ]
 }
