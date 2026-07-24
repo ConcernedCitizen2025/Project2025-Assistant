@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-22",
+  "cutoffStr": "2026-07-23",
   "lookbackDays": 1,
   "totals": {
-    "all": 13143,
-    "geoKept": 13081,
-    "virtKept": 53
+    "all": 13388,
+    "geoKept": 13324,
+    "virtKept": 54
   },
   "perSource": {
     "mobilize": {
-      "total": 13132,
-      "recent": 13129,
-      "withCoords": 10237,
-      "keptGeo": 10234,
-      "keptVirt": 2895,
+      "total": 13376,
+      "recent": 13373,
+      "withCoords": 10400,
+      "keptGeo": 10397,
+      "keptVirt": 2976,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 5,
+      "total": 6,
       "recent": 5,
-      "withCoords": 4,
+      "withCoords": 5,
       "keptGeo": 4,
       "keptVirt": 1,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Bryn Mawr Bridge Protest",
+          "begin": "2026-07-22",
+          "end": "2026-07-22",
+          "lat": 44.97007159931057,
+          "lng": -93.31347327679396,
+          "location": "Bryn Mawr Bridge Protest, Minneapolis",
+          "links": [
+            {
+              "title": "Bryn Mawr Bridge Protest",
+              "href": "https://events.pol-rev.com/events/de938fb4-3fe1-45a8-9b75-5b9d2428143c"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Citizens Against Tyranny",
