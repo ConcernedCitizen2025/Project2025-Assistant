@@ -1,91 +1,37 @@
 {
   "data": [
     {
-      "_id": 783402,
-      "mobilize_id": 783402,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
-      "title": "TA Brooklyn Monthly Meeting",
-      "begin": "2026-07-23",
-      "end": "2026-11-26",
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-07-24",
+      "end": "2026-10-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "TA Brooklyn Monthly Meeting",
-          "href": "https://www.mobilize.us/transalt/event/783402/"
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
     },
     {
-      "_id": 865658,
-      "mobilize_id": 865658,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
-      "title": "Indivisible LAB Evening Action Hour",
-      "begin": "2026-07-23",
-      "end": "2026-08-06",
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre",
+      "begin": "2026-07-24",
+      "end": "2026-10-31",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
+      "location": "This event's address is private. Sign up for more details, MI",
       "links": [
         {
-          "title": "Indivisible LAB Evening Action Hour",
-          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 904459,
-      "mobilize_id": 904459,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "Blue Magnolia Monthly Breakfast Social",
-      "begin": "2026-07-23",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Blue Magnolia Monthly Breakfast Social",
-          "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-07-23",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978501,
-      "mobilize_id": 978501,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
-      "title": "Learn How to Launch a Canvass!",
-      "begin": "2026-07-23",
-      "end": "2026-07-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn How to Launch a Canvass!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+          "title": "Canvass with Lisa McIntyre",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
         }
       ],
       "_src": "mobilize"
@@ -95,7 +41,7 @@
       "mobilize_id": 980382,
       "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
       "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-23",
+      "begin": "2026-07-24",
       "end": "2026-08-03",
       "lat": null,
       "lng": null,
@@ -109,29 +55,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 984837,
-      "mobilize_id": 984837,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/984837/",
-      "title": "Austin Book Club July 23rd   - Jungle Reads Book Club",
-      "begin": "2026-07-23",
-      "end": "2026-07-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Austin Book Club July 23rd   - Jungle Reads Book Club",
-          "href": "https://www.mobilize.us/saavetxef/event/984837/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 986686,
       "mobilize_id": 986686,
       "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
       "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-07-23",
+      "begin": "2026-07-24",
       "end": "2026-07-31",
       "lat": null,
       "lng": null,
@@ -149,7 +77,7 @@
       "mobilize_id": 986692,
       "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
       "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-      "begin": "2026-07-23",
+      "begin": "2026-07-24",
       "end": "2026-07-31",
       "lat": null,
       "lng": null,
@@ -158,60 +86,6 @@
         {
           "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
           "href": "https://www.mobilize.us/iowaforward/event/986692/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989432,
-      "mobilize_id": 989432,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
-      "title": "Phone Bank for Latoya Gayle!",
-      "begin": "2026-07-23",
-      "end": "2026-07-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Latoya Gayle!",
-          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 993839,
-      "mobilize_id": 993839,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/993839/",
-      "title": "Asian-American Phonebank for Josh!",
-      "begin": "2026-07-23",
-      "end": "2026-07-23",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Asian-American Phonebank for Josh!",
-          "href": "https://www.mobilize.us/joshforct/event/993839/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-07-24",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
@@ -276,7 +150,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
       "title": "CD22 Canvassing: Co-Host Sign-Up",
       "begin": "2026-07-25",
-      "end": "2026-08-30",
+      "end": "2026-10-04",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -430,6 +304,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 989432,
+      "mobilize_id": 989432,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
+      "title": "Phone Bank for Latoya Gayle!",
+      "begin": "2026-07-28",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Latoya Gayle!",
+          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 993841,
       "mobilize_id": 993841,
       "canonical_mobilize_url": "https://www.mobilize.us/event/993841/",
@@ -487,15 +379,15 @@
       "_id": 972823,
       "mobilize_id": 972823,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
-      "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
+      "title": "Virtual Phonebanking with the PA Dems in the Greater South Central PA area!",
       "begin": "2026-07-29",
-      "end": "2026-07-29",
+      "end": "2026-08-26",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
+          "title": "Virtual Phonebanking with the PA Dems in the Greater South Central PA area!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
         }
       ],
@@ -520,6 +412,21 @@
       "_src": "mobilize"
     },
     {
+      "title": "Online - Shut the Flock Off BloNo/MC meeting",
+      "begin": "2026-07-29",
+      "end": "2026-07-29",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Online - Shut the Flock Off BloNo/MC meeting",
+          "href": "https://events.pol-rev.com/events/c1042015-ee8b-4407-b7ce-813a5b283877"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
       "_id": 923550,
       "mobilize_id": 923550,
       "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
@@ -533,6 +440,42 @@
         {
           "title": "Phone Bank for Evonne Hopkins",
           "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-07-30",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-07-30",
+      "end": "2026-07-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
         }
       ],
       "_src": "mobilize"
@@ -736,6 +679,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 865658,
+      "mobilize_id": 865658,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
+      "title": "Indivisible LAB Evening Action Hour",
+      "begin": "2026-08-06",
+      "end": "2026-08-06",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Indivisible LAB Evening Action Hour",
+          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 943355,
       "mobilize_id": 943355,
       "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
@@ -772,6 +733,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 989485,
+      "mobilize_id": 989485,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
+      "title": "Voter Action Gathering - Midwest County, August 2026",
+      "begin": "2026-08-09",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Seminole",
+      "links": [
+        {
+          "title": "Voter Action Gathering - Midwest County, August 2026",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 993971,
       "mobilize_id": 993971,
       "canonical_mobilize_url": "https://www.mobilize.us/event/993971/",
@@ -803,24 +782,6 @@
         {
           "title": "Canvass for Burhan",
           "href": "https://www.mobilize.us/burhanforstatesenate/event/993968/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989485,
-      "mobilize_id": 989485,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
-      "title": "Voter Action Gathering - Midwest County, August 2026",
-      "begin": "2026-08-15",
-      "end": "2026-08-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, g",
-      "links": [
-        {
-          "title": "Voter Action Gathering - Midwest County, August 2026",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
         }
       ],
       "_src": "mobilize"
@@ -911,6 +872,42 @@
         {
           "title": "Tampa Bay Action Team Meeting",
           "href": "https://www.mobilize.us/aclufl/event/877799/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 783402,
+      "mobilize_id": 783402,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
+      "title": "TA Brooklyn Monthly Meeting",
+      "begin": "2026-08-27",
+      "end": "2026-11-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "TA Brooklyn Monthly Meeting",
+          "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 904459,
+      "mobilize_id": 904459,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
+      "title": "Blue Magnolia Monthly Breakfast Social",
+      "begin": "2026-08-27",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Blue Magnolia Monthly Breakfast Social",
+          "href": "https://www.mobilize.us/mcdptx/event/904459/"
         }
       ],
       "_src": "mobilize"
