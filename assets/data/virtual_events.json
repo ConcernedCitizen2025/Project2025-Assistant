@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 869465,
-      "mobilize_id": 869465,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
-      "title": "Tropical Meme Society bridge drop",
-      "begin": "2026-07-25",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Tropical Meme Society bridge drop",
-          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 937346,
       "mobilize_id": 937346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
       "title": "David Penaloza for State Assembly AD 68: Weekly",
-      "begin": "2026-07-25",
+      "begin": "2026-07-26",
       "end": "2026-10-31",
       "lat": null,
       "lng": null,
@@ -37,29 +19,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-07-25",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971767,
       "mobilize_id": 971767,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
       "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-07-25",
+      "begin": "2026-07-26",
       "end": "2026-10-04",
       "lat": null,
       "lng": null,
@@ -77,7 +41,7 @@
       "mobilize_id": 975757,
       "canonical_mobilize_url": "https://www.mobilize.us/event/975757/",
       "title": "Canvass with Sarah Pounds!",
-      "begin": "2026-07-25",
+      "begin": "2026-07-26",
       "end": "2026-07-26",
       "lat": null,
       "lng": null,
@@ -91,29 +55,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre",
-      "begin": "2026-07-25",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 980382,
       "mobilize_id": 980382,
       "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
       "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-25",
+      "begin": "2026-07-26",
       "end": "2026-08-03",
       "lat": null,
       "lng": null,
@@ -131,7 +77,7 @@
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
       "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
-      "begin": "2026-07-25",
+      "begin": "2026-07-26",
       "end": "2026-08-16",
       "lat": null,
       "lng": null,
@@ -145,37 +91,22 @@
       "_src": "mobilize"
     },
     {
-      "_id": 995373,
-      "mobilize_id": 995373,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/995373/",
-      "title": "100 Days Day of Action: Phone Bank with Hood County Democratic Party!",
-      "begin": "2026-07-25",
-      "end": "2026-07-25",
+      "_id": 990897,
+      "mobilize_id": 990897,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/990897/",
+      "title": "Walk The Vote: All Out in Oregon!",
+      "begin": "2026-07-26",
+      "end": "2026-07-26",
       "lat": null,
       "lng": null,
-      "location": "Grandbury, TX",
+      "location": "This event's address is private. Sign up for more details, Oregon",
       "links": [
         {
-          "title": "100 Days Day of Action: Phone Bank with Hood County Democratic Party!",
-          "href": "https://www.mobilize.us/ginahinojosafortexasgovernor/event/995373/"
+          "title": "Walk The Vote: All Out in Oregon!",
+          "href": "https://www.mobilize.us/friendsofjoshmittness/event/990897/"
         }
       ],
       "_src": "mobilize"
-    },
-    {
-      "title": "Citizens Against Tyranny",
-      "begin": "2026-07-25",
-      "end": "2026-07-25",
-      "lat": null,
-      "lng": null,
-      "location": "SW Corner Eldorado and 75",
-      "links": [
-        {
-          "title": "Citizens Against Tyranny",
-          "href": "https://events.pol-rev.com/events/475ee37e-843b-41df-948c-e02152e65145"
-        }
-      ],
-      "_src": "mobilizon"
     },
     {
       "_id": 757536,
@@ -317,6 +248,24 @@
         {
           "title": "Bilingual Phonebank for Josh!",
           "href": "https://www.mobilize.us/joshforct/event/993841/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997193,
+      "mobilize_id": 997193,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997193/",
+      "title": "Canvas for Burhan (Central)",
+      "begin": "2026-07-28",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Canvas for Burhan (Central)",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/997193/"
         }
       ],
       "_src": "mobilize"
@@ -499,6 +448,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre",
+      "begin": "2026-07-31",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+      "begin": "2026-08-01",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WI",
+      "links": [
+        {
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 983700,
       "mobilize_id": 983700,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983700/",
@@ -548,6 +533,42 @@
         {
           "title": "Canvas for Burhan (West)",
           "href": "https://www.mobilize.us/burhanforstatesenate/event/997191/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Saturday 08/01 and Sunday 08/02 Canvass",
+      "begin": "2026-08-01",
+      "end": "2026-08-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Saturday 08/01 and Sunday 08/02 Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997239,
+      "mobilize_id": 997239,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
+      "title": "Mark Pinsley Lehigh County Saturday 08/01 and Sunday 08/02",
+      "begin": "2026-08-01",
+      "end": "2026-08-02",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Lehigh County Saturday 08/01 and Sunday 08/02",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
         }
       ],
       "_src": "mobilize"
@@ -710,6 +731,24 @@
         {
           "title": "LAD Summer Candidate Post Card Events",
           "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 869465,
+      "mobilize_id": 869465,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
+      "title": "Tropical Meme Society bridge drop",
+      "begin": "2026-08-08",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Tropical Meme Society bridge drop",
+          "href": "https://www.mobilize.us/tropicalmemesociety/event/869465/"
         }
       ],
       "_src": "mobilize"
