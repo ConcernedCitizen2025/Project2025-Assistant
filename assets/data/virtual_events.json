@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 757536,
-      "mobilize_id": 757536,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
-      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-      "begin": "2026-07-27",
-      "end": "2026-11-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
-          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 809234,
-      "mobilize_id": 809234,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
-      "title": "Monthly Linn-Benton Wolf Pack Meeting",
-      "begin": "2026-07-27",
-      "end": "2026-10-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly Linn-Benton Wolf Pack Meeting",
-          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-07-27",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 980382,
-      "mobilize_id": 980382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
-      "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-27",
-      "end": "2026-08-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank in support of Donavan McKinney!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 888472,
       "mobilize_id": 888472,
       "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
@@ -86,6 +14,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 980382,
+      "mobilize_id": 980382,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
+      "title": "Phone bank in support of Donavan McKinney!",
+      "begin": "2026-07-28",
+      "end": "2026-08-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone bank in support of Donavan McKinney!",
+          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
         }
       ],
       "_src": "mobilize"
@@ -132,7 +78,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
       "title": "Phone Bank for Latoya Gayle!",
       "begin": "2026-07-28",
-      "end": "2026-07-30",
+      "end": "2026-08-06",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -150,7 +96,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/993841/",
       "title": "Bilingual Phonebank for Josh!",
       "begin": "2026-07-28",
-      "end": "2026-07-28",
+      "end": "2026-08-04",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -166,7 +112,7 @@
       "_id": 997193,
       "mobilize_id": 997193,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997193/",
-      "title": "Canvas for Burhan (Central Somerville)",
+      "title": "Canvas for Burhan (Porter, Magoun)",
       "begin": "2026-07-28",
       "end": "2026-08-28",
       "lat": null,
@@ -174,7 +120,7 @@
       "location": "This event's address is private. Sign up for more details, MA",
       "links": [
         {
-          "title": "Canvas for Burhan (Central Somerville)",
+          "title": "Canvas for Burhan (Porter, Magoun)",
           "href": "https://www.mobilize.us/burhanforstatesenate/event/997193/"
         }
       ],
@@ -194,6 +140,24 @@
         {
           "title": "LWVH Volunteer 101 Training",
           "href": "https://www.mobilize.us/lwvhouston/event/885926/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-07-29",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
@@ -309,7 +273,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
       "title": "Learn How to Launch a Canvass!",
       "begin": "2026-07-30",
-      "end": "2026-07-30",
+      "end": "2026-09-24",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -389,6 +353,24 @@
         {
           "title": "Canvass with Lisa McIntyre",
           "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 996667,
+      "mobilize_id": 996667,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
+      "title": "Delaware County Volunteer Leader Virtual Training",
+      "begin": "2026-07-31",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Delaware County Volunteer Leader Virtual Training",
+          "href": "https://www.mobilize.us/ohiowins/event/996667/"
         }
       ],
       "_src": "mobilize"
@@ -523,15 +505,15 @@
       "_id": 997226,
       "mobilize_id": 997226,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Saturday 08/01 and Sunday 08/02 Canvass",
+      "title": "Mark Pinsley Bucks County Canvass",
       "begin": "2026-08-01",
-      "end": "2026-08-02",
+      "end": "2026-08-09",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, PA",
       "links": [
         {
-          "title": "Mark Pinsley Bucks County Saturday 08/01 and Sunday 08/02 Canvass",
+          "title": "Mark Pinsley Bucks County Canvass",
           "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
         }
       ],
@@ -541,15 +523,15 @@
       "_id": 997239,
       "mobilize_id": 997239,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
-      "title": "Mark Pinsley Lehigh County Saturday 08/01 and Sunday 08/02",
+      "title": "Mark Pinsley Lehigh County Canvass",
       "begin": "2026-08-01",
-      "end": "2026-08-02",
+      "end": "2026-08-09",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, PA",
       "links": [
         {
-          "title": "Mark Pinsley Lehigh County Saturday 08/01 and Sunday 08/02",
+          "title": "Mark Pinsley Lehigh County Canvass",
           "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
         }
       ],
@@ -610,6 +592,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 997194,
+      "mobilize_id": 997194,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997194/",
+      "title": "Canvas for Burhan (Winter Hill, Union)",
+      "begin": "2026-08-03",
+      "end": "2026-08-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MA",
+      "links": [
+        {
+          "title": "Canvas for Burhan (Winter Hill, Union)",
+          "href": "https://www.mobilize.us/burhanforstatesenate/event/997194/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
+      "begin": "2026-08-04",
+      "end": "2026-08-15",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 985273,
       "mobilize_id": 985273,
       "canonical_mobilize_url": "https://www.mobilize.us/event/985273/",
@@ -641,6 +659,24 @@
         {
           "title": "Candidates Workshop: Create a Winning Voters' Pamphlet Statement",
           "href": "https://www.mobilize.us/multnomahdemocrats/event/884910/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 998946,
+      "mobilize_id": 998946,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/998946/",
+      "title": "Dial Some Digits in Norfolk with the VA Democrats",
+      "begin": "2026-08-05",
+      "end": "2026-08-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Dial Some Digits in Norfolk with the VA Democrats",
+          "href": "https://www.mobilize.us/va26cc/event/998946/"
         }
       ],
       "_src": "mobilize"
@@ -736,24 +772,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-08-09",
-      "end": "2026-08-15",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 989485,
       "mobilize_id": 989485,
       "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
@@ -826,6 +844,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 993508,
+      "mobilize_id": 993508,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993508/",
+      "title": "RAISE Distribution Day",
+      "begin": "2026-08-22",
+      "end": "2026-08-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "RAISE Distribution Day",
+          "href": "https://www.mobilize.us/aclufl/event/993508/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 994739,
       "mobilize_id": 994739,
       "canonical_mobilize_url": "https://www.mobilize.us/event/994739/",
@@ -839,6 +875,42 @@
         {
           "title": "LAKESIDE COMMUNITY-Volunteering 101: A Volunteer \"Job Fair\" -How to Help Elect Democrats in November",
           "href": "https://www.mobilize.us/dekalbcountydemocrats/event/994739/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 757536,
+      "mobilize_id": 757536,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
+      "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+      "begin": "2026-08-24",
+      "end": "2026-11-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
+          "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 809234,
+      "mobilize_id": 809234,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/809234/",
+      "title": "Monthly Linn-Benton Wolf Pack Meeting",
+      "begin": "2026-08-24",
+      "end": "2026-10-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly Linn-Benton Wolf Pack Meeting",
+          "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
         }
       ],
       "_src": "mobilize"
