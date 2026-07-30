@@ -1,132 +1,6 @@
 {
   "data": [
     {
-      "_id": 888472,
-      "mobilize_id": 888472,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
-      "title": "Monthly Voter Action Gathering - South County",
-      "begin": "2026-07-28",
-      "end": "2026-12-22",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, St. Petersburg",
-      "links": [
-        {
-          "title": "Monthly Voter Action Gathering - South County",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 980382,
-      "mobilize_id": 980382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
-      "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-28",
-      "end": "2026-08-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank in support of Donavan McKinney!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-07-28",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986692,
-      "mobilize_id": 986692,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-      "begin": "2026-07-28",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986692/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989432,
-      "mobilize_id": 989432,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
-      "title": "Phone Bank for Latoya Gayle!",
-      "begin": "2026-07-28",
-      "end": "2026-08-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Latoya Gayle!",
-          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 993841,
-      "mobilize_id": 993841,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/993841/",
-      "title": "Bilingual Phonebank for Josh!",
-      "begin": "2026-07-28",
-      "end": "2026-08-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Bilingual Phonebank for Josh!",
-          "href": "https://www.mobilize.us/joshforct/event/993841/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997193,
-      "mobilize_id": 997193,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997193/",
-      "title": "Canvas for Burhan (Porter, Magoun)",
-      "begin": "2026-07-28",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Canvas for Burhan (Porter, Magoun)",
-          "href": "https://www.mobilize.us/burhanforstatesenate/event/997193/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 885926,
       "mobilize_id": 885926,
       "canonical_mobilize_url": "https://www.mobilize.us/event/885926/",
@@ -184,7 +58,7 @@
       "_id": 972823,
       "mobilize_id": 972823,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972823/",
-      "title": "Virtual Phonebanking with the PA Dems in the Greater South Central PA area!",
+      "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
       "begin": "2026-07-29",
       "end": "2026-08-26",
       "lat": null,
@@ -192,26 +66,62 @@
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Virtual Phonebanking with the PA Dems in the Greater South Central PA area!",
+          "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
         }
       ],
       "_src": "mobilize"
     },
     {
-      "_id": 993966,
-      "mobilize_id": 993966,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/993966/",
-      "title": "Canvass for Burhan",
+      "_id": 980382,
+      "mobilize_id": 980382,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
+      "title": "Phone bank in support of Donavan McKinney!",
       "begin": "2026-07-29",
-      "end": "2026-07-29",
+      "end": "2026-08-03",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
+      "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "Canvass for Burhan",
-          "href": "https://www.mobilize.us/burhanforstatesenate/event/993966/"
+          "title": "Phone bank in support of Donavan McKinney!",
+          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-07-29",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986692,
+      "mobilize_id": 986692,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+      "begin": "2026-07-29",
+      "end": "2026-07-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986692/"
         }
       ],
       "_src": "mobilize"
@@ -281,6 +191,24 @@
         {
           "title": "Learn How to Launch a Canvass!",
           "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989432,
+      "mobilize_id": 989432,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
+      "title": "Phone Bank for Latoya Gayle!",
+      "begin": "2026-07-30",
+      "end": "2026-08-06",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Latoya Gayle!",
+          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
         }
       ],
       "_src": "mobilize"
@@ -381,7 +309,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/937346/",
       "title": "David Penaloza for State Assembly AD 68: Weekly",
       "begin": "2026-08-01",
-      "end": "2026-10-31",
+      "end": "2026-11-01",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -466,6 +394,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 983929,
+      "mobilize_id": 983929,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/983929/",
+      "title": "Knock Doors with the NC Coordinated Campaign in Chatham County!",
+      "begin": "2026-08-01",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock Doors with the NC Coordinated Campaign in Chatham County!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/983929/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 995709,
       "mobilize_id": 995709,
       "canonical_mobilize_url": "https://www.mobilize.us/event/995709/",
@@ -479,24 +425,6 @@
         {
           "title": "Lead Together Tour: Jamie Shopland for Frederick County Council",
           "href": "https://www.mobilize.us/mddems/event/995709/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997191,
-      "mobilize_id": 997191,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997191/",
-      "title": "Canvas for Burhan (North Cambridge)",
-      "begin": "2026-08-01",
-      "end": "2026-08-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Canvas for Burhan (North Cambridge)",
-          "href": "https://www.mobilize.us/burhanforstatesenate/event/997191/"
         }
       ],
       "_src": "mobilize"
@@ -538,24 +466,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 993970,
-      "mobilize_id": 993970,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/993970/",
-      "title": "Sunday morning canvass",
-      "begin": "2026-08-02",
-      "end": "2026-08-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Sunday morning canvass",
-          "href": "https://www.mobilize.us/burhanforstatesenate/event/993970/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 994552,
       "mobilize_id": 994552,
       "canonical_mobilize_url": "https://www.mobilize.us/event/994552/",
@@ -592,24 +502,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 997194,
-      "mobilize_id": 997194,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997194/",
-      "title": "Canvas for Burhan (Winter Hill, Union)",
-      "begin": "2026-08-03",
-      "end": "2026-08-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Canvas for Burhan (Winter Hill, Union)",
-          "href": "https://www.mobilize.us/burhanforstatesenate/event/997194/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 974979,
       "mobilize_id": 974979,
       "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
@@ -636,11 +528,29 @@
       "end": "2026-08-04",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details",
+      "location": "This event's address is private. Sign up for more details, Richmond",
       "links": [
         {
           "title": "No Denying Climate Change Townhall with Special Guest Rep. McClellan",
           "href": "https://www.mobilize.us/climateactioncampaign/event/985273/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 993841,
+      "mobilize_id": 993841,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/993841/",
+      "title": "Bilingual Phonebank for Josh!",
+      "begin": "2026-08-04",
+      "end": "2026-08-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Bilingual Phonebank for Josh!",
+          "href": "https://www.mobilize.us/joshforct/event/993841/"
         }
       ],
       "_src": "mobilize"
@@ -911,6 +821,24 @@
         {
           "title": "Monthly Linn-Benton Wolf Pack Meeting",
           "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/809234/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 888472,
+      "mobilize_id": 888472,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/888472/",
+      "title": "Monthly Voter Action Gathering - South County",
+      "begin": "2026-08-25",
+      "end": "2026-12-22",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, St. Petersburg",
+      "links": [
+        {
+          "title": "Monthly Voter Action Gathering - South County",
+          "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
         }
       ],
       "_src": "mobilize"
