@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-07-30",
+  "cutoffStr": "2026-07-31",
   "lookbackDays": 1,
   "totals": {
-    "all": 13072,
-    "geoKept": 13008,
-    "virtKept": 54
+    "all": 13093,
+    "geoKept": 13033,
+    "virtKept": 51
   },
   "perSource": {
     "mobilize": {
-      "total": 13061,
-      "recent": 13058,
-      "withCoords": 10350,
-      "keptGeo": 10347,
-      "keptVirt": 2711,
+      "total": 13083,
+      "recent": 13080,
+      "withCoords": 10319,
+      "keptGeo": 10316,
+      "keptVirt": 2764,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 5,
+      "total": 4,
       "recent": 4,
       "withCoords": 4,
       "keptGeo": 4,
       "keptVirt": 0,
-      "sampleDroppedByDate": [
-        {
-          "title": "Online - Shut the Flock Off BloNo/MC meeting",
-          "begin": "2026-07-29",
-          "end": "2026-07-29",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Online - Shut the Flock Off BloNo/MC meeting",
-              "href": "https://events.pol-rev.com/events/c1042015-ee8b-4407-b7ce-813a5b283877"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": []
     },
     "protestapi": {
