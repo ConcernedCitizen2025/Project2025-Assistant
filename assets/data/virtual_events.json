@@ -1,132 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-07-31",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre",
-      "begin": "2026-07-31",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 980382,
-      "mobilize_id": 980382,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
-      "title": "Phone bank in support of Donavan McKinney!",
-      "begin": "2026-07-31",
-      "end": "2026-08-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank in support of Donavan McKinney!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-07-31",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986692,
-      "mobilize_id": 986692,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986692/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-      "begin": "2026-07-31",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Jasper, Marion, and Mahaska Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986692/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 996667,
-      "mobilize_id": 996667,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
-      "title": "Delaware County Volunteer Leader Virtual Training",
-      "begin": "2026-07-31",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Delaware County Volunteer Leader Virtual Training",
-          "href": "https://www.mobilize.us/ohiowins/event/996667/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1000369,
-      "mobilize_id": 1000369,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1000369/",
-      "title": "Phone bank for Donavan McKinney with Hasan Piker!",
-      "begin": "2026-07-31",
-      "end": "2026-07-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone bank for Donavan McKinney with Hasan Piker!",
-          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/1000369/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 961886,
       "mobilize_id": 961886,
       "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
@@ -163,6 +37,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre",
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 983028,
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
@@ -176,24 +68,6 @@
         {
           "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
           "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 983929,
-      "mobilize_id": 983929,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983929/",
-      "title": "Knock Doors with the NC Coordinated Campaign in Chatham County!",
-      "begin": "2026-08-01",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Knock Doors with the NC Coordinated Campaign in Chatham County!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/983929/"
         }
       ],
       "_src": "mobilize"
@@ -302,6 +176,24 @@
         {
           "title": "Door Knocking with Blaine For Indiana",
           "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 980382,
+      "mobilize_id": 980382,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/980382/",
+      "title": "Phone bank in support of Donavan McKinney!",
+      "begin": "2026-08-03",
+      "end": "2026-08-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone bank in support of Donavan McKinney!",
+          "href": "https://www.mobilize.us/donavanmckinneyforcongress/event/980382/"
         }
       ],
       "_src": "mobilize"
@@ -590,6 +482,42 @@
         {
           "title": "Learn How to Launch a Canvass!",
           "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-08-07",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 996667,
+      "mobilize_id": 996667,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
+      "title": "Delaware County Volunteer Leader Virtual Training",
+      "begin": "2026-08-07",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Delaware County Volunteer Leader Virtual Training",
+          "href": "https://www.mobilize.us/ohiowins/event/996667/"
         }
       ],
       "_src": "mobilize"
