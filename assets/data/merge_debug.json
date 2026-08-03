@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-01",
+  "cutoffStr": "2026-08-02",
   "lookbackDays": 1,
   "totals": {
-    "all": 13032,
-    "geoKept": 12976,
-    "virtKept": 47
+    "all": 12613,
+    "geoKept": 12556,
+    "virtKept": 46
   },
   "perSource": {
     "mobilize": {
-      "total": 13020,
-      "recent": 13017,
-      "withCoords": 10253,
-      "keptGeo": 10250,
-      "keptVirt": 2767,
+      "total": 12601,
+      "recent": 12598,
+      "withCoords": 9948,
+      "keptGeo": 9945,
+      "keptVirt": 2653,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,40 @@
     },
     "mobilizon": {
       "total": 6,
-      "recent": 6,
+      "recent": 4,
       "withCoords": 6,
-      "keptGeo": 6,
+      "keptGeo": 4,
       "keptVirt": 0,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "Trump Takedown",
+          "begin": "2026-08-01",
+          "end": "2026-08-01",
+          "lat": 42.3480424,
+          "lng": -71.082783,
+          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
+          "links": [
+            {
+              "title": "Trump Takedown",
+              "href": "https://events.pol-rev.com/events/fd98b531-ef68-4629-9dab-1ebb33eaa0d5"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-08-01",
+          "end": "2026-08-01",
+          "lat": 42.23567,
+          "lng": -71.178862,
+          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/6204d367-e6c7-47be-8e76-64db3ce4837e"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": []
     },
     "protestapi": {

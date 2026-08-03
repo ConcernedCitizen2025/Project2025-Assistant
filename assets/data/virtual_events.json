@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-08-01",
-      "end": "2026-08-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971767,
       "mobilize_id": 971767,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
       "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-08-01",
+      "begin": "2026-08-02",
       "end": "2026-10-04",
       "lat": null,
       "lng": null,
@@ -37,29 +19,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre",
-      "begin": "2026-08-01",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 983028,
       "mobilize_id": 983028,
       "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
       "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
-      "begin": "2026-08-01",
+      "begin": "2026-08-02",
       "end": "2026-08-16",
       "lat": null,
       "lng": null,
@@ -73,29 +37,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 995709,
-      "mobilize_id": 995709,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/995709/",
-      "title": "Lead Together Tour: Jamie Shopland for Frederick County Council",
-      "begin": "2026-08-01",
-      "end": "2026-08-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MD",
-      "links": [
-        {
-          "title": "Lead Together Tour: Jamie Shopland for Frederick County Council",
-          "href": "https://www.mobilize.us/mddems/event/995709/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 997226,
       "mobilize_id": 997226,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
       "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-01",
+      "begin": "2026-08-02",
       "end": "2026-08-09",
       "lat": null,
       "lng": null,
@@ -113,7 +59,7 @@
       "mobilize_id": 997239,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
       "title": "Mark Pinsley Lehigh County Canvass",
-      "begin": "2026-08-01",
+      "begin": "2026-08-02",
       "end": "2026-08-09",
       "lat": null,
       "lng": null,
@@ -122,24 +68,6 @@
         {
           "title": "Mark Pinsley Lehigh County Canvass",
           "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 994552,
-      "mobilize_id": 994552,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/994552/",
-      "title": "Kamia Brown Day of Action!",
-      "begin": "2026-08-02",
-      "end": "2026-08-02",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "Kamia Brown Day of Action!",
-          "href": "https://www.mobilize.us/kamiabrownfororangecountycommissiondistrict2/event/994552/"
         }
       ],
       "_src": "mobilize"
@@ -505,6 +433,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre",
+      "begin": "2026-08-07",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 996667,
       "mobilize_id": 996667,
       "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
@@ -541,19 +487,55 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1000219,
-      "mobilize_id": 1000219,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1000219/",
-      "title": "Walk The Vote: Oregon",
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
       "begin": "2026-08-08",
       "end": "2026-08-08",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, Oregon",
+      "location": "This event's address is private. Sign up for more details, WI",
       "links": [
         {
-          "title": "Walk The Vote: Oregon",
-          "href": "https://www.mobilize.us/friendsofjoshmittness/event/1000219/"
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 994901,
+      "mobilize_id": 994901,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/994901/",
+      "title": "8,000 Doors for 8/8",
+      "begin": "2026-08-08",
+      "end": "2026-08-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "8,000 Doors for 8/8",
+          "href": "https://www.mobilize.us/montgomerycountydemocraticcommittee/event/994901/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1002090,
+      "mobilize_id": 1002090,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002090/",
+      "title": "Knocking in Norfolk with the VA Democrats",
+      "begin": "2026-08-08",
+      "end": "2026-08-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knocking in Norfolk with the VA Democrats",
+          "href": "https://www.mobilize.us/va26cc/event/1002090/"
         }
       ],
       "_src": "mobilize"
