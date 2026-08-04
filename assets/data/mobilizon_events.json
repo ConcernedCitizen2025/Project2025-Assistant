@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "title": "Remove the Regime protest",
+      "date": "2026-10-10",
+      "location": "Gloria Molina Grand Park, Downtown, Los Angeles, California, United States of America, Los Angeles",
+      "lat": 34.0555008,
+      "lng": -118.2456965,
+      "link": "https://events.pol-rev.com/events/dc2f163e-1a6f-4559-9d90-63c266f2ba84"
+    },
+    {
       "title": "Trump Takedown",
       "date": "2026-10-03",
       "location": "In front of the Tesla Showroom at Prudential Center, Boston",
@@ -25,28 +33,28 @@
       "link": "https://events.pol-rev.com/events/b413db20-d690-4cd9-8ff9-ab4ab9005120"
     },
     {
+      "title": "BloNo IL - Shut the Flock Off in person meeting",
+      "date": "2026-08-20",
+      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+      "lat": 40.4929988,
+      "lng": -88.9684006,
+      "link": "https://events.pol-rev.com/events/daaf6c75-a579-4116-995d-ddb3dee74cad"
+    },
+    {
+      "title": "BloNo IL - Community Meeting and Cookout",
+      "date": "2026-08-07",
+      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+      "lat": 40.4929988,
+      "lng": -88.9684006,
+      "link": "https://events.pol-rev.com/events/a1f4b802-67e6-41a1-898b-a64a0651915d"
+    },
+    {
       "title": "BloNo IL - Digital Security for Protesters",
       "date": "2026-08-02",
       "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
       "lat": 40.4929988,
       "lng": -88.9684006,
       "link": "https://events.pol-rev.com/events/b1859170-187b-4c7f-bb11-5df6f51fe461"
-    },
-    {
-      "title": "Trump Takedown",
-      "date": "2026-08-01",
-      "location": "In front of the Tesla Showroom at Prudential Center, Boston",
-      "lat": 42.3480424,
-      "lng": -71.082783,
-      "link": "https://events.pol-rev.com/events/fd98b531-ef68-4629-9dab-1ebb33eaa0d5"
-    },
-    {
-      "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-      "date": "2026-08-01",
-      "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
-      "lat": 42.23567,
-      "lng": -71.178862,
-      "link": "https://events.pol-rev.com/events/6204d367-e6c7-47be-8e76-64db3ce4837e"
     }
   ]
 }

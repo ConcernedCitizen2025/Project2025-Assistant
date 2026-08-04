@@ -1,78 +1,6 @@
 {
   "data": [
     {
-      "_id": 971767,
-      "mobilize_id": 971767,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
-      "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-08-02",
-      "end": "2026-10-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "CD22 Canvassing: Co-Host Sign-Up",
-          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 983028,
-      "mobilize_id": 983028,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
-      "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
-      "begin": "2026-08-02",
-      "end": "2026-08-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, FL",
-      "links": [
-        {
-          "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
-          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-02",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997239,
-      "mobilize_id": 997239,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
-      "title": "Mark Pinsley Lehigh County Canvass",
-      "begin": "2026-08-02",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Lehigh County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 918182,
       "mobilize_id": 918182,
       "canonical_mobilize_url": "https://www.mobilize.us/event/918182/",
@@ -505,6 +433,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971767,
+      "mobilize_id": 971767,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
+      "title": "CD22 Canvassing: Co-Host Sign-Up",
+      "begin": "2026-08-08",
+      "end": "2026-10-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "CD22 Canvassing: Co-Host Sign-Up",
+          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 983028,
+      "mobilize_id": 983028,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/983028/",
+      "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
+      "begin": "2026-08-08",
+      "end": "2026-08-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, FL",
+      "links": [
+        {
+          "title": "#TeamKelly Community Canvass - #Let's Fix This - Together",
+          "href": "https://www.mobilize.us/2026kellykirschnerforcongress/event/983028/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 994901,
       "mobilize_id": 994901,
       "canonical_mobilize_url": "https://www.mobilize.us/event/994901/",
@@ -518,6 +482,42 @@
         {
           "title": "8,000 Doors for 8/8",
           "href": "https://www.mobilize.us/montgomerycountydemocraticcommittee/event/994901/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
+      "begin": "2026-08-08",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997239,
+      "mobilize_id": 997239,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
+      "title": "Mark Pinsley Lehigh County Canvass",
+      "begin": "2026-08-08",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Lehigh County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
         }
       ],
       "_src": "mobilize"
@@ -667,6 +667,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1002613,
+      "mobilize_id": 1002613,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002613/",
+      "title": "Knock doors with Team Spencer!",
+      "begin": "2026-08-23",
+      "end": "2026-08-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock doors with Team Spencer!",
+          "href": "https://www.mobilize.us/leonardspencerforfloridahouse/event/1002613/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 757536,
       "mobilize_id": 757536,
       "canonical_mobilize_url": "https://www.mobilize.us/event/757536/",
@@ -788,6 +806,24 @@
         {
           "title": "IEB's 2026 All-Member Meetings on Zoom!",
           "href": "https://www.mobilize.us/indivisible-east-bay/event/890176/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1002614,
+      "mobilize_id": 1002614,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002614/",
+      "title": "Knock doors with Team Spencer!",
+      "begin": "2026-08-30",
+      "end": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Knock doors with Team Spencer!",
+          "href": "https://www.mobilize.us/leonardspencerforfloridahouse/event/1002614/"
         }
       ],
       "_src": "mobilize"
