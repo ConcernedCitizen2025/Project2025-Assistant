@@ -1,186 +1,6 @@
 {
   "data": [
     {
-      "_id": 547245,
-      "mobilize_id": 547245,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
-      "title": "Monthly All Member Meeting",
-      "begin": "2026-08-06",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly All Member Meeting",
-          "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 758303,
-      "mobilize_id": 758303,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
-      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-      "begin": "2026-08-06",
-      "end": "2026-12-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
-          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 865658,
-      "mobilize_id": 865658,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
-      "title": "Indivisible LAB Evening Action Hour",
-      "begin": "2026-08-06",
-      "end": "2026-08-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MA",
-      "links": [
-        {
-          "title": "Indivisible LAB Evening Action Hour",
-          "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 923550,
-      "mobilize_id": 923550,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
-      "title": "Phone Bank for Evonne Hopkins",
-      "begin": "2026-08-06",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Evonne Hopkins",
-          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-08-06",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 943355,
-      "mobilize_id": 943355,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
-      "title": "LAD Summer Candidate Post Card Events",
-      "begin": "2026-08-06",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "LAD Summer Candidate Post Card Events",
-          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-08-06",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978501,
-      "mobilize_id": 978501,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
-      "title": "Learn How to Launch a Canvass!",
-      "begin": "2026-08-06",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn How to Launch a Canvass!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989432,
-      "mobilize_id": 989432,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
-      "title": "Phone Bank for Latoya Gayle!",
-      "begin": "2026-08-06",
-      "end": "2026-08-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Latoya Gayle!",
-          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1001249,
-      "mobilize_id": 1001249,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1001249/",
-      "title": "FaithActs GOTV Virtual Phone Bank",
-      "begin": "2026-08-06",
-      "end": "2026-08-10",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "FaithActs GOTV Virtual Phone Bank",
-          "href": "https://www.mobilize.us/faithactsforeducation/event/1001249/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -194,6 +14,24 @@
         {
           "title": "(Virtual) Democratic Voter Registration Training",
           "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+      "begin": "2026-08-07",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WI",
+      "links": [
+        {
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
         }
       ],
       "_src": "mobilize"
@@ -230,6 +68,24 @@
         {
           "title": "Delaware County Volunteer Leader Virtual Training",
           "href": "https://www.mobilize.us/ohiowins/event/996667/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1001249,
+      "mobilize_id": 1001249,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1001249/",
+      "title": "FaithActs GOTV Virtual Phone Bank",
+      "begin": "2026-08-07",
+      "end": "2026-08-10",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "FaithActs GOTV Virtual Phone Bank",
+          "href": "https://www.mobilize.us/faithactsforeducation/event/1001249/"
         }
       ],
       "_src": "mobilize"
@@ -541,6 +397,60 @@
       "_src": "mobilize"
     },
     {
+      "_id": 923550,
+      "mobilize_id": 923550,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
+      "title": "Phone Bank for Evonne Hopkins",
+      "begin": "2026-08-13",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Evonne Hopkins",
+          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-08-13",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-08-13",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 998946,
       "mobilize_id": 998946,
       "canonical_mobilize_url": "https://www.mobilize.us/event/998946/",
@@ -554,6 +464,24 @@
         {
           "title": "Dial Some Digits in Norfolk with the VA Democrats",
           "href": "https://www.mobilize.us/va26cc/event/998946/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1006058,
+      "mobilize_id": 1006058,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1006058/",
+      "title": "Postcards and more!",
+      "begin": "2026-08-14",
+      "end": "2026-08-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Postcards and more!",
+          "href": "https://www.mobilize.us/indivisibleleft/event/1006058/"
         }
       ],
       "_src": "mobilize"
@@ -608,6 +536,24 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 943355,
+      "mobilize_id": 943355,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
+      "title": "LAD Summer Candidate Post Card Events",
+      "begin": "2026-08-20",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "LAD Summer Candidate Post Card Events",
+          "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
         }
       ],
       "_src": "mobilize"
@@ -829,6 +775,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 547245,
+      "mobilize_id": 547245,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
+      "title": "Monthly All Member Meeting",
+      "begin": "2026-09-03",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Monthly All Member Meeting",
+          "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 918182,
       "mobilize_id": 918182,
       "canonical_mobilize_url": "https://www.mobilize.us/event/918182/",
@@ -842,6 +806,42 @@
         {
           "title": "Monthly Polk County Wolf Pack Meeting",
           "href": "https://www.mobilize.us/oregonworkingfamiliesparty/event/918182/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1005611,
+      "mobilize_id": 1005611,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1005611/",
+      "title": "Maximize Your Field Strategy Through Precinct Prioritization",
+      "begin": "2026-09-14",
+      "end": "2026-09-14",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Maximize Your Field Strategy Through Precinct Prioritization",
+          "href": "https://www.mobilize.us/ndtc/event/1005611/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 758303,
+      "mobilize_id": 758303,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/758303/",
+      "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+      "begin": "2026-10-01",
+      "end": "2026-12-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
+          "href": "https://www.mobilize.us/livefreeusa/event/758303/"
         }
       ],
       "_src": "mobilize"
