@@ -1,96 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-08-07",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 961886,
-      "mobilize_id": 961886,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
-      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-08-07",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre",
-      "begin": "2026-08-07",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 996667,
-      "mobilize_id": 996667,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
-      "title": "Delaware County Volunteer Leader Virtual Training",
-      "begin": "2026-08-07",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Delaware County Volunteer Leader Virtual Training",
-          "href": "https://www.mobilize.us/ohiowins/event/996667/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1001249,
-      "mobilize_id": 1001249,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1001249/",
-      "title": "FaithActs GOTV Virtual Phone Bank",
-      "begin": "2026-08-07",
-      "end": "2026-08-10",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "FaithActs GOTV Virtual Phone Bank",
-          "href": "https://www.mobilize.us/faithactsforeducation/event/1001249/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 869465,
       "mobilize_id": 869465,
       "canonical_mobilize_url": "https://www.mobilize.us/event/869465/",
@@ -109,6 +19,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 961886,
+      "mobilize_id": 961886,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
+      "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+      "begin": "2026-08-08",
+      "end": "2026-08-09",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WI",
+      "links": [
+        {
+          "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
+          "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 971767,
       "mobilize_id": 971767,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
@@ -122,6 +50,24 @@
         {
           "title": "CD22 Canvassing: Co-Host Sign-Up",
           "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre",
+      "begin": "2026-08-08",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
         }
       ],
       "_src": "mobilize"
@@ -289,6 +235,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1001249,
+      "mobilize_id": 1001249,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1001249/",
+      "title": "FaithActs GOTV Virtual Phone Bank",
+      "begin": "2026-08-10",
+      "end": "2026-08-10",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "FaithActs GOTV Virtual Phone Bank",
+          "href": "https://www.mobilize.us/faithactsforeducation/event/1001249/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1003730,
       "mobilize_id": 1003730,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1003730/",
@@ -320,6 +284,24 @@
         {
           "title": "GOTV Ned for CT Phone Banking - College Democrats !",
           "href": "https://www.mobilize.us/nedforct/event/1004524/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989432,
+      "mobilize_id": 989432,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
+      "title": "Phone Bank for Latoya Gayle!",
+      "begin": "2026-08-11",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Latoya Gayle!",
+          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
         }
       ],
       "_src": "mobilize"
@@ -464,6 +446,42 @@
         {
           "title": "Dial Some Digits in Norfolk with the VA Democrats",
           "href": "https://www.mobilize.us/va26cc/event/998946/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-08-14",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 996667,
+      "mobilize_id": 996667,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
+      "title": "Delaware County Volunteer Leader Virtual Training",
+      "begin": "2026-08-14",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Delaware County Volunteer Leader Virtual Training",
+          "href": "https://www.mobilize.us/ohiowins/event/996667/"
         }
       ],
       "_src": "mobilize"
