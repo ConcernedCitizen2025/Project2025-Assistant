@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-08",
+  "cutoffStr": "2026-08-09",
   "lookbackDays": 1,
   "totals": {
-    "all": 13676,
-    "geoKept": 13616,
-    "virtKept": 50
+    "all": 12851,
+    "geoKept": 12796,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 13661,
-      "recent": 13658,
-      "withCoords": 10666,
-      "keptGeo": 10663,
-      "keptVirt": 2995,
+      "total": 12837,
+      "recent": 12834,
+      "withCoords": 9961,
+      "keptGeo": 9958,
+      "keptVirt": 2876,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 9,
-      "recent": 8,
-      "withCoords": 9,
-      "keptGeo": 8,
+      "total": 8,
+      "recent": 6,
+      "withCoords": 8,
+      "keptGeo": 6,
       "keptVirt": 0,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo IL - Community Meeting and Cookout",
-          "begin": "2026-08-07",
-          "end": "2026-08-07",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "title": "BloNo IL - Rally - Defend Voting Rights",
+          "begin": "2026-08-08",
+          "end": "2026-08-08",
+          "lat": 40.4840901,
+          "lng": -88.9928214,
+          "location": "Bloomington Center for the Performing Arts, 600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
           "links": [
             {
-              "title": "BloNo IL - Community Meeting and Cookout",
-              "href": "https://events.pol-rev.com/events/a1f4b802-67e6-41a1-898b-a64a0651915d"
+              "title": "BloNo IL - Rally - Defend Voting Rights",
+              "href": "https://events.pol-rev.com/events/3de21b76-d787-4923-9ab3-4169fd84ecfb"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-08-08",
+          "end": "2026-08-08",
+          "lat": 42.23567,
+          "lng": -71.178862,
+          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/4b549933-6a86-4252-a576-4260f999f80f"
             }
           ]
         }
