@@ -5,7 +5,7 @@
       "mobilize_id": 961886,
       "canonical_mobilize_url": "https://www.mobilize.us/event/961886/",
       "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
-      "begin": "2026-08-09",
+      "begin": "2026-08-10",
       "end": "2026-08-10",
       "lat": null,
       "lng": null,
@@ -14,96 +14,6 @@
         {
           "title": "Canvass Democrats in Brookfield, Elm Grove, and Wauwatosa with Amy Zimmerman for Assembly",
           "href": "https://www.mobilize.us/amyzimmermanforassembly/event/961886/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971767,
-      "mobilize_id": 971767,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
-      "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-08-09",
-      "end": "2026-10-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "CD22 Canvassing: Co-Host Sign-Up",
-          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-08-09",
-      "end": "2026-08-15",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989485,
-      "mobilize_id": 989485,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989485/",
-      "title": "Voter Action Gathering - Midwest County, August 2026",
-      "begin": "2026-08-09",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Seminole",
-      "links": [
-        {
-          "title": "Voter Action Gathering - Midwest County, August 2026",
-          "href": "https://www.mobilize.us/voteractionpinellas/event/989485/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-09",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997239,
-      "mobilize_id": 997239,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
-      "title": "Mark Pinsley Lehigh County Canvass",
-      "begin": "2026-08-09",
-      "end": "2026-08-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Lehigh County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
         }
       ],
       "_src": "mobilize"
@@ -194,6 +104,42 @@
         {
           "title": "Phone Bank for Latoya Gayle!",
           "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1002815,
+      "mobilize_id": 1002815,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
+      "title": "Door Knocking for Jeremy Ferderber!",
+      "begin": "2026-08-11",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Door Knocking for Jeremy Ferderber!",
+          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1007408,
+      "mobilize_id": 1007408,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1007408/",
+      "title": "CD6 Get Out The Vote Phone Bank!",
+      "begin": "2026-08-11",
+      "end": "2026-08-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "CD6 Get Out The Vote Phone Bank!",
+          "href": "https://www.mobilize.us/dflcc/event/1007408/"
         }
       ],
       "_src": "mobilize"
@@ -397,6 +343,78 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971767,
+      "mobilize_id": 971767,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
+      "title": "CD22 Canvassing: Co-Host Sign-Up",
+      "begin": "2026-08-15",
+      "end": "2026-10-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "CD22 Canvassing: Co-Host Sign-Up",
+          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
+      "begin": "2026-08-15",
+      "end": "2026-08-15",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
+      "begin": "2026-08-15",
+      "end": "2026-08-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997239,
+      "mobilize_id": 997239,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
+      "title": "Mark Pinsley Lehigh County Canvass",
+      "begin": "2026-08-15",
+      "end": "2026-08-23",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Lehigh County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 792466,
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
@@ -505,6 +523,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1007498,
+      "mobilize_id": 1007498,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1007498/",
+      "title": "Neighborhood Doorknocking Deep Canvass in PA07: Hold Rep. Ryan Mackenzie Accountable!",
+      "begin": "2026-08-22",
+      "end": "2026-08-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Neighborhood Doorknocking Deep Canvass in PA07: Hold Rep. Ryan Mackenzie Accountable!",
+          "href": "https://www.mobilize.us/wethefighters/event/1007498/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 994739,
       "mobilize_id": 994739,
       "canonical_mobilize_url": "https://www.mobilize.us/event/994739/",
@@ -590,6 +626,24 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1007709,
+      "mobilize_id": 1007709,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1007709/",
+      "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
+      "begin": "2026-08-25",
+      "end": "2026-09-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
+          "href": "https://www.mobilize.us/blueactiondems/event/1007709/"
         }
       ],
       "_src": "mobilize"

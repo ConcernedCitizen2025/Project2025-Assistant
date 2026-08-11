@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-09",
+  "cutoffStr": "2026-08-10",
   "lookbackDays": 1,
   "totals": {
-    "all": 12851,
-    "geoKept": 12796,
-    "virtKept": 44
+    "all": 12850,
+    "geoKept": 12794,
+    "virtKept": 47
   },
   "perSource": {
     "mobilize": {
-      "total": 12837,
-      "recent": 12834,
-      "withCoords": 9961,
-      "keptGeo": 9958,
-      "keptVirt": 2876,
+      "total": 12836,
+      "recent": 12833,
+      "withCoords": 9969,
+      "keptGeo": 9966,
+      "keptVirt": 2867,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-08-09",
+          "begin": "2026-08-16",
           "end": "2026-09-27",
           "lat": null,
           "lng": null,
@@ -128,40 +128,11 @@
     },
     "mobilizon": {
       "total": 8,
-      "recent": 6,
+      "recent": 8,
       "withCoords": 8,
-      "keptGeo": 6,
+      "keptGeo": 8,
       "keptVirt": 0,
-      "sampleDroppedByDate": [
-        {
-          "title": "BloNo IL - Rally - Defend Voting Rights",
-          "begin": "2026-08-08",
-          "end": "2026-08-08",
-          "lat": 40.4840901,
-          "lng": -88.9928214,
-          "location": "Bloomington Center for the Performing Arts, 600 North East Street, Bloomington, IL 61701, United States of America, Bloomington",
-          "links": [
-            {
-              "title": "BloNo IL - Rally - Defend Voting Rights",
-              "href": "https://events.pol-rev.com/events/3de21b76-d787-4923-9ab3-4169fd84ecfb"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-08-08",
-          "end": "2026-08-08",
-          "lat": 42.23567,
-          "lng": -71.178862,
-          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/4b549933-6a86-4252-a576-4260f999f80f"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": []
     },
     "protestapi": {
