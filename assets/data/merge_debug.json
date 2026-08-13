@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-11",
+  "cutoffStr": "2026-08-12",
   "lookbackDays": 1,
   "totals": {
-    "all": 13358,
-    "geoKept": 13306,
-    "virtKept": 43
+    "all": 13549,
+    "geoKept": 13496,
+    "virtKept": 44
   },
   "perSource": {
     "mobilize": {
-      "total": 13343,
-      "recent": 13340,
-      "withCoords": 10262,
-      "keptGeo": 10259,
-      "keptVirt": 3081,
+      "total": 13534,
+      "recent": 13531,
+      "withCoords": 10411,
+      "keptGeo": 10408,
+      "keptVirt": 3123,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -75,7 +75,7 @@
           "mobilize_id": 437109,
           "canonical_mobilize_url": "https://www.mobilize.us/event/437109/",
           "title": "Baytown Area Democrats Club Meeting",
-          "begin": "2026-08-11",
+          "begin": "2026-09-08",
           "end": "2026-12-08",
           "lat": null,
           "lng": null,
