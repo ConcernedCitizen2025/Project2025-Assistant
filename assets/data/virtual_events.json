@@ -1,96 +1,6 @@
 {
   "data": [
     {
-      "_id": 923550,
-      "mobilize_id": 923550,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
-      "title": "Phone Bank for Evonne Hopkins",
-      "begin": "2026-08-13",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Evonne Hopkins",
-          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-08-13",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978501,
-      "mobilize_id": 978501,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
-      "title": "Learn How to Launch a Canvass!",
-      "begin": "2026-08-13",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn How to Launch a Canvass!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989432,
-      "mobilize_id": 989432,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
-      "title": "Phone Bank for Latoya Gayle!",
-      "begin": "2026-08-13",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Latoya Gayle!",
-          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1002815,
-      "mobilize_id": 1002815,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
-      "title": "Door Knocking for Jeremy Ferderber!",
-      "begin": "2026-08-13",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Door Knocking for Jeremy Ferderber!",
-          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -235,6 +145,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1002815,
+      "mobilize_id": 1002815,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
+      "title": "Door Knocking for Jeremy Ferderber!",
+      "begin": "2026-08-15",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Door Knocking for Jeremy Ferderber!",
+          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1009950,
+      "mobilize_id": 1009950,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1009950/",
+      "title": "Equality Florida Phone Banking Day of Action to Elect Pro-equality Candidates!",
+      "begin": "2026-08-15",
+      "end": "2026-08-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, FL",
+      "links": [
+        {
+          "title": "Equality Florida Phone Banking Day of Action to Elect Pro-equality Candidates!",
+          "href": "https://www.mobilize.us/eqflactionpac/event/1009950/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 792466,
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
@@ -266,6 +212,24 @@
         {
           "title": "Register Voters to Flip CA-48 in Oceanside/San Elijo!",
           "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/1003861/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 989432,
+      "mobilize_id": 989432,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
+      "title": "Phone Bank for Latoya Gayle!",
+      "begin": "2026-08-18",
+      "end": "2026-08-20",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Latoya Gayle!",
+          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
         }
       ],
       "_src": "mobilize"
@@ -361,6 +325,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 923550,
+      "mobilize_id": 923550,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
+      "title": "Phone Bank for Evonne Hopkins",
+      "begin": "2026-08-20",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Evonne Hopkins",
+          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-08-20",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 943355,
       "mobilize_id": 943355,
       "canonical_mobilize_url": "https://www.mobilize.us/event/943355/",
@@ -374,6 +374,24 @@
         {
           "title": "LAD Summer Candidate Post Card Events",
           "href": "https://www.mobilize.us/dentondemocrats/event/943355/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-08-20",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
         }
       ],
       "_src": "mobilize"
@@ -523,24 +541,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1007709,
-      "mobilize_id": 1007709,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1007709/",
-      "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
-      "begin": "2026-08-25",
-      "end": "2026-09-08",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
-          "href": "https://www.mobilize.us/blueactiondems/event/1007709/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1003023,
       "mobilize_id": 1003023,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1003023/",
@@ -590,6 +590,24 @@
         {
           "title": "Blue Magnolia Monthly Breakfast Social",
           "href": "https://www.mobilize.us/mcdptx/event/904459/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1010532,
+      "mobilize_id": 1010532,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1010532/",
+      "title": "The VRA at 61 with Democratic Nominee for Texas AG, Senator Nathan Johnson",
+      "begin": "2026-08-28",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "The VRA at 61 with Democratic Nominee for Texas AG, Senator Nathan Johnson",
+          "href": "https://www.mobilize.us/hcdp/event/1010532/"
         }
       ],
       "_src": "mobilize"
@@ -734,6 +752,42 @@
         {
           "title": "Maximize Your Field Strategy Through Precinct Prioritization",
           "href": "https://www.mobilize.us/ndtc/event/1005611/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1007709,
+      "mobilize_id": 1007709,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1007709/",
+      "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
+      "begin": "2026-09-15",
+      "end": "2026-09-15",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
+          "href": "https://www.mobilize.us/blueactiondems/event/1007709/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1010793,
+      "mobilize_id": 1010793,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1010793/",
+      "title": "Educators KYR",
+      "begin": "2026-09-26",
+      "end": "2026-09-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Educators KYR",
+          "href": "https://www.mobilize.us/luchaaction/event/1010793/"
         }
       ],
       "_src": "mobilize"
