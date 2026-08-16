@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-08-14",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre",
-      "begin": "2026-08-14",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 996667,
-      "mobilize_id": 996667,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
-      "title": "Delaware County Volunteer Leader Virtual Training",
-      "begin": "2026-08-14",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Delaware County Volunteer Leader Virtual Training",
-          "href": "https://www.mobilize.us/ohiowins/event/996667/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971394,
       "mobilize_id": 971394,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
@@ -104,6 +50,24 @@
         {
           "title": "West Des Moines Canvass for Sarah Trone Garriott",
           "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+      "begin": "2026-08-15",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
         }
       ],
       "_src": "mobilize"
@@ -176,6 +140,24 @@
         {
           "title": "Equality Florida Phone Banking Day of Action to Elect Pro-equality Candidates!",
           "href": "https://www.mobilize.us/eqflactionpac/event/1009950/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 973496,
+      "mobilize_id": 973496,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/973496/",
+      "title": "Ann Johnson Stewart for SD45 Door Knock Shifts",
+      "begin": "2026-08-16",
+      "end": "2026-09-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MN",
+      "links": [
+        {
+          "title": "Ann Johnson Stewart for SD45 Door Knock Shifts",
+          "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/973496/"
         }
       ],
       "_src": "mobilize"
@@ -415,6 +397,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-08-21",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 996667,
+      "mobilize_id": 996667,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
+      "title": "Delaware County Volunteer Leader Virtual Training",
+      "begin": "2026-08-21",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Delaware County Volunteer Leader Virtual Training",
+          "href": "https://www.mobilize.us/ohiowins/event/996667/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1007498,
       "mobilize_id": 1007498,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1007498/",
@@ -554,6 +572,24 @@
         {
           "title": "Virtual: Unidos 805 SQUAD Info Meeting/ Reunión Informativa",
           "href": "https://www.mobilize.us/millionvotersproject/event/1003023/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1011232,
+      "mobilize_id": 1011232,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1011232/",
+      "title": "Make Calls to Elect Ocean County Democrats",
+      "begin": "2026-08-26",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Make Calls to Elect Ocean County Democrats",
+          "href": "https://www.mobilize.us/njvictory2026/event/1011232/"
         }
       ],
       "_src": "mobilize"

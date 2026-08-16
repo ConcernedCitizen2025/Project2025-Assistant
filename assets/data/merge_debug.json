@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-14",
+  "cutoffStr": "2026-08-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 13987,
-    "geoKept": 13929,
-    "virtKept": 47
+    "all": 13976,
+    "geoKept": 13917,
+    "virtKept": 49
   },
   "perSource": {
     "mobilize": {
-      "total": 13967,
-      "recent": 13964,
-      "withCoords": 10697,
-      "keptGeo": 10694,
-      "keptVirt": 3270,
+      "total": 13958,
+      "recent": 13955,
+      "withCoords": 10669,
+      "keptGeo": 10666,
+      "keptVirt": 3289,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 14,
-      "recent": 12,
-      "withCoords": 14,
-      "keptGeo": 12,
+      "total": 12,
+      "recent": 11,
+      "withCoords": 12,
+      "keptGeo": 11,
       "keptVirt": 0,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo IL 50501 - Open Meeting",
-          "begin": "2026-08-13",
-          "end": "2026-08-13",
-          "lat": 40.534973,
-          "lng": -89.0121645,
-          "location": "Heartland Community College, 1500 West Raab Road, Normal, IL 61761, United States of America, Normal",
+          "title": "Central Illinois Against Flock Cameras",
+          "begin": "2026-08-14",
+          "end": "2026-08-14",
+          "lat": 40.5672073,
+          "lng": -89.6485441,
+          "location": "Pekin Public Library, 301 South 4th Street, Pekin, IL 61554, United States of America, Pekin",
           "links": [
             {
-              "title": "BloNo IL 50501 - Open Meeting",
-              "href": "https://events.pol-rev.com/events/d5c8a6a6-8005-4b2f-ba90-01ce2b394719"
-            }
-          ]
-        },
-        {
-          "title": "You've Been CariTee'd.",
-          "begin": "2026-08-13",
-          "end": "2026-08-13",
-          "lat": 33.4944,
-          "lng": -112.2132,
-          "location": "Maricopa County, AZ 85033, United States of America, Maricopa County",
-          "links": [
-            {
-              "title": "You've Been CariTee'd.",
-              "href": "https://events.pol-rev.com/events/3416079e-950b-444b-a634-478a030ecdc0"
+              "title": "Central Illinois Against Flock Cameras",
+              "href": "https://events.pol-rev.com/events/4ddfe58d-05cd-42b9-bf5f-937f4b288220"
             }
           ]
         }
