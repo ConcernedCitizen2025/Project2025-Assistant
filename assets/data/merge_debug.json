@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-16",
+  "cutoffStr": "2026-08-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 13437,
-    "geoKept": 13378,
+    "all": 13452,
+    "geoKept": 13394,
     "virtKept": 48
   },
   "perSource": {
     "mobilize": {
-      "total": 13420,
-      "recent": 13417,
-      "withCoords": 10273,
-      "keptGeo": 10270,
-      "keptVirt": 3147,
+      "total": 13437,
+      "recent": 13434,
+      "withCoords": 10325,
+      "keptGeo": 10322,
+      "keptVirt": 3112,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-08-16",
+          "begin": "2026-08-23",
           "end": "2026-09-27",
           "lat": null,
           "lng": null,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 11,
-      "recent": 9,
-      "withCoords": 11,
-      "keptGeo": 9,
+      "total": 9,
+      "recent": 8,
+      "withCoords": 9,
+      "keptGeo": 8,
       "keptVirt": 0,
       "sampleDroppedByDate": [
         {
-          "title": "Rally for Democracy",
-          "begin": "2026-08-15",
-          "end": "2026-08-15",
-          "lat": 43.6338517,
-          "lng": -70.2554078,
-          "location": "636 Broadway, South Portland, ME 04106, United States of America, South Portland",
+          "title": "Stalked By Flock",
+          "begin": "2026-08-16",
+          "end": "2026-08-16",
+          "lat": 40.7402462,
+          "lng": -89.6328484,
+          "location": "Westlake Shopping Center, North Rockwood Drive, Peoria, IL 61615, United States of America, Peoria",
           "links": [
             {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/b59eeb8b-5c22-4e46-ab0e-a36f87cf26ef"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-08-15",
-          "end": "2026-08-15",
-          "lat": 42.2371631,
-          "lng": -71.1786432,
-          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/db9182db-aeb1-4a46-9aa3-b0eca9ef1571"
+              "title": "Stalked By Flock",
+              "href": "https://events.pol-rev.com/events/207d231c-8295-4152-b766-89b1cf416fcb"
             }
           ]
         }
