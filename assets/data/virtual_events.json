@@ -5,7 +5,7 @@
       "mobilize_id": 792466,
       "canonical_mobilize_url": "https://www.mobilize.us/event/792466/",
       "title": "Register Voters to Defend CA-45!",
-      "begin": "2026-08-17",
+      "begin": "2026-08-18",
       "end": "2026-09-03",
       "lat": null,
       "lng": null,
@@ -19,66 +19,12 @@
       "_src": "mobilize"
     },
     {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-08-17",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997146,
-      "mobilize_id": 997146,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997146/",
-      "title": "Telefonazo for Angie. Bilingual/Spanish Phone bank. VIRTUAL",
-      "begin": "2026-08-17",
-      "end": "2026-08-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Telefonazo for Angie. Bilingual/Spanish Phone bank. VIRTUAL",
-          "href": "https://www.mobilize.us/angieforflorida/event/997146/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1003861,
-      "mobilize_id": 1003861,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1003861/",
-      "title": "Register Voters to Flip CA-48 in Oceanside/San Elijo!",
-      "begin": "2026-08-17",
-      "end": "2026-08-19",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, CA",
-      "links": [
-        {
-          "title": "Register Voters to Flip CA-48 in Oceanside/San Elijo!",
-          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/1003861/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 989432,
       "mobilize_id": 989432,
       "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
       "title": "Phone Bank for Latoya Gayle!",
       "begin": "2026-08-18",
-      "end": "2026-08-20",
+      "end": "2026-08-27",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -104,6 +50,42 @@
         {
           "title": "Door Knocking for Jeremy Ferderber!",
           "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1003861,
+      "mobilize_id": 1003861,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1003861/",
+      "title": "Register Voters to Flip CA-48 in Oceanside/San Elijo!",
+      "begin": "2026-08-18",
+      "end": "2026-08-19",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, CA",
+      "links": [
+        {
+          "title": "Register Voters to Flip CA-48 in Oceanside/San Elijo!",
+          "href": "https://www.mobilize.us/grassrootsdemocratslahq/event/1003861/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-08-19",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
@@ -168,7 +150,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
       "title": "Indivisible LAB Evening Action Hour",
       "begin": "2026-08-20",
-      "end": "2026-08-20",
+      "end": "2026-09-03",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, MA",
@@ -271,24 +253,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 985275,
-      "mobilize_id": 985275,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/985275/",
-      "title": "No Denying Climate Change Townhall with Special Guest Rep. Casten",
-      "begin": "2026-08-20",
-      "end": "2026-08-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "No Denying Climate Change Townhall with Special Guest Rep. Casten",
-          "href": "https://www.mobilize.us/climateactioncampaign/event/985275/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -384,7 +348,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
       "title": "Mark Pinsley Bucks County Canvass",
       "begin": "2026-08-22",
-      "end": "2026-08-23",
+      "end": "2026-08-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, PA",
@@ -402,7 +366,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
       "title": "Mark Pinsley Lehigh County Canvass",
       "begin": "2026-08-22",
-      "end": "2026-08-23",
+      "end": "2026-08-30",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, PA",
@@ -685,6 +649,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1013048,
+      "mobilize_id": 1013048,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1013048/",
+      "title": "Canvass Launch for LeVon Barnes with Special Guest Stacey Abrams",
+      "begin": "2026-08-30",
+      "end": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NC",
+      "links": [
+        {
+          "title": "Canvass Launch for LeVon Barnes with Special Guest Stacey Abrams",
+          "href": "https://www.mobilize.us/levonbarnesfornc/event/1013048/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 885926,
       "mobilize_id": 885926,
       "canonical_mobilize_url": "https://www.mobilize.us/event/885926/",
@@ -752,6 +734,60 @@
         {
           "title": "Constitutional Observer Training - in person",
           "href": "https://www.mobilize.us/indivisibleeastside/event/982569/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1013325,
+      "mobilize_id": 1013325,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1013325/",
+      "title": "Labor Day of Action: Texas Public School Defenders in Tarrant County",
+      "begin": "2026-09-12",
+      "end": "2026-09-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Fort Worth",
+      "links": [
+        {
+          "title": "Labor Day of Action: Texas Public School Defenders in Tarrant County",
+          "href": "https://www.mobilize.us/texasaft/event/1013325/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1013365,
+      "mobilize_id": 1013365,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1013365/",
+      "title": "Labor Day of Action: Texas Public School Defenders in Dallas County",
+      "begin": "2026-09-12",
+      "end": "2026-09-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Dallas",
+      "links": [
+        {
+          "title": "Labor Day of Action: Texas Public School Defenders in Dallas County",
+          "href": "https://www.mobilize.us/texasaft/event/1013365/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1013377,
+      "mobilize_id": 1013377,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1013377/",
+      "title": "Labor Day of Action: Texas Public School Defenders in Bexar County",
+      "begin": "2026-09-12",
+      "end": "2026-09-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, San Antonio",
+      "links": [
+        {
+          "title": "Labor Day of Action: Texas Public School Defenders in Bexar County",
+          "href": "https://www.mobilize.us/texasaft/event/1013377/"
         }
       ],
       "_src": "mobilize"

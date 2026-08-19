@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-17",
+  "cutoffStr": "2026-08-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 13452,
-    "geoKept": 13394,
-    "virtKept": 48
+    "all": 13894,
+    "geoKept": 13835,
+    "virtKept": 50
   },
   "perSource": {
     "mobilize": {
-      "total": 13437,
-      "recent": 13434,
-      "withCoords": 10325,
-      "keptGeo": 10322,
-      "keptVirt": 3112,
+      "total": 13880,
+      "recent": 13877,
+      "withCoords": 10611,
+      "keptGeo": 10608,
+      "keptVirt": 3269,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 9,
+      "total": 8,
       "recent": 8,
-      "withCoords": 9,
+      "withCoords": 8,
       "keptGeo": 8,
       "keptVirt": 0,
-      "sampleDroppedByDate": [
-        {
-          "title": "Stalked By Flock",
-          "begin": "2026-08-16",
-          "end": "2026-08-16",
-          "lat": 40.7402462,
-          "lng": -89.6328484,
-          "location": "Westlake Shopping Center, North Rockwood Drive, Peoria, IL 61615, United States of America, Peoria",
-          "links": [
-            {
-              "title": "Stalked By Flock",
-              "href": "https://events.pol-rev.com/events/207d231c-8295-4152-b766-89b1cf416fcb"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": []
     },
     "protestapi": {
