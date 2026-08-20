@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-18",
+  "cutoffStr": "2026-08-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 13894,
-    "geoKept": 13835,
-    "virtKept": 50
+    "all": 14066,
+    "geoKept": 14006,
+    "virtKept": 51
   },
   "perSource": {
     "mobilize": {
-      "total": 13880,
-      "recent": 13877,
-      "withCoords": 10611,
-      "keptGeo": 10608,
-      "keptVirt": 3269,
+      "total": 14051,
+      "recent": 14048,
+      "withCoords": 10701,
+      "keptGeo": 10698,
+      "keptVirt": 3350,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,13 +127,28 @@
       ]
     },
     "mobilizon": {
-      "total": 8,
-      "recent": 8,
+      "total": 9,
+      "recent": 9,
       "withCoords": 8,
       "keptGeo": 8,
-      "keptVirt": 0,
+      "keptVirt": 1,
       "sampleDroppedByDate": [],
-      "sampleDroppedByCoords": []
+      "sampleDroppedByCoords": [
+        {
+          "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+          "begin": "2026-08-21",
+          "end": "2026-08-21",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+              "href": "https://events.pol-rev.com/events/4c0eb672-e4d5-46f0-9220-2528168895da"
+            }
+          ]
+        }
+      ]
     },
     "protestapi": {
       "total": 6,
