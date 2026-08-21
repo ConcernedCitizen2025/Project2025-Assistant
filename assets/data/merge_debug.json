@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-19",
+  "cutoffStr": "2026-08-20",
   "lookbackDays": 1,
   "totals": {
-    "all": 14066,
-    "geoKept": 14006,
-    "virtKept": 51
+    "all": 14325,
+    "geoKept": 14254,
+    "virtKept": 62
   },
   "perSource": {
     "mobilize": {
-      "total": 14051,
-      "recent": 14048,
-      "withCoords": 10701,
-      "keptGeo": 10698,
-      "keptVirt": 3350,
+      "total": 14308,
+      "recent": 14305,
+      "withCoords": 10902,
+      "keptGeo": 10899,
+      "keptVirt": 3406,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,11 +127,11 @@
       ]
     },
     "mobilizon": {
-      "total": 9,
-      "recent": 9,
-      "withCoords": 8,
-      "keptGeo": 8,
-      "keptVirt": 1,
+      "total": 11,
+      "recent": 11,
+      "withCoords": 9,
+      "keptGeo": 9,
+      "keptVirt": 2,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
@@ -145,6 +145,20 @@
             {
               "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
               "href": "https://events.pol-rev.com/events/4c0eb672-e4d5-46f0-9220-2528168895da"
+            }
+          ]
+        },
+        {
+          "title": "La IPTV no implica necesariamente",
+          "begin": "2026-08-20",
+          "end": "2026-08-20",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "La IPTV no implica necesariamente",
+              "href": "https://events.pol-rev.com/events/a1f59878-3c1b-4c83-a133-136bb2c0ef31"
             }
           ]
         }
