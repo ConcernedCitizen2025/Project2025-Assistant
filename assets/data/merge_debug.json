@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-20",
+  "cutoffStr": "2026-08-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 14325,
-    "geoKept": 14254,
-    "virtKept": 62
+    "all": 14376,
+    "geoKept": 14306,
+    "virtKept": 59
   },
   "perSource": {
     "mobilize": {
-      "total": 14308,
-      "recent": 14305,
-      "withCoords": 10902,
-      "keptGeo": 10899,
-      "keptVirt": 3406,
+      "total": 14359,
+      "recent": 14356,
+      "withCoords": 10907,
+      "keptGeo": 10904,
+      "keptVirt": 3452,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,40 @@
     },
     "mobilizon": {
       "total": 11,
-      "recent": 11,
+      "recent": 9,
       "withCoords": 9,
-      "keptGeo": 9,
-      "keptVirt": 2,
-      "sampleDroppedByDate": [],
+      "keptGeo": 8,
+      "keptVirt": 1,
+      "sampleDroppedByDate": [
+        {
+          "title": "La IPTV no implica necesariamente",
+          "begin": "2026-08-20",
+          "end": "2026-08-20",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "La IPTV no implica necesariamente",
+              "href": "https://events.pol-rev.com/events/a1f59878-3c1b-4c83-a133-136bb2c0ef31"
+            }
+          ]
+        },
+        {
+          "title": "BloNo IL - Shut the Flock Off in person meeting",
+          "begin": "2026-08-20",
+          "end": "2026-08-20",
+          "lat": 40.4765409,
+          "lng": -88.9914247,
+          "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo IL - Shut the Flock Off in person meeting",
+              "href": "https://events.pol-rev.com/events/daaf6c75-a579-4116-995d-ddb3dee74cad"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
@@ -145,20 +174,6 @@
             {
               "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
               "href": "https://events.pol-rev.com/events/4c0eb672-e4d5-46f0-9220-2528168895da"
-            }
-          ]
-        },
-        {
-          "title": "La IPTV no implica necesariamente",
-          "begin": "2026-08-20",
-          "end": "2026-08-20",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "La IPTV no implica necesariamente",
-              "href": "https://events.pol-rev.com/events/a1f59878-3c1b-4c83-a133-136bb2c0ef31"
             }
           ]
         }
