@@ -1,111 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "(Virtual) Democratic Voter Registration Training",
-      "begin": "2026-08-21",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "(Virtual) Democratic Voter Registration Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 973496,
-      "mobilize_id": 973496,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/973496/",
-      "title": "Ann Johnson Stewart for SD45 Door Knock Shifts",
-      "begin": "2026-08-21",
-      "end": "2026-08-21",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MN",
-      "links": [
-        {
-          "title": "Ann Johnson Stewart for SD45 Door Knock Shifts",
-          "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/973496/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-      "begin": "2026-08-21",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 996667,
-      "mobilize_id": 996667,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
-      "title": "Delaware County Volunteer Leader Virtual Training",
-      "begin": "2026-08-21",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Delaware County Volunteer Leader Virtual Training",
-          "href": "https://www.mobilize.us/ohiowins/event/996667/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-21",
-      "end": "2026-08-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
-      "begin": "2026-08-21",
-      "end": "2026-08-21",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
-          "href": "https://events.pol-rev.com/events/4c0eb672-e4d5-46f0-9220-2528168895da"
-        }
-      ],
-      "_src": "mobilizon"
-    },
-    {
       "_id": 971394,
       "mobilize_id": 971394,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
@@ -137,6 +32,42 @@
         {
           "title": "CD22 Canvassing: Co-Host Sign-Up",
           "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+      "begin": "2026-08-22",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
+      "begin": "2026-08-22",
+      "end": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
         }
       ],
       "_src": "mobilize"
@@ -502,6 +433,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "(Virtual) Democratic Voter Registration Training",
+      "begin": "2026-08-28",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "(Virtual) Democratic Voter Registration Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 996667,
+      "mobilize_id": 996667,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
+      "title": "Delaware County Volunteer Leader Virtual Training",
+      "begin": "2026-08-28",
+      "end": "2026-08-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Delaware County Volunteer Leader Virtual Training",
+          "href": "https://www.mobilize.us/ohiowins/event/996667/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1010532,
       "mobilize_id": 1010532,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1010532/",
@@ -569,6 +536,24 @@
         {
           "title": "August Weekend of Action in WDM!",
           "href": "https://www.mobilize.us/iowaforward/event/1010987/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1013364,
+      "mobilize_id": 1013364,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1013364/",
+      "title": "Week of Action: Canvass with Team Jonathan Nez in Yavapai County",
+      "begin": "2026-08-29",
+      "end": "2026-08-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Week of Action: Canvass with Team Jonathan Nez in Yavapai County",
+          "href": "https://www.mobilize.us/jonathannezforcongress/event/1013364/"
         }
       ],
       "_src": "mobilize"
@@ -1019,6 +1004,24 @@
         {
           "title": "Berkeley Community Violence Intervention Collaborative - Bi-Monthly Gathering",
           "href": "https://www.mobilize.us/livefreeusa/event/758303/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1015662,
+      "mobilize_id": 1015662,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1015662/",
+      "title": "LD 3 Democrats Get Out the Vote Canvass - Phoenix N Tatum and E Dynamite Blvd",
+      "begin": "2026-10-03",
+      "end": "2026-10-10",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, AZ",
+      "links": [
+        {
+          "title": "LD 3 Democrats Get Out the Vote Canvass - Phoenix N Tatum and E Dynamite Blvd",
+          "href": "https://www.mobilize.us/ld3democrats/event/1015662/"
         }
       ],
       "_src": "mobilize"

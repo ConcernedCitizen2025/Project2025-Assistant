@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "August 22, 2026 at 02:01 AM",
-  "cutoffStr": "2026-08-21",
+  "lastUpdated": "August 23, 2026 at 02:01 AM",
+  "cutoffStr": "2026-08-22",
   "lookbackDays": 1,
   "fetched": {
-    "mobilize": 14359,
+    "mobilize": 14353,
     "mobilizon": 11,
     "protestapi": 6,
-    "total": 14376
+    "total": 14370
   },
   "kept": {
-    "geo": 14306,
+    "geo": 14300,
     "virtual": 59,
     "noDate": 0
   },
@@ -22,15 +22,15 @@
     "mobilize": {
       "OUT_OF_WINDOW": 3,
       "INVALID_DATE": 0,
-      "GEO": 10904,
-      "VIRTUAL": 3452,
+      "GEO": 10916,
+      "VIRTUAL": 3434,
       "NO_DATE": 0
     },
     "mobilizon": {
       "OUT_OF_WINDOW": 2,
       "INVALID_DATE": 0,
-      "GEO": 8,
-      "VIRTUAL": 1,
+      "GEO": 9,
+      "VIRTUAL": 0,
       "NO_DATE": 0
     },
     "protestapi": {

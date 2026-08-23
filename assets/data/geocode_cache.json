@@ -5075,6 +5075,10 @@
     "lat": 33.1352995,
     "lng": -117.1743395
   },
+  "Huntersville, NC": {
+    "lat": 35.4108278,
+    "lng": -80.8429304
+  },
   "Harrison, NY": {
     "lat": 40.9689871,
     "lng": -73.71263
@@ -5266,10 +5270,6 @@
   "Andover, MA": {
     "lat": 42.65717,
     "lng": -71.1408776
-  },
-  "Mounds View, MN": {
-    "lat": 45.1068949,
-    "lng": -93.2075931
   },
   "Marengo, IA": {
     "lat": 41.8001041,
@@ -5507,10 +5507,6 @@
     "lat": 31.5647691,
     "lng": -110.2742994
   },
-  "This event's address is private. Sign up for more details, MN": {
-    "lat": null,
-    "lng": null
-  },
   "McCordsville, IN": {
     "lat": 39.8939648,
     "lng": -85.9219417
@@ -5571,10 +5567,6 @@
     "lat": 47.397304,
     "lng": -93.0779082
   },
-  "Rome, GA": {
-    "lat": 34.257038,
-    "lng": -85.1646726
-  },
   "Forest Lake, MN": {
     "lat": 45.279106,
     "lng": -92.9851629
@@ -5599,10 +5591,6 @@
     "lat": 41.6664781,
     "lng": -81.3399769
   },
-  "Fort Wayne, IN": {
-    "lat": 41.0799898,
-    "lng": -85.1386015
-  },
   "Royse City, TX": {
     "lat": 32.9761045,
     "lng": -96.331334
@@ -5626,6 +5614,10 @@
   "Carlisle, PA": {
     "lat": 40.201499,
     "lng": -77.1890783
+  },
+  "Sun Lakes, AZ": {
+    "lat": 33.2178895,
+    "lng": -111.8671751
   },
   "Solon, OH": {
     "lat": 41.3897764,
@@ -5963,10 +5955,6 @@
     "lat": 43.102147,
     "lng": -93.6020069
   },
-  "Waldorf, MD": {
-    "lat": 38.6023935,
-    "lng": -76.9274072
-  },
   "Wakefield, MA": {
     "lat": 42.506484,
     "lng": -71.0728306
@@ -6094,10 +6082,6 @@
   "Upper Southampton Township, PA": {
     "lat": 40.1716312,
     "lng": -75.0386796
-  },
-  "Huntersville, NC": {
-    "lat": 35.4108278,
-    "lng": -80.8429304
   },
   "Powell, OH": {
     "lat": 40.1578403,
@@ -6346,10 +6330,6 @@
   "Lone Tree, CO": {
     "lat": 39.5364152,
     "lng": -104.9041528
-  },
-  "Grants, NM": {
-    "lat": 35.154123,
-    "lng": -107.8590961
   },
   "Lordsburg, NM": {
     "lat": 32.3504143,
@@ -6663,6 +6643,10 @@
     "lat": 42.3300435,
     "lng": -71.194862
   },
+  "Watertown, MA": {
+    "lat": 42.3652576,
+    "lng": -71.1843234
+  },
   "Harris County, TX": {
     "lat": 29.8119769,
     "lng": -95.3741247
@@ -6758,10 +6742,6 @@
   "Afton, MN": {
     "lat": 44.9028414,
     "lng": -92.7832322
-  },
-  "Reserve, NM": {
-    "lat": 33.7133071,
-    "lng": -108.757861
   },
   "Silver City, NM": {
     "lat": 32.7711825,
@@ -6866,10 +6846,6 @@
   "Wayne, PA": {
     "lat": 41.6264414,
     "lng": -75.3045103
-  },
-  "Livonia, MI": {
-    "lat": 42.36837,
-    "lng": -83.3527097
   },
   "Marquette, MI": {
     "lat": 46.4481521,
@@ -7107,10 +7083,6 @@
     "lat": 33.5386858,
     "lng": -112.185994
   },
-  "Newburgh, IN": {
-    "lat": 37.9456824,
-    "lng": -87.4046571
-  },
   "Edina, MN": {
     "lat": 44.8897027,
     "lng": -93.3501222
@@ -7231,6 +7203,10 @@
     "lat": 40.0394982,
     "lng": -84.2032767
   },
+  "Livonia, MI": {
+    "lat": 42.36837,
+    "lng": -83.3527097
+  },
   "Berkeley Heights, NJ": {
     "lat": 40.6834349,
     "lng": -74.442653
@@ -7242,6 +7218,10 @@
   "Carneys Point Township, NJ": {
     "lat": 39.7112247,
     "lng": -75.4701961
+  },
+  "Mount Kisco, NY": {
+    "lat": 41.2042616,
+    "lng": -73.7270761
   },
   "Fanwood, NJ": {
     "lat": 40.6409555,
@@ -7290,10 +7270,6 @@
   "Ypsilanti, MI": {
     "lat": 42.241051,
     "lng": -83.6117646
-  },
-  "Calais, ME": {
-    "lat": 45.1890175,
-    "lng": -67.2781391
   },
   "Brunswick, GA": {
     "lat": 31.1499528,
@@ -7483,10 +7459,6 @@
     "lat": 42.0268269,
     "lng": -96.0974618
   },
-  "Burgaw, NC": {
-    "lat": 34.5521113,
-    "lng": -77.926098
-  },
   "Hampstead, NC": {
     "lat": 34.3676686,
     "lng": -77.7105332
@@ -7528,8 +7500,8 @@
     "lng": -95.5065944
   },
   "Preston, MN": {
-    "lat": 43.6702423,
-    "lng": -92.0832157
+    "lat": 43.6737606,
+    "lng": -92.083666
   },
   "The Acreage, FL": {
     "lat": 26.7801626,
@@ -7598,6 +7570,10 @@
   "Prescott Valley, AZ": {
     "lat": 34.5950776,
     "lng": -112.3338634
+  },
+  "Palm Springs, CA": {
+    "lat": 33.8246269,
+    "lng": -116.540303
   },
   "Rogers, AR": {
     "lat": 36.334857,
@@ -7670,10 +7646,6 @@
   "Gilbertsville, PA": {
     "lat": 40.3232452,
     "lng": -75.6080969
-  },
-  "Lake Stevens, WA": {
-    "lat": 48.0197794,
-    "lng": -122.0660914
   },
   "Spencer, IA": {
     "lat": 43.1415519,
@@ -7983,10 +7955,6 @@
     "lat": 43.6624222,
     "lng": -91.4685617
   },
-  "Richford, NY": {
-    "lat": 42.3556287,
-    "lng": -76.2007636
-  },
   "Beaverdale, IA": {
     "lat": 41.6202307,
     "lng": -93.6734674
@@ -8252,12 +8220,16 @@
     "lng": -75.289228
   },
   "Upper Darby Township, PA": {
-    "lat": 39.9645011,
-    "lng": -75.2733769
+    "lat": 39.9649073,
+    "lng": -75.275637
   },
   "Menomonie, WI": {
     "lat": 44.8765289,
     "lng": -91.9278716
+  },
+  "This event's address is private. Sign up for more details, MN": {
+    "lat": null,
+    "lng": null
   },
   "Montrose, CO": {
     "lat": 38.4375391,
@@ -8274,6 +8246,10 @@
   "Driggs, ID": {
     "lat": 43.7231753,
     "lng": -111.110887
+  },
+  "Dania Beach, FL": {
+    "lat": 26.0524224,
+    "lng": -80.143929
   },
   "Wrenshall, MN": {
     "lat": 46.6196881,
@@ -8331,6 +8307,10 @@
     "lat": 36.1350245,
     "lng": -81.6777907
   },
+  "This event's address is private. Sign up for more details, AZ": {
+    "lat": null,
+    "lng": null
+  },
   "Glen Cove, NY": {
     "lat": 40.8642028,
     "lng": -73.6317807
@@ -8355,6 +8335,10 @@
     "lat": 43.0224668,
     "lng": -88.7673031
   },
+  "Sedona, AZ": {
+    "lat": 34.8688613,
+    "lng": -111.7614394
+  },
   "Midland, TX": {
     "lat": 31.83688,
     "lng": -102.0103767
@@ -8366,5 +8350,25 @@
   "Fishkill, NY": {
     "lat": 41.5355745,
     "lng": -73.898702
+  },
+  "Maineville, OH": {
+    "lat": 39.315134,
+    "lng": -84.2209419
+  },
+  "Clearwater, SC": {
+    "lat": 33.4968035,
+    "lng": -81.8920579
+  },
+  "Loveland, OH": {
+    "lat": 39.2689476,
+    "lng": -84.263826
+  },
+  "Beulah, MI": {
+    "lat": 44.631944,
+    "lng": -86.090924
+  },
+  "Millersville, MD": {
+    "lat": 39.0595542,
+    "lng": -76.6480219
   }
 }
