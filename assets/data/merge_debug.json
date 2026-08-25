@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-23",
+  "cutoffStr": "2026-08-24",
   "lookbackDays": 1,
   "totals": {
-    "all": 13873,
-    "geoKept": 13804,
-    "virtKept": 57
+    "all": 13855,
+    "geoKept": 13787,
+    "virtKept": 59
   },
   "perSource": {
     "mobilize": {
-      "total": 13858,
-      "recent": 13855,
-      "withCoords": 10549,
-      "keptGeo": 10546,
-      "keptVirt": 3309,
+      "total": 13842,
+      "recent": 13839,
+      "withCoords": 10661,
+      "keptGeo": 10658,
+      "keptVirt": 3181,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-08-23",
+          "begin": "2026-08-30",
           "end": "2026-09-27",
           "lat": null,
           "lng": null,
@@ -127,56 +127,28 @@
       ]
     },
     "mobilizon": {
-      "total": 9,
-      "recent": 6,
-      "withCoords": 9,
+      "total": 7,
+      "recent": 7,
+      "withCoords": 6,
       "keptGeo": 6,
-      "keptVirt": 0,
-      "sampleDroppedByDate": [
+      "keptVirt": 1,
+      "sampleDroppedByDate": [],
+      "sampleDroppedByCoords": [
         {
-          "title": "Documentary Night. Screening \"Borderland, The Line Within\"",
-          "begin": "2026-08-22",
-          "end": "2026-08-22",
-          "lat": 37.6771766,
-          "lng": -121.0193236,
-          "location": "1548 Mount Vernon Drive, Modesto, CA 95350, United States of America, Modesto",
+          "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+          "begin": "2026-08-29",
+          "end": "2026-08-29",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "Documentary Night. Screening \"Borderland, The Line Within\"",
-              "href": "https://events.pol-rev.com/events/06d73e06-73e9-49fb-996f-2560b500e628"
-            }
-          ]
-        },
-        {
-          "title": "Rally for Democracy",
-          "begin": "2026-08-22",
-          "end": "2026-08-22",
-          "lat": 43.6338517,
-          "lng": -70.2554078,
-          "location": "636 Broadway, South Portland, ME 04106, United States of America, South Portland",
-          "links": [
-            {
-              "title": "Rally for Democracy",
-              "href": "https://events.pol-rev.com/events/97dc050b-6305-4341-a0c3-aa9136864507"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-08-22",
-          "end": "2026-08-22",
-          "lat": 42.2371631,
-          "lng": -71.1786432,
-          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/fa3d49ae-6ee7-42a7-85e3-1dadd7a25aaa"
+              "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+              "href": "https://events.pol-rev.com/events/eb5f2436-dfb2-433f-b111-2fd785580330"
             }
           ]
         }
-      ],
-      "sampleDroppedByCoords": []
+      ]
     },
     "protestapi": {
       "total": 6,
