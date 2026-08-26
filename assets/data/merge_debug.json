@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-24",
+  "cutoffStr": "2026-08-25",
   "lookbackDays": 1,
   "totals": {
-    "all": 13855,
-    "geoKept": 13787,
-    "virtKept": 59
+    "all": 14328,
+    "geoKept": 14257,
+    "virtKept": 62
   },
   "perSource": {
     "mobilize": {
-      "total": 13842,
-      "recent": 13839,
-      "withCoords": 10661,
-      "keptGeo": 10658,
-      "keptVirt": 3181,
+      "total": 14312,
+      "recent": 14309,
+      "withCoords": 10993,
+      "keptGeo": 10990,
+      "keptVirt": 3319,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,24 +127,52 @@
       ]
     },
     "mobilizon": {
-      "total": 7,
-      "recent": 7,
+      "total": 10,
+      "recent": 10,
       "withCoords": 6,
       "keptGeo": 6,
-      "keptVirt": 1,
+      "keptVirt": 4,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
-          "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
-          "begin": "2026-08-29",
-          "end": "2026-08-29",
+          "title": "Light Projection Workshop",
+          "begin": "2026-09-24",
+          "end": "2026-09-24",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
-              "href": "https://events.pol-rev.com/events/eb5f2436-dfb2-433f-b111-2fd785580330"
+              "title": "Light Projection Workshop",
+              "href": "https://events.pol-rev.com/events/e5a20beb-4efa-4d36-a63f-ee5975309a47"
+            }
+          ]
+        },
+        {
+          "title": "Giant Overpass Banners - Virtual Workshop",
+          "begin": "2026-09-10",
+          "end": "2026-09-10",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Giant Overpass Banners - Virtual Workshop",
+              "href": "https://events.pol-rev.com/events/359e3bbe-792d-4551-b354-4e9a6bf6ce6e"
+            }
+          ]
+        },
+        {
+          "title": "Backbone Creative Activism Call - Sept 2026",
+          "begin": "2026-09-08",
+          "end": "2026-09-08",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Backbone Creative Activism Call - Sept 2026",
+              "href": "https://events.pol-rev.com/events/c262f3c3-9323-434d-a0c5-01bd09750b7a"
             }
           ]
         }
