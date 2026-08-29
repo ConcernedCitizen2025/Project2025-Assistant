@@ -1,222 +1,6 @@
 {
   "data": [
     {
-      "_id": 783402,
-      "mobilize_id": 783402,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
-      "title": "TA Brooklyn Monthly Meeting",
-      "begin": "2026-08-27",
-      "end": "2026-11-26",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "TA Brooklyn Monthly Meeting",
-          "href": "https://www.mobilize.us/transalt/event/783402/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 904459,
-      "mobilize_id": 904459,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
-      "title": "Blue Magnolia Monthly Breakfast Social",
-      "begin": "2026-08-27",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Blue Magnolia Monthly Breakfast Social",
-          "href": "https://www.mobilize.us/mcdptx/event/904459/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 923550,
-      "mobilize_id": 923550,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
-      "title": "Phone Bank for Evonne Hopkins",
-      "begin": "2026-08-27",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Evonne Hopkins",
-          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-08-27",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 978501,
-      "mobilize_id": 978501,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
-      "title": "Learn How to Launch a Canvass!",
-      "begin": "2026-08-27",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Learn How to Launch a Canvass!",
-          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-08-27",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 989432,
-      "mobilize_id": 989432,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/989432/",
-      "title": "Phone Bank for Latoya Gayle!",
-      "begin": "2026-08-27",
-      "end": "2026-08-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank for Latoya Gayle!",
-          "href": "https://www.mobilize.us/latoyaforstatesenate/event/989432/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-27",
-      "end": "2026-09-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997239,
-      "mobilize_id": 997239,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
-      "title": "Mark Pinsley Lehigh County Canvass",
-      "begin": "2026-08-27",
-      "end": "2026-08-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Lehigh County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1002815,
-      "mobilize_id": 1002815,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
-      "title": "Door Knocking for Jeremy Ferderber!",
-      "begin": "2026-08-27",
-      "end": "2026-11-01",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Door Knocking for Jeremy Ferderber!",
-          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018631,
-      "mobilize_id": 1018631,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
-      "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-08-27",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Aiken County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018723,
-      "mobilize_id": 1018723,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
-      "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-08-27",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Lexington County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -271,19 +55,55 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1014974,
-      "mobilize_id": 1014974,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1014974/",
-      "title": "8/28 Ann Johnson Stewart for SD45 Door Knock",
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
       "begin": "2026-08-28",
-      "end": "2026-08-28",
+      "end": "2026-09-06",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, MN",
+      "location": "This event's address is private. Sign up for more details, PA",
       "links": [
         {
-          "title": "8/28 Ann Johnson Stewart for SD45 Door Knock",
-          "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/1014974/"
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018631,
+      "mobilize_id": 1018631,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
+      "title": "Flip the Future: Phone Banking with Aiken County",
+      "begin": "2026-08-28",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Aiken County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018723,
+      "mobilize_id": 1018723,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
+      "title": "Flip the Future: Phone Banking with Lexington County",
+      "begin": "2026-08-28",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Lexington County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
         }
       ],
       "_src": "mobilize"
@@ -320,6 +140,60 @@
         {
           "title": "CD22 Canvassing: Co-Host Sign-Up",
           "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 979517,
+      "mobilize_id": 979517,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/979517/",
+      "title": "Ready. Set. Vote.",
+      "begin": "2026-08-29",
+      "end": "2026-08-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Ready. Set. Vote.",
+          "href": "https://www.mobilize.us/nationalcenterforcivicempowermentinc/event/979517/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997239,
+      "mobilize_id": 997239,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997239/",
+      "title": "Mark Pinsley Lehigh County Canvass",
+      "begin": "2026-08-29",
+      "end": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Lehigh County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997239/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1002815,
+      "mobilize_id": 1002815,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
+      "title": "Door Knocking for Jeremy Ferderber!",
+      "begin": "2026-08-29",
+      "end": "2026-11-01",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Door Knocking for Jeremy Ferderber!",
+          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
         }
       ],
       "_src": "mobilize"
@@ -623,6 +497,78 @@
         {
           "title": "Indivisible LAB Evening Action Hour",
           "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 923550,
+      "mobilize_id": 923550,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/923550/",
+      "title": "Phone Bank for Evonne Hopkins",
+      "begin": "2026-09-03",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for Evonne Hopkins",
+          "href": "https://www.mobilize.us/evonnehopkinsforhouse/event/923550/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 942572,
+      "mobilize_id": 942572,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
+      "title": "Phonebank for Sean McCann for Congress!",
+      "begin": "2026-09-03",
+      "end": "2026-11-05",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phonebank for Sean McCann for Congress!",
+          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 978501,
+      "mobilize_id": 978501,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/978501/",
+      "title": "Learn How to Launch a Canvass!",
+      "begin": "2026-09-03",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Learn How to Launch a Canvass!",
+          "href": "https://www.mobilize.us/nc-coordinated/event/978501/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-09-03",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
         }
       ],
       "_src": "mobilize"
@@ -1013,6 +959,42 @@
         {
           "title": "Monthly Voter Action Gathering - South County",
           "href": "https://www.mobilize.us/voteractionpinellas/event/888472/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 783402,
+      "mobilize_id": 783402,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/783402/",
+      "title": "TA Brooklyn Monthly Meeting",
+      "begin": "2026-09-24",
+      "end": "2026-11-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "TA Brooklyn Monthly Meeting",
+          "href": "https://www.mobilize.us/transalt/event/783402/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 904459,
+      "mobilize_id": 904459,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/904459/",
+      "title": "Blue Magnolia Monthly Breakfast Social",
+      "begin": "2026-09-24",
+      "end": "2026-09-24",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Blue Magnolia Monthly Breakfast Social",
+          "href": "https://www.mobilize.us/mcdptx/event/904459/"
         }
       ],
       "_src": "mobilize"
