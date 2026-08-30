@@ -1,114 +1,6 @@
 {
   "data": [
     {
-      "_id": 928346,
-      "mobilize_id": 928346,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
-      "title": "DPOC PDI Training",
-      "begin": "2026-08-28",
-      "end": "2026-10-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "DPOC PDI Training",
-          "href": "https://www.mobilize.us/dpoc/event/928346/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-      "begin": "2026-08-28",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 996667,
-      "mobilize_id": 996667,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996667/",
-      "title": "Delaware County Volunteer Leader Virtual Training",
-      "begin": "2026-08-28",
-      "end": "2026-08-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Delaware County Volunteer Leader Virtual Training",
-          "href": "https://www.mobilize.us/ohiowins/event/996667/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-08-28",
-      "end": "2026-09-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018631,
-      "mobilize_id": 1018631,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
-      "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-08-28",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Aiken County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018723,
-      "mobilize_id": 1018723,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
-      "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-08-28",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Lexington County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 971394,
       "mobilize_id": 971394,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
@@ -145,6 +37,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+      "begin": "2026-08-29",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 979517,
       "mobilize_id": 979517,
       "canonical_mobilize_url": "https://www.mobilize.us/event/979517/",
@@ -158,6 +68,24 @@
         {
           "title": "Ready. Set. Vote.",
           "href": "https://www.mobilize.us/nationalcenterforcivicempowermentinc/event/979517/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
+      "begin": "2026-08-29",
+      "end": "2026-09-06",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
         }
       ],
       "_src": "mobilize"
@@ -212,6 +140,42 @@
         {
           "title": "Neighborhood Doorknocking Deep Canvass in PA07: Hold Rep. Ryan Mackenzie Accountable!",
           "href": "https://www.mobilize.us/wethefighters/event/1007498/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018631,
+      "mobilize_id": 1018631,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
+      "title": "Flip the Future: Phone Banking with Aiken County",
+      "begin": "2026-08-29",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Aiken County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018723,
+      "mobilize_id": 1018723,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
+      "title": "Flip the Future: Phone Banking with Lexington County",
+      "begin": "2026-08-29",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Lexington County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
         }
       ],
       "_src": "mobilize"
@@ -569,6 +533,24 @@
         {
           "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
           "href": "https://www.mobilize.us/iowaforward/event/986686/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 928346,
+      "mobilize_id": 928346,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
+      "title": "DPOC PDI Training",
+      "begin": "2026-09-04",
+      "end": "2026-10-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "DPOC PDI Training",
+          "href": "https://www.mobilize.us/dpoc/event/928346/"
         }
       ],
       "_src": "mobilize"
