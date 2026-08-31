@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-08-29",
+  "cutoffStr": "2026-08-30",
   "lookbackDays": 1,
   "totals": {
-    "all": 14955,
-    "geoKept": 14878,
-    "virtKept": 68
+    "all": 14597,
+    "geoKept": 14516,
+    "virtKept": 70
   },
   "perSource": {
     "mobilize": {
-      "total": 14938,
-      "recent": 14935,
-      "withCoords": 11444,
-      "keptGeo": 11441,
-      "keptVirt": 3494,
+      "total": 14581,
+      "recent": 14578,
+      "withCoords": 11194,
+      "keptGeo": 11191,
+      "keptVirt": 3387,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 11,
-      "recent": 11,
-      "withCoords": 7,
-      "keptGeo": 7,
-      "keptVirt": 4,
-      "sampleDroppedByDate": [],
+      "total": 10,
+      "recent": 8,
+      "withCoords": 6,
+      "keptGeo": 5,
+      "keptVirt": 3,
+      "sampleDroppedByDate": [
+        {
+          "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+          "begin": "2026-08-29",
+          "end": "2026-08-29",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Hopecore: Plotting stories to create a democratic future worth hoping for",
+              "href": "https://events.pol-rev.com/events/eb5f2436-dfb2-433f-b111-2fd785580330"
+            }
+          ]
+        },
+        {
+          "title": "IMPEACH. CONVICT. REMOVE. ~ Our Demands for Joplin, Missouri",
+          "begin": "2026-08-29",
+          "end": "2026-08-29",
+          "lat": 37.0841838,
+          "lng": -94.5133385,
+          "location": "Joplin, Missouri, United States of America, Joplin",
+          "links": [
+            {
+              "title": "IMPEACH. CONVICT. REMOVE. ~ Our Demands for Joplin, Missouri",
+              "href": "https://events.pol-rev.com/events/ae2e3752-ab52-4983-bb0d-5480568b2fdc"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Light Projection Workshop",
