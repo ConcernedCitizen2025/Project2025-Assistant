@@ -4923,10 +4923,6 @@
     "lat": 41.083064,
     "lng": -81.518485
   },
-  "This event's address is private. Sign up for more details, St. Petersburg": {
-    "lat": null,
-    "lng": null
-  },
   "Tysons, VA": {
     "lat": 38.9191272,
     "lng": -77.2229636
@@ -4986,6 +4982,10 @@
   "Watertown, TN": {
     "lat": 36.1003358,
     "lng": -86.1319341
+  },
+  "Escondido, CA": {
+    "lat": 33.1216751,
+    "lng": -117.0814849
   },
   "Gadsden, AL": {
     "lat": 34.0128323,
@@ -5090,10 +5090,6 @@
   "Oceanside, CA": {
     "lat": 33.1958696,
     "lng": -117.379483
-  },
-  "San Jacinto, CA": {
-    "lat": 33.7812843,
-    "lng": -116.9591757
   },
   "Merrillville, IN": {
     "lat": 41.4828144,
@@ -5311,6 +5307,14 @@
     "lat": 45.0838098,
     "lng": -93.0069304
   },
+  "Laconia, NH": {
+    "lat": 43.5278546,
+    "lng": -71.470351
+  },
+  "Exeter, NH": {
+    "lat": 42.981477,
+    "lng": -70.9478343
+  },
   "Muskegon, MI": {
     "lat": 43.2341813,
     "lng": -86.2483921
@@ -5326,6 +5330,10 @@
   "Moorhead, MN": {
     "lat": 46.8739081,
     "lng": -96.7538674
+  },
+  "Lebanon, NH": {
+    "lat": 43.643032,
+    "lng": -72.251587
   },
   "Asheville, NC": {
     "lat": 35.595363,
@@ -5487,6 +5495,10 @@
     "lat": null,
     "lng": null
   },
+  "Peterborough, NH": {
+    "lat": 42.8776166,
+    "lng": -71.949383
+  },
   "Locust Grove, GA": {
     "lat": 33.3459495,
     "lng": -84.109083
@@ -5567,6 +5579,10 @@
     "lat": 39.7912262,
     "lng": -74.9290536
   },
+  "Rochester, NH": {
+    "lat": 43.3050758,
+    "lng": -70.9753978
+  },
   "North Liberty, IA": {
     "lat": 41.7478297,
     "lng": -91.6064397
@@ -5599,9 +5615,9 @@
     "lat": 45.0060767,
     "lng": -93.1566107
   },
-  "Winchester, CA": {
-    "lat": 33.6947357,
-    "lng": -117.0849113
+  "Menifee, CA": {
+    "lat": 33.6863987,
+    "lng": -117.1778599
   },
   "Tyler, TX": {
     "lat": 32.3512601,
@@ -5831,10 +5847,6 @@
     "lat": 42.5867203,
     "lng": -85.8861492
   },
-  "Forest Hills, MI": {
-    "lat": 42.9527335,
-    "lng": -85.4911804
-  },
   "Feasterville-Trevose, PA": {
     "lat": 40.1514065,
     "lng": -74.9886785
@@ -5858,10 +5870,6 @@
   "Oconomowoc, WI": {
     "lat": 43.1116731,
     "lng": -88.4992659
-  },
-  "Conway, NH": {
-    "lat": 44.0005465,
-    "lng": -71.0729557
   },
   "Tucker, GA": {
     "lat": 33.8532701,
@@ -5943,6 +5951,10 @@
     "lat": 41.239223,
     "lng": -81.345941
   },
+  "Polk City, IA": {
+    "lat": 41.7712593,
+    "lng": -93.7137441
+  },
   "DeForest, WI": {
     "lat": 43.2477691,
     "lng": -89.3437277
@@ -6023,10 +6035,6 @@
     "lat": 47.6742994,
     "lng": -116.7811531
   },
-  "Granville, OH": {
-    "lat": 40.0681192,
-    "lng": -82.5196037
-  },
   "East Islip, NY": {
     "lat": 40.722918,
     "lng": -73.1834256
@@ -6042,10 +6050,6 @@
   "Summit, NJ": {
     "lat": 40.7182356,
     "lng": -74.3592296
-  },
-  "Glen Burnie, MD": {
-    "lat": 39.1595439,
-    "lng": -76.6151514
   },
   "Sapello, NM": {
     "lat": 35.7728199,
@@ -6082,14 +6086,6 @@
   "Saint Albans City, VT": {
     "lat": 44.8107911,
     "lng": -73.0833607
-  },
-  "Escondido, CA": {
-    "lat": 33.1216751,
-    "lng": -117.0814849
-  },
-  "Culver City, CA": {
-    "lat": 34.0211224,
-    "lng": -118.396466
   },
   "Prior Lake, MN": {
     "lat": 44.7133271,
@@ -6134,6 +6130,10 @@
   "Superior Township, MI": {
     "lat": 42.3049933,
     "lng": -83.6041183
+  },
+  "Dover, NH": {
+    "lat": 43.1981117,
+    "lng": -70.8739761
   },
   "Munising, MI": {
     "lat": 46.4100035,
@@ -6267,10 +6267,6 @@
     "lat": 38.6446475,
     "lng": -77.342691
   },
-  "Palm Desert, CA": {
-    "lat": 33.7288179,
-    "lng": -116.382571
-  },
   "Rolesville, NC": {
     "lat": 35.9232862,
     "lng": -78.4573914
@@ -6299,10 +6295,6 @@
     "lat": 41.0413873,
     "lng": -83.6503982
   },
-  "Loudoun, VA": {
-    "lat": 39.0984586,
-    "lng": -77.6705008
-  },
   "Rock Hill, SC": {
     "lat": 34.9248667,
     "lng": -81.0250784
@@ -6319,9 +6311,9 @@
     "lat": 43.2219088,
     "lng": -87.9822969
   },
-  "Laurel, DE": {
-    "lat": 38.5565041,
-    "lng": -75.5713141
+  "Temecula, CA": {
+    "lat": 33.4946353,
+    "lng": -117.147366
   },
   "Lima, OH": {
     "lat": 40.7399785,
@@ -6435,6 +6427,14 @@
     "lat": 44.3917589,
     "lng": -89.8228767
   },
+  "Haverhill // Plymouth, NH": {
+    "lat": 42.0877156,
+    "lng": -71.0211406
+  },
+  "Lancaster // Berlin, NH": {
+    "lat": 44.4690532,
+    "lng": -71.1669867
+  },
   "Newton, IA": {
     "lat": 41.6997139,
     "lng": -93.0538852
@@ -6442,6 +6442,10 @@
   "Donnellson, IA": {
     "lat": 40.6428152,
     "lng": -91.5646028
+  },
+  "Litchfield, NH": {
+    "lat": 42.8442536,
+    "lng": -71.4797889
   },
   "Edina, MN": {
     "lat": 44.8897027,
@@ -6518,10 +6522,6 @@
   "Chesterfield County, VA": {
     "lat": 37.3859982,
     "lng": -77.578509
-  },
-  "Horn Lake, MS": {
-    "lat": 34.9553719,
-    "lng": -90.0348139
   },
   "Salem, NJ": {
     "lat": 39.5980987,
@@ -6662,6 +6662,10 @@
   "Petoskey, MI": {
     "lat": 45.373343,
     "lng": -84.95533
+  },
+  "Franklin, NH": {
+    "lat": 43.4442432,
+    "lng": -71.6472988
   },
   "Castalia, OH": {
     "lat": 41.4000523,
@@ -6919,6 +6923,10 @@
     "lat": 42.9132581,
     "lng": -85.7057035
   },
+  "Forest Hills, MI": {
+    "lat": 42.9527335,
+    "lng": -85.4911804
+  },
   "Mendota Heights, MN": {
     "lat": 44.8835768,
     "lng": -93.1382749
@@ -7003,10 +7011,6 @@
     "lat": 42.6741189,
     "lng": -82.902901
   },
-  "Temecula, CA": {
-    "lat": 33.4946353,
-    "lng": -117.147366
-  },
   "Pelion, SC": {
     "lat": 33.7625708,
     "lng": -81.2445502
@@ -7031,10 +7035,6 @@
     "lat": 44.4809657,
     "lng": -70.1984813
   },
-  "Jefferson City, MO": {
-    "lat": 38.577359,
-    "lng": -92.1724265
-  },
   "Hazleton, PA": {
     "lat": 40.9548956,
     "lng": -75.9769572
@@ -7051,9 +7051,13 @@
     "lat": 39.9000297,
     "lng": -75.289228
   },
+  "Palm Desert, CA": {
+    "lat": 33.7288179,
+    "lng": -116.382571
+  },
   "Upper Darby Township, PA": {
-    "lat": 39.9645011,
-    "lng": -75.2733769
+    "lat": 39.9645728,
+    "lng": -75.2729519
   },
   "This event's address is private. Sign up for more details, MN": {
     "lat": null,
@@ -7151,10 +7155,6 @@
     "lat": 39.2689476,
     "lng": -84.263826
   },
-  "Beulah, MI": {
-    "lat": 44.631944,
-    "lng": -86.090924
-  },
   "Millersville, MD": {
     "lat": 39.0595542,
     "lng": -76.6480219
@@ -7162,10 +7162,6 @@
   "Milton, GA": {
     "lat": 34.1134001,
     "lng": -84.2693745
-  },
-  "Sun Prairie, WI": {
-    "lat": 43.183278,
-    "lng": -89.2128297
   },
   "Tarboro, NC": {
     "lat": 35.8968236,
@@ -7223,10 +7219,6 @@
     "lat": 34.4358295,
     "lng": -119.8276389
   },
-  "Pasadena, MD": {
-    "lat": 39.155816,
-    "lng": -76.5528815
-  },
   "Sewickley, PA": {
     "lat": 40.5403417,
     "lng": -80.1805269
@@ -7264,8 +7256,8 @@
     "lng": -73.9283672
   },
   "Ladson, SC": {
-    "lat": 33.0062755,
-    "lng": -80.1093339
+    "lat": 32.9857275,
+    "lng": -80.1098123
   },
   "Menomonie, WI": {
     "lat": 44.8765289,
@@ -7291,10 +7283,6 @@
     "lat": 42.7342942,
     "lng": -90.4784451
   },
-  "Bedford, NH": {
-    "lat": 42.9464737,
-    "lng": -71.5159015
-  },
   "Whitewater, WI": {
     "lat": 42.8339562,
     "lng": -88.7306517
@@ -7306,6 +7294,14 @@
   "East St. Louis, IL": {
     "lat": 38.6268666,
     "lng": -90.159707
+  },
+  "Wolfeboro, NH": {
+    "lat": 43.6093756,
+    "lng": -71.1748676
+  },
+  "Plymouth, NH": {
+    "lat": 43.7440651,
+    "lng": -71.7238393
   },
   "South English, IA": {
     "lat": 41.4520604,
@@ -7427,14 +7423,6 @@
     "lat": 29.4607876,
     "lng": -95.0513173
   },
-  "Benton Harbor, MI": {
-    "lat": 42.1167065,
-    "lng": -86.4541894
-  },
-  "Council Bluffs, IA": {
-    "lat": 41.258841,
-    "lng": -95.8519484
-  },
   "Luck, WI": {
     "lat": 45.5748603,
     "lng": -92.4824974
@@ -7452,12 +7440,20 @@
     "lng": -95.8937398
   },
   "Mantorville, MN": {
-    "lat": 44.0691704,
-    "lng": -92.755733
+    "lat": 44.0678403,
+    "lng": -92.7551315
   },
   "Floresville, TX": {
     "lat": 29.1335781,
     "lng": -98.1561192
+  },
+  "Winchester, CA": {
+    "lat": 33.6947357,
+    "lng": -117.0849113
+  },
+  "Arnold, MD": {
+    "lat": 39.0422935,
+    "lng": -76.504059
   },
   "Hartland, WI": {
     "lat": 43.105008,
@@ -7598,6 +7594,10 @@
   "Carroll, IA": {
     "lat": 42.0193628,
     "lng": -94.860335
+  },
+  "Council Bluffs, IA": {
+    "lat": 41.258841,
+    "lng": -95.8519484
   },
   "Rockingham, NC": {
     "lat": 36.3926798,
@@ -7863,10 +7863,6 @@
     "lat": 46.3393449,
     "lng": -92.5870118
   },
-  "This event's address is private. Sign up for more details, Apache Junction": {
-    "lat": null,
-    "lng": null
-  },
   "Hermantown, MN": {
     "lat": 46.8068852,
     "lng": -92.2382464
@@ -8016,8 +8012,8 @@
     "lng": -78.762383
   },
   "Grass Lake, MN": {
-    "lat": 44.8931339,
-    "lng": -93.2984958
+    "lat": 47.2843988,
+    "lng": -95.6805278
   },
   "Torrance, CA": {
     "lat": 33.8371392,
@@ -8047,10 +8043,6 @@
     "lat": 35.110422,
     "lng": -81.0538064
   },
-  "Chester, NJ": {
-    "lat": 40.7842667,
-    "lng": -74.6968284
-  },
   "Isle of Palms, SC": {
     "lat": 32.7867697,
     "lng": -79.7880359
@@ -8079,9 +8071,17 @@
     "lat": 40.8147866,
     "lng": -76.0312371
   },
+  "Loudoun, VA": {
+    "lat": 39.0984586,
+    "lng": -77.6705008
+  },
   "Mount Pleasant, IA": {
     "lat": 40.966312,
     "lng": -91.5539956
+  },
+  "Richfield, MN": {
+    "lat": 44.8766431,
+    "lng": -93.2877877
   },
   "Anderson, IN": {
     "lat": 40.1053196,
@@ -8154,6 +8154,10 @@
   "Elizabeth, NJ": {
     "lat": 40.6639916,
     "lng": -74.2107006
+  },
+  "Warrensburg, MO": {
+    "lat": 38.7624373,
+    "lng": -93.7409596
   },
   "Suffern, NY": {
     "lat": 41.1151372,
@@ -8255,6 +8259,10 @@
     "lat": 44.5363364,
     "lng": -122.9072329
   },
+  "Los Lunas, NM": {
+    "lat": 34.8142093,
+    "lng": -106.7613067
+  },
   "West Columbia, SC": {
     "lat": 33.991869,
     "lng": -81.0640341
@@ -8315,6 +8323,10 @@
     "lat": 40.8406525,
     "lng": -73.0349423
   },
+  "Valdez, AK": {
+    "lat": 61.1299396,
+    "lng": -146.349363
+  },
   "West Hollywood, CA": {
     "lat": 34.0923014,
     "lng": -118.3692894
@@ -8366,5 +8378,97 @@
   "Spragueville, IA": {
     "lat": 42.0723697,
     "lng": -90.4325133
+  },
+  "Mount Pleasant, MI": {
+    "lat": 43.597646,
+    "lng": -84.7668495
+  },
+  "Melbourne, FL": {
+    "lat": 28.0785034,
+    "lng": -80.6077908
+  },
+  "Otsego, MN": {
+    "lat": 45.2812733,
+    "lng": -93.614857
+  },
+  "Hebron, CT": {
+    "lat": 41.6582474,
+    "lng": -72.3646313
+  },
+  "Richboro, PA": {
+    "lat": 40.229682,
+    "lng": -74.9994889
+  },
+  "Wyoming, MN": {
+    "lat": 45.3363551,
+    "lng": -92.9971631
+  },
+  "West Grove, PA": {
+    "lat": 39.8230064,
+    "lng": -75.8273703
+  },
+  "Upper Gwynedd Township, PA": {
+    "lat": 40.2142419,
+    "lng": -75.304156
+  },
+  "This event's address is private. Sign up for more details, VA": {
+    "lat": null,
+    "lng": null
+  },
+  "Stratford, CT": {
+    "lat": 41.1923646,
+    "lng": -73.1304917
+  },
+  "Ruskin, FL": {
+    "lat": 27.7013603,
+    "lng": -82.423798
+  },
+  "DeBary, FL": {
+    "lat": 28.8830604,
+    "lng": -81.3088385
+  },
+  "Wichita, KS": {
+    "lat": 37.6922361,
+    "lng": -97.3375448
+  },
+  "Royal Palm Beach, FL": {
+    "lat": 26.7050822,
+    "lng": -80.2279519
+  },
+  "Chamblee, GA": {
+    "lat": 33.892176,
+    "lng": -84.2988296
+  },
+  "Southlake, TX": {
+    "lat": 32.9412363,
+    "lng": -97.1341783
+  },
+  "Keller, TX": {
+    "lat": 32.9299655,
+    "lng": -97.2271249
+  },
+  "Abingdon, VA": {
+    "lat": 36.7104018,
+    "lng": -81.975249
+  },
+  "Baxter, MN": {
+    "lat": 46.3433005,
+    "lng": -94.286666
+  },
+  "Northfield, NJ": {
+    "lat": 39.3703942,
+    "lng": -74.5501546
+  },
+  "Norton, OH": {
+    "lat": 41.0292217,
+    "lng": -81.6381795
+  },
+  "This event's address is private. Sign up for more details, WI": {
+    "lat": null,
+    "lng": null
+  },
+  "Capitola, CA": {
+    "lat": 36.9754902,
+    "lng": -121.9536171
   }
 }
