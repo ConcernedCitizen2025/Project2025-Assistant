@@ -5,7 +5,7 @@
       "mobilize_id": 971767,
       "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
       "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-10-04",
       "lat": null,
       "lng": null,
@@ -19,29 +19,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-09-05",
-      "end": "2026-10-24",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 997226,
       "mobilize_id": 997226,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
       "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-09-13",
       "lat": null,
       "lng": null,
@@ -59,7 +41,7 @@
       "mobilize_id": 1002815,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
       "title": "Door Knocking for Jeremy Ferderber!",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -77,7 +59,7 @@
       "mobilize_id": 1018631,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
       "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -95,7 +77,7 @@
       "mobilize_id": 1018723,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
       "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -109,29 +91,11 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1022189,
-      "mobilize_id": 1022189,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1022189/",
-      "title": "Sussex County Get Out The Vote Phone Bank",
-      "begin": "2026-09-05",
-      "end": "2026-09-14",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Georgetown",
-      "links": [
-        {
-          "title": "Sussex County Get Out The Vote Phone Bank",
-          "href": "https://www.mobilize.us/deldems/event/1022189/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1024451,
       "mobilize_id": 1024451,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
       "title": "Flip the Future: Phone Banking with Edgefield County",
-      "begin": "2026-09-05",
+      "begin": "2026-09-06",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -140,42 +104,6 @@
         {
           "title": "Flip the Future: Phone Banking with Edgefield County",
           "href": "https://www.mobilize.us/flipthefuture/event/1024451/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1014991,
-      "mobilize_id": 1014991,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1014991/",
-      "title": "9/6 Ann Johnson Stewart for SD45 Door Knock",
-      "begin": "2026-09-06",
-      "end": "2026-09-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MN",
-      "links": [
-        {
-          "title": "9/6 Ann Johnson Stewart for SD45 Door Knock",
-          "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/1014991/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-09-07",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
@@ -217,6 +145,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1022189,
+      "mobilize_id": 1022189,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1022189/",
+      "title": "Sussex County Get Out The Vote Phone Bank",
+      "begin": "2026-09-08",
+      "end": "2026-09-14",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Georgetown",
+      "links": [
+        {
+          "title": "Sussex County Get Out The Vote Phone Bank",
+          "href": "https://www.mobilize.us/deldems/event/1022189/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "title": "Backbone Creative Activism Call - Sept 2026",
       "begin": "2026-09-08",
       "end": "2026-09-08",
@@ -230,6 +176,24 @@
         }
       ],
       "_src": "mobilizon"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-09-09",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
+        }
+      ],
+      "_src": "mobilize"
     },
     {
       "_id": 972397,
@@ -466,19 +430,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1013325,
-      "mobilize_id": 1013325,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1013325/",
-      "title": "Solidarity Saturday: Texas Public School Defenders in Tarrant County",
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
       "begin": "2026-09-12",
-      "end": "2026-09-12",
+      "end": "2026-10-24",
       "lat": null,
       "lng": null,
-      "location": "This event's address is private. Sign up for more details, Fort Worth",
+      "location": "WDM, IA",
       "links": [
         {
-          "title": "Solidarity Saturday: Texas Public School Defenders in Tarrant County",
-          "href": "https://www.mobilize.us/texasaft/event/1013325/"
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
         }
       ],
       "_src": "mobilize"
@@ -533,24 +497,6 @@
         {
           "title": "Maximize Your Field Strategy Through Precinct Prioritization",
           "href": "https://www.mobilize.us/ndtc/event/1005611/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 892898,
-      "mobilize_id": 892898,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/892898/",
-      "title": "Paint the Polls: Team Ojeda Yard Sign Distribution",
-      "begin": "2026-09-15",
-      "end": "2026-10-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, NC",
-      "links": [
-        {
-          "title": "Paint the Polls: Team Ojeda Yard Sign Distribution",
-          "href": "https://www.mobilize.us/ojedafornc/event/892898/"
         }
       ],
       "_src": "mobilize"
@@ -749,6 +695,24 @@
         {
           "title": "WOA! It's September's Weekend of Action! Come Knock Doors with the PA Dems in North Allegheny!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/1019792/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1027430,
+      "mobilize_id": 1027430,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1027430/",
+      "title": "Canvass with Indivisible Lambertville-New Hope!",
+      "begin": "2026-09-19",
+      "end": "2026-10-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Canvass with Indivisible Lambertville-New Hope!",
+          "href": "https://www.mobilize.us/indivisiblelambertvillenewhope/event/1027430/"
         }
       ],
       "_src": "mobilize"
