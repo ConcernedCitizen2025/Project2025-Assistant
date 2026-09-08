@@ -1,65 +1,11 @@
 {
   "data": [
     {
-      "_id": 971767,
-      "mobilize_id": 971767,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
-      "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-09-06",
-      "end": "2026-10-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "CD22 Canvassing: Co-Host Sign-Up",
-          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 997226,
-      "mobilize_id": 997226,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
-      "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-09-06",
-      "end": "2026-09-13",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Mark Pinsley Bucks County Canvass",
-          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1002815,
-      "mobilize_id": 1002815,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
-      "title": "Door Knocking for Jeremy Ferderber!",
-      "begin": "2026-09-06",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Door Knocking for Jeremy Ferderber!",
-          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1018631,
       "mobilize_id": 1018631,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
       "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-09-06",
+      "begin": "2026-09-07",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -77,7 +23,7 @@
       "mobilize_id": 1018723,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
       "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-09-06",
+      "begin": "2026-09-07",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -95,7 +41,7 @@
       "mobilize_id": 1024451,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
       "title": "Flip the Future: Phone Banking with Edgefield County",
-      "begin": "2026-09-06",
+      "begin": "2026-09-07",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -227,6 +173,24 @@
         {
           "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1002815,
+      "mobilize_id": 1002815,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
+      "title": "Door Knocking for Jeremy Ferderber!",
+      "begin": "2026-09-09",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Door Knocking for Jeremy Ferderber!",
+          "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
         }
       ],
       "_src": "mobilize"
@@ -430,6 +394,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971767,
+      "mobilize_id": 971767,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
+      "title": "CD22 Canvassing: Co-Host Sign-Up",
+      "begin": "2026-09-12",
+      "end": "2026-10-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "CD22 Canvassing: Co-Host Sign-Up",
+          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 974979,
       "mobilize_id": 974979,
       "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
@@ -443,6 +425,24 @@
         {
           "title": "West Des Moines Canvass for Sarah Trone Garriott",
           "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 997226,
+      "mobilize_id": 997226,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
+      "title": "Mark Pinsley Bucks County Canvass",
+      "begin": "2026-09-12",
+      "end": "2026-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "Mark Pinsley Bucks County Canvass",
+          "href": "https://www.mobilize.us/markpinsleyforpa/event/997226/"
         }
       ],
       "_src": "mobilize"

@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-06",
+  "cutoffStr": "2026-09-07",
   "lookbackDays": 1,
   "totals": {
-    "all": 15995,
-    "geoKept": 15922,
+    "all": 16038,
+    "geoKept": 15968,
     "virtKept": 61
   },
   "perSource": {
     "mobilize": {
-      "total": 15982,
-      "recent": 15979,
-      "withCoords": 12287,
-      "keptGeo": 12284,
-      "keptVirt": 3695,
+      "total": 16027,
+      "recent": 16024,
+      "withCoords": 12363,
+      "keptGeo": 12360,
+      "keptVirt": 3664,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-09-06",
+          "begin": "2026-09-13",
           "end": "2026-09-27",
           "lat": null,
           "lng": null,
@@ -127,55 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 7,
-      "recent": 4,
-      "withCoords": 6,
-      "keptGeo": 3,
+      "total": 5,
+      "recent": 5,
+      "withCoords": 4,
+      "keptGeo": 4,
       "keptVirt": 1,
-      "sampleDroppedByDate": [
-        {
-          "title": "NH 50501 - The People's Primary",
-          "begin": "2026-09-05",
-          "end": "2026-09-05",
-          "lat": 43.2077595,
-          "lng": -71.5368801,
-          "location": "State House, North Main Street, Concord, NH 03306, United States of America, Concord",
-          "links": [
-            {
-              "title": "NH 50501 - The People's Primary",
-              "href": "https://events.pol-rev.com/events/1d4c5f9e-1021-460d-95a3-e79b3ce93c02"
-            }
-          ]
-        },
-        {
-          "title": "Trump Takedown - Labor Day weekend!",
-          "begin": "2026-09-05",
-          "end": "2026-09-05",
-          "lat": 42.3480424,
-          "lng": -71.082783,
-          "location": "In front of the Tesla Showroom at Prudential Center, Boston",
-          "links": [
-            {
-              "title": "Trump Takedown - Labor Day weekend!",
-              "href": "https://events.pol-rev.com/events/b413db20-d690-4cd9-8ff9-ab4ab9005120"
-            }
-          ]
-        },
-        {
-          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-          "begin": "2026-09-05",
-          "end": "2026-09-05",
-          "lat": 42.23567,
-          "lng": -71.178862,
-          "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
-          "links": [
-            {
-              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-              "href": "https://events.pol-rev.com/events/dc2ed141-d9bf-4d0e-b70c-722ea7a21c52"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "Backbone Creative Activism Call - Sept 2026",
