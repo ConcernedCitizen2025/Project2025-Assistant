@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-07",
+  "cutoffStr": "2026-09-08",
   "lookbackDays": 1,
   "totals": {
-    "all": 16038,
-    "geoKept": 15968,
-    "virtKept": 61
+    "all": 16627,
+    "geoKept": 16554,
+    "virtKept": 64
   },
   "perSource": {
     "mobilize": {
-      "total": 16027,
-      "recent": 16024,
-      "withCoords": 12363,
-      "keptGeo": 12360,
-      "keptVirt": 3664,
+      "total": 16616,
+      "recent": 16613,
+      "withCoords": 12734,
+      "keptGeo": 12731,
+      "keptVirt": 3882,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -107,19 +107,19 @@
           "_src": "mobilize"
         },
         {
-          "_id": 547245,
-          "mobilize_id": 547245,
-          "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
-          "title": "Monthly All Member Meeting",
-          "begin": "2026-10-01",
-          "end": "2026-11-05",
+          "_id": 449485,
+          "mobilize_id": 449485,
+          "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
+          "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
+          "begin": "2026-09-12",
+          "end": "2026-10-24",
           "lat": null,
           "lng": null,
-          "location": "This event's address is private. Sign up for more details",
+          "location": "This event's address is private. Sign up for more details, Tracy, CA",
           "links": [
             {
-              "title": "Monthly All Member Meeting",
-              "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
+              "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
+              "href": "https://www.mobilize.us/cadems/event/449485/"
             }
           ],
           "_src": "mobilize"
