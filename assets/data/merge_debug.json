@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-12",
+  "cutoffStr": "2026-09-13",
   "lookbackDays": 1,
   "totals": {
-    "all": 17836,
-    "geoKept": 17752,
-    "virtKept": 75
+    "all": 17224,
+    "geoKept": 17135,
+    "virtKept": 77
   },
   "perSource": {
     "mobilize": {
-      "total": 17820,
-      "recent": 17817,
-      "withCoords": 13569,
-      "keptGeo": 13566,
-      "keptVirt": 4251,
+      "total": 17207,
+      "recent": 17204,
+      "withCoords": 13062,
+      "keptGeo": 13059,
+      "keptVirt": 4145,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 449485,
           "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
           "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
-          "begin": "2026-09-12",
+          "begin": "2026-09-13",
           "end": "2026-10-24",
           "lat": null,
           "lng": null,
@@ -127,12 +127,55 @@
       ]
     },
     "mobilizon": {
-      "total": 10,
-      "recent": 10,
-      "withCoords": 9,
-      "keptGeo": 9,
+      "total": 11,
+      "recent": 8,
+      "withCoords": 10,
+      "keptGeo": 7,
       "keptVirt": 1,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "mUUsic in the garden THREEE - UUBN's free family friendly music festival 2026",
+          "begin": "2026-09-12",
+          "end": "2026-09-12",
+          "lat": 40.4929988,
+          "lng": -88.9684006,
+          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "mUUsic in the garden THREEE - UUBN's free family friendly music festival 2026",
+              "href": "https://events.pol-rev.com/events/0766a857-2f88-4f64-bb18-e71c9f273302"
+            }
+          ]
+        },
+        {
+          "title": "Stand Up For Democracy",
+          "begin": "2026-09-12",
+          "end": "2026-09-12",
+          "lat": 38.1353182,
+          "lng": -122.2158792,
+          "location": "1175 Admiral Callaghan Lane, Vallejo, CA 94591, United States of America, Vallejo",
+          "links": [
+            {
+              "title": "Stand Up For Democracy",
+              "href": "https://events.pol-rev.com/events/f6be9921-4d19-45f7-be42-eca7004c2deb"
+            }
+          ]
+        },
+        {
+          "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+          "begin": "2026-09-12",
+          "end": "2026-09-12",
+          "lat": 42.2371631,
+          "lng": -71.1786432,
+          "location": "840 Providence Highway, Dedham, MA 02026, United States of America, Dedham",
+          "links": [
+            {
+              "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+              "href": "https://events.pol-rev.com/events/293bc3e6-27b3-432b-b438-4cc0b1a6bba0"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings, Vote!!",

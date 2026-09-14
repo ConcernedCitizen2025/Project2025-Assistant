@@ -1,83 +1,11 @@
 {
   "data": [
     {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-09-12",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971767,
-      "mobilize_id": 971767,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971767/",
-      "title": "CD22 Canvassing: Co-Host Sign-Up",
-      "begin": "2026-09-12",
-      "end": "2026-10-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "CD22 Canvassing: Co-Host Sign-Up",
-          "href": "https://www.mobilize.us/texasdemocrats/event/971767/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 974979,
-      "mobilize_id": 974979,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
-      "title": "West Des Moines Canvass for Sarah Trone Garriott",
-      "begin": "2026-09-12",
-      "end": "2026-10-24",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "West Des Moines Canvass for Sarah Trone Garriott",
-          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 976256,
-      "mobilize_id": 976256,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
-      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-      "begin": "2026-09-12",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
-          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 997226,
       "mobilize_id": 997226,
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
       "title": "Mark Pinsley Bucks County Canvass",
-      "begin": "2026-09-12",
+      "begin": "2026-09-13",
       "end": "2026-09-13",
       "lat": null,
       "lng": null,
@@ -95,7 +23,7 @@
       "mobilize_id": 1002815,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1002815/",
       "title": "Door Knocking for Jeremy Ferderber!",
-      "begin": "2026-09-12",
+      "begin": "2026-09-13",
       "end": "2026-11-03",
       "lat": null,
       "lng": null,
@@ -104,132 +32,6 @@
         {
           "title": "Door Knocking for Jeremy Ferderber!",
           "href": "https://www.mobilize.us/ferderberforpa/event/1002815/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1012044,
-      "mobilize_id": 1012044,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1012044/",
-      "title": "DEMNUTS Saturday Phonebank | Summit County (Virtual)",
-      "begin": "2026-09-12",
-      "end": "2026-10-31",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "DEMNUTS Saturday Phonebank | Summit County (Virtual)",
-          "href": "https://www.mobilize.us/utahdemocrats/event/1012044/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018178,
-      "mobilize_id": 1018178,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018178/",
-      "title": "50 Days Out Weekend of Action in WDM!",
-      "begin": "2026-09-12",
-      "end": "2026-09-13",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "50 Days Out Weekend of Action in WDM!",
-          "href": "https://www.mobilize.us/iowaforward/event/1018178/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018631,
-      "mobilize_id": 1018631,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
-      "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-09-12",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Aiken County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018723,
-      "mobilize_id": 1018723,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
-      "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-09-12",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Lexington County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1023726,
-      "mobilize_id": 1023726,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1023726/",
-      "title": "Weekend of Action: Knock Doors In Loudoun County",
-      "begin": "2026-09-12",
-      "end": "2026-10-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend of Action: Knock Doors In Loudoun County",
-          "href": "https://www.mobilize.us/va26cc/event/1023726/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1024069,
-      "mobilize_id": 1024069,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1024069/",
-      "title": "SC Labor, Join Us to Phonebank for Labor Endorsed Candidates!",
-      "begin": "2026-09-12",
-      "end": "2026-09-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "SC Labor, Join Us to Phonebank for Labor Endorsed Candidates!",
-          "href": "https://www.mobilize.us/scaflcio/event/1024069/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1024451,
-      "mobilize_id": 1024451,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
-      "title": "Flip the Future: Phone Banking with Edgefield County",
-      "begin": "2026-09-12",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Edgefield County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1024451/"
         }
       ],
       "_src": "mobilize"
@@ -253,6 +55,96 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1018178,
+      "mobilize_id": 1018178,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018178/",
+      "title": "50 Days Out Weekend of Action in WDM!",
+      "begin": "2026-09-13",
+      "end": "2026-09-13",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "50 Days Out Weekend of Action in WDM!",
+          "href": "https://www.mobilize.us/iowaforward/event/1018178/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018631,
+      "mobilize_id": 1018631,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
+      "title": "Flip the Future: Phone Banking with Aiken County",
+      "begin": "2026-09-13",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Aiken County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018723,
+      "mobilize_id": 1018723,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
+      "title": "Flip the Future: Phone Banking with Lexington County",
+      "begin": "2026-09-13",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Lexington County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1023726,
+      "mobilize_id": 1023726,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1023726/",
+      "title": "Weekend of Action: Knock Doors In Loudoun County",
+      "begin": "2026-09-13",
+      "end": "2026-10-11",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Weekend of Action: Knock Doors In Loudoun County",
+          "href": "https://www.mobilize.us/va26cc/event/1023726/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1024451,
+      "mobilize_id": 1024451,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
+      "title": "Flip the Future: Phone Banking with Edgefield County",
+      "begin": "2026-09-13",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Edgefield County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1024451/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1033773,
       "mobilize_id": 1033773,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1033773/",
@@ -266,6 +158,24 @@
         {
           "title": "Friendbank to Battleground States (virtual/hybrid participants)",
           "href": "https://www.mobilize.us/indivisible-east-bay/event/1033773/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-09-14",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
         }
       ],
       "_src": "mobilize"
@@ -302,6 +212,24 @@
         {
           "title": "Sussex County Get Out The Vote Phone Bank",
           "href": "https://www.mobilize.us/deldems/event/1022189/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-09-15",
+      "end": "2026-09-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
         }
       ],
       "_src": "mobilize"
@@ -451,24 +379,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 965701,
-      "mobilize_id": 965701,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/965701/",
-      "title": "Rob Sand 2026 Dallas County Town Hall",
-      "begin": "2026-09-16",
-      "end": "2026-09-16",
-      "lat": null,
-      "lng": null,
-      "location": "WDM, IA",
-      "links": [
-        {
-          "title": "Rob Sand 2026 Dallas County Town Hall",
-          "href": "https://www.mobilize.us/robsandia/event/965701/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 972397,
       "mobilize_id": 972397,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
@@ -613,6 +523,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1032898,
+      "mobilize_id": 1032898,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1032898/",
+      "title": "Angie For FL: Pembroke Pines Canvass",
+      "begin": "2026-09-16",
+      "end": "2026-09-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, Pembroke Pines",
+      "links": [
+        {
+          "title": "Angie For FL: Pembroke Pines Canvass",
+          "href": "https://www.mobilize.us/angieforflorida/event/1032898/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 877691,
       "mobilize_id": 877691,
       "canonical_mobilize_url": "https://www.mobilize.us/event/877691/",
@@ -667,24 +595,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-09-17",
-      "end": "2026-09-24",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1024344,
       "mobilize_id": 1024344,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1024344/",
@@ -721,24 +631,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1032898,
-      "mobilize_id": 1032898,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1032898/",
-      "title": "Angie For FL: Pembroke Pines Canvass",
-      "begin": "2026-09-17",
-      "end": "2026-09-17",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, Pembroke Pines",
-      "links": [
-        {
-          "title": "Angie For FL: Pembroke Pines Canvass",
-          "href": "https://www.mobilize.us/angieforflorida/event/1032898/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 928346,
       "mobilize_id": 928346,
       "canonical_mobilize_url": "https://www.mobilize.us/event/928346/",
@@ -757,6 +649,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 976256,
+      "mobilize_id": 976256,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/976256/",
+      "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+      "begin": "2026-09-18",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Canvass with Lisa McIntyre - Northville, Plymouth, Livonia",
+          "href": "https://www.mobilize.us/mcintyreformichigan/event/976256/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1014985,
       "mobilize_id": 1014985,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1014985/",
@@ -770,6 +680,60 @@
         {
           "title": "9/18 Ann Johnson Stewart for SD45 Door Knock",
           "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/1014985/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1034229,
+      "mobilize_id": 1034229,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1034229/",
+      "title": "Standing Strong Sign Vigil",
+      "begin": "2026-09-18",
+      "end": "2026-09-18",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Standing Strong Sign Vigil",
+          "href": "https://www.mobilize.us/salemregionindivisible/event/1034229/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 974979,
+      "mobilize_id": 974979,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
+      "title": "West Des Moines Canvass for Sarah Trone Garriott",
+      "begin": "2026-09-19",
+      "end": "2026-10-24",
+      "lat": null,
+      "lng": null,
+      "location": "WDM, IA",
+      "links": [
+        {
+          "title": "West Des Moines Canvass for Sarah Trone Garriott",
+          "href": "https://www.mobilize.us/sarahforiowa3/event/974979/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1012044,
+      "mobilize_id": 1012044,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1012044/",
+      "title": "DEMNUTS Saturday Phonebank | Summit County (Virtual)",
+      "begin": "2026-09-19",
+      "end": "2026-10-31",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "DEMNUTS Saturday Phonebank | Summit County (Virtual)",
+          "href": "https://www.mobilize.us/utahdemocrats/event/1012044/"
         }
       ],
       "_src": "mobilize"
@@ -991,6 +955,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1034185,
+      "mobilize_id": 1034185,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1034185/",
+      "title": "9/26 Fundraiser for Laura Murvartian",
+      "begin": "2026-09-26",
+      "end": "2026-09-26",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, GA",
+      "links": [
+        {
+          "title": "9/26 Fundraiser for Laura Murvartian",
+          "href": "https://www.mobilize.us/murvartianforgeorgia/event/1034185/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1014999,
       "mobilize_id": 1014999,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1014999/",
@@ -1022,6 +1004,24 @@
         {
           "title": "Door Knocking for Iowa Democrats in Marion County!",
           "href": "https://www.mobilize.us/iowaforward/event/1019222/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1034190,
+      "mobilize_id": 1034190,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1034190/",
+      "title": "9/27 Fundraiser for Laura Murvartian",
+      "begin": "2026-09-27",
+      "end": "2026-09-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, GA",
+      "links": [
+        {
+          "title": "9/27 Fundraiser for Laura Murvartian",
+          "href": "https://www.mobilize.us/murvartianforgeorgia/event/1034190/"
         }
       ],
       "_src": "mobilize"
@@ -1207,6 +1207,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1034193,
+      "mobilize_id": 1034193,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1034193/",
+      "title": "10/4 Fundraiser for Laura Murvartian",
+      "begin": "2026-10-04",
+      "end": "2026-10-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, GA",
+      "links": [
+        {
+          "title": "10/4 Fundraiser for Laura Murvartian",
+          "href": "https://www.mobilize.us/murvartianforgeorgia/event/1034193/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 932295,
       "mobilize_id": 932295,
       "canonical_mobilize_url": "https://www.mobilize.us/event/932295/",
@@ -1289,6 +1307,24 @@
         {
           "title": "Volunteer as a Nonpartisan Election Challenger in MI!",
           "href": "https://www.mobilize.us/promotethevote/event/1026774/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1033831,
+      "mobilize_id": 1033831,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1033831/",
+      "title": "Volunteer as a Nonpartisan Election Protection Attorney in MI",
+      "begin": "2026-10-24",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, MI",
+      "links": [
+        {
+          "title": "Volunteer as a Nonpartisan Election Protection Attorney in MI",
+          "href": "https://www.mobilize.us/promotethevote/event/1033831/"
         }
       ],
       "_src": "mobilize"
