@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-14",
+  "cutoffStr": "2026-09-15",
   "lookbackDays": 1,
   "totals": {
-    "all": 17538,
-    "geoKept": 17439,
+    "all": 18211,
+    "geoKept": 18111,
     "virtKept": 90
   },
   "perSource": {
     "mobilize": {
-      "total": 17522,
-      "recent": 17519,
-      "withCoords": 13460,
-      "keptGeo": 13457,
-      "keptVirt": 4062,
+      "total": 18194,
+      "recent": 18191,
+      "withCoords": 13938,
+      "keptGeo": 13935,
+      "keptVirt": 4256,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,12 +127,27 @@
       ]
     },
     "mobilizon": {
-      "total": 10,
+      "total": 11,
       "recent": 10,
       "withCoords": 8,
       "keptGeo": 8,
       "keptVirt": 2,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "IPTV que ofrezca un mayor valor a largo",
+          "begin": "2026-09-14",
+          "end": "2026-09-14",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "IPTV que ofrezca un mayor valor a largo",
+              "href": "https://events.pol-rev.com/events/272114ec-ff28-4f97-a203-f8f5b6c86420"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings, Vote!!",
@@ -149,16 +164,16 @@
           ]
         },
         {
-          "title": "IPTV que ofrezca un mayor valor a largo",
-          "begin": "2026-09-14",
-          "end": "2026-09-14",
+          "title": "Improving Efficiency Through Packaging Design",
+          "begin": "2026-09-16",
+          "end": "2026-09-16",
           "lat": null,
           "lng": null,
           "location": "",
           "links": [
             {
-              "title": "IPTV que ofrezca un mayor valor a largo",
-              "href": "https://events.pol-rev.com/events/272114ec-ff28-4f97-a203-f8f5b6c86420"
+              "title": "Improving Efficiency Through Packaging Design",
+              "href": "https://events.pol-rev.com/events/ce4d7ce3-75a3-4c1b-aec0-fa16dcd2e03d"
             }
           ]
         }
