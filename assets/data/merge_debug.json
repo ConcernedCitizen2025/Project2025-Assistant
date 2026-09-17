@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-15",
+  "cutoffStr": "2026-09-16",
   "lookbackDays": 1,
   "totals": {
-    "all": 18211,
-    "geoKept": 18111,
-    "virtKept": 90
+    "all": 18547,
+    "geoKept": 18449,
+    "virtKept": 87
   },
   "perSource": {
     "mobilize": {
-      "total": 18194,
-      "recent": 18191,
-      "withCoords": 13938,
-      "keptGeo": 13935,
-      "keptVirt": 4256,
+      "total": 18527,
+      "recent": 18524,
+      "withCoords": 14173,
+      "keptGeo": 14170,
+      "keptVirt": 4354,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,23 +127,37 @@
       ]
     },
     "mobilizon": {
-      "total": 11,
-      "recent": 10,
-      "withCoords": 8,
+      "total": 14,
+      "recent": 12,
+      "withCoords": 10,
       "keptGeo": 8,
-      "keptVirt": 2,
+      "keptVirt": 4,
       "sampleDroppedByDate": [
         {
-          "title": "IPTV que ofrezca un mayor valor a largo",
-          "begin": "2026-09-14",
-          "end": "2026-09-14",
-          "lat": null,
-          "lng": null,
-          "location": "",
+          "title": "BloNo IL 50501 - Open Meeting",
+          "begin": "2026-09-15",
+          "end": "2026-09-15",
+          "lat": 40.534973,
+          "lng": -89.0121645,
+          "location": "Heartland Community College, 1500 West Raab Road, Normal, IL 61761, United States of America, Normal",
           "links": [
             {
-              "title": "IPTV que ofrezca un mayor valor a largo",
-              "href": "https://events.pol-rev.com/events/272114ec-ff28-4f97-a203-f8f5b6c86420"
+              "title": "BloNo IL 50501 - Open Meeting",
+              "href": "https://events.pol-rev.com/events/e50b6a81-ce50-4cff-b0cd-caed247f6b3e"
+            }
+          ]
+        },
+        {
+          "title": "East Peoria City Council Flock discussion",
+          "begin": "2026-09-15",
+          "end": "2026-09-15",
+          "lat": 40.6709142,
+          "lng": -89.5856663,
+          "location": "East Peoria City Hall, 401 West Washington Street, Fond du Lac, East Peoria, IL 61611, United States of America, East Peoria",
+          "links": [
+            {
+              "title": "East Peoria City Council Flock discussion",
+              "href": "https://events.pol-rev.com/events/7a685046-0a85-4380-b70b-1b0ec636abac"
             }
           ]
         }
@@ -164,7 +178,21 @@
           ]
         },
         {
-          "title": "Improving Efficiency Through Packaging Design",
+          "title": "Flapjacks & Free Speech at the Morton Pumpkin Festival",
+          "begin": "2026-09-19",
+          "end": "2026-09-19",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Flapjacks & Free Speech at the Morton Pumpkin Festival",
+              "href": "https://events.pol-rev.com/events/3df8ea24-187d-42e2-b844-c9d3695a3ccc"
+            }
+          ]
+        },
+        {
+          "title": "Compare Battery Capacity and Riding Range",
           "begin": "2026-09-16",
           "end": "2026-09-16",
           "lat": null,
@@ -172,8 +200,8 @@
           "location": "",
           "links": [
             {
-              "title": "Improving Efficiency Through Packaging Design",
-              "href": "https://events.pol-rev.com/events/ce4d7ce3-75a3-4c1b-aec0-fa16dcd2e03d"
+              "title": "Compare Battery Capacity and Riding Range",
+              "href": "https://events.pol-rev.com/events/9495de3d-d087-43e9-9471-85e79e2112a0"
             }
           ]
         }

@@ -1,264 +1,12 @@
 {
   "data": [
     {
-      "_id": 970317,
-      "mobilize_id": 970317,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/970317/",
-      "title": "Poll Greet for Rae!",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Poll Greet for Rae!",
-          "href": "https://www.mobilize.us/raefordelaware/event/970317/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 986686,
-      "mobilize_id": 986686,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
-      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-      "begin": "2026-09-15",
-      "end": "2026-09-30",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, IA",
-      "links": [
-        {
-          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
-          "href": "https://www.mobilize.us/iowaforward/event/986686/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1007709,
-      "mobilize_id": 1007709,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1007709/",
-      "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Virtual Phonebank Kickoff: Caitlin Rourk for TX-10!",
-          "href": "https://www.mobilize.us/blueactiondems/event/1007709/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1017500,
-      "mobilize_id": 1017500,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1017500/",
-      "title": "Flip the Future: Phone Banking with York County",
-      "begin": "2026-09-15",
-      "end": "2026-10-27",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with York County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1017500/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018631,
-      "mobilize_id": 1018631,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
-      "title": "Flip the Future: Phone Banking with Aiken County",
-      "begin": "2026-09-15",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Aiken County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1018723,
-      "mobilize_id": 1018723,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
-      "title": "Flip the Future: Phone Banking with Lexington County",
-      "begin": "2026-09-15",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Lexington County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1021999,
-      "mobilize_id": 1021999,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1021999/",
-      "title": "Phone Bank Campaign 2726 - Vote Blue Bottom Up!",
-      "begin": "2026-09-15",
-      "end": "2026-10-29",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phone Bank Campaign 2726 - Vote Blue Bottom Up!",
-          "href": "https://www.mobilize.us/pinalcountydemocrats/event/1021999/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1024451,
-      "mobilize_id": 1024451,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
-      "title": "Flip the Future: Phone Banking with Edgefield County",
-      "begin": "2026-09-15",
-      "end": "2026-11-03",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Flip the Future: Phone Banking with Edgefield County",
-          "href": "https://www.mobilize.us/flipthefuture/event/1024451/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1026232,
-      "mobilize_id": 1026232,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1026232/",
-      "title": "Friend-to-Friend Outreach in Lake Country",
-      "begin": "2026-09-15",
-      "end": "2026-09-16",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, WI",
-      "links": [
-        {
-          "title": "Friend-to-Friend Outreach in Lake Country",
-          "href": "https://www.mobilize.us/wisdems/event/1026232/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1026301,
-      "mobilize_id": 1026301,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1026301/",
-      "title": "Indivisible MontCo PA & Friends Sept. 15th, 2026 ZOOM Meeting",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Indivisible MontCo PA & Friends Sept. 15th, 2026 ZOOM Meeting",
-          "href": "https://www.mobilize.us/indivisiblemontco/event/1026301/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1029372,
-      "mobilize_id": 1029372,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1029372/",
-      "title": "Black Texans for Talarico: Statewide Virtual Kickoff",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Black Texans for Talarico: Statewide Virtual Kickoff",
-          "href": "https://www.mobilize.us/talaricofortexas/event/1029372/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1029387,
-      "mobilize_id": 1029387,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1029387/",
-      "title": "Latinos con Talarico: Statewide Virtual Kickoff",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Latinos con Talarico: Statewide Virtual Kickoff",
-          "href": "https://www.mobilize.us/talaricofortexas/event/1029387/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1029391,
-      "mobilize_id": 1029391,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1029391/",
-      "title": "AAPI Texans for Talarico: Statewide Virtual Kickoff",
-      "begin": "2026-09-15",
-      "end": "2026-09-15",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "AAPI Texans for Talarico: Statewide Virtual Kickoff",
-          "href": "https://www.mobilize.us/talaricofortexas/event/1029391/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 971394,
-      "mobilize_id": 971394,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
-      "title": "Door Knocking with Blaine For Indiana",
-      "begin": "2026-09-16",
-      "end": "2026-10-28",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Door Knocking with Blaine For Indiana",
-          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 972397,
       "mobilize_id": 972397,
       "canonical_mobilize_url": "https://www.mobilize.us/event/972397/",
       "title": "Learn Campaign Basics With Durham Democrats",
       "begin": "2026-09-16",
-      "end": "2026-10-28",
+      "end": "2026-09-16",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -284,6 +32,24 @@
         {
           "title": "Virtual Phonebanking with the PA Dems in Blair Co!",
           "href": "https://www.mobilize.us/pacoordinated2026/event/972823/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 986686,
+      "mobilize_id": 986686,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/986686/",
+      "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+      "begin": "2026-09-16",
+      "end": "2026-09-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, IA",
+      "links": [
+        {
+          "title": "Weekday Door Knocking for Iowa Democrats in Iowa, Keokuk, and Washington Counties!",
+          "href": "https://www.mobilize.us/iowaforward/event/986686/"
         }
       ],
       "_src": "mobilize"
@@ -379,6 +145,42 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1018631,
+      "mobilize_id": 1018631,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018631/",
+      "title": "Flip the Future: Phone Banking with Aiken County",
+      "begin": "2026-09-16",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Aiken County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018631/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1018723,
+      "mobilize_id": 1018723,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1018723/",
+      "title": "Flip the Future: Phone Banking with Lexington County",
+      "begin": "2026-09-16",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Lexington County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1018723/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1019322,
       "mobilize_id": 1019322,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1019322/",
@@ -413,6 +215,57 @@
         }
       ],
       "_src": "mobilize"
+    },
+    {
+      "_id": 1024451,
+      "mobilize_id": 1024451,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1024451/",
+      "title": "Flip the Future: Phone Banking with Edgefield County",
+      "begin": "2026-09-16",
+      "end": "2026-11-03",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with Edgefield County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1024451/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1026232,
+      "mobilize_id": 1026232,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1026232/",
+      "title": "Friend-to-Friend Outreach in Lake Country",
+      "begin": "2026-09-16",
+      "end": "2026-09-16",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, WI",
+      "links": [
+        {
+          "title": "Friend-to-Friend Outreach in Lake Country",
+          "href": "https://www.mobilize.us/wisdems/event/1026232/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "title": "Compare Battery Capacity and Riding Range",
+      "begin": "2026-09-16",
+      "end": "2026-09-16",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Compare Battery Capacity and Riding Range",
+          "href": "https://events.pol-rev.com/events/9495de3d-d087-43e9-9471-85e79e2112a0"
+        }
+      ],
+      "_src": "mobilizon"
     },
     {
       "title": "Improving Efficiency Through Packaging Design",
@@ -484,6 +337,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1021999,
+      "mobilize_id": 1021999,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1021999/",
+      "title": "Phone Bank Campaign 2726 - Vote Blue Bottom Up!",
+      "begin": "2026-09-17",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank Campaign 2726 - Vote Blue Bottom Up!",
+          "href": "https://www.mobilize.us/pinalcountydemocrats/event/1021999/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1024344,
       "mobilize_id": 1024344,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1024344/",
@@ -515,6 +386,24 @@
         {
           "title": "Third Thursday Town Hall w/Del Nicole Cole",
           "href": "https://www.mobilize.us/nicolecolefordelegate/event/1025454/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1036876,
+      "mobilize_id": 1036876,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1036876/",
+      "title": "Phone Bank for SE NM w/ Team Gabe for Gabe Vasquez for Congress",
+      "begin": "2026-09-17",
+      "end": "2026-10-29",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Phone Bank for SE NM w/ Team Gabe for Gabe Vasquez for Congress",
+          "href": "https://www.mobilize.us/gabevasquezforcongress/event/1036876/"
         }
       ],
       "_src": "mobilize"
@@ -592,6 +481,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 971394,
+      "mobilize_id": 971394,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/971394/",
+      "title": "Door Knocking with Blaine For Indiana",
+      "begin": "2026-09-19",
+      "end": "2026-10-28",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Door Knocking with Blaine For Indiana",
+          "href": "https://www.mobilize.us/blaineforindiana/event/971394/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 974979,
       "mobilize_id": 974979,
       "canonical_mobilize_url": "https://www.mobilize.us/event/974979/",
@@ -615,7 +522,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/997226/",
       "title": "Mark Pinsley Bucks County Canvass",
       "begin": "2026-09-19",
-      "end": "2026-09-20",
+      "end": "2026-09-27",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, PA",
@@ -736,6 +643,21 @@
       "_src": "mobilize"
     },
     {
+      "title": "Flapjacks & Free Speech at the Morton Pumpkin Festival",
+      "begin": "2026-09-19",
+      "end": "2026-09-19",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Flapjacks & Free Speech at the Morton Pumpkin Festival",
+          "href": "https://events.pol-rev.com/events/3df8ea24-187d-42e2-b844-c9d3695a3ccc"
+        }
+      ],
+      "_src": "mobilizon"
+    },
+    {
       "_id": 1014997,
       "mobilize_id": 1014997,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1014997/",
@@ -749,24 +671,6 @@
         {
           "title": "9/20 Ann Johnson Stewart for SD45 Door Knock",
           "href": "https://www.mobilize.us/Johnson-Stewart-for-MN-SenateDFL/event/1014997/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1025190,
-      "mobilize_id": 1025190,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1025190/",
-      "title": "Door Knocking with the Sierra Club for Jeremy Ferderber!",
-      "begin": "2026-09-20",
-      "end": "2026-09-20",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, PA",
-      "links": [
-        {
-          "title": "Door Knocking with the Sierra Club for Jeremy Ferderber!",
-          "href": "https://www.mobilize.us/ferderberforpa/event/1025190/"
         }
       ],
       "_src": "mobilize"
@@ -880,24 +784,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1023726,
-      "mobilize_id": 1023726,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1023726/",
-      "title": "Weekend of Action: Knock Doors In Loudoun County",
-      "begin": "2026-09-26",
-      "end": "2026-10-11",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Weekend of Action: Knock Doors In Loudoun County",
-          "href": "https://www.mobilize.us/va26cc/event/1023726/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1033789,
       "mobilize_id": 1033789,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1033789/",
@@ -1001,6 +887,24 @@
         {
           "title": "DeKalb Dems LGBTQ+ Caucus Meeting",
           "href": "https://www.mobilize.us/dekalbcountydemocrats/event/757536/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1017500,
+      "mobilize_id": 1017500,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1017500/",
+      "title": "Flip the Future: Phone Banking with York County",
+      "begin": "2026-09-29",
+      "end": "2026-10-27",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Flip the Future: Phone Banking with York County",
+          "href": "https://www.mobilize.us/flipthefuture/event/1017500/"
         }
       ],
       "_src": "mobilize"
@@ -1181,6 +1085,24 @@
         {
           "title": "10/4 Fundraiser for Laura Murvartian",
           "href": "https://www.mobilize.us/murvartianforgeorgia/event/1034193/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1035362,
+      "mobilize_id": 1035362,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1035362/",
+      "title": "Knock on doors with Ground Truth in TBD (CD-7)!",
+      "begin": "2026-10-04",
+      "end": "2026-10-04",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, NJ",
+      "links": [
+        {
+          "title": "Knock on doors with Ground Truth in TBD (CD-7)!",
+          "href": "https://www.mobilize.us/swingleft/event/1035362/"
         }
       ],
       "_src": "mobilize"
@@ -1487,6 +1409,24 @@
         {
           "title": "Knock Doors for Roy Cooper and Jocelyn Torres in Montgomery County!",
           "href": "https://www.mobilize.us/nc-coordinated/event/1019718/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1034379,
+      "mobilize_id": 1034379,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1034379/",
+      "title": "No Kings: Vote Lancaster PA",
+      "begin": "2026-10-17",
+      "end": "2026-10-17",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details, PA",
+      "links": [
+        {
+          "title": "No Kings: Vote Lancaster PA",
+          "href": "https://www.mobilize.us/nokings/event/1034379/"
         }
       ],
       "_src": "mobilize"
