@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-16",
+  "cutoffStr": "2026-09-17",
   "lookbackDays": 1,
   "totals": {
-    "all": 18547,
-    "geoKept": 18449,
+    "all": 18803,
+    "geoKept": 18706,
     "virtKept": 87
   },
   "perSource": {
     "mobilize": {
-      "total": 18527,
-      "recent": 18524,
-      "withCoords": 14173,
-      "keptGeo": 14170,
-      "keptVirt": 4354,
+      "total": 18785,
+      "recent": 18782,
+      "withCoords": 14374,
+      "keptGeo": 14371,
+      "keptVirt": 4411,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,37 +127,23 @@
       ]
     },
     "mobilizon": {
-      "total": 14,
-      "recent": 12,
-      "withCoords": 10,
-      "keptGeo": 8,
-      "keptVirt": 4,
+      "total": 12,
+      "recent": 11,
+      "withCoords": 9,
+      "keptGeo": 9,
+      "keptVirt": 2,
       "sampleDroppedByDate": [
         {
-          "title": "BloNo IL 50501 - Open Meeting",
-          "begin": "2026-09-15",
-          "end": "2026-09-15",
-          "lat": 40.534973,
-          "lng": -89.0121645,
-          "location": "Heartland Community College, 1500 West Raab Road, Normal, IL 61761, United States of America, Normal",
+          "title": "Compare Battery Capacity and Riding Range",
+          "begin": "2026-09-16",
+          "end": "2026-09-16",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "BloNo IL 50501 - Open Meeting",
-              "href": "https://events.pol-rev.com/events/e50b6a81-ce50-4cff-b0cd-caed247f6b3e"
-            }
-          ]
-        },
-        {
-          "title": "East Peoria City Council Flock discussion",
-          "begin": "2026-09-15",
-          "end": "2026-09-15",
-          "lat": 40.6709142,
-          "lng": -89.5856663,
-          "location": "East Peoria City Hall, 401 West Washington Street, Fond du Lac, East Peoria, IL 61611, United States of America, East Peoria",
-          "links": [
-            {
-              "title": "East Peoria City Council Flock discussion",
-              "href": "https://events.pol-rev.com/events/7a685046-0a85-4380-b70b-1b0ec636abac"
+              "title": "Compare Battery Capacity and Riding Range",
+              "href": "https://events.pol-rev.com/events/9495de3d-d087-43e9-9471-85e79e2112a0"
             }
           ]
         }
@@ -188,20 +174,6 @@
             {
               "title": "Flapjacks & Free Speech at the Morton Pumpkin Festival",
               "href": "https://events.pol-rev.com/events/3df8ea24-187d-42e2-b844-c9d3695a3ccc"
-            }
-          ]
-        },
-        {
-          "title": "Compare Battery Capacity and Riding Range",
-          "begin": "2026-09-16",
-          "end": "2026-09-16",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Compare Battery Capacity and Riding Range",
-              "href": "https://events.pol-rev.com/events/9495de3d-d087-43e9-9471-85e79e2112a0"
             }
           ]
         }
