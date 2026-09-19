@@ -4843,10 +4843,6 @@
     "lat": 42.9406083,
     "lng": -87.995993
   },
-  "Troy, MI": {
-    "lat": 42.6055893,
-    "lng": -83.1499304
-  },
   "This event's address is private. Sign up for more details, MA": {
     "lat": null,
     "lng": null
@@ -5620,8 +5616,8 @@
     "lng": -95.5507771
   },
   "Breinigsville, PA": {
-    "lat": 40.5376934,
-    "lng": -75.6351775
+    "lat": 40.5367174,
+    "lng": -75.6302955
   },
   "Cypress, TX": {
     "lat": 29.9691116,
@@ -5979,6 +5975,22 @@
     "lat": 32.7027017,
     "lng": -103.1355302
   },
+  "Tucumcari, NM": {
+    "lat": 35.1719425,
+    "lng": -103.72504
+  },
+  "Clovis, NM": {
+    "lat": 34.405472,
+    "lng": -103.2050709
+  },
+  "Fort Sumner, NM": {
+    "lat": 34.4716695,
+    "lng": -104.245509
+  },
+  "Santa Rosa, NM": {
+    "lat": 34.93867,
+    "lng": -104.682489
+  },
   "Cresco, IA": {
     "lat": 43.3736148,
     "lng": -92.1161444
@@ -6143,10 +6155,6 @@
     "lat": 32.8998822,
     "lng": -105.9602081
   },
-  "Wake Forest, NC": {
-    "lat": 35.9775697,
-    "lng": -78.5098471
-  },
   "Rolesville, NC": {
     "lat": 35.9232862,
     "lng": -78.4573914
@@ -6186,10 +6194,6 @@
   "Lima, OH": {
     "lat": 40.7399785,
     "lng": -84.105006
-  },
-  "Port Washington, WI": {
-    "lat": 43.3885538,
-    "lng": -87.8692845
   },
   "Germantown, WI": {
     "lat": 43.2286174,
@@ -6351,10 +6355,6 @@
     "lat": 44.0026295,
     "lng": -69.6650998
   },
-  "Arnoldsville, GA": {
-    "lat": 33.9051167,
-    "lng": -83.2168199
-  },
   "East Point, GA": {
     "lat": 33.6795531,
     "lng": -84.4393724
@@ -6430,10 +6430,6 @@
   "Vail, AZ": {
     "lat": 32.0100705,
     "lng": -110.6975281
-  },
-  "Mill Creek, WA": {
-    "lat": 47.8577455,
-    "lng": -122.2210628
   },
   "Prescott Valley, AZ": {
     "lat": 34.5950776,
@@ -6652,8 +6648,8 @@
     "lng": -75.289228
   },
   "Upper Darby Township, PA": {
-    "lat": 39.9626276,
-    "lng": -75.2633583
+    "lat": 39.9629304,
+    "lng": -75.2662135
   },
   "Hastings, MN": {
     "lat": 44.7426933,
@@ -6792,8 +6788,8 @@
     "lng": -73.9283672
   },
   "Ladson, SC": {
-    "lat": 33.0062755,
-    "lng": -80.1093339
+    "lat": 32.9857275,
+    "lng": -80.1098123
   },
   "Menomonie, WI": {
     "lat": 44.8765289,
@@ -6935,13 +6931,13 @@
     "lat": 41.5564975,
     "lng": -95.8879438
   },
-  "Washington, IA": {
-    "lat": 41.3160082,
-    "lng": -91.7340327
-  },
   "Bridgeville, PA": {
     "lat": 40.3561805,
     "lng": -80.1100556
+  },
+  "Mahtomedi, MN": {
+    "lat": 45.0696886,
+    "lng": -92.9516037
   },
   "Ypsilanti, MI": {
     "lat": 42.241051,
@@ -6983,10 +6979,6 @@
     "lat": 34.8688613,
     "lng": -111.7614394
   },
-  "Andalusia, PA": {
-    "lat": 40.0695554,
-    "lng": -74.9712799
-  },
   "Newton, IA": {
     "lat": 41.6997139,
     "lng": -93.0538852
@@ -7019,6 +7011,10 @@
     "lat": 42.2459002,
     "lng": -71.9081505
   },
+  "Lakeland, MN": {
+    "lat": 44.955056,
+    "lng": -92.7709101
+  },
   "Fair Haven, NJ": {
     "lat": 40.3606653,
     "lng": -74.0381947
@@ -7047,6 +7043,10 @@
     "lat": 41.258841,
     "lng": -95.8519484
   },
+  "Monroeville, PA": {
+    "lat": 40.4335167,
+    "lng": -79.7606192
+  },
   "Uniontown, PA": {
     "lat": 39.900937,
     "lng": -79.725931
@@ -7070,10 +7070,6 @@
   "Altoona, IA": {
     "lat": 41.6437308,
     "lng": -93.4696031
-  },
-  "Monroeville, PA": {
-    "lat": 40.4335167,
-    "lng": -79.7606192
   },
   "Muscatine, IA": {
     "lat": 41.4776121,
@@ -7127,6 +7123,10 @@
     "lat": 40.8931546,
     "lng": -74.5818254
   },
+  "Longmont, CO": {
+    "lat": 40.1672117,
+    "lng": -105.101928
+  },
   "Lake Forest, CA": {
     "lat": 33.6469261,
     "lng": -117.6859213
@@ -7138,6 +7138,10 @@
   "Northridge, CA": {
     "lat": 34.2345615,
     "lng": -118.5369316
+  },
+  "Washington, IA": {
+    "lat": 41.3160082,
+    "lng": -91.7340327
   },
   "Pembroke, MA": {
     "lat": 42.0714907,
@@ -7203,17 +7207,9 @@
     "lat": 25.9873137,
     "lng": -80.2322706
   },
-  "Mayer, AZ": {
-    "lat": 34.4263875,
-    "lng": -112.2367232
-  },
   "Royersford, PA": {
     "lat": 40.184174,
     "lng": -75.5377894
-  },
-  "Kerrick, MN": {
-    "lat": 46.3393449,
-    "lng": -92.5870118
   },
   "Hermantown, MN": {
     "lat": 46.8068852,
@@ -7223,17 +7219,9 @@
     "lat": 40.9312099,
     "lng": -73.8987469
   },
-  "Pleasantville, NY": {
-    "lat": 41.1328736,
-    "lng": -73.7926335
-  },
   "Noblesville, IN": {
     "lat": 40.0460881,
     "lng": -86.0139854
-  },
-  "Prince William, VA": {
-    "lat": 38.7389846,
-    "lng": -77.5536743
   },
   "Novi, MI": {
     "lat": 42.48059,
@@ -7395,10 +7383,6 @@
     "lat": 38.7389846,
     "lng": -77.5536743
   },
-  "Utica, MI": {
-    "lat": 42.6261446,
-    "lng": -83.0335384
-  },
   "Elizabeth, NJ": {
     "lat": 40.6639916,
     "lng": -74.2107006
@@ -7422,10 +7406,6 @@
   "East Cobb, GA": {
     "lat": 33.9600091,
     "lng": -84.5019215
-  },
-  "Brimson, MN": {
-    "lat": 47.2765054,
-    "lng": -91.8671737
   },
   "Warminster Township, PA": {
     "lat": 40.2067751,
@@ -7478,6 +7458,10 @@
   "Clayton, NC": {
     "lat": 35.650711,
     "lng": -78.4563914
+  },
+  "Lake Elmo, MN": {
+    "lat": 45.0021685,
+    "lng": -92.8801862
   },
   "New Brunswick, NJ": {
     "lat": 40.4936119,
@@ -7595,13 +7579,9 @@
     "lat": 40.2142419,
     "lng": -75.304156
   },
-  "This event's address is private. Sign up for more details, VA": {
-    "lat": null,
-    "lng": null
-  },
   "Ruskin, FL": {
-    "lat": 27.7013603,
-    "lng": -82.423798
+    "lat": 27.7206448,
+    "lng": -82.4340374
   },
   "Leander, TX": {
     "lat": 30.5736134,
@@ -7839,10 +7819,6 @@
     "lat": 41.3673191,
     "lng": -82.1073583
   },
-  "Manfield, TX": {
-    "lat": 29.7177111,
-    "lng": -95.6634087
-  },
   "Cuyahoga Falls, OH": {
     "lat": 41.1362729,
     "lng": -81.4828123
@@ -7959,17 +7935,13 @@
     "lat": 43.9732475,
     "lng": -90.8516564
   },
-  "Hi-Nella, NJ": {
-    "lat": 39.8356695,
-    "lng": -75.0243357
+  "Somerdale, NJ": {
+    "lat": 39.8440027,
+    "lng": -75.0226691
   },
   "White Lake Township, MI": {
     "lat": 42.6166323,
     "lng": -83.4495067
-  },
-  "Eldridge, IA": {
-    "lat": 41.6580467,
-    "lng": -90.5846035
   },
   "Blue Springs, MO": {
     "lat": 39.017316,
@@ -7983,13 +7955,13 @@
     "lat": 40.8579293,
     "lng": -74.0816693
   },
-  "Dunedin, FL": {
-    "lat": 28.0116627,
-    "lng": -82.7893788
-  },
   "Tubac, AZ": {
     "lat": 31.61259,
     "lng": -111.0459238
+  },
+  "Port Washington, WI": {
+    "lat": 43.3885538,
+    "lng": -87.8692845
   },
   "Rossmoor, CA": {
     "lat": 33.7882498,
@@ -8011,10 +7983,6 @@
     "lat": 32.3293111,
     "lng": -96.6252679
   },
-  "Port Republic, VA": {
-    "lat": 38.2884705,
-    "lng": -78.8089961
-  },
   "Princeton, MN": {
     "lat": 45.5698156,
     "lng": -93.5803054
@@ -8024,8 +7992,8 @@
     "lng": -75.3702305
   },
   "Stockton, NJ": {
-    "lat": 40.407883,
-    "lng": -74.9782238
+    "lat": 40.4058792,
+    "lng": -74.9773594
   },
   "Maplewood, MN": {
     "lat": 45.0082216,
@@ -8084,16 +8052,20 @@
     "lng": -74.0437839
   },
   "Apollo Beach, FL": {
-    "lat": 27.7741547,
-    "lng": -82.4062097
+    "lat": 27.7729445,
+    "lng": -82.3981375
   },
-  "Middlesex County, NJ": {
-    "lat": 40.4279708,
-    "lng": -74.3963102
+  "Milltown, NJ": {
+    "lat": 40.4562165,
+    "lng": -74.4432073
   },
   "Annandale, MN": {
     "lat": 45.2627428,
     "lng": -94.1244271
+  },
+  "Middlesex, NJ": {
+    "lat": 40.4279708,
+    "lng": -74.3963102
   },
   "Chevy Chase, MD": {
     "lat": 38.9813699,
@@ -8106,6 +8078,10 @@
   "Hot Springs, NC": {
     "lat": 35.8923253,
     "lng": -82.8290318
+  },
+  "Tecumseh, MI": {
+    "lat": 42.0039331,
+    "lng": -83.9449417
   },
   "Toms River, NJ": {
     "lat": 39.9528389,
@@ -8131,17 +8107,9 @@
     "lat": 41.7610984,
     "lng": -93.8243925
   },
-  "McArthur, OH": {
-    "lat": 39.2464596,
-    "lng": -82.4784898
-  },
   "Warner Robins, GA": {
     "lat": 32.6200973,
     "lng": -83.606568
-  },
-  "Safford, AZ": {
-    "lat": 32.8332254,
-    "lng": -109.7131818
   },
   "Wanaque, NJ": {
     "lat": 41.0381526,
@@ -8182,10 +8150,6 @@
   "Annapolis, MD": {
     "lat": 38.9786401,
     "lng": -76.492786
-  },
-  "Croton, NY": {
-    "lat": 41.2088215,
-    "lng": -73.8905175
   },
   "Cullman, AL": {
     "lat": 34.1335332,
@@ -8275,6 +8239,10 @@
     "lat": 43.5899737,
     "lng": -70.3346065
   },
+  "Mill Creek, WA": {
+    "lat": 47.8577455,
+    "lng": -122.2210628
+  },
   "Wabeno, WI": {
     "lat": 45.438577,
     "lng": -88.660387
@@ -8343,6 +8311,10 @@
     "lat": 44.1092497,
     "lng": -69.3740897
   },
+  "Riverdale, GA": {
+    "lat": 33.5726113,
+    "lng": -84.4132594
+  },
   "Coto de Caza, CA": {
     "lat": 33.6013399,
     "lng": -117.5856235
@@ -8355,13 +8327,13 @@
     "lat": 37.2695661,
     "lng": -107.010816
   },
+  "Benson, AZ": {
+    "lat": 31.9679895,
+    "lng": -110.2943314
+  },
   "Olathe, KS": {
     "lat": 38.8838856,
     "lng": -94.81887
-  },
-  "Willcox, AZ": {
-    "lat": 32.2529138,
-    "lng": -109.8315759
   },
   "Plainview, NY": {
     "lat": 40.7834607,
@@ -8395,565 +8367,17 @@
     "lat": null,
     "lng": null
   },
-  "Grand Blanc, MI": {
-    "lat": 42.9275277,
-    "lng": -83.6299518
-  },
-  "Westbrook, MN": {
-    "lat": 44.0405625,
-    "lng": -95.4345304
-  },
-  "Santa Clara, CA": {
-    "lat": 37.2333253,
-    "lng": -121.6846349
-  },
-  "Wytheville, VA": {
-    "lat": 36.9479966,
-    "lng": -81.0869747
-  },
-  "Pepper Pike, OH": {
-    "lat": 41.478387,
-    "lng": -81.46373
-  },
-  "Tipton, IA": {
-    "lat": 41.7697016,
-    "lng": -91.1281732
-  },
-  "Belen, NM": {
-    "lat": 34.6627495,
-    "lng": -106.7762
-  },
-  "Pembroke, NH": {
-    "lat": 43.1475795,
-    "lng": -71.458043
-  },
-  "Jefferson City, TN": {
-    "lat": 36.122311,
-    "lng": -83.4923961
-  },
-  "Girdwood, AK": {
-    "lat": 60.9632459,
-    "lng": -149.1336969
-  },
-  "North Pole, AK": {
-    "lat": 64.750997,
-    "lng": -147.349319
-  },
-  "Delta Junction, AK": {
-    "lat": 64.0373478,
-    "lng": -145.732157
-  },
-  "Elko, NV": {
-    "lat": 41.1958128,
-    "lng": -115.3272864
-  },
-  "Sitka, AK": {
-    "lat": 57.4086082,
-    "lng": -135.4596206
-  },
-  "Haines, AK": {
-    "lat": 59.0831232,
-    "lng": -135.3430573
-  },
-  "Petersburg, AK": {
-    "lat": 56.7687945,
-    "lng": -132.880103
-  },
-  "Wrangell, AK": {
-    "lat": 56.4706022,
-    "lng": -132.3829431
-  },
-  "Talkeetna, AK": {
-    "lat": 62.267644,
-    "lng": -150.0295288
-  },
-  "Seward, AK": {
-    "lat": 60.1013952,
-    "lng": -149.4404281
-  },
-  "Cordova, AK": {
-    "lat": 60.5443385,
-    "lng": -145.7595063
-  },
-  "Chaffee County, CO": {
-    "lat": 38.7413025,
-    "lng": -106.1825012
-  },
-  "Seldovia, AK": {
-    "lat": 59.439206,
-    "lng": -151.7139091
-  },
-  "Kodiak, AK": {
-    "lat": 57.7901661,
-    "lng": -152.4067073
-  },
-  "Bethel, AK": {
-    "lat": 60.7946775,
-    "lng": -161.7619055
-  },
-  "Dillingham, AK": {
-    "lat": 59.0398598,
-    "lng": -158.4604177
-  },
-  "Hart, MI": {
-    "lat": 43.698341,
-    "lng": -86.363965
-  },
-  "Nome, AK": {
-    "lat": 64.4975098,
-    "lng": -165.4061701
-  },
-  "Elk River, MN": {
-    "lat": 45.3038538,
-    "lng": -93.5671825
-  },
-  "Plainville, CT": {
-    "lat": 41.6711395,
-    "lng": -72.8672429
-  },
-  "Sandy, UT": {
-    "lat": 40.5710454,
-    "lng": -111.8953815
-  },
-  "Bernie, MO": {
-    "lat": 36.6689446,
-    "lng": -89.9687021
-  },
-  "Lino Lakes, MN": {
-    "lat": 45.1602442,
-    "lng": -93.0888324
-  },
-  "Isanti, MN": {
-    "lat": 45.5693224,
-    "lng": -93.326521
-  },
-  "Belfast, ME": {
-    "lat": 44.4261759,
-    "lng": -69.0065207
-  },
-  "Pearland, TX": {
-    "lat": 29.5639758,
-    "lng": -95.2864299
-  },
-  "Damascus, OR": {
-    "lat": 45.4220856,
-    "lng": -122.4283111
-  },
-  "Gardena, CA": {
-    "lat": 33.8815601,
-    "lng": -118.2935879
-  },
-  "Sharon, PA": {
-    "lat": 41.232947,
-    "lng": -80.5078056
-  },
-  "Salisbury, NC": {
-    "lat": 35.6709727,
-    "lng": -80.4742261
-  },
-  "Olympia, WA": {
-    "lat": 47.0451022,
-    "lng": -122.8950075
-  },
-  "Nash County, NC": {
-    "lat": 35.992983,
-    "lng": -77.9755309
-  },
-  "Cape Fear, NC": {
-    "lat": 33.8461325,
-    "lng": -77.963424
-  },
-  "Newton, NC": {
-    "lat": 35.6630887,
-    "lng": -81.2219363
-  },
-  "This event's address is private. Sign up for more details, NC": {
-    "lat": null,
-    "lng": null
-  },
-  "Garner, NC": {
-    "lat": 35.7112642,
-    "lng": -78.6141709
-  },
-  "This event's address is private. Sign up for more details, AK": {
-    "lat": null,
-    "lng": null
-  },
-  "Rosenberg, TX": {
-    "lat": 29.5580242,
-    "lng": -95.8068304
-  },
-  "This event's address is private. Sign up for more details, NJ": {
-    "lat": null,
-    "lng": null
-  },
-  "Cocoa Beach, FL": {
-    "lat": 28.3184107,
-    "lng": -80.6094959
-  },
-  "Delavan, WI": {
-    "lat": 42.633102,
-    "lng": -88.6460554
-  },
-  "Rochelle Park, NJ": {
-    "lat": 40.9092993,
-    "lng": -74.0733086
-  },
-  "Antrim, NH": {
-    "lat": 43.0302633,
-    "lng": -71.9381267
-  },
-  "Ridgefield, NJ": {
-    "lat": 40.8342669,
-    "lng": -74.0087505
-  },
-  "Lockport, IL": {
-    "lat": 41.5894753,
-    "lng": -88.057837
-  },
-  "Orono, MN": {
-    "lat": 44.9713519,
-    "lng": -93.6044033
-  },
-  "Afton, MN": {
-    "lat": 44.9028414,
-    "lng": -92.7832322
-  },
-  "Missouri City, TX": {
-    "lat": 29.6185669,
-    "lng": -95.5377215
-  },
-  "Shorewood, IL": {
-    "lat": 41.5200305,
-    "lng": -88.2017293
-  },
-  "Joliet, IL": {
-    "lat": 41.5263603,
-    "lng": -88.0840212
-  },
-  "Crest Hill, IL": {
-    "lat": 41.554753,
-    "lng": -88.0986709
-  },
-  "Bolingbrook, IL": {
-    "lat": 41.7003302,
-    "lng": -88.0717708
-  },
-  "West Milford, NJ": {
-    "lat": 41.1312069,
-    "lng": -74.3673748
-  },
-  "Pine Hill, NJ": {
-    "lat": 39.7842813,
-    "lng": -74.9921108
-  },
-  "Berlin Township, NJ": {
-    "lat": 39.8092374,
-    "lng": -74.9418173
-  },
-  "Medical Lake, WA": {
-    "lat": 47.5727104,
-    "lng": -117.682391
-  },
-  "Topsham, ME": {
-    "lat": 43.9247398,
-    "lng": -69.9635448
-  },
-  "Everett, MA": {
-    "lat": 42.4085897,
-    "lng": -71.0542002
-  },
-  "Voorhees, NJ": {
-    "lat": 39.8512162,
-    "lng": -74.9619779
-  },
-  "TBD, WA": {
-    "lat": 41.8890931,
-    "lng": -91.7065184
-  },
-  "Sabattus, ME": {
-    "lat": 44.1200148,
-    "lng": -70.1076532
-  },
-  "New Richmond, OH": {
-    "lat": 38.9486757,
-    "lng": -84.2799366
-  },
-  "Jefferson City, MO": {
-    "lat": 38.577359,
-    "lng": -92.1724265
-  },
-  "Norwalk, CA": {
-    "lat": 33.9092802,
-    "lng": -118.0849169
-  },
-  "Cerritos, CA": {
-    "lat": 33.8644291,
-    "lng": -118.0539323
-  },
-  "Cypress, CA": {
-    "lat": 33.8248235,
-    "lng": -118.0399368
-  },
-  "Plymouth, MI": {
-    "lat": 42.3712,
-    "lng": -83.4675021
-  },
-  "Flushing, MI": {
-    "lat": 43.0630834,
-    "lng": -83.8510732
-  },
-  "Hays County, TX": {
-    "lat": 30.0447901,
-    "lng": -98.0393127
-  },
-  "Randolph, NJ": {
-    "lat": 40.844265,
-    "lng": -74.5857218
-  },
-  "Aliso Viejo, CA": {
-    "lat": 33.5761376,
-    "lng": -117.7258122
-  },
-  "Greenville, OH": {
-    "lat": 40.1023909,
-    "lng": -84.6332986
-  },
-  "Salina, KS": {
-    "lat": 38.8402805,
-    "lng": -97.6114237
-  },
-  "Snohomish, WA": {
-    "lat": 48.0074736,
-    "lng": -121.7304882
-  },
-  "Franklin, NJ": {
-    "lat": 41.1220409,
-    "lng": -74.5804378
-  },
-  "North Saint Paul, MN": {
-    "lat": 45.0122571,
-    "lng": -92.9922512
-  },
-  "Reidsville, NC": {
-    "lat": 36.3548586,
-    "lng": -79.6644748
-  },
-  "Davenport, FL": {
-    "lat": 28.1614046,
-    "lng": -81.6017417
-  },
-  "Durham, CT": {
-    "lat": 41.4817647,
-    "lng": -72.6812059
-  },
-  "Benton Harbor, MI": {
-    "lat": 42.1167065,
-    "lng": -86.4541894
-  },
-  "East Hampton, CT": {
-    "lat": 41.5758442,
-    "lng": -72.5024804
-  },
-  "Franklin, NH": {
-    "lat": 43.4442432,
-    "lng": -71.6472988
-  },
-  "Newport, KY": {
-    "lat": 39.0889469,
-    "lng": -84.4919524
-  },
-  "Everett, WA": {
-    "lat": 47.9793437,
-    "lng": -122.2127011
-  },
-  "Clinton Township, MI": {
-    "lat": 42.5869782,
-    "lng": -82.9200047
-  },
-  "Hutchinson, KS": {
-    "lat": 38.0608444,
-    "lng": -97.9297743
-  },
-  "Linton Hall, VA": {
-    "lat": 38.7510615,
-    "lng": -77.5815922
-  },
-  "Sprague, CT": {
-    "lat": 41.6148313,
-    "lng": -72.0543528
-  },
-  "Huntington Park, CA": {
-    "lat": 33.9805731,
-    "lng": -118.2252073
-  },
-  "Freeport, FL": {
-    "lat": 30.4982516,
-    "lng": -86.1360517
-  },
-  "DeFuniak Springs, FL": {
-    "lat": 30.7210227,
-    "lng": -86.1152184
-  },
-  "Miramar Beach, FL": {
-    "lat": 30.377985,
-    "lng": -86.3616979
-  },
-  "Santa Rosa Beach, FL": {
-    "lat": 30.3466423,
-    "lng": -86.2307992
-  },
-  "Mount Pleasant, MI": {
-    "lat": 43.597646,
-    "lng": -84.7668495
-  },
-  "Murphy, TX": {
-    "lat": 33.0151208,
-    "lng": -96.6130478
-  },
-  "Cranbury, NJ": {
-    "lat": 40.3133907,
-    "lng": -74.5201927
-  },
-  "Rocky River, OH": {
-    "lat": 41.4756031,
-    "lng": -81.8393034
-  },
-  "Allen, TX": {
-    "lat": 33.1031744,
-    "lng": -96.6705503
-  },
-  "Oakdale, CT": {
-    "lat": 41.4661017,
-    "lng": -72.1578511
-  },
-  "Buda, TX": {
-    "lat": 30.082475,
-    "lng": -97.8417144
-  },
-  "Natick, MA": {
-    "lat": 42.2836393,
-    "lng": -71.346996
-  },
-  "Dedham, MA": {
-    "lat": 42.2489143,
-    "lng": -71.1755732
-  },
-  "Genoa Township, OH": {
-    "lat": 40.1687402,
-    "lng": -82.9000234
-  },
-  "Shelby County, TN": {
-    "lat": 35.1782557,
-    "lng": -89.8739775
-  },
-  "Raynham, MA": {
-    "lat": 41.9487118,
-    "lng": -71.0731008
-  },
-  "Addison, ME": {
-    "lat": 44.618822,
-    "lng": -67.744446
-  },
-  "Decorah, IA": {
-    "lat": 43.3041609,
-    "lng": -91.7859098
-  },
-  "Cheney, WA": {
-    "lat": 47.4892246,
-    "lng": -117.579304
-  },
-  "San Diego County, CA": {
-    "lat": 32.9637838,
-    "lng": -116.7706277
-  },
-  "Kyle, TX": {
-    "lat": 29.9892928,
-    "lng": -97.8772103
-  },
-  "Cathedral City, CA": {
-    "lat": 33.7810031,
-    "lng": -116.464076
-  },
-  "Chelsea, MI": {
-    "lat": 42.3180163,
-    "lng": -84.020224
-  },
-  "Westbrook, ME": {
-    "lat": 43.6763036,
-    "lng": -70.3663874
-  },
-  "Rockland, ME": {
-    "lat": 44.1048327,
-    "lng": -69.1091823
-  },
-  "Georgetown, MA": {
-    "lat": 42.7245632,
-    "lng": -70.9919685
-  },
-  "Wakefield, MA": {
-    "lat": 42.506484,
-    "lng": -71.0728306
-  },
-  "Grovetown, GA": {
-    "lat": 33.4504157,
-    "lng": -82.1981764
-  },
-  "Middleton, MA": {
-    "lat": 42.5951005,
-    "lng": -71.0159146
-  },
-  "Topsfield, MA": {
-    "lat": 42.6390841,
-    "lng": -70.9507469
-  },
-  "Porter, TX": {
-    "lat": 30.1024397,
-    "lng": -95.2296553
-  },
-  "Montgomery County, TX": {
-    "lat": 30.301949,
-    "lng": -95.5065944
-  },
-  "Irving, TX": {
-    "lat": 32.8295183,
-    "lng": -96.9442177
-  },
-  "Wyoming, DE": {
-    "lat": 39.1181681,
-    "lng": -75.5588139
-  },
-  "Southfield, MI": {
-    "lat": 42.4733689,
-    "lng": -83.2218731
-  },
-  "Coopersburg, PA": {
-    "lat": 40.51146,
-    "lng": -75.3903376
-  },
-  "Renton, WA": {
-    "lat": 47.4799078,
-    "lng": -122.2034496
-  },
-  "Levittown, PA": {
-    "lat": 40.157556,
-    "lng": -74.8321288
-  },
-  "Hollis, NH": {
-    "lat": 42.7431621,
-    "lng": -71.591333
-  },
-  "Saint Charles, MO": {
-    "lat": 38.783855,
-    "lng": -90.481677
-  },
-  "Robbinsdale, MN": {
-    "lat": 45.0313156,
-    "lng": -93.3395843
+  "Romulus, MI": {
+    "lat": 42.2222614,
+    "lng": -83.3965995
   },
   "Fort Thomas, KY": {
     "lat": 39.0786242,
     "lng": -84.4483432
+  },
+  "New London, NH": {
+    "lat": 43.414026,
+    "lng": -71.985168
   },
   "French Valley, CA": {
     "lat": 33.6091092,
@@ -8975,13 +8399,25 @@
     "lat": 45.0838291,
     "lng": -93.2590388
   },
+  "Cerritos, CA": {
+    "lat": 33.8644291,
+    "lng": -118.0539323
+  },
   "Grand Forks, ND": {
     "lat": 47.9252104,
     "lng": -97.0306325
   },
+  "Norwalk, CA": {
+    "lat": 33.9092802,
+    "lng": -118.0849169
+  },
   "Trenton, MI": {
     "lat": 42.1406552,
     "lng": -83.1800544
+  },
+  "Derry, NH": {
+    "lat": 42.8808677,
+    "lng": -71.3264492
   },
   "Jamison, PA": {
     "lat": 40.2548297,
@@ -8994,6 +8430,82 @@
   "Lake Balboa, CA": {
     "lat": 34.1938237,
     "lng": -118.5010456
+  },
+  "Port St. Lucie, FL": {
+    "lat": 27.2939333,
+    "lng": -80.3503283
+  },
+  "Stonewall, TX": {
+    "lat": 33.1571742,
+    "lng": -100.2453011
+  },
+  "St. Ignace, MI": {
+    "lat": 45.8686681,
+    "lng": -84.7278146
+  },
+  "Bay County, FL": {
+    "lat": 30.2481693,
+    "lng": -85.6593633
+  },
+  "Mount Airy, MD": {
+    "lat": 39.3765918,
+    "lng": -77.1549078
+  },
+  "Chester, MD": {
+    "lat": 38.970016,
+    "lng": -76.274159
+  },
+  "Coralville, IA": {
+    "lat": 41.6759977,
+    "lng": -91.580705
+  },
+  "Knoxville, IA": {
+    "lat": 41.3183891,
+    "lng": -93.0971358
+  },
+  "Williamsburg, IA": {
+    "lat": 41.6612394,
+    "lng": -92.0095079
+  },
+  "Belleville, MI": {
+    "lat": 42.2048414,
+    "lng": -83.4852106
+  },
+  "Dover, DE": {
+    "lat": 39.158168,
+    "lng": -75.5243682
+  },
+  "Leon Valley, TX": {
+    "lat": 29.4952307,
+    "lng": -98.6186317
+  },
+  "West Saint Paul, MN": {
+    "lat": 44.9101545,
+    "lng": -93.0802073
+  },
+  "Champlin, MN": {
+    "lat": 45.1888539,
+    "lng": -93.3974538
+  },
+  "Otsego, MN": {
+    "lat": 45.2812733,
+    "lng": -93.614857
+  },
+  "Kalama, WA": {
+    "lat": 46.0085225,
+    "lng": -122.84247
+  },
+  "Dunedin, FL": {
+    "lat": 28.0116627,
+    "lng": -82.7893788
+  },
+  "Lebanon, TN": {
+    "lat": 36.2079779,
+    "lng": -86.2910945
+  },
+  "Rome, GA": {
+    "lat": 34.257038,
+    "lng": -85.1646726
   },
   "Odell Veterans Memorial Park, Beverly": {
     "lat": null,

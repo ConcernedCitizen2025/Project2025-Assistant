@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-17",
+  "cutoffStr": "2026-09-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 18803,
-    "geoKept": 18706,
-    "virtKept": 87
+    "all": 19033,
+    "geoKept": 18786,
+    "virtKept": 238
   },
   "perSource": {
     "mobilize": {
-      "total": 18785,
-      "recent": 18782,
-      "withCoords": 14374,
-      "keptGeo": 14371,
-      "keptVirt": 4411,
+      "total": 19016,
+      "recent": 19013,
+      "withCoords": 14519,
+      "keptGeo": 14516,
+      "keptVirt": 4497,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,27 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 12,
+      "total": 11,
       "recent": 11,
       "withCoords": 9,
       "keptGeo": 9,
       "keptVirt": 2,
-      "sampleDroppedByDate": [
-        {
-          "title": "Compare Battery Capacity and Riding Range",
-          "begin": "2026-09-16",
-          "end": "2026-09-16",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Compare Battery Capacity and Riding Range",
-              "href": "https://events.pol-rev.com/events/9495de3d-d087-43e9-9471-85e79e2112a0"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings, Vote!!",
