@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-18",
+  "cutoffStr": "2026-09-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 19033,
-    "geoKept": 18786,
-    "virtKept": 238
+    "all": 19037,
+    "geoKept": 18937,
+    "virtKept": 91
   },
   "perSource": {
     "mobilize": {
-      "total": 19016,
-      "recent": 19013,
-      "withCoords": 14519,
-      "keptGeo": 14516,
-      "keptVirt": 4497,
+      "total": 19019,
+      "recent": 19016,
+      "withCoords": 14490,
+      "keptGeo": 14487,
+      "keptVirt": 4529,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -127,11 +127,11 @@
       ]
     },
     "mobilizon": {
-      "total": 11,
-      "recent": 11,
+      "total": 12,
+      "recent": 12,
       "withCoords": 9,
       "keptGeo": 9,
-      "keptVirt": 2,
+      "keptVirt": 3,
       "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
@@ -145,6 +145,20 @@
             {
               "title": "No Kings, Vote!!",
               "href": "https://events.pol-rev.com/events/c2716062-03e9-4c94-8b3a-6e4b4eb94a31"
+            }
+          ]
+        },
+        {
+          "title": "Seat Covers For Jeep Wrangler: Complete Buying, Fit, and Care Guide",
+          "begin": "2026-09-19",
+          "end": "2026-09-19",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "Seat Covers For Jeep Wrangler: Complete Buying, Fit, and Care Guide",
+              "href": "https://events.pol-rev.com/events/20406ed9-ece5-4503-a075-1a07677c9462"
             }
           ]
         },
