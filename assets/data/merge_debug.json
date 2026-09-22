@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-20",
+  "cutoffStr": "2026-09-21",
   "lookbackDays": 1,
   "totals": {
-    "all": 18390,
-    "geoKept": 18135,
-    "virtKept": 244
+    "all": 18286,
+    "geoKept": 18185,
+    "virtKept": 92
   },
   "perSource": {
     "mobilize": {
-      "total": 18372,
-      "recent": 18369,
-      "withCoords": 14036,
-      "keptGeo": 14033,
-      "keptVirt": 4336,
+      "total": 18269,
+      "recent": 18266,
+      "withCoords": 14102,
+      "keptGeo": 14099,
+      "keptVirt": 4167,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-09-20",
+          "begin": "2026-09-27",
           "end": "2026-11-15",
           "lat": null,
           "lng": null,
@@ -127,41 +127,12 @@
       ]
     },
     "mobilizon": {
-      "total": 12,
-      "recent": 10,
+      "total": 11,
+      "recent": 11,
       "withCoords": 9,
-      "keptGeo": 8,
+      "keptGeo": 9,
       "keptVirt": 2,
-      "sampleDroppedByDate": [
-        {
-          "title": "Seat Covers For Jeep Wrangler: Complete Buying, Fit, and Care Guide",
-          "begin": "2026-09-19",
-          "end": "2026-09-19",
-          "lat": null,
-          "lng": null,
-          "location": "",
-          "links": [
-            {
-              "title": "Seat Covers For Jeep Wrangler: Complete Buying, Fit, and Care Guide",
-              "href": "https://events.pol-rev.com/events/20406ed9-ece5-4503-a075-1a07677c9462"
-            }
-          ]
-        },
-        {
-          "title": "Stand up for Democracy",
-          "begin": "2026-09-19",
-          "end": "2026-09-19",
-          "lat": 38.1353182,
-          "lng": -122.2158792,
-          "location": "1175 Admiral Callaghan Lane, Vallejo, CA 94591, United States of America, Vallejo",
-          "links": [
-            {
-              "title": "Stand up for Democracy",
-              "href": "https://events.pol-rev.com/events/575e4b4e-95a2-44dd-ba45-03b9309ee5db"
-            }
-          ]
-        }
-      ],
+      "sampleDroppedByDate": [],
       "sampleDroppedByCoords": [
         {
           "title": "No Kings, Vote!!",
