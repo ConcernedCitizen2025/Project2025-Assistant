@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-09-26",
+  "cutoffStr": "2026-09-27",
   "lookbackDays": 1,
   "totals": {
-    "all": 19850,
-    "geoKept": 19701,
-    "virtKept": 139
+    "all": 19345,
+    "geoKept": 19199,
+    "virtKept": 137
   },
   "perSource": {
     "mobilize": {
-      "total": 19828,
-      "recent": 19825,
-      "withCoords": 15174,
-      "keptGeo": 15171,
-      "keptVirt": 4654,
+      "total": 19322,
+      "recent": 19319,
+      "withCoords": 14837,
+      "keptGeo": 14834,
+      "keptVirt": 4485,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 449485,
           "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
           "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
-          "begin": "2026-09-26",
+          "begin": "2026-10-04",
           "end": "2026-10-24",
           "lat": null,
           "lng": null,
@@ -127,28 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 16,
-      "recent": 15,
-      "withCoords": 14,
+      "total": 17,
+      "recent": 17,
+      "withCoords": 13,
       "keptGeo": 13,
-      "keptVirt": 2,
-      "sampleDroppedByDate": [
+      "keptVirt": 4,
+      "sampleDroppedByDate": [],
+      "sampleDroppedByCoords": [
         {
-          "title": "BloNo IL - Transgender Resource Fair 4th annual community event by UUBN",
-          "begin": "2026-09-25",
-          "end": "2026-09-25",
-          "lat": 40.4929988,
-          "lng": -88.9684006,
-          "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
+          "title": "Richland County, WI",
+          "begin": "2026-10-17",
+          "end": "2026-10-17",
+          "lat": null,
+          "lng": null,
+          "location": "",
           "links": [
             {
-              "title": "BloNo IL - Transgender Resource Fair 4th annual community event by UUBN",
-              "href": "https://events.pol-rev.com/events/f8b2af28-0c0c-4893-b039-353b0d3973cf"
+              "title": "Richland County, WI",
+              "href": "https://events.pol-rev.com/events/db86efad-79fa-4877-9ccd-ef97625283e4"
             }
           ]
-        }
-      ],
-      "sampleDroppedByCoords": [
+        },
+        {
+          "title": "NO KINGS RALLY",
+          "begin": "2026-10-17",
+          "end": "2026-10-17",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "NO KINGS RALLY",
+              "href": "https://events.pol-rev.com/events/c7f5101b-c7e4-4f37-bf99-c8f49a4b9278"
+            }
+          ]
+        },
         {
           "title": "NO KINGS RALLY TO GET OUT THE VOTE",
           "begin": "2026-10-17",
@@ -160,20 +173,6 @@
             {
               "title": "NO KINGS RALLY TO GET OUT THE VOTE",
               "href": "https://events.pol-rev.com/events/cf4401cb-0d80-4f5d-a128-0138f4bfec63"
-            }
-          ]
-        },
-        {
-          "title": "No Kings, Vote!!",
-          "begin": "2026-10-17",
-          "end": "2026-10-17",
-          "lat": null,
-          "lng": null,
-          "location": "Odell Veterans Memorial Park, Beverly",
-          "links": [
-            {
-              "title": "No Kings, Vote!!",
-              "href": "https://events.pol-rev.com/events/c2716062-03e9-4c94-8b3a-6e4b4eb94a31"
             }
           ]
         }

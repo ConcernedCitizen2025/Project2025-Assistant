@@ -1,6 +1,38 @@
 {
   "data": [
     {
+      "title": "No Kings",
+      "date": "2026-10-17",
+      "location": "Canandaigua, NY 14424, United States of America, Town of Canandaigua",
+      "lat": 42.8643249,
+      "lng": -77.2913089,
+      "link": "https://events.pol-rev.com/events/aeaef710-7b63-469f-8dfb-e57da8ec570f"
+    },
+    {
+      "title": "\"NO KINGS\" VOTE EARLY RALLY",
+      "date": "2026-10-17",
+      "location": "Humboldt County Courthouse, 825 5th Street, Eureka, CA 95501, United States of America, Eureka",
+      "lat": 40.8029348,
+      "lng": -124.1623953,
+      "link": "https://events.pol-rev.com/events/4dc65ac4-91f6-4b51-bb7d-8b676ba49451"
+    },
+    {
+      "title": "Richland County, WI",
+      "date": "2026-10-17",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/db86efad-79fa-4877-9ccd-ef97625283e4"
+    },
+    {
+      "title": "NO KINGS RALLY",
+      "date": "2026-10-17",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/c7f5101b-c7e4-4f37-bf99-c8f49a4b9278"
+    },
+    {
       "title": "No Kings - Get The Vote Out",
       "date": "2026-10-17",
       "location": "659 South Main Street, City of Canandaigua, NY 14424, United States of America, City of Canandaigua",
@@ -103,30 +135,6 @@
       "lat": 40.4765409,
       "lng": -88.9914247,
       "link": "https://events.pol-rev.com/events/b970afb2-b0dc-4d89-a96d-c7d0e9f47986"
-    },
-    {
-      "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
-      "date": "2026-09-26",
-      "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
-      "lat": 42.23567,
-      "lng": -71.178862,
-      "link": "https://events.pol-rev.com/events/313eb32a-98b9-443e-b4a1-ae82f49ccdf9"
-    },
-    {
-      "title": "Fundraiser for Palestinian Farmers at the Peoria RiverFront Market",
-      "date": "2026-09-26",
-      "location": "River Station, 212 Southwest Water Street, Peoria, IL 61602, United States of America, Peoria",
-      "lat": 40.6883992,
-      "lng": -89.5894199,
-      "link": "https://events.pol-rev.com/events/db2a8dba-fba7-4652-abd1-2e9cd4ebc3e0"
-    },
-    {
-      "title": "BloNo IL - Transgender Resource Fair 4th annual community event by UUBN",
-      "date": "2026-09-25",
-      "location": "Unitarian Universalist Church of Bloomington-Normal, 1613 East Emerson Street, Bloomington, IL 61701, United States of America, Bloomington",
-      "lat": 40.4929988,
-      "lng": -88.9684006,
-      "link": "https://events.pol-rev.com/events/f8b2af28-0c0c-4893-b039-353b0d3973cf"
     }
   ]
 }
