@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "title": "Stand up for Democracy",
+      "date": "2026-10-24",
+      "location": "1175 Admiral Callaghan Lane, Vallejo, CA 94591, United States of America, Vallejo",
+      "lat": 38.1353182,
+      "lng": -122.2158792,
+      "link": "https://events.pol-rev.com/events/8a4f0194-77b8-466e-9444-4bf1bc25dd5b"
+    },
+    {
       "title": "No Kings",
       "date": "2026-10-17",
       "location": "Canandaigua, NY 14424, United States of America, Town of Canandaigua",
@@ -33,6 +41,14 @@
       "link": "https://events.pol-rev.com/events/f51b3ed4-d14a-4bc2-9a13-1343449c29ee"
     },
     {
+      "title": "Cody Wyoming Vote Early No Kings Rally",
+      "date": "2026-10-17",
+      "location": "Cody City Park, Cody, Wyoming, United States of America, Cody",
+      "lat": 44.5254899,
+      "lng": -109.0688008,
+      "link": "https://events.pol-rev.com/events/da9a3236-ec49-4782-893a-f9fc44f32b52"
+    },
+    {
       "title": "Richland County, WI",
       "date": "2026-10-17",
       "location": "",
@@ -47,6 +63,14 @@
       "lat": null,
       "lng": null,
       "link": "https://events.pol-rev.com/events/c7f5101b-c7e4-4f37-bf99-c8f49a4b9278"
+    },
+    {
+      "title": "No Kings/Vote Early",
+      "date": "2026-10-17",
+      "location": "",
+      "lat": null,
+      "lng": null,
+      "link": "https://events.pol-rev.com/events/d4182557-c1be-4ab4-91d9-ae24e76b0d05"
     },
     {
       "title": "No Kings - Get The Vote Out",
@@ -145,12 +169,28 @@
       "link": "https://events.pol-rev.com/events/ae3c9116-f598-4083-90a3-336981eaff0e"
     },
     {
+      "title": "East Peoria IL - Shut The Flock Off and Birddog Anti-Surveillance RALLY",
+      "date": "2026-10-05",
+      "location": "East Peoria City Hall, 401 West Washington Street, Fond du Lac, East Peoria, IL 61611, United States of America, East Peoria",
+      "lat": 40.6709142,
+      "lng": -89.5856663,
+      "link": "https://events.pol-rev.com/events/f9555074-1c11-4a05-b7fc-d244f2867700"
+    },
+    {
       "title": "Trump Takedown",
       "date": "2026-10-03",
       "location": "In front of the Tesla Showroom at Prudential Center, Boston",
       "lat": 42.3480424,
       "lng": -71.082783,
       "link": "https://events.pol-rev.com/events/89eb0891-1d22-4e9b-bd93-7841636e4ce8"
+    },
+    {
+      "title": "No KINGS, No Wars, No ICE on our Streets - Saturdays at Dedham Tesla",
+      "date": "2026-10-03",
+      "location": "840 Providence Hwy, Dedham, MA, United States of America, Dedham",
+      "lat": 42.23567,
+      "lng": -71.178862,
+      "link": "https://events.pol-rev.com/events/6cd79d02-0a8c-42b6-bf28-e0a2a61c71a2"
     },
     {
       "title": "BloNo IL - Shut the Flock Off in person meeting",
