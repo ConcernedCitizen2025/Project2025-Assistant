@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-10-01",
+  "cutoffStr": "2026-10-02",
   "lookbackDays": 1,
   "totals": {
-    "all": 20244,
-    "geoKept": 20105,
-    "virtKept": 130
+    "all": 20579,
+    "geoKept": 20448,
+    "virtKept": 121
   },
   "perSource": {
     "mobilize": {
-      "total": 20213,
-      "recent": 20210,
-      "withCoords": 15596,
-      "keptGeo": 15593,
-      "keptVirt": 4617,
+      "total": 20548,
+      "recent": 20545,
+      "withCoords": 15847,
+      "keptGeo": 15844,
+      "keptVirt": 4701,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -128,11 +128,26 @@
     },
     "mobilizon": {
       "total": 25,
-      "recent": 25,
+      "recent": 24,
       "withCoords": 20,
-      "keptGeo": 20,
+      "keptGeo": 19,
       "keptVirt": 5,
-      "sampleDroppedByDate": [],
+      "sampleDroppedByDate": [
+        {
+          "title": "BloNo IL - Shut the Flock Off in person meeting",
+          "begin": "2026-10-01",
+          "end": "2026-10-01",
+          "lat": 40.4765409,
+          "lng": -88.9914247,
+          "location": "Bloomington Public Library, 205 East Olive Street, Bloomington, IL 61702, United States of America, Bloomington",
+          "links": [
+            {
+              "title": "BloNo IL - Shut the Flock Off in person meeting",
+              "href": "https://events.pol-rev.com/events/b970afb2-b0dc-4d89-a96d-c7d0e9f47986"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Richland County, WI",
