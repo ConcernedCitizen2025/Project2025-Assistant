@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-10-10",
+  "cutoffStr": "2026-10-11",
   "lookbackDays": 1,
   "totals": {
-    "all": 21473,
-    "geoKept": 21338,
-    "virtKept": 126
+    "all": 20798,
+    "geoKept": 20663,
+    "virtKept": 124
   },
   "perSource": {
     "mobilize": {
-      "total": 21439,
-      "recent": 21436,
-      "withCoords": 16882,
-      "keptGeo": 16879,
-      "keptVirt": 4557,
+      "total": 20765,
+      "recent": 20762,
+      "withCoords": 16452,
+      "keptGeo": 16449,
+      "keptVirt": 4313,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 449485,
           "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
           "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
-          "begin": "2026-10-10",
+          "begin": "2026-10-11",
           "end": "2026-10-24",
           "lat": null,
           "lng": null,
@@ -127,12 +127,41 @@
       ]
     },
     "mobilizon": {
-      "total": 28,
-      "recent": 28,
-      "withCoords": 21,
-      "keptGeo": 21,
-      "keptVirt": 7,
-      "sampleDroppedByDate": [],
+      "total": 27,
+      "recent": 25,
+      "withCoords": 20,
+      "keptGeo": 19,
+      "keptVirt": 6,
+      "sampleDroppedByDate": [
+        {
+          "title": "ICE out of Yakima!!",
+          "begin": "2026-10-10",
+          "end": "2026-10-10",
+          "lat": null,
+          "lng": null,
+          "location": "",
+          "links": [
+            {
+              "title": "ICE out of Yakima!!",
+              "href": "https://events.pol-rev.com/events/b02b13b0-8fa8-4dcd-96b2-67f806e6b2fa"
+            }
+          ]
+        },
+        {
+          "title": "Remove the Regime protest",
+          "begin": "2026-10-10",
+          "end": "2026-10-10",
+          "lat": 34.0555008,
+          "lng": -118.2456965,
+          "location": "Gloria Molina Grand Park, Downtown, Los Angeles, California, United States of America, Los Angeles",
+          "links": [
+            {
+              "title": "Remove the Regime protest",
+              "href": "https://events.pol-rev.com/events/dc2f163e-1a6f-4559-9d90-63c266f2ba84"
+            }
+          ]
+        }
+      ],
       "sampleDroppedByCoords": [
         {
           "title": "Richland County, WI",
