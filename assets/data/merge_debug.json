@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-10-17",
+  "cutoffStr": "2026-10-18",
   "lookbackDays": 1,
   "totals": {
-    "all": 21600,
-    "geoKept": 21287,
-    "virtKept": 146
+    "all": 17859,
+    "geoKept": 17548,
+    "virtKept": 144
   },
   "perSource": {
     "mobilize": {
-      "total": 21436,
-      "recent": 21433,
-      "withCoords": 16981,
-      "keptGeo": 16978,
-      "keptVirt": 4455,
+      "total": 17695,
+      "recent": 17692,
+      "withCoords": 13629,
+      "keptGeo": 13626,
+      "keptVirt": 4066,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -111,7 +111,7 @@
           "mobilize_id": 449485,
           "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
           "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
-          "begin": "2026-10-17",
+          "begin": "2026-10-18",
           "end": "2026-10-24",
           "lat": null,
           "lng": null,
