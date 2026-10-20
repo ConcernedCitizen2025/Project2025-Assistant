@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-10-18",
+  "cutoffStr": "2026-10-19",
   "lookbackDays": 1,
   "totals": {
-    "all": 17859,
-    "geoKept": 17548,
-    "virtKept": 144
+    "all": 17549,
+    "geoKept": 17235,
+    "virtKept": 147
   },
   "perSource": {
     "mobilize": {
-      "total": 17695,
-      "recent": 17692,
-      "withCoords": 13629,
-      "keptGeo": 13626,
-      "keptVirt": 4066,
+      "total": 17385,
+      "recent": 17382,
+      "withCoords": 13471,
+      "keptGeo": 13468,
+      "keptVirt": 3914,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-10-18",
+          "begin": "2026-10-25",
           "end": "2026-11-15",
           "lat": null,
           "lng": null,
@@ -111,7 +111,7 @@
           "mobilize_id": 449485,
           "canonical_mobilize_url": "https://www.mobilize.us/event/449485/",
           "title": "Canvassing for Josh Harder, Rhodesia Ransom, Dan Arriola & Robin Cole",
-          "begin": "2026-10-18",
+          "begin": "2026-10-24",
           "end": "2026-10-24",
           "lat": null,
           "lng": null,
