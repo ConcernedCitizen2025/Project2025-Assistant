@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-10-30",
+  "cutoffStr": "2026-10-31",
   "lookbackDays": 1,
   "totals": {
-    "all": 14533,
-    "geoKept": 14261,
-    "virtKept": 105
+    "all": 13500,
+    "geoKept": 13236,
+    "virtKept": 97
   },
   "perSource": {
     "mobilize": {
-      "total": 14369,
-      "recent": 14366,
-      "withCoords": 11039,
-      "keptGeo": 11036,
-      "keptVirt": 3330,
+      "total": 13336,
+      "recent": 13333,
+      "withCoords": 10340,
+      "keptGeo": 10337,
+      "keptVirt": 2996,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -94,7 +94,7 @@
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
           "begin": "2026-11-01",
-          "end": "2026-11-15",
+          "end": "2026-11-22",
           "lat": null,
           "lng": null,
           "location": "This event's address is private. Sign up for more details, Los Angeles, CA",
