@@ -1,60 +1,6 @@
 {
   "data": [
     {
-      "_id": 932295,
-      "mobilize_id": 932295,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/932295/",
-      "title": "FVWA Clark County Business Meeting *VIRTUAL ONLY* NEW TIME",
-      "begin": "2026-11-04",
-      "end": "2027-01-06",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "FVWA Clark County Business Meeting *VIRTUAL ONLY* NEW TIME",
-          "href": "https://www.mobilize.us/fairvotewa/event/932295/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1049826,
-      "mobilize_id": 1049826,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1049826/",
-      "title": "Be a Nonpartisan Challenger at an Absent Voter Counting Board in MI",
-      "begin": "2026-11-04",
-      "end": "2026-11-04",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details, MI",
-      "links": [
-        {
-          "title": "Be a Nonpartisan Challenger at an Absent Voter Counting Board in MI",
-          "href": "https://www.mobilize.us/promotethevote/event/1049826/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1067327,
-      "mobilize_id": 1067327,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1067327/",
-      "title": "National Organizing Call",
-      "begin": "2026-11-04",
-      "end": "2026-12-16",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "National Organizing Call",
-          "href": "https://www.mobilize.us/abdulforsenate/event/1067327/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 547245,
       "mobilize_id": 547245,
       "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
@@ -96,7 +42,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
       "title": "Keweenaw County Canvass Observation",
       "begin": "2026-11-05",
-      "end": "2026-11-17",
+      "end": "2026-11-12",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
@@ -140,24 +86,6 @@
         {
           "title": "SOMOS Reception w/ NYWFP, Local Progress, CUFFH Action, Citizen Action of NY, Make the Road Action,",
           "href": "https://www.mobilize.us/ny-wfp/event/1077766/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1067326,
-      "mobilize_id": 1067326,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1067326/",
-      "title": "Text Team Power Hours",
-      "begin": "2026-11-07",
-      "end": "2026-11-07",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Text Team Power Hours",
-          "href": "https://www.mobilize.us/abdulforsenate/event/1067326/"
         }
       ],
       "_src": "mobilize"
@@ -222,7 +150,7 @@
       "canonical_mobilize_url": "https://www.mobilize.us/event/743086/",
       "title": "INBK Monthly Organizing Meeting",
       "begin": "2026-11-16",
-      "end": "2026-11-16",
+      "end": "2026-12-14",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details, NY",
@@ -343,19 +271,19 @@
       "_src": "mobilize"
     },
     {
-      "_id": 996222,
-      "mobilize_id": 996222,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/996222/",
-      "title": "End-of-Year & Holiday Party: Celebrate w/Indivisible Akron & Akron Democracy Defenders",
-      "begin": "2026-12-14",
-      "end": "2026-12-14",
+      "_id": 932295,
+      "mobilize_id": 932295,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/932295/",
+      "title": "FVWA Clark County Business Meeting *VIRTUAL ONLY* NEW TIME",
+      "begin": "2026-12-02",
+      "end": "2027-01-06",
       "lat": null,
       "lng": null,
       "location": "This event's address is private. Sign up for more details",
       "links": [
         {
-          "title": "End-of-Year & Holiday Party: Celebrate w/Indivisible Akron & Akron Democracy Defenders",
-          "href": "https://www.mobilize.us/indivisibleakron/event/996222/"
+          "title": "FVWA Clark County Business Meeting *VIRTUAL ONLY* NEW TIME",
+          "href": "https://www.mobilize.us/fairvotewa/event/932295/"
         }
       ],
       "_src": "mobilize"

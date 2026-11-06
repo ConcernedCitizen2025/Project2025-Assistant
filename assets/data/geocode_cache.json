@@ -4907,10 +4907,6 @@
     "lat": 40.31092,
     "lng": -75.5025103
   },
-  "Mason, OH": {
-    "lat": 39.3600586,
-    "lng": -84.309939
-  },
   "Porter Ranch, CA": {
     "lat": 34.2818164,
     "lng": -118.5612714
@@ -5043,10 +5039,6 @@
     "lat": 44.5234467,
     "lng": -89.5844457
   },
-  "Franklin, NC": {
-    "lat": 36.1028596,
-    "lng": -78.2787229
-  },
   "This event's address is private. Sign up for more details, FL": {
     "lat": null,
     "lng": null
@@ -5067,10 +5059,6 @@
     "lat": 45.0165728,
     "lng": -93.0949501
   },
-  "Renton, WA": {
-    "lat": 47.4799078,
-    "lng": -122.2034496
-  },
   "Munising, MI": {
     "lat": 46.4100035,
     "lng": -86.6494698
@@ -5082,10 +5070,6 @@
   "Chester, PA": {
     "lat": 39.9829308,
     "lng": -75.7652424
-  },
-  "This event's address is private. Sign up for more details, MI": {
-    "lat": null,
-    "lng": null
   },
   "Maple Grove, MN": {
     "lat": 45.0984983,
@@ -5395,10 +5379,6 @@
     "lat": 39.8092374,
     "lng": -74.9418173
   },
-  "Henderson, NV": {
-    "lat": 36.0301388,
-    "lng": -114.9815488
-  },
   "Saugatuck, MI": {
     "lat": 42.6549244,
     "lng": -86.2040552
@@ -5450,10 +5430,6 @@
   "This event's address is private. Sign up for more details, San Juan": {
     "lat": null,
     "lng": null
-  },
-  "Plymouth, MN": {
-    "lat": 45.0065149,
-    "lng": -93.46651
   },
   "Newport, VT": {
     "lat": 44.9367172,
@@ -5527,6 +5503,10 @@
     "lat": 42.2694308,
     "lng": -71.6129907
   },
+  "La Grange, IL": {
+    "lat": 41.81483,
+    "lng": -87.8735662
+  },
   "Torrance, CA": {
     "lat": 33.8371392,
     "lng": -118.3413606
@@ -5538,5 +5518,17 @@
   "East New Market, MD": {
     "lat": 38.5992145,
     "lng": -75.9246216
+  },
+  "South Haven, MI": {
+    "lat": 42.4030865,
+    "lng": -86.2736407
+  },
+  "Ridgeland, SC": {
+    "lat": 32.4807435,
+    "lng": -80.980386
+  },
+  "Grantsville, MD": {
+    "lat": 39.6991282,
+    "lng": -79.1577212
   }
 }
