@@ -1,47 +1,11 @@
 {
   "data": [
     {
-      "_id": 547245,
-      "mobilize_id": 547245,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/547245/",
-      "title": "Monthly All Member Meeting",
-      "begin": "2026-11-05",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Monthly All Member Meeting",
-          "href": "https://www.mobilize.us/stateswinsouthbay/event/547245/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 942572,
-      "mobilize_id": 942572,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/942572/",
-      "title": "Phonebank for Sean McCann for Congress!",
-      "begin": "2026-11-05",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Phonebank for Sean McCann for Congress!",
-          "href": "https://www.mobilize.us/seanmccannforcongress/event/942572/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1055516,
       "mobilize_id": 1055516,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
       "title": "Keweenaw County Canvass Observation",
-      "begin": "2026-11-05",
+      "begin": "2026-11-06",
       "end": "2026-11-12",
       "lat": null,
       "lng": null,
@@ -50,24 +14,6 @@
         {
           "title": "Keweenaw County Canvass Observation",
           "href": "https://www.mobilize.us/aclumi/event/1055516/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 1067321,
-      "mobilize_id": 1067321,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1067321/",
-      "title": "Latino's for Abdul - Virtual Call",
-      "begin": "2026-11-05",
-      "end": "2026-11-05",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "Latino's for Abdul - Virtual Call",
-          "href": "https://www.mobilize.us/abdulforsenate/event/1067321/"
         }
       ],
       "_src": "mobilize"
