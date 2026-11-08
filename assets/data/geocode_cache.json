@@ -5203,10 +5203,6 @@
     "lat": 41.9234455,
     "lng": -85.5287424
   },
-  "Baldwin, MI": {
-    "lat": 43.901123,
-    "lng": -85.851729
-  },
   "Suttons Bay, MI": {
     "lat": 44.9763817,
     "lng": -85.6511429
@@ -5311,10 +5307,6 @@
     "lat": 43.0904764,
     "lng": -83.2333705
   },
-  "West Branch, MI": {
-    "lat": 44.276408,
-    "lng": -84.238613
-  },
   "Carmel, IN": {
     "lat": 39.9784186,
     "lng": -86.1283681
@@ -5399,14 +5391,6 @@
     "lat": 26.2159066,
     "lng": -98.3252932
   },
-  "Haddon Township, NJ": {
-    "lat": 39.8976132,
-    "lng": -75.0960074
-  },
-  "This event's address is private. Sign up for more details, San Juan": {
-    "lat": null,
-    "lng": null
-  },
   "Newport, VT": {
     "lat": 44.9367172,
     "lng": -72.2055988
@@ -5414,10 +5398,6 @@
   "Santa Ana, CA": {
     "lat": 33.7494951,
     "lng": -117.873221
-  },
-  "Leon Valley, TX": {
-    "lat": 29.4952307,
-    "lng": -98.6186317
   },
   "Johnsburg, IL": {
     "lat": 42.3800209,
@@ -5459,10 +5439,6 @@
     "lat": 38.1880936,
     "lng": -77.6741751
   },
-  "Williston, VT": {
-    "lat": 44.4385339,
-    "lng": -73.0727666
-  },
   "Grosse Pointe Farms, MI": {
     "lat": 42.4092038,
     "lng": -82.8918587
@@ -5470,10 +5446,6 @@
   "Lebanon, OH": {
     "lat": 39.4353373,
     "lng": -84.2029922
-  },
-  "Levittown, PA": {
-    "lat": 40.157556,
-    "lng": -74.8321288
   },
   "North Miami, FL": {
     "lat": 25.8900949,
@@ -5494,10 +5466,6 @@
   "East New Market, MD": {
     "lat": 38.5992145,
     "lng": -75.9246216
-  },
-  "South Haven, MI": {
-    "lat": 42.4030865,
-    "lng": -86.2736407
   },
   "Ridgeland, SC": {
     "lat": 32.4807435,
@@ -5522,5 +5490,9 @@
   "Temecula, CA": {
     "lat": 33.4946353,
     "lng": -117.147366
+  },
+  "Gallatin, TN": {
+    "lat": 36.3883031,
+    "lng": -86.4475898
   }
 }
