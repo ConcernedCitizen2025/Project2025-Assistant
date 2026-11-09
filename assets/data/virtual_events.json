@@ -5,7 +5,7 @@
       "mobilize_id": 1055516,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
       "title": "Keweenaw County Canvass Observation",
-      "begin": "2026-11-07",
+      "begin": "2026-11-08",
       "end": "2026-11-12",
       "lat": null,
       "lng": null,
@@ -50,6 +50,24 @@
         {
           "title": "2026 CT WFParty Virtual - Post General Elections Debrief Celebration",
           "href": "https://www.mobilize.us/ct-wfp/event/1060356/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1080597,
+      "mobilize_id": 1080597,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1080597/",
+      "title": "All Captains Debrief",
+      "begin": "2026-11-11",
+      "end": "2026-11-11",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "All Captains Debrief",
+          "href": "https://www.mobilize.us/abdulforsenate/event/1080597/"
         }
       ],
       "_src": "mobilize"
