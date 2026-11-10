@@ -1,24 +1,6 @@
 {
   "data": [
     {
-      "_id": 1055516,
-      "mobilize_id": 1055516,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
-      "title": "Keweenaw County Canvass Observation",
-      "begin": "2026-11-08",
-      "end": "2026-11-12",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Keweenaw County Canvass Observation",
-          "href": "https://www.mobilize.us/aclumi/event/1055516/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1038718,
       "mobilize_id": 1038718,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1038718/",
@@ -32,6 +14,24 @@
         {
           "title": "Post-Election Sign Removal Team",
           "href": "https://www.mobilize.us/durhamcountydemocrats/event/1038718/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1055516,
+      "mobilize_id": 1055516,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
+      "title": "Keweenaw County Canvass Observation",
+      "begin": "2026-11-09",
+      "end": "2026-11-12",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Keweenaw County Canvass Observation",
+          "href": "https://www.mobilize.us/aclumi/event/1055516/"
         }
       ],
       "_src": "mobilize"
@@ -55,24 +55,6 @@
       "_src": "mobilize"
     },
     {
-      "_id": 1080597,
-      "mobilize_id": 1080597,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1080597/",
-      "title": "All Captains Debrief",
-      "begin": "2026-11-11",
-      "end": "2026-11-11",
-      "lat": null,
-      "lng": null,
-      "location": "",
-      "links": [
-        {
-          "title": "All Captains Debrief",
-          "href": "https://www.mobilize.us/abdulforsenate/event/1080597/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 865658,
       "mobilize_id": 865658,
       "canonical_mobilize_url": "https://www.mobilize.us/event/865658/",
@@ -86,6 +68,24 @@
         {
           "title": "Indivisible LAB Evening Action Hour",
           "href": "https://www.mobilize.us/indivisiblelab/event/865658/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1080632,
+      "mobilize_id": 1080632,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1080632/",
+      "title": "Bluenami Keeps on Rising! Post-Election Debrief w. TPC",
+      "begin": "2026-11-15",
+      "end": "2026-11-15",
+      "lat": null,
+      "lng": null,
+      "location": "",
+      "links": [
+        {
+          "title": "Bluenami Keeps on Rising! Post-Election Debrief w. TPC",
+          "href": "https://www.mobilize.us/abdulforsenate/event/1080632/"
         }
       ],
       "_src": "mobilize"
@@ -140,6 +140,24 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 890690,
+      "mobilize_id": 890690,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/890690/",
+      "title": "SURJ Circle Meeting in Atlanta!",
+      "begin": "2026-11-19",
+      "end": "2026-11-19",
+      "lat": null,
+      "lng": null,
+      "location": "Decatur, GA",
+      "links": [
+        {
+          "title": "SURJ Circle Meeting in Atlanta!",
+          "href": "https://www.mobilize.us/surj/event/890690/"
         }
       ],
       "_src": "mobilize"

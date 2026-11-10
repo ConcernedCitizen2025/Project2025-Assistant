@@ -1,18 +1,18 @@
 {
-  "cutoffStr": "2026-11-08",
+  "cutoffStr": "2026-11-09",
   "lookbackDays": 1,
   "totals": {
-    "all": 3823,
-    "geoKept": 3642,
-    "virtKept": 14
+    "all": 3844,
+    "geoKept": 3662,
+    "virtKept": 15
   },
   "perSource": {
     "mobilize": {
-      "total": 3659,
-      "recent": 3656,
-      "withCoords": 3141,
-      "keptGeo": 3138,
-      "keptVirt": 518,
+      "total": 3680,
+      "recent": 3677,
+      "withCoords": 3166,
+      "keptGeo": 3163,
+      "keptVirt": 514,
       "sampleDroppedByDate": [
         {
           "_id": 867978,
@@ -93,7 +93,7 @@
           "mobilize_id": 443382,
           "canonical_mobilize_url": "https://www.mobilize.us/event/443382/",
           "title": "CIVIC SUNDAYS - SHOW UP, DO SOMETHING - IN PERSON!",
-          "begin": "2026-11-08",
+          "begin": "2026-11-15",
           "end": "2026-11-22",
           "lat": null,
           "lng": null,
