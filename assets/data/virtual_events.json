@@ -1,29 +1,11 @@
 {
   "data": [
     {
-      "_id": 1038718,
-      "mobilize_id": 1038718,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/1038718/",
-      "title": "Post-Election Sign Removal Team",
-      "begin": "2026-11-09",
-      "end": "2026-11-09",
-      "lat": null,
-      "lng": null,
-      "location": "This event's address is private. Sign up for more details",
-      "links": [
-        {
-          "title": "Post-Election Sign Removal Team",
-          "href": "https://www.mobilize.us/durhamcountydemocrats/event/1038718/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
       "_id": 1055516,
       "mobilize_id": 1055516,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1055516/",
       "title": "Keweenaw County Canvass Observation",
-      "begin": "2026-11-09",
+      "begin": "2026-11-10",
       "end": "2026-11-12",
       "lat": null,
       "lng": null,
@@ -109,6 +91,24 @@
       "_src": "mobilize"
     },
     {
+      "_id": 1080810,
+      "mobilize_id": 1080810,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1080810/",
+      "title": "Virtual: Unidos 805 SQUAD Reunión Informativa (ESP)",
+      "begin": "2026-11-17",
+      "end": "2026-12-08",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Virtual: Unidos 805 SQUAD Reunión Informativa (ESP)",
+          "href": "https://www.mobilize.us/millionvotersproject/event/1080810/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
       "_id": 1018218,
       "mobilize_id": 1018218,
       "canonical_mobilize_url": "https://www.mobilize.us/event/1018218/",
@@ -140,24 +140,6 @@
         {
           "title": "LD9 Dems Monthly Meeting (In Person / Virtual)",
           "href": "https://www.mobilize.us/ld9democrats/event/877691/"
-        }
-      ],
-      "_src": "mobilize"
-    },
-    {
-      "_id": 890690,
-      "mobilize_id": 890690,
-      "canonical_mobilize_url": "https://www.mobilize.us/event/890690/",
-      "title": "SURJ Circle Meeting in Atlanta!",
-      "begin": "2026-11-19",
-      "end": "2026-11-19",
-      "lat": null,
-      "lng": null,
-      "location": "Decatur, GA",
-      "links": [
-        {
-          "title": "SURJ Circle Meeting in Atlanta!",
-          "href": "https://www.mobilize.us/surj/event/890690/"
         }
       ],
       "_src": "mobilize"
@@ -230,6 +212,24 @@
         {
           "title": "Corpus Christi City Council Environmental Issues Forum",
           "href": "https://www.mobilize.us/chispatx/event/1008831/"
+        }
+      ],
+      "_src": "mobilize"
+    },
+    {
+      "_id": 1080927,
+      "mobilize_id": 1080927,
+      "canonical_mobilize_url": "https://www.mobilize.us/event/1080927/",
+      "title": "Thank You Party: Richmond County",
+      "begin": "2026-11-30",
+      "end": "2026-11-30",
+      "lat": null,
+      "lng": null,
+      "location": "This event's address is private. Sign up for more details",
+      "links": [
+        {
+          "title": "Thank You Party: Richmond County",
+          "href": "https://www.mobilize.us/commoncause/event/1080927/"
         }
       ],
       "_src": "mobilize"
